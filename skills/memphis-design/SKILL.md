@@ -1,7 +1,7 @@
 ---
 name: memphis-design
-description: "Apply the Memphis Design style (1981–1988) when generating UI or graphic layouts. Load when the user asks for: memphis, memphis design, memphis milano, 80s, eighties, sottsass."
-domain: design
+description: "Apply the Memphis Design style (1981–1988) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: memphis, memphis design, memphis milano, 80s, eighties, sottsass."
+domain: internet
 era: postmodern-early-digital
 triggers:
   - "memphis"
@@ -29,7 +29,7 @@ vector_profile:
 
 Clashing primary and pastel fields, squiggles, confetti dots and black-and-white pattern on irregular geometric forms. Ettore Sottsass and the Memphis group launched it in Milan in 1981 as a joke against good taste.
 
-**Period:** 1981–1988 · **Era:** Postmodern & Early Digital · **Domain:** Graphic & UI Design · **Also called:** Memphis Group, Memphis Milano, 80s Memphis
+**Period:** 1981–1988 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Memphis Group, Memphis Milano, 80s Memphis
 
 ## When to load this skill
 
@@ -44,7 +44,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Memphis Design, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Memphis Design, you MUST:
 
 1. Combine at least four saturated hues on one surface, and put no two neighbouring fields in the same hue.
 2. Build every composition from primitive shapes: circles, triangles, half-circles, arches and 45 degree bars at sizes between 24px and 320px.
@@ -246,9 +246,29 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
-## Media
+## Techniques
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Primary shapes (motif)
+
+The circle, the square and the triangle in flat colour, used as the whole picture or as a sign. Origin: painting, Petrograd, Russia, 1915.
+
+- Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
+- Fill each shape with one flat colour; no gradient and no outline.
+- Put the shapes on a plain ground with 30% or more empty space.
+
+### Terrazzo (material)
+
+Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section. Origin: architecture, Venice, c. 1500.
+
+- Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
+- Use 2 to 4 chip colours on one ground colour.
+- Grind and polish the surface flat, so that the chip edges show as cut sections.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
 
@@ -260,6 +280,7 @@ Each knob varies the style inside a range where it stays itself. Keep each value
 |---|---|---|---|
 | Base colour (`base_colour`) | #FF5FA2 | #FF5FA2, #00B2A9, #111111 | --color-primary, --color-on-primary, --color-link-on-surface |
 | Accent colour (`accent_colour`) | #00B2A9 | #00B2A9, #FF5FA2 | --color-accent, --color-on-accent, --color-link |
+| Corner radius (`corner_radius`) | 0px 48px 0px 0px | 24–72 px | --border-radius |
 | Grid step (`grid_step`) | 8px | 4–12 px | --space-unit, --grid-gutter |
 | Type scale ratio (`type_scale_ratio`) | 1.5 | 1.414–1.618 | --type-ratio, --size-small, --size-h3, --size-h2, --size-h1 |
 
@@ -273,9 +294,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`corporate-memphis`](../corporate-memphis/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`music-video`](../music-video/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Nearest by vector profile:** [`psychedelic`](../psychedelic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`music-video`](../music-video/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
+- **Nearest by vector profile:** [`psychedelic`](../psychedelic/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md)
 
 ## Emotional target
 
@@ -290,4 +311,4 @@ Delight and mild provocation: the viewer feels that the rules are off for a mome
 
 ---
 
-Generated from [`data/design/styles/memphis-design.json`](../../data/design/styles/memphis-design.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/memphis-design.json`](../../data/internet/styles/memphis-design.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

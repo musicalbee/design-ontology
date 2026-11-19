@@ -283,7 +283,7 @@
   },
   "implementation": {
     "brief": "A white room with free-standing laminate furniture in pink, turquoise, yellow and black. A tall room divider of stacked shapes is the focal point; a round sofa, a cone-leg table and a sculptural lamp stand at angles around it.",
-    "image_prompt": "Memphis Milano interior 1982, white gallery room, tall plastic laminate room divider of stacked geometric shapes with squiggle and grid patterns, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph",
+    "image_prompt": "Memphis Milano interior 1982, white gallery room, a low wide laminate bookcase with open box shelves and angled side shelves, squiggle and grid patterns on its laminate, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph",
     "negative_prompt": "Symmetry, wood grain, beige, tonal palette, matching sets, ornate classical furniture, dim warm light.",
     "camera": "35 mm lens, camera at 140 cm, frontal view with the totem off-centre on a third.",
     "scene_3d": "Room 600 x 500 cm, ceiling 300 cm. Even 3000 K ambient from a downlight grid; 4 spots at 4:1 on the objects; one magenta neon tube.",
@@ -409,6 +409,39 @@
         "year": 1983
       }
     ]
+  },
+  "permutations": {
+    "base_colour": {
+      "default": "#F2EFE8",
+      "options": [
+        "#F2EFE8",
+        "#8DD8B5"
+      ]
+    },
+    "accent_colour": {
+      "default": "#F4A6C0",
+      "options": [
+        "#F4A6C0",
+        "#1FB5C8",
+        "#F7D02C",
+        "#E4322B"
+      ]
+    },
+    "ceiling_height": {
+      "default": 2.8,
+      "min": 2.5,
+      "max": 3.5
+    },
+    "light_temperature": {
+      "default": 3000,
+      "min": 2700,
+      "max": 4000
+    },
+    "object_density": {
+      "default": 0.35,
+      "min": 0.25,
+      "max": 0.5
+    }
   },
   "sources": [
     {

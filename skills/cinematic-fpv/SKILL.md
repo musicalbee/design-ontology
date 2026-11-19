@@ -197,6 +197,36 @@ The rules above name these shared principles by id. The definition is the same i
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Aerial drone (tool)
+
+A small remote-controlled aircraft that carries a camera, so that a shot can fly over, round and through a scene. Origin: photography, Shenzhen, China, 2013.
+
+- Fly at 1 to 3 m from the subject for an FPV shot; fly higher for a survey shot.
+- Keep the horizon level in a calm shot; let it bank only for a fast FPV move.
+- Plan one continuous route; one take holds the scene.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Vimeo** (platform, web, 2004–now), published the style. A video site that film makers use to show their work. Cinematic drone and FPV films spread from it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.85:1 | 1.85:1, 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 60 | 24–60 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 30 | 6–60 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 3500–6500 K | colour_and_grade, light |
+| Grain (`grain`) | 0 | 0–0.03 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -109,6 +109,12 @@
       { "request": "more hand-made", "toward": "realism-painting", "how": "Drop the photograph and the airbrush; use a brown, earthy key, a visible stroke of 5–15mm, and ordinary people at work in side light." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#9DB4C7", "options": ["#9DB4C7", "#C4322B", "#E3B83A", "#4A4D52"]},
+    "value_contrast": {"default": 0.7, "min": 0.55, "max": 0.85},
+    "brush_size": {"default": 0, "min": 0, "max": 0.1, "note": "The paint is blended and airbrushed, so no stroke shows."},
+    "canvas_ratio": {"default": "3:2", "options": ["3:2", "16:9"]}
+  },
   "sources": [
     { "title": "Wikidata Q939559 (Photorealism)", "url": "https://www.wikidata.org/wiki/Q939559" },
     { "title": "Getty AAT 300022201 (Photorealism)", "url": "https://vocab.getty.edu/page/aat/300022201" },

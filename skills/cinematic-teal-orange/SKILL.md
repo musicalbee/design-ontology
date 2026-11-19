@@ -172,6 +172,36 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Digital colour grade (technology)
+
+The whole image is scanned to digital, and its colour is set shot by shot with curves and look-up tables. Origin: film & video, United States, 2000.
+
+- Push skin tones towards orange (hue 25 to 35 degrees) and shadows towards teal (hue 180 to 200 degrees).
+- Keep the saturation of skin under 60%.
+- Use one look-up table for each scene, so that the shots match.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Company 3** (studio, Los Angeles, 1997–now), made the style. A colour grading company that Stefan Sonnenfeld co-founded. Its grades for action films spread the teal and orange look.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 4800 | 4000–5600 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.25 | 1.1–1.4 | colour_and_grade, post_processing |
+| Grain (`grain`) | 800 | 400–1600 ISO | process, post_processing |
+| Focal length (`focal_length`) | 50 | 35–85 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 16:9 | 16:9 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -181,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md)
 - **Led to (go here for a newer version):** [`ai-hyperreal`](../ai-hyperreal/SKILL.md)
-- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md)
+- **Kin in another domain:** [`neon-noir`](../neon-noir/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target

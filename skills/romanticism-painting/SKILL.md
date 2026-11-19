@@ -165,6 +165,36 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chiaroscuro (process)
+
+A hard contrast of light and dark that models form: one strong source, deep shadow and a small area of light. Origin: painting, Italy, c. 1500.
+
+- Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
+- Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
+- Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
+- Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Paris Salon** (salon, Paris, 1667–now), exhibited the style. The official art exhibition of the French Academy. For two centuries a painting had to succeed here to make a name, and each new school fought for its walls.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #4B5B6E | #4B5B6E, #3B2A1E, #E2A43A, #D9602A | palette |
+| Value contrast (`value_contrast`) | 0.85 | 0.7–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 2 | 1–3.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 1:1, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -174,6 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`rococo-painting`](../rococo-painting/SKILL.md)
 - **Was rejected by:** [`realism-painting`](../realism-painting/SKILL.md)
+- **Kin in another domain:** [`cottagecore`](../cottagecore/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md)
 - **Nearest by vector profile:** [`baroque-painting`](../baroque-painting/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md)
 
 ## Emotional target

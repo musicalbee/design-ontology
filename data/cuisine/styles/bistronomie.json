@@ -1,0 +1,353 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "bistronomie",
+  "domain": "cuisine",
+  "name": "Bistronomie",
+  "aliases": [
+    "Bistro gastronomique",
+    "Neo-bistro"
+  ],
+  "era_id": "modernist-and-global",
+  "branch": "haute",
+  "time_period": {
+    "start": 1992,
+    "end": null,
+    "label": "1992–present"
+  },
+  "region": "Paris",
+  "summary": "A chef of a palace kitchen cooks at the price of a bistro. Yves Camdeborde opened La Régalade in Paris in 1992 with a fixed menu, honest produce, regional dishes and big portions, in a plain room with no linen and no ceremony.",
+  "philosophy": {
+    "core_thesis": "Good cooking does not need a palace: a trained chef can serve fine produce and exact technique in a simple room at a fair price.",
+    "design_principles": [
+      "Fix a menu of three courses at a low price, with a choice of a few dishes for each course.",
+      "Write the menu on a blackboard, and change it with the market.",
+      "Cook the dishes of the French provinces with the skill of a hotel kitchen: confit, terrine, braise and stew.",
+      "Serve a generous portion that fills a hungry guest.",
+      "Put a terrine or a pot of rillettes on the table at the start, and let the guests help themselves.",
+      "Use cheap cuts and offal with care: cheek, trotter, tongue and shoulder.",
+      "Plate on a plain plate or in the cooking pot, and use no formal service.",
+      "Seat guests close together in a room with a bar, bare tables and a short wine list."
+    ],
+    "anti_patterns": [
+      "A white tablecloth and a waiter in a jacket",
+      "A tiny portion on a large plate",
+      "A long tasting menu at a high price",
+      "A dish made with foam, gel or liquid nitrogen",
+      "A menu that does not change with the market",
+      "A garnish of micro herbs placed with tweezers"
+    ]
+  },
+  "vectors": {
+    "composition": 2,
+    "transformation": 3,
+    "locality": 4,
+    "richness": 4,
+    "flavour_intensity": 3
+  },
+  "plating": {
+    "composition": "A generous mound of food on a plain plate or in a small cast-iron pot, with the sauce around it and the garnish alongside.",
+    "plate": "A white or cream plate of 250 to 280 mm, a plain bowl or a small cast-iron casserole of 160 to 200 mm.",
+    "portion": "A main piece of 180 to 250 g with 150 g of garnish; the plate is about 75 per cent full.",
+    "height": "The food stands 30 to 60 mm high in a loose mound; the sauce is a spoon of jus beside or under it.",
+    "rules": [
+      "Serve a terrine in its jar or on a board with a knife, a pot of mustard and cornichons.",
+      "Set a braised cut in its own cooking pot, or on the plate with a spoon of its jus.",
+      "Add a vegetable garnish that cooks with the meat: onion, carrot, cabbage or beans.",
+      "Cut bread in thick slices and put it on the table.",
+      "Finish with a dessert in a bowl or a jar, such as a rice pudding or a cream."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "pork",
+      "duck",
+      "pulses",
+      "cabbage",
+      "onion",
+      "butter",
+      "wild-mushrooms",
+      "root-vegetables"
+    ],
+    "secondary": [
+      "garlic",
+      "shallot",
+      "thyme-bay",
+      "black-pepper",
+      "wine",
+      "veal",
+      "egg",
+      "cream",
+      "cheese",
+      "bread",
+      "rice",
+      "orchard-fruit",
+      "cod",
+      "vinegar"
+    ],
+    "avoid": [
+      "sodium-alginate",
+      "liquid-nitrogen",
+      "xanthan-gum",
+      "soy-lecithin",
+      "caviar"
+    ],
+    "in_europe": true,
+    "rule": "Buy produce of the French provinces and cheap cuts of the market; use butter, wine and the cooking juices for the sauce."
+  },
+  "technique": {
+    "methods": [
+      "braising",
+      "confit",
+      "stock-making",
+      "reduction",
+      "oven-roasting",
+      "sauteing",
+      "pate-en-croute",
+      "knife-work"
+    ],
+    "bases": "A veal or pork stock, a jar of duck fat, a salted pork terrine mix, a bottle of red wine for the braise and a pot of mustard.",
+    "details": "A terrine in a jar, a braise served in its pot, a crisp skin on a duck leg, a spoon of jus, a thick slice of country bread."
+  },
+  "flavour": {
+    "profile": "Deep and savoury: the taste of roast, braise and confit, with wine, mustard, garlic and thyme.",
+    "balance": "Salt and umami lead with fat; vinegar, cornichons and mustard give acid; sweet stays in the dessert and in the onion.",
+    "fat": "Butter, duck fat and pork fat give about 40 to 50 per cent of the energy of a main dish.",
+    "seasoning": "Salt and pepper in layers, thyme and bay in the pot, garlic and shallot early, a splash of vinegar or mustard at the end."
+  },
+  "palette": {
+    "strategy": "Use warm browns, the amber of duck fat and the cream of the plate, with one fresh green.",
+    "colours": [
+      {
+        "name": "Cream plate",
+        "hex": "#F1EBDD",
+        "role": "plate"
+      },
+      {
+        "name": "Jus brown",
+        "hex": "#6A3E22",
+        "role": "sauce"
+      },
+      {
+        "name": "Duck skin amber",
+        "hex": "#B3702B",
+        "role": "confit"
+      },
+      {
+        "name": "Terrine pink",
+        "hex": "#C98F86",
+        "role": "terrine"
+      },
+      {
+        "name": "Cabbage green",
+        "hex": "#8DA057",
+        "role": "vegetable"
+      },
+      {
+        "name": "Mustard yellow",
+        "hex": "#D1A31E",
+        "role": "condiment"
+      },
+      {
+        "name": "Cast-iron black",
+        "hex": "#2B2B2B",
+        "role": "pot"
+      }
+    ]
+  },
+  "service": {
+    "format": "A fixed price menu with a choice of dishes; the waiter brings the plates and the pots to the table, with no ceremony.",
+    "courses": "Three courses at a lunch or a dinner, with a terrine at the start and a cheese or a dessert at the end.",
+    "tableware": "Plain white plates, cast-iron pots, a jar for the terrine, a plain glass and paper or bare tables.",
+    "setting": "A small neighbourhood room of 30 to 50 seats with a zinc bar, close tables and a chef in an open kitchen who also serves."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "hors-doeuvre",
+        "dish": "Pork terrine served in its jar",
+        "ingredient": "pork",
+        "method": "pate-en-croute"
+      },
+      {
+        "course": "main-course",
+        "dish": "Confit duck leg with cabbage",
+        "ingredient": "duck",
+        "method": "confit"
+      },
+      {
+        "course": "main-course",
+        "dish": "Braised pork cheek with root vegetables",
+        "ingredient": "pork",
+        "method": "braising"
+      },
+      {
+        "course": "soup",
+        "dish": "Mushroom soup with cream",
+        "ingredient": "wild-mushrooms",
+        "method": "stock-making"
+      },
+      {
+        "course": "dessert",
+        "dish": "Rice pudding with caramel",
+        "ingredient": "rice",
+        "method": "oven-roasting"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "bistronomie plate",
+      "terrine served in a glass jar",
+      "braised pork cheek in a cast-iron pot",
+      "confit duck leg with crisp skin",
+      "thick slice of country bread",
+      "blackboard menu",
+      "Paris neighbourhood bistro with zinc bar",
+      "close wooden tables",
+      "warm evening light",
+      "overhead plated dish photograph"
+    ],
+    "negative": [
+      "white tablecloth",
+      "tweezers garnish",
+      "foam",
+      "tiny portion on a large plate",
+      "gold-rimmed plate",
+      "silver cloche"
+    ],
+    "canonical_works": [
+      {
+        "work": "La Régalade (the first fixed menu)",
+        "maker": "Yves Camdeborde",
+        "year": 1992
+      },
+      {
+        "work": "La Table d'Yves Camdeborde",
+        "maker": "Yves Camdeborde",
+        "year": 2004
+      },
+      {
+        "work": "Le Comptoir du Relais",
+        "maker": "Yves Camdeborde",
+        "year": 2005
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Confit de canard, Licq-Athérey",
+      "kind": "image",
+      "maker": "Tangopaso",
+      "year": 2012,
+      "credit": "Tangopaso, via Wikimedia Commons",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Confit_de_canard_Licq-Atherey.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/73/Confit_de_canard_Licq-Atherey.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nouvelle-cuisine",
+      "haute-regionale"
+    ],
+    "rebelled_against": [
+      "cuisine-classique"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The warmth of a crowded table where the food is better than the room: loud, generous and relaxed.",
+    "keywords": [
+      "generous",
+      "warm",
+      "casual",
+      "honest",
+      "lively",
+      "regional"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "bistronomie",
+      "neo bistro",
+      "paris bistro",
+      "fixed price menu",
+      "terrine in a jar",
+      "braised cheek",
+      "chef bistro",
+      "camdeborde"
+    ],
+    "use_cases": [
+      "a menu for a Paris neighbourhood bistro",
+      "a food photograph of a braise in a cast-iron pot",
+      "a blackboard menu with a fixed price"
+    ],
+    "avoid_when": [
+      "the brief wants a formal white-linen service",
+      "the brief wants a small architectural plate",
+      "the brief wants a plant-only menu"
+    ],
+    "modifiers": [
+      {
+        "request": "more formal, with a tasting menu",
+        "toward": "nouvelle-cuisine",
+        "how": "Cut the portion, plate in the kitchen on a large white plate, and raise the number of courses."
+      },
+      {
+        "request": "more regional, with one province",
+        "toward": "haute-regionale",
+        "how": "Use the dishes and produce of one province and give the name of its producers."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Bistronomy",
+      "url": "https://en.wikipedia.org/wiki/Bistronomy"
+    },
+    {
+      "title": "Wikipedia: Yves Camdeborde",
+      "url": "https://en.wikipedia.org/wiki/Yves_Camdeborde"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 3,
+      "min": 3,
+      "max": 5
+    },
+    "negative_space": {
+      "default": 0.2,
+      "min": 0.1,
+      "max": 0.35
+    },
+    "portion_g": {
+      "default": 420,
+      "min": 300,
+      "max": 550
+    },
+    "spice_level": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.45,
+      "min": 0.35,
+      "max": 0.55
+    },
+    "plate_colour": {
+      "default": "#F1EBDD",
+      "options": [
+        "#F1EBDD",
+        "#FFFFFF",
+        "#2B2B2B"
+      ]
+    }
+  }
+}

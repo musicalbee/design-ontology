@@ -312,6 +312,37 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "2.39:1",
+      "options": [
+        "2.39:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 96,
+      "note": "Slow motion runs at 48 to 96 fps."
+    },
+    "average_shot_length": {
+      "default": 2.5,
+      "min": 1.5,
+      "max": 4,
+      "note": "A fight cuts at 1.5 to 3 s."
+    },
+    "colour_temperature": {
+      "default": 3200,
+      "min": 2000,
+      "max": 9000,
+      "note": "Blue gels and sodium lamps extend the range."
+    },
+    "grain": {
+      "default": 0.1,
+      "min": 0.08,
+      "max": 0.12
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q845641: Cinema of Hong Kong",

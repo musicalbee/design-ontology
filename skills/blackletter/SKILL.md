@@ -149,6 +149,33 @@ A pen with a flat, square-cut tip held at a fixed angle, so the width of a strok
 - Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
 - Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
 
+### Letterpress (process, invented here)
+
+Printing from raised metal or wood type and blocks, locked in a forme and pressed into the paper. Origin: typeface, Mainz, 1454.
+
+- Set the type by hand from a case, letter by letter, and justify each line with spaces in the composing stick.
+- Lock the type, the rules and the blocks in a chase, ink the forme with rollers and press it into the sheet.
+- Dampen a soft rag paper so that the type bites 0.1–0.3 mm into it.
+- Print each ink from a separate forme or a separate pull, and register them by pins or lays.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Kelmscott Press** (publisher, Hammersmith, London, 1891–1898), made the style. A private press that William Morris started to print books by hand in the manner of the early printers. It cut its own gothic types, Troy and Chaucer, after the letters of the first printed books.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 600 | 500–800 | metrics, setting |
+| Width (`width`) | 100 | 85–105 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.46 | 0.4–0.52 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 5 | 3–10 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0.15 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -157,7 +184,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`grotesque-sans`](../grotesque-sans/SKILL.md) (Grotesque sans). Keep the narrow, dark band, but drop the broken strokes for a condensed bold grotesque.
 
 - **Was rejected by:** [`garalde-old-style`](../garalde-old-style/SKILL.md)
-- **Kin in another domain:** [`gothic-architecture`](../gothic-architecture/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
+- **Kin in another domain:** [`gothic-architecture`](../gothic-architecture/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md), [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
 - **Nearest by vector profile:** [`humanist-sans`](../humanist-sans/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 
 ## Emotional target

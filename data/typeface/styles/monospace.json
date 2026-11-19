@@ -239,6 +239,36 @@
       }
     ]
   },
+  "permutations": {
+    "weight": {
+      "default": 400,
+      "min": 300,
+      "max": 700
+    },
+    "width": {
+      "default": 100,
+      "min": 95,
+      "max": 105,
+      "note": "The advance is fixed, so the width moves only a little."
+    },
+    "x_height_ratio": {
+      "default": 0.52,
+      "min": 0.42,
+      "max": 0.56,
+      "note": "Courier sits near 0.42; code faces such as JetBrains Mono near 0.55."
+    },
+    "stroke_contrast": {
+      "default": 1.15,
+      "min": 1,
+      "max": 1.4
+    },
+    "tracking": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "Tracking breaks the columns of a monospace."
+    }
+  },
   "sources": [
     {
       "title": "Monospaced font (Wikipedia)",

@@ -177,6 +177,23 @@ Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth d
 - Leave 30% to 60% of the cloth bare so that the raw colour is part of the picture.
 - Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Betty Parsons Gallery** (gallery, New York, 1946–1981), exhibited the style. The gallery of the dealer Betty Parsons. It showed Pollock, Rothko and Newman when few dealers took them.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #9E2A2B | #9E2A2B, #5B2A4A, #E26A2C, #6FA3D8 | palette |
+| Value contrast (`value_contrast`) | 0.3 | 0.15–0.5 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 4:5 | 1:1, 4:5, 3:4 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

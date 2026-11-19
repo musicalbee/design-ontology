@@ -1,7 +1,7 @@
 ---
 name: skeuomorphism
-description: "Apply the Skeuomorphism style (2007–2013) when generating UI or graphic layouts. Load when the user asks for: skeuomorphic, skeuomorphism, ios 6, real-world textures, leather texture, tactile interface."
-domain: design
+description: "Apply the Skeuomorphism style (2007–2013) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: skeuomorphic, skeuomorphism, ios 6, real-world textures, leather texture, tactile interface."
+domain: internet
 era: touchscreen
 triggers:
   - "skeuomorphic"
@@ -30,7 +30,7 @@ vector_profile:
 
 Interfaces that copy real objects: leather, linen, wood, felt, glass and brushed metal, lit from above with gradients and layered shadows. It has roots in 1980s desktop icons and peaked in iOS 1 to 6, until iOS 7 replaced it in 2013.
 
-**Period:** 2007–2013 · **Era:** Touchscreen · **Domain:** Graphic & UI Design · **Also called:** Skeuomorphic UI, iOS 6 style, Real-object interface
+**Period:** 2007–2013 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Skeuomorphic UI, iOS 6 style, Real-object interface
 
 ## When to load this skill
 
@@ -45,7 +45,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Skeuomorphism, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Skeuomorphism, you MUST:
 
 1. Model each control on a real object with a known use, such as a toggle switch, a notepad, a bookshelf or a dial, and keep its proportions within 10% of the original.
 2. Light every surface from the top with one light source at 90 degrees, so that highlights sit on the top edge and shadows fall down.
@@ -246,6 +246,32 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Airbrush (tool)
+
+A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes hard edges and smooth gradients side by side. Origin: photography, United States, 1879.
+
+- Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
+- Cut a hard mask for each edge that must stay sharp; leave the light soft.
+- Put one specular highlight of pure white on each chrome form.
+
+### Skeuomorph (motif)
+
+A detail that copies the material or the form of an older object, though it no longer has that function. Origin: architecture, Greece, c. 600 BCE.
+
+- Copy one material for each surface: leather, felt, wood, paper or brushed metal.
+- Light every surface from one source above, at 90 degrees.
+- Keep the old details that tell the use: stitches, page edges, knobs and screws.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
@@ -267,7 +293,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **glossier**: move toward [`frutiger-aero`](../frutiger-aero/SKILL.md) (Frutiger Aero). Replace material textures with aqua gradients and glass highlights, add bokeh nature imagery, and keep the top light source.
 - If the user asks for **more futuristic**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Swap natural materials for chrome, translucent plastic and cyan with 24px blur glows; keep the bevels and the gloss.
 
-- **Led to (go here for a newer version):** [`neumorphism`](../neumorphism/SKILL.md)
+- **Led to (go here for a newer version):** [`instagram-vintage-filter`](../instagram-vintage-filter/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md)
 - **Was rejected by:** [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 - **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`material-design`](../material-design/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
 - **Kin in another domain:** [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
@@ -286,4 +312,4 @@ Familiarity and tactile comfort: the user feels that the app is an object that c
 
 ---
 
-Generated from [`data/design/styles/skeuomorphism.json`](../../data/design/styles/skeuomorphism.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/skeuomorphism.json`](../../data/internet/styles/skeuomorphism.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

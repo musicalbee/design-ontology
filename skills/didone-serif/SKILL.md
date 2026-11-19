@@ -150,6 +150,25 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
 - Print on smooth paper so the hairlines stay clean.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Harper's Bazaar** (magazine, New York, 1867–now), published the style. A fashion magazine. It printed the photographs of Richard Avedon and used Didot type for its name.
+- **Vogue** (magazine, New York, 1892–now), published the style. A fashion magazine. It commissions fashion photographs and sets its name in a high-contrast Didone type.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 400–900 | metrics, setting |
+| Width (`width`) | 100 | 80–110 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.42 | 0.38–0.52 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 8 | 4–14 | anatomy |
+| Tracking (`tracking`) | -0.01 | -0.02–0.15 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -161,7 +180,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`garalde-old-style`](../garalde-old-style/SKILL.md)
 - **Was rejected by:** [`grotesque-sans`](../grotesque-sans/SKILL.md)
-- **Kin in another domain:** [`fashion-editorial`](../fashion-editorial/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
+- **Kin in another domain:** [`engraving-print`](../engraving-print/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
 
 ## Emotional target

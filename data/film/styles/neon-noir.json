@@ -308,6 +308,35 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "2.39:1",
+      "options": [
+        "2.39:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 24
+    },
+    "average_shot_length": {
+      "default": 9,
+      "min": 6,
+      "max": 12
+    },
+    "colour_temperature": {
+      "default": 3200,
+      "min": 2700,
+      "max": 10000,
+      "note": "Neon and gels set the range."
+    },
+    "grain": {
+      "default": 0.08,
+      "min": 0.05,
+      "max": 0.1
+    }
+  },
   "sources": [
     {
       "title": "Neo-noir",

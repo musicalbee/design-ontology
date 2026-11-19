@@ -246,6 +246,36 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 6500,
+      "min": 6000,
+      "max": 7500
+    },
+    "contrast": {
+      "default": 0.9,
+      "min": 0.8,
+      "max": 1.0
+    },
+    "grain": {
+      "default": 125,
+      "min": 64,
+      "max": 200
+    },
+    "focal_length": {
+      "default": 45,
+      "min": 35,
+      "max": 55,
+      "note": "This is the 35 mm equivalent of 150 to 210 mm on 4×5 in."
+    },
+    "aspect_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5",
+        "2:3"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q655820: New Topographics",

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "physically-based-rendering",
+  "name": "Physically based rendering",
+  "aliases": [
+    "PBR",
+    "Metal-roughness workflow"
+  ],
+  "kind": "technology",
+  "summary": "A render model in which each material has measured albedo, roughness and metalness and conserves energy, so it looks right under any light.",
+  "how": [
+    "Keep albedo in a physical range: about 30–240 sRGB for non-metals.",
+    "Set roughness and metalness from measured or scanned samples.",
+    "Light with physical units and a real sky; let light bounce."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 2012,
+    "where": "Walt Disney Animation Studios, Burbank",
+    "note": "Brent Burley presents the Disney principled BRDF at SIGGRAPH."
+  },
+  "adoptions": [
+    {
+      "domain": "game",
+      "year": 2013,
+      "via": "Brian Karis presents the Unreal Engine 4 shading model at SIGGRAPH; engines move to metal-roughness materials.",
+      "styles": [
+        "pbr-photoreal"
+      ]
+    }
+  ],
+  "styles": [
+    "pbr-photoreal"
+  ],
+  "principles": [
+    "lighting-layers"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Physically based rendering",
+      "url": "https://en.wikipedia.org/wiki/Physically_based_rendering"
+    },
+    {
+      "title": "Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013",
+      "url": "https://blog.selfshadow.com/publications/s2013-shading-course/"
+    }
+  ]
+}

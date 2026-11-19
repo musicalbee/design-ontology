@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#bauhaus-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#bauhaus-interior).
 
 ![Room](../../demo/moodboards/interior/bauhaus-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/bauhaus-interior/materials.webp)
@@ -222,6 +222,54 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/bauhaus-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/bauhaus-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/bauhaus-interior/objects.webp)
+
+## Object net
+
+Every object is a workshop prototype for the factory: chrome tube, opal glass, black Bakelite and lacquered plywood, with no ornament and one primary colour. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0, material_warmth 0.3, finish_gloss 80, era_blend 0.2, hardware_weight 22, edge_radius 1, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#bauhaus-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Basin | wall-hung rectangle | Vitreous china, vitreous gloss glaze, mirror-smooth |
+|  | Basin tap or mixer | cross-head pillar taps | Chrome-plated brass, polished, mirror-smooth |
+|  | Towel rail | single bar | Chrome-plated steel tube, polished, mirror-smooth |
+| Electrics ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Light switch | round rotary on a round base | Bakelite, moulded gloss, mirror-smooth (#1A1A1A) |
+|  | Socket outlet | round surface socket | Bakelite, moulded gloss, mirror-smooth (#1A1A1A) |
+| Lighting ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Pendant lamp | opal globe | Opal glass, acid-etched or sandblasted, etched or frosted |
+|  | Table lamp | glass dome on a metal base | Opal glass, acid-etched or sandblasted, etched or frosted |
+|  | Task lamp | adjustable bedside lamp with a tilting dome | Mild steel, gloss enamel, satin-smooth (#1A1A1A) |
+|  | Curtain track and blind | track behind a pelmet with plain curtains | Canvas, natural, undyed, plain weave |
+| Storage ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Sideboard and cabinet | box on a recessed plinth | Birch plywood, high-gloss lacquer, satin-smooth (#F2F0EA) |
+|  | Handle, knob and pull | bar pull on two posts | Chrome-plated brass, polished, mirror-smooth |
+| Soft Furniture ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Armchair and lounge chair | tubular steel club chair with canvas straps | Chrome-plated steel tube, polished, mirror-smooth |
+|  | Sofa | daybed on a tubular steel frame | Chrome-plated steel tube, polished, mirror-smooth |
+|  | Cushion and throw | box cushion | Wool, piece-dyed, plain weave (#1A1A1A) |
+| Tables ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Dining chair | cantilever chair | Chrome-plated steel tube, polished, mirror-smooth |
+|  | Low table | nesting set with glass tops | Clear glass, clear gloss, mirror-smooth |
+|  | Desk and work table | tubular steel desk | Chrome-plated steel tube, polished, mirror-smooth |
+| Kitchen ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Kitchen front | flat slab door | Birch plywood, high-gloss lacquer, satin-smooth (#F2F0EA) |
+|  | Kettle and small appliances | cylindrical electric jug | Chrome-plated brass, polished, mirror-smooth |
+|  | Tableware and glassware | lidded tea set | Silver plate, polished, mirror-smooth |
+| Decor ([`bauhaus-product`](../bauhaus-product/SKILL.md)) | Rug | flat-weave kilim in rectangles and stripes | Wool, piece-dyed, plain weave (#C8281E) |
+|  | Bowl, tray and box | fruit bowl in wire or steel | Solid brass, polished, mirror-smooth |
+|  | Picture frame | thin black box frame | Aluminium, matte paint, satin-smooth (#1A1A1A) |
+
+Alternates for each category:
+- **Sanitary:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Electrics:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Lighting:** [`industrial-utility-product`](../industrial-utility-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Storage:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Soft Furniture:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Tables:** [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Kitchen:** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Decor:** [`super-normal-product`](../super-normal-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Armchair and lounge chair, Dining chair, Low table, Pendant lamp, Rug
+- **materials:** Dining chair, Low table, Sideboard and cabinet, Pendant lamp, Curtain track and blind, Rug
+- **furniture:** Armchair and lounge chair, Dining chair, Low table, Sideboard and cabinet, Sofa
+- **textiles:** Rug, Cushion and throw, Curtain track and blind
+- **light:** Pendant lamp, Table lamp, Task lamp
+- **objects:** Tableware and glassware, Table lamp, Picture frame, Bowl, tray and box, Sideboard and cabinet
 
 ## Vocabulary primer
 
@@ -251,11 +299,23 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), made the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F4F4F0 | #F4F4F0, #C9C9C4 | palette |
+| Accent colour (`accent_colour`) | #C8281E | #C8281E, #F2C230, #1F4E9C | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.8 | 2.5–3.5 m | composition, lighting |
+| Light temperature (`light_temperature`) | 3500 | 3000–4000 K | lighting |
+| Object density (`object_density`) | 0.15 | 0.05–0.25 | objects, furniture |
 
 ## Lineage fallbacks
 
@@ -266,7 +326,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md)
 - **Was rejected by:** [`memphis-interior`](../memphis-interior/SKILL.md)
-- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`bauhaus-modern-tableware`](../bauhaus-modern-tableware/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Nearest by vector profile:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`coastal-interior`](../coastal-interior/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md)
 
 ## Emotional target

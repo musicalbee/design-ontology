@@ -109,6 +109,12 @@
       { "request": "more plain and real", "toward": "realism-painting", "how": "Keep the exact detail; remove the impossible meeting and the scale change, and set ordinary people in plain light with earth colour." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#5B7FA6", "options": ["#5B7FA6", "#C9A877", "#8A4B2E", "#2B2B35"]},
+    "value_contrast": {"default": 0.75, "min": 0.6, "max": 0.9},
+    "brush_size": {"default": 0.1, "min": 0, "max": 0.3, "note": "Strokes of 1–2mm are blended away."},
+    "canvas_ratio": {"default": "3:2", "options": ["3:4", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q39427 (Surrealism)", "url": "https://www.wikidata.org/wiki/Q39427" },
     { "title": "Getty AAT 300021512 (Surrealism)", "url": "https://vocab.getty.edu/page/aat/300021512" },

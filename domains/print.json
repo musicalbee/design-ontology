@@ -1,0 +1,35 @@
+{
+  "id": "print",
+  "order": 10,
+  "name": "Print",
+  "schema": "schema/domains/print.schema.json",
+  "task": "specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration",
+  "description": "Print styles as process rules: the matrix and the press, the ink set and the overprint, the way the press makes a tone, the register, the stock and the marks that the process leaves. Each style links canonical prints with an open licence or in the public domain. The proof of each style is drawn by code from these rules, not by an image model.",
+  "vectors": [
+    { "key": "tone_method", "label": "Tone method", "abbr": "TON", "low": "solid ink, no tone", "high": "fine screen or continuous tone" },
+    { "key": "ink_layering", "label": "Ink layering", "abbr": "INK", "low": "one ink", "high": "many overprinted inks" },
+    { "key": "registration_play", "label": "Registration play", "abbr": "REG", "low": "exact register", "high": "visible misregister as a feature" },
+    { "key": "surface_relief", "label": "Surface relief", "abbr": "REL", "low": "flat, ink on the surface", "high": "deep bite or emboss in the sheet" },
+    { "key": "hand_trace", "label": "Hand trace", "abbr": "HND", "low": "uniform machine output", "high": "each sheet differs by hand" }
+  ],
+  "facets": [
+    { "key": "process", "title": "Process" },
+    { "key": "inks", "title": "Inks" },
+    { "key": "screening", "title": "Tone and screen" },
+    { "key": "registration", "title": "Registration" },
+    { "key": "substrate", "title": "Stock" },
+    { "key": "surface", "title": "Surface" },
+    { "key": "artefacts", "title": "Process marks" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "press-proof", "purpose": "A press proof of one fixed landscape, with a colour bar and register marks, drawn in the inks, the screen, the register and the stock of the style.", "made_by": "code", "file": "demo/previews/print/{id}.svg", "manifest": "demo/previews/print/manifest.json", "entry": "proofs.{id}", "generator": "scripts/render-print-proofs.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "key_ink", "label": "Key ink", "kind": "colour", "description": "The ink of the key plate: the line, the darks and the text.", "drives": ["inks"]},
+    {"key": "paper_colour", "label": "Paper colour", "kind": "colour", "description": "The colour of the stock under the ink.", "drives": ["substrate"]},
+    {"key": "ink_count", "label": "Ink count", "kind": "integer", "min": 1, "max": 12, "description": "The number of separate inks, one pass or one plate each.", "drives": ["inks", "registration"]},
+    {"key": "screen_ruling", "label": "Screen ruling", "kind": "number", "unit": "lines per inch", "min": 0, "max": 300, "description": "The lines or dots per inch of the tone screen. 0 is solid ink with no screen.", "drives": ["screening"]},
+    {"key": "misregistration", "label": "Misregistration", "kind": "number", "unit": "mm", "min": 0, "max": 4, "description": "The shift of one ink against the key, on the printed sheet.", "drives": ["registration"]}
+  ]
+}

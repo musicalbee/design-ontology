@@ -1,0 +1,37 @@
+{
+  "id": "industrial",
+  "order": 12,
+  "name": "Industrial design",
+  "schema": "schema/domains/industrial.schema.json",
+  "task": "specifying, sourcing or prompting the objects that furnish a room: taps, switches, lamps, curtain rods, storage, seats, tables, kitchen objects, frames, vases and pots",
+  "description": "Industrial design styles as rules for the objects of a home: form, materials, finishes, textures, hardware and manufacture, with one signature object for each of eight object categories. A closed vocabulary names each object type with its parts, forms, materials, finishes and textures. An object net maps each interior style to an industrial style and a surface for each category, so that each object in a moodboard resolves to a style, a material and a texture.",
+  "vectors": [
+    { "key": "ornamentation", "label": "Ornamentation", "abbr": "ORN", "low": "plain surfaces and pure geometry", "high": "applied ornament on every part" },
+    { "key": "hand_finish", "label": "Hand finish", "abbr": "HAND", "low": "machine-perfect, identical parts", "high": "visible marks of the hand and the tool" },
+    { "key": "material_warmth", "label": "Material warmth", "abbr": "WARM", "low": "cold metal, glass and plastic", "high": "warm wood, wool, leather and clay" },
+    { "key": "visual_mass", "label": "Visual mass", "abbr": "MASS", "low": "thin lines and open frames", "high": "heavy, solid, closed volumes" },
+    { "key": "chromatic_intensity", "label": "Chromatic intensity", "abbr": "CHROMA", "low": "the natural colour of the material, or white and black", "high": "saturated applied colour" }
+  ],
+  "facets": [
+    { "key": "form", "title": "Form" },
+    { "key": "materials", "title": "Materials" },
+    { "key": "finish", "title": "Finish & texture" },
+    { "key": "hardware", "title": "Hardware & joints" },
+    { "key": "palette", "title": "Palette" },
+    { "key": "manufacture", "title": "Manufacture" },
+    { "key": "signatures", "title": "Signature objects" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "object-still", "purpose": "One fixed still life of household objects on a plinth (a pendant lamp, a wall switch, a basin tap, a kettle, a vase and a side chair) in the forms, materials and finishes of the style.", "made_by": "model", "file": "demo/previews/industrial/{id}.webp", "manifest": "demo/previews/industrial/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "ornament_level", "label": "Ornament level", "kind": "number", "min": 0, "max": 1, "description": "The share of the visible surface that carries applied ornament: 0 = none, 1 = every part.", "drives": ["form", "finish", "signatures"]},
+    {"key": "material_warmth", "label": "Material warmth", "kind": "number", "min": 0, "max": 1, "description": "The mean warmth of the materials in view, from the warmth of each vocabulary material: 0 = steel and glass, 1 = wood, wool and clay.", "drives": ["materials", "signatures"]},
+    {"key": "finish_gloss", "label": "Finish gloss", "kind": "integer", "unit": "GU", "min": 0, "max": 100, "description": "The gloss of the main finish in gloss units at 60 degrees: 0 to 10 = matte, 10 to 70 = satin, 70 and more = gloss.", "drives": ["finish"]},
+    {"key": "era_blend", "label": "Era blend", "kind": "number", "min": 0, "max": 1, "description": "How far an object moves from a period original: 0 = a period piece or a faithful reissue, 1 = a contemporary object that only quotes the period.", "drives": ["form", "manufacture", "signatures"]},
+    {"key": "hardware_weight", "label": "Hardware weight", "kind": "length", "unit": "mm", "min": 4, "max": 40, "description": "The section of the visible hardware: the diameter of a rod, a pull, a tap body or a tube leg.", "drives": ["hardware", "form"]},
+    {"key": "edge_radius", "label": "Edge radius", "kind": "length", "unit": "mm", "min": 0, "max": 40, "description": "The typical radius of the outside edges and corners of a body.", "drives": ["form"]},
+    {"key": "metal_tone", "label": "Metal tone", "kind": "enum", "options": ["chrome", "nickel", "stainless", "brass", "bronze", "copper", "black", "white", "none"], "description": "The one colour of visible metal across taps, switches, rods, pulls and frames.", "drives": ["hardware", "finish", "palette"]}
+  ]
+}

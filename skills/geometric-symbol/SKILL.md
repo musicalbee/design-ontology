@@ -129,6 +129,23 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 - Cut every angle to 45° or 90°, or to one other fixed angle.
 - Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Chermayeff & Geismar** (studio, New York, 1957–now), made the style. A New York design studio. It drew simple geometric symbols for banks, networks and museums.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #0018A8 | #0018A8, #00843D, #000000 | colour |
+| Colour count (`colour_count`) | 1 | 1–2 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 15 | 12–20 % of mark height | form |
+| Container (`container`) | none | none, circle, square | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

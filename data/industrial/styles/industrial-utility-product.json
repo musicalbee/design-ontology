@@ -1,0 +1,433 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "industrial-utility-product",
+  "domain": "industrial",
+  "name": "Industrial utility product",
+  "aliases": [
+    "Factory and workshop fixtures",
+    "Industrial vernacular",
+    "Utility hardware"
+  ],
+  "era_id": "reform-and-craft",
+  "time_period": {
+    "start": 1910,
+    "end": null,
+    "label": "1910–present"
+  },
+  "region": "Factories, workshops, ships and rail yards of Europe and North America",
+  "summary": "Fixtures made for work, not for show: enamel shades, cage lamps, cast iron, steel lockers, conduit and brass ship hardware. The form follows the duty, and the finish is hard and repairable.",
+  "philosophy": {
+    "core_thesis": "A tool-like object earns its form from the job it does and the strain it takes; any surface that does no work is left off.",
+    "design_principles": [
+      "Make each part for one duty: a shade throws light down, a cage guards the bulb, a hook holds a load.",
+      "Choose cast iron, mild steel, aluminium and glass for strength; use 2 to 4 mm of steel for a shade or a locker.",
+      "Coat steel in vitreous enamel or powder paint that is hard, washable and 0.1 to 0.3 mm thick.",
+      "Show every bolt, rivet and weld; a worker must be able to repair each part with a spanner.",
+      "Use a simple dome, a cylinder or a box with a radius of 3 to 10 mm on the edges.",
+      "Use stock sizes: standard tube, pipe, sheet and bar, in a few colours such as white, black and grey.",
+      "Add a guard, a cage or a rib only where the object needs it, and keep the guard open."
+    ],
+    "anti_patterns": [
+      "Applied ornament or a revival motif",
+      "Hidden fasteners and a smooth, sealed body",
+      "Soft textile, velvet and silk",
+      "Marble and gilt",
+      "Pastel and decorative colour",
+      "A thin, fragile section that fails in use"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 2,
+    "material_warmth": 2,
+    "visual_mass": 5,
+    "chromatic_intensity": 1
+  },
+  "form": {
+    "geometry": "The dome, the cylinder, the box and the tube, joined by visible bolts, brackets and welds.",
+    "silhouette": "A heavy, simple outline: a wide dome shade on a short stem, a box with a frame, or a tube bent at a right angle.",
+    "edges": "Rolled or flanged edges with a radius of 3 to 10 mm; a cast edge has a parting line and a fillet of 2 to 5 mm.",
+    "proportion": "A dome shade is 30 to 40 cm wide and about half as deep; a locker is 180 cm high and 30 to 40 cm wide.",
+    "ornament": "None. The pattern is the repeat of rivets, ribs, vents and perforations that do a job; they cover 0 to 5% of the surface.",
+    "rules": [
+      "Each object has 1 to 3 main bodies and a visible fastener for each part.",
+      "Steel sheet is 1.5 to 4 mm thick; cast iron is 5 to 10 mm thick.",
+      "No part is there only for looks; each rib, vent and guard has a duty.",
+      "Fasteners are bolts, rivets or welds, and they are in view.",
+      "Colour is white, black, grey, olive or a single signal colour, and the metal tone shows at each chip."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "cast-iron",
+      "enamelled-steel",
+      "mild-steel",
+      "aluminium",
+      "clear-glass"
+    ],
+    "secondary": [
+      "wrought-iron",
+      "solid-brass",
+      "bronze",
+      "copper",
+      "pressed-glass",
+      "stainless-steel",
+      "fireclay",
+      "porcelain",
+      "bakelite",
+      "pine",
+      "oak",
+      "canvas",
+      "leather",
+      "pvc",
+      "concrete",
+      "cotton"
+    ],
+    "avoid": [
+      "velvet",
+      "silk",
+      "mahogany",
+      "rosewood",
+      "macassar-ebony",
+      "boucle",
+      "mohair"
+    ],
+    "rule": "Metal makes about 70% of the visible surface; glass, timber and leather are plain and take the rest."
+  },
+  "finish": {
+    "finishes": [
+      "gloss-enamel",
+      "matte-powder-coat",
+      "blackened",
+      "unlacquered",
+      "brushed",
+      "aniline",
+      "painted-matte"
+    ],
+    "textures": [
+      "mirror-smooth",
+      "satin-smooth",
+      "orange-peel",
+      "brush-line",
+      "knurled",
+      "cast-relief",
+      "grain-leather"
+    ],
+    "gloss": "50–90 GU on enamel; 5–25 GU on powder paint and blackened metal",
+    "patina": "The style accepts wear: chips in the enamel, rust at an edge and a dark shine on brass are signs of use and are welcome."
+  },
+  "hardware": {
+    "metal_tone": "black",
+    "section": "Bolts M6–M12, tube 20–40 mm, bar 8–16 mm, cast bodies 6–10 mm thick",
+    "joints": "Hex bolts, rivets and welds in view; a cast part has a flange with bolt holes, and a pipe has a union or a threaded elbow.",
+    "handles": "A plain bar, a ring or a wheel of cast iron or steel, with a section of 12 to 25 mm; a lever handle on a locker.",
+    "switches_and_taps": "A cross-head or wheel tap in brass; a heavy toggle or a rotary switch in a cast box; a cable in a steel conduit with elbows."
+  },
+  "palette": {
+    "strategy": "The colour of the metal and of the coat on it: black, white, grey and olive, with one signal colour as a mark.",
+    "colours": [
+      {
+        "name": "Enamel white",
+        "hex": "#EDEDE6",
+        "role": "dome shade, enamel body"
+      },
+      {
+        "name": "Cast black",
+        "hex": "#2A2A2A",
+        "role": "cast iron, conduit, frame"
+      },
+      {
+        "name": "Workshop grey",
+        "hex": "#8E9296",
+        "role": "locker, bracket"
+      },
+      {
+        "name": "Olive drab",
+        "hex": "#5E6143",
+        "role": "locker, bracket, cover"
+      },
+      {
+        "name": "Raw brass",
+        "hex": "#B08D3C",
+        "role": "tap, fixture"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#B3261E",
+        "role": "small mark or wheel"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "sand casting in iron",
+      "sheet metal pressing and spinning",
+      "vitreous enamel stoving",
+      "welding and riveting",
+      "powder coating"
+    ],
+    "scale": "Factory series of thousands, made for works, ships, railways and the military, and later sold as stock and reissued.",
+    "signs": "A casting seam and a foundry mark, a dome with a rolled rim, bolt heads in a row and a chip that shows the dark metal."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "cross-head pillar taps",
+        "material": "solid-brass",
+        "finish": "unlacquered",
+        "texture": "knurled"
+      },
+      {
+        "category": "electrics",
+        "object": "visible-cable",
+        "form": "straight steel conduit with elbows",
+        "material": "mild-steel",
+        "finish": "matte-powder-coat",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "bell or schoolhouse shade",
+        "material": "enamelled-steel",
+        "finish": "gloss-enamel",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "wardrobe",
+        "form": "metal locker",
+        "material": "mild-steel",
+        "finish": "matte-powder-coat",
+        "texture": "orange-peel"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "club chair",
+        "material": "leather",
+        "finish": "aniline",
+        "texture": "grain-leather"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "stacking steel chair",
+        "material": "aluminium",
+        "finish": "brushed",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "cookware",
+        "form": "enamelled cast-iron casserole",
+        "material": "cast-iron",
+        "finish": "gloss-enamel",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "clock",
+        "form": "station wall clock",
+        "material": "aluminium",
+        "finish": "brushed",
+        "texture": "brush-line"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "factory and workshop utility fixtures",
+      "white enamel dome pendant shade",
+      "cast iron and mild steel",
+      "visible bolts, rivets and welds",
+      "wire cage lamp guard",
+      "steel conduit and brass wheel tap",
+      "worn enamel with chipped edges",
+      "black, grey and olive drab",
+      "studio product photograph, hard side light"
+    ],
+    "negative": [
+      "ornament",
+      "velvet",
+      "gilt",
+      "pastel colour",
+      "smooth hidden fasteners",
+      "polished marble"
+    ],
+    "canonical_works": [
+      {
+        "work": "Standard chair",
+        "maker": "Jean Prouvé",
+        "year": 1934
+      },
+      {
+        "work": "Navy chair",
+        "maker": "Wilton C. Dinges",
+        "year": 1944
+      },
+      {
+        "work": "Potence wall lamp",
+        "maker": "Jean Prouvé",
+        "year": 1947
+      },
+      {
+        "work": "Anglepoise lamp",
+        "maker": "George Carwardine",
+        "year": 1932
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Industrial dome ceiling lamp",
+      "kind": "image",
+      "credit": "W.carter",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Industrial_ceiling_lamp_1.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Industrial_ceiling_lamp_1.jpg/960px-Industrial_ceiling_lamp_1.jpg"
+    },
+    {
+      "title": "Navy chair",
+      "kind": "image",
+      "maker": "Wilton C. Dinges",
+      "year": 1944,
+      "credit": "Emeco",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Emeco_1006_navy_chair.png",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Emeco_1006_navy_chair.png"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-manufacture"
+    ],
+    "rebelled_against": [
+      "arts-and-crafts-object"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "industrial-loft-interior",
+      "high-tech-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Plain trust in a tough object: the viewer sees how it works and expects it to last.",
+    "keywords": [
+      "rugged",
+      "honest",
+      "functional",
+      "worn",
+      "heavy"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "industrial lamp",
+      "factory pendant",
+      "cage light",
+      "cast iron fixture",
+      "enamel shade",
+      "workshop locker",
+      "loft hardware",
+      "ship bulkhead light"
+    ],
+    "use_cases": [
+      "lighting and hardware for a loft or a kitchen",
+      "a brief for reissued factory fixtures",
+      "a still life for a workshop-style shop",
+      "hardware schedules for a warehouse conversion"
+    ],
+    "avoid_when": [
+      "The room needs soft, ornate or luxury objects.",
+      "The brief asks for a thin, delicate or very bright finish."
+    ],
+    "modifiers": [
+      {
+        "request": "refined and polished",
+        "toward": "streamline-moderne-product",
+        "how": "Keep the metal but round each edge, use chrome and aluminium, and add a long horizontal line."
+      },
+      {
+        "request": "warmer and more domestic",
+        "toward": "shaker-object",
+        "how": "Use pine, a peg and a painted finish in place of cast iron, and keep the plain form."
+      },
+      {
+        "request": "more decorative",
+        "toward": "victorian-manufacture",
+        "how": "Add cast relief, a turned stem and a patterned glass shade."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0,
+      "min": 0,
+      "max": 0.1,
+      "note": "A trace of ornament comes only from repeated parts, such as a row of rivets."
+    },
+    "material_warmth": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.6
+    },
+    "finish_gloss": {
+      "default": 35,
+      "min": 5,
+      "max": 90
+    },
+    "era_blend": {
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary object in the same duty and material keeps the style."
+    },
+    "hardware_weight": {
+      "default": 24,
+      "min": 8,
+      "max": 40
+    },
+    "edge_radius": {
+      "default": 5,
+      "min": 0,
+      "max": 20
+    },
+    "metal_tone": {
+      "default": "black",
+      "options": [
+        "black",
+        "brass",
+        "stainless",
+        "nickel",
+        "copper",
+        "white",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Industrial design",
+      "url": "https://en.wikipedia.org/wiki/Industrial_design"
+    },
+    {
+      "title": "Wikipedia: Jean Prouvé",
+      "url": "https://en.wikipedia.org/wiki/Jean_Prouv%C3%A9"
+    },
+    {
+      "title": "Wikipedia: Industrial style",
+      "url": "https://en.wikipedia.org/wiki/Industrial_style"
+    },
+    {
+      "title": "Wikipedia: Vitreous enamel",
+      "url": "https://en.wikipedia.org/wiki/Vitreous_enamel"
+    }
+  ]
+}

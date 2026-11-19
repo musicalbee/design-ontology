@@ -8,6 +8,8 @@ export interface VectorAxis { key: string; label: string; abbr: string; low: str
 export interface Facet { key: string; title: string }
 export interface Domain {
   id: string;
+  /** Old ids of this domain; loaders map them to `id`. */
+  former_ids?: string[];
   order: number;
   name: string;
   schema: string;
@@ -51,6 +53,7 @@ export interface Lineage {
   rebelled_against: string[];
   hybridized_with: string[];
   echoes?: string[];
+  subgenre_of?: string;
   root?: string;
 }
 export interface Style {
@@ -174,29 +177,57 @@ export const ROLE_CLASS: Record<PersonRole, RoleClass> = {
   patron: "patron",
 };
 
-/** A salon, a club, a workshop, a school, a magazine, a publisher, a gallery, an auction house or a platform round a style. */
-export interface Medium {
+/** An organisation round a style: a group (crew, collective, council, studio, company), a channel, or a body that paid. */
+export interface Org {
   id: string;
   name: string;
   aliases?: string[];
-  kind: "salon" | "club" | "workshop" | "school" | "studio" | "magazine" | "publisher" | "gallery" | "exhibition" | "auction-house" | "platform";
+  kind: "crew" | "collective" | "council" | "studio" | "company" | "school" | "gallery" | "dealer" | "publisher" | "magazine" | "label" | "salon" | "exhibition" | "venue" | "auction-house" | "court" | "church" | "house" | "foundation" | "state-programme" | "fund" | "platform";
   identity?: { wikidata?: string };
   founded: number | null;
   closed: number | null;
   place: string;
   summary: string;
-  styles: { style: string; part: "launched" | "exhibited" | "published" | "taught" | "made" | "sold" | "gathered" }[];
+  styles: { style: string; part: "launched" | "exhibited" | "published" | "taught" | "made" | "sold" | "gathered" | "shaped" | "opposed" | "revived" | "funded" }[];
   people?: string[];
+  members?: { person: string; role: "founder" | "member" | "leader" | "guest"; from?: number | null; to?: number | null }[];
+  statement?: { text: string; title?: string; year?: number; url?: string };
+  moves?: { year: number; kind: string; text: string; source: { title: string; url?: string } }[];
+  relations?: { split_from?: string[]; successor_of?: string[]; rival_of?: string[]; member_of?: string[] };
   sources: { title: string; url?: string }[];
 }
 
-/** The media layer in data/media/, by file. */
-export function loadMedia(): { file: string; slug: string; medium: Medium }[] {
-  const dir = join(ROOT, "data", "media");
+/** The organisation layer in data/orgs/, by file. */
+export function loadOrgs(): { file: string; slug: string; org: Org }[] {
+  const dir = join(ROOT, "data", "orgs");
   return jsonFiles(dir).map((f) => ({
-    file: join("data", "media", f),
+    file: join("data", "orgs", f),
     slug: f.replace(/\.json$/, ""),
-    medium: readJson<Medium>(join(dir, f)),
+    org: readJson<Org>(join(dir, f)),
+  }));
+}
+
+/** One flow of money or paid support: who paid whom, when, for what, and the source. */
+export interface Funding {
+  id: string;
+  from: { type: "person" | "org"; id: string };
+  to: { type: "person" | "org" | "style"; id: string };
+  styles?: string[];
+  kind: "commission" | "stipend" | "purchase" | "exhibition" | "dealer-contract" | "publishing" | "residency" | "prize" | "grant" | "state-programme" | "investment" | "acquisition" | "crowdfunding" | "platform-fund" | "employment";
+  years: [number, number | null];
+  what: string;
+  amount?: { value: number; currency: string; year?: number; source: number };
+  confidence: "documented" | "reported" | "contested";
+  sources: { title: string; url: string }[];
+}
+
+/** The money layer in data/funding/, by file. */
+export function loadFunding(): { file: string; slug: string; funding: Funding }[] {
+  const dir = join(ROOT, "data", "funding");
+  return jsonFiles(dir).map((f) => ({
+    file: join("data", "funding", f),
+    slug: f.replace(/\.json$/, ""),
+    funding: readJson<Funding>(join(dir, f)),
   }));
 }
 

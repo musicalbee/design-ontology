@@ -148,6 +148,33 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
+### Skeuomorph (motif)
+
+A detail that copies the material or the form of an older object, though it no longer has that function. Origin: architecture, Greece, c. 600 BCE.
+
+- Copy one material for each surface: leather, felt, wood, paper or brushed metal.
+- Light every surface from one source above, at 90 degrees.
+- Keep the old details that tell the use: stitches, page edges, knobs and screws.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+- **The Iconfactory** (studio, Greensboro, North Carolina, 1996–now), made the style. An icon design studio. It made pixel icons for early desktops and detailed, lit icons for Mac OS X and iOS.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 48 | 32–512 px | grid |
+| Stroke width (`stroke_width`) | 1 | 0.5–1 px | stroke |
+| Corner radius (`corner_radius`) | 6 | 4–8 px | shape |
+| Fill mode (`fill_mode`) | gradient | gradient, render | colour, shape |
+| Base colour (`base_colour`) | #3465A4 | #3465A4, #F57900, #73D216, #CC0000 | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -159,7 +186,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 - **Was rejected by:** [`flat-icon`](../flat-icon/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md)
 - **Mixes well with:** [`isometric-icon`](../isometric-icon/SKILL.md)
-- **Kin in another domain:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md)
+- **Kin in another domain:** [`apple-aqua`](../apple-aqua/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
 - **Nearest by vector profile:** [`clay-3d-icon`](../clay-3d-icon/SKILL.md), [`isometric-icon`](../isometric-icon/SKILL.md), [`flat-icon`](../flat-icon/SKILL.md)
 
 ## Emotional target

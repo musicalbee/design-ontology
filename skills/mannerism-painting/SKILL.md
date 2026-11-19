@@ -165,6 +165,43 @@ The rules above name these shared principles by id. The definition is the same i
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 | `focal-point` | Focal point | The one place in a view that the eye finds first and comes back to. A composition has one primary focal point and at most two secondary ones. | focal points in one view (count): 1 primary, 0 to 2 secondary; luminance of the focal point to its surround (ratio): 3:1 to 10:1; position (fraction of width): 0.5 on an axis, or 0.33 / 0.67 on a third |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Figura serpentinata (motif, invented here)
+
+A figure that twists along its height like a snake, with hips, shoulders and head turned in different directions. Origin: painting, Italy, c. 1520.
+
+- Turn the hips, the shoulders and the head each 30 to 90 degrees from the one below.
+- Stretch the body to 9 or 10 heads tall.
+- Put the weight on one leg, so that the figure seems to spiral up.
+
+### Trompe-l'oeil (process)
+
+Painted perspective that continues the real room, so that a flat wall or ceiling seems to open into space. Origin: painting, Mantua, Italy, c. 1465.
+
+- Set the vanishing point at the eye of a viewer who stands at one marked spot in the room.
+- Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
+- Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Accademia delle Arti del Disegno** (school, Florence, 1563–now), taught the style. An academy of artists that Cosimo I de' Medici founded under the influence of Giorgio Vasari. It trained the painters of the late Renaissance court.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #2A4E96 | #2A4E96, #D98A9B, #5E9E87, #C73B26 | palette |
+| Value contrast (`value_contrast`) | 0.65 | 0.5–0.8 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.2 | 0–0.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 2:3 | 3:4, 2:3 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

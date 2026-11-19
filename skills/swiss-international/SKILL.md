@@ -1,7 +1,7 @@
 ---
 name: swiss-international
-description: "Apply the Swiss International Style style (1950s–1970s) when generating UI or graphic layouts. Load when the user asks for: swiss, swiss style, international style, helvetica, grid-based, minimal editorial."
-domain: design
+description: "Apply the Swiss International Style style (1950s–1970s) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: swiss, swiss style, international style, helvetica, grid-based, minimal editorial."
+domain: internet
 era: modernist
 triggers:
   - "swiss"
@@ -29,7 +29,7 @@ vector_profile:
 
 Asymmetric layouts on a mathematical grid, one neo-grotesque sans serif, flush-left text and objective photography. It came out of Zurich and Basel in the 1950s and became the default language of corporate modernism.
 
-**Period:** 1950s–1970s · **Era:** Modernist · **Domain:** Graphic & UI Design · **Also called:** International Typographic Style, Swiss Style, Swiss Grid
+**Period:** 1950s–1970s · **Era:** Modernist · **Domain:** Internet · **Also called:** International Typographic Style, Swiss Style, Swiss Grid
 
 ## When to load this skill
 
@@ -44,7 +44,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Swiss International Style, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Swiss International Style, you MUST:
 
 1. Build every layout on a modular grid of 6 or 12 columns and align every element to a column edge and a baseline.
 2. Use one sans-serif family for the whole piece, and make hierarchy with size and weight only.
@@ -257,16 +257,16 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 
 ### Modular grid (process)
 
-A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic & ui design, Zurich, c. 1958.
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: internet, Zurich, c. 1958.
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Neue Grafik** (magazine, Zürich, 1958–1965), published the style. A trilingual review of graphic design, set on a strict grid, that four Swiss designers edited. It made the case for the International Typographic Style.
 
@@ -295,7 +295,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
 - **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`punk-zine`](../punk-zine/SKILL.md)
 - **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
-- **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
+- **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`outline-icon`](../outline-icon/SKILL.md), [`racing-chronograph`](../racing-chronograph/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Nearest by vector profile:** [`de-stijl-web`](../de-stijl-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
 
 ## Emotional target
@@ -312,4 +312,4 @@ Trust through order: the viewer feels that the information is objective, complet
 
 ---
 
-Generated from [`data/design/styles/swiss-international.json`](../../data/design/styles/swiss-international.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/swiss-international.json`](../../data/internet/styles/swiss-international.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

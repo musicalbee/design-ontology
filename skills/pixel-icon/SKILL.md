@@ -141,6 +141,24 @@ A picture or a letter built from square cells that are each on or off, or one fl
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **The Iconfactory** (studio, Greensboro, North Carolina, 1996–now), made the style. An icon design studio. It made pixel icons for early desktops and detailed, lit icons for Mac OS X and iOS.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 24 | 16–32 px | grid |
+| Stroke width (`stroke_width`) | 1 | 1–2 px | stroke |
+| Corner radius (`corner_radius`) | 0 | 0–0 px | shape |
+| Fill mode (`fill_mode`) | solid | solid | colour, shape |
+| Base colour (`base_colour`) | #111111 | #111111, #2A5BD7 | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -149,7 +167,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more depth**: move toward [`isometric-icon`](../isometric-icon/SKILL.md) (Isometric icon). Keep the hard pixel look; rotate the object to an isometric view with 2:1 pixel diagonals.
 
 - **Led to (go here for a newer version):** [`isometric-icon`](../isometric-icon/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md)
-- **Kin in another domain:** [`pixel-art-web`](../pixel-art-web/SKILL.md)
+- **Kin in another domain:** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md), [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Nearest by vector profile:** [`isometric-icon`](../isometric-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md), [`material-symbols-icon`](../material-symbols-icon/SKILL.md)
 
 ## Emotional target

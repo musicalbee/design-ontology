@@ -213,7 +213,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#japandi-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#japandi-interior).
 
 ![Room](../../demo/moodboards/interior/japandi-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/japandi-interior/materials.webp)
@@ -221,6 +221,60 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/japandi-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/japandi-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/japandi-interior/objects.webp)
+
+## Object net
+
+Low oak and ash, lime plaster, washi paper, linen and hand-thrown stoneware make the room. Black steel and charred wood give the one dark accent, and all finishes are matt. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.02, material_warmth 0.8, finish_gloss 5, era_blend 0.6, hardware_weight 10, edge_radius 6, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#japandi-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Basin | vessel bowl on a counter | Stoneware, matte glaze, speckled clay (#A86F4C) |
+|  | Bath | Japanese soaking tub | Oak, oiled, open grain (#C9A87C) |
+|  | Basin tap or mixer | wall-mounted spout | Solid brass, blackened, satin-smooth (#1C1C1C) |
+|  | Towel rail | single bar | Ash, oiled, fine close grain (#C9A87C) |
+| Electrics ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Light switch | surface switch on a wood block | Oak, oiled, fine close grain (#C9A87C) |
+|  | Socket outlet | flush square plate | Oak, oiled, fine close grain (#C9A87C) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#1C1C1C) |
+| Lighting ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Pendant lamp | paper lantern | Washi paper, natural, undyed, plain weave (#EFEBE3) |
+|  | Floor lamp | paper column | Washi paper, natural, undyed, plain weave (#EFEBE3) |
+|  | Table lamp | squat stoneware base with a paper shade | Stoneware, matte glaze, speckled clay (#1C1C1C) |
+|  | Curtain track and blind | roller blind | Linen, washed, soft, slub weave (#CFC6B8) |
+| Storage ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Sideboard and cabinet | box on a recessed plinth | Ash, ebonised, fine close grain (#3A3631) |
+|  | Shelving | floating plank | Oak, oiled, fine close grain (#C9A87C) |
+|  | Handle, knob and pull | recessed finger groove | Oak, oiled, fine close grain (#C9A87C) |
+| Soft Furniture ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Sofa | slatted frame with loose cushions | Linen, washed, soft, slub weave (#CFC6B8) |
+|  | Bed | platform bed on a recessed plinth | Oak, oiled, open grain (#C9A87C) |
+|  | Ottoman and pouf | floor cushion | Linen, washed, soft, slub weave (#CFC6B8) |
+|  | Cushion and throw | knife-edge square | Linen, washed, soft, plain weave (#CFC6B8) |
+| Tables ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Low table | low slab on block legs | Oak, oiled, open grain (#C9A87C) |
+|  | Dining table | slab top on a sled frame | Ash, soaped, fine close grain (#C9A87C) |
+|  | Side table | drum | Oak, oiled, fine close grain (#C9A87C) |
+|  | Dining chair | wishbone or Y-back chair | Ash, soaped, fine close grain (#C9A87C) |
+| Kitchen ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Kitchen front | flat slab door | Ash, oiled, fine close grain (#C9A87C) |
+|  | Worktop and splashback | thick butcher-block top | Oak, oiled, open grain (#C9A87C) |
+|  | Kettle and small appliances | cast-iron teapot | Cast iron, blackened, satin-smooth (#1C1C1C) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, throwing rings (#A86F4C) |
+| Decor ([`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)) | Vase | squat studio-pottery jar | Stoneware, matte glaze, speckled clay (#A86F4C) |
+|  | Bowl, tray and box | turned wooden bowl | Oak, oiled, fine close grain (#C9A87C) |
+|  | Rug | jute or sisal flat rug | Jute, natural, undyed, plaited or wicker weave (#CFC6B8) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Electrics:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Lighting:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Storage:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Tables:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Kitchen:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+- **Decor:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Low table, Rug, Sideboard and cabinet, Pendant lamp, Vase, Curtain track and blind
+- **materials:** Low table, Pendant lamp, Sofa, Vase, Rug, Basin tap or mixer, Sideboard and cabinet
+- **furniture:** Bed, Sofa, Low table, Sideboard and cabinet, Dining table, Dining chair
+- **textiles:** Sofa, Cushion and throw, Ottoman and pouf, Rug, Curtain track and blind
+- **light:** Pendant lamp, Floor lamp, Table lamp, Curtain track and blind
+- **objects:** Vase, Bowl, tray and box, Kettle and small appliances, Tableware and glassware
 
 ## Vocabulary primer
 
@@ -237,6 +291,36 @@ Reference works:
 | Hiroshima armchair | Naoto Fukasawa | 2008 |
 | Karimoku Case Study collection | Norm Architects | 2019 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Exposed joinery (process)
+
+A joint that stays in view, so that the way of making is part of the look. Origin: interior, Giza, c. 2500 BCE.
+
+- Cut the joint in the main wood: a through-tenon of 6 to 12mm shows beyond the face.
+- Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
+- Use one joint type in a room or a building; repeat it at each corner.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EFEBE3 | #EFEBE3, #CFC6B8 | palette |
+| Accent colour (`accent_colour`) | #A86F4C | #A86F4C, #1C1C1C, #3A3631 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.5 | 2.3–2.8 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2700–3000 K | lighting |
+| Object density (`object_density`) | 0.15 | 0.05–0.25 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -247,7 +331,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Led to (go here for a newer version):** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md)
-- **Kin in another domain:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
+- **Kin in another domain:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`shaker-interior`](../shaker-interior/SKILL.md), [`coastal-interior`](../coastal-interior/SKILL.md)
 
 ## Emotional target

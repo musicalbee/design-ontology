@@ -157,6 +157,25 @@ Capital letters with the proportions of Roman stone inscriptions: some letters w
 - Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
 - Cut serifs, or leave them out, but keep the width rules.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Google Fonts** (platform, web, 2010–now), published the style. A free library of web fonts and icons. It serves the Material Symbols icon font and many open sans and serif families.
+- **Monotype** (company, London and Woburn, Massachusetts, 1887–now), made the style. A maker of typesetting machines and type. It released Gill Sans and revivals of Baskerville and other book faces.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 300–800 | metrics, setting |
+| Width (`width`) | 100 | 85–110 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.49 | 0.45–0.53 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 1.25 | 1–1.6 | anatomy |
+| Tracking (`tracking`) | 0 | -0.01–0.05 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

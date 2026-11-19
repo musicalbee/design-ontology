@@ -170,12 +170,29 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Woodcut (process)
 
-A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: internet, Dunhuang, 868.
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Tsutaya** (publisher, Edo, 1774–now), published the style. The publishing house of Tsutaya Jūzaburō in Edo. It published woodblock prints by Utamaro, Sharaku and other masters.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #17406E | #1C1A1F, #17406E, #D8452B, #D9A93F | palette |
+| Value contrast (`value_contrast`) | 0.65 | 0.5–0.8 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 2:3, 3:2 | surface, composition |
 
 ## Lineage fallbacks
 
@@ -185,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **painterly**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Keep the high horizon and the cropped foreground; replace the contour with visible strokes of 5–15mm and let the colour fields break into touches.
 
 - **Mixes well with:** [`impressionism`](../impressionism/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md)
+- **Kin in another domain:** [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,283 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "seventh-gen-desaturated",
+  "domain": "game",
+  "name": "Seventh-generation desaturated bloom",
+  "aliases": [
+    "Brown and grey era",
+    "Gritty HD",
+    "Bloom and brown"
+  ],
+  "era_id": "programmable-shader",
+  "time_period": {
+    "start": 2005,
+    "end": 2013,
+    "label": "2005–2013"
+  },
+  "region": "the United States, then worldwide",
+  "hardware": [
+    "xbox-360",
+    "playstation-3",
+    "pc"
+  ],
+  "summary": "The first HD consoles push normal maps, bloom and HDR light, and art direction answers with grey, brown and teal: desaturated ruins, heavy contrast, glowing windows and wet, specular surfaces.",
+  "philosophy": {
+    "core_thesis": "Realism is grit: a serious world is grey, worn and wet, and light blooms out of the dark.",
+    "design_principles": [
+      "Desaturate the palette to browns, greys and a teal or a sepia grade.",
+      "Use normal maps on every surface for cracks, bolts and grime.",
+      "Let bright areas bloom: windows and sky glow past their edges.",
+      "Make surfaces wet and specular, with sharp highlights.",
+      "Use high contrast: crushed shadows and blown highlights.",
+      "Fill spaces with debris, cover and ruins."
+    ],
+    "anti_patterns": [
+      "Saturated, cheerful colour",
+      "Flat or drawn shading",
+      "Clean, empty surfaces",
+      "Soft, even light",
+      "Stylised proportions"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 4,
+    "spatial_depth": 5,
+    "stylisation": 2,
+    "lighting_drama": 4,
+    "surface_density": 4
+  },
+  "projection_and_camera": {
+    "projection": "third-person",
+    "camera": "Over the shoulder, low and close.",
+    "field_of_view": "about 60–70",
+    "framing": "Player at the left third; heavy cover in the foreground."
+  },
+  "geometry": {
+    "primitive": "A normal-mapped polygon mesh.",
+    "budget": "10,000–20,000 triangles for a character; dense debris.",
+    "edge_rule": "Hard edges hidden by normal-map bevels; visible aliasing at 720p.",
+    "proportion": "Realistic to bulky: wide shoulders and big armour."
+  },
+  "surface": {
+    "texture_rule": "Normal, diffuse and specular maps with grime, cracks and wet patches.",
+    "texel_density": "about 256–512 px for each metre",
+    "filtering": "Trilinear or anisotropic.",
+    "material_model": "Blinn-Phong with normal and specular maps; strong rim light."
+  },
+  "palette": {
+    "strategy": "Desaturated browns and greys with a teal or a sepia grade on the whole frame.",
+    "colour_depth": "24 bits, HDR tone-mapped",
+    "on_screen_colours": "full colour, graded down",
+    "colours": [
+      {
+        "name": "Concrete grey",
+        "hex": "#6E6A64",
+        "role": "walls"
+      },
+      {
+        "name": "Mud brown",
+        "hex": "#5A4A38",
+        "role": "ground"
+      },
+      {
+        "name": "Gun metal",
+        "hex": "#3A3E44",
+        "role": "metal"
+      },
+      {
+        "name": "Teal grade",
+        "hex": "#4A6A6E",
+        "role": "shadow grade"
+      },
+      {
+        "name": "Bloom white",
+        "hex": "#F4EAD0",
+        "role": "highlights"
+      },
+      {
+        "name": "Sodium orange",
+        "hex": "#D88A3A",
+        "role": "fire and lamps"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Per-pixel dynamic light with HDR tone mapping and bloom.",
+    "shadows": "Sharp shadow maps with visible steps; screen-space ambient occlusion.",
+    "atmosphere": "Bloom, dust, smoke, lens flare and god rays.",
+    "time_of_day": "Overcast, dusk or a stormy grey day."
+  },
+  "world_and_space": {
+    "scale": "Real scale with oversized cover objects.",
+    "interiors": "Ruined rooms, warehouses and bunkers with debris and broken walls.",
+    "exteriors": "Bombed streets, grey squares and wet alleys.",
+    "threshold": "A door kicked open, or a continuous walk with no load.",
+    "principles": [
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 3 layers: grey ambient, a blooming window or sky key, and fire accents.",
+        "value": "3 layers"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Lay out paths as lanes between cover objects.",
+        "value": "cover every 5–8 m"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Put debris in the foreground, the player in the middle, a bright opening behind.",
+        "value": "3 planes"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Minimal, grey and translucent in the corners, about 5% of the screen.",
+    "type_and_icons": "Thin military sans fonts and simple line icons.",
+    "diegesis": "Some on the weapon or in the world; the rest on top."
+  },
+  "prompt_primer": {
+    "positive": [
+      "seventh generation console graphics",
+      "desaturated brown and grey",
+      "heavy bloom",
+      "HDR lighting",
+      "normal mapped surfaces",
+      "wet specular highlights",
+      "teal colour grade",
+      "gritty ruined street",
+      "2008 video game screenshot"
+    ],
+    "negative": [
+      "saturated colour",
+      "cartoon",
+      "cel shading",
+      "clean surfaces",
+      "pastel",
+      "flat lighting"
+    ],
+    "canonical_works": [
+      {
+        "work": "Gears of War",
+        "maker": "Epic Games",
+        "year": 2006
+      },
+      {
+        "work": "Fallout 3",
+        "maker": "Bethesda Game Studios",
+        "year": 2008
+      },
+      {
+        "work": "Call of Duty 4: Modern Warfare",
+        "maker": "Infinity Ward",
+        "year": 2007
+      },
+      {
+        "work": "Killzone 2",
+        "maker": "Guerrilla Games",
+        "year": 2009
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "fifth-gen-low-poly"
+    ],
+    "rebelled_against": [
+      "cel-shaded-3d"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "cinematic-teal-orange",
+      "brutalist-architecture",
+      "industrial-loft-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Grim tension: the viewer feels weight, danger and a world worn down.",
+    "keywords": [
+      "gritty",
+      "heavy",
+      "tense",
+      "serious",
+      "bleak"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "gritty hd",
+      "brown and grey",
+      "bloom heavy",
+      "2008 game graphics",
+      "desaturated realism"
+    ],
+    "use_cases": [
+      "industrial and post-apocalyptic themes",
+      "escape rooms",
+      "military or survival attractions",
+      "period game references"
+    ],
+    "avoid_when": [
+      "The brief needs warmth or a family tone.",
+      "The space must sell as bright and new."
+    ],
+    "modifiers": [
+      {
+        "request": "more real",
+        "toward": "pbr-photoreal",
+        "how": "Keep the realism; replace bloom and grime with physical materials and balanced light."
+      },
+      {
+        "request": "cheerful",
+        "toward": "hand-painted-texture",
+        "how": "Raise saturation and paint warm light into the surfaces."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 720,
+      "min": 600,
+      "max": 1080
+    },
+    "colour_depth": {
+      "default": 24,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "third-person",
+      "options": [
+        "third-person",
+        "first-person"
+      ]
+    },
+    "shading_steps": {
+      "default": 256,
+      "min": 128,
+      "max": 256
+    },
+    "texel_density": {
+      "default": 384,
+      "min": 128,
+      "max": 512
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Seventh generation of video game consoles",
+      "url": "https://en.wikipedia.org/wiki/Seventh_generation_of_video_game_consoles"
+    },
+    {
+      "title": "Wikipedia: Bloom (shader effect)",
+      "url": "https://en.wikipedia.org/wiki/Bloom_(shader_effect)"
+    },
+    {
+      "title": "Wikipedia: High-dynamic-range rendering",
+      "url": "https://en.wikipedia.org/wiki/High-dynamic-range_rendering"
+    }
+  ]
+}

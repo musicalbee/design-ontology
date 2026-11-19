@@ -178,6 +178,24 @@ A series of photographs, or many exposures on one plate, that split a movement i
 - Show each stage of the movement in a form that overlaps its neighbour by 20% to 50%.
 - In a painting, repeat a limb or a form along the path of the movement.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Lacerba** (magazine, Florence, 1913–1915), published the style. A Florentine review that published the Futurists and their manifestos in loud type.
+- **Le Figaro** (magazine, Paris, 1826–now), launched the style. A French daily newspaper. It printed the Symbolist manifesto in 1886 and the Futurist manifesto in 1909.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #2B6CD6 | #2B6CD6, #D8321F, #F2CF3C, #EA7A21 | palette |
+| Value contrast (`value_contrast`) | 0.6 | 0.45–0.8 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1 | 0.5–2 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

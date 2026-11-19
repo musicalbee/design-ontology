@@ -121,6 +121,12 @@
       { "request": "more graphic", "toward": "ukiyo-e", "how": "Keep the cropped viewpoint and the high horizon; replace the touches with flat fields and a 1–2mm contour." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#2F5FA8", "options": ["#2F5FA8", "#E8B923", "#2E8B6A", "#7A68A8"]},
+    "value_contrast": {"default": 0.4, "min": 0.25, "max": 0.55, "note": "Form is built by colour temperature, so the value span stays narrow."},
+    "brush_size": {"default": 2, "min": 1, "max": 3.5},
+    "canvas_ratio": {"default": "3:2", "options": ["4:5", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q40415 (Impressionism)", "url": "https://www.wikidata.org/wiki/Q40415" },
     { "title": "Getty AAT 300021503 (Impressionism)", "url": "https://vocab.getty.edu/page/aat/300021503" },

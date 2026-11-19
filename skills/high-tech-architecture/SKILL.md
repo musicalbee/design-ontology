@@ -171,6 +171,45 @@ Reference works:
 | Sainsbury Centre, Norwich | Norman Foster | 1978 |
 | Inmos Microprocessor Factory, Newport | Richard Rogers | 1982 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Curtain wall (technology)
+
+A thin outer wall of glass and metal that hangs on the frame of the building and carries no floor load. Origin: architecture, San Francisco, United States, 1918.
+
+- Carry the floors on columns set 1 to 3 m back from the facade line.
+- Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
+- Keep the glass part of the facade above 60%.
+
+### Exposed services (process, invented here)
+
+Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, often colour-coded, so the building shows how it works. Origin: architecture, Paris, France, 1977.
+
+- Leave each duct, pipe and cable tray in view; paint them or leave them raw metal.
+- Give each system one colour: for example blue for air, green for water, yellow for electricity.
+- Keep the floor plate free; put the services on the facade or the ceiling.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
+- **Team 4** (studio, London, 1963–1967), made the style. A small architecture practice of Norman Foster, Richard Rogers and two partners. Its factory building at Swindon used light steel and glass in the way of the later high-tech.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.9 | 3.5–4.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 12 | 6–30 m | structure |
+| Glazing ratio (`glazing_ratio`) | 80 | 60–100 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–3 deg | massing |
+| Base material (`base_material`) | steel | steel, glass | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -179,7 +218,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Mixes well with:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
-- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`industrial-utility-product`](../industrial-utility-product/SKILL.md), [`luxury-steel-sports-watch`](../luxury-steel-sports-watch/SKILL.md), [`space-age`](../space-age/SKILL.md), [`technical-shell-alpinism`](../technical-shell-alpinism/SKILL.md), [`terracotta-rainscreen`](../terracotta-rainscreen/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target

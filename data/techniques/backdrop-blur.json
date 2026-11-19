@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "backdrop-blur",
+  "name": "Backdrop blur",
+  "aliases": [
+    "Frosted glass",
+    "backdrop-filter"
+  ],
+  "kind": "technology",
+  "summary": "A translucent layer that blurs what is behind it, so that a panel reads as frosted glass over the content.",
+  "how": [
+    "Blur the backdrop by 10 to 40 px.",
+    "Give the panel a white or black tint of 10% to 40% opacity.",
+    "Add a 1 px light edge at 20% to 50% opacity to show the edge of the glass."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2007,
+    "where": "Redmond, United States",
+    "note": "Windows Vista Aero blurs what is behind the translucent frame of each window."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2013,
+      "via": "iOS 7 puts the control centre and the menus on blurred, translucent layers."
+    },
+    {
+      "domain": "internet",
+      "year": 2019,
+      "circa": true,
+      "via": "CSS backdrop-filter reaches the main browsers, and web pages take up frosted panels."
+    },
+    {
+      "domain": "internet",
+      "year": 2025,
+      "via": "Apple's Liquid Glass adds refraction and bright edges to the blurred layer.",
+      "styles": [
+        "liquid-glass-ui"
+      ]
+    }
+  ],
+  "styles": [
+    "liquid-glass-ui"
+  ],
+  "principles": [
+    "layering-depth"
+  ],
+  "sources": [
+    {
+      "title": "W3C, Filter Effects Module Level 2: backdrop-filter"
+    }
+  ]
+}

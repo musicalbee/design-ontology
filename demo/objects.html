@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Objects of the room</title>
+<meta name="description" content="The objects of one interior style, from the tap to the vase: a net that gives each category one industrial style, and each object one form, material, finish and texture.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root { --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0; --card: #fff; --well: #ecebe6; --warn: #9a3412; --alt: #1d4ed8; }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  :focus-visible { outline: 3px solid #6aa8ff; outline-offset: 2px; }
+  main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 28px; }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  h2 { margin: 0 0 4px; font-size: 24px; }
+  h3 { margin: 0 0 8px; font-size: 16px; }
+  .lede { margin: 10px 0 0; font-size: 18px; max-width: 74ch; }
+  .muted, .note { color: var(--muted); }
+  .note { font-size: 12px; }
+
+  .netgrid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 980px) { .netgrid { grid-template-columns: 300px 1fr; align-items: start; } .knobs { position: sticky; top: 64px; } }
+  .knobs { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 10px; }
+  .knob label { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; font-weight: 600; }
+  .knob output { font-weight: 400; font-variant-numeric: tabular-nums; color: var(--muted); }
+  .knob input[type=range], .knob select { width: 100%; }
+  .knob select { font: inherit; font-size: 13px; padding: 4px 6px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); }
+  .knobs button { justify-self: start; font: inherit; font-size: 13px; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); cursor: pointer; }
+
+  .cells { display: grid; gap: 12px; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .cells { grid-template-columns: repeat(2, 1fr); } }
+  .cell { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; display: grid; gap: 6px; align-content: start; transition: box-shadow .15s; }
+  .cell.hit { box-shadow: 0 0 0 2px var(--ink); }
+  .cell header { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .cell header b { font-size: 14px; }
+  .via { font-size: 12px; color: var(--muted); }
+  .via a { color: inherit; }
+  .via.alt { color: var(--alt); }
+  .via.none { color: var(--warn); }
+  .obj { display: grid; grid-template-columns: 14px 1fr; gap: 0 8px; font-size: 13px; padding: 4px 0; border-top: 1px solid var(--well); }
+  .obj.hit { background: #fff7d6; }
+  .obj i { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgb(0 0 0 / .15); margin-top: 3px; }
+  .obj span b { font-weight: 600; }
+  .obj small { grid-column: 2; color: var(--muted); }
+
+  .tiles { display: grid; gap: 8px; grid-template-columns: repeat(3, 1fr); }
+  @media (min-width: 760px) { .tiles { grid-template-columns: repeat(6, 1fr); } }
+  .tile { margin: 0; position: relative; border-radius: 8px; overflow: hidden; background: var(--well); aspect-ratio: 1; cursor: pointer; border: 0; padding: 0; font: inherit; }
+  .tile img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .tile span { position: absolute; left: 6px; bottom: 6px; font-size: 12px; padding: 1px 7px; border-radius: 4px; background: rgb(255 255 255 / .9); color: var(--ink); }
+  .tile[aria-pressed="true"] { outline: 3px solid var(--ink); outline-offset: -3px; }
+
+  footer { color: var(--muted); font-size: 13px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<script src="interior-tabs.js"></script>
+<script src="evidence.js"></script>
+<script src="net-resolve.js"></script>
+<main>
+  <header>
+    <h1 id="o-name">Objects</h1>
+    <p class="lede" id="net-thesis"></p>
+    <p class="muted">For each category of objects in the room, the net names one industrial style, and for each object one form, material, finish and texture. Move a knob, and a category that the main style cannot hold moves to the first alternate that can.</p>
+  </header>
+  <script>document.currentScript.previousElementSibling.insertAdjacentHTML("afterend", InteriorTabs.tabs("objects"));</script>
+
+<section class="netgrid">
+    <div class="knobs" id="knobs" aria-label="Knobs"></div>
+    <div style="display:grid;gap:16px">
+      <div>
+        <h3>Moodboard tiles → objects</h3>
+        <div class="tiles" id="tiles"></div>
+        <p class="note" id="tile-note">Select a tile to mark its objects in the net.</p>
+      </div>
+      <div class="cells" id="cells" aria-live="polite"></div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>Data: <code>data/industrial/</code> (vocabulary, styles and nets), checked by <code>npm run validate</code>. Moodboard tiles: FLUX.2 [klein] 4B (Apache-2.0), rendered locally; they are generated images, not real rooms. Industrial styles: <a href="industrial.html">the industrial design domain</a>.</p>
+  </footer>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const json = (u) => fetch(u).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+const titleCase = (s) => s.replace(/(^|-)([a-z])/g, (_m, d, c) => (d ? " " : "") + c.toUpperCase());
+const CATEGORIES = ["sanitary", "electrics", "lighting", "storage", "soft-furniture", "tables", "kitchen", "decor"];
+const TILES = [["room", "Room"], ["materials", "Materials"], ["furniture", "Furniture"], ["textiles", "Textiles"], ["light", "Light"], ["objects", "Objects"]];
+
+const resolve = (net, values) => NetResolve.resolve(net, values, { knobs: domain.knobs, styles, roomEnd: roomEnds[net.interior] ?? 9999 });
+
+let domain, voc, V, roomEnds = {}, styles = new Map(), previews = {}, boards = {}, nets = {}, net, values = {}, tile = null;
+
+const name = (kind, id) => V[kind].get(id)?.name ?? id;
+const surface = (o) => `${name("material", o.material)}, ${name("finish", o.finish).toLowerCase()}, ${name("texture", o.texture).toLowerCase()}`;
+const sname = (id) => styles.get(id)?.name ?? id;
+
+function knobsPanel() {
+  $("knobs").innerHTML = `<h3>Knobs</h3>` + domain.knobs.map((k) => {
+    const v = values[k.key] ?? net.knobs[k.key];
+    const unit = k.unit ? ` ${k.unit}` : "";
+    const ctl = k.kind === "enum"
+      ? `<select id="k-${k.key}">${k.options.map((o) => `<option${o === v ? " selected" : ""}>${o}</option>`).join("")}</select>`
+      : `<input type="range" id="k-${k.key}" min="${k.min}" max="${k.max}" step="${k.kind === "number" ? 0.05 : 1}" value="${v}">`;
+    return `<div class="knob"><label for="k-${k.key}">${esc(k.label)}<output id="o-${k.key}">${esc(v)}${unit}</output></label>${ctl}</div>`;
+  }).join("") + `<button type="button" id="reset">Reset to the net defaults</button><p class="note">The net gives each knob a default. A knob outside the range of a main style moves that category to its first alternate that holds it. In a period room (era blend below 0.5), a style that starts after the room ends cannot take a category.</p>`;
+  for (const k of domain.knobs) {
+    $(`k-${k.key}`).addEventListener("input", (e) => {
+      values[k.key] = k.kind === "enum" ? e.target.value : Number(e.target.value);
+      $(`o-${k.key}`).textContent = `${values[k.key]}${k.unit ? ` ${k.unit}` : ""}`;
+      cells();
+    });
+  }
+  $("reset").onclick = () => { values = {}; knobsPanel(); cells(); };
+}
+
+function cells() {
+  const marked = new Set(tile ? net.moodboard[tile] ?? [] : []);
+  $("cells").innerHTML = resolve(net, values).map((r) => {
+    const via = r.via === "main" ? `<span class="via"><a href="industrial.html#${esc(r.style)}">${esc(sname(r.style))}</a></span>`
+      : r.via === "alternate" ? `<span class="via alt">alternate: <a href="industrial.html#${esc(r.style)}">${esc(sname(r.style))}</a></span>`
+      : `<span class="via none">none: ${esc(r.reason)}</span>`;
+    const hit = r.objects.some((o) => marked.has(o.object));
+    return `<article class="cell${hit ? " hit" : ""}"><header><b>${esc(titleCase(r.cell.category))}</b>${via}</header>` +
+      r.objects.map((o) => `<div class="obj${marked.has(o.object) ? " hit" : ""}"><i style="background:${esc(o.colour ?? "transparent")}"></i><span><b>${esc(name("object", o.object))}</b>: ${esc(o.form)}</span><small>${esc(surface(o))}${o.note ? ` · ${esc(o.note)}` : ""}</small></div>`).join("") +
+      `</article>`;
+  }).join("");
+}
+
+function tilesPanel() {
+  const board = boards.boards?.[net.interior] ?? {};
+  $("tiles").innerHTML = TILES.map(([k, l]) => {
+    const rec = board[k];
+    const img = rec ? `<img src="moodboards/interior/${esc(rec.file)}" alt="" loading="lazy" decoding="async">` : "";
+    return `<button type="button" class="tile" data-tile="${k}" aria-pressed="${tile === k}">${img}<span>${l}</span></button>`;
+  }).join("");
+  $("tile-note").textContent = tile ? `${titleCase(tile)} tile: ${(net.moodboard[tile] ?? []).map((id) => name("object", id)).join(", ")}.` : "Select a tile to mark its objects in the net.";
+}
+
+async function showNet(id, meta) {
+  net = nets[id] ??= await json(`../data/industrial/nets/${id}.json`);
+  if (!net) return false;
+  if (!(id in roomEnds)) roomEnds[id] = (await json(`../data/interior/styles/${id}.json`))?.time_period?.end ?? 9999;
+  values = {}; tile = null;
+  $("o-name").textContent = `${meta?.name ?? id}: objects`;
+  document.title = `${meta?.name ?? id}: objects of the room`;
+  $("net-thesis").textContent = net.thesis;
+  knobsPanel(); tilesPanel(); cells();
+  return true;
+}
+
+
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("[data-tile]");
+  if (t) { tile = tile === t.dataset.tile ? null : t.dataset.tile; tilesPanel(); cells(); }
+});
+
+Promise.all([json("../domains/industrial.json"), json("../data/industrial/vocabulary.json"), json("../skills/index.json"), json("previews/industrial/manifest.json"), json("moodboards/interior/manifest.json")]).then(async ([d, v, index, man, mb]) => {
+  domain = d; voc = v; previews = man?.images ?? {}; boards = mb ?? {};
+  V = { material: new Map(v.materials.map((x) => [x.id, x])), finish: new Map(v.finishes.map((x) => [x.id, x])), texture: new Map(v.textures.map((x) => [x.id, x])), object: new Map(v.objects.map((x) => [x.id, x])) };
+  const ind = index.skills.filter((s) => s.domain === "industrial");
+  const recs = await Promise.all(ind.map((s) => json(`../data/industrial/styles/${s.id}.json`)));
+  for (const s of recs) if (s) styles.set(s.id, s);
+  InteriorTabs.route("objects", (id, meta) => showNet(id, meta));
+});
+</script>
+</body>
+</html>

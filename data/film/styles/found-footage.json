@@ -307,6 +307,37 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.33:1",
+      "options": [
+        "1.33:1",
+        "1.85:1"
+      ],
+      "note": "The 4:3 camcorder frame or a 16:9 frame, which maps to 1.85:1."
+    },
+    "frame_rate": {
+      "default": 30,
+      "min": 24,
+      "max": 30
+    },
+    "average_shot_length": {
+      "default": 60,
+      "min": 40,
+      "max": 120
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 3200,
+      "max": 5600,
+      "note": "The camera sets the white balance and nobody corrects it."
+    },
+    "grain": {
+      "default": 0.2,
+      "min": 0.15,
+      "max": 0.25
+    }
+  },
   "sources": [
     {
       "title": "Found footage (film technique)",

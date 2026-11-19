@@ -145,6 +145,23 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **L. Prang & Co.** (publisher, Boston, ?–now), made the style. The colour lithography firm of Louis Prang. It printed trade cards, labels and Christmas cards with pictorial marks in the Victorian taste.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1E1B18 | #1E1B18, #A8262B, #24395E, #C49A3A | colour |
+| Colour count (`colour_count`) | 4 | 1–6 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 5 | 1–6 % of mark height | form |
+| Container (`container`) | badge | badge, circle, shield | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -155,7 +172,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`emblem-badge`](../emblem-badge/SKILL.md)
 - **Was rejected by:** [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
 - **Mixes well with:** [`emblem-badge`](../emblem-badge/SKILL.md)
-- **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Kin in another domain:** [`engraving-print`](../engraving-print/SKILL.md), [`fat-face-display`](../fat-face-display/SKILL.md), [`malletier-luggage`](../malletier-luggage/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`emblem-badge`](../emblem-badge/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,351 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "cuisine-minceur",
+  "domain": "cuisine",
+  "name": "Cuisine minceur",
+  "aliases": [
+    "Slimming cuisine",
+    "Spa gourmet cuisine"
+  ],
+  "identity": {
+    "wikidata": "Q5192757"
+  },
+  "era_id": "nouvelle-and-new-world",
+  "branch": "haute",
+  "time_period": {
+    "start": 1975,
+    "end": 1990,
+    "label": "1975–1990"
+  },
+  "region": "Eugénie-les-Bains, Landes, France",
+  "summary": "Michel Guérard's light cooking for a spa hotel. Each dish has few calories but the plate of a three-star kitchen: steam instead of butter, fromage blanc and vegetable purée instead of cream and flour, and a small portion.",
+  "philosophy": {
+    "core_thesis": "A dish can be low in fat and sugar and still be haute cuisine, if the cook uses exact technique and fresh produce in place of butter and cream.",
+    "design_principles": [
+      "Cook in steam, in a court-bouillon or in a covered pan with a spoon of water, not in butter.",
+      "Bind a sauce with fromage blanc, yoghurt, a vegetable purée or a reduced stock; leave out flour, cream and egg yolk.",
+      "Count the energy of each dish and keep a full menu at about 500 to 800 kcal.",
+      "Season with herbs, lemon, vinegar and spices so that the salt and the fat can stay low.",
+      "Use no sugar in a sauce; take the sweet taste from fruit and vegetables.",
+      "Serve each dish as a small portion on a large white plate, so the meal still has many courses.",
+      "Plate with the care of a three-star kitchen: a sauce pooled under the food, one herb on top.",
+      "Keep the taste of each ingredient clear; do not hide it behind a diet label."
+    ],
+    "anti_patterns": [
+      "A sauce thickened with flour or egg yolk",
+      "Butter or cream as the base of a sauce",
+      "A dessert of cream and sugar",
+      "A bare plate of boiled food with no seasoning",
+      "A large heap of food",
+      "A menu that names the calories on the plate"
+    ]
+  },
+  "vectors": {
+    "composition": 4,
+    "transformation": 3,
+    "locality": 3,
+    "richness": 1,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "A small portion of steamed fish or meat at the centre of a wide plate with a pool of pale sauce and two or three vegetables around it.",
+    "plate": "A white round porcelain plate of 280 to 300 mm with a thin rim.",
+    "portion": "A main piece of 80 to 120 g with 30 ml of sauce and 60 to 100 g of vegetables; the whole main dish is about 200 kcal.",
+    "height": "The food stands 15 to 30 mm high; the sauce is a thin pool of 2 mm under the main piece.",
+    "rules": [
+      "Pool the sauce first, then set the steamed piece on it.",
+      "Cut the vegetables into thin strips, balls or discs of one size, and cook them to al dente.",
+      "Leave about 45 per cent of the plate empty.",
+      "Add one herb or a few chive stems as the only garnish.",
+      "Serve the dessert as a small portion of fruit with a sorbet or a fromage blanc cream."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "sole",
+      "shellfish",
+      "seasonal-greens",
+      "root-vegetables",
+      "cheese",
+      "fine-herbs",
+      "lemon",
+      "chicken"
+    ],
+    "secondary": [
+      "carrot",
+      "asparagus",
+      "leek",
+      "vinegar",
+      "orchard-fruit",
+      "berries",
+      "honey",
+      "egg",
+      "wine",
+      "ginger",
+      "tarragon",
+      "salmon"
+    ],
+    "avoid": [
+      "butter",
+      "cream",
+      "lard",
+      "cane-sugar"
+    ],
+    "in_europe": true,
+    "rule": "Choose lean fish, shellfish, poultry and vegetables; use fromage blanc and herbs as the main sauce makers, and add a little oil or butter only where the dish cannot do without it."
+  },
+  "technique": {
+    "methods": [
+      "steaming",
+      "poaching",
+      "stock-making",
+      "reduction",
+      "knife-work",
+      "plated-service",
+      "grilling"
+    ],
+    "bases": "A clear vegetable stock, a fish fumet, a purée of cooked vegetables and a bowl of fromage blanc that the cook whisks with lemon and herbs.",
+    "details": "A fish steamed on a bed of herbs, a vegetable purée that binds a sauce, a sauce whisked cold with fromage blanc, a spoon of reduced stock in place of a pat of butter."
+  },
+  "flavour": {
+    "profile": "Clean, green and acid: lemon, herbs, light fish broth and the sweet taste of fresh vegetables and fruit.",
+    "balance": "Acid and herb lead; salt stays low, umami comes from reduced stock and shellfish, and sweet comes from fruit and carrot.",
+    "fat": "Fat gives about 10 to 20 per cent of the energy of a main dish; the cook adds a few drops of oil for flavour.",
+    "seasoning": "Fresh herbs, lemon juice, vinegar and ground pepper go in at the end; the cook uses very little salt and no sugar in sauces."
+  },
+  "palette": {
+    "strategy": "Use a white plate with the green of herbs and vegetables, the pale pink of fish and a very pale sauce.",
+    "colours": [
+      {
+        "name": "Porcelain white",
+        "hex": "#F8F6F1",
+        "role": "plate"
+      },
+      {
+        "name": "Herb green",
+        "hex": "#7FA24E",
+        "role": "herb and vegetable"
+      },
+      {
+        "name": "Steamed fish white",
+        "hex": "#EFE9DC",
+        "role": "fish"
+      },
+      {
+        "name": "Fromage blanc",
+        "hex": "#F4EFE0",
+        "role": "sauce"
+      },
+      {
+        "name": "Shell pink",
+        "hex": "#EDA48F",
+        "role": "shellfish"
+      },
+      {
+        "name": "Lemon",
+        "hex": "#E8D34A",
+        "role": "accent"
+      },
+      {
+        "name": "Carrot orange",
+        "hex": "#E58D3A",
+        "role": "vegetable"
+      }
+    ]
+  },
+  "service": {
+    "format": "A fixed menu for a spa guest: the waiter serves each small plate from the kitchen, with a gap of a few minutes between courses.",
+    "courses": "Five or six small courses at a dinner, with a total of about 650 kcal for the whole menu.",
+    "tableware": "Large white plates, small crystal glasses for a little wine and a pot of herbal tea; white linen.",
+    "setting": "A spa hotel in a park in the Landes with a chef-owner, a medium brigade and a dining room for the guests of the thermal baths."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "hors-doeuvre",
+        "dish": "Salad of lobster and green vegetables",
+        "ingredient": "shellfish",
+        "method": "poaching"
+      },
+      {
+        "course": "fish-course",
+        "dish": "Steamed sole with a fromage blanc and herb sauce",
+        "ingredient": "sole",
+        "method": "steaming"
+      },
+      {
+        "course": "main-course",
+        "dish": "Steamed chicken breast with a vegetable purée",
+        "ingredient": "chicken",
+        "method": "steaming"
+      },
+      {
+        "course": "vegetable-course",
+        "dish": "Spring vegetables cooked in a covered pan",
+        "ingredient": "seasonal-greens",
+        "method": "steaming"
+      },
+      {
+        "course": "dessert",
+        "dish": "Fresh berries with a light fromage blanc cream",
+        "ingredient": "berries",
+        "method": "knife-work"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "cuisine minceur spa menu",
+      "steamed fish on a wide white plate",
+      "pale fromage blanc herb sauce",
+      "thin strips of vegetables",
+      "small portion with empty space",
+      "fresh herbs and chives",
+      "1970s French spa hotel dining room",
+      "soft natural light",
+      "overhead plated dish photograph"
+    ],
+    "negative": [
+      "cream sauce",
+      "butter pool",
+      "fried food",
+      "heaped portion",
+      "brown demi-glace",
+      "sugar decoration"
+    ],
+    "canonical_works": [
+      {
+        "work": "La Grande Cuisine minceur",
+        "maker": "Michel Guérard",
+        "year": 1976
+      },
+      {
+        "work": "Cuisine minceur (the first spa menu)",
+        "maker": "Michel Guérard, Les Prés d'Eugénie",
+        "year": 1975
+      },
+      {
+        "work": "Salade gourmande",
+        "maker": "Michel Guérard",
+        "year": 1976
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Michel Guérard at Eugénie-les-Bains, 2016",
+      "kind": "image",
+      "maker": "Pepelouis",
+      "year": 2016,
+      "credit": "Pepelouis, via Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Michel_Gu%C3%A9rard-Eug%C3%A9nie-Les-Bains-_2016_-Photo_-Jean-Louis_Le_Breton.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Michel_Gu%C3%A9rard-Eug%C3%A9nie-Les-Bains-_2016_-Photo_-Jean-Louis_Le_Breton.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nouvelle-cuisine"
+    ],
+    "rebelled_against": [
+      "cuisine-classique"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The calm of a meal that is both a pleasure and a cure: clear, bright and light on the body.",
+    "keywords": [
+      "light",
+      "clean",
+      "bright",
+      "careful",
+      "healthy"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cuisine minceur",
+      "spa cuisine",
+      "slimming gourmet",
+      "low fat haute cuisine",
+      "light steamed fish",
+      "guerard",
+      "calorie counted menu"
+    ],
+    "use_cases": [
+      "a menu for a spa or wellness hotel",
+      "a food photograph of a light plate with a pale sauce",
+      "a diet menu that still looks like fine dining"
+    ],
+    "avoid_when": [
+      "the brief wants rich sauces or a large portion",
+      "the brief wants a rustic or home table",
+      "the brief wants spice or heat"
+    ],
+    "modifiers": [
+      {
+        "request": "richer, with butter sauces",
+        "toward": "nouvelle-cuisine",
+        "how": "Allow a beurre blanc and a spoon of cream, and raise the fat share to 30 per cent."
+      },
+      {
+        "request": "a plain seasonal garden menu",
+        "toward": "california-cuisine",
+        "how": "Drop the calorie rules; keep the steamed and raw vegetables and name the farm."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Cuisine minceur",
+      "url": "https://en.wikipedia.org/wiki/Cuisine_minceur"
+    },
+    {
+      "title": "Wikipedia: Michel Guérard",
+      "url": "https://en.wikipedia.org/wiki/Michel_Gu%C3%A9rard"
+    },
+    {
+      "title": "Michel Guérard, La Grande Cuisine minceur (1976)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 6,
+      "min": 4,
+      "max": 8
+    },
+    "negative_space": {
+      "default": 0.55,
+      "min": 0.4,
+      "max": 0.65
+    },
+    "portion_g": {
+      "default": 100,
+      "min": 60,
+      "max": 140
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "fat_share": {
+      "default": 0.15,
+      "min": 0.08,
+      "max": 0.25
+    },
+    "plate_colour": {
+      "default": "#F8F6F1",
+      "options": [
+        "#F8F6F1",
+        "#FFFFFF",
+        "#E9ECE4"
+      ]
+    }
+  }
+}

@@ -267,6 +267,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3, "min": 2.7, "max": 3.5},
+    "structural_grid": {"default": 6, "min": 5, "max": 7.5},
+    "glazing_ratio": {"default": 32, "min": 25, "max": 40},
+    "roof_pitch": {"default": 5, "min": 0, "max": 15},
+    "base_material": {"default": "brick", "options": ["brick", "concrete", "timber", "stone"]}
+  },
   "sources": [
     {
       "title": "Kenneth Frampton, Modern Architecture: A Critical History (Thames and Hudson, 1980)"

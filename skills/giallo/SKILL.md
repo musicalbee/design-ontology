@@ -203,6 +203,24 @@ A white lamp covered with a sheet of coloured film, so that a set or a face is l
 - Keep the key light at one stop or more above the fill so that the colour reads as shadow and as light.
 - Do not justify the colour with a lamp in the frame; the colour is the mood.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Mondadori** (publisher, Milan, 1907–now), launched the style. An Italian publishing house. Its crime novels with yellow covers gave giallo its name.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 2.39:1 | 1.85:1, 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 7 | 5–9 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 3200 | 2800–3600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.18 | 0.15–0.2 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

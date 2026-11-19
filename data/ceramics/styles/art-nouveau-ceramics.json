@@ -1,0 +1,363 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "art-nouveau-ceramics",
+  "domain": "ceramics",
+  "name": "Art Nouveau ceramics",
+  "aliases": [
+    "Jugendstil ceramics",
+    "Style 1900 pottery",
+    "Grès flambé and eggshell porcelain"
+  ],
+  "era_id": "art-pottery",
+  "branch": "vessels",
+  "time_period": {
+    "start": 1893,
+    "end": 1914,
+    "label": "1893–1914"
+  },
+  "region": "Paris, The Hague, Copenhagen and Vienna",
+  "summary": "Vessels of 1893 to 1914 with flowing plant forms and deep glaze effects. French potters fired flambé stoneware, and Dutch and Danish works made thin porcelain with crystal and underglaze colour.",
+  "philosophy": {
+    "core_thesis": "A vase grows like a plant: its form follows one living curve, and the glaze flows over it in deep colour.",
+    "design_principles": [
+      "Draw the outline as one long S-curve, from a narrow foot to a swelling shoulder and a flaring lip.",
+      "Model plant, insect and female forms in low relief that the glaze softens.",
+      "Fire copper-red and flambé glazes in reduction at about 1280 °C, so that red, purple and blue run together.",
+      "Grow crystals in a zinc-silicate glaze by a slow cool of 20 to 30 hours.",
+      "Pare eggshell porcelain to 1 mm, so that the wall is translucent.",
+      "Paint underglaze flowers in soft grey, green and blue, with a spray ground that fades at the edge.",
+      "Keep the surface asymmetric: let a handle, a stem or a wave break the axis.",
+      "Sign the base with the name or the cipher of the maker and a pottery mark."
+    ],
+    "anti_patterns": [
+      "Strict symmetrical Neoclassical outline",
+      "Flat bright colour with a hard outline",
+      "A thick plain white body with gilt scrolls",
+      "Printed repeat patterns",
+      "Heavy matt glaze with no depth"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 3,
+    "refinement": 4,
+    "glaze_depth": 5,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "shape": "Slender vases, bottle vases with a long neck, lobed bowls and planters, with a stem, a flower or a wave as part of the form.",
+    "profile": "A swelling S-curve with an asymmetric neck; a handle may rise as a stem from the foot to the rim.",
+    "foot_and_rim": "A small, narrow foot that does not show; the rim opens like a flower, with a wavy or a scalloped edge.",
+    "proportion": "Height 20 to 60 cm; stoneware wall 4 to 8 mm and eggshell porcelain wall 1 to 2 mm.",
+    "rules": [
+      "Make the line of the form fluid and organic, with no hard step.",
+      "Place relief ornament on the form, not as a band.",
+      "Make the glaze run with the curve, not against it."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "stoneware",
+      "porcelain"
+    ],
+    "secondary": [
+      "earthenware"
+    ],
+    "avoid": [
+      "jasperware",
+      "bone-china",
+      "creamware"
+    ],
+    "rule": "Use a dense stoneware for flambé and a fine hard porcelain for eggshell and crystal; earthenware serves for painted and sprayed work."
+  },
+  "forming": {
+    "methods": [
+      "throwing on the wheel and altering by hand",
+      "slip casting of eggshell porcelain",
+      "press moulding of relief",
+      "modelling of plant and animal forms",
+      "paring and turning to a thin wall"
+    ],
+    "joins": "Handles and relief stems are modelled with the body and blended, so that they seem to grow from it.",
+    "details": "A relief that is soft under the glaze, a rim that is hand-shaped, a glaze that pools in the hollows, and a clear maker cipher."
+  },
+  "glaze": {
+    "glazes": [
+      "copper-red",
+      "crystalline-glaze",
+      "matte-glaze",
+      "clear-feldspathic"
+    ],
+    "decorations": [
+      "underglaze-polychrome",
+      "pate-sur-pate",
+      "relief-moulding",
+      "gilding",
+      "incised"
+    ],
+    "pattern": "Orchids, poppies, dragonflies and water in flowing relief; flambé runs of red, purple and blue; crystal flowers on a dark ground.",
+    "gloss": "Wide range: 10 to 20 GU for matt, 60 to 95 GU for flambé and crystal glazes.",
+    "wear": "The glaze is thick and robust; thin porcelain chips at the rim, and the gilt wears on the high points."
+  },
+  "palette": {
+    "strategy": "Deep, subdued colour with one strong effect: blood red and purple flambé, or sea green and grey, with pale gold.",
+    "colours": [
+      {
+        "name": "Ox-blood red",
+        "hex": "#7A1F1F",
+        "role": "flambé"
+      },
+      {
+        "name": "Violet",
+        "hex": "#5A3A6A",
+        "role": "flambé run"
+      },
+      {
+        "name": "Sea green",
+        "hex": "#6C9A8A",
+        "role": "matt glaze"
+      },
+      {
+        "name": "Mist grey",
+        "hex": "#B8BDB8",
+        "role": "ground"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#EFE6D2",
+        "role": "porcelain"
+      },
+      {
+        "name": "Dark moss",
+        "hex": "#3D4A32",
+        "role": "glaze"
+      },
+      {
+        "name": "Pale gold",
+        "hex": "#C9B06A",
+        "role": "line"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A large high-fire kiln with a strong reduction; electric or gas muffle for small pieces and enamel.",
+    "atmosphere": "reduction",
+    "temperature_c": [
+      1000,
+      1300
+    ],
+    "processes": [
+      "first firing of the body at about 1000 °C",
+      "spraying or dipping of the glaze",
+      "high firing in reduction at 1250 to 1300 °C",
+      "slow cooling for crystal growth",
+      "a third small firing for gold or enamel"
+    ],
+    "scale": "Small studios of 10 to 20 workers; each flambé pot is a unique result of the kiln.",
+    "signs": "Runs of colour on the shoulder, crystals of 5 to 30 mm, and thin, translucent walls on the eggshell wares."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "bottle-vase",
+        "form": "Long-necked bottle vase with a dark red flambé glaze",
+        "body": "stoneware",
+        "glaze": "copper-red",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "vase",
+        "form": "Tall vase with an orchid in relief and a flowing handle",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "pate-sur-pate"
+      },
+      {
+        "object": "baluster-vase",
+        "form": "Slender vase with crystals on a dark ground",
+        "body": "porcelain",
+        "glaze": "crystalline-glaze",
+        "decoration": "gilding"
+      },
+      {
+        "object": "planter",
+        "form": "Planter with a lobed rim and a matt sea-green glaze",
+        "body": "stoneware",
+        "glaze": "matte-glaze",
+        "decoration": "incised"
+      },
+      {
+        "object": "display-bowl",
+        "form": "Shallow bowl with a wavy rim and soft painted poppies",
+        "body": "porcelain",
+        "glaze": "clear-feldspathic",
+        "decoration": "underglaze-polychrome"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Art Nouveau ceramic vase",
+      "flowing S-curve vase",
+      "flambé red and violet glaze",
+      "eggshell porcelain, translucent",
+      "orchid relief under glaze",
+      "crystalline glaze on dark ground",
+      "whiplash handle like a stem",
+      "1900 museum photograph, soft light"
+    ],
+    "negative": [
+      "strict symmetry",
+      "flat bold outline colour",
+      "thick plain white body",
+      "printed pattern",
+      "brutalist matt block"
+    ],
+    "canonical_works": [
+      {
+        "work": "Flambé stoneware vase",
+        "maker": "Ernest Chaplet",
+        "year": 1900
+      },
+      {
+        "work": "Eggshell porcelain vase",
+        "maker": "Rozenburg, The Hague",
+        "year": 1900
+      },
+      {
+        "work": "Stoneware vase with a copper red glaze",
+        "maker": "Pierre-Adrien Dalpayrat",
+        "year": 1900
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Flambé stoneware by Alphonse Cytère",
+      "kind": "image",
+      "credit": "Ji-Elle",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alphonse_Cyt%C3%A8re-Gr%C3%A8s_flamm%C3%A9.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Alphonse_Cyt%C3%A8re-Gr%C3%A8s_flamm%C3%A9.jpg/960px-Alphonse_Cyt%C3%A8re-Gr%C3%A8s_flamm%C3%A9.jpg",
+      "maker": "Alphonse Cytère"
+    },
+    {
+      "title": "Bottle by Emile Decoeur, OGAL164",
+      "kind": "image",
+      "credit": "Emile Decoeur",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bouteille%2C_OGAL164.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bouteille%2C_OGAL164.jpg/960px-Bouteille%2C_OGAL164.jpg",
+      "maker": "Emile Decoeur"
+    },
+    {
+      "title": "Bowl by Auguste Delaherche, Paris, about 1901",
+      "kind": "image",
+      "credit": "Sailko",
+      "licence": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aguste_delaherche%2C_ernst_cardeilhac_e_lucien_bonvallet%2C_ciotola%2C_parigi_1901_ca..JPG",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Aguste_delaherche%2C_ernst_cardeilhac_e_lucien_bonvallet%2C_ciotola%2C_parigi_1901_ca..JPG/960px-Aguste_delaherche%2C_ernst_cardeilhac_e_lucien_bonvallet%2C_ciotola%2C_parigi_1901_ca..JPG",
+      "maker": "Auguste Delaherche"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "arts-and-crafts-art-pottery",
+      "american-art-pottery"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-nouveau-object",
+      "art-nouveau-interior",
+      "art-nouveau-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "A feeling of growth and elegance: the viewer sees a plant-like curve and a deep glaze, and wants to touch the surface.",
+    "keywords": [
+      "organic",
+      "flowing",
+      "elegant",
+      "dreamy",
+      "sensuous"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "art nouveau vase",
+      "art nouveau ceramics",
+      "jugendstil pottery",
+      "flambé glaze",
+      "sang de boeuf vase",
+      "eggshell porcelain",
+      "rozenburg",
+      "chaplet stoneware"
+    ],
+    "use_cases": [
+      "a flowing vase for an Art Nouveau interior",
+      "a flambé or crystalline glaze brief",
+      "a museum label on French or Dutch pottery of 1900"
+    ],
+    "avoid_when": [
+      "the brief needs a rustic, undecorated pot",
+      "the brief needs strict geometric form",
+      "the brief needs a flat modern colour"
+    ],
+    "modifiers": [
+      {
+        "request": "more geometric",
+        "toward": "art-deco-tableware",
+        "how": "Replace the S-curve with a stepped or round geometric outline and use flat colour with gilt lines."
+      },
+      {
+        "request": "more hand made, plainer",
+        "toward": "arts-and-crafts-art-pottery",
+        "how": "Use a thick stoneware body with a salt or lustre glaze and keep the throwing rings."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Art Nouveau",
+      "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+    },
+    {
+      "title": "Wikipedia: Ernest Chaplet",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Chaplet"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.65,
+      "min": 0.3,
+      "max": 0.9
+    },
+    "glaze_gloss": {
+      "default": 65,
+      "min": 10,
+      "max": 100
+    },
+    "wall_thickness": {
+      "default": 5,
+      "min": 1,
+      "max": 10,
+      "note": "Eggshell porcelain reaches 1 mm; flambé stoneware is much thicker."
+    },
+    "hand_mark": {
+      "default": 0.55,
+      "min": 0.3,
+      "max": 0.85
+    },
+    "era_blend": {
+      "default": 0.25,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

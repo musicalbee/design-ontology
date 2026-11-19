@@ -210,6 +210,38 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 64,
+      "min": 32,
+      "max": 128
+    },
+    "stroke_width": {
+      "default": 1.5,
+      "min": 0,
+      "max": 1.5
+    },
+    "corner_radius": {
+      "default": 2,
+      "min": 0,
+      "max": 2
+    },
+    "fill_mode": {
+      "default": "solid",
+      "options": [
+        "solid"
+      ],
+      "note": "Each face takes one flat tone; the light sets the tone, not a gradient."
+    },
+    "base_colour": {
+      "default": "#4F86D9",
+      "options": [
+        "#4F86D9",
+        "#2D5BA8",
+        "#FFC857"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Isometric projection, Wikipedia",

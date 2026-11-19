@@ -208,6 +208,24 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Sundance Film Festival** (salon, Park City, Utah, 1978–now), exhibited the style. A festival of independent film. The Blair Witch Project and the iPhone feature Tangerine had their premieres here.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.33:1 | 1.33:1, 1.85:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 30 | 24–30 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 60 | 40–120 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.2 | 0.15–0.25 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -217,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`documentary-verite`](../documentary-verite/SKILL.md)
 - **Mixes well with:** [`dogme-95`](../dogme-95/SKILL.md)
-- **Kin in another domain:** [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Kin in another domain:** [`liminal-spaces`](../liminal-spaces/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Nearest by vector profile:** [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
 
 ## Emotional target

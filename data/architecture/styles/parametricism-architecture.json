@@ -266,6 +266,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 5, "min": 4, "max": 8},
+    "structural_grid": {"default": 30, "min": 18, "max": 30, "note": "Column-free spans reach 90m; the domain stops at 30m."},
+    "glazing_ratio": {"default": 35, "min": 20, "max": 50},
+    "roof_pitch": {"default": 25, "min": 5, "max": 60, "note": "The roof is part of a curved skin, so the pitch changes along the surface."},
+    "base_material": {"default": "concrete", "options": ["concrete", "steel", "glass"]}
+  },
   "sources": [
     {
       "title": "Patrik Schumacher, The Autopoiesis of Architecture, vol. 2 (Wiley, 2012)"

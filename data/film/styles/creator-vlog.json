@@ -304,6 +304,35 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.85:1",
+      "options": [
+        "1.85:1"
+      ],
+      "note": "The 16:9 frame maps to 1.85:1, the nearest option of the domain."
+    },
+    "frame_rate": {
+      "default": 30,
+      "min": 24,
+      "max": 30
+    },
+    "average_shot_length": {
+      "default": 4,
+      "min": 3,
+      "max": 5
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 5000,
+      "max": 5800
+    },
+    "grain": {
+      "default": 0,
+      "min": 0,
+      "max": 0.03
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q674926: vlog",

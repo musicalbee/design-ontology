@@ -211,7 +211,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#hollywood-regency-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#hollywood-regency-interior).
 
 ![Room](../../demo/moodboards/interior/hollywood-regency-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/hollywood-regency-interior/materials.webp)
@@ -219,6 +219,66 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/hollywood-regency-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/hollywood-regency-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/hollywood-regency-interior/objects.webp)
+
+## Object net
+
+Gloss lacquer, mirror glass, gilt brass and tufted velvet in pairs: every object shines, and every light source doubles in a mirror. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.45, finish_gloss 88, era_blend 0.3, hardware_weight 18, edge_radius 4, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#hollywood-regency-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`art-deco-product`](../art-deco-product/SKILL.md)) | Basin | console basin on legs | Marble, polished, veined (#F4F1EA) |
+|  | Basin tap or mixer | swan-neck spout | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Towel rail | pedestal rail on feet | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Bath accessories | shelf-top vessels | Frosted glass, acid-etched or sandblasted, etched or frosted (#D7DCDF) |
+| Electrics ([`art-deco-product`](../art-deco-product/SKILL.md)) | Light switch | dolly toggle on a square plate | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Socket outlet | flush square plate | Bakelite, moulded gloss, mirror-smooth (#111111) |
+|  | Dimmer and control | large knurled rotary knob | Solid brass, polished, knurled (#C9A246) |
+| Lighting ([`art-deco-product`](../art-deco-product/SKILL.md)) | Pendant lamp | tiered chandelier | Pressed glass, clear gloss, pressed pattern (#D7DCDF) |
+|  | Table lamp | ginger-jar base with a drum shade | Porcelain, vitreous gloss glaze, mirror-smooth (#E2735E) |
+|  | Wall sconce | candle arm with a pleated shade | Solid brass, gilded, cast relief ornament (#C9A246) |
+|  | Floor lamp | standard lamp with a pleated shade | Solid brass, polished, mirror-smooth (#C9A246) |
+|  | Curtain pole | pole with spear or acanthus finials | Solid brass, gilded, cast relief ornament (#C9A246) |
+| Storage ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sideboard and cabinet | breakfront with a raised centre | Macassar ebony, french polish, figured grain (#111111) |
+|  | Shelving | open bookcase | Walnut, high-gloss lacquer, fine close grain (#0F6B4F) |
+|  | Wardrobe and tall cabinet | flush built-in wall | Mirror glass, silvered, mirror-smooth (#D7DCDF) |
+|  | Handle, knob and pull | drop pull on a backplate | Solid brass, polished, cast relief ornament (#C9A246) |
+| Soft Furniture ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sofa | tuxedo sofa with flush arms | Velvet, piece-dyed, button-tufted (#E2735E) |
+|  | Armchair and lounge chair | barrel chair | Velvet, lustre pile, button-tufted (#0F6B4F) |
+|  | Ottoman and pouf | button-tufted ottoman | Velvet, piece-dyed, button-tufted (#E2735E) |
+|  | Cushion and throw | bolster | Mohair, piece-dyed, cut pile (#0F6B4F) |
+| Tables ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Dining chair | upholstered parsons chair | Mahogany, french polish, fine close grain (#111111) |
+|  | Low table | glass top on a sculptural base | Mirror glass, silvered, mirror-smooth (#D7DCDF) |
+|  | Console table | demilune half-round | Marble, polished, veined (#F4F1EA) |
+|  | Side table | C-table | Solid brass, gilded, mirror-smooth (#C9A246) |
+| Kitchen ([`art-deco-product`](../art-deco-product/SKILL.md)) | Kitchen front | flat slab door | Walnut, high-gloss lacquer, fine close grain (#0F6B4F) |
+|  | Worktop and splashback | thick mitred stone slab | Marble, polished, veined (#F4F1EA) |
+|  | Kettle and small appliances | stovetop whistling kettle | Chrome-plated brass, polished, mirror-smooth (#D7DCDF) |
+|  | Tableware and glassware | rimmed white plates | Porcelain, gilded, cast relief ornament (#C9A246) |
+|  | Cutlery | fiddle pattern | Silver plate, polished, mirror-smooth |
+| Decor ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Mirror | sunburst mirror | Solid brass, gilded, cast relief ornament (#C9A246) |
+|  | Vase | ginger jar | Porcelain, vitreous gloss glaze, mirror-smooth (#F4F1EA) |
+|  | Bowl, tray and box | lacquer box | Walnut, high-gloss lacquer, fine close grain (#0F6B4F) |
+|  | Picture frame | gilt swept frame | Mahogany, gilded, fine close grain (#C9A246) |
+|  | Candle holder and lantern | candlestick pair | Silver plate, polished, mirror-smooth |
+|  | Rug | plain wool rug with a border | Wool, piece-dyed, cut pile (#F4F1EA) |
+
+Alternates for each category:
+- **Sanitary:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Electrics:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Lighting:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Storage:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Soft Furniture:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Tables:** [`art-deco-product`](../art-deco-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+- **Kitchen:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Decor:** [`art-deco-product`](../art-deco-product/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Ottoman and pouf, Pendant lamp, Table lamp, Wardrobe and tall cabinet, Mirror, Low table, Rug
+- **materials:** Low table, Worktop and splashback, Basin tap or mixer, Sofa, Shelving, Tableware and glassware, Mirror
+- **furniture:** Sofa, Ottoman and pouf, Dining chair, Wardrobe and tall cabinet, Shelving, Console table
+- **textiles:** Sofa, Cushion and throw, Armchair and lounge chair, Ottoman and pouf, Curtain pole
+- **light:** Pendant lamp, Table lamp, Wall sconce, Curtain pole, Floor lamp
+- **objects:** Mirror, Vase, Bowl, tray and box, Picture frame, Candle holder and lantern
 
 ## Vocabulary primer
 
@@ -235,6 +295,43 @@ Reference works:
 | Interiors for film stars in Los Angeles | William Haines | 1935 |
 | Carlyle Hotel interiors | Dorothy Draper | 1930 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Checkerboard (motif)
+
+A grid of squares in two alternate colours, on a floor, in a picture or on a surface. Origin: architecture, Italy, c. 1300.
+
+- Use squares of one size: 300 to 600mm on a floor, or 1/8 to 1/16 of the width of a picture.
+- Lay the grid at 45° to make a small room look wider, or at 0° to show the vanishing point.
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Architectural Digest** (magazine, Los Angeles, 1920–now), published the style. A magazine of interiors and houses. It published the homes of Hollywood stars and later the soft, curved rooms of new glamour.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F4F1EA | #F4F1EA, #0F6B4F | palette |
+| Accent colour (`accent_colour`) | #E2735E | #E2735E, #C9A246, #111111 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3 | 2.7–4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.5 | 0.4–0.65 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -243,7 +340,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **softer and today**: move toward [`neo-deco-interior`](../neo-deco-interior/SKILL.md) (Neo-deco). Replace the gloss with fluted wood and bouclé, round all corners and warm the palette.
 
 - **Came from (go here for a more orthodox version):** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md)
-- **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
+- **Kin in another domain:** [`art-deco-web`](../art-deco-web/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`formal-script`](../formal-script/SKILL.md)
 - **Nearest by vector profile:** [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

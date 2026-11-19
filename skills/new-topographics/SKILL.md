@@ -178,6 +178,26 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Endowment for the Arts** (state programme, Washington, D.C., 1965–now), funded the style. Independent US federal agency created by Congress in 1965. It gave fellowships to photographers.
+- **New Topographics** (exhibition, Rochester, New York, 1975–1976), launched the style. A show of landscape photography at George Eastman House. Its plain views of houses, roads and industry gave a movement its name.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 6500 | 6000–7500 K | colour_and_grade, light |
+| Contrast (`contrast`) | 0.9 | 0.8–1 | colour_and_grade, post_processing |
+| Grain (`grain`) | 125 | 64–200 ISO | process, post_processing |
+| Focal length (`focal_length`) | 45 | 35–55 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5, 2:3 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -188,7 +208,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Led to (go here for a newer version):** [`duesseldorf-school`](../duesseldorf-school/SKILL.md)
 - **Mixes well with:** [`new-colour`](../new-colour/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`hd-2d-diorama`](../hd-2d-diorama/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`normcore`](../normcore/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md)
 - **Nearest by vector profile:** [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`architectural-photography`](../architectural-photography/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
 
 ## Emotional target

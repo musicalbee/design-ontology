@@ -273,6 +273,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3.2, "min": 2.7, "max": 4},
+    "structural_grid": {"default": 4.5, "min": 3, "max": 6},
+    "glazing_ratio": {"default": 25, "min": 15, "max": 35},
+    "roof_pitch": {"default": 15, "min": 0, "max": 35},
+    "base_material": {"default": "stone", "options": ["stone", "concrete", "timber", "brick", "earth"]}
+  },
   "sources": [
     {
       "title": "Kenneth Frampton, Towards a Critical Regionalism (1983)"

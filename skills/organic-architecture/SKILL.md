@@ -186,6 +186,24 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Frank Lloyd Wright Home and Studio** (studio, Oak Park, Illinois, ?–now), made the style. The studio of Frank Lloyd Wright in Oak Park. Here he and his assistants drew the Prairie houses and the first works of organic architecture.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 2.8 | 2.4–3.4 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 3–8 m | structure |
+| Glazing ratio (`glazing_ratio`) | 45 | 30–60 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 5 | 0–20 deg | massing |
+| Base material (`base_material`) | stone | stone, concrete, timber, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -194,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rational**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Straighten the plan into a regular grid, white render and ribbon glass.
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
-- **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Kin in another domain:** [`goblincore`](../goblincore/SKILL.md), [`organic-modern-tableware`](../organic-modern-tableware/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md), [`trencadis`](../trencadis/SKILL.md)
 - **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 
 ## Emotional target

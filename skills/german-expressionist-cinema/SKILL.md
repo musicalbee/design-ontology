@@ -228,6 +228,25 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 - Leave the shadow flat and dark, at 40% to 70% opacity.
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **German government and War Ministry** (state programme, Berlin, ?–now), funded the style. State bodies that gave starting capital to UFA in 1917 with Deutsche Bank. The Supreme Army Command wanted a state film corporation.
+- **UFA** (studio, Berlin, 1917–now), made the style. The large German film company of the Weimar years. Its studios made Metropolis and other films of German Expressionist cinema.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.33:1 | 1.33:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 18 | 16–20 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 8 | 6–10 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 2800 | 2800–8000 K | colour_and_grade, light |
+| Grain (`grain`) | 0.12 | 0.1–0.15 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

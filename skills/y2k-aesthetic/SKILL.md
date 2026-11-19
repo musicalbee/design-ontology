@@ -1,7 +1,7 @@
 ---
 name: y2k-aesthetic
-description: "Apply the Y2K Aesthetic style (1997–2004) when generating UI or graphic layouts. Load when the user asks for: y2k, 2000s, millennium, chrome, cyber, dot-com."
-domain: design
+description: "Apply the Y2K Aesthetic style (1997–2004) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: y2k, 2000s, millennium, chrome, cyber, dot-com."
+domain: internet
 era: postmodern-early-digital
 triggers:
   - "y2k"
@@ -30,7 +30,7 @@ vector_profile:
 
 Chrome and translucent plastic, bubble shapes, silver and electric blue, and small pixel and tech type on cold gradients. It came from the dot-com boom and the first iMac in 1998, and it pictured the year 2000 as a clean, shiny future.
 
-**Period:** 1997–2004 · **Era:** Postmodern & Early Digital · **Domain:** Graphic & UI Design · **Also called:** Millennium Futurism, Cyber Y2K, Techno-Optimism 2000, Web 1.5 Chrome
+**Period:** 1997–2004 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Millennium Futurism, Cyber Y2K, Techno-Optimism 2000, Web 1.5 Chrome
 
 ## When to load this skill
 
@@ -45,7 +45,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Y2K Aesthetic, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Y2K Aesthetic, you MUST:
 
 1. Fill large areas with vertical or radial gradients that run from a pale tint to a saturated hue, over a 40% to 60% lightness range.
 2. Make buttons and badges as glossy pills with a radius of 999px and a white highlight that covers the upper 45% of the shape.
@@ -257,6 +257,14 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Consumer Aesthetics Research Institute** (platform, web, ?–now), published the style. An online community that collects and names the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
+- **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
+- **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
@@ -278,11 +286,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more translucent**: move toward [`glassmorphism`](../glassmorphism/SKILL.md) (Glassmorphism). Raise background blur to 16px to 24px, lower panel opacity to 20% to 40% and drop the chrome; keep the cool palette.
 - If the user asks for **less glossy**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Use a 12-column grid, one sans serif and one blue accent; keep the small upper-case labels.
 
-- **Led to (go here for a newer version):** [`apple-aqua`](../apple-aqua/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Led to (go here for a newer version):** [`apple-aqua`](../apple-aqua/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`flash-intro-site`](../flash-intro-site/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
-- **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`music-video`](../music-video/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`vaporwave`](../vaporwave/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
+- **Mixes well with:** [`cyberdelia`](../cyberdelia/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`health-goth`](../health-goth/SKILL.md), [`myspace-profile`](../myspace-profile/SKILL.md), [`portal-table-layout`](../portal-table-layout/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md), [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`it-bag`](../it-bag/SKILL.md), [`music-video`](../music-video/SKILL.md), [`party-flash`](../party-flash/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
+- **Nearest by vector profile:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`seapunk`](../seapunk/SKILL.md)
 
 ## Emotional target
 
@@ -297,4 +305,4 @@ Excited optimism: the viewer feels that the product is new, fast and part of a b
 
 ---
 
-Generated from [`data/design/styles/y2k-aesthetic.json`](../../data/design/styles/y2k-aesthetic.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/y2k-aesthetic.json`](../../data/internet/styles/y2k-aesthetic.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

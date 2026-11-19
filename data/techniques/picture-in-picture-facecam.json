@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "picture-in-picture-facecam",
+  "name": "Picture-in-picture facecam",
+  "aliases": [
+    "Face window",
+    "Facecam"
+  ],
+  "kind": "montage",
+  "summary": "A small live window of the player's face placed above the main picture, so the viewer sees the action and the reaction together.",
+  "how": [
+    "Set the face window at 18% to 25% of the frame width.",
+    "Place it at a corner with a 24px margin.",
+    "Add a 4px border and a 12px radius.",
+    "Keep the window clear of the game HUD."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 2010,
+    "circa": true,
+    "where": "YouTube",
+    "note": "Game players add a webcam window to their capture of the screen, so that their reaction shows next to the game."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2010,
+      "circa": true,
+      "via": "Players overlay a webcam window on screen captures of games.",
+      "styles": [
+        "lets-play-facecam"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2011,
+      "via": "Live stream layouts keep the face window as a fixed slot.",
+      "styles": [
+        "livestream-overlay"
+      ]
+    }
+  ],
+  "styles": [
+    "lets-play-facecam",
+    "livestream-overlay"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Let's Play",
+      "url": "https://en.wikipedia.org/wiki/Let%27s_Play"
+    },
+    {
+      "title": "Wikipedia: Live streaming",
+      "url": "https://en.wikipedia.org/wiki/Live_streaming"
+    }
+  ]
+}

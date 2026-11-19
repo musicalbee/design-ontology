@@ -170,11 +170,43 @@ Reference works:
 | Törten Estate, Dessau | Walter Gropius | 1928 |
 | ADGB Trade Union School, Bernau | Hannes Meyer and Hans Wittwer | 1930 |
 
-## Media
+## Techniques
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Cantilever (process)
+
+A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air. Origin: architecture, Northern Europe, c. 1300.
+
+- Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
+- Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
+- Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
+
+### Curtain wall (technology)
+
+A thin outer wall of glass and metal that hangs on the frame of the building and carries no floor load. Origin: architecture, San Francisco, United States, 1918.
+
+- Carry the floors on columns set 1 to 3 m back from the facade line.
+- Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
+- Keep the glass part of the facade above 60%.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.3 | 3–4 m | massing, facade |
+| Structural grid (`structural_grid`) | 5.5 | 4.5–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 60 | 40–90 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–3 deg | massing |
+| Base material (`base_material`) | concrete | concrete, glass, steel, brick | materials |
 
 ## Lineage fallbacks
 
@@ -183,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more corporate**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Merge the wings into one slab on a 7.2m grid, run the curtain wall around all sides, and drop the colour planes.
 
 - **Mixes well with:** [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Nearest by vector profile:** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target

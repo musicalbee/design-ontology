@@ -1,0 +1,320 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "tweet-screenshot-meme",
+  "domain": "internet",
+  "name": "Tweet screenshot meme",
+  "aliases": [
+    "Screenshot post meme",
+    "Post card joke"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2015,
+    "end": null,
+    "label": "2015–now"
+  },
+  "primary_mediums": [
+    "image",
+    "mobile"
+  ],
+  "summary": "A cropped screenshot of a short social post in its own interface: avatar, name, text and a row of counters. The joke lives in the words, and the crop and the interface give it proof and tone.",
+  "philosophy": {
+    "core_thesis": "Use the plain look of a social post as a frame, so that the text reads as a real voice.",
+    "design_principles": [
+      "Crop the screenshot to the post card at a width of 550px to 600px with 16px of side padding.",
+      "Show an avatar of 48px (circle), a bold name and a grey handle above the text.",
+      "Set the post text in a system sans-serif at 15px to 17px with a line height of 1.35.",
+      "Keep a row of 4 counters (reply, repost, like, share) in 13px grey type under the text.",
+      "Use a white card on light mode or a #15202B card on dim mode; do not mix them.",
+      "Add a thin 1px border or leave the edge raw; crop with a few pixels of the next post visible.",
+      "Keep the screenshot slightly compressed, as the original; do not sharpen it."
+    ],
+    "anti_patterns": [
+      "Fancy fonts in the post text",
+      "Added decoration around the card",
+      "A cropped avatar with no name",
+      "Perfect, uncompressed rendering of a fake card",
+      "Bright custom backgrounds",
+      "Long threads in one image"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 1
+  },
+  "layout": {
+    "grid_mechanics": "A single column card of 560px width; 16px padding; avatar and text in 2 columns (48px and the rest).",
+    "whitespace_ratio": "The card is dense: 8% to 15% of the area stays empty; spacing steps are 4, 8, 12 and 16px.",
+    "alignment_rules": "Left-aligned text with the avatar at the top left; counters align left under the text.",
+    "container_geometry": "A rectangle with a 0px to 12px radius and a 1px border."
+  },
+  "typography": {
+    "classifications": [
+      "system sans",
+      "neutral sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Roboto",
+        "note": "Inter stands in for the system sans of the interface."
+      },
+      {
+        "display": "Roboto",
+        "body": "Noto Sans",
+        "note": "A second neutral sans for the counters."
+      }
+    ],
+    "tracking": "Body 0; handle 0.",
+    "leading": "Body 1.35; counters 1.2.",
+    "hierarchy_rules": [
+      "Use name in bold (700) at 15px, handle in regular grey.",
+      "Use post text at 17px regular.",
+      "Use counters at 13px grey."
+    ]
+  },
+  "color": {
+    "palette_structure": "A white or dim card, black or white text, grey for the meta text and one blue.",
+    "palette": [
+      {
+        "name": "Card White",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Post Text",
+        "hex": "#0F1419",
+        "role": "text"
+      },
+      {
+        "name": "Meta Grey",
+        "hex": "#536471",
+        "role": "secondary text"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#1D9BF0",
+        "role": "accent"
+      },
+      {
+        "name": "Dim Card",
+        "hex": "#15202B",
+        "role": "dark background"
+      },
+      {
+        "name": "Dim Text",
+        "hex": "#E7E9EA",
+        "role": "dark text"
+      }
+    ],
+    "contrast_rules": "Text #0F1419 on white gives 18:1; meta grey #536471 on white gives 6:1.",
+    "surface_treatment": "Flat card with a 1px light border; no gradient.",
+    "light_and_shadow": "No light and no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A phone or desktop interface, captured as a flat screen image.",
+    "border_rules": "A 1px border #CFD9DE or none; raw crop edges.",
+    "blur_and_elevation": "No blur; no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "A reply, repost, like and share icon at 18px, outline style.",
+    "illustration": "A circle avatar; sometimes a picture or an emoji in the text.",
+    "decorative_elements": [
+      "avatar circle",
+      "counter row",
+      "handle"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static image. A web version types the post text at 40ms per character.",
+    "easing": "linear",
+    "duration_ms": 150,
+    "hover_and_active": "Hover tints the card background by 4% grey."
+  },
+  "lineage": {
+    "evolved_from": [
+      "impact-image-macro"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "starter-pack"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels the post is a real, overheard voice and reads the joke straight.",
+    "keywords": [
+      "plain",
+      "deadpan",
+      "documentary",
+      "quick",
+      "social"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "tweet screenshot",
+      "post screenshot",
+      "screenshot meme",
+      "fake tweet",
+      "x post meme",
+      "social post card",
+      "quote post"
+    ],
+    "use_cases": [
+      "humour threads",
+      "quote cards",
+      "news satire",
+      "chat reaction images"
+    ],
+    "avoid_when": [
+      "The post imitates a real private person.",
+      "The post makes false claims that could mislead."
+    ],
+    "modifiers": [
+      {
+        "request": "more graphic",
+        "toward": "impact-image-macro",
+        "how": "Move the text out of the card into outlined capitals on a photo."
+      },
+      {
+        "request": "more weird",
+        "toward": "surreal-meme",
+        "how": "Keep the card but pair it with a strange image and a calm, odd line."
+      },
+      {
+        "request": "dark mode",
+        "toward": "dark-devtool-ui",
+        "how": "Switch to the #15202B dim card with #E7E9EA text and #8B98A5 meta text."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.35,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A neutral outline family that matches interface counters."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "none",
+      "seed": 16
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rules",
+      "why": "Thin rules between cards echo the feed list."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#F7F9F9",
+      "--color-text": "#0F1419",
+      "--color-muted": "#536471",
+      "--color-primary": "#1D9BF0",
+      "--color-accent": "#1D9BF0",
+      "--color-border": "#CFD9DE",
+      "--font-sans": "\"Inter\", \"Roboto\", sans-serif",
+      "--font-display": "\"Inter\", \"Roboto\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "linear",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-[#0F1419] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-xl font-bold leading-[1.2]"
+      },
+      {
+        "element": "body",
+        "classes": "text-[17px] leading-[1.35] max-w-[560px]"
+      },
+      {
+        "element": "card",
+        "classes": "border border-[#CFD9DE] rounded-xl bg-white p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#1D9BF0] px-4 py-2 text-sm font-bold text-[#0F1419] hover:bg-[#1A8CD8]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#1D9BF0",
+        "#0F1419"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#1D9BF0",
+        "#536471"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.2,
+      "min": 1.125,
+      "max": 1.25
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Internet meme",
+      "url": "https://en.wikipedia.org/wiki/Internet_meme"
+    },
+    {
+      "title": "Know Your Meme: Tweet Screenshots"
+    }
+  ]
+}

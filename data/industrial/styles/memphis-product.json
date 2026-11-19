@@ -1,0 +1,426 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "memphis-product",
+  "domain": "industrial",
+  "name": "Memphis product",
+  "aliases": [
+    "Memphis Milano objects",
+    "Memphis design furniture",
+    "Postmodern laminate furniture"
+  ],
+  "era_id": "postmodern-plural",
+  "time_period": {
+    "start": 1981,
+    "end": 1990,
+    "label": "1981–1990"
+  },
+  "region": "Milan, Italy",
+  "summary": "The objects of the Memphis group: bookcases, tables, lamps and ceramics built from bright laminate, terrazzo and coloured glass, in stacked geometric shapes with loud patterns.",
+  "philosophy": {
+    "core_thesis": "An object is a toy for the mind: it joins cheap, bright materials with symbols and jokes, and it refuses the rule that good taste is quiet.",
+    "design_principles": [
+      "Build each piece from 3 to 7 simple solids: a cube, a cone, a sphere, a slab and a bar.",
+      "Cover a flat plane with plastic laminate in a bold pattern of dots, stripes, squiggles or speckles.",
+      "Use 4 or more contrasting colours on one object; set a pastel next to a saturated hue.",
+      "Make the form asymmetrical: a bookcase has arms, steps and angled shelves.",
+      "Join cheap and rich materials: laminate with terrazzo, or enamel with coloured glass.",
+      "Put a visible joint or a colour change on every junction where two solids meet.",
+      "Give each object a name and a joke; use it as a sign more than as a tool."
+    ],
+    "anti_patterns": [
+      "One neutral colour on the whole object",
+      "Symmetrical forms with plain faces",
+      "Natural wood left raw and unpatterned",
+      "Hidden joints and flush panels",
+      "Chrome tube functionalism",
+      "Quiet grey and beige palettes"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "hand_finish": 2,
+    "material_warmth": 2,
+    "visual_mass": 4,
+    "chromatic_intensity": 5
+  },
+  "form": {
+    "geometry": "Stacked cubes, cones, spheres, slabs and bars, joined at angles that break the right angle.",
+    "silhouette": "An asymmetrical totem or a tilted stack with arms, steps and a small top element.",
+    "edges": "Sharp edges on slabs and planes with a radius of 0 to 3 mm; spheres and cones give the only curves.",
+    "proportion": "A bookcase is about 190 cm high and 190 cm wide; a table top is 4 to 6 cm thick on short legs; a lamp has a base of 15 to 25 cm.",
+    "ornament": "All over. The surface is the main part of the design: dots, stripes, squiggles, terrazzo chips and a bold black and white grid.",
+    "rules": [
+      "Each object has 3 to 7 primary solids.",
+      "Each large plane carries one pattern.",
+      "Each object uses 4 or more colours from 4 different hue groups.",
+      "The top outline is asymmetrical.",
+      "At least 50% of the visible surface carries a printed or pressed pattern."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "plastic-laminate",
+      "terrazzo",
+      "coloured-glass",
+      "enamelled-steel",
+      "cotton"
+    ],
+    "secondary": [
+      "porcelain",
+      "vitreous-china",
+      "stoneware",
+      "chrome-plated-steel",
+      "mild-steel",
+      "aluminium",
+      "abs-plastic",
+      "acrylic",
+      "wool",
+      "plaster",
+      "birch-plywood",
+      "maple",
+      "pvc",
+      "solid-brass"
+    ],
+    "avoid": [
+      "mahogany",
+      "rosewood",
+      "rattan",
+      "washi-paper",
+      "cast-iron"
+    ],
+    "rule": "Laminate and terrazzo make about 60% of the visible surface; glass, ceramic and printed cotton give the rest."
+  },
+  "finish": {
+    "finishes": [
+      "lacquered",
+      "vitreous-glaze",
+      "honed",
+      "clear-gloss",
+      "printed",
+      "painted-matte",
+      "gloss-enamel"
+    ],
+    "textures": [
+      "satin-smooth",
+      "mirror-smooth",
+      "aggregate",
+      "twill"
+    ],
+    "gloss": "30–70 GU on laminate; 80–95 GU on glaze and glass; 5–15 GU on terrazzo",
+    "patina": "The style wants a new, flat and clean surface; a worn pattern or a chip is a fault."
+  },
+  "hardware": {
+    "metal_tone": "chrome",
+    "section": "Rods and legs 12–25 mm; a tube leg or a stem 20–30 mm",
+    "joints": "Visible planes joined at angles; a colour change marks each joint.",
+    "handles": "A round or a cone knob in a bright colour, or a plain slot cut in the laminate.",
+    "switches_and_taps": "A flat square rocker in white or a primary colour; a plain round chrome tap."
+  },
+  "palette": {
+    "strategy": "Four or more contrasting colours on each piece: a saturated primary, a candy pastel, black and white, with a terrazzo or squiggle pattern.",
+    "colours": [
+      {
+        "name": "Memphis pink",
+        "hex": "#F08FB0",
+        "role": "laminate plane"
+      },
+      {
+        "name": "Sky blue",
+        "hex": "#3EA5DC",
+        "role": "leg, slab"
+      },
+      {
+        "name": "Sun yellow",
+        "hex": "#F2C21B",
+        "role": "cone, step"
+      },
+      {
+        "name": "Black",
+        "hex": "#1A1A1A",
+        "role": "grid, outline"
+      },
+      {
+        "name": "Mint",
+        "hex": "#7ED4B0",
+        "role": "pastel counter plane"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "laminate pressing and veneering",
+      "wood and board assembly",
+      "terrazzo casting",
+      "lead glass blowing",
+      "ceramic casting and glazing"
+    ],
+    "scale": "Small series of a few hundred pieces from Italian workshops, then licensed copies in cheaper laminate.",
+    "signs": "A thin edge band of contrast colour, a printed squiggle on a laminate plane, and a joint where two colours meet."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "basin",
+        "form": "wall-hung rectangle in white glaze",
+        "material": "vitreous-china",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "flush rocker on a square plate in bright colour",
+        "material": "abs-plastic",
+        "finish": "moulded-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "table-lamp",
+        "form": "stacked geometric lamp on a laminate base",
+        "material": "coloured-glass",
+        "finish": "clear-gloss",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "totem bookcase with angled shelves",
+        "material": "plastic-laminate",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "armchair with a printed cover on a laminate frame",
+        "material": "cotton",
+        "finish": "printed",
+        "texture": "twill"
+      },
+      {
+        "category": "tables",
+        "object": "coffee-table",
+        "form": "low table with a terrazzo top on four colour legs",
+        "material": "terrazzo",
+        "finish": "honed",
+        "texture": "aggregate"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "stacking geometric set with banded glaze",
+        "material": "porcelain",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "vase",
+        "form": "faceted vase with banded glaze",
+        "material": "porcelain",
+        "finish": "vitreous-glaze",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1980s Memphis Milano object",
+      "stacked geometric solids",
+      "bold plastic laminate pattern",
+      "squiggle and confetti print",
+      "terrazzo tabletop",
+      "contrasting pastel and primary colours",
+      "asymmetrical totem bookcase",
+      "black and white grid",
+      "coloured glass lamp",
+      "postmodern playful furniture",
+      "studio product photograph, flat light"
+    ],
+    "negative": [
+      "minimalist plain",
+      "natural raw wood",
+      "symmetry",
+      "monochrome neutral",
+      "chrome tube",
+      "rustic"
+    ],
+    "canonical_works": [
+      {
+        "work": "Carlton bookcase",
+        "maker": "Ettore Sottsass",
+        "year": 1981
+      },
+      {
+        "work": "Tahiti lamp",
+        "maker": "Ettore Sottsass",
+        "year": 1981
+      },
+      {
+        "work": "Super lamp",
+        "maker": "Martine Bedin",
+        "year": 1981
+      },
+      {
+        "work": "Tartar table",
+        "maker": "Ettore Sottsass",
+        "year": 1985
+      },
+      {
+        "work": "First armchair",
+        "maker": "Michele De Lucchi",
+        "year": 1983
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Ettore sottsass per memphis, libreria carlton, 1981",
+      "kind": "image",
+      "maker": "Ettore Sottsass",
+      "year": 1981,
+      "credit": "Sailko",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ettore_sottsass_per_memphis,_libreria_carlton,_1981.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ettore_sottsass_per_memphis%2C_libreria_carlton%2C_1981.jpg/960px-Ettore_sottsass_per_memphis%2C_libreria_carlton%2C_1981.jpg"
+    },
+    {
+      "title": "Ettore sottsass per memphis, tavolo tartar, 1985",
+      "kind": "image",
+      "maker": "Ettore Sottsass",
+      "year": 1985,
+      "credit": "Sailko",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ettore_sottsass_per_memphis,_tavolo_tartar,_1985.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Ettore_sottsass_per_memphis%2C_tavolo_tartar%2C_1985.JPG/960px-Ettore_sottsass_per_memphis%2C_tavolo_tartar%2C_1985.JPG"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "space-age-pop-product"
+    ],
+    "rebelled_against": [
+      "ulm-braun-functionalism"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "memphis-design",
+      "memphis-interior",
+      "dopamine-decor"
+    ]
+  },
+  "emotion": {
+    "target_response": "Surprise and delight: the viewer laughs at a bright, odd object and sees that taste can be a game.",
+    "keywords": [
+      "playful",
+      "loud",
+      "patterned",
+      "postmodern",
+      "ironic"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "memphis design",
+      "memphis milano",
+      "sottsass",
+      "postmodern furniture",
+      "80s laminate",
+      "terrazzo and squiggle",
+      "totem bookcase",
+      "1980s geometric lamp"
+    ],
+    "use_cases": [
+      "a maximalist interior moodboard",
+      "product briefs for a Memphis-inspired collection",
+      "a prop list for an 1980s set",
+      "a pattern study for a laminate range"
+    ],
+    "avoid_when": [
+      "The room needs calm, quiet or natural objects.",
+      "The brief asks for one neutral colour or no pattern."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer and plainer",
+        "toward": "super-normal-product",
+        "how": "Remove the pattern, keep one simple solid in matte white plastic or pale wood."
+      },
+      {
+        "request": "more futurist and smooth",
+        "toward": "space-age-pop-product",
+        "how": "Fuse the solids into one moulded body with one gloss colour."
+      },
+      {
+        "request": "more rational",
+        "toward": "ulm-braun-functionalism",
+        "how": "Align the solids on a grid, use grey and white, and drop the pattern."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.6,
+      "min": 0.3,
+      "max": 1
+    },
+    "material_warmth": {
+      "default": 0.25,
+      "min": 0.1,
+      "max": 0.5
+    },
+    "finish_gloss": {
+      "default": 55,
+      "min": 20,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A reissue keeps the style; a new object keeps the stack of solids and the pattern."
+    },
+    "hardware_weight": {
+      "default": 18,
+      "min": 8,
+      "max": 35
+    },
+    "edge_radius": {
+      "default": 2,
+      "min": 0,
+      "max": 25
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "nickel",
+        "stainless",
+        "brass",
+        "black",
+        "white",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Memphis Group",
+      "url": "https://en.wikipedia.org/wiki/Memphis_Group"
+    },
+    {
+      "title": "Wikipedia: Ettore Sottsass",
+      "url": "https://en.wikipedia.org/wiki/Ettore_Sottsass"
+    },
+    {
+      "title": "Wikipedia: Michele De Lucchi",
+      "url": "https://en.wikipedia.org/wiki/Michele_De_Lucchi"
+    }
+  ]
+}

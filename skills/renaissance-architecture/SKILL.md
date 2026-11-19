@@ -174,6 +174,37 @@ Reference works:
 | Villa Capra "La Rotonda", Vicenza | Andrea Palladio | 1570 |
 | Basilica of San Giorgio Maggiore, Venice | Andrea Palladio | 1610 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Arch (motif)
+
+A curved head over an opening that carries load as compression; inside, a soft frame for a door, a mirror or a niche. Origin: architecture, Rome, c. 200 BCE.
+
+- Use a semicircular head: the rise is half the span.
+- Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
+- In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Arte della Lana** (company, Florence, ?–now), funded the style. The wool guild of Florence. It took over the patronage of the cathedral in 1331 and ran the dome competition in 1418.
+- **Opera di Santa Maria del Fiore** (church, Florence, ?–now), made the style. The works office of Florence Cathedral. It ran the competition and the building site for the dome of Brunelleschi.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 5 | 4–6 m | massing, facade |
+| Structural grid (`structural_grid`) | 6 | 5–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 20 | 15–25 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 20 | 10–30 deg | massing |
+| Base material (`base_material`) | stone | stone, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -182,7 +213,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`baroque-architecture`](../baroque-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`gothic-architecture`](../gothic-architecture/SKILL.md)
-- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`della-robbia-relief`](../della-robbia-relief/SKILL.md), [`garalde-old-style`](../garalde-old-style/SKILL.md), [`renaissance-banquet`](../renaissance-banquet/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Nearest by vector profile:** [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md)
 
 ## Emotional target

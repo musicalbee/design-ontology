@@ -205,7 +205,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#grandmillennial-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#grandmillennial-interior).
 
 ![Room](../../demo/moodboards/interior/grandmillennial-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/grandmillennial-interior/materials.webp)
@@ -213,6 +213,61 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/grandmillennial-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/grandmillennial-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/grandmillennial-interior/objects.webp)
+
+## Object net
+
+Printed cotton chintz, polished mahogany, cane, glazed blue-and-white porcelain and polished brass fill the room. Pleated shades, skirts and ruffles keep the forms soft and traditional. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.65, finish_gloss 40, era_blend 0.4, hardware_weight 14, edge_radius 6, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#grandmillennial-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`victorian-manufacture`](../victorian-manufacture/SKILL.md)) | Bath | roll-top on claw feet | Cast iron, gloss enamel, cast relief ornament (#F3EBDD) |
+|  | Basin | pedestal basin | Porcelain, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Basin tap or mixer | cross-head pillar taps | Solid brass, polished, mirror-smooth |
+|  | WC | high-level cistern with pull chain | Fireclay, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+| Electrics ([`victorian-manufacture`](../victorian-manufacture/SKILL.md)) | Light switch | dolly toggle on a square plate | Porcelain, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Socket outlet | flush square plate | Porcelain, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#F3EBDD) |
+| Lighting ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Table lamp | ginger-jar base with a drum shade | Porcelain, vitreous gloss glaze, mirror-smooth (#2F4F8A) |
+|  | Floor lamp | standard lamp with a pleated shade | Silk, piece-dyed, plain weave (#E3A6A4) |
+|  | Curtain pole | thick turned pole with ball finials | Solid brass, polished, mirror-smooth |
+|  | Curtain track and blind | Roman blind | Cotton, printed, plain weave (#E3A6A4) |
+| Storage ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Chest of drawers | bow-front chest on bracket feet | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Sideboard and cabinet | dresser with an open plate rack | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Handle, knob and pull | drop pull on a backplate | Solid brass, polished, cast relief ornament |
+| Soft Furniture ([`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)) | Sofa | Chesterfield with rolled arms | Cotton, printed, twill or herringbone (#E3A6A4) |
+|  | Armchair and lounge chair | spindle-back armchair | Cane, natural, undyed, woven cane (#C6A273) |
+|  | Ottoman and pouf | footstool on turned legs | Wool, printed, plain weave (#2F4F8A) |
+|  | Cushion and throw | square with piping | Cotton, printed, twill or herringbone (#7A9A5B) |
+| Tables ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Dining table | extending table with leaves | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Side table | tripod | Mahogany, french polish, fine close grain (#6B3F2A) |
+|  | Console table | demilune half-round | Mahogany, french polish, figured grain (#6B3F2A) |
+|  | Dining chair | spindle-back Windsor chair | Mahogany, french polish, figured grain (#6B3F2A) |
+| Kitchen ([`victorian-manufacture`](../victorian-manufacture/SKILL.md)) | Kitchen front | Shaker frame-and-panel door | Oak, eggshell paint, fine close grain (#7A9A5B) |
+|  | Kitchen sink and tap | fireclay butler sink with an apron front | Fireclay, vitreous gloss glaze, mirror-smooth (#F3EBDD) |
+|  | Tableware and glassware | patterned transfer-printed plates | Porcelain, vitreous gloss glaze, mirror-smooth (#2F4F8A) |
+|  | Cookware | enamelled cast-iron casserole | Cast iron, gloss enamel, mirror-smooth (#E0745B) |
+| Decor ([`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)) | Vase | ginger jar | Porcelain, vitreous gloss glaze, crackle glaze (#2F4F8A) |
+|  | Picture frame | gilt swept frame | Mahogany, gilded, fine close grain |
+|  | Mirror | gilt overmantel mirror | Mirror glass, gilded, mirror-smooth |
+|  | Rug | hand-knotted oriental rug | Wool, piece-dyed, knotted pile (#C6A273) |
+
+Alternates for each category:
+- **Sanitary:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Electrics:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)
+- **Lighting:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Storage:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Soft Furniture:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`victorian-manufacture`](../victorian-manufacture/SKILL.md)
+- **Tables:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Kitchen:** [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+- **Decor:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Side table, Table lamp, Mirror, Picture frame, Curtain track and blind, Rug, Vase
+- **materials:** Sofa, Armchair and lounge chair, Side table, Table lamp, Cushion and throw, Handle, knob and pull, Curtain pole
+- **furniture:** Sofa, Armchair and lounge chair, Ottoman and pouf, Side table, Chest of drawers, Sideboard and cabinet, Dining chair
+- **textiles:** Sofa, Cushion and throw, Ottoman and pouf, Curtain track and blind, Rug, Curtain pole
+- **light:** Table lamp, Floor lamp, Curtain pole, Curtain track and blind
+- **objects:** Vase, Picture frame, Mirror, Tableware and glassware, Rug
 
 ## Vocabulary primer
 
@@ -228,6 +283,44 @@ Reference works:
 | Chintz-filled rooms for Colefax and Fowler | Sibyl Colefax and John Fowler | 1938 |
 | Interiors of the English country house style | Nancy Lancaster | 1950 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chinoiserie (motif)
+
+European ornament after Chinese and East Asian art: pagodas, figures, birds and branches on lacquer, porcelain and paper. Origin: interior, Versailles, France, 1670.
+
+- Paint branches, birds and small figures over a plain ground of 50% or more.
+- Use blue and white, or gold on black or red lacquer.
+- Put one room or one wall in chinoiserie, not the whole house.
+
+### Chintz (material)
+
+Cotton printed with large flowers and birds, often glazed, used for curtains, covers and walls. Origin: interior, India, c. 1600.
+
+- Use one large floral repeat of 40 to 70 cm for curtains and covers.
+- Combine it with one stripe or check in a colour of the flowers.
+- Repeat the same print on 2 to 3 pieces in the room.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **House Beautiful** (magazine, New York, 1896–now), published the style. An American interior design magazine. In 2019 it made the name grandmillennial popular for the young taste for chintz, ruffles and old pieces.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F3EBDD | #F3EBDD, #E3A6A4 | palette |
+| Accent colour (`accent_colour`) | #E0745B | #E0745B, #2F4F8A, #7A9A5B | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.7 | 2.4–3.4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.75 | 0.6–0.9 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -237,7 +330,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`georgian-interior`](../georgian-interior/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`minimalist-interior`](../minimalist-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`cottagecore`](../cottagecore/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 - **Nearest by vector profile:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md)
 
 ## Emotional target

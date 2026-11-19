@@ -269,6 +269,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 5, "min": 4, "max": 7},
+    "structural_grid": {"default": 5, "min": 4, "max": 6},
+    "glazing_ratio": {"default": 20, "min": 15, "max": 25},
+    "roof_pitch": {"default": 20, "min": 10, "max": 30},
+    "base_material": {"default": "stone", "options": ["stone", "brick"]}
+  },
   "sources": [
     {
       "title": "Robin Middleton and David Watkin, Neoclassical and 19th Century Architecture (Abrams, 1980)"

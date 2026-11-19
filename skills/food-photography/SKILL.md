@@ -165,6 +165,38 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Tilt-shift (tool)
+
+Lens or camera movements that keep vertical lines parallel and move the plane of focus; a building stands upright and sharp. Origin: photography, Vienna, 1904.
+
+- Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.
+- Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.
+- Close the lens to f/11 to f/22 for full depth of field.
+- In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Bon Appétit** (magazine, New York, 1956–now), published the style. An American food magazine. Its food photography sets the look of home cooking in print and online.
+- **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5200 | 4800–5600 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.15 | 1.05–1.3 | colour_and_grade, post_processing |
+| Grain (`grain`) | 100 | 100–400 ISO | process, post_processing |
+| Focal length (`focal_length`) | 100 | 50–105 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5, 1:1, 2:3 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -174,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Mixes well with:** [`fashion-editorial`](../fashion-editorial/SKILL.md)
-- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`dopamine-decor`](../dopamine-decor/SKILL.md)
+- **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`dopamine-decor`](../dopamine-decor/SKILL.md), [`flat-lay-feed`](../flat-lay-feed/SKILL.md)
 - **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`cinematic-teal-orange`](../cinematic-teal-orange/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md)
 
 ## Emotional target

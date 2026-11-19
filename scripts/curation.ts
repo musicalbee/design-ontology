@@ -5,7 +5,7 @@
  *   identity      name, dated period, summary, era, and a lineage edge or a root reason
  *   people        at least one person in data/people/ with a role
  *   techniques    at least one technique in data/techniques/
- *   media         at least one medium in data/media/
+ *   orgs          at least one organisation in data/orgs/
  *   assets        each asset type of the domain (domains/<domain>.json `assets`)
  *   permutations  a range for each knob of the domain (domains/<domain>.json `knobs`)
  *
@@ -18,9 +18,9 @@ import { execFileSync } from "node:child_process";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { checkValue, knobDefault } from "./permute.js";
-import { ROOT, readJson, type Domain, type Medium, type Person, type Style, type Technique } from "./lib.js";
+import { ROOT, readJson, type Domain, type Org, type Person, type Style, type Technique } from "./lib.js";
 
-export const RULES = ["identity", "people", "techniques", "media", "assets", "permutations"] as const;
+export const RULES = ["identity", "people", "techniques", "orgs", "assets", "permutations"] as const;
 export type Rule = (typeof RULES)[number];
 
 export interface Allowlist {
@@ -101,7 +101,7 @@ export function knobProblems(style: Style, domain: Domain): { missing: string[];
 export interface Layers {
   people: Person[];
   techniques: Technique[];
-  media: Medium[];
+  orgs: Org[];
 }
 
 /** The rules that one style misses, with a reason for each, and the hard errors in its curation data. */
@@ -109,7 +109,7 @@ export function curate(style: Style, domain: Domain, eraIds: Set<string>, layers
   const misses = new Map<Rule, string>();
   const errors: string[] = [];
   const l = style.lineage;
-  const edges = l.evolved_from.length + l.rebelled_against.length + l.hybridized_with.length + (l.echoes?.length ?? 0);
+  const edges = l.evolved_from.length + l.rebelled_against.length + l.hybridized_with.length + (l.echoes?.length ?? 0) + (l.subgenre_of ? 1 : 0);
   const id: string[] = [];
   if (!style.name?.trim()) id.push("no name");
   if (!style.summary?.trim()) id.push("no summary");
@@ -121,7 +121,7 @@ export function curate(style: Style, domain: Domain, eraIds: Set<string>, layers
 
   if (!layers.people.some((p) => p.styles.some((s) => s.style === style.id))) misses.set("people", "no person in data/people/");
   if (!layers.techniques.some((t) => t.styles.includes(style.id))) misses.set("techniques", "no technique in data/techniques/");
-  if (!layers.media.some((m) => m.styles.some((s) => s.style === style.id))) misses.set("media", "no medium in data/media/");
+  if (!layers.orgs.some((m) => m.styles.some((s) => s.style === style.id))) misses.set("orgs", "no organisation in data/orgs/");
 
   const assets = assetMisses(style, domain);
   if (assets.length) misses.set("assets", assets.join("; "));

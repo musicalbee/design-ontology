@@ -1,0 +1,195 @@
+{
+  "id": "internet",
+  "former_ids": [
+    "design"
+  ],
+  "order": 1,
+  "name": "Internet",
+  "schema": "schema/domains/internet.schema.json",
+  "task": "generating web pages, apps, memes, short video frames and other images of internet culture",
+  "vectors": [
+    {
+      "key": "ornamentation",
+      "label": "Ornamentation",
+      "abbr": "ORN",
+      "low": "pure minimal",
+      "high": "maximalist"
+    },
+    {
+      "key": "dimensionality",
+      "label": "Dimensionality",
+      "abbr": "DIM",
+      "low": "strictly 2D",
+      "high": "full 3D / spatial"
+    },
+    {
+      "key": "grid_rigidity",
+      "label": "Grid rigidity",
+      "abbr": "GRID",
+      "low": "chaotic / organic",
+      "high": "strict mathematical grid"
+    },
+    {
+      "key": "skeuomorphic_realism",
+      "label": "Skeuomorphic realism",
+      "abbr": "REAL",
+      "low": "abstract digital",
+      "high": "photorealistic material"
+    },
+    {
+      "key": "typographic_expressiveness",
+      "label": "Typographic expressiveness",
+      "abbr": "TYPE",
+      "low": "neutral / invisible",
+      "high": "experimental / illustrative"
+    }
+  ],
+  "facets": [
+    {
+      "key": "layout",
+      "title": "Spatial & grid logic"
+    },
+    {
+      "key": "typography",
+      "title": "Typography"
+    },
+    {
+      "key": "color",
+      "title": "Colour & lighting"
+    },
+    {
+      "key": "materiality",
+      "title": "Materiality & texture"
+    },
+    {
+      "key": "ornamentation_details",
+      "title": "Ornamentation & iconography"
+    },
+    {
+      "key": "motion",
+      "title": "Motion & interactivity"
+    }
+  ],
+  "assets": [
+    {
+      "type": "hero",
+      "purpose": "The first screen of a page: an abstract plate in the visual language of the style.",
+      "made_by": "code",
+      "file": "skills/{id}/pack/hero.svg",
+      "input": "visual.art.recipe",
+      "generator": "scripts/pack.ts (visual.art.recipe)",
+      "canvas": [
+        {
+          "width": 800,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "type": "pattern-tile",
+      "purpose": "A seamless tile for a section ground or a card fill.",
+      "made_by": "code",
+      "file": "skills/{id}/pack/pattern.svg",
+      "input": "visual.art.pattern",
+      "generator": "scripts/pack.ts (visual.art.pattern)",
+      "canvas": [
+        {
+          "width": 80,
+          "height": 80
+        }
+      ]
+    },
+    {
+      "type": "icon-sheet",
+      "purpose": "An open-source icon set in the stroke, the corners and the fill of the style.",
+      "made_by": "code",
+      "file": "skills/{id}/pack/icons.svg",
+      "input": "visual.icon.pack",
+      "generator": "scripts/pack.ts (visual.icon)",
+      "canvas": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "type": "tokens",
+      "purpose": "The CSS custom properties that the knobs derive.",
+      "made_by": "code",
+      "file": "skills/{id}/tokens.css",
+      "input": "tokens.css",
+      "generator": "scripts/permute.ts",
+      "canvas": []
+    }
+  ],
+  "knobs": [
+    {
+      "key": "base_colour",
+      "label": "Base colour",
+      "kind": "colour",
+      "description": "The primary colour: buttons, links on a surface, the main mark.",
+      "drives": [
+        "--color-primary",
+        "--color-on-primary",
+        "--color-link-on-surface"
+      ],
+      "token": "--color-primary"
+    },
+    {
+      "key": "accent_colour",
+      "label": "Accent colour",
+      "kind": "colour",
+      "description": "The second colour: the accent field and the link on the background.",
+      "drives": [
+        "--color-accent",
+        "--color-on-accent",
+        "--color-link"
+      ],
+      "token": "--color-accent"
+    },
+    {
+      "key": "corner_radius",
+      "label": "Corner radius",
+      "kind": "length",
+      "unit": "px",
+      "min": 0,
+      "max": 999,
+      "description": "The radius of each container corner. 999 makes a pill. If the token gives more than one corner, the knob is the largest corner, and the other corners scale with it.",
+      "drives": [
+        "--border-radius"
+      ],
+      "token": "--border-radius"
+    },
+    {
+      "key": "grid_step",
+      "label": "Grid step",
+      "kind": "length",
+      "unit": "px",
+      "min": 2,
+      "max": 16,
+      "description": "The base unit of the space scale. If the style has a gutter token, the gutter moves with it.",
+      "drives": [
+        "--space-unit",
+        "--grid-gutter"
+      ],
+      "token": "--space-unit"
+    },
+    {
+      "key": "type_scale_ratio",
+      "label": "Type scale ratio",
+      "kind": "number",
+      "min": 1.067,
+      "max": 1.618,
+      "description": "The ratio between two steps of the type scale, from the body size up. The small size is body / ratio. The scale skips body x ratio, which stays free for a lead paragraph or a subhead: h3 is body x ratio^2, h2 is body x ratio^3 and h1 is body x ratio^4.",
+      "drives": [
+        "--type-ratio",
+        "--size-small",
+        "--size-h3",
+        "--size-h2",
+        "--size-h1"
+      ]
+    }
+  ],
+  "description": "Internet culture in ten branches: web and app UI, net aesthetics, memes, short vertical video, GIFs and stickers, creator and streaming, social photo feeds, -core subcultures, net art and the early web, and AI-native images. Each style carries CSS tokens, a type pairing and a palette, so that an agent can dress a page or a frame in it."
+}

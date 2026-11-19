@@ -1,0 +1,355 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "barbiecore",
+  "domain": "internet",
+  "name": "Barbiecore",
+  "aliases": [
+    "Barbie pink",
+    "Hot pink look"
+  ],
+  "branch": "core-subcultures",
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–now"
+  },
+  "primary_mediums": [
+    "image",
+    "video",
+    "mobile",
+    "web"
+  ],
+  "summary": "One hot pink on everything: pink dresses, pink plastic, pink houses and glossy toy shine. Photos of a Barbie film set in 2022 started the trend, and a pink season in fashion followed.",
+  "philosophy": {
+    "core_thesis": "Make the whole world one pink, and play with it: toy gloss and total colour turn a doll into a dress code.",
+    "design_principles": [
+      "Set the ground in hot pink (#E0218A) or pale pink (#FFE3F1) and keep pink at 60% or more of the frame.",
+      "Add one set of supports: white (#FFFFFF), sky blue (#7FD0F2) and a dark plum (#4A0F32) for text.",
+      "Set headings in a heavy, round or wide sans at 56px to 120px, tight at -0.02em, in white on pink or plum on pale pink.",
+      "Give surfaces toy gloss: a white diagonal highlight at 35% opacity and a 2px inner edge of lighter pink.",
+      "Dress one subject in head-to-toe pink, shot front-on against a matching pink wall.",
+      "Use rounded boxes of 20px to 32px, pill buttons and star or heart sparkles of 16px to 32px.",
+      "Frame products as packaging: a window box with a pink backing card and a plain price tag."
+    ],
+    "anti_patterns": [
+      "Muted, earth or grey palettes",
+      "Dark, moody grading",
+      "Thin serif text",
+      "Rough or grungy textures",
+      "Minimal neutral layouts",
+      "Several competing accent colours"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; the hero is a pink block with a product or a figure at 45% width, and products sit in a 3-column row.",
+    "whitespace_ratio": "25% to 35% of the surface stays empty; the spacing scale is 8, 16, 24 and 48px.",
+    "alignment_rules": "Centred or flush-left headings; sparkles sit at the corners of cards.",
+    "container_geometry": "Rounded boxes with a 24px radius, a window-box frame with a 2px white edge, and pill buttons of 999px."
+  },
+  "typography": {
+    "classifications": [
+      "heavy round sans",
+      "wide sans",
+      "script accent"
+    ],
+    "font_pairings": [
+      {
+        "display": "Poppins",
+        "body": "Poppins",
+        "note": "A geometric sans in ExtraBold for headings; an open stand-in for the heavy toy-brand wordmark face."
+      },
+      {
+        "display": "Lilita One",
+        "body": "Nunito",
+        "note": "A fat, friendly display face with a soft text sans."
+      },
+      {
+        "display": "Montserrat",
+        "body": "Montserrat",
+        "note": "A wide geometric sans that reads well in white on pink."
+      }
+    ],
+    "tracking": "Display -0.02em; labels 0.04em.",
+    "leading": "Display 1.05; body 1.5.",
+    "hierarchy_rules": [
+      "Use weights 400 and 800.",
+      "Use sizes 16, 24, 56 and 112px.",
+      "Set headings in sentence case or upper case, in white on pink.",
+      "Set prices in a pill of 999px radius."
+    ]
+  },
+  "color": {
+    "palette_structure": "One hot pink with pale pink, white, sky blue and a dark plum text.",
+    "palette": [
+      {
+        "name": "Pale Pink",
+        "hex": "#FFE3F1",
+        "role": "background"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "name": "Plum",
+        "hex": "#4A0F32",
+        "role": "text"
+      },
+      {
+        "name": "Barbie Pink",
+        "hex": "#E0218A",
+        "role": "primary"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#7FD0F2",
+        "role": "accent"
+      },
+      {
+        "name": "Candy",
+        "hex": "#FF8CC6",
+        "role": "highlight"
+      },
+      {
+        "name": "Wine",
+        "hex": "#7A2457",
+        "role": "muted text"
+      }
+    ],
+    "contrast_rules": "Plum on pale pink holds 13:1; wine holds 7:1; white text sits on hot pink only at 24px or more and bold, and sky blue carries accents.",
+    "surface_treatment": "Flat, saturated pink fills with a glossy diagonal highlight at 35% opacity; plastic-like gradients of 2 stops.",
+    "light_and_shadow": "A bright, even light; a pink shadow of 0 12px 24px at 30% opacity; sparkles as highlights."
+  },
+  "materiality": {
+    "surface_simulation": "Moulded plastic, glossy vinyl, sequins and printed card packaging.",
+    "border_rules": "A 2px white inner edge on boxes; window frames with a 4px pink border.",
+    "blur_and_elevation": "A pink-tinted shadow of 0 12px 24px at 30%; no grey shadow and no glass."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid icons at 28px with round caps in a circle tile of hot pink and white glyphs.",
+    "illustration": "Pink houses, convertible cars, dresses, hearts, stars and sparkles, drawn as flat plastic shapes.",
+    "decorative_elements": [
+      "window box frame",
+      "sparkle star",
+      "heart",
+      "pink diagonal gloss",
+      "price pill"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Bright and bouncy: elements slide up by 16px with a small overshoot over 350ms; sparkles blink at 1.2s loops.",
+    "easing": "cubic-bezier(0.34, 1.4, 0.64, 1)",
+    "duration_ms": 350,
+    "hover_and_active": "Hover scales a card to 103% and sweeps a gloss across it; active state scales it to 97%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "kidcore"
+    ],
+    "echoes": [
+      "dopamine-decor",
+      "hollywood-regency-interior",
+      "mod-and-mini",
+      "space-age-pop-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels bold, playful and glad to be loud and pink.",
+    "keywords": [
+      "glossy",
+      "playful",
+      "bold",
+      "feminine",
+      "nostalgic",
+      "camp"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "lover",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "barbiecore",
+      "barbie pink",
+      "hot pink",
+      "pink dress",
+      "doll aesthetic",
+      "plastic pink",
+      "pink house",
+      "dream house"
+    ],
+    "use_cases": [
+      "fashion drops and capsule shops",
+      "film and event promotion",
+      "beauty and toy brands",
+      "party and festival pages"
+    ],
+    "avoid_when": [
+      "The brand needs a quiet, serious or neutral tone.",
+      "The audience reads long, dense text.",
+      "The product has no link to play or fashion."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "clean-girl",
+        "how": "Replace the hot pink with beige and warm white; keep the rounded boxes."
+      },
+      {
+        "request": "more playful",
+        "toward": "kidcore",
+        "how": "Add primaries, stickers and confetti, and cut the gloss."
+      },
+      {
+        "request": "more retro",
+        "toward": "y2k-aesthetic",
+        "how": "Add chrome type, silver and baby blue, and translucent plastic."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 800,
+      "subhead_weight": 800,
+      "body_weight": 400,
+      "strong_weight": 800,
+      "label_weight": 800,
+      "accent": "colour",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.05,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ph-fill",
+        "why": "A filled, rounded family that matches glossy toy shapes."
+      }
+    },
+    "art": {
+      "recipe": "y2k",
+      "pattern": "starburst",
+      "seed": 26
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "bubbles",
+      "why": "Barbiecore stands on glossy bubbles and sparkles, the shine of moulded pink plastic."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFE3F1",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#4A0F32",
+      "--color-muted": "#7A2457",
+      "--color-primary": "#E0218A",
+      "--color-accent": "#7FD0F2",
+      "--color-border": "#E0218A",
+      "--font-sans": "\"Poppins\", \"Nunito\", sans-serif",
+      "--font-display": "\"Poppins\", \"Lilita One\", sans-serif",
+      "--border-radius": "24px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 12px 24px rgba(224, 33, 138, 0.3)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.4, 0.64, 1)",
+      "--duration": "350ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFE3F1] text-[#4A0F32] font-sans antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-5xl md:text-8xl font-extrabold leading-[1.05] tracking-[-0.02em] text-[#E0218A]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-3xl border-2 border-[#E0218A] bg-white p-8 shadow-[0_12px_24px_rgba(224,33,138,0.3)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#E0218A] px-7 py-3 text-base font-extrabold text-white transition-transform duration-[350ms] hover:scale-[1.03]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.04em] text-[#7A2457]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#E0218A",
+        "#FF8CC6",
+        "#7FD0F2"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#7FD0F2",
+        "#FFFFFF",
+        "#FF8CC6"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 999
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Barbiecore",
+      "url": "https://en.wikipedia.org/wiki/Barbiecore"
+    },
+    {
+      "title": "Know Your Meme: Barbiecore",
+      "url": "https://knowyourmeme.com/memes/barbiecore"
+    },
+    {
+      "title": "Vogue, Barbiecore and the pink trend (2022)"
+    }
+  ]
+}

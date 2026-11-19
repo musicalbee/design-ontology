@@ -1,7 +1,7 @@
 ---
 name: psychedelic
-description: "Apply the Psychedelic style (1965–1972) when generating UI or graphic layouts. Load when the user asks for: psychedelic, 60s poster, acid, trippy, tie-dye, fillmore poster."
-domain: design
+description: "Apply the Psychedelic style (1965–1972) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: psychedelic, 60s poster, acid, trippy, tie-dye, fillmore poster."
+domain: internet
 era: modernist
 triggers:
   - "psychedelic"
@@ -28,7 +28,7 @@ vector_profile:
 
 Vibrating complementary colours, melting hand-drawn lettering and symmetrical swirls that fill the whole sheet. It came from San Francisco concert posters of 1966 to 1968, and it set out to reject the order of Swiss modernism.
 
-**Period:** 1965–1972 · **Era:** Modernist · **Domain:** Graphic & UI Design · **Also called:** Psychedelic Poster Art, San Francisco Sound Poster, Acid Graphics
+**Period:** 1965–1972 · **Era:** Modernist · **Domain:** Internet · **Also called:** Psychedelic Poster Art, San Francisco Sound Poster, Acid Graphics
 
 ## When to load this skill
 
@@ -43,7 +43,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Psychedelic, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Psychedelic, you MUST:
 
 1. Fill 90% or more of the sheet with pattern, colour or lettering, and leave no neutral margin.
 2. Pair complementary colours of equal value, such as orange against blue and magenta against green, so that edges vibrate.
@@ -241,6 +241,25 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Whiplash line (motif)
+
+A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke. Origin: architecture, Brussels, c. 1893.
+
+- Draw each line as an S-curve with a radius that changes along its length.
+- Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
+- Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
+- Use few colours, 2 to 4, in muted tones.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **San Francisco Oracle** (magazine, San Francisco, 1966–1968), published the style. An underground paper of the Haight-Ashbury scene. It printed rainbow inks over swirling art and lettering.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
@@ -262,11 +281,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **louder**: move toward [`memphis-design`](../memphis-design/SKILL.md) (Memphis Design). Replace swirls with squiggles, terrazzo and 3px black outlines on pink and teal; keep the saturation and the tilted shapes.
 - If the user asks for **more modern web**: move toward [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md) (Y2K Aesthetic). Swap hand-drawn lettering for chrome gradients and translucent blobs; keep the saturated hues and the full-bleed fields.
 
-- **Led to (go here for a newer version):** [`bohemian-web`](../bohemian-web/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
+- **Led to (go here for a newer version):** [`bohemian-web`](../bohemian-web/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md), [`deepdream-psychedelia`](../deepdream-psychedelia/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`space-age`](../space-age/SKILL.md)
-- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`giallo`](../giallo/SKILL.md)
-- **Nearest by vector profile:** [`memphis-design`](../memphis-design/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`cyberdelia`](../cyberdelia/SKILL.md)
+- **Kin in another domain:** [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`giallo`](../giallo/SKILL.md), [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
+- **Nearest by vector profile:** [`glitchcore`](../glitchcore/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 
 ## Emotional target
 
@@ -281,4 +300,4 @@ Disorientation and euphoria: the viewer feels that the page moves, that rules ar
 
 ---
 
-Generated from [`data/design/styles/psychedelic.json`](../../data/design/styles/psychedelic.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/psychedelic.json`](../../data/internet/styles/psychedelic.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

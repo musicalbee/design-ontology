@@ -11,7 +11,11 @@ import { join } from "node:path";
 import { RECIPE_NAMES } from "./pack.js";
 import { GROUND_KINDS } from "./ground.js";
 import { RULES, gate, curate, type Rule } from "./curation.js";
-import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
+import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNets, type IndustrialStyle } from "./net.js";
+import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
+import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
+import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
+import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -166,6 +170,18 @@ if (!schemaOnly && errors.length === 0) {
     check("lineage.rebelled_against", l.rebelled_against, "same");
     check("lineage.hybridized_with", l.hybridized_with, "same");
     check("lineage.echoes", l.echoes ?? [], "other");
+    if (l.subgenre_of) {
+      check("lineage.subgenre_of", [l.subgenre_of], "same");
+      // Walk up the parents: a loop of sub-genres has no top.
+      const seen = new Set([style.id]);
+      for (let p = byId.get(l.subgenre_of); p?.lineage.subgenre_of; p = byId.get(p.lineage.subgenre_of)) {
+        if (seen.has(p.id)) { errors.push(`${where}: lineage.subgenre_of makes a loop through "${p.id}"`); break; }
+        seen.add(p.id);
+      }
+      const parent = byId.get(l.subgenre_of);
+      if (parent && parent.time_period.start > style.time_period.start)
+        warnings.push(`${where}: sub-genre starts in ${style.time_period.start}, before its parent "${parent.id}" (${parent.time_period.start})`);
+    }
     check("agent.modifiers.toward", style.agent.modifiers.map((m) => m.toward), "any");
 
     for (const ref of [...l.evolved_from, ...l.rebelled_against]) {
@@ -175,7 +191,7 @@ if (!schemaOnly && errors.length === 0) {
     }
     const overlap = l.evolved_from.filter((r) => l.rebelled_against.includes(r));
     if (overlap.length) warnings.push(`${where}: "${overlap.join(", ")}" is both an ancestor and a target of rebellion`);
-    if (!l.evolved_from.length && !l.rebelled_against.length && !l.hybridized_with.length)
+    if (!l.evolved_from.length && !l.rebelled_against.length && !l.hybridized_with.length && !l.subgenre_of)
       warnings.push(`${where}: no lineage edges in its own domain (root node)`);
 
     // Two styles of one domain with the same vector cannot be told apart by the vector.
@@ -191,6 +207,69 @@ if (!schemaOnly && errors.length === 0) {
       if (years.length && !years.some((y) => y >= style.time_period.start && y <= (style.time_period.end ?? 9999)))
         warnings.push(`${where}: reference work "${w.work}" (${w.date}) is outside ${style.time_period.start}–${style.time_period.end ?? "now"}`);
     }
+  }
+}
+
+// The industrial vocabulary and the object nets: one schema each, then every id, family and knob range.
+const validateVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "industrial-vocabulary.schema.json")));
+const validateNet = ajv.compile(readJson<object>(join(ROOT, "schema", "object-net.schema.json")));
+const nets = loadNets();
+if (domains.some((d) => d.id === "industrial")) {
+  const vocabulary = readJson<unknown>(join(ROOT, "data", "industrial", "vocabulary.json"));
+  if (!validateVocabulary(vocabulary)) for (const e of validateVocabulary.errors ?? []) errors.push(`data/industrial/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  for (const { file, net } of nets) if (!validateNet(net)) for (const e of validateNet.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+  if (!schemaOnly && errors.length === 0) {
+    const ctx = loadNetContext();
+    errors.push(...checkVocabulary(ctx.L));
+    for (const s of ctx.industrial.values())
+      for (const e of checkIndustrialStyle(ctx.L, s as IndustrialStyle)) errors.push(`data/industrial/styles/${s.id}.json: ${e}`);
+    for (const { file, slug, net } of nets) for (const e of checkNet(ctx, slug, net)) errors.push(`${file}: ${e}`);
+    for (const id of ctx.interiors.keys()) if (!nets.some((n) => n.slug === id)) errors.push(`data/industrial/nets/${id}.json: the interior style "${id}" has no object net`);
+  }
+}
+
+// The fashion vocabulary: one schema, then each fabric, material, finish and object id of each fashion style.
+const validateFashionVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "fashion-vocabulary.schema.json")));
+if (domains.some((d) => d.id === "fashion")) {
+  const raw = readJson<unknown>(join(ROOT, "data", "fashion", "vocabulary.json"));
+  if (!validateFashionVocabulary(raw))
+    for (const e of validateFashionVocabulary.errors ?? []) errors.push(`data/fashion/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  else {
+    const v = loadFashionVocabulary();
+    for (const e of checkFashionVocabulary(v)) errors.push(`data/fashion/vocabulary.json: ${e}`);
+    if (!schemaOnly)
+      for (const { style } of loadStyleFiles("fashion"))
+        for (const e of checkFashionStyle(v, style as unknown as FashionStyle)) errors.push(`data/fashion/styles/${style.id}.json: ${e}`);
+  }
+}
+
+// The ceramics vocabulary: one schema, then each body, glaze, decoration and object id of each ceramics style.
+const validateCeramicsVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "ceramics-vocabulary.schema.json")));
+if (domains.some((d) => d.id === "ceramics")) {
+  const raw = readJson<unknown>(join(ROOT, "data", "ceramics", "vocabulary.json"));
+  if (!validateCeramicsVocabulary(raw))
+    for (const e of validateCeramicsVocabulary.errors ?? []) errors.push(`data/ceramics/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  else {
+    const v = loadCeramicsVocabulary();
+    for (const e of checkCeramicsVocabulary(v)) errors.push(`data/ceramics/vocabulary.json: ${e}`);
+    if (!schemaOnly)
+      for (const { style } of loadStyleFiles("ceramics"))
+        for (const e of checkCeramicsStyle(v, style as unknown as CeramicsStyle)) errors.push(`data/ceramics/styles/${style.id}.json: ${e}`);
+  }
+}
+
+// The cuisine vocabulary: one schema, then each ingredient, method and course id of each cuisine style.
+const validateCuisineVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "cuisine-vocabulary.schema.json")));
+if (domains.some((d) => d.id === "cuisine")) {
+  const raw = readJson<unknown>(join(ROOT, "data", "cuisine", "vocabulary.json"));
+  if (!validateCuisineVocabulary(raw))
+    for (const e of validateCuisineVocabulary.errors ?? []) errors.push(`data/cuisine/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  else {
+    const v = loadCuisineVocabulary();
+    for (const e of checkCuisineVocabulary(v)) errors.push(`data/cuisine/vocabulary.json: ${e}`);
+    if (!schemaOnly)
+      for (const { style } of loadStyleFiles("cuisine"))
+        for (const e of checkCuisineStyle(v, style as unknown as CuisineStyle)) errors.push(`data/cuisine/styles/${style.id}.json: ${e}`);
   }
 }
 
@@ -221,18 +300,19 @@ for (const { file, slug, person } of people) {
     if (!after && m.posthumous) errors.push(`${file}: milestone ${m.year} is marked posthumous, but it is not after died`);
     if (m.style && !own.has(m.style)) errors.push(`${file}: milestone ${m.year} names style "${m.style}", which is not in styles`);
   }
-  if (person.born === null && !person.milestones.length)
-    errors.push(`${file}: no born year and no milestones, so the person has no place on the time line`);
+  if (person.born === null && !person.milestones.some((m) => !m.posthumous))
+    errors.push(`${file}: no born year and no milestone in the life, so the person has no place on the time line`);
 }
 
 
-// The media layer: salons, clubs, workshops, magazines, publishers, galleries, auction houses, platforms.
-const validateMedium = ajv.compile(readJson<object>(join(ROOT, "schema", "medium.schema.json")));
-const media = loadMedia();
+// The organisation layer: groups (crews, collectives, councils, studios, companies), channels and backers.
+const validateOrg = ajv.compile(readJson<object>(join(ROOT, "schema", "org.schema.json")));
+const orgs = loadOrgs();
+const orgIds = new Set(orgs.map((o) => o.slug));
 const personIds = new Set(people.map((p) => p.slug));
-for (const { file, slug, medium: m } of media) {
-  if (!validateMedium(m)) {
-    for (const e of validateMedium.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+for (const { file, slug, org: m } of orgs) {
+  if (!validateOrg(m)) {
+    for (const e of validateOrg.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
     continue;
   }
   if (m.id !== slug) errors.push(`${file}: id "${m.id}" is not equal to the file name`);
@@ -240,13 +320,61 @@ for (const { file, slug, medium: m } of media) {
   if (new Set(m.styles.map((s) => s.style)).size !== m.styles.length) errors.push(`${file}: a style is listed more than once`);
   for (const s of m.styles) if (!schemaOnly && !byId.has(s.style)) errors.push(`${file}: style "${s.style}" does not exist`);
   for (const p of m.people ?? []) if (!personIds.has(p)) errors.push(`${file}: person "${p}" is not in data/people/`);
+  for (const x of m.members ?? []) {
+    if (!personIds.has(x.person)) errors.push(`${file}: member "${x.person}" is not in data/people/`);
+    if (x.from != null && x.to != null && x.to < x.from) errors.push(`${file}: member "${x.person}" leaves (${x.to}) before joining (${x.from})`);
+  }
+  if (new Set((m.members ?? []).map((x) => x.person)).size !== (m.members ?? []).length) errors.push(`${file}: a member is listed more than once`);
+  for (const [rel, ids] of Object.entries(m.relations ?? {}))
+    for (const o of ids ?? []) {
+      if (o === m.id) errors.push(`${file}: relations.${rel} refers to itself`);
+      else if (!orgIds.has(o)) errors.push(`${file}: relations.${rel} → "${o}" is not in data/orgs/`);
+    }
+  for (const mv of m.moves ?? [])
+    if ((m.founded !== null && mv.year < m.founded) || (m.closed !== null && mv.kind !== "closure" && mv.year > m.closed))
+      warnings.push(`${file}: move ${mv.year} (${mv.kind}) is outside ${m.founded ?? "?"}–${m.closed ?? "now"}`);
 }
+
+// The money layer: who paid whom, when, for what. Each flow cites a source; an amount names the
+// source that gives it; a flow to a person or an organisation names the styles that the money helped.
+const validateFunding = ajv.compile(readJson<object>(join(ROOT, "schema", "funding.schema.json")));
+const funding = loadFunding();
+const endIds = { person: personIds, org: orgIds, style: new Set(byId.keys()) };
+const backers = new Set<string>();
+for (const { file, slug, funding: f } of funding) {
+  if (!validateFunding(f)) {
+    for (const e of validateFunding.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (f.id !== slug) errors.push(`${file}: id "${f.id}" is not equal to the file name`);
+  for (const end of ["from", "to"] as const) {
+    const { type, id } = f[end];
+    if (!schemaOnly && !endIds[type].has(id)) errors.push(`${file}: ${end} ${type} "${id}" does not exist`);
+  }
+  if (f.from.type === f.to.type && f.from.id === f.to.id) errors.push(`${file}: from and to are the same`);
+  if (f.to.type !== "style" && !f.styles?.length) errors.push(`${file}: a flow to a ${f.to.type} names the styles that it helped`);
+  for (const s of f.styles ?? []) if (!schemaOnly && !byId.has(s)) errors.push(`${file}: style "${s}" does not exist`);
+  if (f.years[1] !== null && f.years[1] < f.years[0]) errors.push(`${file}: the end year (${f.years[1]}) is before the start year (${f.years[0]})`);
+  if (f.amount && f.amount.source >= f.sources.length) errors.push(`${file}: amount.source ${f.amount.source} is not an index into sources`);
+  // The id is "<from>--<to>", with an optional "-<suffix>" (a year) when one pair has two flows.
+  const base = `${f.from.id}--${f.to.id}`;
+  if (f.id !== base && !f.id.startsWith(`${base}-`)) errors.push(`${file}: id "${f.id}" does not start with "${base}"`);
+  // An amount is for a year inside the flow. An open end (null) admits each year from the start.
+  const amountYear = f.amount?.year;
+  if (amountYear != null && (amountYear < f.years[0] || (f.years[1] !== null && amountYear > f.years[1])))
+    errors.push(`${file}: amount.year ${amountYear} is outside the years of the flow (${f.years[0]}–${f.years[1] ?? "open"})`);
+  backers.add(`${f.from.type}:${f.from.id}`);
+}
+// A backer org with the part "funded" has at least one flow in data/funding/.
+for (const { file, org: m } of orgs)
+  if (m.styles.some((s) => s.part === "funded") && !backers.has(`org:${m.id}`))
+    warnings.push(`${file}: part "funded" but no flow in data/funding/ starts here`);
 
 // The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
 // exception is a style on data/curation-allowlist.json, which can only shrink.
 let curation = "";
 if (!schemaOnly && errors.length === 0) {
-  const layers = { people: people.map((p) => p.person), techniques: techniques.map((t) => t.technique), media: media.map((m) => m.medium) };
+  const layers = { people: people.map((p) => p.person), techniques: techniques.map((t) => t.technique), orgs: orgs.map((m) => m.org) };
   const missesById = new Map<string, Map<Rule, string>>();
   for (const style of byId.values()) {
     const domain = domains.find((d) => d.id === style.domain)!;
@@ -266,6 +394,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${media.length} media` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

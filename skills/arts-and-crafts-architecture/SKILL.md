@@ -187,6 +187,24 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Art Workers' Guild** (collective, London, 1884–now), gathered the style. A guild of architects, artists and craftsmen. Its members met to join the arts again, and it gave the Arts and Crafts movement a home.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 2.8 | 2.5–3.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 4–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 22 | 15–30 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 50 | 45–55 deg | massing |
+| Base material (`base_material`) | brick | brick, stone, timber | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -196,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`gothic-architecture`](../gothic-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
-- **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
+- **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
 - **Nearest by vector profile:** [`organic-architecture`](../organic-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 
 ## Emotional target

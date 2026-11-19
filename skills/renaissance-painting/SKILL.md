@@ -180,6 +180,31 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
 
+### Trompe-l'oeil (process, invented here)
+
+Painted perspective that continues the real room, so that a flat wall or ceiling seems to open into space. Origin: painting, Mantua, Italy, c. 1465.
+
+- Set the vanishing point at the eye of a viewer who stands at one marked spot in the room.
+- Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
+- Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Guild of Saint Luke** (council, Antwerp, Bruges and other cities, ?–now), gathered the style. The city guild of painters in the Low Countries and elsewhere. A painter had to be a member to sell work and to train apprentices.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #1F3F8F | #1F3F8F, #C8321E, #D9B44A, #5B4331 | palette |
+| Value contrast (`value_contrast`) | 0.7 | 0.55–0.85 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.1 | 0–0.3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:4 | 3:4, 2:3, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -189,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`baroque-painting`](../baroque-painting/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
-- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
+- **Kin in another domain:** [`garalde-old-style`](../garalde-old-style/SKILL.md), [`georgian-interior`](../georgian-interior/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
 - **Nearest by vector profile:** [`surrealism-painting`](../surrealism-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md)
 
 ## Emotional target

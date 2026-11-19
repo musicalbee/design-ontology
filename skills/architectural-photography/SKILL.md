@@ -177,6 +177,24 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 - Close the lens to f/11 to f/22 for full depth of field.
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Arts & Architecture** (magazine, Los Angeles, 1929–now), published the style. A California magazine of art and building. Its Case Study House program built and published modern homes, with photos by Julius Shulman.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 4500–7000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 0.95 | 0.85–1.1 | colour_and_grade, post_processing |
+| Grain (`grain`) | 100 | 50–200 ISO | process, post_processing |
+| Focal length (`focal_length`) | 28 | 17–50 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5, 3:4, 2:3 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -186,7 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 - **Mixes well with:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
-- **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`pbr-photoreal`](../pbr-photoreal/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 
 ## Emotional target

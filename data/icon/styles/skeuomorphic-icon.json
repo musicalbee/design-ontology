@@ -224,6 +224,40 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 48,
+      "min": 32,
+      "max": 512,
+      "note": "Below 32 px the texture and the light do not read."
+    },
+    "stroke_width": {
+      "default": 1,
+      "min": 0.5,
+      "max": 1
+    },
+    "corner_radius": {
+      "default": 6,
+      "min": 4,
+      "max": 8
+    },
+    "fill_mode": {
+      "default": "gradient",
+      "options": [
+        "gradient",
+        "render"
+      ]
+    },
+    "base_colour": {
+      "default": "#3465A4",
+      "options": [
+        "#3465A4",
+        "#F57900",
+        "#73D216",
+        "#CC0000"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Tango Desktop Project, Tango Icon Theme Guidelines",

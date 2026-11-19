@@ -171,12 +171,29 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Woodcut (process)
 
-A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: internet, Dunhuang, 868.
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Salon des Indépendants** (salon, Paris, 1884–now), exhibited the style. An annual show without a jury. Seurat and Signac showed their dot paintings here, and the Cubists had a room here in 1911.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #E9B91E | #E9B91E, #1F3E73, #2F8F5E, #CF4129 | palette |
+| Value contrast (`value_contrast`) | 0.6 | 0.45–0.75 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1.8 | 1–4 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 4:5 | 4:5, 3:4, 3:2 | surface, composition |
 
 ## Lineage fallbacks
 
@@ -187,6 +204,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`impressionism`](../impressionism/SKILL.md)
 - **Led to (go here for a newer version):** [`expressionism-painting`](../expressionism-painting/SKILL.md)
+- **Kin in another domain:** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Nearest by vector profile:** [`expressionism-painting`](../expressionism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 
 ## Emotional target

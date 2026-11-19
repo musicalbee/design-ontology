@@ -107,6 +107,12 @@
       { "request": "more luminous", "toward": "impressionism", "how": "Keep the northern landscape and the cool key; drop the contour, break the sky and water into touches of 5–15mm, and raise the value of the shadows." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#3C6A8C", "options": ["#3C6A8C", "#2F4F3F", "#8E2F25", "#D5AE56"]},
+    "value_contrast": {"default": 0.6, "min": 0.45, "max": 0.75},
+    "brush_size": {"default": 1.5, "min": 0.8, "max": 2.5},
+    "canvas_ratio": {"default": "16:9", "options": ["2:3", "3:2", "16:9"]}
+  },
   "sources": [
     { "title": "Wikidata Q11895126 (Golden Age of Finnish Art)", "url": "https://www.wikidata.org/wiki/Q11895126" },
     { "title": "Wikidata Q263985 (romantic nationalism)", "url": "https://www.wikidata.org/wiki/Q263985" },

@@ -117,6 +117,36 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** circular emblem · badge logo · closed roundel · central star symbol · navy field with red accent · white knock-out · flat vector · symmetric seal · embroidered patch look
 - **Negative:** letters · text · words · slogan · watermark · photographic · gradient · open composition
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Letterspaced capitals (motif)
+
+Capital letters set with wide space between them, so that a short word reads as an inscription of rank. Origin: typeface, Rome, 113.
+
+- Track capitals at 0.1 to 0.3em; do not track lowercase.
+- Set the size small, at 11 to 14px on screen, in a light weight.
+- Use roman capitals with strong serifs or a clean geometric sans.
+- Keep the line to one to four words.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Behance** (platform, web, 2005–now), published the style. A web site where designers post portfolios of projects. Concept work for interfaces, logos and illustration spreads from it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #0B3D91 | #0B3D91, #FC3D21, #C9A227 | colour |
+| Colour count (`colour_count`) | 3 | 2–4 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 4 | 2–8 % of mark height | form |
+| Container (`container`) | badge | badge, circle, shield | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

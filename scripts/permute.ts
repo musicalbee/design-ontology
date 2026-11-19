@@ -3,7 +3,7 @@
  * knob values derive.
  *
  * Each domain names its knobs in domains/<domain>.json. Each style gives the range of each knob in
- * `permutations`. For the design domain, `applyKnobs` derives the full token set from the knob
+ * `permutations`. For the internet domain, `applyKnobs` derives the full token set from the knob
  * values: the compiler writes skills/<id>/tokens.css from the defaults, and the CLI writes a
  * variant from other values.
  *
@@ -23,6 +23,14 @@ const px = (v: string | undefined): number | undefined => {
   return m ? Number(m[1]) : undefined;
 };
 const HEX = /^#[0-9A-Fa-f]{6}$/;
+
+/** The corners of a border-radius shorthand of 1 to 4 lengths ("0px 48px 0px 0px"), or undefined. */
+const corners = (v: string | undefined): number[] | undefined => {
+  const parts = v?.trim().split(/\s+/);
+  if (!parts || parts.length < 2 || parts.length > 4) return undefined;
+  const n = parts.map((p) => px(p));
+  return n.every((x) => x !== undefined) ? (n as number[]) : undefined;
+};
 const round = (n: number, d = 3) => Number(n.toFixed(d));
 
 /** The default of a knob for a style: from the token that the knob names, else from permutations. */
@@ -30,7 +38,9 @@ export function knobDefault(style: Style, knob: Knob): number | string | undefin
   if (knob.token) {
     const raw = style.tokens?.css[knob.token];
     if (raw === undefined) return undefined;
-    return knob.kind === "colour" || knob.kind === "enum" ? raw : (px(raw) ?? raw);
+    if (knob.kind === "colour" || knob.kind === "enum") return raw;
+    // A shorthand with more than one corner (for example "0px 48px 0px 0px"): the knob reads the largest corner.
+    return px(raw) ?? (knob.kind === "length" ? corners(raw)?.reduce((a, b) => Math.max(a, b)) : undefined) ?? raw;
   }
   return style.permutations?.[knob.key]?.default;
 }
@@ -67,7 +77,7 @@ export function checkValue(knob: Knob, range: KnobRange | undefined, value: numb
 const bodyPx = (style: Style): number => px((style.visual as { type?: { body_size?: string } } | undefined)?.type?.body_size) ?? 16;
 
 /**
- * The design domain: the authored tokens with the knob values put in, plus the type scale that the
+ * The internet domain: the authored tokens with the knob values put in, plus the type scale that the
  * ratio derives. The compiler derives the text colours (--color-on-*) from this result, so a new
  * base colour gets legible text without more work.
  */
@@ -76,7 +86,14 @@ export function applyKnobs(style: Style, values: KnobValues): Record<string, str
   const v = values;
   if (typeof v.base_colour === "string") css["--color-primary"] = v.base_colour.toUpperCase();
   if (typeof v.accent_colour === "string") css["--color-accent"] = v.accent_colour.toUpperCase();
-  if (typeof v.corner_radius === "number") css["--border-radius"] = `${v.corner_radius}px`;
+  if (typeof v.corner_radius === "number") {
+    // An authored shorthand keeps its shape: each corner scales with the largest one.
+    const r = v.corner_radius;
+    const was = corners(style.tokens!.css["--border-radius"]);
+    const max = was ? Math.max(...was) : 0;
+    css["--border-radius"] =
+      was && max > 0 ? was.map((c) => `${round((c * r) / max, 2)}px`).join(" ") : `${r}px`;
+  }
   if (typeof v.grid_step === "number") {
     const was = px(style.tokens!.css["--space-unit"]);
     const gutter = px(style.tokens!.css["--grid-gutter"]);
@@ -98,7 +115,7 @@ export function applyKnobs(style: Style, values: KnobValues): Record<string, str
 
 let domainCache: Domain[] | undefined;
 /**
- * The full token set of a design style at the given knob values (the defaults when none are given):
+ * The full token set of an internet style at the given knob values (the defaults when none are given):
  * the authored tokens with the knobs put in, the type scale, the legible text colours for each
  * field, the type values and the ground. skills/<id>/tokens.css is this list at the defaults.
  */
@@ -129,8 +146,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     }
     process.exit(0);
   }
-  if (domain.id !== "design") {
-    console.error(`The derivation is built for the design domain only. "${style.id}" is in "${domain.id}"; its knobs are in domains/${domain.id}.json.`);
+  if (domain.id !== "internet") {
+    console.error(`The derivation is built for the internet domain only. "${style.id}" is in "${domain.id}"; its knobs are in domains/${domain.id}.json.`);
     process.exit(1);
   }
   const values = knobDefaults(style, domain);

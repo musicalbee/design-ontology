@@ -209,6 +209,24 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **RKO Pictures** (studio, Los Angeles, 1928–1959), made the style. A Hollywood studio of the studio era. It made classic Hollywood films and many low-key film noirs, with their publicity stills.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.37:1 | 1.37:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 8 | 6–10 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 3200 | 3000–3400 K | colour_and_grade, light |
+| Grain (`grain`) | 0.18 | 0.15–0.2 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -219,7 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
 - **Led to (go here for a newer version):** [`neon-noir`](../neon-noir/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
-- **Kin in another domain:** [`film-noir-still`](../film-noir-still/SKILL.md)
+- **Kin in another domain:** [`film-noir-still`](../film-noir-still/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Nearest by vector profile:** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target

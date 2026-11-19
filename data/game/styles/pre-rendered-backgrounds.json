@@ -1,0 +1,290 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "pre-rendered-backgrounds",
+  "domain": "game",
+  "name": "Pre-rendered backgrounds",
+  "aliases": [
+    "Pre-rendered 3D",
+    "Fixed camera with rendered scenes",
+    "Myst-like stills"
+  ],
+  "era_id": "early-polygon",
+  "time_period": {
+    "start": 1993,
+    "end": 2002,
+    "label": "1993–2002"
+  },
+  "region": "the United States and Japan",
+  "hardware": [
+    "pc",
+    "playstation",
+    "playstation-2",
+    "gamecube"
+  ],
+  "summary": "Rooms and streets are rendered offline in 3D software and shown as still images at fixed camera angles. The player moves as a low-poly figure, or as a cursor, over a scene with far more light and detail than the console can draw.",
+  "philosophy": {
+    "core_thesis": "If the camera does not move, each view can be a finished render, composed like a film frame.",
+    "design_principles": [
+      "Compose each view as a still: a fixed camera with a strong diagonal or a low angle.",
+      "Render the background offline with soft shadows and many lights.",
+      "Match the real-time figure to the background with the same light direction.",
+      "Use dramatic camera angles: high, low, through a doorway.",
+      "Cut between views when the player crosses an edge.",
+      "Paint depth masks so the figure goes behind a table or a pillar."
+    ],
+    "anti_patterns": [
+      "A free camera",
+      "Backgrounds that the figure does not match in light",
+      "Flat eye-level views with no composition",
+      "Real-time textures on the background",
+      "Empty rooms with no props"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 3,
+    "spatial_depth": 3,
+    "stylisation": 3,
+    "lighting_drama": 4,
+    "surface_density": 4
+  },
+  "projection_and_camera": {
+    "projection": "fixed-camera",
+    "camera": "A set of fixed cameras; the view cuts as the player moves.",
+    "field_of_view": "about 40–90, chosen for each view",
+    "framing": "Cinematic frames: high corners, low angles, views through doors."
+  },
+  "geometry": {
+    "primitive": "An offline 3D render as a 2D image; a low-poly character on top.",
+    "budget": "No limit for the background; 500–1,500 triangles for the figure.",
+    "edge_rule": "Soft, anti-aliased edges in the render; hard edges on the figure.",
+    "proportion": "Real-scale rooms with full props."
+  },
+  "surface": {
+    "texture_rule": "Detail from offline renders: wood grain, stone, stained wallpaper.",
+    "texel_density": "about 64–128 px for each metre at the screen size",
+    "filtering": "Smooth; the image is a bitmap.",
+    "material_model": "Offline shaders of the 1990s: Phong, reflections, soft shadows."
+  },
+  "palette": {
+    "strategy": "Moody, film-like colour with a warm or a cold cast for each room.",
+    "colour_depth": "15 to 24 bits",
+    "on_screen_colours": "thousands",
+    "colours": [
+      {
+        "name": "Oak brown",
+        "hex": "#5A3A22",
+        "role": "wood"
+      },
+      {
+        "name": "Brass",
+        "hex": "#B08D4A",
+        "role": "fittings"
+      },
+      {
+        "name": "Teal shadow",
+        "hex": "#20403F",
+        "role": "shadow"
+      },
+      {
+        "name": "Candle amber",
+        "hex": "#F0A848",
+        "role": "lamp light"
+      },
+      {
+        "name": "Plaster",
+        "hex": "#C8B89A",
+        "role": "walls"
+      },
+      {
+        "name": "Deep red",
+        "hex": "#6A1E1E",
+        "role": "fabric"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Offline raytraced or radiosity light, baked into the image.",
+    "shadows": "Soft cast shadows in the render; a simple blob under the figure.",
+    "atmosphere": "Dust in light shafts, mist and haze baked in.",
+    "time_of_day": "One fixed time for each scene, often dusk or night."
+  },
+  "world_and_space": {
+    "scale": "Real scale; rooms full of furniture and objects.",
+    "interiors": "Fully dressed rooms: libraries, halls, offices, each one view.",
+    "exteriors": "Streets and courtyards framed like establishing shots.",
+    "threshold": "A cut to the next camera as the figure walks through the door.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Place the door or the path forward at a third of the frame.",
+        "value": "1 focal point on a third"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Frame the view through a door or between columns to lead the eye.",
+        "value": "1 frame inside the frame"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 3 layers: ambient, a key from a lamp or a window, and accent spots.",
+        "value": "3 layers"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Put props in foreground, middle ground and background.",
+        "value": "3 planes"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Small; often only a cursor or a menu called up on demand.",
+    "type_and_icons": "Serif or bitmap fonts in framed boxes.",
+    "diegesis": "Much is in the world: notes, books and switches in the render."
+  },
+  "prompt_primer": {
+    "positive": [
+      "pre-rendered 3D background",
+      "fixed camera angle",
+      "1990s CGI render",
+      "cinematic composition",
+      "dramatic high angle",
+      "soft raytraced shadows",
+      "dressed interior",
+      "moody lamp light",
+      "dust in light beams"
+    ],
+    "negative": [
+      "real-time 3D",
+      "low poly",
+      "pixel art",
+      "flat lighting",
+      "empty room",
+      "free camera"
+    ],
+    "canonical_works": [
+      {
+        "work": "Myst",
+        "maker": "Cyan",
+        "year": 1993
+      },
+      {
+        "work": "Alone in the Dark",
+        "maker": "Infogrames",
+        "year": 1992
+      },
+      {
+        "work": "Resident Evil",
+        "maker": "Capcom",
+        "year": 1996
+      },
+      {
+        "work": "Final Fantasy VII",
+        "maker": "Square",
+        "year": 1997
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "sixteen-bit-sprite"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "fifth-gen-low-poly"
+    ],
+    "echoes": [
+      "film-noir",
+      "classical-hollywood",
+      "architectural-photography"
+    ]
+  },
+  "emotion": {
+    "target_response": "Suspense and wonder: the viewer looks at a composed, richly lit place and expects something behind the next door.",
+    "keywords": [
+      "cinematic",
+      "mysterious",
+      "moody",
+      "rich",
+      "suspenseful"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pre-rendered",
+      "fixed camera",
+      "myst style",
+      "90s cgi",
+      "survival horror rooms"
+    ],
+    "use_cases": [
+      "moody interior stills",
+      "escape-room design",
+      "storyboards for spaces",
+      "narrative installations"
+    ],
+    "avoid_when": [
+      "The brief needs a free walk-through.",
+      "The look must be clean and bright."
+    ],
+    "modifiers": [
+      {
+        "request": "more real",
+        "toward": "pbr-photoreal",
+        "how": "Keep the composed angles; render with physical materials and modern global light."
+      },
+      {
+        "request": "more retro",
+        "toward": "fifth-gen-low-poly",
+        "how": "Replace the render with real-time low-poly boxes and fog."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 480,
+      "min": 240,
+      "max": 480
+    },
+    "colour_depth": {
+      "default": 16,
+      "min": 15,
+      "max": 24
+    },
+    "camera_projection": {
+      "default": "fixed-camera",
+      "options": [
+        "fixed-camera",
+        "first-person"
+      ]
+    },
+    "shading_steps": {
+      "default": 128,
+      "min": 64,
+      "max": 256
+    },
+    "texel_density": {
+      "default": 96,
+      "min": 64,
+      "max": 128
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Pre-rendering",
+      "url": "https://en.wikipedia.org/wiki/Pre-rendering"
+    },
+    {
+      "title": "Wikipedia: Myst",
+      "url": "https://en.wikipedia.org/wiki/Myst"
+    },
+    {
+      "title": "Wikipedia: Resident Evil (1996 video game)",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)"
+    }
+  ]
+}

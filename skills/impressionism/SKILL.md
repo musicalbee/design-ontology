@@ -176,11 +176,23 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Galerie Durand-Ruel** (dealer, Paris, ?–now), funded the style. The gallery of the dealer Paul Durand-Ruel. He met Monet and Pissarro in London in 1870 and began large purchases of Impressionist paintings in 1872.
 - **Salon des Refusés** (exhibition, Paris, 1863–1863), exhibited the style. An official show of the works that the jury of the Paris Salon rejected in 1863. It put the new painting of modern life in front of a large public.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #2F5FA8 | #2F5FA8, #E8B923, #2E8B6A, #7A68A8 | palette |
+| Value contrast (`value_contrast`) | 0.4 | 0.25–0.55 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 2 | 1–3.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 4:5, 3:2 | surface, composition |
 
 ## Lineage fallbacks
 
@@ -193,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`pointillism`](../pointillism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
 - **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
 - **Mixes well with:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
-- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
+- **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
 - **Nearest by vector profile:** [`pointillism`](../pointillism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
 
 ## Emotional target

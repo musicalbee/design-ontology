@@ -287,6 +287,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 4, "min": 3.2, "max": 6},
+    "structural_grid": {"default": 9, "min": 6, "max": 15},
+    "glazing_ratio": {"default": 25, "min": 15, "max": 35},
+    "roof_pitch": {"default": 20, "min": 0, "max": 60, "note": "The range covers a stepped crown, a dome and a spire."},
+    "base_material": {"default": "brick", "options": ["brick", "concrete", "steel"]}
+  },
   "sources": [
     {
       "title": "Wolfgang Pehnt, Expressionist Architecture (Thames and Hudson, 1973)"

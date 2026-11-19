@@ -183,6 +183,24 @@ A hollow concrete block with a pierced pattern; a wall of them shades and lets a
 - Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
 - Inside, use the screen to divide zones while it keeps light and air.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Arts & Architecture** (magazine, Los Angeles, 1929–now), launched the style. A California magazine of art and building. Its Case Study House program built and published modern homes, with photos by Julius Shulman.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 2.6 | 2.4–3.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 4.2 | 3.6–4.8 m | structure |
+| Glazing ratio (`glazing_ratio`) | 50 | 15–80 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 5 | 0–15 deg | massing |
+| Base material (`base_material`) | timber | timber, glass, steel, brick, stone | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -190,7 +208,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more austere**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Whiten the walls, thin the frame, drop the timber and the brick feature wall, and keep the flat roof and the glass wall.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
-- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 
 ## Emotional target

@@ -131,12 +131,29 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 
 ### Modular grid (process)
 
-A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic & ui design, Zurich, c. 1958.
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: internet, Zurich, c. 1958.
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
 - Set text on a baseline grid of one line height, and use 1 to 2 type sizes for each level.
 - Scale an image by a whole number of modules.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Ulm School of Design** (school, Ulm, 1953–1968), taught the style. A school of design that taught system, grid and method. Its teachers worked with Braun and with corporate identity programs.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EB0000 | #EB0000, #000000, #5F6B73 | colour |
+| Colour count (`colour_count`) | 1 | 1–2 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 15 | 12–20 % of mark height | form |
+| Container (`container`) | none | none, square, circle | construction |
 
 ## Lineage fallbacks
 

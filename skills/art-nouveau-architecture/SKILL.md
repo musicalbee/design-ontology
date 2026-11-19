@@ -185,6 +185,25 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Association of Devotees of St Joseph** (church, Barcelona, ?–now), funded the style. The group of Catholic donors that paid for the Sagrada Família. Its founder was the bookseller José María Bocabella.
+- **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.6 | 3.2–4.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 4.5 | 3–8 m | structure |
+| Glazing ratio (`glazing_ratio`) | 32 | 25–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 45 | 0–60 deg | massing |
+| Base material (`base_material`) | stone | stone, brick, steel | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -192,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more geometric**: move toward [`art-deco-architecture`](../art-deco-architecture/SKILL.md) (Art Deco). Replace the curve with the zigzag and the chevron, keep the rich materials and the total-work idea, and add a stepped silhouette.
 
 - **Led to (go here for a newer version):** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-ceramics`](../art-nouveau-ceramics/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`art-nouveau-tiles`](../art-nouveau-tiles/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`chicago-school-terracotta`](../chicago-school-terracotta/SKILL.md), [`hungarian-secession-ceramics`](../hungarian-secession-ceramics/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md), [`trencadis`](../trencadis/SKILL.md)
 - **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md)
 
 ## Emotional target

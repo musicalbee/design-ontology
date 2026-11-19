@@ -172,11 +172,38 @@ The rules above name these shared principles by id. The definition is the same i
 | `proportion` | Proportion | The ratio of one dimension to another, and of a part to the whole. A style holds one ratio or one series of ratios through the room, the facade or the picture. | governing ratio (ratio): 1:1, 2:3, 1:1.414, 1:1.618, 1:2; module series (series): Modulor, tatami 91 x 182 cm, 60 cm kitchen module |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repeated interval (cm or px): style module; repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive |
 
-## Media
+## Techniques
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Tilt-shift (tool)
+
+Lens or camera movements that keep vertical lines parallel and move the plane of focus; a building stands upright and sharp. Origin: photography, Vienna, 1904.
+
+- Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.
+- Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.
+- Close the lens to f/11 to f/22 for full depth of field.
+- In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Camera Work** (magazine, New York, 1903–1917), published the style. A quarterly of photography that Alfred Stieglitz edited and published, with fine photogravure plates. It argued for photography as a fine art.
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Park Service** (state programme, United States, ?–now), funded the style. US federal agency. In 1941 it signed a 180-day contract with Ansel Adams for mural-size park photographs.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 5000–6000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.25 | 1.1–1.4 | colour_and_grade, post_processing |
+| Grain (`grain`) | 50 | 25–100 ISO | process, post_processing |
+| Focal length (`focal_length`) | 40 | 28–47 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5 | composition |
 
 ## Lineage fallbacks
 

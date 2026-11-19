@@ -171,6 +171,36 @@ Reference works:
 | Barbican Estate, London | Chamberlin, Powell and Bon | 1976 |
 | National Theatre, London | Denys Lasdun | 1976 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Board-marked concrete (material, invented here)
+
+Concrete cast in rough timber forms, so that the grain and the joints of the boards stay on the surface. Origin: architecture, Marseille, France, 1952.
+
+- Use sawn boards 100 to 150 mm wide for the formwork.
+- Leave the surface as it comes from the form: no paint and no plaster.
+- Let the board joints run in one direction on each wall.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **The Architectural Review** (magazine, London, 1896–now), published the style. A monthly architecture magazine. In 1955 it printed the essay that named the New Brutalism, and it published the work of the Smithsons.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.6 | 3–4.5 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 3–7 m | structure |
+| Glazing ratio (`glazing_ratio`) | 25 | 20–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–3 deg | massing |
+| Base material (`base_material`) | concrete | concrete, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -179,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`architectural-photography`](../architectural-photography/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`architectural-photography`](../architectural-photography/SKILL.md), [`brutalist-jewellery`](../brutalist-jewellery/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
 - **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,432 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "shaker-object",
+  "domain": "industrial",
+  "name": "Shaker object",
+  "aliases": [
+    "Shaker craft",
+    "Shaker utility design"
+  ],
+  "era_id": "proto-industrial",
+  "time_period": {
+    "start": 1790,
+    "end": 1900,
+    "label": "1790–1900"
+  },
+  "region": "Shaker villages of New England and New York, United States",
+  "summary": "The plain household goods of the Shaker communities: ladder-back chairs, peg rails, oval boxes and chests of pine, maple and cherry, built for use with no applied ornament.",
+  "philosophy": {
+    "core_thesis": "An object that serves its use well is beautiful; the maker adds no ornament, shows each joint and makes each piece with honest care.",
+    "design_principles": [
+      "Make each object for its use; remove each part that has no job.",
+      "Use thin, light parts: a chair post of 25 to 32 mm and a rail of 12 to 20 mm.",
+      "Show the joint: a dovetail, a mortise or a tenon stays in view.",
+      "Use wood in a plain finish: oil, wax or a thin matte paint in red, yellow, blue or green.",
+      "Hang each chair on a peg rail of 7 to 9 cm pegs, so that the floor is free for the broom.",
+      "Make a box or a drawer in 3 to 7 sizes that nest, with swallowtail fingers of thin maple.",
+      "Keep the line straight and the turning simple: a ball finial and a taper are the only decoration."
+    ],
+    "anti_patterns": [
+      "Carved or inlaid ornament",
+      "Gilding and bright metal",
+      "Fringes, tassels and buttoned upholstery",
+      "Dark, thick varnish",
+      "Veneer that hides the joint",
+      "Patterned fabric"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_finish": 4,
+    "material_warmth": 5,
+    "visual_mass": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "geometry": "Straight lines, rectangles and ovals; the round peg, the tapered post and the oval band are the only curves.",
+    "silhouette": "A light, upright outline with open space: a tall narrow chair with 3 to 4 slats, and a plain box case on a thin frame.",
+    "edges": "A small, hand-softened edge of 1 to 3 mm; no moulding and no bead.",
+    "proportion": "A ladder-back chair is about 100 cm high with a seat at 43 cm; a post is about 1/4 as thick as it is wide in the seat.",
+    "ornament": "None. A ball finial on a chair post, and a tapered foot, are the only added forms.",
+    "rules": [
+      "Each object has 0 applied ornament.",
+      "Each joint is a plain mortise, tenon or dovetail, and stays in view.",
+      "A seat is woven of cotton tape, cane or rush, in 1 or 2 colours.",
+      "Each part is as thin as its load allows; a post is 25 to 32 mm.",
+      "A painted surface is a matte, flat colour; a bare surface has an oil or wax finish."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "pine",
+      "maple",
+      "cherry",
+      "oak",
+      "cotton",
+      "wool"
+    ],
+    "secondary": [
+      "ash",
+      "beech",
+      "walnut",
+      "linen",
+      "cane",
+      "wrought-iron",
+      "cast-iron",
+      "mild-steel",
+      "stoneware",
+      "clear-glass",
+      "canvas",
+      "jute",
+      "copper"
+    ],
+    "avoid": [
+      "mahogany",
+      "rosewood",
+      "macassar-ebony",
+      "velvet",
+      "silk",
+      "chrome-plated-steel",
+      "plastic-laminate",
+      "bakelite"
+    ],
+    "rule": "Local wood makes about 80% of the object; metal is only a hinge, a stove or a sconce, and cloth is plain tape or wool."
+  },
+  "finish": {
+    "finishes": [
+      "oiled",
+      "waxed",
+      "soaped",
+      "painted-matte",
+      "matte-glaze",
+      "natural-fibre",
+      "blackened",
+      "piece-dyed"
+    ],
+    "textures": [
+      "fine-grain",
+      "open-grain",
+      "satin-smooth",
+      "plain-weave",
+      "twill",
+      "tool-marked"
+    ],
+    "gloss": "2–15 GU on wood and paint; 5–25 GU on iron",
+    "patina": "The style welcomes a soft, even wear on wood, a scrubbed pale top and a paint that thins on the edges."
+  },
+  "hardware": {
+    "metal_tone": "black",
+    "section": "Pegs 25–30 mm; stems and rods 6–12 mm; a hinge 3 mm thick",
+    "joints": "Plain dovetails, mortises and tenons in view; wooden pegs and small cut nails.",
+    "handles": "A small turned wooden knob of 25 to 30 mm, or a plain wooden peg.",
+    "switches_and_taps": "Before 1880 there is no electric switch; the period-faithful reissue is a cotton-braided cable with a plain wooden turn switch. A tap is a plain iron or brass cock over a stone basin."
+  },
+  "palette": {
+    "strategy": "The colour of bare wood, with a thin, flat paint in the Shaker red, yellow, blue and green, and a cream wall.",
+    "colours": [
+      {
+        "name": "Shaker red",
+        "hex": "#8E2F20",
+        "role": "painted chest, peg rail"
+      },
+      {
+        "name": "Chrome yellow",
+        "hex": "#C99A2E",
+        "role": "painted box"
+      },
+      {
+        "name": "Prussian blue",
+        "hex": "#2F4A63",
+        "role": "painted cupboard"
+      },
+      {
+        "name": "Maple",
+        "hex": "#D9B98A",
+        "role": "bare wood"
+      },
+      {
+        "name": "Cherry",
+        "hex": "#8C4A2B",
+        "role": "oiled wood"
+      },
+      {
+        "name": "Limewash cream",
+        "hex": "#EDE6D3",
+        "role": "wall"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "hand joinery",
+      "steam bending of thin bands",
+      "lathe turning",
+      "tape weaving",
+      "shop production in the community workshops"
+    ],
+    "scale": "Community workshops made chairs and boxes in series of 10s to 1000s for sale to the public.",
+    "signs": "A tight dovetail, a swallowtail finger on a band, an even taper on a post and a woven tape seat."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "basin",
+        "form": "stoneware wash basin on a plain stand",
+        "material": "stoneware",
+        "finish": "matte-glaze",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "visible-cable",
+        "form": "cotton-braided flex with a plain turn switch (a period-faithful reissue)",
+        "material": "cotton",
+        "finish": "natural-fibre",
+        "texture": "plain-weave"
+      },
+      {
+        "category": "lighting",
+        "object": "wall-sconce",
+        "form": "hanging tin sconce on a peg rail",
+        "material": "mild-steel",
+        "finish": "painted-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "chest-of-drawers",
+        "form": "tall chest with 6 flat drawers",
+        "material": "cherry",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "rocking armchair with a tape seat and a ball finial",
+        "material": "ash",
+        "finish": "waxed",
+        "texture": "open-grain"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "ladder-back chair with a woven tape seat",
+        "material": "maple",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "cookware",
+        "form": "black cast-iron stove pot",
+        "material": "cast-iron",
+        "finish": "blackened",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "bowl-and-tray",
+        "form": "oval box of thin maple with swallowtail fingers",
+        "material": "maple",
+        "finish": "oiled",
+        "texture": "fine-grain"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Shaker handmade household object",
+      "ladder-back chair with woven tape seat",
+      "oval box with swallowtail fingers",
+      "peg rail with hanging chairs",
+      "plain maple and cherry wood",
+      "thin matte paint in red and blue",
+      "no ornament",
+      "visible dovetail joints",
+      "limewashed cream wall",
+      "studio product photograph, soft north light"
+    ],
+    "negative": [
+      "carved ornament",
+      "gilding",
+      "chrome",
+      "velvet upholstery",
+      "glossy varnish",
+      "plastic"
+    ],
+    "canonical_works": [
+      {
+        "work": "Shaker rocking chair",
+        "maker": "Mount Lebanon Shaker Society",
+        "year": 1850
+      },
+      {
+        "work": "Shaker oval box",
+        "maker": "Shaker community workshops",
+        "year": 1830
+      },
+      {
+        "work": "Shaker peg rail",
+        "maker": "Shaker community workshops",
+        "year": 1820
+      },
+      {
+        "work": "Tall chest of drawers",
+        "maker": "Shaker community workshops",
+        "year": 1840
+      },
+      {
+        "work": "Round stove",
+        "maker": "Shaker community workshops",
+        "year": 1850
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Shaker furniture",
+      "kind": "image",
+      "credit": "William F. Winter, Jr., photographer",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Shaker_furniture1.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shaker_furniture1.jpg/960px-Shaker_furniture1.jpg"
+    },
+    {
+      "title": "Shaker ladder chairs",
+      "kind": "image",
+      "credit": "Doug Coldwell",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Shaker_ladder_chairs.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/59/Shaker_ladder_chairs.jpg"
+    },
+    {
+      "title": "Shaker rocking chair at Pleasant Hill",
+      "kind": "image",
+      "credit": "Carl Wycoff from Nevada, USA",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocker_in_the_Shaker_Village_at_Pleasant_Hill.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Rocker_in_the_Shaker_Village_at_Pleasant_Hill.jpg/960px-Rocker_in_the_Shaker_Village_at_Pleasant_Hill.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "georgian-neoclassical-manufacture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "shaker-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quiet calm and trust in a modest, useful object: the viewer feels that nothing is false or extra.",
+    "keywords": [
+      "plain",
+      "honest",
+      "modest",
+      "orderly",
+      "calm"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "shaker chair",
+      "shaker box",
+      "shaker peg rail",
+      "ladder-back chair",
+      "shaker furniture",
+      "plain pine cupboard",
+      "shaker kitchen",
+      "utilitarian handmade"
+    ],
+    "use_cases": [
+      "a plain, handmade kitchen or hall",
+      "a reissue of a peg rail, a box or a chair",
+      "a still life of useful objects",
+      "a hardware schedule for a farmhouse"
+    ],
+    "avoid_when": [
+      "The brief asks for gloss, glamour or ornament.",
+      "The room needs soft, deep upholstery."
+    ],
+    "modifiers": [
+      {
+        "request": "more refined and formal",
+        "toward": "georgian-neoclassical-manufacture",
+        "how": "Change to mahogany with a French polish, add flutes and brass mounts."
+      },
+      {
+        "request": "more handcrafted and decorative",
+        "toward": "arts-and-crafts-object",
+        "how": "Keep the oak and the exposed joint, and add hammered copper, a stylised leaf and a wool rug."
+      },
+      {
+        "request": "lighter and Nordic",
+        "toward": "scandinavian-modern-product",
+        "how": "Use pale ash and birch, thinner parts, and wool in natural white."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0,
+      "min": 0,
+      "max": 0.1
+    },
+    "material_warmth": {
+      "default": 0.8,
+      "min": 0.55,
+      "max": 0.95
+    },
+    "finish_gloss": {
+      "default": 8,
+      "min": 2,
+      "max": 30
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+    },
+    "hardware_weight": {
+      "default": 8,
+      "min": 4,
+      "max": 16
+    },
+    "edge_radius": {
+      "default": 2,
+      "min": 0,
+      "max": 6
+    },
+    "metal_tone": {
+      "default": "black",
+      "options": [
+        "black",
+        "none",
+        "bronze",
+        "brass"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Shaker furniture",
+      "url": "https://en.wikipedia.org/wiki/Shaker_furniture"
+    },
+    {
+      "title": "Wikipedia: Shakers",
+      "url": "https://en.wikipedia.org/wiki/Shakers"
+    },
+    {
+      "title": "Wikipedia: Ann Lee",
+      "url": "https://en.wikipedia.org/wiki/Ann_Lee"
+    }
+  ]
+}

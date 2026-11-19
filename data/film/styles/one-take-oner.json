@@ -309,6 +309,37 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "2.39:1",
+      "options": [
+        "1.85:1",
+        "2.39:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 24
+    },
+    "average_shot_length": {
+      "default": 360,
+      "min": 120,
+      "max": 600,
+      "note": "A take can run for the full film, but the domain stops at 600 s."
+    },
+    "colour_temperature": {
+      "default": 3200,
+      "min": 3200,
+      "max": 5600,
+      "note": "One white balance holds for the whole shot."
+    },
+    "grain": {
+      "default": 0.08,
+      "min": 0.05,
+      "max": 0.1
+    }
+  },
   "sources": [
     {
       "title": "Long take",

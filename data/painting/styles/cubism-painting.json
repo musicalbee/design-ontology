@@ -108,6 +108,12 @@
       { "request": "more expressive", "toward": "abstract-expressionism", "how": "Keep the shallow space; make the planes loose and large, show each stroke of 50–150mm, and drop the subject entirely." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#B58B4C", "options": ["#B58B4C", "#5E4632", "#8C867B", "#B83A2A"]},
+    "value_contrast": {"default": 0.6, "min": 0.45, "max": 0.75},
+    "brush_size": {"default": 1.2, "min": 0.8, "max": 2},
+    "canvas_ratio": {"default": "4:5", "options": ["4:5", "3:4", "2:3"]}
+  },
   "sources": [
     { "title": "Wikidata Q42934 (cubism)", "url": "https://www.wikidata.org/wiki/Q42934" },
     { "title": "Getty AAT 300021495 (Cubism)", "url": "https://vocab.getty.edu/page/aat/300021495" },

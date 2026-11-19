@@ -130,6 +130,36 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** 3D clay icon · soft matte 3D render · rounded toy-like shapes · pastel colours · soft studio light · three-quarter view · transparent background · Fluent 3D emoji style
 - **Negative:** flat vector · line icon · photorealistic texture · glossy chrome · sharp edges
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Clay look (process)
+
+Forms that look modelled in soft clay: round edges, one matte material and soft, even light. Origin: film & video, United States, c. 1908.
+
+- Round every edge; set the fillet at 10% to 20% of the form size.
+- Use one matte material with no texture and no specular highlight.
+- Light with one large soft source and a soft contact shadow under the form.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Dribbble** (platform, web, 2009–now), published the style. A web site where designers post small shots of interface work. Several interface trends, neumorphism among them, spread from shots that were posted there.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 256 | 64–512 px | grid |
+| Stroke width (`stroke_width`) | 0 | 0–0 px | stroke |
+| Corner radius (`corner_radius`) | 16 | 12–16 px | shape |
+| Fill mode (`fill_mode`) | render | render | colour, shape |
+| Base colour (`base_colour`) | #FF8A73 | #FF8A73, #7CC6FE, #7EDDB0, #B49CF5 | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -139,7 +169,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-icon`](../flat-icon/SKILL.md)
-- **Kin in another domain:** [`claymorphism`](../claymorphism/SKILL.md)
+- **Kin in another domain:** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md)
 - **Nearest by vector profile:** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md), [`flat-icon`](../flat-icon/SKILL.md), [`isometric-icon`](../isometric-icon/SKILL.md)
 
 ## Emotional target

@@ -172,6 +172,38 @@ Reference works:
 | Jewish Museum, Berlin | Daniel Libeskind | 1999 |
 | Guggenheim Museum, Bilbao | Frank Gehry | 1997 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Crystal facet (motif)
+
+A form broken into flat planes that meet at sharp angles, so that it reads as a crystal or a shard. Origin: painting, Horta de Ebro, La Roche-Guyon and Paris, c. 1909.
+
+- Cut each mass into flat planes; most planes meet at angles between 30° and 120°.
+- Use one plane size family: 3 to 5 sizes, with no curve.
+- Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Architectural Association School of Architecture** (school, London, 1847–now), taught the style. An independent school of architecture. Its teachers in the 1970s included the first deconstructivists, and its research lab taught parametric design.
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
+- **Deconstructivist Architecture** (exhibition, New York, 1988–1988), launched the style. A show at the Museum of Modern Art. It put seven architects together and gave the deconstructivist movement its name.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 4.5 | 3.5–8 m | massing, facade |
+| Structural grid (`structural_grid`) | 12 | 4–30 m | structure |
+| Glazing ratio (`glazing_ratio`) | 35 | 20–50 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 20 | 0–45 deg | massing |
+| Base material (`base_material`) | steel | steel, concrete, glass | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

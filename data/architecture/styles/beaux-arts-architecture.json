@@ -270,6 +270,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 5.5, "min": 4.5, "max": 8},
+    "structural_grid": {"default": 5, "min": 4.5, "max": 6},
+    "glazing_ratio": {"default": 28, "min": 20, "max": 35},
+    "roof_pitch": {"default": 35, "min": 0, "max": 60, "note": "The range covers a low dome and a mansard roof."},
+    "base_material": {"default": "stone", "options": ["stone", "steel", "brick"]}
+  },
   "sources": [
     {
       "title": "Arthur Drexler (ed.), The Architecture of the École des Beaux-Arts (Museum of Modern Art, 1977)"

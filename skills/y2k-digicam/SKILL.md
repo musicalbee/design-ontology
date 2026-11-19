@@ -168,6 +168,36 @@ The rules above name these shared principles by id. The definition is the same i
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Direct flash (tool)
+
+A flash on the camera that fires straight at the subject, so that faces are bright, shadows are hard and the background goes dark. Origin: photography, Germany, 1929.
+
+- Put the flash on the camera axis; do not bounce it.
+- Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
+- Keep the red eye, the shine on skin and the hard shadow behind the subject.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 4000–6500 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.2 | 1.1–1.4 | colour_and_grade, post_processing |
+| Grain (`grain`) | 100 | 50–400 ISO | process, post_processing |
+| Focal length (`focal_length`) | 35 | 35–105 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 3:4 | 3:4 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -179,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`party-flash`](../party-flash/SKILL.md)
 - **Was rejected by:** [`film-grain-revival`](../film-grain-revival/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`found-footage`](../found-footage/SKILL.md), [`myspace-profile`](../myspace-profile/SKILL.md), [`photo-dump`](../photo-dump/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md)
 
 ## Emotional target

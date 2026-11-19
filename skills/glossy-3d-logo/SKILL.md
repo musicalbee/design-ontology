@@ -130,6 +130,23 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Smashing Magazine** (magazine, web, 2006–now), published the style. An online magazine for web designers and developers. Its tutorials and free icon sets spread the glossy Web 2.0 look and then the flat look.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1E90E8 | #1E90E8, #7CC242, #F7941D | colour |
+| Colour count (`colour_count`) | 4 | 2–6 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 3 | 1–6 % of mark height | form |
+| Container (`container`) | circle | circle, square, badge | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

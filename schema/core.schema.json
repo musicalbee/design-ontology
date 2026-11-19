@@ -74,6 +74,7 @@
         "rebelled_against": { "$ref": "#/$defs/refList", "description": "Styles that this style rejects." },
         "hybridized_with": { "$ref": "#/$defs/refList", "description": "Styles that this style mixes with in practice. The graph makes this edge symmetric." },
         "echoes": { "$ref": "#/$defs/refList", "description": "Kin in a DIFFERENT domain (for example a UI style and an architecture style that share a thesis)." },
+        "subgenre_of": { "$ref": "#/$defs/slug", "description": "The one parent style in the same domain when this style is a narrower branch of it (Synthetism of Post-Impressionism). The sub-genre has its own visual recipe; without one it is an organisation or a scene, not a sub-genre." },
         "root": { "$ref": "#/$defs/sentence", "description": "Only for a style with no edge: the reason why it has no ancestor in the data. Rule 1 of the curation rules needs an edge or this reason." }
       }
     },
@@ -198,7 +199,7 @@
           "year": { "type": "integer", "minimum": -3000, "maximum": 2100 },
           "credit": { "type": "string", "minLength": 3, "maxLength": 200 },
           "licence": {
-            "enum": ["CC0", "Public domain", "CC BY 2.0", "CC BY 3.0", "CC BY 4.0", "CC BY-SA 3.0", "CC BY-SA 4.0", "OFL-1.1", "MIT", "ISC", "Apache-2.0"]
+            "enum": ["CC0", "Public domain", "CC BY 2.0", "CC BY 3.0", "CC BY 4.0", "CC BY-SA 2.0", "CC BY-SA 3.0", "CC BY-SA 4.0", "OFL-1.1", "MIT", "ISC", "Apache-2.0"]
           },
           "licence_url": { "type": "string", "pattern": "^https://" },
           "url": { "type": "string", "pattern": "^https://", "description": "The page of the item: the Commons file page, the repository or the font page." },

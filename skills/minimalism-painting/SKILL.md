@@ -177,6 +177,23 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #1A1A1C | #1A1A1C, #8A8D91, #B5302A | palette |
+| Value contrast (`value_contrast`) | 0.5 | 0.1–0.9 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.1 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -186,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`suprematism`](../suprematism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md), [`minimalist-fashion`](../minimalist-fashion/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`suprematism`](../suprematism/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md)
 
 ## Emotional target

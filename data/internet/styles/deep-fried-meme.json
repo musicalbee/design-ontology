@@ -1,0 +1,324 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "deep-fried-meme",
+  "domain": "internet",
+  "name": "Deep-fried meme",
+  "aliases": [
+    "Deep fried",
+    "Fried meme",
+    "Crunchy meme"
+  ],
+  "branch": "memes",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2017,
+    "end": null,
+    "label": "2017–now"
+  },
+  "primary_mediums": [
+    "image",
+    "mobile"
+  ],
+  "summary": "A meme picture pushed through many rounds of saving, sharpening and colour boost until it shows heavy JPEG blocks, burnt reds and yellows, lens flares and glowing emoji. It spread on Reddit and Tumblr in 2017.",
+  "philosophy": {
+    "core_thesis": "Show the damage as the joke: a picture so copied and boosted that its own decay is the style.",
+    "design_principles": [
+      "Recompress the image to JPEG quality 5 to 15, 3 to 10 times, with a resize of 50% and 200% between rounds.",
+      "Raise saturation by 150% to 300% and contrast by 40% to 80% until the reds burn.",
+      "Sharpen by 150% so that noise shows round every edge.",
+      "Add lens flare, glowing eyes or a laser flare in red (#FF1A1A) and yellow (#FFE000).",
+      "Add laugh-cry or 100 emoji at 10% to 20% of the canvas and a caption in outlined Impact-style capitals.",
+      "Add a 2px to 4px outer glow in orange on the text.",
+      "Keep the subject readable: the face or the object stays recognisable at 25% size."
+    ],
+    "anti_patterns": [
+      "Clean, sharp, modern grading",
+      "Subtle, even tones",
+      "Neat, aligned caption",
+      "Lossless export of a fresh photo",
+      "Soft pastel colours",
+      "Wide empty margins"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 1,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A square canvas of 600px x 600px; a full-bleed picture with a loud caption and 2 to 5 pasted emoji or flares.",
+    "whitespace_ratio": "No empty space: the picture and effects fill 100% of the canvas.",
+    "alignment_rules": "Centred or off-centre caption; emoji scatter at random positions of 5% to 20% from the edge.",
+    "container_geometry": "No containers; stray JPEG blocks of 8px x 8px define the texture."
+  },
+  "typography": {
+    "classifications": [
+      "condensed grotesque",
+      "display capitals"
+    ],
+    "font_pairings": [
+      {
+        "display": "Anton",
+        "body": "Bangers",
+        "note": "Anton replaces Impact; Bangers adds a loud comic tone."
+      },
+      {
+        "display": "Oswald",
+        "body": "Permanent Marker",
+        "note": "A condensed face with a marker for loud side notes."
+      }
+    ],
+    "tracking": "Display 0 to +0.02em.",
+    "leading": "Display 1.0.",
+    "hierarchy_rules": [
+      "Use one display size at 12% of the canvas height.",
+      "Use bold capitals with a 3px to 4px outline.",
+      "Use white or yellow for text, with a red or black outline."
+    ]
+  },
+  "color": {
+    "palette_structure": "Burnt red, yellow and cyan noise on a high-contrast base.",
+    "palette": [
+      {
+        "name": "Burnt Red",
+        "hex": "#FF1A1A",
+        "role": "accent"
+      },
+      {
+        "name": "Fry Yellow",
+        "hex": "#FFE000",
+        "role": "highlight"
+      },
+      {
+        "name": "Hot Orange",
+        "hex": "#FF7A00",
+        "role": "glow"
+      },
+      {
+        "name": "Crushed Black",
+        "hex": "#0A0A0A",
+        "role": "background"
+      },
+      {
+        "name": "Flash White",
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "name": "Cyan Noise",
+        "hex": "#00E5FF",
+        "role": "noise"
+      }
+    ],
+    "contrast_rules": "White capitals with a black outline give 21:1 on any burnt ground.",
+    "surface_treatment": "JPEG blocks, banding and noise at 10% to 30% strength; no smooth gradients.",
+    "light_and_shadow": "Lens flares and glow of 8px to 24px around bright parts."
+  },
+  "materiality": {
+    "surface_simulation": "A badly compressed digital image with visible JPEG blocks and burnt colour.",
+    "border_rules": "A 3px black outline on text; no frame.",
+    "blur_and_elevation": "Glow of 8px to 24px blur on highlights; no soft shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Laugh-cry, 100 and fire emoji at 10% to 20% of the canvas.",
+    "illustration": "Lens flares, glowing eyes, sparkles and stray stickers.",
+    "decorative_elements": [
+      "JPEG blocks",
+      "lens flare",
+      "emoji pile"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Static image; a GIF version shakes by 4px each 80ms and flashes the flares.",
+    "easing": "steps(2, end)",
+    "duration_ms": 160,
+    "hover_and_active": "Hover shakes the picture by 3px."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "impact-image-macro"
+    ],
+    "hybridized_with": [
+      "surreal-meme"
+    ],
+    "echoes": [
+      "xerox-zine"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels loud, chaotic fun and a laugh at the damage.",
+    "keywords": [
+      "loud",
+      "chaotic",
+      "crunchy",
+      "ironic",
+      "burnt"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "deep fried meme",
+      "deep fried",
+      "jpeg crunch",
+      "fried image",
+      "burnt saturation",
+      "laugh cry emoji meme",
+      "low quality meme"
+    ],
+    "use_cases": [
+      "humour accounts",
+      "meme pages",
+      "chaotic campaign teasers",
+      "reaction images"
+    ],
+    "avoid_when": [
+      "The picture must stay sharp and trustworthy.",
+      "The page has a calm, formal tone."
+    ],
+    "modifiers": [
+      {
+        "request": "less damaged",
+        "toward": "impact-image-macro",
+        "how": "Keep the caption and outline but use one clean pass of JPEG quality 80 and no flares."
+      },
+      {
+        "request": "more mood",
+        "toward": "surreal-meme",
+        "how": "Drop the emoji and flares, keep the grain and use one odd cut-out and a calm caption."
+      },
+      {
+        "request": "more retro",
+        "toward": "y2k-aesthetic",
+        "how": "Swap the burn for chrome type, silver gradients and pixel stars."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.0,
+      "display_case": "uppercase",
+      "body_leading": 1.3,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "A solid, bold family that matches chunky emoji-like marks."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "noise",
+      "seed": 22
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": 3
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "The ground is a raw, burnt picture with JPEG blocks."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0A0A0A",
+      "--color-surface": "#1A0A00",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "#FFE000",
+      "--color-primary": "#FF1A1A",
+      "--color-accent": "#FFE000",
+      "--color-border": "#FF7A00",
+      "--font-sans": "\"Oswald\", \"Anton\", sans-serif",
+      "--font-display": "\"Anton\", \"Bangers\", sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "3px",
+      "--shadow-elevation": "0 0 16px #FF7A00",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(2, end)",
+      "--duration": "160ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0A0A0A] text-white font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-[Anton] text-5xl md:text-7xl uppercase leading-none text-white [-webkit-text-stroke:3px_#000] [text-shadow:0_0_16px_#FF7A00]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.3] text-[#FFE000] max-w-prose"
+      },
+      {
+        "element": "card",
+        "classes": "border-[3px] border-[#FF7A00] bg-[#1A0A00] shadow-[0_0_16px_#FF7A00]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-[3px] border-[#FFE000] bg-[#FF1A1A] px-6 py-3 font-[Anton] uppercase text-white hover:rotate-2"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF1A1A",
+        "#FFE000",
+        "#FF7A00"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FFE000",
+        "#FF1A1A"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "default": 1.414,
+      "min": 1.25,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Know Your Meme: Deep Fried Memes"
+    },
+    {
+      "title": "Wikipedia: JPEG",
+      "url": "https://en.wikipedia.org/wiki/JPEG"
+    }
+  ]
+}

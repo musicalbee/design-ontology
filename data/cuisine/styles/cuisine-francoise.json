@@ -1,0 +1,356 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "cuisine-francoise",
+  "domain": "cuisine",
+  "name": "Cuisine françoise",
+  "aliases": [
+    "La Varenne cuisine",
+    "French classical cuisine of the 17th century"
+  ],
+  "era_id": "classical-codification",
+  "branch": "haute",
+  "time_period": {
+    "start": 1651,
+    "end": 1800,
+    "label": "1651–1800"
+  },
+  "region": "Paris and Versailles",
+  "summary": "The French kitchen after La Varenne. Le Cuisinier françois of 1651 sets down the roux, the stock, the bouquet garni and fines herbes. Spice falls to pepper and nutmeg, and butter replaces lard. The flavour of the main food leads.",
+  "philosophy": {
+    "core_thesis": "Cook for the taste of the food itself: build each sauce on a stock and a roux, and use herbs where the medieval kitchen used spice.",
+    "design_principles": [
+      "Make a stock first, and build each sauce and each soup on it.",
+      "Thicken a sauce with a roux of flour and butter, not with bread crumbs.",
+      "Use fines herbes, a bouquet garni and mushrooms in place of a heavy load of spice.",
+      "Cut the spice to pepper, nutmeg and clove, and use butter in place of lard.",
+      "Cook each dish with its own sauce, and give the soup and the entrée their own place.",
+      "Serve in the French manner: three services of dishes laid out in a pattern on the table.",
+      "Cook fresh vegetables and fish, and write each recipe with its method in short steps."
+    ],
+    "anti_patterns": [
+      "A sauce thickened with soaked bread and ground almond",
+      "A heavy load of ginger, cinnamon and grains of paradise",
+      "Sugar in each savoury dish",
+      "A dish of one flat colour with saffron",
+      "A plated course for one guest",
+      "Chilli, soy or tropical spice"
+    ]
+  },
+  "vectors": {
+    "composition": 3,
+    "transformation": 4,
+    "locality": 3,
+    "richness": 4,
+    "flavour_intensity": 2
+  },
+  "plating": {
+    "composition": "Each dish is a symmetric shape on a platter: a roast at the centre with sauce boats, and small dishes at the four corners.",
+    "plate": "A silver or faience platter for each dish, and a silver plate with a fork, a knife and a spoon for each guest.",
+    "portion": "Each guest takes a piece of 120 to 180 g from a platter of 6 to 10 pieces, with a ladle of sauce.",
+    "height": "A dish stands 60 to 150 mm high; a pyramid of fruit or pastry stands 300 mm.",
+    "rules": [
+      "Set the dishes of one service in a symmetric pattern across the table.",
+      "Put the roast at the centre and the soup tureens at the corners of the first service.",
+      "Serve the sauce in a boat next to the dish, or poured over the meat.",
+      "Garnish the dish with mushroom, lemon, parsley or a slice of bacon.",
+      "Clear a whole service at once, and set the next service in its place."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "butter",
+      "veal",
+      "fine-herbs",
+      "truffle",
+      "wild-mushrooms",
+      "egg",
+      "wine",
+      "asparagus"
+    ],
+    "secondary": [
+      "cream",
+      "chicken",
+      "game-birds",
+      "lamb",
+      "beef",
+      "pork",
+      "shellfish",
+      "shallot",
+      "thyme-bay",
+      "lemon",
+      "vinegar",
+      "cane-sugar",
+      "artichoke",
+      "black-pepper",
+      "nutmeg",
+      "cheese"
+    ],
+    "avoid": [
+      "chilli",
+      "grains-of-paradise",
+      "soy-sauce",
+      "maize",
+      "potato",
+      "kombu"
+    ],
+    "in_europe": true,
+    "rule": "Build on butter, a veal or chicken stock and fines herbes, and let one spice at most show in the sauce."
+  },
+  "technique": {
+    "methods": [
+      "stock-making",
+      "roux",
+      "emulsion-sauce",
+      "knife-work",
+      "braising",
+      "spit-roasting",
+      "poaching"
+    ],
+    "bases": "A veal or beef stock called a fond, a roux of flour and butter, a bouquet garni of thyme, bay and parsley, and a mixture of mushrooms and shallots.",
+    "details": "A mushroom hash called duxelles, a bouquet garni tied with string, a sauce bound with egg yolk and butter, a puff pastry of many thin layers."
+  },
+  "flavour": {
+    "profile": "Clean and savoury: stock, butter and herbs, with the sharp note of lemon, verjuice or vinegar.",
+    "balance": "Umami from the stock and fat from butter lead; acid lifts the sauce; sweet moves to the dessert course.",
+    "fat": "Butter and cream give 35 to 50 per cent of the energy of a sauced main dish.",
+    "seasoning": "Salt, pepper, a little nutmeg, a bouquet garni in the pot and fines herbes at the end."
+  },
+  "palette": {
+    "strategy": "Use the ivory of butter sauces, the green of herbs and the brown of roasts on silver and white linen, in a room with mirrors and candles.",
+    "colours": [
+      {
+        "name": "Butter ivory",
+        "hex": "#F0E2B6",
+        "role": "white sauce"
+      },
+      {
+        "name": "Herb green",
+        "hex": "#6A8A3C",
+        "role": "fines herbes"
+      },
+      {
+        "name": "Roast brown",
+        "hex": "#7B4A25",
+        "role": "roast"
+      },
+      {
+        "name": "Mushroom taupe",
+        "hex": "#9B8468",
+        "role": "duxelles"
+      },
+      {
+        "name": "Silver",
+        "hex": "#BEC0C2",
+        "role": "platter"
+      },
+      {
+        "name": "Linen white",
+        "hex": "#F7F4EC",
+        "role": "cloth"
+      },
+      {
+        "name": "Asparagus green",
+        "hex": "#9DB05A",
+        "role": "vegetable"
+      }
+    ]
+  },
+  "service": {
+    "format": "Service à la française: three services of many dishes laid out at once in a pattern, and a guest takes from the dishes near him.",
+    "courses": "Three services with 8 to 20 dishes each: soups and entrées, roasts and salads, then fruit and sweet.",
+    "tableware": "A silver tureen, a silver or faience platter, a fork, a knife, a spoon, glass and a linen cloth.",
+    "setting": "A salon of Versailles or a Paris town house, with mirrors, candles and a steward at the head of the table."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "hors-doeuvre",
+        "dish": "Mushrooms duxelles with fines herbes",
+        "ingredient": "wild-mushrooms",
+        "method": "knife-work"
+      },
+      {
+        "course": "soup",
+        "dish": "Bisque of crayfish",
+        "ingredient": "shellfish",
+        "method": "stock-making"
+      },
+      {
+        "course": "entree",
+        "dish": "Chicken fricassée in a white roux sauce",
+        "ingredient": "chicken",
+        "method": "roux"
+      },
+      {
+        "course": "roast",
+        "dish": "Roast veal on the spit with its own juice",
+        "ingredient": "veal",
+        "method": "spit-roasting"
+      },
+      {
+        "course": "vegetable-course",
+        "dish": "Asparagus with a white butter sauce",
+        "ingredient": "asparagus",
+        "method": "emulsion-sauce"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "17th century French dinner",
+      "Versailles salon",
+      "silver tureen and platters",
+      "symmetric table of dishes",
+      "white butter sauce",
+      "herb green garnish",
+      "candlelight and mirrors",
+      "linen tablecloth",
+      "faience platter",
+      "engraving style",
+      "roast veal on silver",
+      "overhead view of a service"
+    ],
+    "negative": [
+      "tomato",
+      "potato",
+      "chilli",
+      "medieval trencher",
+      "foam",
+      "modern restaurant",
+      "single plated dish",
+      "neon light"
+    ],
+    "canonical_works": [
+      {
+        "work": "Le Cuisinier françois",
+        "maker": "François Pierre de La Varenne",
+        "year": 1651
+      },
+      {
+        "work": "Le Pastissier françois",
+        "maker": "François Pierre de La Varenne",
+        "year": 1653
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Le Cuisinier françois, second edition of 1652: title page",
+      "kind": "document",
+      "credit": "William C. Minor, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Le_Cuisinier_fran%C3%A7ois_2nd_ed.png",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/83/Le_Cuisinier_fran%C3%A7ois_2nd_ed.png",
+      "maker": "François Pierre de La Varenne",
+      "year": 1652
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "renaissance-banquet"
+    ],
+    "rebelled_against": [
+      "medieval-court-cuisine"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "baroque-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "The pleasure of clear taste and good order: a table of fine, balanced dishes in a room of reason and grace.",
+    "keywords": [
+      "refined",
+      "ordered",
+      "savoury",
+      "elegant",
+      "balanced"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "la varenne",
+      "le cuisinier francois",
+      "louis xiv dinner",
+      "versailles dinner",
+      "french classical cooking 1650",
+      "bouquet garni",
+      "duxelles",
+      "service a la francaise"
+    ],
+    "use_cases": [
+      "a dinner scene at the court of Louis XIV",
+      "a menu for a historical French dinner",
+      "a food image of a 17th century sauce"
+    ],
+    "avoid_when": [
+      "the brief wants strong medieval spice",
+      "the brief wants a plated modern dish",
+      "the brief wants a sauce of tomato"
+    ],
+    "modifiers": [
+      {
+        "request": "bigger, with sugar sculpture and pastry towers",
+        "toward": "grande-cuisine",
+        "how": "Add a pièce montée, dress each dish with hâtelets and aspic, and write the sauces as a system of stocks."
+      },
+      {
+        "request": "more spice and more sugar",
+        "toward": "renaissance-banquet",
+        "how": "Bring back ginger, cinnamon and sugar in the savoury dish, and add a sugar sculpture."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: François Pierre La Varenne",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Pierre_La_Varenne"
+    },
+    {
+      "title": "Wikipedia: Le Cuisinier françois",
+      "url": "https://en.wikipedia.org/wiki/Le_Cuisinier_fran%C3%A7ois"
+    },
+    {
+      "title": "Jean-Louis Flandrin and Massimo Montanari (eds.), Food: A Culinary History (1999)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 3,
+      "min": 3,
+      "max": 4
+    },
+    "negative_space": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.25
+    },
+    "portion_g": {
+      "default": 150,
+      "min": 100,
+      "max": 220
+    },
+    "spice_level": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.4,
+      "min": 0.3,
+      "max": 0.55
+    },
+    "plate_colour": {
+      "default": "#F7F4EC",
+      "options": [
+        "#F7F4EC",
+        "#BEC0C2",
+        "#E9E4D4"
+      ]
+    }
+  }
+}

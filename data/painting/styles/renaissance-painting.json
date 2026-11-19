@@ -108,6 +108,12 @@
       { "request": "looser, more modern", "toward": "impressionism", "how": "Keep the outdoor setting and the cool distance; drop the underdrawing, break each form into visible strokes 5–15mm wide and remove the outline." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#1F3F8F", "options": ["#1F3F8F", "#C8321E", "#D9B44A", "#5B4331"]},
+    "value_contrast": {"default": 0.7, "min": 0.55, "max": 0.85},
+    "brush_size": {"default": 0.1, "min": 0, "max": 0.3, "note": "No visible stroke inside a figure is wider than 3mm."},
+    "canvas_ratio": {"default": "3:4", "options": ["3:4", "2:3", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q4692 (Renaissance)", "url": "https://www.wikidata.org/wiki/Q4692" },
     { "title": "Getty AAT 300021140 (Renaissance)", "url": "https://vocab.getty.edu/page/aat/300021140" },

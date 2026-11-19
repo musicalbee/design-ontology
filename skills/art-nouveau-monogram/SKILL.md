@@ -130,6 +130,24 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 - Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
 - Use few colours, 2 to 4, in muted tones.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Jugend** (magazine, Munich, 1896–1940), published the style. An illustrated weekly for art and life. Its covers and title lettering spread the German form of Art Nouveau, which took the name Jugendstil from it.
+- **Ver Sacrum** (magazine, Vienna, 1898–1903), published the style. The magazine of the Vienna Secession. Each issue set text, drawings and the monograms of its artists in a strict square page.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #1C1A17 | #1C1A17, #7C8B62, #B9893B, #7A2E2A | colour |
+| Colour count (`colour_count`) | 1 | 1–2 | colour, reproduction |
+| Stroke weight (`stroke_weight`) | 5.5 | 4–7 % of mark height | form |
+| Container (`container`) | square | square, circle, none | construction |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -255,6 +255,35 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 4800,
+      "min": 4000,
+      "max": 5600
+    },
+    "contrast": {
+      "default": 1.25,
+      "min": 1.1,
+      "max": 1.4
+    },
+    "grain": {
+      "default": 800,
+      "min": 400,
+      "max": 1600
+    },
+    "focal_length": {
+      "default": 50,
+      "min": 35,
+      "max": 85
+    },
+    "aspect_ratio": {
+      "default": "16:9",
+      "options": [
+        "16:9"
+      ],
+      "note": "For a 2.39:1 frame, use 16:9 and crop bars at the top and the bottom."
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q1396390: color grading",

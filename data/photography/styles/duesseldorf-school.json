@@ -254,6 +254,36 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 6500,
+      "min": 6000,
+      "max": 7500
+    },
+    "contrast": {
+      "default": 1.05,
+      "min": 0.95,
+      "max": 1.1
+    },
+    "grain": {
+      "default": 100,
+      "min": 64,
+      "max": 160
+    },
+    "focal_length": {
+      "default": 35,
+      "min": 24,
+      "max": 50,
+      "note": "This is the 35 mm equivalent of 90 to 150 mm on 4×5 in."
+    },
+    "aspect_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5",
+        "3:4"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q1272382: Düsseldorf School of Photography",

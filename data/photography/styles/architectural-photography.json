@@ -252,6 +252,37 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 5500,
+      "min": 4500,
+      "max": 7000
+    },
+    "contrast": {
+      "default": 0.95,
+      "min": 0.85,
+      "max": 1.1
+    },
+    "grain": {
+      "default": 100,
+      "min": 50,
+      "max": 200
+    },
+    "focal_length": {
+      "default": 28,
+      "min": 17,
+      "max": 50,
+      "note": "A tilt-shift lens of 17 to 45 mm, or 90 to 135 mm on 4×5 in, gives this band."
+    },
+    "aspect_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5",
+        "3:4",
+        "2:3"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q635309: architectural photography",

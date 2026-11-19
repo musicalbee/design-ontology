@@ -212,7 +212,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#art-nouveau-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#art-nouveau-interior).
 
 ![Room](../../demo/moodboards/interior/art-nouveau-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/art-nouveau-interior/materials.webp)
@@ -220,6 +220,68 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/art-nouveau-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/art-nouveau-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/art-nouveau-interior/objects.webp)
+
+## Object net
+
+Every object grows from a plant or an insect: carved walnut, patinated bronze and amber art glass. Silk and velvet in moss green and mauve follow the same whiplash curve. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.65, material_warmth 0.65, finish_gloss 60, era_blend 0.2, hardware_weight 14, edge_radius 8, metal_tone bronze. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#art-nouveau-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Basin | console basin on legs | Porcelain, vitreous gloss glaze, mirror-smooth (#EDE3C8) |
+|  | Basin tap or mixer | swan-neck spout | Bronze, patinated, satin-smooth (#A8843F) |
+|  | Bath | boat-shaped tub | Copper, patinated, hammered (#A8843F) |
+|  | Towel rail | pedestal rail on feet | Bronze, patinated, satin-smooth (#A8843F) |
+|  | Bath accessories | shelf-top vessels | Porcelain, vitreous gloss glaze, mirror-smooth (#EDE3C8) |
+| Electrics ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Light switch | dolly toggle on a square plate | Bronze, patinated, satin-smooth (#A8843F) |
+|  | Socket outlet | round surface socket | Porcelain, vitreous gloss glaze, mirror-smooth (#EDE3C8) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Silk, piece-dyed, plain weave (#8C6C8E) |
+| Lighting ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Pendant lamp | tiered chandelier | Coloured glass, clear gloss, pressed pattern (#D49A3A) |
+|  | Table lamp | candlestick column with a pleated shade | Bronze, patinated, satin-smooth (#A8843F) |
+|  | Wall sconce | fan or shell in frosted glass | Opal glass, acid-etched or sandblasted, etched or frosted (#EDE3C8) |
+|  | Curtain pole | slim rod with end caps | Bronze, patinated, satin-smooth (#A8843F) |
+|  | Curtain track and blind | Roman blind | Silk, piece-dyed, plain weave (#8C6C8E) |
+| Storage ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Sideboard and cabinet | glass-front vitrine | Walnut, french polish, figured grain (#9A6B45) |
+|  | Wardrobe and tall cabinet | panelled armoire with a cornice | Walnut, french polish, figured grain (#9A6B45) |
+|  | Shelving | open bookcase | Walnut, french polish, figured grain (#9A6B45) |
+|  | Handle, knob and pull | drop pull on a backplate | Bronze, patinated, cast relief ornament (#A8843F) |
+| Soft Furniture ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Sofa | tight-back sofa on tapered legs | Velvet, lustre pile, cut pile (#7D8B5A) |
+|  | Armchair and lounge chair | club chair | Velvet, lustre pile, cut pile (#7D8B5A) |
+|  | Bed | upholstered headboard | Walnut, french polish, fine close grain (#9A6B45) |
+|  | Cushion and throw | bolster | Silk, piece-dyed, plain weave (#8C6C8E) |
+|  | Ottoman and pouf | round pouf | Velvet, lustre pile, cut pile (#8C6C8E) |
+| Tables ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Dining table | round table on a central column | Walnut, french polish, figured grain (#9A6B45) |
+|  | Dining chair | bentwood bistro chair | Walnut, french polish, figured grain (#9A6B45) |
+|  | Side table | pedestal side table | Walnut, french polish, fine close grain (#9A6B45) |
+|  | Desk and work table | writing desk with a gallery | Walnut, french polish, figured grain (#9A6B45) |
+| Kitchen ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Kitchen front | glass-front wall cabinet | Walnut, waxed, fine close grain (#9A6B45) |
+|  | Worktop and splashback | thick butcher-block top | Oak, waxed, open grain (#9A6B45) |
+|  | Kitchen sink and tap | copper farmhouse sink | Copper, patinated, hammered (#A8843F) |
+|  | Tableware and glassware | lidded tea set | Porcelain, vitreous gloss glaze, mirror-smooth (#EDE3C8) |
+|  | Cutlery | fiddle pattern | Silver plate, polished, cast relief ornament |
+| Decor ([`art-nouveau-object`](../art-nouveau-object/SKILL.md)) | Vase | trumpet vase | Coloured glass, clear gloss, seeded (#D49A3A) |
+|  | Plant pot and planter | glazed jardinière | Stoneware, vitreous gloss glaze, satin-smooth (#7D8B5A) |
+|  | Picture frame | gilt swept frame | Walnut, gilded, fine close grain (#A8843F) |
+|  | Mirror | arched mirror | Walnut, waxed, fine close grain (#9A6B45) |
+|  | Candle holder and lantern | candlestick pair | Bronze, patinated, cast relief ornament (#A8843F) |
+|  | Rug | hand-knotted oriental rug | Silk, piece-dyed, knotted pile (#8C6C8E) |
+
+Alternates for each category:
+- **Sanitary:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Electrics:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Lighting:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md)
+- **Storage:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Soft Furniture:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Tables:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Kitchen:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Decor:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`arts-and-crafts-object`](../arts-and-crafts-object/SKILL.md), [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Pendant lamp, Sofa, Dining table, Side table, Table lamp, Curtain track and blind, Wardrobe and tall cabinet
+- **materials:** Sideboard and cabinet, Pendant lamp, Basin tap or mixer, Curtain track and blind, Sofa, Kitchen front
+- **furniture:** Sofa, Side table, Dining chair, Sideboard and cabinet, Desk and work table, Armchair and lounge chair
+- **textiles:** Sofa, Cushion and throw, Curtain track and blind, Armchair and lounge chair, Rug
+- **light:** Pendant lamp, Table lamp, Wall sconce, Curtain pole
+- **objects:** Vase, Plant pot and planter, Picture frame, Mirror, Candle holder and lantern, Tableware and glassware
 
 ## Vocabulary primer
 
@@ -237,6 +299,46 @@ Reference works:
 | Dining room for Eugène Vallin | Eugène Vallin | 1903 |
 | Tiffany lamps | Tiffany Studios | 1900 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Stained glass (material)
+
+Pieces of coloured glass held in lead strips, so that a window becomes a picture of coloured light. Origin: architecture, Saint-Denis, France, 1144.
+
+- Cut each piece to one colour; join the pieces with H-section lead 4 to 8 mm wide.
+- Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
+- Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
+
+### Whiplash line (motif)
+
+A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke. Origin: architecture, Brussels, c. 1893.
+
+- Draw each line as an S-curve with a radius that changes along its length.
+- Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
+- Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
+- Use few colours, 2 to 4, in muted tones.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
+- **Maison de l'Art Nouveau** (gallery, Paris, 1895–1904), launched the style. The gallery of the dealer Siegfried Bing. It sold furniture, glass and rooms by new designers, and its name became the name of the style.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EDE3C8 | #EDE3C8, #7D8B5A | palette |
+| Accent colour (`accent_colour`) | #D49A3A | #D49A3A, #8C6C8E, #A8843F | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3.2 | 2.8–4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2300–3000 K | lighting |
+| Object density (`object_density`) | 0.6 | 0.45–0.75 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -247,7 +349,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Was rejected by:** [`art-deco-interior`](../art-deco-interior/SKILL.md)
-- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
+- **Kin in another domain:** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md), [`art-nouveau-ceramics`](../art-nouveau-ceramics/SKILL.md), [`art-nouveau-jewellery`](../art-nouveau-jewellery/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`art-nouveau-tiles`](../art-nouveau-tiles/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Nearest by vector profile:** [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 
 ## Emotional target

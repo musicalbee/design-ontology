@@ -1,0 +1,351 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "raku-tea-bowl",
+  "domain": "ceramics",
+  "name": "Raku tea bowl",
+  "aliases": [
+    "Raku ware",
+    "Black raku",
+    "Red raku",
+    "Chōjirō tea bowl"
+  ],
+  "era_id": "blue-and-white",
+  "branch": "teaware",
+  "time_period": {
+    "start": 1580,
+    "end": 1700,
+    "label": "1580–1700"
+  },
+  "region": "Kyoto, Japan",
+  "summary": "Hand-built, low-fired tea bowls that Chōjirō made in Kyoto for the tea master Sen no Rikyū. The potter pulls each bowl from the hot kiln, and the glaze is black or red.",
+  "philosophy": {
+    "core_thesis": "A tea bowl need not be thrown, round or bright: hand-built, a little uneven and fired fast, it can calm the mind and ask nothing of the eye.",
+    "design_principles": [
+      "Build the bowl by hand from a coil or a pinched ball of clay; do not use the wheel.",
+      "Cut the shape with a bamboo knife until the wall is 8 to 12 mm thick and fits the palm.",
+      "Make the bowl sit low and heavy, with a flat or slightly concave base.",
+      "Cover the body with one lead glaze, black or red, in one colour.",
+      "Fire each bowl alone in a small kiln at 800 to 1000 °C and pull it out while hot.",
+      "Leave a trace of the hand: a dent, a spatula cut or a slight lean.",
+      "Make a black bowl for the tea master and a red bowl for the guest.",
+      "Keep the bowl plain, so that the tea and the room are the show."
+    ],
+    "anti_patterns": [
+      "A true round form that a wheel makes",
+      "A bright painted or printed pattern",
+      "A thin, light, hard wall that rings when tapped",
+      "A glossy high-fired glaze that looks wet and hard"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "hand_mark": 5,
+    "refinement": 2,
+    "glaze_depth": 3,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "A short cylinder or a rounded bowl with a wide mouth, made to hold in two hands. The wall is thick, and the mouth may be slightly oval.",
+    "profile": "A low, straight or gently curved wall rises from a flat base; the lip turns in a little, and one side may be higher.",
+    "foot_and_rim": "A low, wide foot cut by hand and left unglazed; the rim is uneven and rounded, and the glaze may stop above the foot.",
+    "proportion": "Diameter 10 to 12 cm and height 7 to 9 cm; the wall is 8 to 12 mm thick and the bowl is heavy for its size.",
+    "rules": [
+      "Build the shape by hand and keep it a little asymmetric.",
+      "Keep the wall thick, so that the hand does not burn on hot tea.",
+      "Glaze in one colour, black or red; add no painted pattern.",
+      "Cut the foot by hand and leave a small area of bare clay."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "raku-clay"
+    ],
+    "secondary": [],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "bone-china"
+    ],
+    "rule": "Use an open, grogged clay that takes the shock of the hot kiln. Keep a dense stoneware or a porcelain body out: it cracks when pulled hot."
+  },
+  "forming": {
+    "methods": [
+      "pinching a ball of clay into a bowl",
+      "building up the wall with coils",
+      "cutting and shaping with a bamboo knife",
+      "carving the foot ring by hand when leather-hard",
+      "drying slowly in the shade"
+    ],
+    "joins": "The bowl is one piece; a coil join is smoothed into the wall and cannot be seen.",
+    "details": "Knife marks on the wall, a dent made by the thumb, an uneven rim and a hand-cut foot with tongs marks left by the kiln."
+  },
+  "glaze": {
+    "glazes": [
+      "raku-glaze",
+      "bare-clay"
+    ],
+    "decorations": [
+      "undecorated",
+      "incised"
+    ],
+    "pattern": "One black or red lead glaze, matt to satin; a few bowls carry a spatula cut or an incised line, and a rare piece has a white glaze.",
+    "gloss": "Matt to satin, about 20 to 70 GU; black raku is a little brighter, red raku is softer.",
+    "wear": "The glaze wears at the rim and shows the clay body. Tea stains the glaze and the crackles."
+  },
+  "palette": {
+    "strategy": "One tone for each bowl: deep black, brick red, or a buff white. The clay shows at the foot.",
+    "colours": [
+      {
+        "name": "Raku black",
+        "hex": "#1E1A18",
+        "role": "black bowl glaze"
+      },
+      {
+        "name": "Raku red",
+        "hex": "#9A4B33",
+        "role": "red bowl glaze"
+      },
+      {
+        "name": "Buff white",
+        "hex": "#E3D5B9",
+        "role": "white raku glaze"
+      },
+      {
+        "name": "Grogged clay",
+        "hex": "#9C8468",
+        "role": "bare foot"
+      },
+      {
+        "name": "Tea green",
+        "hex": "#9AAA6E",
+        "role": "tea in the bowl"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A small kiln for one or two bowls, fed with charcoal; the potter opens it and pulls the glowing bowl out with iron tongs.",
+    "atmosphere": "raku",
+    "temperature_c": [
+      800,
+      1000
+    ],
+    "processes": [
+      "bisque firing at about 800 °C",
+      "dipping in lead glaze",
+      "short glaze firing of one bowl at a time",
+      "pulling the bowl out of the hot kiln with tongs",
+      "cooling in the open air"
+    ],
+    "scale": "One workshop in Kyoto, from 1580; one potter made a few bowls in each firing.",
+    "signs": "A mark where the tongs gripped the glaze, fine crackles and soft colour variation from the short firing."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "tea-bowl",
+        "form": "Black bowl with a straight wall and a low foot",
+        "body": "raku-clay",
+        "glaze": "raku-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "tea-bowl",
+        "form": "Red bowl with a soft oval mouth and a pinched lip",
+        "body": "raku-clay",
+        "glaze": "raku-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "tea-bowl",
+        "form": "Bowl with a spatula cut across the wall and a heavy base",
+        "body": "raku-clay",
+        "glaze": "raku-glaze",
+        "decoration": "incised"
+      },
+      {
+        "object": "water-jar",
+        "form": "Hand-built fresh-water jar with a black raku glaze",
+        "body": "raku-clay",
+        "glaze": "raku-glaze",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "hand-built Japanese raku tea bowl",
+      "black raku glaze with soft crackle",
+      "thick wall and low foot",
+      "slightly uneven oval rim",
+      "spatula marks on the wall",
+      "bare grogged clay at the foot",
+      "red raku glaze",
+      "still-life museum photograph, soft north light"
+    ],
+    "negative": [
+      "wheel-thrown perfect round",
+      "painted pattern",
+      "porcelain thin wall",
+      "glossy high-fired glaze",
+      "glass-like surface"
+    ],
+    "canonical_works": [
+      {
+        "work": "Tea bowl named Ōguro (Great Black)",
+        "maker": "Chōjirō",
+        "year": 1580
+      },
+      {
+        "work": "Tea bowl named Kamuro",
+        "maker": "Chōjirō",
+        "year": 1580
+      },
+      {
+        "work": "Tea bowl named Fujisan (white raku)",
+        "maker": "Hon'ami Kōetsu",
+        "year": 1620
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Tea Bowl, Named “Amadera (Nunnery)”.jpg",
+      "kind": "image",
+      "credit": "Chōjirō and workshop",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tea_Bowl,_Named_%E2%80%9CAmadera_(Nunnery)%E2%80%9D.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tea_Bowl%2C_Named_%E2%80%9CAmadera_%28Nunnery%29%E2%80%9D.jpg/960px-Tea_Bowl%2C_Named_%E2%80%9CAmadera_%28Nunnery%29%E2%80%9D.jpg",
+      "maker": "Raku workshop, Kyoto"
+    },
+    {
+      "title": "Tea bowl, known as Suehiro, studio of Chojiro, Raku ware, Kuroraku type,",
+      "kind": "image",
+      "credit": "Daderot",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tea_bowl,_known_as_Suehiro,_studio_of_Chojiro,_Raku_ware,_Kuroraku_type,_Azuchi-Momoyama_to_Edo_period,_1500s-1600s_AD,_ceramic_-_Tokyo_National_Museum_-_Ueno_Park,_Tokyo,_Japan_-_DSC08889.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Tea_bowl%2C_known_as_Suehiro%2C_studio_of_Chojiro%2C_Raku_ware%2C_Kuroraku_type%2C_Azuchi-Momoyama_to_Edo_period%2C_1500s-1600s_AD%2C_ceramic_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08889.jpg/960px-thumbnail.jpg",
+      "maker": "Raku workshop, Kyoto"
+    },
+    {
+      "title": "Black Raku tea bowl by Dōnyū III Titled Kanzan.jpg",
+      "kind": "image",
+      "credit": "Dōnyū",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Black_Raku_tea_bowl_by_D%C5%8Dny%C5%AB_III_Titled_Kanzan.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Black_Raku_tea_bowl_by_D%C5%8Dny%C5%AB_III_Titled_Kanzan.jpg/960px-Black_Raku_tea_bowl_by_D%C5%8Dny%C5%AB_III_Titled_Kanzan.jpg",
+      "maker": "Raku workshop, Kyoto"
+    },
+    {
+      "title": "Red Raku tea bowl by Sanyū VI.jpg",
+      "kind": "image",
+      "credit": "Sanyū",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Raku_tea_bowl_by_Sany%C5%AB_VI.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Red_Raku_tea_bowl_by_Sany%C5%AB_VI.jpg/960px-Red_Raku_tea_bowl_by_Sany%C5%AB_VI.jpg",
+      "maker": "Raku workshop, Kyoto"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "jian-tenmoku-ware"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "japanese-modern-craft-product",
+      "wabi-sabi-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "A hush. The viewer sees a heavy, dark bowl that a hand shaped and feels the stillness of the tea room.",
+    "keywords": [
+      "quiet",
+      "austere",
+      "humble",
+      "grounded",
+      "imperfect"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "raku",
+      "raku tea bowl",
+      "chōjirō",
+      "black raku",
+      "red raku",
+      "chawan",
+      "wabi tea bowl"
+    ],
+    "use_cases": [
+      "a tea-room still life with a hand-built bowl",
+      "a glaze and form brief for a hand-built bowl",
+      "a museum label for Momoyama tea ware"
+    ],
+    "avoid_when": [
+      "the brief needs a thin, round, wheel-made bowl",
+      "the brief needs dishwasher-safe ware",
+      "the brief needs a painted pattern"
+    ],
+    "modifiers": [
+      {
+        "request": "more glaze, high fire, with a white feldspar glaze",
+        "toward": "mino-tea-ceramics",
+        "how": "Change the body to stoneware and the glaze to a thick shino, and fire to about 1250 °C."
+      },
+      {
+        "request": "richer, painted, gold and enamel",
+        "toward": "kyo-yaki-overglaze",
+        "how": "Throw a thin stoneware bowl, add a crackle glaze and paint it in enamel and gold."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Raku ware",
+      "url": "https://en.wikipedia.org/wiki/Raku_ware"
+    },
+    {
+      "title": "Wikipedia: Chōjirō",
+      "url": "https://en.wikipedia.org/wiki/Ch%C5%8Dj%C5%8D"
+    },
+    {
+      "title": "Wikidata Q648899",
+      "url": "https://www.wikidata.org/wiki/Q648899"
+    }
+  ],
+  "identity": {
+    "wikidata": "Q648899"
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0.0,
+      "max": 0.3
+    },
+    "glaze_gloss": {
+      "default": 45,
+      "min": 20,
+      "max": 70
+    },
+    "wall_thickness": {
+      "default": 10,
+      "min": 8,
+      "max": 14,
+      "note": "The raku wall is thick on purpose; it keeps the tea hot and holds in the hand."
+    },
+    "hand_mark": {
+      "default": 0.9,
+      "min": 0.6,
+      "max": 1.0
+    },
+    "era_blend": {
+      "default": 0.15,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

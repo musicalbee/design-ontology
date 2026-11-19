@@ -1,0 +1,384 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "muscle-and-pony-car",
+  "domain": "fashion",
+  "name": "Muscle and Pony Car",
+  "aliases": [
+    "American muscle car",
+    "Pony car",
+    "Detroit performance coupe"
+  ],
+  "era_id": "youthquake",
+  "branch": "cars",
+  "time_period": {
+    "start": 1964,
+    "end": 1974,
+    "label": "1964–1974"
+  },
+  "region": "Detroit, United States",
+  "summary": "The young, fast American coupe. A long bonnet, a short rear deck and a fastback or notch roof. It has a bold stripe, a bonnet scoop, vinyl bucket seats and a woodgrain dash.",
+  "philosophy": {
+    "core_thesis": "A fast car is for the young and must cost little. It has a long bonnet over a big engine, a short tail and a few bold marks, on a small base.",
+    "design_principles": [
+      "Make the bonnet long and the rear deck short, with the cabin set well back.",
+      "Keep the body compact, 4.6 to 4.9 m long, and the roof about 1.3 m high.",
+      "Fit a grille with a galloping horse, a bull or a bar, and set the headlamps wide apart.",
+      "Add bold marks: a racing stripe, a bonnet scoop, a rear spoiler or side stripes.",
+      "Show the engine size on the wing, in chrome numerals or a badge.",
+      "Trim the cabin with vinyl bucket seats, a bench or a console, and a woodgrain-effect dashboard.",
+      "Offer many options so that each buyer builds a car to his own taste."
+    ],
+    "anti_patterns": [
+      "Tail fins and heavy chrome",
+      "A tall, upright cabin",
+      "A fine, hand-built body",
+      "Dull body colours with no stripe",
+      "A body that is soft and round"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "structure": 3,
+    "luxury": 2,
+    "technicality": 3,
+    "chromatic_intensity": 5
+  },
+  "silhouette": {
+    "shape": "A long-bonnet, short-deck coupe: a low body with a flat bonnet, a roof that sits back and a tail that rises in a short kick.",
+    "line": "A body line that rises slightly from the front wheel to the rear wing. A bold curve over the rear wheel is known as the hip.",
+    "fit": "Four seats, but the rear seats are tight; the front bucket seats sit low and close to the wheel.",
+    "proportion": "Length 4.6 to 4.9 m; height 1.3 m; the bonnet is about 40 percent of the length; the rear deck about 15 percent.",
+    "rules": [
+      "Show the long bonnet with a scoop, a bulge or a wide stripe.",
+      "Set a small round or square lamp in each end of the grille.",
+      "Give the rear wing a strong hip line over a wide tyre.",
+      "Set the tail lamps in three vertical bars or in a full-width panel."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "pressed-steel",
+      "pvc-leathercloth",
+      "chrome-plate",
+      "vulcanised-rubber",
+      "abs-plastic"
+    ],
+    "secondary": [
+      "aluminium",
+      "jacquard",
+      "corduroy",
+      "houndstooth",
+      "acrylic-glass",
+      "calfskin"
+    ],
+    "avoid": [
+      "burr-walnut",
+      "carbon-fibre",
+      "brass",
+      "vegetable-tanned-leather",
+      "fibreglass"
+    ],
+    "rule": "Use cheap, strong, mass-made materials with a bold look: stamped steel, vinyl, chrome and moulded plastic, with paint and tape for the colour."
+  },
+  "construction": {
+    "methods": [
+      "unitised steel body stamped in big presses",
+      "full-size clay model by the styling studio",
+      "chrome plated front and rear bumpers",
+      "vinyl bucket seats cut and sewn on a line",
+      "injection-moulded plastic dashboard and console",
+      "paint stripes and decals applied by tape"
+    ],
+    "closures": "Chrome push-button door handles, a flip-open fuel cap on the tail, and a hood pin or a lock on the bonnet.",
+    "details": "A bonnet scoop, a racing stripe, wide tyres with white letters, a chrome engine badge, a floor shifter and a round dial cluster."
+  },
+  "surface": {
+    "finishes": [
+      "metallic-paint",
+      "gloss-paint",
+      "polished",
+      "matte",
+      "brushed",
+      "screen-printed"
+    ],
+    "pattern": "A bold stripe over the bonnet and roof, or along the sill; a woodgrain-effect dashboard and a plain or houndstooth seat insert.",
+    "gloss": "Acrylic enamel paint at 80–90 GU; chrome at more than 90 GU; vinyl at 10–25 GU.",
+    "wear": "Rust in the wing, cracked dash vinyl and peeled stripes; owners restore the car to the factory stripe."
+  },
+  "palette": {
+    "strategy": "Strong, saturated colours, with a black or white stripe, a black interior and chrome in the grille and the bumpers.",
+    "colours": [
+      {
+        "name": "Competition orange",
+        "hex": "#E4572E",
+        "role": "body"
+      },
+      {
+        "name": "Grabber blue",
+        "hex": "#1F6FD1",
+        "role": "body"
+      },
+      {
+        "name": "Lime green",
+        "hex": "#8DC63F",
+        "role": "body"
+      },
+      {
+        "name": "Racing white",
+        "hex": "#F2F2EF",
+        "role": "stripe"
+      },
+      {
+        "name": "Black vinyl",
+        "hex": "#161618",
+        "role": "seats and stripe"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#CFD2D5",
+        "role": "bumpers"
+      },
+      {
+        "name": "Woodgrain",
+        "hex": "#7A4A28",
+        "role": "dashboard"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "clay model by a styling team",
+      "steel panel stamping",
+      "chrome plating of bumpers",
+      "vinyl cut and sew",
+      "plastic injection moulding",
+      "stripe and decal fit"
+    ],
+    "scale": "Mass-made by the big firms, up to several hundred thousand cars a year; one body offered with many engines and trims.",
+    "signs": "A long bonnet, a short deck, a bold stripe, a scoop, wide tyres and a vinyl bucket-seat cabin with a woodgrain dash."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "coupe",
+        "form": "Two-door fastback coupe with a long bonnet and a short deck",
+        "material": "pressed-steel",
+        "finish": "metallic-paint"
+      },
+      {
+        "object": "sports-car",
+        "form": "Compact hardtop with a bonnet scoop and a stripe",
+        "material": "pressed-steel",
+        "finish": "gloss-paint"
+      },
+      {
+        "object": "seat-upholstery",
+        "form": "Low vinyl bucket seats with a pleated insert",
+        "material": "pvc-leathercloth",
+        "finish": "matte"
+      },
+      {
+        "object": "dashboard",
+        "form": "Moulded dash with a woodgrain panel and round dials",
+        "material": "abs-plastic",
+        "finish": "matte"
+      },
+      {
+        "object": "wheel",
+        "form": "Slotted steel wheel with a chrome ring and a wide tyre",
+        "material": "pressed-steel",
+        "finish": "gloss-paint"
+      },
+      {
+        "object": "brightwork",
+        "form": "Chrome bumpers and a grille with a galloping emblem",
+        "material": "chrome-plate",
+        "finish": "polished"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1960s American muscle car",
+      "pony car",
+      "long bonnet short deck",
+      "racing stripe",
+      "bonnet scoop",
+      "fastback coupe",
+      "vinyl bucket seats",
+      "woodgrain dashboard",
+      "chrome bumpers",
+      "wide tyres",
+      "saturated orange paint",
+      "drag strip photograph"
+    ],
+    "negative": [
+      "tail fin",
+      "small hatchback",
+      "wedge shape",
+      "pop-up headlamp",
+      "carbon fibre",
+      "electric car"
+    ],
+    "canonical_works": [
+      {
+        "work": "Ford Mustang",
+        "maker": "Ford Motor Company",
+        "year": 1964
+      },
+      {
+        "work": "Pontiac GTO",
+        "maker": "John DeLorean",
+        "year": 1964
+      },
+      {
+        "work": "Plymouth Barracuda",
+        "maker": "Chrysler",
+        "year": 1964
+      },
+      {
+        "work": "Chevrolet Camaro",
+        "maker": "General Motors",
+        "year": 1966
+      },
+      {
+        "work": "Dodge Charger",
+        "maker": "Chrysler",
+        "year": 1966
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "1965 Ford Mustang Convertible.jpg",
+      "kind": "image",
+      "credit": "Calreyn88",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1965_Ford_Mustang_Convertible.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/1965_Ford_Mustang_Convertible.jpg/960px-1965_Ford_Mustang_Convertible.jpg"
+    },
+    {
+      "title": "1966 Pontiac GTO Convertible.jpg",
+      "kind": "image",
+      "credit": "DestinationFearFan",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1966_Pontiac_GTO_Convertible.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/1966_Pontiac_GTO_Convertible.jpg/960px-1966_Pontiac_GTO_Convertible.jpg"
+    },
+    {
+      "title": "1969 Dodge Charger (15323263993).jpg",
+      "kind": "image",
+      "credit": "Sicnag",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1969_Dodge_Charger_(15323263993).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/1969_Dodge_Charger_%2815323263993%29.jpg/960px-1969_Dodge_Charger_%2815323263993%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "italian-gran-turismo"
+    ],
+    "rebelled_against": [
+      "tailfin-era-car"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "space-age-pop-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A rush of power and youth: the viewer sees a long bonnet, a loud colour and a car that costs little and goes fast.",
+    "keywords": [
+      "loud",
+      "young",
+      "powerful",
+      "bold",
+      "rebellious"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "muscle car",
+      "pony car",
+      "mustang",
+      "1960s american coupe",
+      "long bonnet short deck",
+      "racing stripe car",
+      "gto",
+      "drag racer"
+    ],
+    "use_cases": [
+      "a 1960s road movie or a drag race scene",
+      "a poster for a car show",
+      "an image prompt for an American coupe",
+      "a classic car sale page"
+    ],
+    "avoid_when": [
+      "the brief wants a refined or a luxury car",
+      "the brief wants a small European car",
+      "the brief wants a quiet, electric car"
+    ],
+    "modifiers": [
+      {
+        "request": "sharper, flat-sided",
+        "toward": "wedge-design-car",
+        "how": "Flatten the panels, lower the nose, raise the tail and replace the chrome with black trim."
+      },
+      {
+        "request": "older, more chrome",
+        "toward": "tailfin-era-car",
+        "how": "Add fins, a full-width chrome grille, two-tone paint and a wrap-around screen."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Muscle car",
+      "url": "https://en.wikipedia.org/wiki/Muscle_car"
+    },
+    {
+      "title": "Wikipedia: Pony car",
+      "url": "https://en.wikipedia.org/wiki/Pony_car"
+    },
+    {
+      "title": "Wikipedia: Ford Mustang (first generation)",
+      "url": "https://en.wikipedia.org/wiki/Ford_Mustang_(first_generation)"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 0.8,
+      "note": "The stripe, the scoop and the badge carry the ornament; the body stays plain."
+    },
+    "proportion_scale": {
+      "default": 0.8,
+      "min": 0.6,
+      "max": 1.0
+    },
+    "surface_gloss": {
+      "default": 70,
+      "min": 20,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.15,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "silver",
+        "black",
+        "steel"
+      ]
+    }
+  }
+}

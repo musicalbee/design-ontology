@@ -180,6 +180,24 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Heavy Metal** (magazine, New York, 1977–now), published the style. A magazine of science fiction and fantasy comics. It printed airbrushed covers and smooth, dream-like painted worlds.
+- **Omni** (magazine, New York, 1978–1997), published the style. A magazine of science and science fiction. Its painted covers showed hardware futures, chrome and airbrushed worlds.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #1E6BFF | #0B1140, #1E6BFF, #E0189B, #FF7A1A | palette |
+| Value contrast (`value_contrast`) | 0.9 | 0.75–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.2 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 2:3, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -188,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **darker and more theatrical**: move toward [`baroque-painting`](../baroque-painting/SKILL.md) (Baroque painting). Reduce the glow to one warm light source, deepen the shadows to near black, and drop the chrome; keep the smooth surface and the single focal object.
 - If the user asks for **more painterly**: move toward [`impressionism`](../impressionism/SKILL.md) (Impressionism). Replace the sprayed gradients with visible touches of 5–15mm and let the edges break; keep the colour heat of the sky.
 
-- **Kin in another domain:** [`pop-art-web`](../pop-art-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
+- **Kin in another domain:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`space-age`](../space-age/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md)
 - **Nearest by vector profile:** [`photorealism`](../photorealism/SKILL.md), [`mannerism-painting`](../mannerism-painting/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
 
 ## Emotional target

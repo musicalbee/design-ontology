@@ -148,6 +148,24 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Hamilton Manufacturing Company** (company, Two Rivers, Wisconsin, 1880–now), made the style. The largest American maker of wood type. Printers used its heavy slab and fat face letters on posters.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 300–900 | metrics, setting |
+| Width (`width`) | 100 | 85–125 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.49 | 0.45–0.54 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 1.3 | 1–1.8 | anatomy |
+| Tracking (`tracking`) | 0 | -0.01–0.02 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -158,7 +176,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`didone-serif`](../didone-serif/SKILL.md)
 - **Led to (go here for a newer version):** [`monospace`](../monospace/SKILL.md)
 - **Mixes well with:** [`fat-face-display`](../fat-face-display/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
-- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Kin in another domain:** [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`monospace`](../monospace/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 
 ## Emotional target

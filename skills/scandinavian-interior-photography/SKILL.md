@@ -158,6 +158,37 @@ The rules above name these shared principles by id. The definition is the same i
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | accent to ambient (ratio): 3:1 to 10:1; key to fill (ratio): 2:1 to 8:1 in photography |
 | `colour-distribution` | Colour distribution | Each colour takes a planned share of the visible area: a dominant colour, a secondary colour and an accent. | dominant / secondary / accent share (% of visible surface): 60/30/10 as the default; 70/25/5 calm; 40/35/25 bold; accents (count): 1 to 3 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Tilt-shift (tool)
+
+Lens or camera movements that keep vertical lines parallel and move the plane of focus; a building stands upright and sharp. Origin: photography, Vienna, 1904.
+
+- Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.
+- Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.
+- Close the lens to f/11 to f/22 for full depth of field.
+- In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5800 | 5500–6200 K | colour_and_grade, light |
+| Contrast (`contrast`) | 0.9 | 0.8–1 | colour_and_grade, post_processing |
+| Grain (`grain`) | 100 | 50–200 ISO | process, post_processing |
+| Focal length (`focal_length`) | 24 | 20–35 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 4:5 | 4:5, 3:4, 2:3 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -167,7 +198,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-objectivity`](../new-objectivity/SKILL.md)
 - **Mixes well with:** [`architectural-photography`](../architectural-photography/SKILL.md), [`fashion-editorial`](../fashion-editorial/SKILL.md)
-- **Kin in another domain:** [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
+- **Kin in another domain:** [`flat-lay-feed`](../flat-lay-feed/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
 - **Nearest by vector profile:** [`architectural-photography`](../architectural-photography/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 
 ## Emotional target

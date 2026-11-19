@@ -251,6 +251,35 @@
       }
     ]
   },
+  "permutations": {
+    "weight": {
+      "default": 400,
+      "min": 400,
+      "max": 900
+    },
+    "width": {
+      "default": 100,
+      "min": 80,
+      "max": 110
+    },
+    "x_height_ratio": {
+      "default": 0.42,
+      "min": 0.38,
+      "max": 0.52,
+      "note": "Playfair Display sits at the top; Bodoni and Didot sit near 0.40."
+    },
+    "stroke_contrast": {
+      "default": 8,
+      "min": 4,
+      "max": 14
+    },
+    "tracking": {
+      "default": -0.01,
+      "min": -0.02,
+      "max": 0.15,
+      "note": "The top of the range is for letter-spaced capitals."
+    }
+  },
   "sources": [
     {
       "title": "Didone (typography) (Wikipedia)",

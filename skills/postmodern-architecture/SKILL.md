@@ -186,12 +186,32 @@ A curved head over an opening that carries load as compression; inside, a soft f
 
 ### Neon glow (material)
 
-Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: graphic & ui design, Paris, 1912.
+Light as a line of coloured gas, with a soft halo that spills onto the dark ground around it. Origin: internet, Paris, 1912.
 
 - Draw the tube as a line of 2 to 6mm in one saturated colour; use no more than 2 colours in one sign.
 - Add a halo of 10 to 40px at 30% to 60% opacity in the same hue.
 - Set the sign on a ground darker than 10% lightness, so that the halo shows.
 - Keep a bright, near-white core inside the line.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Graham Foundation** (foundation, Chicago, 1956–now), funded the style. Chicago foundation for architecture, founded in 1956. It backed Robert Venturi's book Complexity and Contradiction in Architecture.
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
+- **Venice Biennale of Architecture** (salon, Venice, 1980–now), launched the style. An architecture show that the Venice Biennale holds every two years. Its first edition built a street of postmodern facades, and later editions showed buildings made again from old structures.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.6 | 3.2–4.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 8 | 7–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 30 | 20–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 35 | 0–50 deg | massing |
+| Base material (`base_material`) | stone | stone, concrete, brick, steel | materials |
 
 ## Lineage fallbacks
 
@@ -201,7 +221,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
+- **Kin in another domain:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`baroque-architecture`](../baroque-architecture/SKILL.md)
 
 ## Emotional target

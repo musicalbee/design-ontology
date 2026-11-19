@@ -170,6 +170,45 @@ Reference works:
 | Villa Savoye, Poissy | Le Corbusier | 1931 |
 | Seagram Building, New York | Ludwig Mies van der Rohe | 1958 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Cantilever (process)
+
+A beam or slab fixed at one end that carries load beyond its support, so that it seems to hang in the air. Origin: architecture, Northern Europe, c. 1300.
+
+- Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
+- Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
+- Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
+
+### Curtain wall (technology)
+
+A thin outer wall of glass and metal that hangs on the frame of the building and carries no floor load. Origin: architecture, San Francisco, United States, 1918.
+
+- Carry the floors on columns set 1 to 3 m back from the facade line.
+- Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
+- Keep the glass part of the facade above 60%.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Modern Architecture: International Exhibition** (exhibition, New York, 1932–1932), launched the style. A show at the Museum of Modern Art. Its catalogue named the International Style and showed the work of the European modernists to America.
+- **Weissenhof Estate** (exhibition, Stuttgart, 1927–1927), exhibited the style. A housing estate that the Deutscher Werkbund built as an exhibition. Seventeen architects made white, flat-roofed houses side by side.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.3 | 3–3.8 m | massing, facade |
+| Structural grid (`structural_grid`) | 6 | 4–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 60 | 30–90 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–2 deg | massing |
+| Base material (`base_material`) | concrete | concrete, steel, glass | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -179,7 +218,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md)
 - **Was rejected by:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Mixes well with:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md)
-- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
+- **Kin in another domain:** [`architectural-photography`](../architectural-photography/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`large-format-porcelain-tiles`](../large-format-porcelain-tiles/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`neo-grotesque-sans`](../neo-grotesque-sans/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`subway-tile`](../subway-tile/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-modernist-mark`](../swiss-modernist-mark/SKILL.md)
 - **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
 
 ## Emotional target

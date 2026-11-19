@@ -1,0 +1,341 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "techwear",
+  "domain": "fashion",
+  "name": "Techwear",
+  "aliases": [
+    "Tech apparel",
+    "Urban technical wear",
+    "Function-first street wear"
+  ],
+  "era_id": "contemporary-fashion",
+  "branch": "outdoor",
+  "time_period": {
+    "start": 2002,
+    "end": null,
+    "label": "2002–now"
+  },
+  "region": "Berlin, Tokyo and Milan",
+  "summary": "City dress made of technical outdoor cloth. A black membrane shell with taped seams, many pockets, straps and quick buckles, with a cut for motion in the street.",
+  "philosophy": {
+    "core_thesis": "The city is a hard environment. Dress for it as for a mountain, with a shell, a system of pockets and straps, and a black, sealed surface.",
+    "design_principles": [
+      "Cut the shell from a 3-layer membrane laminate and tape each seam.",
+      "Build 10 to 20 pockets into the garment so that no bag is needed.",
+      "Use a metal or a polymer quick-release buckle, rated for the load.",
+      "Cut articulated knees and elbows that follow a 3-D pattern.",
+      "Dye the whole garment black or in a dark neutral for a single surface.",
+      "Add a modular system: a hood, a detachable collar and a snap-in layer.",
+      "Fit a water-resistant zip with a storm flap along each seam line."
+    ],
+    "anti_patterns": [
+      "A pocket for show that holds nothing",
+      "Flimsy hardware that breaks",
+      "A loose, shapeless cut that catches on a door",
+      "A bright outdoor colour",
+      "A mass of logos and slogans"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "structure": 4,
+    "luxury": 4,
+    "technicality": 5,
+    "chromatic_intensity": 1
+  },
+  "silhouette": {
+    "shape": "A sculpted, articulated black shell and a tapered trouser with many pockets, straps and a quick buckle.",
+    "line": "A sharp, structured shoulder, a long, articulated sleeve and a tapered ankle.",
+    "fit": "Roomy but cut in 3-D; a tapered leg and a close hem keep the line clean.",
+    "proportion": "Jacket to the hip or the thigh; roughly 1 to 1.1 chest to hip; tapered ankle of 16 to 20 cm.",
+    "rules": [
+      "Make the garment in black or a single dark neutral.",
+      "Tape the seams and seal the zips on each shell.",
+      "Add a removable hood and a high collar that closes over the chin.",
+      "Place the pockets so that the arm reaches them with no strain.",
+      "Use a quick buckle at the waist, the ankle and the cuff."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "eptfe-laminate",
+      "ripstop-nylon",
+      "ballistic-nylon"
+    ],
+    "secondary": [
+      "flashspun-polyethylene",
+      "neoprene",
+      "polar-fleece",
+      "synthetic-insulation",
+      "aluminium",
+      "abs-plastic"
+    ],
+    "avoid": [
+      "tweed",
+      "velvet",
+      "brocade",
+      "satin",
+      "harris-tweed"
+    ],
+    "rule": "Choose a laminated membrane and a tough nylon, dyed black, with metal and polymer hardware: the cloth and the hardware must look like gear."
+  },
+  "construction": {
+    "methods": [
+      "three-layer membrane laminate",
+      "taped seams",
+      "3-D articulated pattern",
+      "modular hood and collar",
+      "garment-dyed black",
+      "quick-release buckle hardware"
+    ],
+    "closures": "A sealed zip with a storm flap, a magnetic or snap closure on a pocket, and a quick-release buckle.",
+    "details": "A removable hood, a high collar, many zip pockets, straps and loops, and a pattern with articulated knees and elbows."
+  },
+  "surface": {
+    "finishes": [
+      "seam-taped",
+      "garment-dyed",
+      "water-repellent",
+      "matte",
+      "synthetic-dyed"
+    ],
+    "pattern": "Plain black; a faint tonal pattern in the weave.",
+    "gloss": "A matte face at 5–15 GU; a laminated shell at 15–35 GU.",
+    "wear": "The garment looks new for years; the dye fades only at the fold, and the owner replaces a buckle, not the shell."
+  },
+  "palette": {
+    "strategy": "Black first, with graphite, olive and a dark sand as the second tones.",
+    "colours": [
+      {
+        "name": "Tech black",
+        "hex": "#111214",
+        "role": "shell"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#3A3D42",
+        "role": "trouser"
+      },
+      {
+        "name": "Gunmetal",
+        "hex": "#5B6068",
+        "role": "hardware"
+      },
+      {
+        "name": "Olive",
+        "hex": "#4B4F3A",
+        "role": "accent"
+      },
+      {
+        "name": "Dark sand",
+        "hex": "#7B715D",
+        "role": "accent"
+      },
+      {
+        "name": "Signal orange",
+        "hex": "#E5541A",
+        "role": "tab"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "3-D pattern cutting",
+      "membrane lamination and taping",
+      "garment dyeing in a drum",
+      "machine sewing with sealed seams",
+      "hardware fitting and tests"
+    ],
+    "scale": "Made in small runs by studios and labels, at a high cost for each garment, for an urban buyer.",
+    "signs": "An all-black surface, taped seams, a modular hood, many pockets and a quick-release buckle."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "shell-jacket",
+        "form": "Black three-layer shell with a modular hood and many pockets",
+        "material": "eptfe-laminate",
+        "finish": "seam-taped"
+      },
+      {
+        "object": "cargo-trousers",
+        "form": "Tapered, articulated trouser with zip pockets and a buckle",
+        "material": "ripstop-nylon",
+        "finish": "garment-dyed"
+      },
+      {
+        "object": "gilet",
+        "form": "Utility vest with a chest rig of pockets and straps",
+        "material": "ballistic-nylon",
+        "finish": "matte"
+      },
+      {
+        "object": "parka",
+        "form": "Long modular parka with a detachable liner",
+        "material": "ripstop-nylon",
+        "finish": "water-repellent"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "techwear",
+      "black membrane shell",
+      "taped seams",
+      "modular hood",
+      "many zip pockets",
+      "quick-release buckle",
+      "articulated knees",
+      "tapered cargo trousers",
+      "wet city street at night",
+      "studio fashion photograph"
+    ],
+    "negative": [
+      "tweed",
+      "bright colour",
+      "floral print",
+      "vintage",
+      "logo clutter",
+      "denim",
+      "knitwear"
+    ],
+    "canonical_works": [
+      {
+        "work": "Raso Gommato jacket",
+        "maker": "Massimo Osti",
+        "year": 1982
+      },
+      {
+        "work": "ACG All Conditions Gear line",
+        "maker": "Nike",
+        "year": 1989
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Black technical garment with removable badge",
+      "kind": "image",
+      "credit": "Wikimedia Commons contributors",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_Island.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stone_Island.jpg/960px-Stone_Island.jpg"
+    },
+    {
+      "title": "Black hardshell and down jacket",
+      "kind": "image",
+      "credit": "Wikimedia Commons contributors",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg/960px-6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "technical-shell-alpinism"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "streetwear",
+      "japanese-avant-garde-fashion"
+    ],
+    "echoes": [
+      "cyberpunk-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "A cool, guarded sense of readiness: the wearer looks sealed, armoured and in control of the city.",
+    "keywords": [
+      "armoured",
+      "sleek",
+      "functional",
+      "urban",
+      "dark"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "techwear",
+      "tech apparel",
+      "black shell jacket",
+      "urban technical wear",
+      "function-first fashion",
+      "modular jacket",
+      "cyber outfit"
+    ],
+    "use_cases": [
+      "a product brief for a technical city jacket",
+      "an image prompt for a night city scene",
+      "a costume brief for a near-future film",
+      "a study note on gear in dress"
+    ],
+    "avoid_when": [
+      "the brief is heritage or rustic",
+      "the brief wants bright, soft colour",
+      "the brief is formal dress"
+    ],
+    "modifiers": [
+      {
+        "request": "softer, for the trail",
+        "toward": "gorpcore",
+        "how": "Swap black for bright blocks, add a fleece and cut the lines looser."
+      },
+      {
+        "request": "older, military",
+        "toward": "trench-and-field-military",
+        "how": "Swap the membrane for a cotton drill, add a storm flap and a belt, and keep the pockets."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Techwear",
+      "url": "https://en.wikipedia.org/wiki/Techwear"
+    },
+    {
+      "title": "Wikipedia: Stone Island",
+      "url": "https://en.wikipedia.org/wiki/Stone_Island_(brand)"
+    },
+    {
+      "title": "Wikipedia: Massimo Osti",
+      "url": "https://en.wikipedia.org/wiki/Massimo_Osti"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.4,
+      "note": "Hardware, straps and pockets serve as ornament; the cloth stays plain."
+    },
+    "proportion_scale": {
+      "default": 0.8,
+      "min": 0.4,
+      "max": 1
+    },
+    "surface_gloss": {
+      "default": 12,
+      "min": 2,
+      "max": 60
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "black",
+      "options": [
+        "black",
+        "gunmetal",
+        "steel",
+        "chrome",
+        "none"
+      ]
+    }
+  }
+}

@@ -156,6 +156,25 @@ Large display letters routed from end-grain wood instead of cast in metal, so po
 - Draw the faces to be loud at a distance: fat face, slab and condensed grotesque, in one weight per line.
 - Mix several faces and sizes on one bill and centre each line, as the job printers did.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Fann Street Foundry** (company, London, 1802–now), made the style. A London type foundry. Robert Thorne cut early fat face types here.
+- **Hamilton Manufacturing Company** (company, Two Rivers, Wisconsin, 1880–now), made the style. The largest American maker of wood type. Printers used its heavy slab and fat face letters on posters.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 900 | 800–900 | metrics, setting |
+| Width (`width`) | 100 | 100–125 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.47 | 0.42–0.55 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 10 | 6–16 | anatomy |
+| Tracking (`tracking`) | -0.02 | -0.03–0.02 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -165,7 +184,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`didone-serif`](../didone-serif/SKILL.md)
 - **Mixes well with:** [`slab-serif`](../slab-serif/SKILL.md)
-- **Kin in another domain:** [`victorian-trademark`](../victorian-trademark/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
+- **Kin in another domain:** [`victorian-trademark`](../victorian-trademark/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Nearest by vector profile:** [`didone-serif`](../didone-serif/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md)
 
 ## Emotional target
@@ -181,6 +200,7 @@ Each item below has an open licence or is in the public domain, so you may show 
 - [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface) (TypeTogether, 2011): font, OFL-1.1. google/fonts repository, ofl/abrilfatface
 - [Rozha One](https://fonts.google.com/specimen/Rozha+One) (Indian Type Foundry, 2014): font, OFL-1.1. google/fonts repository, ofl/rozhaone
 - [Chonburi](https://fonts.google.com/specimen/Chonburi) (Cadson Demak, 2015): font, OFL-1.1. google/fonts repository, ofl/chonburi
+- [Yeseva One](https://fonts.google.com/specimen/Yeseva+One) (Jovanny Lemonad, 2011): font, OFL-1.1. google/fonts repository, ofl/yesevaone
 - [Thorowgood fold-out specimen of a fat face, 1825](https://commons.wikimedia.org/wiki/File:Thorowgood_1825_Fold_Out_Specimen_(7439948324).jpg) (William Thorowgood, Fann Street Foundry, 1825): image, CC BY 2.0. Photo by James Puckett (Flickr); Wikimedia Commons
 
 ## Sources

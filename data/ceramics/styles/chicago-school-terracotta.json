@@ -1,0 +1,352 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "chicago-school-terracotta",
+  "domain": "ceramics",
+  "name": "Chicago School terracotta",
+  "aliases": [
+    "Chicago terracotta cladding",
+    "Sullivanesque terracotta",
+    "Skyscraper terracotta"
+  ],
+  "era_id": "art-pottery",
+  "branch": "architectural",
+  "time_period": {
+    "start": 1885,
+    "end": 1930,
+    "label": "1885–1930"
+  },
+  "region": "Chicago, United States",
+  "summary": "Thin, fireproof terracotta cladding on the steel frames of early skyscrapers. Architects in Chicago used it for flat, white or cream walls and for flowing plant ornament.",
+  "philosophy": {
+    "core_thesis": "When a steel frame carries the load, the wall becomes a skin: a thin clay tile protects the steel from fire and carries the ornament.",
+    "design_principles": [
+      "Hang a thin hollow terracotta tile on the steel frame; the tile carries no load.",
+      "Keep the wall flat and divided in a grid that shows the frame behind it.",
+      "Use a cream, buff or white glaze, so that the clay shows the same colour from the street.",
+      "Model the ornament as flowing plants and geometric knots, in low relief, over the piers and the spandrels.",
+      "Fire the tile hard so that it protects the steel from fire and rain.",
+      "Make each piece in a mould, and fit it to a number on the plan.",
+      "Cover the whole facade with one material, from the base to the cornice."
+    ],
+    "anti_patterns": [
+      "A thick, load-carrying stone wall",
+      "Heavy classical ornament with no link to the frame",
+      "A dark brick wall with no cladding",
+      "Glossy, bright colour on the whole facade",
+      "Hand-carved stone details"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 1,
+    "refinement": 3,
+    "glaze_depth": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Hollow cladding blocks for piers and spandrels, window surrounds, cornices, capitals and large relief panels.",
+    "profile": "A flat face with a low, crisp relief; the ornament rises 1 to 3 cm and flows over the whole panel.",
+    "foot_and_rim": "Each tile has square edges with a small lip for the joint and an open back with webs, which hold the anchor.",
+    "proportion": "A tile is about 30 to 60 cm wide and 5 to 10 cm thick; a spandrel panel can be 1 m wide.",
+    "rules": [
+      "Make the tile hollow and thin.",
+      "Show the grid of the frame on the wall.",
+      "Use low relief that flows across tiles.",
+      "Keep the colour in one pale family."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "terracotta"
+    ],
+    "secondary": [
+      "steel-frame",
+      "fired-brick"
+    ],
+    "avoid": [
+      "porcelain",
+      "bone-china",
+      "stoneware",
+      "jasperware",
+      "parian",
+      "paper-clay"
+    ],
+    "rule": "Use a fine, even terracotta that fires pale, so that a thin glaze or a clear slip gives a cream or white surface. The tile must be hard and without large pores."
+  },
+  "forming": {
+    "methods": [
+      "pressing in plaster moulds",
+      "hollow casting with webs",
+      "drying in a heated drying room",
+      "firing in a downdraught kiln"
+    ],
+    "joins": "Tiles are hung on steel anchors and rods on the frame, with thin joints of cement mortar between them.",
+    "details": "A mould seam on the back, an anchor slot, a number or mark on the edge, and a thin, bright glaze line at the joint."
+  },
+  "glaze": {
+    "glazes": [
+      "bare-clay",
+      "satin-glaze",
+      "matte-glaze"
+    ],
+    "decorations": [
+      "relief-moulding",
+      "incised",
+      "undecorated"
+    ],
+    "pattern": "Plant and geometric ornament in low relief on piers, spandrels and cornices; the wide fields between are plain, in cream or white.",
+    "gloss": "Satin to matt, about 10 to 50 GU; some tall buildings used a bright white glaze of about 70 GU.",
+    "wear": "The tile weathers well; the glaze crazes with age, and a few tiles lose a corner at the edge."
+  },
+  "palette": {
+    "strategy": "A pale, clean colour on the whole wall: white, cream or light buff, with a little green or red in the ornament of the base.",
+    "colours": [
+      {
+        "name": "Cream terracotta",
+        "hex": "#E8DCC0",
+        "role": "main wall"
+      },
+      {
+        "name": "Glazed white",
+        "hex": "#F2EFE6",
+        "role": "spandrel"
+      },
+      {
+        "name": "Buff",
+        "hex": "#D6BC8E",
+        "role": "base"
+      },
+      {
+        "name": "Sullivan green",
+        "hex": "#4F6B4A",
+        "role": "ornament"
+      },
+      {
+        "name": "Oxblood red",
+        "hex": "#7A2E25",
+        "role": "base band"
+      },
+      {
+        "name": "Steel grey",
+        "hex": "#6E7276",
+        "role": "joint and frame"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A large downdraught kiln, often in Chicago or on the east coast, with saggars for glazed work.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      1050,
+      1180
+    ],
+    "processes": [
+      "pressing in plaster moulds",
+      "drying for several days",
+      "a bisque firing at about 1100 °C",
+      "a glaze firing at about 1100 °C"
+    ],
+    "scale": "Several large companies made the tile; a single tower used tens of thousands of blocks.",
+    "signs": "A numbered back, a thin mould seam and a small mark of the maker on the edge."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "facade-block",
+        "form": "Spandrel tile in cream glaze with a low plant knot",
+        "body": "terracotta",
+        "glaze": "satin-glaze",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "architectural-relief",
+        "form": "Panel of flowing leaf ornament for a pier base, in bare clay",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "relief-moulding"
+      },
+      {
+        "object": "faience-cladding",
+        "form": "Flat glazed white tile that covers a whole bay of the frame",
+        "body": "terracotta",
+        "glaze": "matte-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "capital",
+        "form": "Pier head with a geometric knot and a ring of leaves",
+        "body": "terracotta",
+        "glaze": "bare-clay",
+        "decoration": "incised"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Chicago School skyscraper cladding",
+      "cream glazed terracotta tiles on a steel frame",
+      "flowing plant ornament in low relief",
+      "flat grid facade with bay windows",
+      "spandrel panels with a knot motif",
+      "white terracotta tower in clear light",
+      "fine joints between tiles",
+      "late 19th-century commercial building",
+      "museum or architectural photograph"
+    ],
+    "negative": [
+      "rough stone wall",
+      "bright coloured glass facade",
+      "heavy classical columns",
+      "modern curtain wall",
+      "gaudy colour"
+    ],
+    "canonical_works": [
+      {
+        "work": "Wainwright Building",
+        "maker": "Louis Sullivan",
+        "year": 1891
+      },
+      {
+        "work": "Reliance Building",
+        "maker": "Burnham and Root; Charles Atwood",
+        "year": 1895
+      },
+      {
+        "work": "Guaranty Building",
+        "maker": "Louis Sullivan",
+        "year": 1896
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Wainwright Building north facade.jpg",
+      "kind": "image",
+      "credit": "Payton Chung",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Wainwright_Building_north_facade.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Wainwright_Building_north_facade.jpg/960px-Wainwright_Building_north_facade.jpg"
+    },
+    {
+      "title": "Reliance-Building-Chicago-September-2014.jpg",
+      "kind": "image",
+      "credit": "Acediscovery",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Reliance-Building-Chicago-September-2014.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Reliance-Building-Chicago-September-2014.jpg/960px-Reliance-Building-Chicago-September-2014.jpg"
+    },
+    {
+      "title": "Guaranty Building, Buffalo, New York, October 2012 - 01.jpg",
+      "kind": "image",
+      "credit": "Reading Tom from Reading, UK",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Guaranty_Building,_Buffalo,_New_York,_October_2012_-_01.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Guaranty_Building%2C_Buffalo%2C_New_York%2C_October_2012_-_01.jpg/960px-Guaranty_Building%2C_Buffalo%2C_New_York%2C_October_2012_-_01.jpg"
+    },
+    {
+      "title": "Wainwright Building entrance.jpg",
+      "kind": "image",
+      "credit": "Paul Sableman",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Wainwright_Building_entrance.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Wainwright_Building_entrance.jpg/960px-Wainwright_Building_entrance.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "victorian-architectural-terracotta"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "prairie-school-architecture",
+      "art-nouveau-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Modern confidence: the viewer sees a tall, light wall that shows its frame and carries a fine plant ornament.",
+    "keywords": [
+      "modern",
+      "confident",
+      "light",
+      "organic",
+      "urban"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "chicago school terracotta",
+      "skyscraper terracotta",
+      "sullivan terracotta",
+      "cream terracotta cladding",
+      "reliance building",
+      "guaranty building",
+      "steel frame terracotta"
+    ],
+    "use_cases": [
+      "a render of an early skyscraper with terracotta skin",
+      "a conservation note on a terracotta tile facade",
+      "a spandrel panel design in low relief"
+    ],
+    "avoid_when": [
+      "the brief needs a heavy stone wall",
+      "the brief needs a curtain wall of glass",
+      "the brief needs a deep, dark Victorian relief"
+    ],
+    "modifiers": [
+      {
+        "request": "Victorian, deep relief and colour",
+        "toward": "victorian-architectural-terracotta",
+        "how": "Make the blocks thicker, add two clay colours and deepen the relief to 5 cm or more."
+      },
+      {
+        "request": "Art Deco, bright glazed panels",
+        "toward": "art-deco-faience-facade",
+        "how": "Change to a bright blue-green or gold glaze and use zigzag and stepped ornament."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Chicago school (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Chicago_school_(architecture)"
+    },
+    {
+      "title": "Wikipedia: Reliance Building",
+      "url": "https://en.wikipedia.org/wiki/Reliance_Building"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.55,
+      "min": 0.25,
+      "max": 0.85,
+      "note": "The tile skin is thin and flat; the ornament does not carry load."
+    },
+    "glaze_gloss": {
+      "default": 35,
+      "min": 8,
+      "max": 75
+    },
+    "wall_thickness": {
+      "default": 7,
+      "min": 5,
+      "max": 12,
+      "note": "A thin cladding tile has a wall of 5 to 12 mm in its ribs and 25 mm at the face."
+    },
+    "hand_mark": {
+      "default": 0.2,
+      "min": 0.05,
+      "max": 0.4
+    },
+    "era_blend": {
+      "default": 0.15,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

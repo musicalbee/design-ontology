@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "tiled-background",
+  "name": "Tiled background",
+  "aliases": [
+    "Wallpaper tile",
+    "Background image"
+  ],
+  "kind": "motif",
+  "summary": "A small image that repeats in both directions behind a page. It fills any window size from one file.",
+  "how": [
+    "Make a tile of 32px to 128px that joins at all 4 edges.",
+    "Keep the tile to 16 or 64 colours so that the file stays small.",
+    "Keep text in a bright colour on a dark tile, or in a dark colour on a pale tile.",
+    "Use a fixed position when the page scrolls."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1995,
+    "where": "United States",
+    "note": "Netscape Navigator 1.1 added background images for pages.",
+    "circa": true
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 1995,
+      "via": "Free home page hosts make the tile a common ground for personal pages.",
+      "styles": [
+        "geocities-homepage"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2003,
+      "circa": true,
+      "via": "Profile owners set a wallpaper under their boxes with pasted CSS.",
+      "styles": [
+        "myspace-profile"
+      ]
+    }
+  ],
+  "styles": [
+    "geocities-homepage",
+    "myspace-profile"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Netscape Navigator",
+      "url": "https://en.wikipedia.org/wiki/Netscape_Navigator"
+    },
+    {
+      "title": "Wikipedia: GeoCities",
+      "url": "https://en.wikipedia.org/wiki/GeoCities"
+    }
+  ]
+}

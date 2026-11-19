@@ -200,6 +200,24 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), exhibited the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.8 | 3.4–4.5 m | massing, facade |
+| Structural grid (`structural_grid`) | 7.5 | 6–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 38 | 30–45 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–5 deg | massing |
+| Base material (`base_material`) | stone | stone, brick, steel, concrete | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -207,7 +225,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **plainer**: move toward [`international-style-architecture`](../international-style-architecture/SKILL.md) (International Style). Remove the relief and the setbacks, flatten the piers into a grid of 4 to 7m, and keep the polished materials.
 
 - **Came from (go here for a more orthodox version):** [`art-nouveau-architecture`](../art-nouveau-architecture/SKILL.md)
-- **Kin in another domain:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md)
+- **Kin in another domain:** [`art-deco-ceramic-figures`](../art-deco-ceramic-figures/SKILL.md), [`art-deco-faience-facade`](../art-deco-faience-facade/SKILL.md), [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-jewellery`](../art-deco-jewellery/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-watch`](../art-deco-watch/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`neo-deco-interior`](../neo-deco-interior/SKILL.md), [`streamline-moderne-product`](../streamline-moderne-product/SKILL.md)
 - **Nearest by vector profile:** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target

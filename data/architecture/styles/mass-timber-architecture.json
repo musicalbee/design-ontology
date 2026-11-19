@@ -274,6 +274,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3.3, "min": 3, "max": 3.6},
+    "structural_grid": {"default": 7.5, "min": 6, "max": 9},
+    "glazing_ratio": {"default": 45, "min": 35, "max": 60},
+    "roof_pitch": {"default": 0, "min": 0, "max": 10},
+    "base_material": {"default": "timber", "options": ["timber", "concrete", "glass"]}
+  },
   "sources": [
     {
       "title": "Andrew Waugh, Anthony Thistleton and Michael Green, Tall Timber Buildings (Routledge, 2022)"

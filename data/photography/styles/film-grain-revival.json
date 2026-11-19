@@ -256,6 +256,35 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 5400,
+      "min": 4800,
+      "max": 5800
+    },
+    "contrast": {
+      "default": 0.9,
+      "min": 0.8,
+      "max": 1.05
+    },
+    "grain": {
+      "default": 400,
+      "min": 200,
+      "max": 800
+    },
+    "focal_length": {
+      "default": 50,
+      "min": 28,
+      "max": 50
+    },
+    "aspect_ratio": {
+      "default": "2:3",
+      "options": [
+        "2:3",
+        "4:5"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q131148263: film photography",

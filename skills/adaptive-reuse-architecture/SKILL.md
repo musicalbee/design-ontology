@@ -186,6 +186,24 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Venice Biennale of Architecture** (salon, Venice, 1980–now), exhibited the style. An architecture show that the Venice Biennale holds every two years. Its first edition built a street of postmodern facades, and later editions showed buildings made again from old structures.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 4.5 | 3.5–8 m | massing, facade |
+| Structural grid (`structural_grid`) | 6 | 4–12 m | structure |
+| Glazing ratio (`glazing_ratio`) | 35 | 20–45 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 30 | 0–50 deg | massing |
+| Base material (`base_material`) | brick | brick, stone, steel, concrete, glass | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -177,6 +177,34 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 - Set the key light to fill light at a ratio of 8:1 or more for a dramatic mood.
 - Cut hard shapes into the light with blinds, grilles or foliage so that the shadow becomes a pattern.
 
+### Etching (process)
+
+An intaglio print from a metal plate whose lines a needle draws through an acid-resistant ground and an acid then bites. Origin: print, Basel, 1513.
+
+- Coat the plate with a ground of wax, resin and asphalt and draw through it with a needle of 0.2–0.5 mm.
+- Bite the plate in acid in stages; stop out the light lines with varnish after 5–10 minutes and bite the dark lines again.
+- Ink the plate, wipe the surface with tarlatan, and leave a film of plate tone where a soft dark is needed.
+- Print on dampened paper on a roller press, so that the plate leaves a mark round the image.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Accademia di San Luca** (school, Rome, 1577–now), gathered the style. An academy of artists in Rome. It trained painters and architects, and Roman Baroque masters led it.
+- **Gobelins Manufactory** (company, Paris, 1662–now), made the style. The royal tapestry and furniture works of France. Colbert bought the site for Louis XIV in 1662. Charles Le Brun directed it from 1663.
+- **Rubenshuis** (studio, Antwerp, 1610–1640), made the style. The house and workshop of Peter Paul Rubens. Assistants and pupils painted large altarpieces here from his sketches.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #1B1410 | #1B1410, #4A3022, #A3202E, #3B5B8C | palette |
+| Value contrast (`value_contrast`) | 0.95 | 0.8–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1 | 0.5–2 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:4 | 4:5, 3:4, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -186,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Led to (go here for a newer version):** [`rococo-painting`](../rococo-painting/SKILL.md)
-- **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
+- **Kin in another domain:** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`etching-print`](../etching-print/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`food-photography`](../food-photography/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`meissen-baroque-porcelain`](../meissen-baroque-porcelain/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
 - **Nearest by vector profile:** [`realism-painting`](../realism-painting/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md)
 
 ## Emotional target

@@ -213,7 +213,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#scandinavian-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#scandinavian-interior).
 
 ![Room](../../demo/moodboards/interior/scandinavian-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/scandinavian-interior/materials.webp)
@@ -221,6 +221,64 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/scandinavian-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/scandinavian-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/scandinavian-interior/objects.webp)
+
+## Object net
+
+Pale oak, ash and birch with wool and linen, white painted surfaces and thin black metal lines; every object is plain, hand made and matte. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.05, material_warmth 0.85, finish_gloss 12, era_blend 0.35, hardware_weight 14, edge_radius 10, metal_tone black. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#scandinavian-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Basin | wall-hung rectangle | Porcelain, vitreous gloss glaze, mirror-smooth (#F6F5F1) |
+|  | Basin tap or mixer | single-lever monobloc | Aluminium, matte powder coat, satin-smooth (#222222) |
+|  | Towel rail | wall peg row | Oak, oiled, fine close grain (#C8A97E) |
+|  | Bath accessories | shelf-top vessels | Stoneware, matte glaze, speckled clay (#8DA3B4) |
+| Electrics ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Light switch | flush rocker on a square plate | Porcelain, vitreous gloss glaze, satin-smooth (#F6F5F1) |
+|  | Socket outlet | screwless flat plate | Porcelain, vitreous gloss glaze, satin-smooth (#F6F5F1) |
+|  | Dimmer and control | small round knob on a square plate | Walnut, oiled, fine close grain |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#222222) |
+| Lighting ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Pendant lamp | layered-shade glare-free pendant | Aluminium, matte powder coat, satin-smooth (#F6F5F1) |
+|  | Floor lamp | tripod with a drum shade | Oak, oiled, open grain (#C8A97E) |
+|  | Table lamp | cylinder in opal glass | Opal glass, acid-etched or sandblasted, satin-smooth (#F6F5F1) |
+|  | Curtain track and blind | ceiling-recessed track | Linen, washed, soft, slub weave |
+| Storage ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Sideboard and cabinet | low long credenza on tapered legs | Oak, soaped, open grain (#C8A97E) |
+|  | Shelving | floating plank | Ash, limed, fine close grain |
+|  | Handle, knob and pull | round mushroom knob | Beech, oiled, fine close grain |
+|  | Hooks and pegs | peg rail | Ash, oiled, open grain |
+| Soft Furniture ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Sofa | tight-back sofa on tapered legs | Wool, piece-dyed, twill or herringbone (#D9D8D3) |
+|  | Armchair and lounge chair | spindle-back armchair | Ash, soaped, open grain |
+|  | Cushion and throw | knife-edge square | Linen, washed, soft, slub weave (#8DA3B4) |
+|  | Ottoman and pouf | round pouf | Wool, natural, undyed, cut pile (#F6F5F1) |
+| Tables ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Dining table | tapered-leg rectangle | Oak, soaped, open grain (#C8A97E) |
+|  | Dining chair | wishbone or Y-back chair | Ash, soaped, open grain |
+|  | Low table | round top on tapered legs | Oak, soaped, open grain (#C8A97E) |
+|  | Side table | tripod | Birch plywood, oiled, fine close grain |
+| Kitchen ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Kitchen front | flat slab door | Ash, soaped, fine close grain |
+|  | Worktop and splashback | thick butcher-block top | Oak, oiled, open grain (#C8A97E) |
+|  | Kettle and small appliances | stovetop whistling kettle | Enamelled steel, gloss enamel, mirror-smooth (#222222) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, speckled clay (#8DA3B4) |
+| Decor ([`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)) | Candle holder and lantern | candlestick pair | Stainless steel, blackened, satin-smooth (#222222) |
+|  | Vase | bud vase | Stoneware, matte glaze, speckled clay (#9CAF88) |
+|  | Plant pot and planter | glazed jardinière | Stoneware, matte glaze, throwing rings |
+|  | Picture frame | leaning ledge frame | Oak, limed, fine close grain (#C8A97E) |
+|  | Rug | shaggy rya rug | Wool, natural, undyed, knotted pile (#D9D8D3) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Electrics:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Lighting:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Storage:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Tables:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+- **Kitchen:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
+- **Decor:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`japanese-modern-craft-product`](../japanese-modern-craft-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Dining chair, Low table, Rug, Pendant lamp, Ottoman and pouf, Plant pot and planter, Curtain track and blind
+- **materials:** Sideboard and cabinet, Dining table, Worktop and splashback, Kitchen front, Sofa, Basin tap or mixer
+- **furniture:** Dining chair, Armchair and lounge chair, Dining table, Sideboard and cabinet, Side table, Low table
+- **textiles:** Sofa, Cushion and throw, Ottoman and pouf, Rug, Curtain track and blind
+- **light:** Pendant lamp, Floor lamp, Table lamp, Candle holder and lantern, Curtain track and blind
+- **objects:** Candle holder and lantern, Vase, Plant pot and planter, Picture frame, Tableware and glassware
 
 ## Vocabulary primer
 
@@ -251,6 +309,27 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Artek** (company, Helsinki, 1935–now), made the style. A furniture company that Alvar Aalto and three partners started to sell his bent birch furniture.
+- **IKEA** (company, Älmhult, 1943–now), made the style. A Swedish furniture company. It sold light, plain, flat-packed furniture to homes around the world.
+- **Kinfolk** (magazine, Portland, Oregon, 2011–now), published the style. A slow-living magazine with calm, natural-light photos. Its rooms mix Nordic and Japanese restraint.
+- **Svenskt Tenn** (company, Stockholm, 1924–now), sold the style. A Stockholm interior design shop that Estrid Ericson founded. It sold pewter, furniture and prints in a light Swedish style.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F6F5F1 | #F6F5F1, #D9D8D3 | palette |
+| Accent colour (`accent_colour`) | #8DA3B4 | #8DA3B4, #9CAF88, #222222 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.6 | 2.4–3 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2200–3000 K | lighting |
+| Object density (`object_density`) | 0.3 | 0.2–0.4 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -263,7 +342,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md)
 - **Was rejected by:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 - **Mixes well with:** [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
-- **Kin in another domain:** [`humanist-sans`](../humanist-sans/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
+- **Kin in another domain:** [`humanist-sans`](../humanist-sans/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`new-nordic`](../new-nordic/SKILL.md), [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md), [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md), [`scandinavian-tiled-stove`](../scandinavian-tiled-stove/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`japandi-interior`](../japandi-interior/SKILL.md), [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
 
 ## Emotional target

@@ -158,6 +158,24 @@ Capital letters with the proportions of Roman stone inscriptions: some letters w
 - Set the stem at about one tenth of the cap height for a classical weight; for signs, increase it by up to half.
 - Cut serifs, or leave them out, but keep the width rules.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Aldine Press** (publisher, Venice, 1494–1597), made the style. The press of Aldus Manutius. Its roman type, cut by Francesco Griffo, is the model of the Garalde old-style serif.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 400–700 | metrics, setting |
+| Width (`width`) | 100 | 95–105 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.41 | 0.38–0.45 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 2.5 | 2–3.5 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0.1 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -168,7 +186,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`humanist-sans`](../humanist-sans/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`blackletter`](../blackletter/SKILL.md)
 - **Was rejected by:** [`didone-serif`](../didone-serif/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md)
-- **Kin in another domain:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`private-press-book`](../private-press-book/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Nearest by vector profile:** [`transitional-serif`](../transitional-serif/SKILL.md), [`formal-script`](../formal-script/SKILL.md), [`humanist-sans`](../humanist-sans/SKILL.md)
 
 ## Emotional target

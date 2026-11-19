@@ -1,0 +1,128 @@
+/*
+ * Normcore — tokens
+ * Generated from data/internet/styles/normcore.json by design-ontology. Do not edit.
+ * Use: put data-style="normcore" on <html> or on any container.
+ */
+[data-style="normcore"] {
+  --color-bg: #F2F2F0;
+  --color-surface: #FFFFFF;
+  --color-text: #1F2328;
+  --color-muted: #5A5F66;
+  --color-primary: #35597F;
+  --color-accent: #6B7F73;
+  --color-border: #D4D4D0;
+  --font-sans: "Inter", "Arimo", Arial, sans-serif;
+  --font-display: "Inter", "Arimo", Arial, sans-serif;
+  --border-radius: 4px;
+  --border-width: 1px;
+  --shadow-elevation: none;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 150ms;
+  --type-ratio: 1.25;
+  --size-small: 12.8px;
+  --size-h3: 25px;
+  --size-h2: 31.25px;
+  --size-h1: 39.06px;
+  --color-on-bg: #1F2328;
+  --color-on-surface: #1F2328;
+  --color-on-primary: #F2F2F0;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #5A5F66;
+  --color-muted-on-surface: #5A5F66;
+  --color-link: #35597F;
+  --color-link-on-surface: #35597F;
+  --display-weight: 600;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: -0.01em;
+  --display-leading: 1.2;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 1.5;
+  --ground: linear-gradient(var(--color-accent), var(--color-accent)) 0 0 / 100% 6px no-repeat,
+    repeating-linear-gradient(0deg, var(--color-on-bg) 0 1px, transparent 1px 2.5rem) 100% 0 / 14px 100% no-repeat,
+    repeating-linear-gradient(0deg, var(--color-on-bg) 0 2px, transparent 2px 10rem) 100% 0 / 28px 100% no-repeat,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="normcore"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="normcore"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="normcore"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="normcore"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="normcore"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="normcore"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="normcore"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="normcore"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="normcore"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="normcore"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="normcore"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="normcore"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="normcore"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="normcore"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

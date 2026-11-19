@@ -108,6 +108,12 @@
       { "request": "more grid-based and primary", "toward": "de-stijl-painting", "how": "Lock the shapes to a vertical and horizontal grid, add thick black lines of 10–20mm, and use only red, blue, yellow, white and black." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#F2EFE6", "options": ["#F2EFE6", "#16161A", "#C9302C", "#2F4FA2"]},
+    "value_contrast": {"default": 0.85, "min": 0.7, "max": 1.0},
+    "brush_size": {"default": 0, "min": 0, "max": 0.2, "note": "Flat, even fills hide the stroke."},
+    "canvas_ratio": {"default": "1:1", "options": ["1:1", "4:5"]}
+  },
   "sources": [
     { "title": "Wikidata Q191970 (Suprematism)", "url": "https://www.wikidata.org/wiki/Q191970" },
     { "title": "Getty AAT 300021405 (Suprematism)", "url": "https://vocab.getty.edu/page/aat/300021405" },

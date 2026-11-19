@@ -1,0 +1,340 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "cinemagraph",
+  "domain": "internet",
+  "name": "Cinemagraph",
+  "aliases": [
+    "Living photograph",
+    "Still-motion loop",
+    "Photo with one moving part"
+  ],
+  "branch": "gifs-stickers",
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2011,
+    "end": null,
+    "label": "2011–now"
+  },
+  "primary_mediums": [
+    "image",
+    "web",
+    "mobile"
+  ],
+  "summary": "A still photograph in which one small part moves in a seamless loop: hair in wind, steam from a cup, a blink. Two New York artists named it in 2011 during fashion week.",
+  "philosophy": {
+    "core_thesis": "The image is still, and one small motion makes the viewer look longer.",
+    "design_principles": [
+      "Freeze at least 90% of the frame; let one region of 5% to 15% of the area loop.",
+      "Loop the motion for 2 to 5 seconds with a seamless join, at 24 fps or more.",
+      "Mask the moving region with a soft edge of 4px to 12px, so that the join stays invisible.",
+      "Shoot on a tripod, so that the still part has no drift of more than 1px.",
+      "Grade the frame with muted colour, a contrast of 0.9 and a grain of 2% to 4%.",
+      "Set the frame at 4:5 or 16:9 with no caption inside it; put the title below it in a 14px serif line.",
+      "Show the image at full width with 24px to 64px of margin around it."
+    ],
+    "anti_patterns": [
+      "Several parts that move at once",
+      "A visible jump at the loop point",
+      "A moving camera that breaks the still part",
+      "Heavy filters and bright stickers on the frame",
+      "Fast, strobing motion",
+      "Captions drawn on the picture"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 5,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "One large frame on a 12-column grid with 24px gutters; the frame spans 8 to 12 columns.",
+    "whitespace_ratio": "40% to 55% of the surface stays empty; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "The frame is centred or flush-left; the title and credit sit below it, flush-left.",
+    "container_geometry": "Frames with a 0px radius and no border; a 1px hairline under the caption."
+  },
+  "typography": {
+    "classifications": [
+      "high-contrast serif",
+      "neo-grotesque sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Cormorant Garamond",
+        "body": "Inter",
+        "note": "A fine serif for the title and a neutral sans for the credit."
+      },
+      {
+        "display": "Playfair Display",
+        "body": "Source Sans 3",
+        "note": "A stronger serif for editorial pages."
+      }
+    ],
+    "tracking": "Display 0.01em; body 0em; labels 0.12em in capitals.",
+    "leading": "Display 1.15; body 1.6.",
+    "hierarchy_rules": [
+      "Set the title in 28px to 40px serif at weight 300 and the credit in 12px capitals.",
+      "Keep body text at 16px sans and at most 60 characters wide.",
+      "Let the picture be the largest element on the page."
+    ]
+  },
+  "color": {
+    "palette_structure": "A dark, quiet ground with warm sand and one cool blue; the photograph carries the colour.",
+    "palette": [
+      {
+        "name": "Gallery Black",
+        "hex": "#121414",
+        "role": "background"
+      },
+      {
+        "name": "Wall Grey",
+        "hex": "#1E2121",
+        "role": "surface"
+      },
+      {
+        "name": "Warm White",
+        "hex": "#F1EEE8",
+        "role": "text"
+      },
+      {
+        "name": "Sand",
+        "hex": "#D9C9A8",
+        "role": "primary"
+      },
+      {
+        "name": "Window Blue",
+        "hex": "#7FA6B5",
+        "role": "accent"
+      },
+      {
+        "name": "Ash",
+        "hex": "#B3AEA4",
+        "role": "muted text"
+      },
+      {
+        "name": "Hairline",
+        "hex": "#3A3F3F",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Warm white on gallery black holds 15:1; sand and blue are for hairlines and labels.",
+    "surface_treatment": "A flat dark field with no texture; the photograph holds the detail.",
+    "light_and_shadow": "The light comes from the photograph; the page adds no shadow."
+  },
+  "materiality": {
+    "surface_simulation": "A photographic print with a fine grain of 2% to 4% and soft tone.",
+    "border_rules": "A 1px hairline in #3A3F3F under captions; no frame on the picture.",
+    "blur_and_elevation": "No blur; no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline glyphs of 1.5px at 20px: play, share, save.",
+    "illustration": "Fashion, travel and still-life photographs with one moving part.",
+    "decorative_elements": [
+      "soft-edge mask",
+      "hairline under caption",
+      "loop-point marker",
+      "credit line in capitals",
+      "full-width frame"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "The still frame shows at once; the moving region loops for 2 to 5 seconds; the page fades in over 1200ms.",
+    "easing": "cubic-bezier(0.37, 0, 0.63, 1)",
+    "duration_ms": 1200,
+    "hover_and_active": "Hover shows the credit line in 300ms; the loop never stops."
+  },
+  "lineage": {
+    "evolved_from": [
+      "reaction-gif"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm and curious, and looks longer at one small movement.",
+    "keywords": [
+      "calm",
+      "quiet",
+      "curious",
+      "poised",
+      "dreamy",
+      "elegant"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator",
+      "lover"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cinemagraph",
+      "living photo",
+      "still with motion",
+      "subtle loop",
+      "moving photograph",
+      "live photo"
+    ],
+    "use_cases": [
+      "fashion and travel hero images",
+      "product pages with one moving detail",
+      "editorial and portfolio headers",
+      "ad banners that need calm motion"
+    ],
+    "avoid_when": [
+      "The audience needs fast action or a story with many beats.",
+      "The page cannot play video or animated image formats.",
+      "The photo has no still, stable base."
+    ],
+    "modifiers": [
+      {
+        "request": "more energetic",
+        "toward": "reaction-gif",
+        "how": "Let the whole frame move, crop tighter and add a one-line caption."
+      },
+      {
+        "request": "more editorial",
+        "toward": "editorial-serif-revival",
+        "how": "Add a large serif title, a rule and a column of body text beside the frame."
+      },
+      {
+        "request": "more dreamy",
+        "toward": "ethereal-web",
+        "how": "Soften the grade with a lifted black at 8% and a pale blue gradient edge."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "display_tracking": "0.01em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px",
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "size"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "iconoir",
+        "why": "A fine outline family suits a quiet page where the photograph leads."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 12
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "soft",
+      "why": "A cinemagraph needs a quiet field, so the page ground is a soft dark wash that leaves the photograph alone."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#121414",
+      "--color-surface": "#1E2121",
+      "--color-text": "#F1EEE8",
+      "--color-muted": "#B3AEA4",
+      "--color-primary": "#D9C9A8",
+      "--color-accent": "#7FA6B5",
+      "--color-border": "#3A3F3F",
+      "--font-sans": "\"Inter\", \"Helvetica Neue\", sans-serif",
+      "--font-display": "\"Cormorant Garamond\", \"Playfair Display\", serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.37, 0, 0.63, 1)",
+      "--duration": "1200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#121414] text-[#F1EEE8] font-sans antialiased px-4 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-['Cormorant_Garamond'] font-light tracking-[0.01em] leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border-2 border-[#3A3F3F] bg-[#1E2121] rounded-none"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border-2 border-[#3A3F3F] bg-[#D9C9A8] px-6 py-3 text-sm font-bold text-[#121414] transition-transform duration-[1200ms] hover:-translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-widest text-[#D9C9A8]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#D9C9A8",
+        "#121414",
+        "#1E2121",
+        "#F1EEE8"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#7FA6B5",
+        "#D9C9A8"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 8,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.333,
+      "min": 1.25,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Cinemagraph",
+      "url": "https://en.wikipedia.org/wiki/Cinemagraph"
+    },
+    {
+      "title": "Jamie Beck and Kevin Burg, From Me To You",
+      "url": "https://fromme-toyou.tumblr.com/"
+    },
+    {
+      "title": "Know Your Meme: Cinemagraph",
+      "url": "https://knowyourmeme.com/memes/cinemagraphs"
+    }
+  ]
+}

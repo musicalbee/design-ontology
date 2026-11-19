@@ -144,6 +144,24 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 - Cut inner detail as gaps of at least 1/16 of the shape width, not as lines.
 - Keep the contrast between shape and ground high.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **The Noun Project** (platform, web, 2010–now), published the style. A web site that collects simple symbols from designers around the world. Its library is a large source of flat and glyph icons.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 48 | 24–64 px | grid |
+| Stroke width (`stroke_width`) | 0 | 0–0 px | stroke |
+| Corner radius (`corner_radius`) | 4 | 0–8 px | shape |
+| Fill mode (`fill_mode`) | solid | solid | colour, shape |
+| Base colour (`base_colour`) | #3498DB | #3498DB, #E74C3C, #2ECC71, #2C3E50 | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -155,7 +173,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
 - **Was rejected by:** [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 - **Mixes well with:** [`duotone-icon`](../duotone-icon/SKILL.md), [`isometric-icon`](../isometric-icon/SKILL.md)
-- **Kin in another domain:** [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md)
+- **Kin in another domain:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`unicode-emoji`](../unicode-emoji/SKILL.md)
 - **Nearest by vector profile:** [`isometric-icon`](../isometric-icon/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md), [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 
 ## Emotional target

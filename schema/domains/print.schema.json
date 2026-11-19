@@ -1,0 +1,414 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/print.schema.json",
+  "title": "Print style",
+  "description": "One print style: the rules of a print process and its look. It shares identity, philosophy, lineage, emotion and agent routing with every other domain. Each rule in inks, screening, registration and substrate is measurable, and scripts/render-print-proofs.ts draws the press proof from these values. Evidence is required: each style links at least one canonical print with an open licence or in the public domain.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "domain",
+    "name",
+    "aliases",
+    "era_id",
+    "time_period",
+    "region",
+    "summary",
+    "philosophy",
+    "vectors",
+    "process",
+    "inks",
+    "screening",
+    "registration",
+    "substrate",
+    "surface",
+    "artefacts",
+    "prompt_primer",
+    "evidence",
+    "lineage",
+    "emotion",
+    "agent",
+    "sources"
+  ],
+  "$defs": {
+    "hex": {
+      "type": "string",
+      "pattern": "^#[0-9A-F]{6}$"
+    }
+  },
+  "properties": {
+    "permutations": {
+      "$ref": "../core.schema.json#/$defs/permutations"
+    },
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../core.schema.json#/$defs/slug"
+    },
+    "domain": {
+      "const": "print"
+    },
+    "name": {
+      "$ref": "../core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/shortText"
+      }
+    },
+    "era_id": {
+      "$ref": "../core.schema.json#/$defs/slug",
+      "description": "An id from data/print/eras/."
+    },
+    "time_period": {
+      "$ref": "../core.schema.json#/$defs/time_period"
+    },
+    "region": {
+      "$ref": "../core.schema.json#/$defs/shortText",
+      "description": "Where the style began or is centred."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 320
+    },
+    "philosophy": {
+      "$ref": "../core.schema.json#/$defs/philosophy"
+    },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tone_method",
+        "ink_layering",
+        "registration_play",
+        "surface_relief",
+        "hand_trace"
+      ],
+      "properties": {
+        "tone_method": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = solid ink, no tone, 5 = fine screen or continuous tone."
+        },
+        "ink_layering": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = one ink, 5 = many overprinted inks."
+        },
+        "registration_play": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = exact register, 5 = visible misregister as a feature."
+        },
+        "surface_relief": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = flat, ink on the surface, 5 = deep bite or emboss in the sheet."
+        },
+        "hand_trace": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = uniform machine output, 5 = each sheet differs by hand."
+        }
+      }
+    },
+    "process": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "family",
+        "matrix",
+        "press",
+        "image_making",
+        "edition"
+      ],
+      "properties": {
+        "family": {
+          "enum": [
+            "relief",
+            "intaglio",
+            "planographic",
+            "stencil",
+            "electrostatic",
+            "digital"
+          ],
+          "description": "relief: ink on the raised surface (woodcut, letterpress). intaglio: ink in cut or bitten lines (engraving, etching, mezzotint). planographic: ink on a flat plate by grease and water (lithography, offset). stencil: ink through a mask or a mesh (pochoir, screen print, risograph). electrostatic: toner fixed by charge and heat (photocopy, laser). digital: ink jet or a digital press."
+        },
+        "matrix": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The printing surface and what it is made of."
+        },
+        "press": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The press or the machine, and how it puts the ink on the sheet."
+        },
+        "image_making": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the image gets onto the matrix: cut, bitten, drawn, cut as a stencil or exposed."
+        },
+        "edition": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The usual run, and how the sheets of one run differ."
+        }
+      },
+      "description": "How the print is made."
+    },
+    "inks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "strategy",
+        "ink_count_min",
+        "ink_count_max",
+        "overprint",
+        "colours"
+      ],
+      "properties": {
+        "strategy": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "ink_count_min": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12,
+          "description": "The fewest inks, one pass or one plate each."
+        },
+        "ink_count_max": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12,
+          "description": "The most inks."
+        },
+        "overprint": {
+          "enum": [
+            "opaque",
+            "transparent",
+            "mixed"
+          ],
+          "description": "opaque: an ink covers the ink under it. transparent: inks mix where they overlap. mixed: some of each."
+        },
+        "colours": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "description": "The inks in the order of the press. The first ink is the key ink: the line, the darks and the text. The proof draws each ink as one plate.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "hex",
+              "role"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "hex": {
+                "$ref": "#/$defs/hex"
+              },
+              "role": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              }
+            }
+          }
+        }
+      },
+      "description": "The inks and how they meet."
+    },
+    "screening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "ruling_lpi",
+        "rule"
+      ],
+      "properties": {
+        "method": {
+          "enum": [
+            "solid",
+            "line",
+            "hatch",
+            "grain",
+            "halftone",
+            "tint"
+          ],
+          "description": "solid: flat ink, no tone. line: parallel lines that swell to make a tone (engraving, a white-line cut). hatch: one, two or three layers of crossed lines (etching). grain: random dots or a rocked ground (mezzotint, crayon lithography, risograph, toner). halftone: an amplitude screen of dots at a fixed ruling and angle. tint: a few flat tints of fixed dots (Ben-Day)."
+        },
+        "ruling_lpi": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 300,
+          "description": "Lines or dots per inch of the screen or the hatch. 0 for solid ink."
+        },
+        "angles": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 180
+          },
+          "description": "The screen angle of each ink, in the order of inks.colours, in degrees."
+        },
+        "rule": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the process makes a mid-tone, with a measure."
+        }
+      },
+      "description": "How the process makes a tone."
+    },
+    "registration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tolerance_mm",
+        "rule"
+      ],
+      "properties": {
+        "tolerance_mm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 4,
+          "description": "The usual shift of one ink against the key on the sheet."
+        },
+        "trap_mm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 3,
+          "description": "The overlap of two inks at a shared edge, if the process uses one."
+        },
+        "rule": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        }
+      },
+      "description": "How exactly the inks meet."
+    },
+    "substrate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stock",
+        "weight_gsm_min",
+        "weight_gsm_max",
+        "ground",
+        "finish"
+      ],
+      "properties": {
+        "stock": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The paper or other sheet."
+        },
+        "weight_gsm_min": {
+          "type": "integer",
+          "minimum": 20,
+          "maximum": 1200
+        },
+        "weight_gsm_max": {
+          "type": "integer",
+          "minimum": 20,
+          "maximum": 1200
+        },
+        "ground": {
+          "$ref": "#/$defs/hex",
+          "description": "The colour of the bare sheet."
+        },
+        "finish": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "Matt, laid, wove, coated or cloth, and its tooth."
+        }
+      },
+      "description": "The sheet under the ink."
+    },
+    "surface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "impression",
+        "sheen",
+        "texture"
+      ],
+      "properties": {
+        "impression": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "What the press does to the sheet: a bite, a plate mark, an emboss or nothing."
+        },
+        "sheen": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the ink reflects light."
+        },
+        "texture": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The grain that a viewer sees at 30 cm."
+        }
+      },
+      "description": "The printed sheet at reading distance."
+    },
+    "artefacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "marks"
+      ],
+      "properties": {
+        "marks": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          },
+          "description": "The marks that the process leaves and that the style keeps: an ink squash, a plate mark, a moiré, a toner speck."
+        }
+      },
+      "description": "The marks of the process that make the style read as real."
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "positive",
+        "negative"
+      ],
+      "properties": {
+        "positive": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 14,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "negative": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 10,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        }
+      },
+      "description": "The implementation layer: vocabulary for an image prompt or an art brief."
+    },
+    "evidence": {
+      "$ref": "../core.schema.json#/$defs/evidence",
+      "description": "Required for a print style: at least one canonical print with an open licence or in the public domain."
+    },
+    "lineage": {
+      "$ref": "../core.schema.json#/$defs/lineage"
+    },
+    "emotion": {
+      "$ref": "../core.schema.json#/$defs/emotion"
+    },
+    "agent": {
+      "$ref": "../core.schema.json#/$defs/agent"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/sources/items"
+      }
+    }
+  }
+}

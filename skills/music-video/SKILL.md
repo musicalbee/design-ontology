@@ -200,6 +200,38 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `symmetry-axis` | Symmetry and axis | An axis is a line that orders a composition. Symmetry places equal elements at equal distances on the two sides of the axis, or around a centre. | ordering axes (count): 0 to 3; mirrored mass about the axis (% of visual weight): 90–100 formal, 0–50 informal; type (kind): bilateral, radial, none |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Jump cut (montage)
+
+A cut inside one continuous shot that removes time and leaves the jump in view. Origin: film & video, Paris, 1960.
+
+- Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
+- In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **MTV** (platform, New York, 1981–now), published the style. US cable channel for music video. It began on 1 August 1981 under Warner-Amex Satellite Entertainment.
+- **Warner-Amex Satellite Entertainment** (company, New York, ?–now), funded the style. A joint venture of Warner Communications and American Express. It owned MTV at its start in 1981.
+- **Warner Communications** (company, New York, ?–now), funded the style. US media company. It bought Atari in 1976 for 28 million dollars and co-owned MTV through Warner-Amex.
+- **YouTube** (platform, web, 2005–now), published the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.85:1 | 1.33:1, 1.85:1, 2.39:1, 9:16 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–120 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 2 | 1.5–3 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 3200 | 2000–9000 K | colour_and_grade, light |
+| Grain (`grain`) | 0.1 | 0–0.2 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -209,7 +241,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`neon-noir`](../neon-noir/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
+- **Kin in another domain:** [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Nearest by vector profile:** [`giallo`](../giallo/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md), [`neon-noir`](../neon-noir/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,448 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "arts-and-crafts-object",
+  "domain": "industrial",
+  "name": "Arts and Crafts object",
+  "aliases": [
+    "Arts and Crafts household goods",
+    "Craftsman object",
+    "Cotswold craft"
+  ],
+  "era_id": "reform-and-craft",
+  "time_period": {
+    "start": 1880,
+    "end": 1918,
+    "label": "1880–1918"
+  },
+  "region": "Britain, with the United States and Scandinavia",
+  "summary": "The handmade household goods of the reform movement: oak furniture with exposed joints, hammered copper and iron, stoneware and wool, made in small workshops against the machine ornament of the age.",
+  "philosophy": {
+    "core_thesis": "A good object shows the hand and the material that made it: the joint, the hammer mark and the grain are the ornament, and the maker is a free craftsman.",
+    "design_principles": [
+      "Leave each joint in view: a through tenon, a peg, a dovetail or a wedge.",
+      "Use oak, ash and elm in the solid, with a straight grain and a wax or oil finish.",
+      "Hammer metal by hand, and leave the hammer marks; copper and iron are the main metals.",
+      "Use hand-forged hinges and straps of 3 to 6 mm iron on doors and chests.",
+      "Put 1 stylised plant motif on a surface, such as a leaf, a tulip or a pomegranate, in flat colour.",
+      "Use earth colours: moss green, madder red, indigo blue and the brown of oak.",
+      "Make each piece in a small shop, and let a part differ a little from the next."
+    ],
+    "anti_patterns": [
+      "Machine-pressed repeat ornament",
+      "Dark, thick glossy varnish that hides the grain",
+      "Cheap veneer and false graining",
+      "Chrome and bright plating",
+      "Moulded plastic parts",
+      "Deep buttoned upholstery with a fringe"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "hand_finish": 5,
+    "material_warmth": 5,
+    "visual_mass": 3,
+    "chromatic_intensity": 3
+  },
+  "form": {
+    "geometry": "Straight, square sections with a gentle taper; a slat, a post and a rail, with a round copper or iron part for contrast.",
+    "silhouette": "A sturdy, upright outline with a broad top rail and a visible frame; a rectangular case on square legs, with a flat lid.",
+    "edges": "A plain chamfer or a soft hand-planed edge of 2 to 5 mm; the hammered metal has a rolled rim.",
+    "proportion": "A settle is about 110 cm high; a slat is about 8 cm wide and 2 cm thick; a post is a square of 5 to 7 cm.",
+    "ornament": "A flat, stylised plant motif in inlay, stencil, enamel or print, and the rhythm of the joint and the hammer mark.",
+    "rules": [
+      "Each frame shows at least 1 through tenon, peg or dovetail.",
+      "Each metal part has a hand-worked surface.",
+      "A motif is a stylised plant in 1 to 3 flat colours.",
+      "Oak and copper cover more than 50% of the visible surface.",
+      "A part of one object does not match another part exactly."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "oak",
+      "copper",
+      "wrought-iron",
+      "linen",
+      "wool",
+      "stoneware"
+    ],
+    "secondary": [
+      "ash",
+      "walnut",
+      "pine",
+      "beech",
+      "leather",
+      "cotton",
+      "solid-brass",
+      "bronze",
+      "ceramic-tile",
+      "clear-glass",
+      "coloured-glass",
+      "fireclay",
+      "plaster",
+      "cane",
+      "mild-steel",
+      "jute"
+    ],
+    "avoid": [
+      "abs-plastic",
+      "chrome-plated-steel",
+      "chrome-plated-brass",
+      "plastic-laminate",
+      "acrylic",
+      "pvc",
+      "mirror-glass",
+      "fibreglass"
+    ],
+    "rule": "Solid wood and hand-worked metal make about 70% of the visible surface; cloth and clay add the colour in earth tones."
+  },
+  "finish": {
+    "finishes": [
+      "waxed",
+      "oiled",
+      "unlacquered",
+      "patinated",
+      "matte-glaze",
+      "piece-dyed",
+      "printed",
+      "natural-fibre"
+    ],
+    "textures": [
+      "open-grain",
+      "fine-grain",
+      "hammered",
+      "tool-marked",
+      "satin-smooth",
+      "speckled-clay",
+      "twill",
+      "knotted-pile"
+    ],
+    "gloss": "5–25 GU on wax and oil; 5–40 GU on hammered metal; 3–20 GU on glaze",
+    "patina": "The style wants a living surface: copper and brass darken in use, wax builds up and a hand mark stays in view."
+  },
+  "hardware": {
+    "metal_tone": "copper",
+    "section": "Straps 20–40 mm wide and 3–6 mm thick; rods 8–16 mm",
+    "joints": "Through tenons, pegs and wedges in view; hand-forged strap hinges with round-headed rivets.",
+    "handles": "A hand-hammered copper or iron ring, a plain wooden pull or a leather loop, fixed with a visible rivet.",
+    "switches_and_taps": "A small switch of brass or copper with a hammered plate and a plain turn knob. A tap is a plain brass cock with a hammered copper basin."
+  },
+  "palette": {
+    "strategy": "The earth colours of the material, with moss green, madder red and indigo in the cloth and the clay, and the warm shine of copper.",
+    "colours": [
+      {
+        "name": "Fumed oak",
+        "hex": "#6B4A2E",
+        "role": "furniture"
+      },
+      {
+        "name": "Hammered copper",
+        "hex": "#B0643A",
+        "role": "bowl, shade, tap"
+      },
+      {
+        "name": "Moss green",
+        "hex": "#5B6B3A",
+        "role": "wall, tile, cloth"
+      },
+      {
+        "name": "Madder red",
+        "hex": "#9A3B2E",
+        "role": "cloth, rug"
+      },
+      {
+        "name": "Indigo",
+        "hex": "#2E3E5C",
+        "role": "cloth, glaze"
+      },
+      {
+        "name": "Oatmeal",
+        "hex": "#D9CCB0",
+        "role": "plaster, wool"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "hand joinery with exposed tenons",
+      "hand hammering of copper",
+      "forging of iron straps",
+      "hand weaving and block printing",
+      "wheel throwing and salt glaze"
+    ],
+    "scale": "Guild workshops and small firms made single pieces and sets of 10s to 100s.",
+    "signs": "Hammer facets on metal, a through tenon that stands proud, a plane mark on wood and an uneven glaze."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "basin",
+        "form": "hand-hammered copper basin on a wooden stand",
+        "material": "copper",
+        "finish": "waxed",
+        "texture": "hammered"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "small turn switch on a hammered plate (a period-faithful reissue)",
+        "material": "solid-brass",
+        "finish": "unlacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "hammered copper pendant with a rolled rim",
+        "material": "copper",
+        "finish": "patinated",
+        "texture": "hammered"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "oak sideboard with strap hinges and through tenons",
+        "material": "oak",
+        "finish": "waxed",
+        "texture": "open-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "adjustable Morris chair with a plain oak frame",
+        "material": "oak",
+        "finish": "waxed",
+        "texture": "open-grain"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "ash chair with a rush seat and a slat back",
+        "material": "ash",
+        "finish": "waxed",
+        "texture": "open-grain"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "hand-thrown stoneware service with a matte glaze",
+        "material": "stoneware",
+        "finish": "matte-glaze",
+        "texture": "speckled-clay"
+      },
+      {
+        "category": "decor",
+        "object": "rug",
+        "form": "wool rug with a stylised flower repeat",
+        "material": "wool",
+        "finish": "piece-dyed",
+        "texture": "twill"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Arts and Crafts handmade household object",
+      "oak furniture with exposed through tenons",
+      "hand-hammered copper with visible marks",
+      "hand-forged iron strap hinges",
+      "stoneware with a matte glaze",
+      "stylised tulip and leaf motif",
+      "moss green and madder red",
+      "waxed oak with a visible grain",
+      "woven wool and linen",
+      "studio product photograph, soft window light"
+    ],
+    "negative": [
+      "machine-pressed pattern",
+      "glossy dark varnish",
+      "chrome",
+      "plastic",
+      "deep buttoned velvet",
+      "perfect identical parts"
+    ],
+    "canonical_works": [
+      {
+        "work": "Sussex chair, c. 1865–66",
+        "maker": "Morris, Marshall, Faulkner and Co.",
+        "year": 1865
+      },
+      {
+        "work": "Morris adjustable armchair, c. 1865–66",
+        "maker": "Morris, Marshall, Faulkner and Co.",
+        "year": 1866
+      },
+      {
+        "work": "Hammered copper kettle",
+        "maker": "W. A. S. Benson",
+        "year": 1890
+      },
+      {
+        "work": "Craftsman settle",
+        "maker": "Gustav Stickley",
+        "year": 1901
+      },
+      {
+        "work": "Cabinet with inlay",
+        "maker": "Ernest Gimson",
+        "year": 1905
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Reclining Morris chair, c. 1903",
+      "kind": "image",
+      "maker": "Roycroft",
+      "year": 1903,
+      "credit": "Roycroft",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Reclining_Morris_Chair_MET_235723.jpg/960px-Reclining_Morris_Chair_MET_235723.jpg"
+    },
+    {
+      "title": "Oak, wood inlay and brass desk",
+      "kind": "image",
+      "maker": "Harvey Ellis",
+      "year": 1904,
+      "credit": "Wmpearl",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Oak,_wood_inlay_and_brass_Arts_and_Crafts_desk_by_Harvey_Ellis,_c._1904,_Denver_Art_Museum.JPG",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Oak%2C_wood_inlay_and_brass_Arts_and_Crafts_desk_by_Harvey_Ellis%2C_c._1904%2C_Denver_Art_Museum.JPG"
+    },
+    {
+      "title": "Dining table, Stoneywell, c. 1899",
+      "kind": "image",
+      "maker": "Sidney Barnsley",
+      "credit": "RobinLeicester",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dining_table_by_Sidney_Barnsley,_Stoneywell,_Leicestershire.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dining_table_by_Sidney_Barnsley%2C_Stoneywell%2C_Leicestershire.jpg/960px-Dining_table_by_Sidney_Barnsley%2C_Stoneywell%2C_Leicestershire.jpg",
+      "year": 1899
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "shaker-object"
+    ],
+    "rebelled_against": [
+      "victorian-manufacture"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "arts-and-crafts-interior",
+      "arts-and-crafts-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Warm trust in an object that a person made: the viewer sees the marks of the hand and feels the care.",
+    "keywords": [
+      "handmade",
+      "honest",
+      "warm",
+      "earthy",
+      "crafted"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "arts and crafts furniture",
+      "hammered copper",
+      "morris chair",
+      "craftsman oak",
+      "exposed tenon",
+      "strap hinge",
+      "stickley",
+      "handmade copper lamp"
+    ],
+    "use_cases": [
+      "hardware and furniture for an Arts and Crafts house",
+      "a handmade, earthy kitchen or study",
+      "a reissue of a copper lamp or an oak settle",
+      "a still life of stoneware and copper"
+    ],
+    "avoid_when": [
+      "The brief asks for sleek, glossy or machine-perfect objects.",
+      "The brief needs bright, synthetic colour."
+    ],
+    "modifiers": [
+      {
+        "request": "more decorative and curved",
+        "toward": "art-nouveau-object",
+        "how": "Add the whiplash line, a flowing floral motif and soft, organic curves in wood and metal."
+      },
+      {
+        "request": "plainer and quieter",
+        "toward": "shaker-object",
+        "how": "Remove the motif and the copper; keep maple, cherry and plain oil."
+      },
+      {
+        "request": "more machine-made and modern",
+        "toward": "bauhaus-product",
+        "how": "Replace the hand mark with a smooth surface, nickel, glass and pure geometry."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.55
+    },
+    "material_warmth": {
+      "default": 0.8,
+      "min": 0.55,
+      "max": 0.95
+    },
+    "finish_gloss": {
+      "default": 15,
+      "min": 3,
+      "max": 45
+    },
+    "era_blend": {
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "note": "A contemporary reinterpretation keeps the style when it keeps the forms and the materials."
+    },
+    "hardware_weight": {
+      "default": 14,
+      "min": 6,
+      "max": 36
+    },
+    "edge_radius": {
+      "default": 4,
+      "min": 1,
+      "max": 12
+    },
+    "metal_tone": {
+      "default": "copper",
+      "options": [
+        "copper",
+        "brass",
+        "bronze",
+        "black",
+        "none"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Arts and Crafts movement",
+      "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
+    },
+    {
+      "title": "Wikipedia: Morris chair",
+      "url": "https://en.wikipedia.org/wiki/Morris_chair"
+    },
+    {
+      "title": "Wikipedia: Ernest Gimson",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Gimson"
+    }
+  ]
+}

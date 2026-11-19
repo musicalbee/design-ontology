@@ -1,0 +1,461 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "mid-century-modern-product",
+  "domain": "industrial",
+  "name": "Mid-century modern product",
+  "aliases": [
+    "Atomic-age design",
+    "American modernism",
+    "Italian post-war design"
+  ],
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1945,
+    "end": 1975,
+    "label": "1945–1975"
+  },
+  "region": "United States and Italy",
+  "summary": "Post-war household objects of moulded plywood, fibreglass, steel rod and enamel, in organic curves and bright accents, made by American furniture firms and small Italian workshops.",
+  "philosophy": {
+    "core_thesis": "New materials from the war economy make a new kind of object: light, curved, bright and cheap enough for the new suburban home.",
+    "design_principles": [
+      "Mould plywood, fibreglass or plastic in a compound curve that fits the body.",
+      "Put each shell on a slim base of steel rod, dowel or tapered wood, 10 to 25 mm in section.",
+      "Use organic outlines: the kidney, the boomerang, the egg and the disc.",
+      "Combine warm walnut or teak with a cool part of chrome, brass or enamel.",
+      "Add one saturated colour, in orange, turquoise, mustard or red, to each room set.",
+      "Make each object a module of a system that a customer can combine and extend.",
+      "Design the object for series production in a factory, and show the production method in the form.",
+      "Use a gloss finish of 40 to 80 GU on moulded and enamelled parts."
+    ],
+    "anti_patterns": [
+      "Period revival ornament and carved legs",
+      "Heavy dark upholstery with a button back",
+      "Raw, unfinished wood without a clear shape",
+      "Stacks of small ornaments on a sideboard",
+      "A full range of pastel and grey only",
+      "Thick square legs and boxy frames"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_finish": 2,
+    "material_warmth": 4,
+    "visual_mass": 2,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "geometry": "Compound curves and plane forms: the shell, the kidney, the boomerang and the saucer, on thin straight or splayed legs.",
+    "silhouette": "An organic body that floats on a thin, spidery base; the leg angle is 5 to 15 degrees from the vertical.",
+    "edges": "Soft radius of 10 to 40 mm on shells and tops; thin steel and wood parts keep a small radius of 1 to 3 mm.",
+    "proportion": "A lounge seat is 38 to 42 cm high; a coffee table is 38 to 45 cm high with a top of 90 to 150 cm; a sideboard is 70 to 80 cm high on legs of 15 to 20 cm.",
+    "ornament": "Pure shape and colour. The only repeated detail is a row of balls, a rod grid or a perforated pattern.",
+    "rules": [
+      "Each shell or top has a curve in two directions or a free-form outline.",
+      "Each base is a rod, a dowel or a tapered leg of 10 to 25 mm section.",
+      "Each room set has one saturated colour that covers about 10% to 20% of the objects.",
+      "Wood is walnut, teak or birch with an oiled or lacquered finish.",
+      "A moulded shell is of one material in one piece."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "walnut",
+      "teak",
+      "birch-plywood",
+      "fibreglass",
+      "chrome-plated-steel",
+      "leather"
+    ],
+    "secondary": [
+      "wool",
+      "mohair",
+      "cotton",
+      "linen",
+      "solid-brass",
+      "aluminium",
+      "enamelled-steel",
+      "opal-glass",
+      "coloured-glass",
+      "stoneware",
+      "plastic-laminate",
+      "marble",
+      "bakelite",
+      "abs-plastic",
+      "mild-steel",
+      "rosewood",
+      "clear-glass"
+    ],
+    "avoid": [
+      "cast-iron",
+      "wrought-iron",
+      "pressed-glass",
+      "washi-paper",
+      "concrete"
+    ],
+    "rule": "Wood and moulded shells make about 60% of the visible surface; metal rods, glass and enamel make the rest."
+  },
+  "finish": {
+    "finishes": [
+      "oiled",
+      "lacquered",
+      "moulded-gloss",
+      "moulded-matte",
+      "polished",
+      "gloss-enamel",
+      "natural-fibre",
+      "piece-dyed"
+    ],
+    "textures": [
+      "figured-grain",
+      "fine-grain",
+      "satin-smooth",
+      "mirror-smooth",
+      "plain-weave",
+      "orange-peel",
+      "pile"
+    ],
+    "gloss": "40–80 GU on shells and enamel; 5–15 GU on oiled wood",
+    "patina": "The style wants clean, fresh surfaces; light wear on wood and leather is fine, but a chipped enamel or a dull shell is out of character."
+  },
+  "hardware": {
+    "metal_tone": "chrome",
+    "section": "Rod 6–12 mm for bases and frames; brass or steel legs 12–25 mm",
+    "joints": "Welded steel rod, rubber shock mounts and visible bolts between shell and base.",
+    "handles": "A routed finger pull, a round wooden knob of 30 mm, or a thin brass rod.",
+    "switches_and_taps": "A plain ivory rocker switch; a chrome lever mixer with a slim, curved spout."
+  },
+  "palette": {
+    "strategy": "Warm walnut and teak, plus one saturated colour: orange, turquoise, mustard or red; white and black as the ground.",
+    "colours": [
+      {
+        "name": "Walnut",
+        "hex": "#6B4A2E",
+        "role": "case, base, frame"
+      },
+      {
+        "name": "Atomic orange",
+        "hex": "#E2631F",
+        "role": "shell, enamel"
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#2FA6A0",
+        "role": "shell, cushion"
+      },
+      {
+        "name": "Mustard",
+        "hex": "#D9A227",
+        "role": "wool, accent"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#F0E9D8",
+        "role": "plastic, wall"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C8CCD0",
+        "role": "rod, leg"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1C1C",
+        "role": "base, rod"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "moulding of plywood under heat and pressure",
+      "hand lay-up of fibreglass shells",
+      "steel rod bending and welding",
+      "spray enamelling",
+      "spinning and brazing of brass"
+    ],
+    "scale": "Large series from American furniture firms and short series from Italian workshops, many with a design range from 1 to 10 thousand pieces.",
+    "signs": "Rubber shock mounts, spot welds, a rod frame, a split plywood back, and a maker's label under the seat."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "mixer-tap",
+        "form": "chrome lever with a slim, curved spout",
+        "material": "chrome-plated-brass",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "plain rocker plate in ivory plastic",
+        "material": "abs-plastic",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "pendant-lamp",
+        "form": "saucer or cone shade on a thin cord",
+        "material": "enamelled-steel",
+        "finish": "gloss-enamel",
+        "texture": "orange-peel"
+      },
+      {
+        "category": "storage",
+        "object": "sideboard",
+        "form": "long low credenza with doors on a track and splayed legs",
+        "material": "walnut",
+        "finish": "oiled",
+        "texture": "figured-grain"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "armchair",
+        "form": "moulded shell on dowel legs",
+        "material": "fibreglass",
+        "finish": "moulded-gloss",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "moulded plywood seat and back on a steel rod base",
+        "material": "birch-plywood",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "cookware",
+        "form": "enamelled pot with a wooden handle in a bright colour",
+        "material": "enamelled-steel",
+        "finish": "gloss-enamel",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "clock",
+        "form": "wall clock with ball markers on thin brass rods",
+        "material": "solid-brass",
+        "finish": "polished",
+        "texture": "mirror-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "American mid-century modern product design",
+      "moulded fibreglass shell chair",
+      "walnut credenza with splayed legs",
+      "steel rod base",
+      "saturated orange and turquoise accents",
+      "brass sunburst wall clock",
+      "enamelled steel pendant lamp",
+      "organic kidney shaped forms",
+      "1950s studio product photograph"
+    ],
+    "negative": [
+      "carved ornament",
+      "dark button-tufted leather",
+      "rustic raw wood",
+      "grey minimal palette",
+      "heavy square legs",
+      "period revival"
+    ],
+    "canonical_works": [
+      {
+        "work": "Moulded plywood chair (DCW)",
+        "maker": "Charles and Ray Eames",
+        "year": 1946
+      },
+      {
+        "work": "Plastic armchair (DAR)",
+        "maker": "Charles and Ray Eames",
+        "year": 1950
+      },
+      {
+        "work": "Ball clock",
+        "maker": "George Nelson",
+        "year": 1948
+      },
+      {
+        "work": "Noguchi coffee table",
+        "maker": "Isamu Noguchi",
+        "year": 1947
+      },
+      {
+        "work": "Lounge chair and ottoman",
+        "maker": "Charles and Ray Eames",
+        "year": 1956
+      },
+      {
+        "work": "Tulip chair",
+        "maker": "Eero Saarinen",
+        "year": 1956
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Eames lounge chair, side view",
+      "kind": "image",
+      "maker": "Charles and Ray Eames",
+      "year": 1956,
+      "credit": "Casey Marshall",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Eames_Lounge_Chair_-_side.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Eames_Lounge_Chair_-_side.jpg/960px-Eames_Lounge_Chair_-_side.jpg"
+    },
+    {
+      "title": "Lounge Chair Wood (LCW)",
+      "kind": "image",
+      "maker": "Charles and Ray Eames",
+      "year": 1946,
+      "credit": "Hiart",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:LCW_(Lounge_Chair_Wood)_Chair_by_Charles_and_Ray_Eames,_Honolulu_Museum_of_Art_4410.1.JPG",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/LCW_%28Lounge_Chair_Wood%29_Chair_by_Charles_and_Ray_Eames%2C_Honolulu_Museum_of_Art_4410.1.JPG/960px-LCW_%28Lounge_Chair_Wood%29_Chair_by_Charles_and_Ray_Eames%2C_Honolulu_Museum_of_Art_4410.1.JPG"
+    },
+    {
+      "title": "Ball clock",
+      "kind": "image",
+      "maker": "George Nelson Associates",
+      "year": 1948,
+      "credit": "Sailko",
+      "licence": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Irvin_harper_(attr.)_per_george_nelson_associates_tramite_howard_miller_clock_company,_ball_clock_n._4755,_zeeland_MI_1948-69.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Irvin_harper_%28attr.%29_per_george_nelson_associates_tramite_howard_miller_clock_company%2C_ball_clock_n._4755%2C_zeeland_MI_1948-69.jpg/960px-Irvin_harper_%28attr.%29_per_george_nelson_associates_tramite_howard_miller_clock_company%2C_ball_clock_n._4755%2C_zeeland_MI_1948-69.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "bauhaus-product",
+      "scandinavian-modern-product"
+    ],
+    "rebelled_against": [
+      "art-deco-product"
+    ],
+    "hybridized_with": [
+      "scandinavian-modern-product"
+    ],
+    "echoes": [
+      "mid-century-modern-interior",
+      "mid-century-modern",
+      "mid-century-modern-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Optimism: the object looks new, light and a little playful, like a promise of a better home.",
+    "keywords": [
+      "optimistic",
+      "playful",
+      "organic",
+      "light",
+      "modern",
+      "sociable"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mid-century modern",
+      "eames chair",
+      "fibreglass shell chair",
+      "atomic age design",
+      "walnut credenza",
+      "1950s american design",
+      "sunburst clock",
+      "italian 1950s design"
+    ],
+    "use_cases": [
+      "furniture and accessories for a retro-modern home",
+      "a still life with a shell chair, a clock and a pendant lamp",
+      "product briefs for a mid-century reissue",
+      "a hardware schedule for a period house"
+    ],
+    "avoid_when": [
+      "The brief asks for a calm, grey, grid-based object set.",
+      "The brief asks for hand-made craft with a visible tool mark."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer and more Nordic",
+        "toward": "scandinavian-modern-product",
+        "how": "Drop the saturated colour and the plastic, and use solid teak, bent birch and undyed wool."
+      },
+      {
+        "request": "more systematic and technical",
+        "toward": "ulm-braun-functionalism",
+        "how": "Swap curves for a grid, and organic shapes for white and grey modules."
+      },
+      {
+        "request": "more fun and pattern",
+        "toward": "space-age-pop-product",
+        "how": "Use full plastic bodies, round pods and saturated colour on all large surfaces."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.3
+    },
+    "material_warmth": {
+      "default": 0.6,
+      "min": 0.35,
+      "max": 0.85
+    },
+    "finish_gloss": {
+      "default": 45,
+      "min": 5,
+      "max": 85
+    },
+    "era_blend": {
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "note": "A new object in a moulded shell on a slim base still belongs to the style."
+    },
+    "hardware_weight": {
+      "default": 12,
+      "min": 6,
+      "max": 25
+    },
+    "edge_radius": {
+      "default": 20,
+      "min": 2,
+      "max": 40
+    },
+    "metal_tone": {
+      "default": "chrome",
+      "options": [
+        "chrome",
+        "brass",
+        "nickel",
+        "black",
+        "white",
+        "stainless"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Mid-century modern",
+      "url": "https://en.wikipedia.org/wiki/Mid-century_modern"
+    },
+    {
+      "title": "Wikipedia: Charles and Ray Eames",
+      "url": "https://en.wikipedia.org/wiki/Charles_and_Ray_Eames"
+    },
+    {
+      "title": "Wikipedia: George Nelson (designer)",
+      "url": "https://en.wikipedia.org/wiki/George_Nelson_(designer)"
+    }
+  ]
+}

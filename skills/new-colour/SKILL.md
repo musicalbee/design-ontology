@@ -168,6 +168,39 @@ The rules above name these shared principles by id. The definition is the same i
 | `framing` | Framing | A nearer element, such as a doorway, an arch, a window or a branch, surrounds the subject and isolates it. | frame area (% of the view): 10–35; frame planes (count): 1 to 2 |
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Tilt-shift (tool)
+
+Lens or camera movements that keep vertical lines parallel and move the plane of focus; a building stands upright and sharp. Origin: photography, Vienna, 1904.
+
+- Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.
+- Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.
+- Close the lens to f/11 to f/22 for full depth of field.
+- In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Aperture** (publisher, New York, 1952–now), published the style. A publisher of photobooks and a magazine. It published colour work of Stephen Shore and other New Colour photographers.
+- **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
+- **National Endowment for the Arts** (state programme, Washington, D.C., 1965–now), funded the style. Independent US federal agency created by Congress in 1965. It gave fellowships to photographers.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 4000–6000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.15 | 1.05–1.3 | colour_and_grade, post_processing |
+| Grain (`grain`) | 64 | 25–100 ISO | process, post_processing |
+| Focal length (`focal_length`) | 50 | 35–50 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 2:3 | 2:3, 1:1, 4:5 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

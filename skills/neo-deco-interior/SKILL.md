@@ -203,7 +203,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#neo-deco-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 1955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#neo-deco-interior).
 
 ![Room](../../demo/moodboards/interior/neo-deco-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/neo-deco-interior/materials.webp)
@@ -211,6 +211,61 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/neo-deco-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/neo-deco-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/neo-deco-interior/objects.webp)
+
+## Object net
+
+Brushed brass, velvet, fluted walnut, ribbed glass and honed travertine give the 1920s geometry a soft, round form. Terracotta, sage and burgundy stay warm and muted. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.5, material_warmth 0.5, finish_gloss 45, era_blend 0.6, hardware_weight 14, edge_radius 22, metal_tone brass. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#neo-deco-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`art-deco-product`](../art-deco-product/SKILL.md)) | Basin | console basin on legs | Marble, honed, veined (#E8D8C4) |
+|  | Basin tap or mixer | cylindrical spout | Solid brass, brushed, fluted or reeded (#B39253) |
+|  | Towel rail | ring | Solid brass, brushed, brush lines (#B39253) |
+| Electrics ([`art-deco-product`](../art-deco-product/SKILL.md)) | Light switch | round rotary on a round base | Solid brass, brushed, knurled (#B39253) |
+|  | Socket outlet | screwless flat plate | Solid brass, brushed, brush lines (#B39253) |
+|  | Dimmer and control | large knurled rotary knob | Solid brass, brushed, knurled (#B39253) |
+| Lighting ([`art-deco-product`](../art-deco-product/SKILL.md)) | Pendant lamp | opal globe | Opal glass, clear gloss, mirror-smooth (#E8D8C4) |
+|  | Table lamp | mushroom lamp | Opal glass, acid-etched or sandblasted, etched or frosted (#E8D8C4) |
+|  | Wall sconce | fan or shell in frosted glass | Frosted glass, acid-etched or sandblasted, etched or frosted (#E8D8C4) |
+|  | Curtain track and blind | ceiling-recessed track | Wool, washed, soft, twill or herringbone (#E8D8C4) |
+| Storage ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sideboard and cabinet | low long credenza on tapered legs | Walnut, oiled, fluted or reeded (#5E3F2A) |
+|  | Shelving | open bookcase | Walnut, oiled, fine close grain (#5E3F2A) |
+|  | Handle, knob and pull | round mushroom knob | Solid brass, brushed, fluted or reeded (#B39253) |
+| Soft Furniture ([`art-deco-product`](../art-deco-product/SKILL.md)) | Sofa | curved crescent sofa | Velvet, lustre pile, cut pile (#6F2B33) |
+|  | Armchair and lounge chair | barrel chair | Mohair, piece-dyed, bouclé loops (#E8D8C4) |
+|  | Ottoman and pouf | round pouf | Velvet, lustre pile, cut pile (#9AA585) |
+|  | Cushion and throw | bolster | Velvet, lustre pile, cut pile (#B5654A) |
+| Tables ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Low table | round drum with fluted sides | Walnut, oiled, fine close grain (#5E3F2A) |
+|  | Side table | pedestal side table | Travertine, honed, porous or pitted (#E8D8C4) |
+|  | Console table | demilune half-round | Travertine, honed, veined (#E8D8C4) |
+|  | Dining chair | upholstered parsons chair | Leather, aniline dyed, grain leather (#B5654A) |
+| Kitchen ([`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)) | Kitchen front | fluted slab | Walnut, oiled, fluted or reeded (#5E3F2A) |
+|  | Worktop and splashback | slim 12 mm stone slab | Limestone, honed, veined (#E8D8C4) |
+|  | Cooker hood and range | plastered chimney hood | Plaster, matte paint, trowelled (#E8D8C4) |
+|  | Tableware and glassware | hand-thrown bowls | Stoneware, matte glaze, throwing rings (#B5654A) |
+| Decor ([`art-deco-product`](../art-deco-product/SKILL.md)) | Mirror | arched mirror | Mirror glass, silvered, mirror-smooth (#B39253) |
+|  | Vase | faceted vase | Pressed glass, clear gloss, ribbed (#9AA585) |
+|  | Bowl, tray and box | fruit bowl in wire or steel | Solid brass, brushed, satin-smooth (#B39253) |
+|  | Picture frame | chevron or stepped moulding | Walnut, oiled, fluted or reeded (#5E3F2A) |
+|  | Rug | geometric hand-tufted rug | Wool, piece-dyed, knotted pile (#B5654A) |
+
+Alternates for each category:
+- **Sanitary:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Electrics:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md)
+- **Lighting:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Storage:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Soft Furniture:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Tables:** [`art-deco-product`](../art-deco-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Kitchen:** [`art-deco-product`](../art-deco-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Decor:** [`contemporary-craft-product`](../contemporary-craft-product/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Sofa, Armchair and lounge chair, Low table, Rug, Mirror, Pendant lamp, Sideboard and cabinet
+- **materials:** Sideboard and cabinet, Side table, Sofa, Basin tap or mixer, Wall sconce, Vase, Cooker hood and range
+- **furniture:** Sofa, Armchair and lounge chair, Low table, Side table, Console table, Sideboard and cabinet
+- **textiles:** Sofa, Armchair and lounge chair, Ottoman and pouf, Cushion and throw, Curtain track and blind, Rug
+- **light:** Pendant lamp, Table lamp, Wall sconce
+- **objects:** Vase, Bowl, tray and box, Picture frame, Mirror, Tableware and glassware
 
 ## Vocabulary primer
 
@@ -253,6 +308,24 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Architectural Digest** (magazine, Los Angeles, 1920–now), published the style. A magazine of interiors and houses. It published the homes of Hollywood stars and later the soft, curved rooms of new glamour.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #E8D8C4 | #E8D8C4, #9AA585 | palette |
+| Accent colour (`accent_colour`) | #B5654A | #B5654A, #6F2B33, #B39253 | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.8 | 2.5–3.4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.35 | 0.25–0.5 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -263,7 +336,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`art-deco-interior`](../art-deco-interior/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`minimalist-interior`](../minimalist-interior/SKILL.md)
 - **Mixes well with:** [`quiet-luxury-interior`](../quiet-luxury-interior/SKILL.md)
-- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md)
+- **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

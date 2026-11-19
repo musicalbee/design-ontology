@@ -107,6 +107,12 @@
       { "request": "less strict", "toward": "cubism-painting", "how": "Keep the flat planes and the narrow palette; allow the diagonal and the tilted plane, and bring back an object clue such as a guitar or a bottle." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#D3202A", "options": ["#D3202A", "#1D3F8C", "#F2C300", "#151515"]},
+    "value_contrast": {"default": 0.9, "min": 0.8, "max": 1.0},
+    "brush_size": {"default": 0, "min": 0, "max": 0.1, "note": "The fields are flat and masked, so no stroke shows."},
+    "canvas_ratio": {"default": "1:1", "options": ["1:1", "4:5"]}
+  },
   "sources": [
     { "title": "Wikidata Q207445 (De Stijl)", "url": "https://www.wikidata.org/wiki/Q207445" },
     { "title": "Getty AAT 300021259 (De Stijl) and 300021262 (Neoplasticism)", "url": "https://vocab.getty.edu/page/aat/300021259" },

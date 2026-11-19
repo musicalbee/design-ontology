@@ -313,6 +313,38 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.85:1",
+      "options": [
+        "1.37:1",
+        "1.66:1",
+        "1.85:1",
+        "2.39:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 24
+    },
+    "average_shot_length": {
+      "default": 60,
+      "min": 30,
+      "max": 180,
+      "note": "Sátántangó has about 150 shots in 7 h, near 170 s per shot."
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 3200,
+      "max": 5600
+    },
+    "grain": {
+      "default": 0.1,
+      "min": 0.08,
+      "max": 0.12
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q7542092: Slow cinema",

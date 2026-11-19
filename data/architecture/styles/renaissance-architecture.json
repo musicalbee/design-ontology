@@ -271,6 +271,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 5, "min": 4, "max": 6},
+    "structural_grid": {"default": 6, "min": 5, "max": 9},
+    "glazing_ratio": {"default": 20, "min": 15, "max": 25},
+    "roof_pitch": {"default": 20, "min": 10, "max": 30},
+    "base_material": {"default": "stone", "options": ["stone", "brick"]}
+  },
   "sources": [
     {
       "title": "Rudolf Wittkower, Architectural Principles in the Age of Humanism (Warburg Institute, 1949)"

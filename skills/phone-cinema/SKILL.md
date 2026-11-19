@@ -208,6 +208,24 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Sundance Film Festival** (salon, Park City, Utah, 1978–now), exhibited the style. A festival of independent film. The Blair Witch Project and the iPhone feature Tangerine had their premieres here.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 2.39:1 | 1.85:1, 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 6 | 4–8 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.12 | 0.1–0.15 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

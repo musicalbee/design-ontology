@@ -135,6 +135,37 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Positive:** neo-grotesque sans-serif · helvetica style · swiss grid · neutral typography · flush left ragged right · tight tracking on headlines · black and white · clean interface type
 - **Negative:** serifs · calligraphic stroke · decorative letters · grunge · script · wide letter spacing on lower case
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Phototypesetting (technology)
+
+Type set by light through a film negative of each letter onto paper or film, instead of from cast metal. Origin: typeface, Cambridge, United States, c. 1949.
+
+- Design each weight and width of a family together, so that the machine can mix them.
+- Set display sizes with tight spacing; film letters can touch.
+- Draw one master for all sizes; correct the spacing by size.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Haas Type Foundry** (company, Münchenstein, ?–1989), made the style. A Swiss type foundry. It released Neue Haas Grotesk in 1957, which became Helvetica.
+- **Linotype** (company, Brooklyn and Frankfurt, 1886–now), sold the style. A maker of typesetting machines and type. It sold Helvetica, Frutiger and the formal script Snell Roundhand.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 100–900 | metrics, setting |
+| Width (`width`) | 100 | 75–125 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.52 | 0.5–0.56 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 1.2 | 1–1.4 | anatomy |
+| Tracking (`tracking`) | -0.02 | -0.03–0.06 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

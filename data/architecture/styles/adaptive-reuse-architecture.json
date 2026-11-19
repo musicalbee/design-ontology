@@ -274,6 +274,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 4.5, "min": 3.5, "max": 8, "note": "Old halls and warehouses keep their tall storeys."},
+    "structural_grid": {"default": 6, "min": 4, "max": 12},
+    "glazing_ratio": {"default": 35, "min": 20, "max": 45},
+    "roof_pitch": {"default": 30, "min": 0, "max": 50, "note": "The old roof stays, so the pitch is the pitch of the host building."},
+    "base_material": {"default": "brick", "options": ["brick", "stone", "steel", "concrete", "glass"]}
+  },
   "sources": [
     {
       "title": "Liliane Wong, Adaptive Reuse: Extending the Lives of Buildings (Birkhäuser, 2017)"

@@ -1,7 +1,7 @@
 ---
 name: mid-century-modern
-description: "Apply the Mid-Century Modern style (1945–1969) when generating UI or graphic layouts. Load when the user asks for: mid-century, mid century modern, mcm, atomic age, 1950s modern, eames."
-domain: design
+description: "Apply the Mid-Century Modern style (1945–1969) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: mid-century, mid century modern, mcm, atomic age, 1950s modern, eames."
+domain: internet
 era: modernist
 triggers:
   - "mid-century"
@@ -28,7 +28,7 @@ vector_profile:
 
 Organic and geometric shapes in mustard, teal, orange and walnut, with slab and geometric type and wide margins. It grew from Bauhaus in postwar America and Scandinavia, and it added warmth and play to modernist order.
 
-**Period:** 1945–1969 · **Era:** Modernist · **Domain:** Graphic & UI Design · **Also called:** MCM, Atomic Age Design, Mid-Century Graphic Design
+**Period:** 1945–1969 · **Era:** Modernist · **Domain:** Internet · **Also called:** MCM, Atomic Age Design, Mid-Century Graphic Design
 
 ## When to load this skill
 
@@ -43,7 +43,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Mid-Century Modern, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Mid-Century Modern, you MUST:
 
 1. Draw shapes from two families only: organic forms such as boomerangs, kidneys and atoms, and clean geometry such as circles and rectangles.
 2. Limit the palette to 4 or 5 colours: mustard, teal, burnt orange, olive and walnut on warm off-white.
@@ -245,6 +245,26 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Sunburst (motif)
+
+Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock. Origin: architecture, Paris, 1925.
+
+- Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
+- Keep the centre disc at 15% to 30% of the full diameter.
+- In a room, use one sunburst as the focal point of one wall.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Festival of Britain** (exhibition, London, 1951–1951), exhibited the style. National festival of summer 1951. It gave a platform to the Contemporary style and to Good Design.
+- **Herman Miller** (company, Zeeland, Michigan, 1923–now), made the style. A furniture maker that worked with George Nelson, Charles and Ray Eames and Isamu Noguchi. It made modern furniture for homes and offices.
+- **UK government** (state programme, London, ?–now), funded the style. Government of the United Kingdom. It paid most of the cost of the 1951 Festival of Britain.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
@@ -270,8 +290,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`pop-art-web`](../pop-art-web/SKILL.md), [`space-age`](../space-age/SKILL.md)
 - **Was rejected by:** [`punk-zine`](../punk-zine/SKILL.md)
 - **Mixes well with:** [`swiss-international`](../swiss-international/SKILL.md)
-- **Kin in another domain:** [`emblem-badge`](../emblem-badge/SKILL.md), [`geometric-symbol`](../geometric-symbol/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
-- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`space-age`](../space-age/SKILL.md)
+- **Kin in another domain:** [`emblem-badge`](../emblem-badge/SKILL.md), [`geometric-symbol`](../geometric-symbol/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`mid-century-modern-product`](../mid-century-modern-product/SKILL.md)
+- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md), [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md)
 
 ## Emotional target
 
@@ -286,4 +306,4 @@ Optimism with ease: the viewer feels welcome, relaxed and confident in a well-ma
 
 ---
 
-Generated from [`data/design/styles/mid-century-modern.json`](../../data/design/styles/mid-century-modern.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/mid-century-modern.json`](../../data/internet/styles/mid-century-modern.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

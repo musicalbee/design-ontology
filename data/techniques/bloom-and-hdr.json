@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "bloom-and-hdr",
+  "name": "Bloom and HDR",
+  "aliases": [
+    "Bloom",
+    "High dynamic range rendering"
+  ],
+  "kind": "technology",
+  "summary": "Render light in a high dynamic range, map it down to the screen, and let the brightest areas glow past their edges as on a camera lens.",
+  "how": [
+    "Render in a floating-point buffer; keep sky and lamps 10–100 times brighter than walls.",
+    "Blur pixels above a threshold and add them back as a glow.",
+    "Map the range to the screen with a tone curve and eye adaptation."
+  ],
+  "origin": {
+    "domain": "game",
+    "year": 2005,
+    "where": "Valve, Bellevue, Washington",
+    "note": "Half-Life 2: Lost Coast is made to show HDR rendering."
+  },
+  "adoptions": [
+    {
+      "domain": "game",
+      "year": 2006,
+      "via": "Gears of War and other HD console games use bloom across whole scenes.",
+      "styles": [
+        "seventh-gen-desaturated"
+      ]
+    },
+    {
+      "domain": "game",
+      "year": 2018,
+      "via": "HD-2D games use bloom on lamps to make pixel scenes glow.",
+      "styles": [
+        "hd-2d-diorama"
+      ]
+    }
+  ],
+  "styles": [
+    "seventh-gen-desaturated",
+    "hd-2d-diorama"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: High-dynamic-range rendering",
+      "url": "https://en.wikipedia.org/wiki/High-dynamic-range_rendering"
+    },
+    {
+      "title": "Wikipedia: Bloom (shader effect)",
+      "url": "https://en.wikipedia.org/wiki/Bloom_(shader_effect)"
+    }
+  ]
+}

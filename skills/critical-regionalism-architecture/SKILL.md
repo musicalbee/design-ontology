@@ -203,6 +203,24 @@ A narrow recessed joint between two surfaces that casts a shadow, so that each s
 - Hold the gap at a constant width along its full length.
 - Use it where new meets old: between a wall and a ceiling, a floor and a skirting, or a new insert and a historic wall.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Perspecta** (magazine, New Haven, 1952–now), published the style. The architecture journal of the Yale School of Architecture. In 1983 it printed the essay that argued for a critical regionalism.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.2 | 2.7–4 m | massing, facade |
+| Structural grid (`structural_grid`) | 4.5 | 3–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 25 | 15–35 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 15 | 0–35 deg | massing |
+| Base material (`base_material`) | stone | stone, concrete, timber, brick, earth | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -1,0 +1,344 @@
+{
+  "$schema": "../../../schema/domains/cuisine.schema.json",
+  "id": "plant-based-fine-dining",
+  "domain": "cuisine",
+  "name": "Plant-based fine dining",
+  "aliases": [
+    "Vegan tasting menu",
+    "Plant-led haute cuisine",
+    "Fine dining without animal products"
+  ],
+  "era_id": "terroir-and-plant",
+  "branch": "haute",
+  "time_period": {
+    "start": 2021,
+    "end": null,
+    "label": "2021–present"
+  },
+  "region": "New York",
+  "summary": "A tasting-menu kitchen that uses no meat, fish, dairy, egg or honey. It gives the luxury of the old menu to vegetables, grains, nuts and ferments. Eleven Madison Park in New York changed to such a menu in 2021 under Daniel Humm, and put some animal products back in 2025.",
+  "philosophy": {
+    "core_thesis": "The top of the table does not need an animal: with skill, time and ferments, a carrot, a beet or a nut can carry the weight that foie gras and beef once carried.",
+    "design_principles": [
+      "Use no meat, fish, dairy, egg or honey, and tell the guest.",
+      "Take the old luxury forms and cook them again from plants: a tartare, a roast, a sauce with body.",
+      "Build depth with ferments, koji, smoke, dried mushrooms and long roasting.",
+      "Make the sauces from nuts, seeds, oils and vegetable stocks, not from butter or cream.",
+      "Buy from farms near the city, and change the menu with the harvest.",
+      "Serve with the same care and the same ritual as a classic tasting menu: a tableside step, a clear story.",
+      "Count the weight of the dish in taste and satisfaction, not in meat."
+    ],
+    "anti_patterns": [
+      "A meat substitute that copies the look of meat with no taste of its own",
+      "A plate that looks like a side dish with the main dish taken away",
+      "Butter, cream, egg or honey in a hidden form",
+      "A dish that is only raw or only boiled vegetables",
+      "A menu that tells the guest what it does not have",
+      "A rustic plate in a formal room, without a clear idea"
+    ]
+  },
+  "vectors": {
+    "composition": 4,
+    "transformation": 4,
+    "locality": 3,
+    "richness": 2,
+    "flavour_intensity": 3
+  },
+  "plating": {
+    "composition": "A calm, exact composition built around one vegetable in a clear form, with one sauce, one crisp part and one herb, set on a large plate.",
+    "plate": "A large white or pale grey plate, a dark ceramic bowl, or a stone, with a plain, matt glaze.",
+    "portion": "Eight to fourteen courses of 30 to 90 g each; a main vegetable course of 120 g.",
+    "height": "Low to medium: 15 to 50 mm, with a tall crisp or a rolled leaf on a few courses.",
+    "rules": [
+      "Show the main vegetable in a clear form: a whole root, a thick slice or a neat tartare.",
+      "Give each course one sauce, one crisp part and one herb, and no more.",
+      "Leave half of the plate empty and place the parts in a line or a curve.",
+      "Finish one or two courses at the table, with a grinder, a pour or a slice, as the classic menu did.",
+      "Use matt plates in pale colours so that the colour of the vegetable stands out."
+    ]
+  },
+  "pantry": {
+    "primary": [
+      "carrot",
+      "root-vegetables",
+      "wild-mushrooms",
+      "nuts-seeds",
+      "pulses",
+      "tofu",
+      "potato"
+    ],
+    "secondary": [
+      "cabbage",
+      "leek",
+      "tomato",
+      "asparagus",
+      "artichoke",
+      "seasonal-greens",
+      "onion",
+      "olive-oil",
+      "vinegar",
+      "miso",
+      "kombu",
+      "cocoa",
+      "orchard-fruit",
+      "cane-sugar",
+      "berries",
+      "fine-herbs"
+    ],
+    "avoid": [
+      "butter",
+      "cream",
+      "egg",
+      "honey",
+      "beef",
+      "foie-gras",
+      "cheese"
+    ],
+    "in_europe": false,
+    "rule": "Use only plant products; take depth from ferments, dried mushrooms, nuts and slow roasting, and take the vegetables from farms near the kitchen."
+  },
+  "technique": {
+    "methods": [
+      "knife-work",
+      "oven-roasting",
+      "lacto-fermentation",
+      "koji-fermentation",
+      "smoking",
+      "pickling",
+      "dehydrating",
+      "plated-service"
+    ],
+    "bases": "Vegetable stocks with kombu and dried mushrooms, nut milks and nut butters, vinegars and ferments, and oils with herbs.",
+    "details": "A dust of dried mushroom, a ferment glaze, a nut crumb, a smoked oil, an edible leaf."
+  },
+  "flavour": {
+    "profile": "Earthy, sweet and savoury, with a clear acid and the deep taste of ferments and roasting.",
+    "balance": "Umami from ferments and mushrooms leads; acid lifts it; sweetness comes from roots and fruit.",
+    "fat": "Plant fats: olive oil and nut oils in small amounts; 20 to 35 per cent of the energy of a course.",
+    "seasoning": "Salt, miso, vinegar, smoked oils, dried mushroom powder, fresh herbs and pepper."
+  },
+  "palette": {
+    "strategy": "Use the true colours of vegetables on a quiet matt plate: orange, purple and green, with a deep brown from roasting.",
+    "colours": [
+      {
+        "name": "Plate grey-white",
+        "hex": "#ECEAE4",
+        "role": "plate"
+      },
+      {
+        "name": "Carrot orange",
+        "hex": "#D9732A",
+        "role": "carrot and roots"
+      },
+      {
+        "name": "Beetroot purple",
+        "hex": "#6A1F43",
+        "role": "beets and sauce"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#5C7F37",
+        "role": "herbs and leaves"
+      },
+      {
+        "name": "Roasted brown",
+        "hex": "#6B4A2E",
+        "role": "roast and crust"
+      },
+      {
+        "name": "Nut cream",
+        "hex": "#D9C8A0",
+        "role": "nuts and purées"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#33312E",
+        "role": "bowls and smoke"
+      }
+    ]
+  },
+  "service": {
+    "format": "A fixed tasting menu with a juice or wine pairing, and a service that keeps the ritual of the classic fine-dining room.",
+    "courses": "Eight to fourteen courses in a set order, with a tableside step in two or three of them and a dessert from nuts, fruit or cocoa.",
+    "tableware": "Large matt plates, dark bowls, linen napkins, fine glass and wooden or stone serving pieces.",
+    "setting": "A high, formal dining room with a calm service, in which the menu says plainly that all food comes from plants."
+  },
+  "signatures": {
+    "dishes": [
+      {
+        "course": "hors-doeuvre",
+        "dish": "Carrot tartare, ground at the table",
+        "ingredient": "carrot",
+        "method": "knife-work"
+      },
+      {
+        "course": "vegetable-course",
+        "dish": "Roasted celery root with a ferment sauce",
+        "ingredient": "root-vegetables",
+        "method": "oven-roasting"
+      },
+      {
+        "course": "vegetable-course",
+        "dish": "Wild mushrooms in a smoked glaze",
+        "ingredient": "wild-mushrooms",
+        "method": "smoking"
+      },
+      {
+        "course": "dessert",
+        "dish": "A warm cake of dark chocolate with a nut cream",
+        "ingredient": "cocoa",
+        "method": "oven-roasting"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "plant-based tasting menu",
+      "carrot tartare",
+      "roasted root vegetable on a large plate",
+      "one sauce, one crisp, one herb",
+      "matt grey ceramic plate",
+      "fermented glaze",
+      "formal dining room",
+      "overhead food photograph"
+    ],
+    "negative": [
+      "meat",
+      "fish",
+      "cream sauce",
+      "butter",
+      "fake meat",
+      "rustic plate",
+      "gold rim"
+    ],
+    "canonical_works": [
+      {
+        "work": "Eleven Madison Park (restaurant, New York), plant-based menu",
+        "maker": "Daniel Humm",
+        "year": 2021
+      },
+      {
+        "work": "Eleven Madison Park: The Plant-Based Cookbook",
+        "maker": "Daniel Humm",
+        "year": 2022
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Carrot tartare at Eleven Madison Park, before the plant-based menu",
+      "kind": "image",
+      "credit": "City Foodsters, via Wikimedia Commons",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Course_-7_Carrot_-_Tartare_with_Rye_Bread_and_Condiments_(9244183401).jpg",
+      "maker": "Eleven Madison Park",
+      "year": 2013,
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Course_-7_Carrot_-_Tartare_with_Rye_Bread_and_Condiments_%289244183401%29.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "new-nordic"
+    ],
+    "rebelled_against": [
+      "cuisine-classique"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The calm of a clean, light meal that still feels like a feast.",
+    "keywords": [
+      "earthy",
+      "calm",
+      "careful",
+      "light",
+      "formal"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "plant-based fine dining",
+      "vegan tasting menu",
+      "plant-based haute cuisine",
+      "carrot tartare",
+      "vegetable-led menu",
+      "no animal products"
+    ],
+    "use_cases": [
+      "a vegan tasting menu of a formal restaurant",
+      "a food photograph of a single vegetable on a large plate",
+      "a menu that keeps luxury but removes animal products"
+    ],
+    "avoid_when": [
+      "the brief wants meat, fish, butter or cream",
+      "the brief is a rustic, home or street kitchen",
+      "the brief wants a rich classic sauce"
+    ],
+    "modifiers": [
+      {
+        "request": "more wild, more foraged",
+        "toward": "naturalist-cuisine",
+        "how": "Use wild plants and flowers on the day, scatter the parts on the plate and add a little dairy or egg."
+      },
+      {
+        "request": "return to classic luxury",
+        "toward": "cuisine-classique",
+        "how": "Bring back butter, cream and stock sauces, and serve meat and fish in the courses of the classic menu."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Eleven Madison Park",
+      "url": "https://en.wikipedia.org/wiki/Eleven_Madison_Park"
+    },
+    {
+      "title": "Wikipedia: Daniel Humm",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Humm"
+    },
+    {
+      "title": "Daniel Humm, Eleven Madison Park: The Plant-Based Cookbook (Ten Speed Press, 2022)"
+    }
+  ],
+  "permutations": {
+    "course_count": {
+      "default": 10,
+      "min": 6,
+      "max": 16
+    },
+    "negative_space": {
+      "default": 0.55,
+      "min": 0.35,
+      "max": 0.8
+    },
+    "portion_g": {
+      "default": 90,
+      "min": 40,
+      "max": 150
+    },
+    "spice_level": {
+      "default": 0,
+      "min": 0,
+      "max": 2
+    },
+    "fat_share": {
+      "default": 0.25,
+      "min": 0.15,
+      "max": 0.4
+    },
+    "plate_colour": {
+      "default": "#ECEAE4",
+      "options": [
+        "#ECEAE4",
+        "#33312E",
+        "#8D949B",
+        "#D9C8A0"
+      ]
+    }
+  }
+}

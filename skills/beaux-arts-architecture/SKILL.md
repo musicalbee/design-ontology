@@ -174,6 +174,36 @@ Reference works:
 | Petit Palais, Paris | Charles Girault | 1900 |
 | Grand Central Terminal, New York | Reed and Stem; Warren and Wetmore | 1913 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Arch (motif)
+
+A curved head over an opening that carries load as compression; inside, a soft frame for a door, a mirror or a niche. Origin: architecture, Rome, c. 200 BCE.
+
+- Use a semicircular head: the rise is half the span.
+- Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
+- In a room, repeat the arch in 2 or 3 places, for example a door, a mirror and a niche, and no more.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **École des Beaux-Arts** (school, Paris, 1648–now), taught the style. The state school of fine arts in Paris. Its architecture course taught axial plans and classical composition to students from many countries.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 5.5 | 4.5–8 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 4.5–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 28 | 20–35 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 35 | 0–60 deg | massing |
+| Base material (`base_material`) | stone | stone, steel, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -182,6 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`baroque-architecture`](../baroque-architecture/SKILL.md), [`neoclassical-architecture`](../neoclassical-architecture/SKILL.md)
 - **Was rejected by:** [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
+- **Kin in another domain:** [`cuisine-classique`](../cuisine-classique/SKILL.md), [`garland-style-jewellery`](../garland-style-jewellery/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
 
 ## Emotional target

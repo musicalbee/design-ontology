@@ -169,6 +169,15 @@ The rules above name these shared principles by id. The definition is the same i
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Screen printing (process)
+
+Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the parts that do not print. Origin: print, Manchester, 1907.
+
+- Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
+- Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
+- Pull thick, opaque ink across the screen with a rubber squeegee in one even stroke.
+- Print each colour from its own screen and let each layer dry before the next.
+
 ### Serial repetition (process)
 
 One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object. Origin: painting, Paris, 1891.
@@ -177,6 +186,25 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 - Make at least 5 works in the set and show them in one row at one height.
 - Keep the spacing between works equal to a fixed unit, such as 10 cm or one panel width.
 - Remove the hand: use a mechanical edge, a stencil or a plain lens.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
+- **Sidney Janis Gallery** (gallery, New York, 1948–now), funded the style. A New York gallery. It gave Pollock the first of three solo shows in 1952 and held the New Realists show of 1962.
+- **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #E3262E | #E3262E, #FFD700, #1E59C8, #F0489B | palette |
+| Value contrast (`value_contrast`) | 0.85 | 0.7–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 4:5, 3:4 | surface, composition |
 
 ## Lineage fallbacks
 
@@ -187,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`photorealism`](../photorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`funk-ceramics`](../funk-ceramics/SKILL.md), [`glam-platform-shoe`](../glam-platform-shoe/SKILL.md), [`impact-image-macro`](../impact-image-macro/SKILL.md), [`logomania`](../logomania/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`mod-and-mini`](../mod-and-mini/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md), [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target

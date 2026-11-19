@@ -209,6 +209,24 @@ A cut inside one continuous shot that removes time and leaves the jump in view. 
 - Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
 - In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **TikTok** (platform, web, 2016–now), launched the style. A video app of short vertical clips. Its feed set the form of vertical short-form video and spread the camcorder revival.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 9:16 | 9:16 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 30 | 24–60 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 2 | 1.5–3 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 5000–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0 | 0–0.03 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -218,6 +236,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`creator-vlog`](../creator-vlog/SKILL.md)
 - **Mixes well with:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`cinematic-fpv`](../cinematic-fpv/SKILL.md), [`creator-vlog`](../creator-vlog/SKILL.md), [`music-video`](../music-video/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md)
+- **Kin in another domain:** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md), [`deepfake-face-swap`](../deepfake-face-swap/SKILL.md), [`dual-camera-snapshot`](../dual-camera-snapshot/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`green-screen-short`](../green-screen-short/SKILL.md), [`grwm-short`](../grwm-short/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`lip-sync-dance-short`](../lip-sync-dance-short/SKILL.md), [`photo-carousel-slideshow`](../photo-carousel-slideshow/SKILL.md), [`pov-short`](../pov-short/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md)
 - **Nearest by vector profile:** [`soviet-montage`](../soviet-montage/SKILL.md), [`phone-cinema`](../phone-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target

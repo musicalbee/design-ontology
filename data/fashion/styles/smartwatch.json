@@ -1,0 +1,369 @@
+{
+  "$schema": "../../../schema/domains/fashion.schema.json",
+  "id": "smartwatch",
+  "domain": "fashion",
+  "name": "Smartwatch",
+  "aliases": [
+    "Wrist computer",
+    "Connected watch",
+    "Fitness watch"
+  ],
+  "era_id": "contemporary-fashion",
+  "branch": "watch",
+  "time_period": {
+    "start": 2015,
+    "end": null,
+    "label": "2015–now"
+  },
+  "region": "United States, Korea and China",
+  "summary": "A watch that is a small touch screen computer. It has a rounded case in aluminium or steel, a glass screen, a digital crown and a soft strap. The Apple Watch of 2015 set the type.",
+  "philosophy": {
+    "core_thesis": "A watch is the screen on the wrist. It shows the time, messages and health data. The user changes the face as often as a shirt.",
+    "design_principles": [
+      "Cover the face with a glass touch screen that shows the time as a hands dial or as digits.",
+      "Make the case 38 to 49 mm tall and 9 to 12 mm thick, with rounded corners and a back that holds the sensors.",
+      "Add a digital crown and one or two buttons that scroll and select.",
+      "Let the user change the watch face and the strap, so that one case serves many looks.",
+      "Fit a quick-change strap with a slot, a pin or a lug in the case.",
+      "Fit sensors on the back for heart rate and blood oxygen, and show the results on the screen.",
+      "Make the case in aluminium for the base model and in steel, titanium or ceramic for the upper models.",
+      "Charge the watch each day or two on a magnetic puck."
+    ],
+    "anti_patterns": [
+      "A mechanical dial with printed hands",
+      "A thick plastic case with a small screen",
+      "A face that carries no data",
+      "A case with fixed lugs that does not take a strap change",
+      "A strap that a user cannot replace",
+      "An ornate case with gemstones and enamel"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structure": 3,
+    "luxury": 2,
+    "technicality": 5,
+    "chromatic_intensity": 3
+  },
+  "silhouette": {
+    "shape": "A rounded rectangle with a glass screen from edge to edge, a digital crown on the right and a soft strap.",
+    "line": "A smooth edge with no bezel, a curved glass and a thin black border round the screen.",
+    "fit": "The back of the case sits on the skin and the strap holds it close for the sensors.",
+    "proportion": "Case thickness to height is about 1 to 4. The screen fills about 85 per cent of the front. The strap is 20 to 24 mm wide.",
+    "rules": [
+      "Make the screen the face, with no markers outside the glass.",
+      "Round the corners with a large radius and keep the case edge clean.",
+      "Put the crown and the button on one side only.",
+      "Make the strap fit in the case with no visible gap."
+    ]
+  },
+  "fabrics": {
+    "primary": [
+      "aluminium",
+      "stainless-steel",
+      "synthetic-sapphire",
+      "technical-ceramic",
+      "fluoroelastomer"
+    ],
+    "secondary": [
+      "titanium",
+      "nylon-webbing",
+      "polycarbonate",
+      "vulcanised-rubber",
+      "calfskin",
+      "carbon-fibre"
+    ],
+    "avoid": [
+      "vitreous-enamel",
+      "yellow-gold",
+      "diamond",
+      "tortoiseshell",
+      "bakelite"
+    ],
+    "rule": "Use aluminium or steel for the case, sapphire or hard glass for the screen, and a soft rubber or woven strap that the user changes."
+  },
+  "construction": {
+    "methods": [
+      "case machined from one block",
+      "touch screen with a capacitive layer",
+      "digital crown with a sensor",
+      "sensors on the back of the case",
+      "wireless charging coil",
+      "quick-change strap with a slot"
+    ],
+    "closures": "A pin buckle, a magnetic loop or a hook and loop band closes the strap; a quick-release button frees the strap.",
+    "details": "A glass screen, a digital crown, a back with sensors and a strap that changes in seconds."
+  },
+  "surface": {
+    "finishes": [
+      "anodised",
+      "brushed",
+      "polished",
+      "pvd-coated",
+      "matte",
+      "moulded"
+    ],
+    "pattern": "A screen that shows any watch face; the case has no print.",
+    "gloss": "Anodised aluminium at 20 to 40 GU; polished steel at 85 to 95 GU; the screen at 90 GU.",
+    "wear": "The glass scratches and the battery loses capacity in two to three years; the rubber strap stains and one replaces it."
+  },
+  "palette": {
+    "strategy": "A black screen, a case in a neutral metal tone and a strap in a bright colour that the user chooses.",
+    "colours": [
+      {
+        "name": "Screen black",
+        "hex": "#050506",
+        "role": "screen"
+      },
+      {
+        "name": "Space grey",
+        "hex": "#4D4F53",
+        "role": "aluminium case"
+      },
+      {
+        "name": "Silver",
+        "hex": "#D5D7DA",
+        "role": "steel or aluminium case"
+      },
+      {
+        "name": "Activity green",
+        "hex": "#9BFF3D",
+        "role": "ring and accent"
+      },
+      {
+        "name": "Activity red",
+        "hex": "#FF2D55",
+        "role": "ring and accent"
+      },
+      {
+        "name": "Sport blue",
+        "hex": "#0A84FF",
+        "role": "strap"
+      }
+    ]
+  },
+  "making": {
+    "processes": [
+      "machining of the case from one block",
+      "lamination of the screen glass",
+      "assembly of sensors and a battery",
+      "moulding of the strap in soft rubber",
+      "software updates for the watch face"
+    ],
+    "scale": "Mass production in tens of millions of units a year; a new model each autumn.",
+    "signs": "A glass screen, a digital crown, a rounded case and a strap that clips in."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "smartwatch",
+        "form": "Rounded aluminium case with a digital crown",
+        "material": "aluminium",
+        "finish": "anodised"
+      },
+      {
+        "object": "smartwatch",
+        "form": "Steel case with a polished crown and a brushed side",
+        "material": "stainless-steel",
+        "finish": "polished"
+      },
+      {
+        "object": "smartwatch",
+        "form": "Curved sapphire glass over a touch screen",
+        "material": "synthetic-sapphire",
+        "finish": "polished"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Soft rubber sport band with a pin buckle",
+        "material": "fluoroelastomer",
+        "finish": "moulded"
+      },
+      {
+        "object": "watch-strap",
+        "form": "Woven nylon loop strap with a hook and loop band",
+        "material": "nylon-webbing",
+        "finish": "matte"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "smartwatch on a wrist",
+      "rounded rectangle case",
+      "glass touch screen edge to edge",
+      "digital crown",
+      "soft rubber sport band",
+      "woven nylon loop strap",
+      "aluminium case",
+      "black screen with coloured activity rings",
+      "health data on the screen",
+      "product photograph, soft studio light",
+      "clean minimal background"
+    ],
+    "negative": [
+      "mechanical dial",
+      "gold case",
+      "leather strap with stitching",
+      "enamel",
+      "diamond bezel",
+      "analogue only"
+    ],
+    "canonical_works": [
+      {
+        "work": "Pebble",
+        "maker": "Pebble Technology",
+        "year": 2013
+      },
+      {
+        "work": "Apple Watch",
+        "maker": "Apple",
+        "year": 2015
+      },
+      {
+        "work": "Galaxy Watch",
+        "maker": "Samsung",
+        "year": 2018
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Apple Watch Sport",
+      "kind": "image",
+      "credit": "thomersch",
+      "licence": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Sport.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Apple_Watch_Sport.jpg/960px-Apple_Watch_Sport.jpg"
+    },
+    {
+      "title": "Pebble smartwatch size",
+      "kind": "image",
+      "credit": "Romazur",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pebble_smartwatch_size.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Pebble_smartwatch_size.jpg/960px-Pebble_smartwatch_size.jpg",
+      "maker": "Pebble Technology"
+    },
+    {
+      "title": "Apple Watch Series 7; January 2022 (01)",
+      "kind": "image",
+      "credit": "MIKI Yoshihito",
+      "licence": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_7;_January_2022_(01).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Apple_Watch_Series_7%3B_January_2022_%2801%29.jpg/960px-Apple_Watch_Series_7%3B_January_2022_%2801%29.jpg",
+      "year": 2021
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "electronic-and-digital-watch"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "flat-design",
+      "material-design",
+      "super-normal-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "A sense of contact and health: the viewer sees a small bright screen that knows the wearer.",
+    "keywords": [
+      "connected",
+      "smooth",
+      "bright",
+      "personal",
+      "modern"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "smartwatch",
+      "apple watch",
+      "fitness watch",
+      "wearable",
+      "smart watch",
+      "activity rings",
+      "wrist computer",
+      "pebble"
+    ],
+    "use_cases": [
+      "a product shot of a wearable device",
+      "a health app mock up",
+      "an image prompt for a smartwatch on a wrist"
+    ],
+    "avoid_when": [
+      "the brief wants a mechanical watch",
+      "the brief wants a period watch before 2012",
+      "the brief wants a craft look"
+    ],
+    "modifiers": [
+      {
+        "request": "with a retro display",
+        "toward": "electronic-and-digital-watch",
+        "how": "Use a flat dark face with red digits and a steel case, and remove the touch icons."
+      },
+      {
+        "request": "playful and plastic",
+        "toward": "swiss-plastic-pop-watch",
+        "how": "Use a bright plastic case with a printed dial and keep the soft one-piece strap."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Smartwatch",
+      "url": "https://en.wikipedia.org/wiki/Smartwatch"
+    },
+    {
+      "title": "Wikipedia: Apple Watch",
+      "url": "https://en.wikipedia.org/wiki/Apple_Watch"
+    },
+    {
+      "title": "Wikipedia: Pebble (watch)",
+      "url": "https://en.wikipedia.org/wiki/Pebble_(watch)"
+    },
+    {
+      "title": "Wikipedia: Wearable technology",
+      "url": "https://en.wikipedia.org/wiki/Wearable_technology"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.1,
+      "min": 0,
+      "max": 0.3
+    },
+    "proportion_scale": {
+      "default": 0.5,
+      "min": 0.3,
+      "max": 1
+    },
+    "surface_gloss": {
+      "default": 60,
+      "min": 20,
+      "max": 95
+    },
+    "era_blend": {
+      "default": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "metal_tone": {
+      "default": "silver",
+      "options": [
+        "silver",
+        "steel",
+        "black",
+        "gunmetal",
+        "rose-gold",
+        "yellow-gold"
+      ]
+    }
+  }
+}

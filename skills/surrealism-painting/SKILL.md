@@ -179,6 +179,24 @@ A shadow far longer than its object, cast by a low sun, so that a still scene fe
 - Leave the shadow flat and dark, at 40% to 70% opacity.
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Julien Levy Gallery** (gallery, New York, 1931–1949), funded the style. A New York gallery. In 1932 it held the first show of the official Surrealist group in the city. It showed Dalí from 1933.
+- **La Révolution surréaliste** (magazine, Paris, 1924–1929), published the style. The first magazine of the Surrealist group. It printed dreams, automatic writing and Surrealist paintings.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #5B7FA6 | #5B7FA6, #C9A877, #8A4B2E, #2B2B35 | palette |
+| Value contrast (`value_contrast`) | 0.75 | 0.6–0.9 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.1 | 0–0.3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 3:4, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -187,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more plain and real**: move toward [`realism-painting`](../realism-painting/SKILL.md) (Realism). Keep the exact detail; remove the impossible meeting and the scale change, and set ordinary people in plain light with earth colour.
 
 - **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`surrealism-web`](../surrealism-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Kin in another domain:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`surreal-meme`](../surreal-meme/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
 - **Nearest by vector profile:** [`renaissance-painting`](../renaissance-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md)
 
 ## Emotional target

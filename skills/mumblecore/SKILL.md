@@ -208,6 +208,24 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 - Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
 - Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **South by Southwest** (salon, Austin, Texas, 1987–now), launched the style. A festival of music, film and media. Its 2005 film program showed the low-budget talk films that got the name mumblecore.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.85:1 | 1.33:1, 1.85:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–30 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 12 | 8–20 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 4300 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.06 | 0.03–0.1 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -219,6 +237,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`phone-cinema`](../phone-cinema/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`classical-hollywood`](../classical-hollywood/SKILL.md)
 - **Mixes well with:** [`documentary-verite`](../documentary-verite/SKILL.md)
+- **Kin in another domain:** [`photo-dump`](../photo-dump/SKILL.md)
 - **Nearest by vector profile:** [`french-new-wave`](../french-new-wave/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md), [`dogme-95`](../dogme-95/SKILL.md)
 
 ## Emotional target

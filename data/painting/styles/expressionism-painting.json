@@ -110,6 +110,12 @@
       { "request": "more abstract", "toward": "abstract-expressionism", "how": "Drop the figure; enlarge the stroke to 100–300mm, work on a large canvas of 2m or more, and let the gesture be the subject." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#7FB82E", "options": ["#7FB82E", "#C8281E", "#2A3A9C", "#6B3F8F"]},
+    "value_contrast": {"default": 0.75, "min": 0.55, "max": 0.9},
+    "brush_size": {"default": 4, "min": 2.5, "max": 6, "note": "A stroke of 20–50mm on a canvas of about 1m is 2.5–5% of the width."},
+    "canvas_ratio": {"default": "4:5", "options": ["4:5", "3:4", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q80113 (Expressionism)", "url": "https://www.wikidata.org/wiki/Q80113" },
     { "title": "Getty AAT 300021502 (Expressionism)", "url": "https://vocab.getty.edu/page/aat/300021502" },

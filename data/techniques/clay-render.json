@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "clay-render",
+  "name": "Clay look",
+  "aliases": [
+    "Clay render",
+    "Plasticine look"
+  ],
+  "kind": "process",
+  "summary": "Forms that look modelled in soft clay: round edges, one matte material and soft, even light.",
+  "how": [
+    "Round every edge; set the fillet at 10% to 20% of the form size.",
+    "Use one matte material with no texture and no specular highlight.",
+    "Light with one large soft source and a soft contact shadow under the form."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 1908,
+    "circa": true,
+    "where": "United States",
+    "note": "Early films such as The Sculptor's Nightmare animate figures modelled in clay."
+  },
+  "adoptions": [
+    {
+      "domain": "icon",
+      "year": 2020,
+      "circa": true,
+      "via": "Icon sets render each object in 3D with one matte, clay-like material and soft light.",
+      "styles": [
+        "clay-3d-icon"
+      ]
+    },
+    {
+      "domain": "internet",
+      "year": 2021,
+      "via": "Claymorphism gives cards and buttons the round, puffed form of clay.",
+      "styles": [
+        "claymorphism"
+      ]
+    }
+  ],
+  "styles": [
+    "clay-3d-icon",
+    "claymorphism"
+  ],
+  "sources": [
+    {
+      "title": "Michael Frierson, Clay Animation: American Highlights 1908 to the Present (1994)"
+    }
+  ]
+}

@@ -174,6 +174,37 @@ Reference works:
 | Salisbury Cathedral | Elias of Dereham | 1258 |
 | King's College Chapel, Cambridge | Reginald Ely and John Wastell | 1515 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Stained glass (material, invented here)
+
+Pieces of coloured glass held in lead strips, so that a window becomes a picture of coloured light. Origin: architecture, Saint-Denis, France, 1144.
+
+- Cut each piece to one colour; join the pieces with H-section lead 4 to 8 mm wide.
+- Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
+- Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Abbey of Saint-Denis** (church, Saint-Denis, ?–now), made the style. The abbey that Abbot Suger rebuilt from about 1135. Its choir of 1144 is widely seen as the first Gothic structure.
+- **Veneranda Fabbrica del Duomo di Milano** (church, Milan, 1387–now), made the style. The works office that builds and keeps Milan Cathedral. Its masons and stone workshops made the Gothic cathedral over centuries and still keep it.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 7 | 5–8 m | massing, facade |
+| Structural grid (`structural_grid`) | 6 | 5–7 m | structure |
+| Glazing ratio (`glazing_ratio`) | 50 | 30–75 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 55 | 50–60 deg | massing |
+| Base material (`base_material`) | stone | stone, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -182,7 +213,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
 - **Was rejected by:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md)
-- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md)
+- **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md), [`medieval-court-cuisine`](../medieval-court-cuisine/SKILL.md), [`victorian-architectural-terracotta`](../victorian-architectural-terracotta/SKILL.md), [`victorian-encaustic-tiles`](../victorian-encaustic-tiles/SKILL.md)
 - **Nearest by vector profile:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md)
 
 ## Emotional target

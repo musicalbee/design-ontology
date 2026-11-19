@@ -10,7 +10,7 @@
   :root {
     --chrome: #17171a; --chrome-2: #2a2a30; --chrome-line: #44444c; --chrome-ink: #f4f4f5;
     --paper: #f7f6f2; --ink: #1d1d1f; --muted: #5d5d66; --line: #d9d7d0;
-    --overlay: #d6336c; --bay: #1971c2;
+    --overlay: #d6336c; --bay: #1971c2; --grid: #e8590c;
   }
   html, body { margin: 0; }
   body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
@@ -34,7 +34,8 @@
   .shot figcaption { padding: 8px 12px; font-size: 12px; color: var(--muted); margin: 0; }
   svg { display: block; width: 100%; height: auto; }
   svg text { font: 11px system-ui, sans-serif; }
-  [data-off~="axis"] .ov-axis, [data-off~="bays"] .ov-bays { display: none; }
+  [data-off~="axis"] .ov-axis, [data-off~="bays"] .ov-bays, [data-off~="grid"] .ov-grid { display: none; }
+  #elev.photo text { font-size: 24px; font-weight: 650; paint-order: stroke; stroke: rgb(255 255 255 / .85); stroke-width: 6px; stroke-linejoin: round; }
   .swatches { display: flex; flex-wrap: wrap; gap: 12px; font-size: 13px; }
   .swatches span { display: inline-flex; align-items: center; gap: 6px; }
   .swatches i { width: 18px; height: 18px; border-radius: 3px; border: 1px solid rgb(0 0 0 / .15); }
@@ -68,11 +69,12 @@
   <div class="toggles" role="group" aria-label="Overlays">
     <label><input type="checkbox" data-ov="axis" checked><span class="sw" style="background:var(--overlay)"></span>Axis and symmetry</label>
     <label><input type="checkbox" data-ov="bays" checked><span class="sw" style="background:var(--bay)"></span>Rhythm module</label>
+    <label id="grid-toggle" hidden><input type="checkbox" data-ov="grid" checked><span class="sw" style="background:var(--grid)"></span>Regulating lines</label>
   </div>
 
   <div class="views" id="views">
     <figure>
-      <h2>Front elevation, 6 bays by 5 storeys</h2>
+      <h2 id="elev-h">Front elevation, 6 bays by 5 storeys</h2>
       <svg id="elev" viewBox="0 0 480 360" role="img" aria-labelledby="elev-cap"></svg>
       <figcaption id="elev-cap"></figcaption>
     </figure>
@@ -324,17 +326,62 @@ const fallbackColours = (d) => {
   return { wall: hs[0], glass: hs[Math.floor(hs.length / 2)], dark: hs[hs.length - 1] };
 };
 
+// The generated front elevation of this style, with the lines that trace-elevations.ts found in its pixels.
+const elevations = fetch("previews/architecture-elevation/manifest.json").then((r) => (r.ok ? r.json() : { images: {} })).catch(() => ({ images: {} }));
+
 function elevation(d) {
+  const k = d.composition, wwr = (d.facade.openings.match(/\d+(?:\s*to\s*\d+)?%/) || ["see record"])[0];
+  elevations.then((m) => {
+    if (skills[at].id !== d.id) return;
+    const p = m.images?.[d.id];
+    if (p?.lines) photo(d, p, k, wwr); else drawing(d, k, wwr);
+  });
+}
+
+// Support lines on the render: the facade box and its diagonals, the floor lines, the bays, the axis and the horizon.
+function photo(d, p, k, wwr) {
+  const l = p.lines, w = l.right - l.left, h = l.ground - l.cornice;
+  const L = (x1, y1, x2, y2, c, a = "") => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c}" stroke-width="2.5" ${a}/>`;
+  const T = (x, y, t, c, a = "") => `<text x="${x}" y="${y}" fill="${c}" ${a}>${esc(t)}</text>`;
+  $("grid-toggle").hidden = false;
+  let s = `<image href="previews/architecture-elevation/${esc(p.file)}" width="${l.width}" height="${l.height}"/>`;
+  s += `<g class="ov-grid">${L(0, l.horizon, l.width, l.horizon, "var(--grid)", 'stroke-dasharray="2 8" opacity=".9"')}${T(l.width - 16, l.horizon - 10, "horizon", "var(--grid)", 'text-anchor="end"')}`;
+  s += `<rect x="${l.left}" y="${l.cornice}" width="${w}" height="${h}" fill="none" stroke="var(--grid)" stroke-width="3"/>`;
+  s += L(l.left, l.cornice, l.right, l.ground, "var(--grid)", 'stroke-dasharray="14 8" opacity=".8"') + L(l.right, l.cornice, l.left, l.ground, "var(--grid)", 'stroke-dasharray="14 8" opacity=".8"');
+  s += l.floors.map((y) => L(l.left, y, l.right, y, "var(--grid)", 'opacity=".85"')).join("");
+  s += T(l.left, l.cornice - 12, `facade ${(w / h).toFixed(2)} : 1 · ${l.floors.length + 1} ${l.floors.length ? "bands" : "band"}`, "var(--grid)") + `</g>`;
+  s += `<g class="ov-bays">${l.bays.map((x) => L(x, l.cornice, x, l.ground, "var(--bay)", 'opacity=".75"')).join("")}`;
+  s += l.bays.map((x) => L(x, l.ground + 6, x, l.ground + 22, "var(--bay)", 'stroke-width="3"')).join("");
+  // The bay grid is the period of the traced edges, so it is approximate: the page prints no bay count.
+  s += T(l.axis, l.ground + 52, `${l.bays.length ? "traced rhythm · " : ""}module ${k.rhythm_module_m} m`, "var(--bay)", 'text-anchor="middle"') + `</g>`;
+  if (k.axis_count >= 1) s += `<g class="ov-axis">${L(l.axis, Math.max(8, l.crown - 30), l.axis, l.ground + 30, "var(--overlay)", 'stroke-width="3" stroke-dasharray="20 8 4 8"')}${T(16, l.height - 18, `${k.symmetry} · ${k.axis_count} ${k.axis_count === 1 ? "axis" : "axes"}`, "var(--overlay)")}</g>`;
+  else s += T(16, l.height - 18, `${k.symmetry} · no axis`, "var(--overlay)", 'class="ov-axis"');
+  const svg = $("elev");
+  svg.classList.add("photo");
+  svg.setAttribute("viewBox", `0 0 ${l.width} ${l.height}`);
+  svg.innerHTML = s;
+  svg.setAttribute("aria-label", `${d.name}: a generated front elevation with its support lines`);
+  $("elev-h").textContent = "Front elevation, generated, with support lines";
+  $("elev-cap").textContent = `${d.facade.composition} Window-to-wall: ${wwr}. Generated picture, not a real building (${p.model}, seed ${p.seed}); the lines are traced from its pixels.`;
+}
+
+// No render yet: the parametric drawing, 6 bays by 5 storeys, the same box for every style.
+function drawing(d, k, wwr) {
   const draw = styles[d.id] ?? neutral;
   const c = colour[d.id] ?? fallbackColours(d);
-  const k = d.composition, wwr = (d.facade.openings.match(/\d+(?:\s*to\s*\d+)?%/) || ["see record"])[0];
   let ov = "";
   const mx = X0 + BW / 2;
   if (k.axis_count >= 1) ov += `<g class="ov-axis"><line x1="${mx}" y1="14" x2="${mx}" y2="${G + 12}" stroke="var(--overlay)" stroke-width="2" stroke-dasharray="10 5 3 5"/><text x="8" y="${H - 8}" fill="var(--overlay)" font-weight="650">${k.symmetry} · ${k.axis_count} ${k.axis_count === 1 ? "axis" : "axes"}</text></g>`;
   else ov += `<text class="ov-axis" x="8" y="${H - 8}" fill="var(--overlay)" font-weight="650">${k.symmetry} · no axis</text>`;
   ov += `<g class="ov-bays">${Array.from({ length: N + 1 }, (_, j) => `<line x1="${X0 + j * BAY}" y1="${G}" x2="${X0 + j * BAY}" y2="${G + 14}" stroke="var(--bay)" stroke-width="2"/>`).join("")}<line x1="${X0}" y1="${G + 7}" x2="${X0 + BW}" y2="${G + 7}" stroke="var(--bay)"/><text x="${X0 + BW / 2}" y="${G + 30}" text-anchor="middle" fill="var(--bay)" font-weight="650">module ${k.rhythm_module_m} m</text></g>`;
-  $("elev").innerHTML = `${R(0, 0, W, H, "#ecebe4")}${R(0, G, W, H - G, "#cfcdc3")}${draw(c)}${ov}`;
-  $("elev").setAttribute("aria-label", `${d.name}: the same 6 by 5 bay front in this style`);
+  // The drawing has no regulating lines, so its toggle is hidden.
+  $("grid-toggle").hidden = true;
+  const svg = $("elev");
+  svg.classList.remove("photo");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = `${R(0, 0, W, H, "#ecebe4")}${R(0, G, W, H - G, "#cfcdc3")}${draw(c)}${ov}`;
+  svg.setAttribute("aria-label", `${d.name}: the same 6 by 5 bay front in this style`);
+  $("elev-h").textContent = "Front elevation, 6 bays by 5 storeys";
   $("elev-cap").textContent = `${d.facade.composition} Window-to-wall: ${wwr}. The 6 by 5 box is the same for every style.`;
 }
 

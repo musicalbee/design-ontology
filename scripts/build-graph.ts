@@ -4,9 +4,9 @@
  */
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
+import { ROOT, loadAll, loadFunding, loadOrgs, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
 
-type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES";
+type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES" | "SUBGENRE_OF";
 interface Edge { from: string; to: string; type: EdgeType }
 
 const { domains, eras, styles } = loadAll();
@@ -26,6 +26,7 @@ for (const s of styles) {
   for (const t of s.lineage.rebelled_against) add(s.id, t, "REBELLED_AGAINST", false);
   for (const t of s.lineage.hybridized_with) add(s.id, t, "HYBRIDIZED_WITH", true);
   for (const t of s.lineage.echoes ?? []) add(s.id, t, "ECHOES", true);
+  if (s.lineage.subgenre_of) add(s.id, s.lineage.subgenre_of, "SUBGENRE_OF", false);
 }
 
 if (broken.length) {
@@ -44,6 +45,8 @@ const empty = () => ({
   provoked: [] as string[],
   hybridized_with: [] as string[],
   echoes: [] as string[],
+  subgenre_of: [] as string[],
+  subgenres: [] as string[],
   nearest_by_vector: [] as { id: string; distance: number }[],
   techniques: [] as string[],
 });
@@ -57,6 +60,9 @@ for (const e of edgeList) {
   } else if (e.type === "REBELLED_AGAINST") {
     adjacency[e.from].rebelled_against.push(e.to);
     adjacency[e.to].provoked.push(e.from);
+  } else if (e.type === "SUBGENRE_OF") {
+    adjacency[e.from].subgenre_of.push(e.to);
+    adjacency[e.to].subgenres.push(e.from);
   } else {
     const key = e.type === "HYBRIDIZED_WITH" ? "hybridized_with" : "echoes";
     adjacency[e.from][key].push(e.to);
@@ -100,6 +106,7 @@ const graph = {
     REBELLED_AGAINST: "from rejects to. Inverse in adjacency: provoked.",
     HYBRIDIZED_WITH: "Symmetric. The two styles mix in practice.",
     ECHOES: "Symmetric. Kin across two domains.",
+    SUBGENRE_OF: "from is a narrower branch of to, in the same domain. Inverse in adjacency: subgenres.",
   },
   domains: domains.map((d) => ({ id: d.id, name: d.name, axes: d.vectors.map((v) => v.key) })),
   nodes: styles.map((s) => ({
@@ -122,13 +129,14 @@ console.log(`graph/lineage.json · ${graph.nodes.length} nodes · ${edgeList.len
 // ── People: each life next to the spans of the styles it touched ────────────
 const people = loadPeople()
   .map(({ person: p }) => {
-    const years = p.milestones.map((m) => m.year);
+    // A posthumous milestone (a dig, a museum sale) is not a year of the life, so it does not set the active span.
+    const years = p.milestones.filter((m) => !m.posthumous).map((m) => m.year);
     return {
       id: p.id,
       name: p.name,
       born: p.born,
       died: p.died,
-      // The first and the last dated milestone. The time line uses it when no born year is known.
+      // The first and the last dated milestone of the life. The time line uses it when no born year is known.
       active: years.length ? [Math.min(...years), Math.max(...years)] : null,
       // The lane on the time line: the domain of the first style. Unplaced when there is no style.
       domain: byId.get(p.styles[0]?.style ?? "")?.domain ?? "unplaced",
@@ -150,6 +158,101 @@ write(
 );
 console.log(`graph/people.json · ${people.length} people · ${Object.values(byStyle).filter((v) => !v.length).length} styles with no person`);
 
+// ── Organisations: groups, channels and backers, with their styles, members and relations ──
+const orgs = loadOrgs()
+  .map(({ org: o }) => ({
+    id: o.id,
+    name: o.name,
+    kind: o.kind,
+    founded: o.founded,
+    closed: o.closed,
+    place: o.place,
+    summary: o.summary,
+    wikidata: o.identity?.wikidata ?? null,
+    styles: o.styles,
+    people: o.people ?? [],
+    members: o.members ?? [],
+    statement: o.statement ?? null,
+    moves: [...(o.moves ?? [])].sort((a, b) => a.year - b.year),
+    relations: o.relations ?? {},
+  }))
+  .sort((a, b) => (a.founded ?? 9999) - (b.founded ?? 9999) || a.id.localeCompare(b.id));
+const orgsByStyle: Record<string, { org: string; part: string }[]> = {};
+for (const s of styles) orgsByStyle[s.id] = [];
+for (const o of orgs) for (const s of o.styles) orgsByStyle[s.style]?.push({ org: o.id, part: s.part });
+const orgsByPerson: Record<string, { org: string; role: string }[]> = {};
+for (const o of orgs) {
+  for (const m of o.members) (orgsByPerson[m.person] ??= []).push({ org: o.id, role: m.role });
+  for (const p of o.people) if (!o.members.some((m) => m.person === p)) (orgsByPerson[p] ??= []).push({ org: o.id, role: "ran" });
+}
+// Relations between organisations. rival_of is symmetric and is stored once.
+const orgEdges = new Map<string, { from: string; to: string; type: string }>();
+for (const o of orgs)
+  for (const [rel, ids] of Object.entries(o.relations))
+    for (const t of ids ?? []) {
+      const type = rel.toUpperCase();
+      const [a, b] = rel === "rival_of" && o.id > t ? [t, o.id] : [o.id, t];
+      orgEdges.set(`${type}|${a}|${b}`, { from: a, to: b, type });
+    }
+write(
+  "graph/orgs.json",
+  JSON.stringify(
+    {
+      $comment: "Generated by scripts/build-graph.ts from data/orgs/. Do not edit by hand.",
+      edge_types: {
+        MEMBER_OF: "from is a member body of to (a group inside a council).",
+        SPLIT_FROM: "from was founded by people who left to.",
+        SUCCESSOR_OF: "from took over the work of to.",
+        RIVAL_OF: "Symmetric. The two fought for the same ground.",
+      },
+      orgs,
+      edges: [...orgEdges.values()].sort((a, b) => a.type.localeCompare(b.type) || a.from.localeCompare(b.from) || a.to.localeCompare(b.to)),
+      by_style: orgsByStyle,
+      by_person: orgsByPerson,
+    },
+    null,
+    2,
+  ),
+);
+console.log(`graph/orgs.json · ${orgs.length} orgs · ${orgEdges.size} relations · ${Object.values(orgsByStyle).filter((v) => !v.length).length} styles with no org`);
+
+// ── Money: who paid whom, when, for what ──────────────────────────────────────
+// Each flow is an edge from a backer (a person or an organisation) to a style, a person or an
+// organisation. by_style collects the flows that reached a style, directly or through `styles`.
+const flows = loadFunding()
+  .map(({ funding: f }) => ({
+    id: f.id,
+    from: f.from,
+    to: f.to,
+    styles: f.to.type === "style" ? [f.to.id] : (f.styles ?? []),
+    kind: f.kind,
+    years: f.years,
+    what: f.what,
+    amount: f.amount ?? null,
+    confidence: f.confidence,
+    sources: f.sources,
+  }))
+  .sort((a, b) => a.years[0] - b.years[0] || a.id.localeCompare(b.id));
+const moneyByStyle: Record<string, string[]> = {};
+for (const s of styles) moneyByStyle[s.id] = [];
+for (const f of flows) for (const s of f.styles) moneyByStyle[s]?.push(f.id);
+const moneyByBacker: Record<string, string[]> = {};
+for (const f of flows) (moneyByBacker[`${f.from.type}:${f.from.id}`] ??= []).push(f.id);
+write(
+  "graph/money.json",
+  JSON.stringify(
+    {
+      $comment: "Generated by scripts/build-graph.ts from data/funding/. Do not edit by hand.",
+      flows,
+      by_style: moneyByStyle,
+      by_backer: moneyByBacker,
+    },
+    null,
+    2,
+  ),
+);
+console.log(`graph/money.json · ${flows.length} flows · ${Object.keys(moneyByBacker).length} backers · ${Object.values(moneyByStyle).filter((v) => v.length).length} styles with money`);
+
 // ── Mermaid picture of the lineage, for people ──────────────────────────────
 // Hybrid edges are left out of the picture: they are many, and they hide the two edges that carry the history.
 const mm: string[] = ["flowchart LR"];
@@ -158,7 +261,7 @@ for (const d of domains) {
   for (const era of [...eras.values()].filter((e) => e.domain === d.id)) {
     const own = styles.filter((s) => s.domain === d.id && s.era_id === era.id);
     if (!own.length) continue;
-    mm.push(`  subgraph ${node(d.id)}_${node(era.id)}["${d.id === "design" ? "" : d.name + " · "}${era.name} · ${era.period}"]`);
+    mm.push(`  subgraph ${node(d.id)}_${node(era.id)}["${d.id === "internet" ? "" : d.name + " · "}${era.name} · ${era.period}"]`);
     for (const s of own) mm.push(`    ${node(s.id)}["${s.name}"]`);
     mm.push("  end");
   }
@@ -167,6 +270,7 @@ const drawn = edgeList.filter((e) => e.type !== "HYBRIDIZED_WITH");
 for (const e of drawn) {
   if (e.type === "EVOLVED_FROM") mm.push(`  ${node(e.to)} --> ${node(e.from)}`);
   else if (e.type === "REBELLED_AGAINST") mm.push(`  ${node(e.from)} -. rejects .-> ${node(e.to)}`);
+  else if (e.type === "SUBGENRE_OF") mm.push(`  ${node(e.to)} == branch ==> ${node(e.from)}`);
   else mm.push(`  ${node(e.from)} <-. echoes .-> ${node(e.to)}`);
 }
 drawn.forEach((e, i) => {

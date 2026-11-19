@@ -1,0 +1,133 @@
+/*
+ * Hyperpop Visual — tokens
+ * Generated from data/internet/styles/hyperpop-visual.json by design-ontology. Do not edit.
+ * Use: put data-style="hyperpop-visual" on <html> or on any container.
+ */
+[data-style="hyperpop-visual"] {
+  --color-bg: #FFC8F0;
+  --color-surface: #BDF0FF;
+  --color-text: #1A1033;
+  --color-muted: #4A3D6B;
+  --color-primary: #FF2FB3;
+  --color-accent: #2F6BFF;
+  --color-border: #1A1033;
+  --font-sans: "Nunito", "DM Sans", sans-serif;
+  --font-display: "Bagel Fat One", "Pixelify Sans", sans-serif;
+  --border-radius: 20px;
+  --border-width: 2px;
+  --shadow-elevation: 4px 4px 0 #1A1033;
+  --backdrop-filter: none;
+  --space-unit: 4px;
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 400ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
+  --color-on-bg: #1A1033;
+  --color-on-surface: #1A1033;
+  --color-on-primary: #1A1033;
+  --color-on-accent: #000000;
+  --color-muted-on-bg: #4A3D6B;
+  --color-muted-on-surface: #4A3D6B;
+  --color-link: #1A1033;
+  --color-link-on-surface: #1A1033;
+  --display-weight: 800;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0.01em;
+  --display-leading: 1;
+  --display-case: none;
+  --body-leading: 1.5;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: linear-gradient(100deg, var(--color-bg) 30%, transparent 56%),
+    radial-gradient(circle at 66% 22%, var(--color-primary) 0 3.4vmin, transparent calc(3.4vmin + 1px)),
+    radial-gradient(circle at 92% 64%, transparent 0 4vmin, var(--color-accent) 4vmin 5.6vmin, transparent 5.8vmin),
+    linear-gradient(to top right, var(--color-primary) 50%, transparent 51%) 80% 12% / 7vmin 7vmin no-repeat,
+    repeating-linear-gradient(45deg, var(--color-on-bg) 0 3px, transparent 3px 12px) 86% 88% / 14vmin 5vmin no-repeat,
+    radial-gradient(circle at 56% 78%, var(--color-accent) 0 1.8vmin, transparent calc(1.8vmin + 1px)),
+    linear-gradient(var(--color-primary), var(--color-primary)) 97% 36% / 3vmin 12vmin no-repeat,
+    radial-gradient(circle, color-mix(in oklab, var(--color-on-bg) 22%, transparent) 1.6px, transparent 2px) 0 0 / 26px 26px,
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="hyperpop-visual"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="hyperpop-visual"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="hyperpop-visual"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="hyperpop-visual"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="hyperpop-visual"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="hyperpop-visual"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="hyperpop-visual"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="hyperpop-visual"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="hyperpop-visual"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="hyperpop-visual"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="hyperpop-visual"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="hyperpop-visual"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="hyperpop-visual"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="hyperpop-visual"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

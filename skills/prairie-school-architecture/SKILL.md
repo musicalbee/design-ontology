@@ -186,6 +186,24 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Frank Lloyd Wright Home and Studio** (studio, Oak Park, Illinois, ?–now), made the style. The studio of Frank Lloyd Wright in Oak Park. Here he and his assistants drew the Prairie houses and the first works of organic architecture.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3 | 2.7–3.4 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 4–7 m | structure |
+| Glazing ratio (`glazing_ratio`) | 32 | 25–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 12 | 9–15 deg | massing |
+| Base material (`base_material`) | brick | brick, timber, stone | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -193,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md) (Mid-century Modern). Swap the brick for timber and glass, open the window bands to full-height glass and keep the deep eave and the hearth.
 
 - **Led to (go here for a newer version):** [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
-- **Kin in another domain:** [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
+- **Kin in another domain:** [`chicago-school-terracotta`](../chicago-school-terracotta/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
 - **Nearest by vector profile:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,480 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/game.schema.json",
+  "title": "Video game style",
+  "description": "One video game style: a set of hardware limits or art-direction choices that make one look of a game world. It records the camera, the geometry, the surfaces, the palette, the light and the way rooms and streets are built for a player. Gameplay and story are out of scope. Prompts never name a game, a character or a trademark: the names appear only as references in canonical_works and sources.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "domain",
+    "name",
+    "aliases",
+    "era_id",
+    "time_period",
+    "region",
+    "hardware",
+    "summary",
+    "philosophy",
+    "vectors",
+    "projection_and_camera",
+    "geometry",
+    "surface",
+    "palette",
+    "lighting",
+    "world_and_space",
+    "interface",
+    "prompt_primer",
+    "lineage",
+    "emotion",
+    "agent",
+    "sources"
+  ],
+  "$defs": {
+    "hex": {
+      "type": "string",
+      "pattern": "^#[0-9A-F]{6}$"
+    }
+  },
+  "properties": {
+    "permutations": {
+      "$ref": "../core.schema.json#/$defs/permutations"
+    },
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../core.schema.json#/$defs/slug"
+    },
+    "domain": {
+      "const": "game"
+    },
+    "name": {
+      "$ref": "../core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/shortText"
+      }
+    },
+    "era_id": {
+      "$ref": "../core.schema.json#/$defs/slug",
+      "description": "An id from data/game/eras/."
+    },
+    "time_period": {
+      "$ref": "../core.schema.json#/$defs/time_period"
+    },
+    "region": {
+      "$ref": "../core.schema.json#/$defs/shortText",
+      "description": "Where the style began or is centred."
+    },
+    "hardware": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "arcade",
+          "atari-2600",
+          "home-computer",
+          "nes",
+          "master-system",
+          "game-boy",
+          "snes",
+          "mega-drive",
+          "pc-engine",
+          "neo-geo",
+          "playstation",
+          "saturn",
+          "nintendo-64",
+          "dreamcast",
+          "playstation-2",
+          "gamecube",
+          "xbox",
+          "game-boy-advance",
+          "nintendo-ds",
+          "xbox-360",
+          "playstation-3",
+          "wii",
+          "playstation-4",
+          "xbox-one",
+          "nintendo-switch",
+          "playstation-5",
+          "xbox-series",
+          "pc",
+          "mobile",
+          "vr-headset",
+          "web-browser"
+        ]
+      },
+      "description": "The consoles and platforms whose limits or power made the style, or where it is common."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 320
+    },
+    "philosophy": {
+      "$ref": "../core.schema.json#/$defs/philosophy"
+    },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "render_fidelity",
+        "spatial_depth",
+        "stylisation",
+        "lighting_drama",
+        "surface_density"
+      ],
+      "properties": {
+        "render_fidelity": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = a few pixels or lines that suggest a thing, 5 = a photoreal surface and light."
+        },
+        "spatial_depth": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = one flat plane, 5 = a free camera in a full 3D world."
+        },
+        "stylisation": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = natural proportion, colour and light, 5 = drawn, exaggerated shape and colour."
+        },
+        "lighting_drama": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = flat, even or unlit, 5 = hard contrast, volumetric beams and deep shadow."
+        },
+        "surface_density": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = bare, clean surfaces, 5 = dense detail, props and clutter."
+        }
+      }
+    },
+    "projection_and_camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "projection",
+        "camera",
+        "field_of_view",
+        "framing"
+      ],
+      "properties": {
+        "projection": {
+          "enum": [
+            "side-view",
+            "top-down",
+            "isometric",
+            "fixed-camera",
+            "third-person",
+            "first-person"
+          ],
+          "description": "The main projection of the world on the screen."
+        },
+        "camera": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the camera moves: locked, scrolls, follows or is free."
+        },
+        "field_of_view": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "The field of view in degrees, or 'orthographic' for a parallel projection."
+        },
+        "framing": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "What the frame holds: how much of the world, at what eye height."
+        }
+      },
+      "description": "How the world is projected onto the screen."
+    },
+    "geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primitive",
+        "budget",
+        "edge_rule",
+        "proportion"
+      ],
+      "properties": {
+        "primitive": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The smallest unit of shape: a pixel, a tile, a line, a polygon, a voxel."
+        },
+        "budget": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The pixel or polygon budget of a scene or a character, as a number."
+        },
+        "edge_rule": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How edges look: hard steps, jagged, smooth, outlined."
+        },
+        "proportion": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The proportion of a character to a door, a room and a street."
+        }
+      }
+    },
+    "surface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "texture_rule",
+        "texel_density",
+        "filtering",
+        "material_model"
+      ],
+      "properties": {
+        "texture_rule": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How a surface gets its detail."
+        },
+        "texel_density": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "The texture or sprite pixels for each metre of the world."
+        },
+        "filtering": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How texture pixels are sampled: nearest, bilinear, warped."
+        },
+        "material_model": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How a material answers light: none, a painted value, a cel ramp, a physical model."
+        }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "strategy",
+        "colour_depth",
+        "on_screen_colours",
+        "colours"
+      ],
+      "properties": {
+        "strategy": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "colour_depth": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "The bits for each pixel, or the size of the hardware palette."
+        },
+        "on_screen_colours": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "How many colours are on screen at one time."
+        },
+        "colours": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "hex",
+              "role"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "hex": {
+                "$ref": "#/$defs/hex"
+              },
+              "role": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              }
+            }
+          }
+        }
+      }
+    },
+    "lighting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model",
+        "shadows",
+        "atmosphere",
+        "time_of_day"
+      ],
+      "properties": {
+        "model": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How light is made: none, painted into the art, per vertex, per pixel, global illumination."
+        },
+        "shadows": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "atmosphere": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "Fog, bloom, haze, particles."
+        },
+        "time_of_day": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the style shows the hour and the weather."
+        }
+      }
+    },
+    "world_and_space": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scale",
+        "interiors",
+        "exteriors",
+        "threshold",
+        "principles"
+      ],
+      "properties": {
+        "scale": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How large a room, a door and a street are against the player."
+        },
+        "interiors": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the style builds a room."
+        },
+        "exteriors": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the style builds a street, a square or a landscape."
+        },
+        "threshold": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the player goes from outside to inside: a cut, a fade, a door that opens, no break."
+        },
+        "principles": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "principle",
+              "rule",
+              "value"
+            ],
+            "properties": {
+              "principle": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "An id from data/principles/."
+              },
+              "rule": {
+                "$ref": "../core.schema.json#/$defs/sentence"
+              },
+              "value": {
+                "$ref": "../core.schema.json#/$defs/shortText",
+                "description": "The number: a ratio, a count, a length, a share in %."
+              }
+            }
+          }
+        }
+      },
+      "description": "The rooms and streets of the style as places a person moves through. This facet is the bridge to interior and exterior work."
+    },
+    "interface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "placement",
+        "type_and_icons",
+        "diegesis"
+      ],
+      "properties": {
+        "placement": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "Where the interface sits on the screen and how much it covers."
+        },
+        "type_and_icons": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The letterforms and the icons."
+        },
+        "diegesis": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How much of the interface is in the world (a sign, a lamp) and how much is on top of it."
+        }
+      }
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "positive",
+        "negative",
+        "canonical_works"
+      ],
+      "properties": {
+        "positive": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 14,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "negative": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 10,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "canonical_works": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "work",
+              "maker",
+              "year"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "maker": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "year": {
+                "type": "integer",
+                "minimum": 1950,
+                "maximum": 2100
+              }
+            }
+          },
+          "description": "Reference games, for study only. Prompts never name them."
+        }
+      },
+      "description": "The implementation layer: vocabulary for an image prompt or an art brief. It describes camera, form, colour and light, never a game, a character or a trademark."
+    },
+    "evidence": {
+      "$ref": "../core.schema.json#/$defs/evidence",
+      "description": "Optional for a game style: open-licence or public-domain items only."
+    },
+    "lineage": {
+      "$ref": "../core.schema.json#/$defs/lineage"
+    },
+    "emotion": {
+      "$ref": "../core.schema.json#/$defs/emotion"
+    },
+    "agent": {
+      "$ref": "../core.schema.json#/$defs/agent"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/sources/items"
+      }
+    }
+  }
+}

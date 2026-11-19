@@ -165,6 +165,37 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### 35 mm camera (technology)
+
+A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that the photographer can work by hand in the street. Origin: photography, Wetzlar, Germany, 1925.
+
+- Use a 28 to 50 mm lens and focus by scale, not through the finder.
+- Shoot at 1/125 to 1/500 s, from the hand.
+- Show the full frame; keep the 2:3 format.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Instagram** (platform, web, 2010–now), published the style. A photo and video app. Home and food images spread on it, and it carried trends such as dopamine decor and the film grain look.
+- **VSCO** (platform, web, 2011–now), published the style. A photo app with presets that copy film stock. It spread grain and faded colour on phone photos.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5400 | 4800–5800 K | colour_and_grade, light |
+| Contrast (`contrast`) | 0.9 | 0.8–1.05 | colour_and_grade, post_processing |
+| Grain (`grain`) | 400 | 200–800 ISO | process, post_processing |
+| Focal length (`focal_length`) | 50 | 28–50 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 2:3 | 2:3, 4:5 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -175,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`new-colour`](../new-colour/SKILL.md), [`street-photography`](../street-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`y2k-digicam`](../y2k-digicam/SKILL.md)
 - **Mixes well with:** [`party-flash`](../party-flash/SKILL.md)
-- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
+- **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`impressionism`](../impressionism/SKILL.md), [`instagram-vintage-filter`](../instagram-vintage-filter/SKILL.md), [`low-poly-ps1-revival`](../low-poly-ps1-revival/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Nearest by vector profile:** [`new-colour`](../new-colour/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`y2k-digicam`](../y2k-digicam/SKILL.md)
 
 ## Emotional target

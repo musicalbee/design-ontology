@@ -281,6 +281,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 2.8, "min": 2.4, "max": 3.4},
+    "structural_grid": {"default": 5, "min": 3, "max": 8},
+    "glazing_ratio": {"default": 45, "min": 30, "max": 60},
+    "roof_pitch": {"default": 5, "min": 0, "max": 20},
+    "base_material": {"default": "stone", "options": ["stone", "concrete", "timber", "brick"]}
+  },
   "sources": [
     {
       "title": "Frank Lloyd Wright, An Organic Architecture (Lund Humphries, 1939)"

@@ -260,6 +260,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3.3, "min": 3, "max": 4},
+    "structural_grid": {"default": 5.5, "min": 4.5, "max": 6},
+    "glazing_ratio": {"default": 60, "min": 40, "max": 90, "note": "The glass wing and the dwelling wing have different glazing."},
+    "roof_pitch": {"default": 0, "min": 0, "max": 3},
+    "base_material": {"default": "concrete", "options": ["concrete", "glass", "steel", "brick"]}
+  },
   "sources": [
     {
       "title": "Wikidata Q124354, Bauhaus (CC0)",

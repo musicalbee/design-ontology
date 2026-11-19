@@ -213,11 +213,29 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic & ui design, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Gerasimov Institute of Cinematography** (school, Moscow, 1919–now), taught the style. The first film school in the world. Lev Kuleshov ran a workshop here, and Sergei Eisenstein taught here.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.33:1 | 1.33:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 18 | 16–20 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 2.5 | 2–3 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 5000–6000 K | colour_and_grade, light |
+| Grain (`grain`) | 0.1 | 0.08–0.12 | colour_and_grade |
 
 ## Lineage fallbacks
 

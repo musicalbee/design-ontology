@@ -93,10 +93,14 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const $ = (id) => document.getElementById(id);
 const NOW = new Date().getFullYear();
 
-// Two linear scales: 1080–1840 is compressed (0.8 px a year), 1840–2030 is wide (5 px a year), because most
-// people in the data live after 1840. Inside each part, a life of 80 years has one length, so lives compare directly.
-const X0 = 190, Y_MIN = 1080, BREAK = 1840, Y_MAX = 2030, PX_EARLY = 0.8, PX = 5;
-const x = (y) => { y = Math.min(Math.max(y, Y_MIN), Y_MAX); return y < BREAK ? X0 + (y - Y_MIN) * PX_EARLY : X0 + (BREAK - Y_MIN) * PX_EARLY + (y - BREAK) * PX; };
+// Three scales. Before 1440 is a square-root scale (ceramics has potters from 1000 BC). 1440–1840 is compressed (0.8 px a
+// year), 1840–2030 is wide (5 px a year), because most people in the data live after 1840. Inside each linear part,
+// a life of 80 years has one length, so lives compare directly.
+const W_ANCIENT = 120, X0 = 190 + W_ANCIENT, Y_MIN = 1440, BREAK = 1840, Y_MAX = 2030, PX_EARLY = 0.8, PX = 5, FIRST = -3000;
+const ancient = (y) => X0 - Math.sqrt((Y_MIN - Math.max(y, FIRST)) / (Y_MIN - FIRST)) * W_ANCIENT;
+const x = (y) => { y = Math.min(y, Y_MAX); return y < Y_MIN ? ancient(y) : y < BREAK ? X0 + (y - Y_MIN) * PX_EARLY : X0 + (BREAK - Y_MIN) * PX_EARLY + (y - BREAK) * PX; };
+const yr = (y) => (y == null ? "" : y < 0 ? `${-y} BC` : String(y));
+const tickLabel = yr;
 const ROW = 22, LANE_HEAD = 26;
 let P, S, styleById, domainOf = {}, selected = null, domain = "all";
 
@@ -121,8 +125,9 @@ function draw() {
   svg.setAttribute("width", width);
   svg.setAttribute("height", height);
   let h = "";
-  for (const yr of [1100, 1250, 1400, 1550, 1700, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020])
-    h += `<line class="grid${yr === BREAK ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 4}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${yr}</text>`;
+  for (const yr of [-500, 1000, 1450, 1550, 1650, 1750, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020])
+    h += `<line class="grid${yr === BREAK ? " break" : ""}" x1="${x(yr)}" x2="${x(yr)}" y1="22" y2="${height - 4}"/><text class="tick" x="${x(yr)}" y="16" text-anchor="middle">${tickLabel(yr)}</text>`;
+  h += `<line class="grid break" x1="${x(Y_MIN)}" x2="${x(Y_MIN)}" y1="22" y2="${height - 4}"/>`;
   h += `<text class="tick" x="${(x(Y_MIN) + x(BREAK)) / 2}" y="${height - 1}" text-anchor="middle">compressed scale</text>`;
   let top = 30;
   for (const g of groups) {
@@ -143,9 +148,9 @@ function draw() {
       r += `</g>`;
       r += `<line class="life ${s.kind}" x1="${x(s.a)}" x2="${x(s.b)}" y1="${y}" y2="${y}"/>`;
       if (s.kind === "alive") r += `<line class="fade" x1="${x(s.b)}" x2="${x(s.b) + 14}" y1="${y}" y2="${y}"/>`;
-      for (const m of p.milestones) r += `<circle class="ms${m.posthumous ? " post" : ""}" cx="${x(m.year)}" cy="${y}" r="2.6"><title>${m.year}${m.posthumous ? " (after death)" : ""}: ${esc(m.event)}</title></circle>`;
+      for (const m of p.milestones) r += `<circle class="ms${m.posthumous ? " post" : ""}" cx="${x(m.year)}" cy="${y}" r="2.6"><title>${yr(m.year)}${m.posthumous ? " (after death)" : ""}: ${esc(m.event)}</title></circle>`;
       r += `<text class="name" x="${x(s.a) - 6}" y="${y + 4}" text-anchor="end">${esc(p.name)}</text>`;
-      const yrs = s.kind === "unknown" ? `active ${s.a}${s.b > s.a ? "–" + s.b : ""}` : `${s.a}–${p.died ?? ""}`;
+      const yrs = s.kind === "unknown" ? `active ${yr(s.a)}${s.b > s.a ? "–" + yr(s.b) : ""}` : `${yr(s.a)}–${yr(p.died)}`;
       r += `<text class="yrs" x="${x(Math.max(s.b, ...p.styles.map((t) => styleById[t.style]?.end ?? NOW))) + (s.kind === "alive" ? 18 : 6)}" y="${y + 4}">${yrs}</text>`;
       h += r + `</g>`;
       top += ROW;
@@ -187,13 +192,13 @@ function panelEmpty() {
 
 function panel(id) {
   const p = P.people.find((q) => q.id === id);
-  const yrs = p.born != null ? `${p.born}–${p.died ?? ""}` : "year of birth not in open data";
+  const yrs = p.born != null ? `${yr(p.born)}–${yr(p.died)}` : "year of birth not in open data";
   const photo = p.photo
     ? `<figure><img src="${esc(p.photo.url)}" alt="Portrait of ${esc(p.name)}" loading="lazy"><figcaption>${esc(p.photo.credit)} · <a href="${esc(p.photo.page)}">${esc(p.photo.licence)}</a>, via Wikimedia Commons</figcaption></figure>`
     : "";
   $("panel").innerHTML = `${photo}<h2>${esc(p.name)}</h2><p class="meta">${yrs}${p.nationality.length ? " · " + esc(p.nationality.join(", ")) : ""}</p><p>${esc(p.bio)}</p>` +
     (p.styles.length ? `<h3>Styles</h3><ul>${p.styles.map((s) => { const sn = styleById[s.style]; return `<li><a href="graph.html#${esc(s.style)}">${esc(sn?.name ?? s.style)}</a> <span class="role">${esc(ROLE[s.role])}${sn ? ` · ${sn.start}–${sn.end ?? "now"}` : ""}</span></li>`; }).join("")}</ul>` : "") +
-    (p.milestones.length ? `<h3>Milestones</h3><ol class="ms-list">${p.milestones.map((m) => `<li><b>${m.year}</b><span>${esc(m.event)}${m.posthumous ? ' <span class="role">after death</span>' : ""}</span></li>`).join("")}</ol>` : "") +
+    (p.milestones.length ? `<h3>Milestones</h3><ol class="ms-list">${p.milestones.map((m) => `<li><b>${yr(m.year)}</b><span>${esc(m.event)}${m.posthumous ? ' <span class="role">after death</span>' : ""}</span></li>`).join("")}</ol>` : "") +
     (p.wikidata ? `<h3>Open data</h3><ul><li><a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}">Wikidata ${esc(p.wikidata)}</a></li></ul>` : "");
 }
 

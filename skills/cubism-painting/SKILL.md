@@ -184,6 +184,24 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 - Use one plane size family: 3 to 5 sizes, with no curve.
 - Let the light break on each plane, so that adjacent planes differ in tone by one or two steps.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Galerie Kahnweiler** (gallery, Paris, 1907–now), sold the style. The gallery of the dealer Daniel-Henry Kahnweiler. He bought and sold the work of Picasso and Braque as they made Cubism.
+- **Salon des Indépendants** (salon, Paris, 1884–now), exhibited the style. An annual show without a jury. Seurat and Signac showed their dot paintings here, and the Cubists had a room here in 1911.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #B58B4C | #B58B4C, #5E4632, #8C867B, #B83A2A | palette |
+| Value contrast (`value_contrast`) | 0.6 | 0.45–0.75 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1.2 | 0.8–2 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 4:5 | 4:5, 3:4, 2:3 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -193,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`suprematism`](../suprematism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`impressionism`](../impressionism/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
+- **Kin in another domain:** [`artist-ceramics-vallauris`](../artist-ceramics-vallauris/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`symbolism-painting`](../symbolism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`minimalism-painting`](../minimalism-painting/SKILL.md)
 
 ## Emotional target

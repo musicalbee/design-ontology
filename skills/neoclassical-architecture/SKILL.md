@@ -174,6 +174,37 @@ Reference works:
 | Altes Museum, Berlin | Karl Friedrich Schinkel | 1830 |
 | British Museum, London | Robert Smirke | 1852 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Fluting and reeding (motif)
+
+Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a sheet of glass. Origin: architecture, Greece, c. 600 BCE.
+
+- Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
+- Run the flutes vertical to make a surface look taller.
+- Use one fluted surface in each room as an accent.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Académie royale d'architecture** (school, Paris, 1671–1816), taught the style. The royal academy of architecture in France. It taught the classical orders and sent its best students to study in Rome.
+- **Society of Dilettanti** (collective, London, 1734–now), published the style. A club of gentlemen who studied Greek and Roman art. It paid for the survey books of ancient buildings that architects then copied.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 5 | 4–7 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 4–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 20 | 15–25 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 20 | 10–30 deg | massing |
+| Base material (`base_material`) | stone | stone, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -183,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`baroque-architecture`](../baroque-architecture/SKILL.md)
 - **Was rejected by:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md)
-- **Kin in another domain:** [`didone-serif`](../didone-serif/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
+- **Kin in another domain:** [`creamware-neoclassical`](../creamware-neoclassical/SKILL.md), [`didone-serif`](../didone-serif/SKILL.md), [`empire-line-dress`](../empire-line-dress/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`grande-cuisine`](../grande-cuisine/SKILL.md), [`jasperware-neoclassical`](../jasperware-neoclassical/SKILL.md), [`parian-statuary`](../parian-statuary/SKILL.md), [`transitional-serif`](../transitional-serif/SKILL.md)
 - **Nearest by vector profile:** [`renaissance-architecture`](../renaissance-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`art-deco-architecture`](../art-deco-architecture/SKILL.md)
 
 ## Emotional target

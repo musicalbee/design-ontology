@@ -184,7 +184,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 ## Implementation primer: brief, image prompt, 3D scene
 
 - **Brief:** A white room with free-standing laminate furniture in pink, turquoise, yellow and black. A tall room divider of stacked shapes is the focal point; a round sofa, a cone-leg table and a sculptural lamp stand at angles around it.
-- **Image prompt:** Memphis Milano interior 1982, white gallery room, tall plastic laminate room divider of stacked geometric shapes with squiggle and grid patterns, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph
+- **Image prompt:** Memphis Milano interior 1982, white gallery room, a low wide laminate bookcase with open box shelves and angled side shelves, squiggle and grid patterns on its laminate, flamingo pink and turquoise faces, lemon yellow and red accents, glass table on cone legs, disc chair, terrazzo side table, sculptural floor lamp, pieces rotated at angles, track spotlights, flat even colour, postmodern design photograph
 - **Negative prompt:** Symmetry, wood grain, beige, tonal palette, matching sets, ornate classical furniture, dim warm light.
 - **Camera:** 35 mm lens, camera at 140 cm, frontal view with the totem off-centre on a third.
 - **3D scene:** Room 600 x 500 cm, ceiling 300 cm. Even 3000 K ambient from a downlight grid; 4 spots at 4:1 on the objects; one magenta neon tube.
@@ -214,7 +214,7 @@ The rules above name these shared principles by id. The definition is the same i
 
 ## Moodboard
 
-6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (FLUX.2 [klein] 4B, Apache-2.0, seed 1955, 4 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#memphis-interior).
+6 generated tiles, one for each facet of this style: the room, the materials, the furniture, the textiles, the light and the objects. They are generated images, not real rooms (Z-Image-Turbo, Apache-2.0, seed 4955, 9 steps). Use them as a reference for a brief or an image prompt, and check a scene against the palette and the camera station above. The board with the palette split: [moodboard page](../../demo/moodboard.html#memphis-interior).
 
 ![Room](../../demo/moodboards/interior/memphis-interior/room.webp)
 ![Materials](../../demo/moodboards/interior/memphis-interior/materials.webp)
@@ -222,6 +222,65 @@ The rules above name these shared principles by id. The definition is the same i
 ![Textiles](../../demo/moodboards/interior/memphis-interior/textiles.webp)
 ![Light](../../demo/moodboards/interior/memphis-interior/light.webp)
 ![Objects](../../demo/moodboards/interior/memphis-interior/objects.webp)
+
+## Object net
+
+Printed plastic laminate, terrazzo, coloured glass and enamel in flat pink, turquoise and yellow; every object is a stack of solids with a squiggle or a grid. The net gives each category of objects one industrial style, and each object one form, material, finish and texture. Default knobs: ornament_level 0.7, material_warmth 0.2, finish_gloss 65, era_blend 0.2, hardware_weight 18, edge_radius 3, metal_tone chrome. If a knob goes out of the range of the main style, use the first alternate that holds it. The net with the knob sliders: [industrial design page](../../demo/objects.html#memphis-interior).
+
+| Category | Object | Form | Material, finish, texture |
+|---|---|---|---|
+| Sanitary ([`memphis-product`](../memphis-product/SKILL.md)) | Basin | trough basin | Terrazzo, honed, exposed aggregate (#8DD8B5) |
+|  | Basin tap or mixer | lever on a cone body | Aluminium, matte powder coat, satin-smooth (#F7D02C) |
+|  | Towel rail | ladder rail | Chrome-plated steel tube, polished, mirror-smooth |
+|  | Bath accessories | shelf-top vessels | Porcelain, vitreous gloss glaze, mirror-smooth (#1FB5C8) |
+| Electrics ([`memphis-product`](../memphis-product/SKILL.md)) | Light switch | push button pair | ABS plastic, moulded gloss, mirror-smooth (#E4322B) |
+|  | Socket outlet | flush square plate | ABS plastic, moulded gloss, mirror-smooth (#111111) |
+|  | Dimmer and control | large knurled rotary knob | ABS plastic, moulded gloss, knurled (#F7D02C) |
+|  | Visible cable and conduit | fabric-braided cord in a loop | Cotton, piece-dyed, plain weave (#F7D02C) |
+| Lighting ([`memphis-product`](../memphis-product/SKILL.md)) | Pendant lamp | enamel dome | Enamelled steel, gloss enamel, mirror-smooth (#F4A6C0) |
+|  | Floor lamp | uplighter bowl on a column | Aluminium, matte powder coat, satin-smooth (#F7D02C) |
+|  | Table lamp | glass dome on a metal base | Coloured glass, clear gloss, satin-smooth (#1FB5C8) |
+|  | Curtain track and blind | roller blind | Cotton, piece-dyed, plain weave (#F7D02C) |
+| Storage ([`memphis-product`](../memphis-product/SKILL.md)) | Shelving | modular cube grid | Plastic laminate, high-gloss lacquer, satin-smooth (#F4A6C0) |
+|  | Sideboard and cabinet | modular boxes on a steel frame | Plastic laminate, moulded gloss, satin-smooth (#1FB5C8) |
+|  | Handle, knob and pull | round mushroom knob | Acrylic, clear gloss, mirror-smooth (#F7D02C) |
+|  | Hooks and pegs | ball-end wall hooks | ABS plastic, moulded gloss, mirror-smooth (#E4322B) |
+| Soft Furniture ([`memphis-product`](../memphis-product/SKILL.md)) | Sofa | low modular block sofa | Cotton, printed, twill or herringbone (#F4A6C0) |
+|  | Armchair and lounge chair | club chair | Cotton, printed, twill or herringbone (#1FB5C8) |
+|  | Ottoman and pouf | round pouf | Cotton, printed, plain weave (#F7D02C) |
+|  | Cushion and throw | square with piping | Cotton, printed, plain weave (#111111) |
+| Tables ([`memphis-product`](../memphis-product/SKILL.md)) | Low table | glass-look top on cone legs | Acrylic, clear gloss, mirror-smooth |
+|  | Side table | drum | Terrazzo, honed, exposed aggregate (#8DD8B5) |
+|  | Dining table | slab top on a sled frame | Plastic laminate, moulded gloss, satin-smooth (#F4A6C0) |
+|  | Dining chair | stacking steel chair | Mild steel, matte powder coat, orange-peel (#F7D02C) |
+| Kitchen ([`memphis-product`](../memphis-product/SKILL.md)) | Kitchen front | flat slab door | Plastic laminate, moulded matte, satin-smooth (#1FB5C8) |
+|  | Worktop and splashback | full-height slab splashback | Terrazzo, honed, exposed aggregate (#8DD8B5) |
+|  | Kettle and small appliances | boxy radio-and-appliance set | ABS plastic, moulded gloss, mirror-smooth (#E4322B) |
+|  | Cookware | enamelled cast-iron casserole | Enamelled steel, gloss enamel, mirror-smooth (#E4322B) |
+|  | Tableware and glassware | stacking geometric set | Porcelain, vitreous gloss glaze, mirror-smooth (#F7D02C) |
+| Decor ([`memphis-product`](../memphis-product/SKILL.md)) | Vase | trumpet vase | Porcelain, vitreous gloss glaze, mirror-smooth (#F7D02C) |
+|  | Bowl, tray and box | pressed-glass dish | Coloured glass, clear gloss, pressed pattern (#1FB5C8) |
+|  | Clock | ball or atomic clock | ABS plastic, moulded gloss, orange-peel (#E4322B) |
+|  | Picture frame | wide flat-profile frame | Acrylic, clear gloss, mirror-smooth (#F4A6C0) |
+|  | Rug | geometric hand-tufted rug | Wool, printed, cut pile (#F2EFE8) |
+
+Alternates for each category:
+- **Sanitary:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Electrics:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Lighting:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Storage:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Soft Furniture:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md)
+- **Tables:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Kitchen:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+- **Decor:** [`space-age-pop-product`](../space-age-pop-product/SKILL.md), [`super-normal-product`](../super-normal-product/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md)
+
+The moodboard tiles resolve to these objects:
+- **room:** Shelving, Sofa, Low table, Dining chair, Side table, Floor lamp, Rug, Pendant lamp
+- **materials:** Shelving, Side table, Worktop and splashback, Dining table, Kitchen front, Cushion and throw, Table lamp
+- **furniture:** Shelving, Sofa, Armchair and lounge chair, Low table, Dining chair, Side table
+- **textiles:** Sofa, Cushion and throw, Armchair and lounge chair, Ottoman and pouf, Rug, Curtain track and blind
+- **light:** Floor lamp, Table lamp, Pendant lamp, Curtain track and blind
+- **objects:** Vase, Bowl, tray and box, Clock, Picture frame
 
 ## Vocabulary primer
 
@@ -251,11 +310,23 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
-## Media
+## Organisations
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F2EFE8 | #F2EFE8, #8DD8B5 | palette |
+| Accent colour (`accent_colour`) | #F4A6C0 | #F4A6C0, #1FB5C8, #F7D02C, #E4322B | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.8 | 2.5–3.5 m | composition, lighting |
+| Light temperature (`light_temperature`) | 3000 | 2700–4000 K | lighting |
+| Object density (`object_density`) | 0.35 | 0.25–0.5 | objects, furniture |
 
 ## Lineage fallbacks
 
@@ -267,7 +338,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`dopamine-decor`](../dopamine-decor/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md)
 - **Was rejected by:** [`minimalist-interior`](../minimalist-interior/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
+- **Kin in another domain:** [`kidcore`](../kidcore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
 - **Nearest by vector profile:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`hollywood-regency-interior`](../hollywood-regency-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md)
 
 ## Emotional target

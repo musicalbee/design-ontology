@@ -143,6 +143,25 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 - Cut every angle to 45° or 90°, or to one other fixed angle.
 - Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
 
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Font Awesome** (platform, web, 2012–now), published the style. An icon font and toolkit for the web. It ships solid, outline and duotone sets of the same icons.
+- **GitHub** (platform, web, 2007–now), published the style. A web site where developers host code. Its own dark interface and the editor themes and terminal tools that it hosts set the look of software for engineers.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 24 | 16–32 px | grid |
+| Stroke width (`stroke_width`) | 2 | 1.5–2 px | stroke |
+| Corner radius (`corner_radius`) | 2 | 1–3 px | shape |
+| Fill mode (`fill_mode`) | outline | outline | colour, shape |
+| Base colour (`base_colour`) | #1F2328 | #1F2328, #6E7781 | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -225,6 +225,39 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 24,
+      "min": 20,
+      "max": 48
+    },
+    "stroke_width": {
+      "default": 2,
+      "min": 1,
+      "max": 3,
+      "note": "The weight axis from 100 to 700 sets this band; weight 400 gives 2 px."
+    },
+    "corner_radius": {
+      "default": 2,
+      "min": 0,
+      "max": 2
+    },
+    "fill_mode": {
+      "default": "outline",
+      "options": [
+        "outline",
+        "solid"
+      ]
+    },
+    "base_colour": {
+      "default": "#1D1B20",
+      "options": [
+        "#1D1B20",
+        "#6750A4",
+        "#49454F"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Material Symbols guide, Google Fonts",

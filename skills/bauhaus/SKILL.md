@@ -1,7 +1,7 @@
 ---
 name: bauhaus
-description: "Apply the Bauhaus style (1919–1933) when generating UI or graphic layouts. Load when the user asks for: bauhaus, primary colours, geometric shapes, form follows function, dessau, herbert bayer."
-domain: design
+description: "Apply the Bauhaus style (1919–1933) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: bauhaus, primary colours, geometric shapes, form follows function, dessau, herbert bayer."
+domain: internet
 era: modernist
 triggers:
   - "bauhaus"
@@ -27,7 +27,7 @@ vector_profile:
 
 Primary-colour geometry, sans-serif lower-case type and strict horizontal and vertical axes with bold diagonals. It came from the Bauhaus school in Weimar, Dessau and Berlin, and it fused craft with industrial production.
 
-**Period:** 1919–1933 · **Era:** Modernist · **Domain:** Graphic & UI Design · **Also called:** Bauhaus Typography, New Typography, Neue Typographie
+**Period:** 1919–1933 · **Era:** Modernist · **Domain:** Internet · **Also called:** Bauhaus Typography, New Typography, Neue Typographie
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating UI or graphic layouts in Bauhaus, you MUST:
+When generating web pages, apps, memes, short video frames and other images of internet culture in Bauhaus, you MUST:
 
 1. Reduce every composition to the circle, the square and the triangle, and give each shape one primary colour: red, blue or yellow.
 2. Organise the page on strong horizontal and vertical axes, and add diagonals at 45 degrees for tension.
@@ -241,11 +241,33 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
-## Media
+## Techniques
 
-The salons, schools, magazines, publishers, galleries and platforms that carried this style.
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Construction grid (process)
+
+Letters and marks drawn on a fixed grid of squares and circles, so that each glyph in a set has the same size, weight and corner. Origin: typeface, Nuremberg, 1525.
+
+- Fix one live area inside a square canvas; on a 24 unit canvas, keep a 2 unit margin.
+- Define 4 keyline shapes (circle, square, tall and wide rectangle) and fit each glyph to the one that suits it.
+- Cut every angle to 45° or 90°, or to one other fixed angle.
+- Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
+
+### Primary shapes (motif)
+
+The circle, the square and the triangle in flat colour, used as the whole picture or as a sign. Origin: painting, Petrograd, Russia, 1915.
+
+- Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
+- Fill each shape with one flat colour; no gradient and no outline.
+- Put the shapes on a plain ground with 30% or more empty space.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), taught the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+- **Thuringian state government** (state programme, Weimar, ?–now), funded the style. State government that paid for the Bauhaus in Weimar. In 1924 a new conservative ministry cut the funding in half.
 
 ## Permutations
 
@@ -270,8 +292,8 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
 - **Mixes well with:** [`art-deco-web`](../art-deco-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md), [`geometric-symbol`](../geometric-symbol/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Nearest by vector profile:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
+- **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`bauhaus-modern-tableware`](../bauhaus-modern-tableware/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`geometric-sans`](../geometric-sans/SKILL.md), [`geometric-symbol`](../geometric-symbol/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Nearest by vector profile:** [`japanese-graphic-modernism`](../japanese-graphic-modernism/SKILL.md), [`video-essay`](../video-essay/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md)
 
 ## Emotional target
 
@@ -286,4 +308,4 @@ Energy with discipline: the viewer feels that the object is deliberate, rational
 
 ---
 
-Generated from [`data/design/styles/bauhaus.json`](../../data/design/styles/bauhaus.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.
+Generated from [`data/internet/styles/bauhaus.json`](../../data/internet/styles/bauhaus.json) by [design-ontology](../../README.md). Do not edit this file; change the data and run `npm run build`.

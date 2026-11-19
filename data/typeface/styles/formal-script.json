@@ -235,6 +235,36 @@
       }
     ]
   },
+  "permutations": {
+    "weight": {
+      "default": 400,
+      "min": 300,
+      "max": 500
+    },
+    "width": {
+      "default": 100,
+      "min": 90,
+      "max": 110
+    },
+    "x_height_ratio": {
+      "default": 0.36,
+      "min": 0.35,
+      "max": 0.42,
+      "note": "Many scripts have an x-height below 0.35; the domain floor clips the range."
+    },
+    "stroke_contrast": {
+      "default": 4,
+      "min": 3,
+      "max": 8,
+      "note": "The o test misleads here; the value is the stem against the hairline."
+    },
+    "tracking": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "Tracking breaks the joins of a connected script."
+    }
+  },
   "sources": [
     {
       "title": "Script typeface (Wikipedia)",

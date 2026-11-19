@@ -198,6 +198,35 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `leading-lines` | Leading lines | Lines in the view, such as edges, rows, beams or paths, point the eye to the focal point. | lines that converge on the focal point (count): 1 to 4; angle from the frame edge (degrees): 15–60 for a diagonal |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Perspective grid (process)
+
+Lines that run to one vanishing point on a horizon, so that a flat surface reads as a floor in deep space. Origin: painting, Florence, c. 1415.
+
+- Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
+- Space the cross lines so that each gap is about 0.8 of the gap in front of it.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Berlin International Film Festival** (salon, Berlin, 1951–now), exhibited the style. An annual film festival with a juried competition. The symmetrical, planimetric film The Grand Budapest Hotel opened it in 2014.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.85:1 | 1.37:1, 1.85:1, 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 12–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 4 | 3–5 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5200 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.06 | 0.05–0.08 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -206,7 +235,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rhythm**: move toward [`music-video`](../music-video/SKILL.md) (Music video). Keep the symmetry; cut every 1 to 2 s on the beat and add a lateral track on each chorus.
 
 - **Rejects (the opposite pole; do not blend):** [`dogme-95`](../dogme-95/SKILL.md)
-- **Kin in another domain:** [`new-topographics`](../new-topographics/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`hd-2d-diorama`](../hd-2d-diorama/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target

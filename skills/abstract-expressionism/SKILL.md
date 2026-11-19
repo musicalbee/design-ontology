@@ -163,6 +163,41 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Soak-stain (process, invented here)
+
+Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth drinks the colour and the colour and the weave become one. Origin: painting, New York, 1952.
+
+- Thin oil with turpentine, or acrylic with water, until it flows like ink.
+- Lay the canvas flat and unprimed on the floor; pour in pools and guide the paint with a sponge or a tilt of the cloth.
+- Leave 30% to 60% of the cloth bare so that the raw colour is part of the picture.
+- Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
+
+## Organisations
+
+The groups, studios, companies, schools, channels and backers that carried this style.
+
+- **Art of This Century** (gallery, New York, 1942–1947), exhibited the style. The gallery of Peggy Guggenheim. It gave Jackson Pollock his first solo show.
+- **Betty Parsons Gallery** (gallery, New York, 1946–1981), exhibited the style. The gallery of the dealer Betty Parsons. It showed Pollock, Rothko and Newman when few dealers took them.
+- **Charles Egan Gallery** (gallery, New York, ?–1972), funded the style. A New York gallery on East 57th Street. It held the 1948 show of de Kooning's black and white paintings.
+- **Congress for Cultural Freedom** (state programme, West Berlin, 1950–1979), funded the style. Anti-communist cultural network founded in West Berlin in 1950. The CIA funded it until 1966.
+- **WPA Federal Art Project** (state programme, United States, 1935–1943), funded the style. US relief programme from 1935 to 1943. It paid up to 10,000 artists weekly wages, among them Jackson Pollock.
+- **Sidney Janis Gallery** (gallery, New York, 1948–now), funded the style. A New York gallery. It gave Pollock the first of three solo shows in 1952 and held the New Realists show of 1962.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #141414 | #141414, #8E1B2C, #14305A, #C99A3A | palette |
+| Value contrast (`value_contrast`) | 0.85 | 0.6–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 4 | 2–8 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 1:1, 4:5, 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
@@ -174,7 +209,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`colour-field-painting`](../colour-field-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`de-stijl-painting`](../de-stijl-painting/SKILL.md)
 - **Was rejected by:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`photorealism`](../photorealism/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
+- **Kin in another domain:** [`abstract-expressionist-ceramics`](../abstract-expressionist-ceramics/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
 - **Nearest by vector profile:** [`cubism-painting`](../cubism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
 
 ## Emotional target

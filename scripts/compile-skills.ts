@@ -6,15 +6,16 @@
 import Handlebars from "handlebars";
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, loadMedia, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
+import { ROOT, loadAll, loadOrgs, loadPrinciples, loadTechniques, principleRefs, readJson, write, yearLabel, type Domain, type Style, type Technique } from "./lib.js";
 import { ICON_NAMES, heroSvg, iconSprite, patternSvg, type IconPack, type Visual } from "./pack.js";
 import { cssTokens as knobTokens } from "./permute.js";
+import { loadNets, loadVocabulary, lookup } from "./net.js";
 
 const { domains, eras, styles } = loadAll();
 const byId = new Map(styles.map((s) => [s.id, s]));
 const principles = new Map(loadPrinciples().map((p) => [p.principle.id, p.principle]));
 const techniques: Technique[] = loadTechniques().map((t) => t.technique);
-const media = loadMedia().map((m) => m.medium);
+const orgs = loadOrgs().map((m) => m.org);
 const years = (a: number | null, b: number | null) => `${a ?? "?"}–${b ?? "now"}`;
 const domainName = (id: string) => domains.find((d) => d.id === id)?.name ?? id;
 const lagLabel = (t: Technique, year: number) => `+${year - t.origin.year} years`;
@@ -147,6 +148,34 @@ function moodboard(style: Style) {
   return { tiles, count: tiles.length, model: any.model, licence: any.licence, seed: any.seed, steps: any.steps, page: `../../demo/moodboard.html#${style.id}` };
 }
 
+// The object net of an interior style (data/industrial/nets): for each category of objects, the industrial
+// style and the form, material, finish and texture of each object. The moodboard tiles map to these objects.
+const nets = new Map(loadNets().map((n) => [n.slug, n.net]));
+const vocab = lookup(loadVocabulary());
+const titleCase = (s: string) => s.replace(/(^|-)([a-z])/g, (_m, d, c) => (d ? " " : "") + c.toUpperCase());
+function objectNet(style: Style) {
+  const net = style.domain === "interior" ? nets.get(style.id) : undefined;
+  if (!net) return undefined;
+  const name = (kind: "object" | "material" | "finish" | "texture", id: string) => vocab[kind].get(id)?.name ?? id;
+  return {
+    thesis: net.thesis,
+    knobs: Object.entries(net.knobs).map(([k, v]) => `${k} ${v}`).join(", "),
+    page: `../../demo/objects.html#${style.id}`,
+    categories: net.categories.map((c) => ({
+      category: titleCase(c.category),
+      style: link(c.style),
+      alternates: c.alternates.map(link).join(", "),
+      objects: c.objects.map((o) => ({
+        object: name("object", o.object),
+        form: o.form,
+        surface: [name("material", o.material), name("finish", o.finish).toLowerCase(), name("texture", o.texture).toLowerCase()].join(", "),
+        colour: o.colour,
+      })),
+    })),
+    tiles: Object.entries(net.moodboard).map(([tile, ids]) => ({ tile, objects: ids.map((id) => name("object", id)).join(", ") })),
+  };
+}
+
 function view(style: Style, domain: Domain) {
   const adj = adjacency[style.id];
   const sourcePath = `data/${style.domain}/styles/${style.id}.json`;
@@ -202,6 +231,7 @@ function view(style: Style, domain: Domain) {
       return { id, name: p.name, definition: p.definition, measures: p.measures.filter((m) => !m.domains || m.domains.includes(domain.id)).map((m) => `${m.measure} (${m.unit}): ${m.reference}`).join("; ") };
     }),
     moodboard: moodboard(style),
+    object_net: objectNet(style),
     primer: style.primer && {
       positive: style.primer.positive.join(", "),
       negative: style.primer.negative.join(", "),
@@ -217,7 +247,7 @@ function view(style: Style, domain: Domain) {
         how: t.how,
         invented: (t.origin.styles ?? []).includes(style.id),
       })),
-    media: media
+    orgs: orgs
       .filter((m) => m.styles.some((x) => x.style === style.id))
       .map((m) => ({ name: m.name, kind: m.kind.replace("-", " "), place: m.place, years: years(m.founded, m.closed), part: m.styles.find((x) => x.style === style.id)!.part, summary: m.summary })),
     knobs: (() => {
@@ -441,6 +471,8 @@ write(
         id: s.id,
         name: s.name,
         domain: s.domain,
+        // A branch inside the domain (fashion, ceramics, internet …), when the domain has branches.
+        ...((s as { branch?: string }).branch ? { branch: (s as { branch?: string }).branch } : {}),
         era: s.era_id,
         period: s.time_period.label,
         thesis: s.philosophy.core_thesis,
@@ -455,7 +487,7 @@ write(
         archetypes: s.emotion.brand_archetypes,
         vectors: s.vectors,
         techniques: techniques.filter((t) => t.styles.includes(s.id)).map((t) => t.id),
-        media: media.filter((m) => m.styles.some((x) => x.style === s.id)).map((m) => m.id),
+        orgs: orgs.filter((m) => m.styles.some((x) => x.style === s.id)).map((m) => m.id),
         permutations: s.permutations ?? null,
       })),
       techniques: techniques.map((t) => ({
