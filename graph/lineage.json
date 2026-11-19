@@ -105,6 +105,17 @@
         "width",
         "serif_mass"
       ]
+    },
+    {
+      "id": "game",
+      "name": "Video game",
+      "axes": [
+        "render_fidelity",
+        "spatial_depth",
+        "stylisation",
+        "lighting_drama",
+        "surface_density"
+      ]
     }
   ],
   "nodes": [
@@ -3017,6 +3028,231 @@
         "width": 3,
         "serif_mass": 1
       }
+    },
+    {
+      "id": "vector-display-arcade",
+      "domain": "game",
+      "name": "Vector display arcade",
+      "era": "arcade-age",
+      "start": 1979,
+      "end": 1985,
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 3,
+        "stylisation": 5,
+        "lighting_drama": 3,
+        "surface_density": 1
+      }
+    },
+    {
+      "id": "eight-bit-tile",
+      "domain": "game",
+      "name": "8-bit tile graphics",
+      "era": "tile-and-sprite",
+      "start": 1983,
+      "end": 1992,
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 1,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 2
+      }
+    },
+    {
+      "id": "isometric-pixel-world",
+      "domain": "game",
+      "name": "Isometric pixel world",
+      "era": "tile-and-sprite",
+      "start": 1984,
+      "end": 2002,
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 3,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 3
+      }
+    },
+    {
+      "id": "sixteen-bit-sprite",
+      "domain": "game",
+      "name": "16-bit sprite and parallax",
+      "era": "tile-and-sprite",
+      "start": 1988,
+      "end": 1997,
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 2,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 3
+      }
+    },
+    {
+      "id": "four-shade-handheld",
+      "domain": "game",
+      "name": "Four-shade handheld",
+      "era": "tile-and-sprite",
+      "start": 1989,
+      "end": 1998,
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 1,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 1
+      }
+    },
+    {
+      "id": "pre-rendered-backgrounds",
+      "domain": "game",
+      "name": "Pre-rendered backgrounds",
+      "era": "early-polygon",
+      "start": 1993,
+      "end": 2002,
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 3,
+        "stylisation": 3,
+        "lighting_drama": 4,
+        "surface_density": 4
+      }
+    },
+    {
+      "id": "fifth-gen-low-poly",
+      "domain": "game",
+      "name": "Fifth-generation low poly",
+      "era": "early-polygon",
+      "start": 1994,
+      "end": 2001,
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 4,
+        "stylisation": 3,
+        "lighting_drama": 2,
+        "surface_density": 2
+      }
+    },
+    {
+      "id": "cel-shaded-3d",
+      "domain": "game",
+      "name": "Cel-shaded 3D",
+      "era": "programmable-shader",
+      "start": 2000,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 5,
+        "stylisation": 5,
+        "lighting_drama": 2,
+        "surface_density": 2
+      }
+    },
+    {
+      "id": "hand-painted-texture",
+      "domain": "game",
+      "name": "Hand-painted texture",
+      "era": "programmable-shader",
+      "start": 2004,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 5,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 3
+      }
+    },
+    {
+      "id": "seventh-gen-desaturated",
+      "domain": "game",
+      "name": "Seventh-generation desaturated bloom",
+      "era": "programmable-shader",
+      "start": 2005,
+      "end": 2013,
+      "vectors": {
+        "render_fidelity": 4,
+        "spatial_depth": 5,
+        "stylisation": 2,
+        "lighting_drama": 4,
+        "surface_density": 4
+      }
+    },
+    {
+      "id": "voxel-block-world",
+      "domain": "game",
+      "name": "Voxel block world",
+      "era": "programmable-shader",
+      "start": 2009,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 5,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 2
+      }
+    },
+    {
+      "id": "pbr-photoreal",
+      "domain": "game",
+      "name": "PBR photoreal",
+      "era": "physically-based-and-indie",
+      "start": 2013,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 5,
+        "spatial_depth": 5,
+        "stylisation": 1,
+        "lighting_drama": 4,
+        "surface_density": 5
+      }
+    },
+    {
+      "id": "impossible-isometric-mobile",
+      "domain": "game",
+      "name": "Flat geometric isometric",
+      "era": "physically-based-and-indie",
+      "start": 2014,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 3,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 1
+      }
+    },
+    {
+      "id": "hd-2d-diorama",
+      "domain": "game",
+      "name": "HD-2D diorama",
+      "era": "physically-based-and-indie",
+      "start": 2018,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 4,
+        "stylisation": 4,
+        "lighting_drama": 4,
+        "surface_density": 4
+      }
+    },
+    {
+      "id": "low-poly-ps1-revival",
+      "domain": "game",
+      "name": "Low-poly PS1 revival",
+      "era": "physically-based-and-indie",
+      "start": 2018,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 4,
+        "stylisation": 4,
+        "lighting_drama": 4,
+        "surface_density": 2
+      }
     }
   ],
   "edges": [
@@ -3028,6 +3264,11 @@
     {
       "from": "adaptive-reuse-architecture",
       "to": "industrial-loft-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "ai-hyperreal",
+      "to": "pbr-photoreal",
       "type": "ECHOES"
     },
     {
@@ -3082,7 +3323,22 @@
     },
     {
       "from": "architectural-photography",
+      "to": "isometric-pixel-world",
+      "type": "ECHOES"
+    },
+    {
+      "from": "architectural-photography",
       "to": "mid-century-modern-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "pbr-photoreal",
+      "type": "ECHOES"
+    },
+    {
+      "from": "architectural-photography",
+      "to": "pre-rendered-backgrounds",
       "type": "ECHOES"
     },
     {
@@ -3168,6 +3424,11 @@
     {
       "from": "arts-and-crafts-architecture",
       "to": "arts-and-crafts-interior",
+      "type": "ECHOES"
+    },
+    {
+      "from": "arts-and-crafts-interior",
+      "to": "hand-painted-texture",
       "type": "ECHOES"
     },
     {
@@ -3301,8 +3562,18 @@
       "type": "ECHOES"
     },
     {
+      "from": "brutalist-architecture",
+      "to": "seventh-gen-desaturated",
+      "type": "ECHOES"
+    },
+    {
       "from": "brutalist-web",
       "to": "monospace",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "fifth-gen-low-poly",
       "type": "ECHOES"
     },
     {
@@ -3313,6 +3584,11 @@
     {
       "from": "camcorder-revival",
       "to": "grunge-editorial",
+      "type": "ECHOES"
+    },
+    {
+      "from": "camcorder-revival",
+      "to": "low-poly-ps1-revival",
       "type": "ECHOES"
     },
     {
@@ -3341,8 +3617,38 @@
       "type": "ECHOES"
     },
     {
+      "from": "cassette-futurism",
+      "to": "vector-display-arcade",
+      "type": "ECHOES"
+    },
+    {
+      "from": "cel-shaded-3d",
+      "to": "flat-design",
+      "type": "ECHOES"
+    },
+    {
+      "from": "cel-shaded-3d",
+      "to": "pop-art-painting",
+      "type": "ECHOES"
+    },
+    {
+      "from": "cel-shaded-3d",
+      "to": "ukiyo-e",
+      "type": "ECHOES"
+    },
+    {
       "from": "cinematic-teal-orange",
       "to": "neon-noir",
+      "type": "ECHOES"
+    },
+    {
+      "from": "cinematic-teal-orange",
+      "to": "seventh-gen-desaturated",
+      "type": "ECHOES"
+    },
+    {
+      "from": "classical-hollywood",
+      "to": "pre-rendered-backgrounds",
       "type": "ECHOES"
     },
     {
@@ -3421,6 +3727,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "de-stijl-painting",
+      "to": "voxel-block-world",
+      "type": "ECHOES"
+    },
+    {
       "from": "de-stijl-web",
       "to": "international-style-architecture",
       "type": "ECHOES"
@@ -3476,6 +3787,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "eight-bit-tile",
+      "to": "pixel-art-web",
+      "type": "ECHOES"
+    },
+    {
+      "from": "eight-bit-tile",
+      "to": "pixel-icon",
+      "type": "ECHOES"
+    },
+    {
       "from": "emblem-badge",
       "to": "mid-century-modern",
       "type": "ECHOES"
@@ -3521,13 +3842,28 @@
       "type": "ECHOES"
     },
     {
+      "from": "fifth-gen-low-poly",
+      "to": "y2k-aesthetic",
+      "type": "ECHOES"
+    },
+    {
       "from": "film-grain-revival",
       "to": "impressionism",
       "type": "ECHOES"
     },
     {
+      "from": "film-grain-revival",
+      "to": "low-poly-ps1-revival",
+      "type": "ECHOES"
+    },
+    {
       "from": "film-noir",
       "to": "film-noir-still",
+      "type": "ECHOES"
+    },
+    {
+      "from": "film-noir",
+      "to": "pre-rendered-backgrounds",
       "type": "ECHOES"
     },
     {
@@ -3543,6 +3879,11 @@
     {
       "from": "flat-design",
       "to": "flat-logo",
+      "type": "ECHOES"
+    },
+    {
+      "from": "flat-design",
+      "to": "impossible-isometric-mobile",
       "type": "ECHOES"
     },
     {
@@ -3582,7 +3923,22 @@
     },
     {
       "from": "found-footage",
+      "to": "low-poly-ps1-revival",
+      "type": "ECHOES"
+    },
+    {
+      "from": "found-footage",
       "to": "y2k-digicam",
+      "type": "ECHOES"
+    },
+    {
+      "from": "four-shade-handheld",
+      "to": "pixel-icon",
+      "type": "ECHOES"
+    },
+    {
+      "from": "four-shade-handheld",
+      "to": "terminal-tui-web",
       "type": "ECHOES"
     },
     {
@@ -3671,6 +4027,21 @@
       "type": "ECHOES"
     },
     {
+      "from": "hand-painted-texture",
+      "to": "impressionism",
+      "type": "ECHOES"
+    },
+    {
+      "from": "hd-2d-diorama",
+      "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
+      "from": "hd-2d-diorama",
+      "to": "planimetric-symmetry",
+      "type": "ECHOES"
+    },
+    {
       "from": "high-tech-architecture",
       "to": "industrial-loft-interior",
       "type": "ECHOES"
@@ -3686,6 +4057,21 @@
       "type": "ECHOES"
     },
     {
+      "from": "impossible-isometric-mobile",
+      "to": "isometric-icon",
+      "type": "ECHOES"
+    },
+    {
+      "from": "impossible-isometric-mobile",
+      "to": "postmodern-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "impossible-isometric-mobile",
+      "to": "surrealism-painting",
+      "type": "ECHOES"
+    },
+    {
       "from": "impressionism",
       "to": "pictorialism",
       "type": "ECHOES"
@@ -3693,6 +4079,11 @@
     {
       "from": "industrial-loft-interior",
       "to": "new-topographics",
+      "type": "ECHOES"
+    },
+    {
+      "from": "industrial-loft-interior",
+      "to": "seventh-gen-desaturated",
       "type": "ECHOES"
     },
     {
@@ -3733,6 +4124,11 @@
     {
       "from": "international-style-architecture",
       "to": "swiss-modernist-mark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "isometric-icon",
+      "to": "isometric-pixel-world",
       "type": "ECHOES"
     },
     {
@@ -3941,6 +4337,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "pbr-photoreal",
+      "to": "photorealism",
+      "type": "ECHOES"
+    },
+    {
       "from": "pictorialism",
       "to": "victorian-interior",
       "type": "ECHOES"
@@ -3948,6 +4349,16 @@
     {
       "from": "pixel-art-web",
       "to": "pixel-icon",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pixel-art-web",
+      "to": "sixteen-bit-sprite",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pixel-art-web",
+      "to": "voxel-block-world",
       "type": "ECHOES"
     },
     {
@@ -3973,6 +4384,11 @@
     {
       "from": "scandinavian-interior",
       "to": "scandinavian-interior-photography",
+      "type": "ECHOES"
+    },
+    {
+      "from": "sixteen-bit-sprite",
+      "to": "ukiyo-e",
       "type": "ECHOES"
     },
     {
@@ -4013,6 +4429,11 @@
     {
       "from": "swiss-international",
       "to": "swiss-modernist-mark",
+      "type": "ECHOES"
+    },
+    {
+      "from": "synthwave-web",
+      "to": "vector-display-arcade",
       "type": "ECHOES"
     },
     {
@@ -4151,6 +4572,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "cel-shaded-3d",
+      "to": "fifth-gen-low-poly",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "cinematic-teal-orange",
       "to": "new-colour",
       "type": "EVOLVED_FROM"
@@ -4266,6 +4692,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "eight-bit-tile",
+      "to": "vector-display-arcade",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "emblem-badge",
       "to": "victorian-trademark",
       "type": "EVOLVED_FROM"
@@ -4311,6 +4742,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "fifth-gen-low-poly",
+      "to": "vector-display-arcade",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "film-grain-revival",
       "to": "new-colour",
       "type": "EVOLVED_FROM"
@@ -4348,6 +4784,11 @@
     {
       "from": "found-footage",
       "to": "documentary-verite",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "four-shade-handheld",
+      "to": "eight-bit-tile",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4406,6 +4847,16 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "hand-painted-texture",
+      "to": "fifth-gen-low-poly",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "hd-2d-diorama",
+      "to": "sixteen-bit-sprite",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "high-tech-architecture",
       "to": "international-style-architecture",
       "type": "EVOLVED_FROM"
@@ -4431,6 +4882,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "impossible-isometric-mobile",
+      "to": "isometric-pixel-world",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "impressionism",
       "to": "realism-painting",
       "type": "EVOLVED_FROM"
@@ -4443,6 +4899,11 @@
     {
       "from": "isometric-icon",
       "to": "pixel-icon",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "isometric-pixel-world",
+      "to": "eight-bit-tile",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4468,6 +4929,11 @@
     {
       "from": "liquid-glass-ui",
       "to": "spatial-visionos",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "low-poly-ps1-revival",
+      "to": "fifth-gen-low-poly",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4646,6 +5112,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "pbr-photoreal",
+      "to": "seventh-gen-desaturated",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "phone-cinema",
       "to": "dogme-95",
       "type": "EVOLVED_FROM"
@@ -4678,6 +5149,11 @@
     {
       "from": "post-impressionism",
       "to": "impressionism",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "pre-rendered-backgrounds",
+      "to": "sixteen-bit-sprite",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4718,6 +5194,16 @@
     {
       "from": "scrapbook-ui",
       "to": "punk-zine",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "seventh-gen-desaturated",
+      "to": "fifth-gen-low-poly",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "sixteen-bit-sprite",
+      "to": "eight-bit-tile",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4808,6 +5294,11 @@
     {
       "from": "victorian-interior",
       "to": "georgian-interior",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "voxel-block-world",
+      "to": "eight-bit-tile",
       "type": "EVOLVED_FROM"
     },
     {
@@ -4978,6 +5469,11 @@
     {
       "from": "cassette-futurism",
       "to": "skeuomorphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "cel-shaded-3d",
+      "to": "hand-painted-texture",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5171,6 +5667,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "fifth-gen-low-poly",
+      "to": "pre-rendered-backgrounds",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "film-grain-revival",
       "to": "party-flash",
       "type": "HYBRIDIZED_WITH"
@@ -5248,6 +5749,11 @@
     {
       "from": "grunge-editorial",
       "to": "scrapbook-ui",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "hd-2d-diorama",
+      "to": "pbr-photoreal",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -5581,6 +6087,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "fifth-gen-low-poly",
+      "to": "sixteen-bit-sprite",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "film-grain-revival",
       "to": "y2k-digicam",
       "type": "REBELLED_AGAINST"
@@ -5656,6 +6167,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "impossible-isometric-mobile",
+      "to": "seventh-gen-desaturated",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "italian-neorealism",
       "to": "classical-hollywood",
       "type": "REBELLED_AGAINST"
@@ -5668,6 +6184,11 @@
     {
       "from": "liquid-glass-ui",
       "to": "flat-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "low-poly-ps1-revival",
+      "to": "pbr-photoreal",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -5861,6 +6382,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "seventh-gen-desaturated",
+      "to": "cel-shaded-3d",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "slow-cinema",
       "to": "classical-hollywood",
       "type": "REBELLED_AGAINST"
@@ -5906,6 +6432,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "voxel-block-world",
+      "to": "seventh-gen-desaturated",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "wabi-sabi-web",
       "to": "flat-design",
       "type": "REBELLED_AGAINST"
@@ -5917,6 +6448,40 @@
     }
   ],
   "techniques": [
+    {
+      "id": "affine-texture-warp",
+      "name": "Affine texture warp",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 1994,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 1994,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "fifth-gen-low-poly"
+          ]
+        },
+        {
+          "domain": "game",
+          "year": 2018,
+          "circa": false,
+          "lag_years": 24,
+          "styles": [
+            "low-poly-ps1-revival"
+          ]
+        }
+      ],
+      "styles": [
+        "fifth-gen-low-poly",
+        "low-poly-ps1-revival"
+      ]
+    },
     {
       "id": "airbrush",
       "name": "Airbrush",
@@ -6033,6 +6598,40 @@
         "georgian-interior",
         "postmodern-architecture",
         "dopamine-decor"
+      ]
+    },
+    {
+      "id": "bloom-and-hdr",
+      "name": "Bloom and HDR",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 2005,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2006,
+          "circa": false,
+          "lag_years": 1,
+          "styles": [
+            "seventh-gen-desaturated"
+          ]
+        },
+        {
+          "domain": "game",
+          "year": 2018,
+          "circa": false,
+          "lag_years": 13,
+          "styles": [
+            "hd-2d-diorama"
+          ]
+        }
+      ],
+      "styles": [
+        "seventh-gen-desaturated",
+        "hd-2d-diorama"
       ]
     },
     {
@@ -6157,6 +6756,28 @@
         "prairie-school-architecture",
         "bauhaus-interior",
         "organic-architecture"
+      ]
+    },
+    {
+      "id": "cel-shading",
+      "name": "Cel shading",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 2000,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 2003,
+          "circa": true,
+          "lag_years": 3,
+          "styles": []
+        }
+      ],
+      "styles": [
+        "cel-shaded-3d"
       ]
     },
     {
@@ -6894,6 +7515,30 @@
       ]
     },
     {
+      "id": "hand-painted-texture",
+      "name": "Hand-painted texture",
+      "kind": "skill",
+      "origin": {
+        "domain": "game",
+        "year": 2004,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2009,
+          "circa": false,
+          "lag_years": 5,
+          "styles": [
+            "hand-painted-texture"
+          ]
+        }
+      ],
+      "styles": [
+        "hand-painted-texture"
+      ]
+    },
+    {
       "id": "handheld-camera",
       "name": "Handheld camera",
       "kind": "tool",
@@ -6985,6 +7630,31 @@
           "styles": []
         },
         {
+          "domain": "game",
+          "year": 1982,
+          "circa": false,
+          "lag_years": 160,
+          "styles": []
+        },
+        {
+          "domain": "game",
+          "year": 1984,
+          "circa": false,
+          "lag_years": 162,
+          "styles": [
+            "isometric-pixel-world"
+          ]
+        },
+        {
+          "domain": "game",
+          "year": 2014,
+          "circa": false,
+          "lag_years": 192,
+          "styles": [
+            "impossible-isometric-mobile"
+          ]
+        },
+        {
           "domain": "design",
           "year": 2015,
           "circa": true,
@@ -7006,7 +7676,9 @@
       "styles": [
         "corporate-memphis",
         "bento-grid-ui",
-        "isometric-icon"
+        "isometric-icon",
+        "isometric-pixel-world",
+        "impossible-isometric-mobile"
       ]
     },
     {
@@ -7504,6 +8176,22 @@
       },
       "adoptions": [
         {
+          "domain": "game",
+          "year": 1982,
+          "circa": false,
+          "lag_years": 45,
+          "styles": []
+        },
+        {
+          "domain": "game",
+          "year": 1990,
+          "circa": false,
+          "lag_years": 53,
+          "styles": [
+            "sixteen-bit-sprite"
+          ]
+        },
+        {
           "domain": "design",
           "year": 2011,
           "circa": true,
@@ -7524,7 +8212,8 @@
       ],
       "styles": [
         "flat-design",
-        "spatial-visionos"
+        "spatial-visionos",
+        "sixteen-bit-sprite"
       ]
     },
     {
@@ -7681,6 +8370,30 @@
       ]
     },
     {
+      "id": "physically-based-rendering",
+      "name": "Physically based rendering",
+      "kind": "technology",
+      "origin": {
+        "domain": "film",
+        "year": 2012,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2013,
+          "circa": false,
+          "lag_years": 1,
+          "styles": [
+            "pbr-photoreal"
+          ]
+        }
+      ],
+      "styles": [
+        "pbr-photoreal"
+      ]
+    },
+    {
       "id": "pixel-grid",
       "name": "Pixel grid",
       "kind": "process",
@@ -7698,6 +8411,15 @@
           "styles": []
         },
         {
+          "domain": "game",
+          "year": 1983,
+          "circa": false,
+          "lag_years": 20,
+          "styles": [
+            "eight-bit-tile"
+          ]
+        },
+        {
           "domain": "icon",
           "year": 1984,
           "circa": false,
@@ -7707,11 +8429,38 @@
           ]
         },
         {
+          "domain": "game",
+          "year": 1984,
+          "circa": false,
+          "lag_years": 21,
+          "styles": [
+            "isometric-pixel-world"
+          ]
+        },
+        {
           "domain": "typeface",
           "year": 1985,
           "circa": false,
           "lag_years": 22,
           "styles": []
+        },
+        {
+          "domain": "game",
+          "year": 1989,
+          "circa": false,
+          "lag_years": 26,
+          "styles": [
+            "four-shade-handheld"
+          ]
+        },
+        {
+          "domain": "game",
+          "year": 1990,
+          "circa": false,
+          "lag_years": 27,
+          "styles": [
+            "sixteen-bit-sprite"
+          ]
         },
         {
           "domain": "design",
@@ -7725,7 +8474,11 @@
       ],
       "styles": [
         "pixel-icon",
-        "pixel-art-web"
+        "pixel-art-web",
+        "eight-bit-tile",
+        "four-shade-handheld",
+        "sixteen-bit-sprite",
+        "isometric-pixel-world"
       ]
     },
     {
@@ -7760,6 +8513,30 @@
       "styles": [
         "formal-script",
         "victorian-trademark"
+      ]
+    },
+    {
+      "id": "pre-rendered-background",
+      "name": "Pre-rendered background",
+      "kind": "process",
+      "origin": {
+        "domain": "game",
+        "year": 1993,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 1996,
+          "circa": false,
+          "lag_years": 3,
+          "styles": [
+            "pre-rendered-backgrounds"
+          ]
+        }
+      ],
+      "styles": [
+        "pre-rendered-backgrounds"
       ]
     },
     {
@@ -8161,11 +8938,69 @@
           "circa": false,
           "lag_years": 108,
           "styles": []
+        },
+        {
+          "domain": "game",
+          "year": 2018,
+          "circa": false,
+          "lag_years": 114,
+          "styles": [
+            "hd-2d-diorama"
+          ]
         }
       ],
       "styles": [
         "group-f64",
-        "architectural-photography"
+        "architectural-photography",
+        "hd-2d-diorama"
+      ]
+    },
+    {
+      "id": "vector-display",
+      "name": "Vector display",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 1962,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 1979,
+          "circa": false,
+          "lag_years": 17,
+          "styles": [
+            "vector-display-arcade"
+          ]
+        }
+      ],
+      "styles": [
+        "vector-display-arcade"
+      ]
+    },
+    {
+      "id": "voxel",
+      "name": "Voxel",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 1992,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2009,
+          "circa": false,
+          "lag_years": 17,
+          "styles": [
+            "voxel-block-world"
+          ]
+        }
+      ],
+      "styles": [
+        "voxel-block-world"
       ]
     },
     {
@@ -8807,7 +9642,8 @@
         "skeuomorphism"
       ],
       "echoes": [
-        "high-tech-architecture"
+        "high-tech-architecture",
+        "vector-display-arcade"
       ],
       "nearest_by_vector": [
         {
@@ -8991,6 +9827,7 @@
       ],
       "echoes": [
         "camcorder-revival",
+        "fifth-gen-low-poly",
         "glossy-3d-logo",
         "music-video",
         "party-flash",
@@ -9194,7 +10031,10 @@
         "vaporwave"
       ],
       "echoes": [
-        "pixel-icon"
+        "eight-bit-tile",
+        "pixel-icon",
+        "sixteen-bit-sprite",
+        "voxel-block-world"
       ],
       "nearest_by_vector": [
         {
@@ -9282,8 +10122,10 @@
         "swiss-international"
       ],
       "echoes": [
+        "cel-shaded-3d",
         "flat-icon",
         "flat-logo",
+        "impossible-isometric-mobile",
         "minimalist-interior",
         "ukiyo-e"
       ],
@@ -9434,7 +10276,8 @@
         "cyberpunk-web"
       ],
       "echoes": [
-        "neon-noir"
+        "neon-noir",
+        "vector-display-arcade"
       ],
       "nearest_by_vector": [
         {
@@ -9808,6 +10651,7 @@
         "pixel-art-web"
       ],
       "echoes": [
+        "four-shade-handheld",
         "monospace"
       ],
       "nearest_by_vector": [
@@ -10755,7 +11599,8 @@
         "duesseldorf-school",
         "industrial-loft-interior",
         "neo-brutalism-ui",
-        "new-topographics"
+        "new-topographics",
+        "seventh-gen-desaturated"
       ],
       "nearest_by_vector": [
         {
@@ -10815,6 +11660,7 @@
       ],
       "hybridized_with": [],
       "echoes": [
+        "impossible-isometric-mobile",
         "memphis-design",
         "memphis-interior"
       ],
@@ -11101,6 +11947,7 @@
       "hybridized_with": [],
       "echoes": [
         "arts-and-crafts-architecture",
+        "hand-painted-texture",
         "humanist-sans",
         "nordic-national-romanticism-painting"
       ],
@@ -11348,7 +12195,8 @@
         "adaptive-reuse-architecture",
         "brutalist-architecture",
         "high-tech-architecture",
-        "new-topographics"
+        "new-topographics",
+        "seventh-gen-desaturated"
       ],
       "nearest_by_vector": [
         {
@@ -11901,6 +12749,7 @@
       ],
       "echoes": [
         "brutalist-architecture",
+        "hd-2d-diorama",
         "industrial-loft-interior",
         "international-style-architecture",
         "photorealism",
@@ -12004,7 +12853,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "neon-noir"
+        "neon-noir",
+        "seventh-gen-desaturated"
       ],
       "nearest_by_vector": [
         {
@@ -12071,7 +12921,8 @@
       ],
       "echoes": [
         "camcorder-revival",
-        "impressionism"
+        "impressionism",
+        "low-poly-ps1-revival"
       ],
       "nearest_by_vector": [
         {
@@ -12098,7 +12949,9 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
-      "echoes": [],
+      "echoes": [
+        "pbr-photoreal"
+      ],
       "nearest_by_vector": [
         {
           "id": "cinematic-teal-orange",
@@ -12132,7 +12985,10 @@
         "bauhaus-architecture",
         "brutalist-architecture",
         "international-style-architecture",
-        "mid-century-modern-architecture"
+        "isometric-pixel-world",
+        "mid-century-modern-architecture",
+        "pbr-photoreal",
+        "pre-rendered-backgrounds"
       ],
       "nearest_by_vector": [
         {
@@ -12376,7 +13232,8 @@
       ],
       "hybridized_with": [],
       "echoes": [
-        "art-deco-architecture"
+        "art-deco-architecture",
+        "pre-rendered-backgrounds"
       ],
       "nearest_by_vector": [
         {
@@ -12407,7 +13264,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "film-noir-still"
+        "film-noir-still",
+        "pre-rendered-backgrounds"
       ],
       "nearest_by_vector": [
         {
@@ -12821,6 +13679,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "hd-2d-diorama",
         "new-topographics",
         "renaissance-painting"
       ],
@@ -12851,6 +13710,7 @@
         "dogme-95"
       ],
       "echoes": [
+        "low-poly-ps1-revival",
         "y2k-digicam"
       ],
       "nearest_by_vector": [
@@ -13034,8 +13894,10 @@
         "vertical-short-form"
       ],
       "echoes": [
+        "fifth-gen-low-poly",
         "film-grain-revival",
         "grunge-editorial",
+        "low-poly-ps1-revival",
         "party-flash",
         "vaporwave",
         "y2k-aesthetic",
@@ -13161,9 +14023,11 @@
         "impressionism"
       ],
       "echoes": [
+        "cel-shaded-3d",
         "flat-design",
         "japandi-interior",
-        "japanese-graphic-modernism"
+        "japanese-graphic-modernism",
+        "sixteen-bit-sprite"
       ],
       "nearest_by_vector": [
         {
@@ -13292,6 +14156,7 @@
       "echoes": [
         "film-grain-revival",
         "grandmillennial-interior",
+        "hand-painted-texture",
         "pictorialism"
       ],
       "nearest_by_vector": [
@@ -13603,7 +14468,8 @@
         "geometric-symbol",
         "international-style-architecture",
         "prairie-school-architecture",
-        "swiss-international"
+        "swiss-international",
+        "voxel-block-world"
       ],
       "nearest_by_vector": [
         {
@@ -13630,6 +14496,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "impossible-isometric-mobile",
         "surrealism-web",
         "vaporwave"
       ],
@@ -13725,6 +14592,7 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "cel-shaded-3d",
         "memphis-design",
         "pop-art-web"
       ],
@@ -13791,7 +14659,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
-        "new-topographics"
+        "new-topographics",
+        "pbr-photoreal"
       ],
       "nearest_by_vector": [
         {
@@ -14136,6 +15005,8 @@
       "provoked": [],
       "hybridized_with": [],
       "echoes": [
+        "eight-bit-tile",
+        "four-shade-handheld",
         "pixel-art-web"
       ],
       "nearest_by_vector": [
@@ -14167,7 +15038,10 @@
         "flat-icon",
         "skeuomorphic-icon"
       ],
-      "echoes": [],
+      "echoes": [
+        "impossible-isometric-mobile",
+        "isometric-pixel-world"
+      ],
       "nearest_by_vector": [
         {
           "id": "flat-icon",
@@ -14829,6 +15703,515 @@
         }
       ],
       "techniques": []
+    },
+    "vector-display-arcade": {
+      "evolved_from": [],
+      "evolved_into": [
+        "eight-bit-tile",
+        "fifth-gen-low-poly"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "cassette-futurism",
+        "synthwave-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "impossible-isometric-mobile",
+          "distance": 2.24
+        },
+        {
+          "id": "low-poly-ps1-revival",
+          "distance": 2.24
+        },
+        {
+          "id": "isometric-pixel-world",
+          "distance": 2.65
+        }
+      ],
+      "techniques": [
+        "vector-display"
+      ]
+    },
+    "eight-bit-tile": {
+      "evolved_from": [
+        "vector-display-arcade"
+      ],
+      "evolved_into": [
+        "four-shade-handheld",
+        "isometric-pixel-world",
+        "sixteen-bit-sprite",
+        "voxel-block-world"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "pixel-art-web",
+        "pixel-icon"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "four-shade-handheld",
+          "distance": 1
+        },
+        {
+          "id": "sixteen-bit-sprite",
+          "distance": 2.24
+        },
+        {
+          "id": "impossible-isometric-mobile",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "pixel-grid"
+      ]
+    },
+    "isometric-pixel-world": {
+      "evolved_from": [
+        "eight-bit-tile"
+      ],
+      "evolved_into": [
+        "impossible-isometric-mobile"
+      ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "architectural-photography",
+        "isometric-icon"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "sixteen-bit-sprite",
+          "distance": 1
+        },
+        {
+          "id": "fifth-gen-low-poly",
+          "distance": 1.73
+        },
+        {
+          "id": "hand-painted-texture",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "isometric-projection",
+        "pixel-grid"
+      ]
+    },
+    "sixteen-bit-sprite": {
+      "evolved_from": [
+        "eight-bit-tile"
+      ],
+      "evolved_into": [
+        "hd-2d-diorama",
+        "pre-rendered-backgrounds"
+      ],
+      "rebelled_against": [],
+      "provoked": [
+        "fifth-gen-low-poly"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "pixel-art-web",
+        "ukiyo-e"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "isometric-pixel-world",
+          "distance": 1
+        },
+        {
+          "id": "eight-bit-tile",
+          "distance": 2.24
+        },
+        {
+          "id": "fifth-gen-low-poly",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "multiplane-parallax",
+        "pixel-grid"
+      ]
+    },
+    "four-shade-handheld": {
+      "evolved_from": [
+        "eight-bit-tile"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "pixel-icon",
+        "terminal-tui-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "eight-bit-tile",
+          "distance": 1
+        },
+        {
+          "id": "impossible-isometric-mobile",
+          "distance": 2.24
+        },
+        {
+          "id": "sixteen-bit-sprite",
+          "distance": 2.83
+        }
+      ],
+      "techniques": [
+        "pixel-grid"
+      ]
+    },
+    "pre-rendered-backgrounds": {
+      "evolved_from": [
+        "sixteen-bit-sprite"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "fifth-gen-low-poly"
+      ],
+      "echoes": [
+        "architectural-photography",
+        "classical-hollywood",
+        "film-noir"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "hd-2d-diorama",
+          "distance": 1.41
+        },
+        {
+          "id": "seventh-gen-desaturated",
+          "distance": 2.45
+        },
+        {
+          "id": "isometric-pixel-world",
+          "distance": 2.65
+        }
+      ],
+      "techniques": [
+        "pre-rendered-background"
+      ]
+    },
+    "fifth-gen-low-poly": {
+      "evolved_from": [
+        "vector-display-arcade"
+      ],
+      "evolved_into": [
+        "cel-shaded-3d",
+        "hand-painted-texture",
+        "low-poly-ps1-revival",
+        "seventh-gen-desaturated"
+      ],
+      "rebelled_against": [
+        "sixteen-bit-sprite"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "pre-rendered-backgrounds"
+      ],
+      "echoes": [
+        "camcorder-revival",
+        "y2k-aesthetic"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "voxel-block-world",
+          "distance": 1.41
+        },
+        {
+          "id": "isometric-pixel-world",
+          "distance": 1.73
+        },
+        {
+          "id": "hand-painted-texture",
+          "distance": 2
+        }
+      ],
+      "techniques": [
+        "affine-texture-warp"
+      ]
+    },
+    "cel-shaded-3d": {
+      "evolved_from": [
+        "fifth-gen-low-poly"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "seventh-gen-desaturated"
+      ],
+      "hybridized_with": [
+        "hand-painted-texture"
+      ],
+      "echoes": [
+        "flat-design",
+        "pop-art-painting",
+        "ukiyo-e"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "hand-painted-texture",
+          "distance": 1.41
+        },
+        {
+          "id": "voxel-block-world",
+          "distance": 1.41
+        },
+        {
+          "id": "fifth-gen-low-poly",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "cel-shading"
+      ]
+    },
+    "hand-painted-texture": {
+      "evolved_from": [
+        "fifth-gen-low-poly"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "cel-shaded-3d"
+      ],
+      "echoes": [
+        "arts-and-crafts-interior",
+        "impressionism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cel-shaded-3d",
+          "distance": 1.41
+        },
+        {
+          "id": "voxel-block-world",
+          "distance": 1.41
+        },
+        {
+          "id": "fifth-gen-low-poly",
+          "distance": 2
+        }
+      ],
+      "techniques": [
+        "hand-painted-texture"
+      ]
+    },
+    "seventh-gen-desaturated": {
+      "evolved_from": [
+        "fifth-gen-low-poly"
+      ],
+      "evolved_into": [
+        "pbr-photoreal"
+      ],
+      "rebelled_against": [
+        "cel-shaded-3d"
+      ],
+      "provoked": [
+        "impossible-isometric-mobile",
+        "voxel-block-world"
+      ],
+      "hybridized_with": [],
+      "echoes": [
+        "brutalist-architecture",
+        "cinematic-teal-orange",
+        "industrial-loft-interior"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "pbr-photoreal",
+          "distance": 1.73
+        },
+        {
+          "id": "hd-2d-diorama",
+          "distance": 2.45
+        },
+        {
+          "id": "pre-rendered-backgrounds",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "bloom-and-hdr"
+      ]
+    },
+    "voxel-block-world": {
+      "evolved_from": [
+        "eight-bit-tile"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "seventh-gen-desaturated"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "de-stijl-painting",
+        "pixel-art-web"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "cel-shaded-3d",
+          "distance": 1.41
+        },
+        {
+          "id": "fifth-gen-low-poly",
+          "distance": 1.41
+        },
+        {
+          "id": "hand-painted-texture",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "voxel"
+      ]
+    },
+    "pbr-photoreal": {
+      "evolved_from": [
+        "seventh-gen-desaturated"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [
+        "low-poly-ps1-revival"
+      ],
+      "hybridized_with": [
+        "hd-2d-diorama"
+      ],
+      "echoes": [
+        "ai-hyperreal",
+        "architectural-photography",
+        "photorealism"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "seventh-gen-desaturated",
+          "distance": 1.73
+        },
+        {
+          "id": "pre-rendered-backgrounds",
+          "distance": 3.61
+        },
+        {
+          "id": "hd-2d-diorama",
+          "distance": 3.87
+        }
+      ],
+      "techniques": [
+        "physically-based-rendering"
+      ]
+    },
+    "impossible-isometric-mobile": {
+      "evolved_from": [
+        "isometric-pixel-world"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "seventh-gen-desaturated"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "flat-design",
+        "isometric-icon",
+        "postmodern-architecture",
+        "surrealism-painting"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "four-shade-handheld",
+          "distance": 2.24
+        },
+        {
+          "id": "vector-display-arcade",
+          "distance": 2.24
+        },
+        {
+          "id": "eight-bit-tile",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "isometric-projection"
+      ]
+    },
+    "hd-2d-diorama": {
+      "evolved_from": [
+        "sixteen-bit-sprite"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "pbr-photoreal"
+      ],
+      "echoes": [
+        "new-topographics",
+        "planimetric-symmetry"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "pre-rendered-backgrounds",
+          "distance": 1.41
+        },
+        {
+          "id": "low-poly-ps1-revival",
+          "distance": 2.24
+        },
+        {
+          "id": "hand-painted-texture",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "bloom-and-hdr",
+        "tilt-shift"
+      ]
+    },
+    "low-poly-ps1-revival": {
+      "evolved_from": [
+        "fifth-gen-low-poly"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "pbr-photoreal"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "camcorder-revival",
+        "film-grain-revival",
+        "found-footage"
+      ],
+      "nearest_by_vector": [
+        {
+          "id": "fifth-gen-low-poly",
+          "distance": 2.24
+        },
+        {
+          "id": "hd-2d-diorama",
+          "distance": 2.24
+        },
+        {
+          "id": "vector-display-arcade",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "affine-texture-warp"
+      ]
     }
   }
 }

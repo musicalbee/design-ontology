@@ -268,6 +268,28 @@ Vector axes, each 1 to 5: **CON** stroke contrast (monoline, thick and thin stro
 | [`geometric-sans`](./geometric-sans/SKILL.md) | Modernist | geometric sans, futura, bauhaus font, avant garde gothic, circular sans | logos and brand marks, fashion and lifestyle titles, posters | modern, clean, optimistic | 1 | 5 | 2 | 4 | 1 |
 | [`neo-grotesque-sans`](./neo-grotesque-sans/SKILL.md) | Modernist | neo-grotesque, helvetica, swiss type, neutral sans, inter | user interfaces and dashboards, corporate identity, signage and wayfinding | neutral, clean, efficient | 1 | 4 | 5 | 3 | 1 |
 
+## Video game
+
+Vector axes, each 1 to 5: **FID** render fidelity (a few pixels or lines that suggest a thing → a photoreal surface and light) · **DEPTH** spatial depth (one flat plane → a free camera in a full 3D world) · **STYL** stylisation (natural proportion, colour and light → drawn, exaggerated shapes and colour) · **LIGHT** lighting drama (flat, even or unlit → hard contrast, volumetric beams and deep shadow) · **DENS** surface density (bare, clean surfaces → dense detail, props and clutter).
+
+| Skill | Era | Load when | Good for | Feels | FID | DEPTH | STYL | LIGHT | DENS |
+|---|---|---|---|---|:-:|:-:|:-:|:-:|:-:|
+| [`vector-display-arcade`](./vector-display-arcade/SKILL.md) | Arcade age | vector graphics game, wireframe arcade, glowing line art, vector monitor, neon wireframe | retro-futurist title screens, light installations, night-time wayfinding concepts | electric, exact, cold | 1 | 3 | 5 | 3 | 1 |
+| [`eight-bit-tile`](./eight-bit-tile/SKILL.md) | Tile and sprite | 8-bit, nes style, retro pixel art, chiptune era, 8-bit game look | retro game art, playful wayfinding, pixel-art murals and tiles | playful, bright, clear | 1 | 1 | 5 | 1 | 2 |
+| [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md) | Tile and sprite | isometric pixel art, isometric game, 2.5d view, cut-away room, dimetric | floor-plan illustrations, space-planning visuals, game maps | ordered, legible, miniature | 2 | 3 | 4 | 2 | 3 |
+| [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md) | Tile and sprite | 16-bit, snes style, mega drive look, jrpg pixel art, parallax pixel art | retro game art, pixel murals, illustrated wayfinding | warm, rich, adventurous | 2 | 2 | 4 | 2 | 3 |
+| [`four-shade-handheld`](./four-shade-handheld/SKILL.md) | Tile and sprite | game boy, four shades of green, dmg palette, monochrome pixel art, handheld retro | one-colour pixel graphics, screen-printed tiles and textiles, monochrome wayfinding | quiet, nostalgic, compact | 1 | 1 | 5 | 1 | 1 |
+| [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md) | Early polygon | pre-rendered, fixed camera, myst style, 90s cgi, survival horror rooms | moody interior stills, escape-room design, storyboards for spaces | cinematic, mysterious, moody | 3 | 3 | 3 | 4 | 4 |
+| [`fifth-gen-low-poly`](./fifth-gen-low-poly/SKILL.md) | Early polygon | ps1 graphics, n64 style, low poly 90s, retro 3d, playstation one look | retro 3D scenes, music videos and covers, uncanny interior visuals | uncanny, nostalgic, raw | 2 | 4 | 3 | 2 | 2 |
+| [`cel-shaded-3d`](./cel-shaded-3d/SKILL.md) | Programmable shader | cel shaded, toon shader, anime 3d, cartoon 3d, wind waker style | playful brand worlds, kids' and family spaces, animated explainers | joyful, bright, playful | 3 | 5 | 5 | 2 | 2 |
+| [`hand-painted-texture`](./hand-painted-texture/SKILL.md) | Programmable shader | hand painted, stylised game art, warcraft style, painterly 3d, fantasy village | themed hospitality interiors, fantasy environments, children's attractions | warm, cosy, heroic | 3 | 5 | 4 | 2 | 3 |
+| [`seventh-gen-desaturated`](./seventh-gen-desaturated/SKILL.md) | Programmable shader | gritty hd, brown and grey, bloom heavy, 2008 game graphics, desaturated realism | industrial and post-apocalyptic themes, escape rooms, military or survival attractions | gritty, heavy, tense | 4 | 5 | 2 | 4 | 4 |
+| [`voxel-block-world`](./voxel-block-world/SKILL.md) | Programmable shader | voxel, blocky, minecraft style, cube world, block building | participatory design workshops, children's spaces, modular furniture concepts | creative, playful, simple | 2 | 5 | 4 | 2 | 2 |
+| [`pbr-photoreal`](./pbr-photoreal/SKILL.md) | Physically based and indie | photoreal, unreal engine, pbr, current gen graphics, real-time realism | real-time architectural visualisation, interior walk-throughs, virtual showrooms | real, immersive, rich | 5 | 5 | 1 | 4 | 5 |
+| [`impossible-isometric-mobile`](./impossible-isometric-mobile/SKILL.md) | Physically based and indie | monument valley style, flat isometric, pastel geometric, impossible architecture, low poly pastel | architectural concept art, brand illustrations, calm interactive installations | serene, dreamy, elegant | 2 | 3 | 5 | 1 | 1 |
+| [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md) | Physically based and indie | hd-2d, octopath style, pixel diorama, tilt-shift pixel art, miniature rpg | model-like city visuals, warm marketing scenes, interior vignettes in miniature | nostalgic, warm, magical | 3 | 4 | 4 | 4 | 4 |
+| [`low-poly-ps1-revival`](./low-poly-ps1-revival/SKILL.md) | Physically based and indie | ps1 horror, psx style, retro 3d horror, haunted ps1, lo-fi 3d | horror attractions, music videos, lo-fi art installations | eerie, nostalgic, lo-fi | 2 | 4 | 4 | 4 | 2 |
+
 ---
 
 Generated by `scripts/compile-skills.ts`. Do not edit this file; change the data and run `npm run build`.

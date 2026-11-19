@@ -206,7 +206,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more rhythm**: move toward [`music-video`](../music-video/SKILL.md) (Music video). Keep the symmetry; cut every 1 to 2 s on the beat and add a lateral track on each chorus.
 
 - **Rejects (the opposite pole; do not blend):** [`dogme-95`](../dogme-95/SKILL.md)
-- **Kin in another domain:** [`new-topographics`](../new-topographics/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
+- **Kin in another domain:** [`hd-2d-diorama`](../hd-2d-diorama/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 - **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md)
 
 ## Emotional target

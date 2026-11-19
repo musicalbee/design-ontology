@@ -390,8 +390,34 @@ flowchart LR
     geometric_sans["Geometric sans"]
     neo_grotesque_sans["Neo-grotesque sans"]
   end
+  subgraph game_arcade_age["Video game · Arcade age · 1971–1983"]
+    vector_display_arcade["Vector display arcade"]
+  end
+  subgraph game_tile_and_sprite["Video game · Tile and sprite · 1983–1996"]
+    eight_bit_tile["8-bit tile graphics"]
+    isometric_pixel_world["Isometric pixel world"]
+    sixteen_bit_sprite["16-bit sprite and parallax"]
+    four_shade_handheld["Four-shade handheld"]
+  end
+  subgraph game_early_polygon["Video game · Early polygon · 1993–2001"]
+    pre_rendered_backgrounds["Pre-rendered backgrounds"]
+    fifth_gen_low_poly["Fifth-generation low poly"]
+  end
+  subgraph game_programmable_shader["Video game · Programmable shader · 2000–2013"]
+    cel_shaded_3d["Cel-shaded 3D"]
+    hand_painted_texture["Hand-painted texture"]
+    seventh_gen_desaturated["Seventh-generation desaturated bloom"]
+    voxel_block_world["Voxel block world"]
+  end
+  subgraph game_physically_based_and_indie["Video game · Physically based and indie · 2013–now"]
+    pbr_photoreal["PBR photoreal"]
+    impossible_isometric_mobile["Flat geometric isometric"]
+    hd_2d_diorama["HD-2D diorama"]
+    low_poly_ps1_revival["Low-poly PS1 revival"]
+  end
   abstract_expressionism <-. echoes .-> brutalist_architecture
   adaptive_reuse_architecture <-. echoes .-> industrial_loft_interior
+  ai_hyperreal <-. echoes .-> pbr_photoreal
   airbrush_surrealism <-. echoes .-> pop_art_web
   airbrush_surrealism <-. echoes .-> psychedelic
   airbrush_surrealism <-. echoes .-> space_age
@@ -402,7 +428,10 @@ flowchart LR
   architectural_photography <-. echoes .-> bauhaus_architecture
   architectural_photography <-. echoes .-> brutalist_architecture
   architectural_photography <-. echoes .-> international_style_architecture
+  architectural_photography <-. echoes .-> isometric_pixel_world
   architectural_photography <-. echoes .-> mid_century_modern_architecture
+  architectural_photography <-. echoes .-> pbr_photoreal
+  architectural_photography <-. echoes .-> pre_rendered_backgrounds
   art_deco_architecture <-. echoes .-> art_deco_interior
   art_deco_architecture <-. echoes .-> art_deco_web
   art_deco_architecture <-. echoes .-> classical_hollywood
@@ -420,6 +449,7 @@ flowchart LR
   art_nouveau_monogram <-. echoes .-> art_nouveau_web
   art_nouveau_web <-. echoes .-> symbolism_painting
   arts_and_crafts_architecture <-. echoes .-> arts_and_crafts_interior
+  arts_and_crafts_interior <-. echoes .-> hand_painted_texture
   arts_and_crafts_interior <-. echoes .-> humanist_sans
   arts_and_crafts_interior <-. echoes .-> nordic_national_romanticism_painting
   baroque_architecture <-. echoes .-> baroque_painting
@@ -446,15 +476,24 @@ flowchart LR
   brutalist_architecture <-. echoes .-> industrial_loft_interior
   brutalist_architecture <-. echoes .-> neo_brutalism_ui
   brutalist_architecture <-. echoes .-> new_topographics
+  brutalist_architecture <-. echoes .-> seventh_gen_desaturated
   brutalist_web <-. echoes .-> monospace
+  camcorder_revival <-. echoes .-> fifth_gen_low_poly
   camcorder_revival <-. echoes .-> film_grain_revival
   camcorder_revival <-. echoes .-> grunge_editorial
+  camcorder_revival <-. echoes .-> low_poly_ps1_revival
   camcorder_revival <-. echoes .-> party_flash
   camcorder_revival <-. echoes .-> vaporwave
   camcorder_revival <-. echoes .-> y2k_aesthetic
   camcorder_revival <-. echoes .-> y2k_digicam
   cassette_futurism <-. echoes .-> high_tech_architecture
+  cassette_futurism <-. echoes .-> vector_display_arcade
+  cel_shaded_3d <-. echoes .-> flat_design
+  cel_shaded_3d <-. echoes .-> pop_art_painting
+  cel_shaded_3d <-. echoes .-> ukiyo_e
   cinematic_teal_orange <-. echoes .-> neon_noir
+  cinematic_teal_orange <-. echoes .-> seventh_gen_desaturated
+  classical_hollywood <-. echoes .-> pre_rendered_backgrounds
   clay_3d_icon <-. echoes .-> claymorphism
   constructivism_web <-. echoes .-> cubism_painting
   constructivism_web <-. echoes .-> futurism_painting
@@ -470,6 +509,7 @@ flowchart LR
   de_stijl_painting <-. echoes .-> international_style_architecture
   de_stijl_painting <-. echoes .-> prairie_school_architecture
   de_stijl_painting <-. echoes .-> swiss_international
+  de_stijl_painting <-. echoes .-> voxel_block_world
   de_stijl_web <-. echoes .-> international_style_architecture
   de_stijl_web <-. echoes .-> prairie_school_architecture
   deconstructivist_architecture <-. echoes .-> grunge_editorial
@@ -481,6 +521,8 @@ flowchart LR
   dopamine_decor <-. echoes .-> food_photography
   dopamine_decor <-. echoes .-> memphis_design
   duesseldorf_school <-. echoes .-> international_style_architecture
+  eight_bit_tile <-. echoes .-> pixel_art_web
+  eight_bit_tile <-. echoes .-> pixel_icon
   emblem_badge <-. echoes .-> mid_century_modern
   emblem_badge <-. echoes .-> space_age
   expressionism_painting <-. echoes .-> german_expressionist_cinema
@@ -490,11 +532,15 @@ flowchart LR
   fat_face_display <-. echoes .-> victorian_trademark
   fat_face_display <-. echoes .-> victorian_web
   fauvism <-. echoes .-> new_colour
+  fifth_gen_low_poly <-. echoes .-> y2k_aesthetic
   film_grain_revival <-. echoes .-> impressionism
+  film_grain_revival <-. echoes .-> low_poly_ps1_revival
   film_noir <-. echoes .-> film_noir_still
+  film_noir <-. echoes .-> pre_rendered_backgrounds
   film_noir_still <-. echoes .-> german_expressionist_cinema
   flat_design <-. echoes .-> flat_icon
   flat_design <-. echoes .-> flat_logo
+  flat_design <-. echoes .-> impossible_isometric_mobile
   flat_design <-. echoes .-> minimalist_interior
   flat_design <-. echoes .-> ukiyo_e
   flat_icon <-. echoes .-> metro_ui
@@ -502,7 +548,10 @@ flowchart LR
   flat_logo <-. echoes .-> metro_ui
   formal_script <-. echoes .-> hollywood_regency_interior
   formal_script <-. echoes .-> rococo_painting
+  found_footage <-. echoes .-> low_poly_ps1_revival
   found_footage <-. echoes .-> y2k_digicam
+  four_shade_handheld <-. echoes .-> pixel_icon
+  four_shade_handheld <-. echoes .-> terminal_tui_web
   french_new_wave <-. echoes .-> street_photography
   frutiger_aero <-. echoes .-> glossy_3d_logo
   frutiger_aero <-. echoes .-> skeuomorphic_icon
@@ -520,11 +569,18 @@ flowchart LR
   group_f64 <-. echoes .-> international_style_architecture
   grunge_editorial <-. echoes .-> party_flash
   grunge_editorial <-. echoes .-> street_photography
+  hand_painted_texture <-. echoes .-> impressionism
+  hd_2d_diorama <-. echoes .-> new_topographics
+  hd_2d_diorama <-. echoes .-> planimetric_symmetry
   high_tech_architecture <-. echoes .-> industrial_loft_interior
   high_tech_architecture <-. echoes .-> space_age
   humanist_sans <-. echoes .-> scandinavian_interior
+  impossible_isometric_mobile <-. echoes .-> isometric_icon
+  impossible_isometric_mobile <-. echoes .-> postmodern_architecture
+  impossible_isometric_mobile <-. echoes .-> surrealism_painting
   impressionism <-. echoes .-> pictorialism
   industrial_loft_interior <-. echoes .-> new_topographics
+  industrial_loft_interior <-. echoes .-> seventh_gen_desaturated
   international_style_architecture <-. echoes .-> mid_century_modern_interior
   international_style_architecture <-. echoes .-> minimalist_interior
   international_style_architecture <-. echoes .-> neo_grotesque_sans
@@ -533,6 +589,7 @@ flowchart LR
   international_style_architecture <-. echoes .-> straight_photography
   international_style_architecture <-. echoes .-> swiss_international
   international_style_architecture <-. echoes .-> swiss_modernist_mark
+  isometric_icon <-. echoes .-> isometric_pixel_world
   italian_neorealism <-. echoes .-> street_photography
   japandi_interior <-. echoes .-> minimalism_painting
   japandi_interior <-. echoes .-> scandinavian_interior_photography
@@ -574,13 +631,17 @@ flowchart LR
   outline_icon <-. echoes .-> rams_functionalism_ui
   outline_icon <-. echoes .-> swiss_international
   party_flash <-. echoes .-> y2k_aesthetic
+  pbr_photoreal <-. echoes .-> photorealism
   pictorialism <-. echoes .-> victorian_interior
   pixel_art_web <-. echoes .-> pixel_icon
+  pixel_art_web <-. echoes .-> sixteen_bit_sprite
+  pixel_art_web <-. echoes .-> voxel_block_world
   planimetric_symmetry <-. echoes .-> renaissance_painting
   pop_art_painting <-. echoes .-> pop_art_web
   realism_painting <-. echoes .-> straight_photography
   renaissance_architecture <-. echoes .-> renaissance_painting
   scandinavian_interior <-. echoes .-> scandinavian_interior_photography
+  sixteen_bit_sprite <-. echoes .-> ukiyo_e
   skeuomorphic_icon <-. echoes .-> skeuomorphism
   slab_serif <-. echoes .-> victorian_interior
   slab_serif <-. echoes .-> victorian_web
@@ -589,6 +650,7 @@ flowchart LR
   surrealism_painting <-. echoes .-> surrealism_web
   surrealism_painting <-. echoes .-> vaporwave
   swiss_international <-. echoes .-> swiss_modernist_mark
+  synthwave_web <-. echoes .-> vector_display_arcade
   victorian_interior <-. echoes .-> victorian_trademark
   victorian_trademark <-. echoes .-> victorian_web
   y2k_aesthetic <-. echoes .-> y2k_digicam
@@ -616,6 +678,7 @@ flowchart LR
   psychedelic --> bohemian_web
   international_style_architecture --> brutalist_architecture
   rams_functionalism_ui --> cassette_futurism
+  fifth_gen_low_poly --> cel_shaded_3d
   new_colour --> cinematic_teal_orange
   german_expressionist_cinema --> classical_hollywood
   skeuomorphic_icon --> clay_3d_icon
@@ -639,6 +702,7 @@ flowchart LR
   outline_icon --> duotone_icon
   solid_glyph_icon --> duotone_icon
   swiss_international --> editorial_serif_revival
+  vector_display_arcade --> eight_bit_tile
   victorian_trademark --> emblem_badge
   aurora_gradient_ui --> ethereal_web
   glassmorphism --> ethereal_web
@@ -648,6 +712,7 @@ flowchart LR
   straight_photography --> fashion_editorial
   didone_serif --> fat_face_display
   pointillism --> fauvism
+  vector_display_arcade --> fifth_gen_low_poly
   new_colour --> film_grain_revival
   street_photography --> film_grain_revival
   german_expressionist_cinema --> film_noir
@@ -656,6 +721,7 @@ flowchart LR
   geometric_symbol --> flat_logo
   straight_photography --> food_photography
   documentary_verite --> found_footage
+  eight_bit_tile --> four_shade_handheld
   italian_neorealism --> french_new_wave
   soviet_montage --> french_new_wave
   y2k_aesthetic --> frutiger_aero
@@ -667,19 +733,24 @@ flowchart LR
   georgian_interior --> grandmillennial_interior
   victorian_interior --> grandmillennial_interior
   straight_photography --> group_f64
+  fifth_gen_low_poly --> hand_painted_texture
+  sixteen_bit_sprite --> hd_2d_diorama
   international_style_architecture --> high_tech_architecture
   art_deco_interior --> hollywood_regency_interior
   georgian_interior --> hollywood_regency_interior
   new_hollywood --> hong_kong_action
   garalde_old_style --> humanist_sans
+  isometric_pixel_world --> impossible_isometric_mobile
   realism_painting --> impressionism
   bauhaus_interior --> industrial_loft_interior
   pixel_icon --> isometric_icon
+  eight_bit_tile --> isometric_pixel_world
   scandinavian_interior --> japandi_interior
   bauhaus --> japanese_graphic_modernism
   swiss_international --> japanese_graphic_modernism
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
+  fifth_gen_low_poly --> low_poly_ps1_revival
   art_deco_web --> luxury_typography_web
   swiss_international --> luxury_typography_web
   renaissance_painting --> mannerism_painting
@@ -715,6 +786,7 @@ flowchart LR
   flat_icon --> outline_icon
   deconstructivist_architecture --> parametricism_architecture
   y2k_digicam --> party_flash
+  seventh_gen_desaturated --> pbr_photoreal
   dogme_95 --> phone_cinema
   mumblecore --> phone_cinema
   pop_art_painting --> photorealism
@@ -722,6 +794,7 @@ flowchart LR
   impressionism --> pointillism
   mid_century_modern --> pop_art_web
   impressionism --> post_impressionism
+  sixteen_bit_sprite --> pre_rendered_backgrounds
   japandi_interior --> quiet_luxury_interior
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
@@ -730,6 +803,8 @@ flowchart LR
   new_objectivity --> scandinavian_interior_photography
   corporate_memphis --> scrapbook_ui
   punk_zine --> scrapbook_ui
+  fifth_gen_low_poly --> seventh_gen_desaturated
+  eight_bit_tile --> sixteen_bit_sprite
   pixel_icon --> skeuomorphic_icon
   didone_serif --> slab_serif
   italian_neorealism --> slow_cinema
@@ -748,6 +823,7 @@ flowchart LR
   y2k_aesthetic --> vaporwave
   creator_vlog --> vertical_short_form
   georgian_interior --> victorian_interior
+  eight_bit_tile --> voxel_block_world
   swiss_international --> wabi_sabi_web
   new_colour --> y2k_digicam
   abstract_expressionism -. rejects .-> de_stijl_painting
@@ -787,6 +863,7 @@ flowchart LR
   ethereal_web -. rejects .-> brutalist_web
   expressionist_architecture -. rejects .-> beaux_arts_architecture
   fashion_editorial -. rejects .-> new_objectivity
+  fifth_gen_low_poly -. rejects .-> sixteen_bit_sprite
   film_grain_revival -. rejects .-> y2k_digicam
   film_noir -. rejects .-> classical_hollywood
   flat_design -. rejects .-> skeuomorphism
@@ -802,9 +879,11 @@ flowchart LR
   group_f64 -. rejects .-> pictorialism
   grunge_editorial -. rejects .-> swiss_international
   humanist_sans -. rejects .-> grotesque_sans
+  impossible_isometric_mobile -. rejects .-> seventh_gen_desaturated
   italian_neorealism -. rejects .-> classical_hollywood
   japanese_dense_web -. rejects .-> swiss_international
   liquid_glass_ui -. rejects .-> flat_design
+  low_poly_ps1_revival -. rejects .-> pbr_photoreal
   luxury_typography_web -. rejects .-> flat_design
   mass_timber_architecture -. rejects .-> brutalist_architecture
   memphis_design -. rejects .-> swiss_international
@@ -843,6 +922,7 @@ flowchart LR
   renaissance_architecture -. rejects .-> gothic_architecture
   romanticism_painting -. rejects .-> rococo_painting
   scrapbook_ui -. rejects .-> flat_design
+  seventh_gen_desaturated -. rejects .-> cel_shaded_3d
   slow_cinema -. rejects .-> classical_hollywood
   spaghetti_western -. rejects .-> classical_hollywood
   straight_photography -. rejects .-> pictorialism
@@ -852,6 +932,7 @@ flowchart LR
   symbolism_painting -. rejects .-> realism_painting
   synthwave_web -. rejects .-> flat_design
   terminal_tui_web -. rejects .-> material_design
+  voxel_block_world -. rejects .-> seventh_gen_desaturated
   wabi_sabi_web -. rejects .-> flat_design
   y2k_aesthetic -. rejects .-> grunge_editorial
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
@@ -1056,57 +1137,43 @@ flowchart LR
   linkStyle 199 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 200 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 201 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 360 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 361 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 362 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 363 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 364 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 365 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 366 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 367 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 368 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 369 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 370 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 371 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 372 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 373 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 374 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 375 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 376 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 377 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 378 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 379 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 380 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 381 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 382 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 383 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 384 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 385 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 386 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 387 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 388 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 389 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 390 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 391 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 392 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 393 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 394 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 395 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 396 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 397 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 398 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 399 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 400 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 401 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 402 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 403 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 404 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 405 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 406 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 407 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 408 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 409 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 410 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 202 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 203 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 204 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 205 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 206 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 207 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 208 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 209 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 210 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 211 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 212 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 213 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 214 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 215 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 216 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 217 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 218 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 219 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 220 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 221 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 222 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 223 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 224 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 225 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 226 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 227 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 228 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 229 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 230 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 231 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 232 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 233 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 234 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 235 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 236 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 237 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 238 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 411 stroke:#E5484D,stroke-width:1.5px
   linkStyle 412 stroke:#E5484D,stroke-width:1.5px
   linkStyle 413 stroke:#E5484D,stroke-width:1.5px
@@ -1160,6 +1227,62 @@ flowchart LR
   linkStyle 461 stroke:#E5484D,stroke-width:1.5px
   linkStyle 462 stroke:#E5484D,stroke-width:1.5px
   linkStyle 463 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 464 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 465 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 466 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 467 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 468 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 469 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 470 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 471 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 472 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 473 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 474 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 475 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 476 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 477 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 478 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 479 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 480 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 481 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 482 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 483 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 484 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 485 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 486 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 487 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 488 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 489 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 490 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 491 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 492 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 493 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 494 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 495 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 496 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 497 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 498 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 499 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 500 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 501 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 502 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 503 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 504 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 505 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 506 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 507 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 508 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 509 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 510 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 511 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 512 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 513 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 514 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 515 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 516 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 517 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 518 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 519 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

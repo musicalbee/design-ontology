@@ -1,0 +1,289 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "pbr-photoreal",
+  "domain": "game",
+  "name": "PBR photoreal",
+  "aliases": [
+    "Physically based realism",
+    "Current-gen photoreal",
+    "Unreal photoreal"
+  ],
+  "era_id": "physically-based-and-indie",
+  "time_period": {
+    "start": 2013,
+    "end": null,
+    "label": "2013–now"
+  },
+  "region": "worldwide",
+  "hardware": [
+    "playstation-4",
+    "xbox-one",
+    "playstation-5",
+    "xbox-series",
+    "pc"
+  ],
+  "summary": "Materials follow physics: albedo, roughness and metalness answer one light model, so wood, stone and metal look right in any light. Scanned surfaces, global illumination and ray-traced reflections push game worlds close to architectural renders.",
+  "philosophy": {
+    "core_thesis": "If every material obeys the same physics of light, the world looks real from any angle and at any hour.",
+    "design_principles": [
+      "Author every material as albedo, roughness, metalness and normal in calibrated ranges.",
+      "Use scanned or measured surfaces for stone, wood and fabric.",
+      "Light with physical units: a sun in lux, lamps in lumens, a real sky.",
+      "Use global illumination so light bounces between surfaces.",
+      "Grade the frame with a filmic tone curve, not a heavy colour cast.",
+      "Add small imperfections: dust, smudges, uneven wear."
+    ],
+    "anti_patterns": [
+      "Light painted into textures",
+      "Albedo values outside the physical range",
+      "Uniform gloss on every surface",
+      "Heavy colour grading",
+      "Stylised proportions"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 5,
+    "spatial_depth": 5,
+    "stylisation": 1,
+    "lighting_drama": 4,
+    "surface_density": 5
+  },
+  "projection_and_camera": {
+    "projection": "third-person",
+    "camera": "Free camera with physical lens: focal length, aperture and exposure.",
+    "field_of_view": "about 60–90",
+    "framing": "Cinematic, at eye height; architectural views in photo modes."
+  },
+  "geometry": {
+    "primitive": "A dense polygon mesh, or virtualised micro-polygons.",
+    "budget": "Millions of triangles in view; 50,000–200,000 for a hero character.",
+    "edge_rule": "Smooth, anti-aliased silhouettes with real bevels.",
+    "proportion": "Real scale; architectural accuracy."
+  },
+  "surface": {
+    "texture_rule": "Scanned or procedural PBR sets with micro detail and wear.",
+    "texel_density": "about 512–2,048 px for each metre",
+    "filtering": "Anisotropic; temporal anti-aliasing and upscaling.",
+    "material_model": "Physically based: metal-roughness or specular-gloss with energy conservation."
+  },
+  "palette": {
+    "strategy": "Natural material colours under a neutral or a filmic grade; colour comes from light and material, not from a cast.",
+    "colour_depth": "HDR, 10 bits for each channel on output",
+    "on_screen_colours": "full HDR colour",
+    "colours": [
+      {
+        "name": "Limestone",
+        "hex": "#C9C1B2",
+        "role": "walls"
+      },
+      {
+        "name": "Oak",
+        "hex": "#8A6440",
+        "role": "wood"
+      },
+      {
+        "name": "Slate",
+        "hex": "#4A4E52",
+        "role": "roof"
+      },
+      {
+        "name": "Evening sky",
+        "hex": "#7A8FB0",
+        "role": "sky"
+      },
+      {
+        "name": "Warm lamp",
+        "hex": "#FFC27A",
+        "role": "interior light"
+      },
+      {
+        "name": "Moss",
+        "hex": "#5A6A3A",
+        "role": "vegetation"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Physically based light with global illumination and ray-traced or screen-space reflections.",
+    "shadows": "Soft, area-light shadows with contact hardening.",
+    "atmosphere": "Volumetric fog, light shafts, physical sky.",
+    "time_of_day": "A full physical day and weather cycle."
+  },
+  "world_and_space": {
+    "scale": "Real architectural scale.",
+    "interiors": "Fully dressed rooms with real furniture, light and wear.",
+    "exteriors": "Detailed streets and squares, scanned stone and dense vegetation.",
+    "threshold": "Continuous; doors open into rooms with exposure adaptation.",
+    "principles": [
+      {
+        "principle": "lighting-layers",
+        "rule": "Layer sky light, sun, practical lamps and bounce light.",
+        "value": "4 layers"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Set the camera at 160–170 cm in walk modes.",
+        "value": "160–170 cm"
+      },
+      {
+        "principle": "scale",
+        "rule": "Build at 1:1 real scale; a door is 2.0–2.1 m high.",
+        "value": "1:1"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use volumetric fog to separate foreground, middle ground and distance.",
+        "value": "3 planes"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Minimal and contextual; fades when not in use.",
+    "type_and_icons": "Clean sans fonts and thin icons.",
+    "diegesis": "More in the world: lights, maps and devices."
+  },
+  "prompt_primer": {
+    "positive": [
+      "photoreal game engine render",
+      "physically based materials",
+      "global illumination",
+      "ray traced reflections",
+      "volumetric light",
+      "scanned stone and wood textures",
+      "filmic tone mapping",
+      "current-gen video game",
+      "real architectural scale",
+      "dusk light through windows"
+    ],
+    "negative": [
+      "cartoon",
+      "cel shading",
+      "pixel art",
+      "low poly",
+      "painted light",
+      "oversaturated"
+    ],
+    "canonical_works": [
+      {
+        "work": "Ryse: Son of Rome",
+        "maker": "Crytek",
+        "year": 2013
+      },
+      {
+        "work": "The Last of Us Part II",
+        "maker": "Naughty Dog",
+        "year": 2020
+      },
+      {
+        "work": "Red Dead Redemption 2",
+        "maker": "Rockstar Games",
+        "year": 2018
+      },
+      {
+        "work": "Unreal Engine 5 demo",
+        "maker": "Epic Games",
+        "year": 2020
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "seventh-gen-desaturated"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "photorealism",
+      "architectural-photography",
+      "ai-hyperreal"
+    ]
+  },
+  "emotion": {
+    "target_response": "Presence: the viewer forgets the screen and feels in the place.",
+    "keywords": [
+      "real",
+      "immersive",
+      "rich",
+      "cinematic",
+      "tactile"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "photoreal",
+      "unreal engine",
+      "pbr",
+      "current gen graphics",
+      "real-time realism"
+    ],
+    "use_cases": [
+      "real-time architectural visualisation",
+      "interior walk-throughs",
+      "virtual showrooms",
+      "film previs"
+    ],
+    "avoid_when": [
+      "The brief wants a clear stylised identity.",
+      "The budget does not allow scanned materials."
+    ],
+    "modifiers": [
+      {
+        "request": "more stylised",
+        "toward": "hand-painted-texture",
+        "how": "Keep the layout; paint light into textures and push the shapes."
+      },
+      {
+        "request": "miniature",
+        "toward": "hd-2d-diorama",
+        "how": "Add strong depth of field and a high camera, with pixel sprites."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 2160,
+      "min": 1080,
+      "max": 2160
+    },
+    "colour_depth": {
+      "default": 30,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "third-person",
+      "options": [
+        "third-person",
+        "first-person"
+      ]
+    },
+    "shading_steps": {
+      "default": 256,
+      "min": 256,
+      "max": 256
+    },
+    "texel_density": {
+      "default": 1024,
+      "min": 512,
+      "max": 2048
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Physically based rendering",
+      "url": "https://en.wikipedia.org/wiki/Physically_based_rendering"
+    },
+    {
+      "title": "Wikipedia: Unreal Engine",
+      "url": "https://en.wikipedia.org/wiki/Unreal_Engine"
+    },
+    {
+      "title": "Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013",
+      "url": "https://blog.selfshadow.com/publications/s2013-shading-course/"
+    }
+  ]
+}

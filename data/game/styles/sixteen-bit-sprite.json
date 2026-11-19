@@ -1,0 +1,294 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "sixteen-bit-sprite",
+  "domain": "game",
+  "name": "16-bit sprite and parallax",
+  "aliases": [
+    "16-bit pixel art",
+    "SNES-era graphics",
+    "Fourth-generation console look"
+  ],
+  "era_id": "tile-and-sprite",
+  "time_period": {
+    "start": 1988,
+    "end": 1997,
+    "label": "1988–1997"
+  },
+  "region": "Japan, then worldwide",
+  "hardware": [
+    "snes",
+    "mega-drive",
+    "pc-engine",
+    "neo-geo",
+    "arcade"
+  ],
+  "summary": "Pixel art at 256×224 with up to 256 colours on screen from a 32,768-colour range. Several scrolling layers give parallax depth, sprites carry 15 colours and soft ramps, and skies get gradients made of colour bands.",
+  "philosophy": {
+    "core_thesis": "A richer palette and stacked layers let pixel art paint light, air and distance without a 3D engine.",
+    "design_principles": [
+      "Use 2 to 4 background layers that scroll at different speeds for depth.",
+      "Shade each sprite with ramps of 3 to 5 steps of one hue, lit from the top left.",
+      "Use 15 colours plus transparent in each sprite.",
+      "Paint skies as horizontal bands of 4 to 8 colours, not a smooth gradient.",
+      "Use selective outlines: dark on the outside, coloured inside.",
+      "Make a character 24 to 48 px high."
+    ],
+    "anti_patterns": [
+      "Smooth photographic gradients",
+      "Pillow shading from the centre",
+      "Filtered or blurred scaling",
+      "Inconsistent light directions between sprites",
+      "3D polygon objects"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 2,
+    "spatial_depth": 2,
+    "stylisation": 4,
+    "lighting_drama": 2,
+    "surface_density": 3
+  },
+  "projection_and_camera": {
+    "projection": "side-view",
+    "camera": "Scrolls with the player; far layers move slower than near layers.",
+    "field_of_view": "orthographic",
+    "framing": "16 by 14 tiles of 16 px; the horizon sits at 40–60% of the height."
+  },
+  "geometry": {
+    "primitive": "8×8 tiles in 2 to 4 layers; sprites up to 64×64.",
+    "budget": "128 sprites, 32 on one line; up to 4 background layers.",
+    "edge_rule": "Hard pixel edges, with hand-placed anti-alias pixels on curves.",
+    "proportion": "A character is 1.5 to 3 tiles of 16 px; a door is 2 to 3 tiles."
+  },
+  "surface": {
+    "texture_rule": "Brick, wood and leaves drawn pixel by pixel with 3- to 5-step ramps.",
+    "texel_density": "about 24 px for each metre",
+    "filtering": "Nearest neighbour; sometimes a rotate and scale layer for floors.",
+    "material_model": "Painted: light and shade are in the pixels."
+  },
+  "palette": {
+    "strategy": "Rich, saturated ramps; each layer has its own sub-palettes of 16 colours.",
+    "colour_depth": "15 bits for each palette entry, 4 or 8 bits for each pixel",
+    "on_screen_colours": "up to 256",
+    "colours": [
+      {
+        "name": "Dusk violet",
+        "hex": "#584898",
+        "role": "far sky"
+      },
+      {
+        "name": "Warm orange",
+        "hex": "#F89850",
+        "role": "horizon band"
+      },
+      {
+        "name": "Roof red",
+        "hex": "#B83820",
+        "role": "buildings"
+      },
+      {
+        "name": "Moss green",
+        "hex": "#408830",
+        "role": "trees"
+      },
+      {
+        "name": "Stone grey",
+        "hex": "#8890A0",
+        "role": "walls"
+      },
+      {
+        "name": "Lamp yellow",
+        "hex": "#F8E080",
+        "role": "window light"
+      },
+      {
+        "name": "Ink navy",
+        "hex": "#202040",
+        "role": "outline"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Painted ramps with a fixed light from the top left; colour math for half-transparent layers.",
+    "shadows": "Painted cast shadows; a dark oval under each character.",
+    "atmosphere": "Colour-band skies, clouds and fog as a half-transparent layer.",
+    "time_of_day": "Palette swaps per area: day, dusk and night versions of the same tiles."
+  },
+  "world_and_space": {
+    "scale": "Rooms 1 to 2 screens wide; towns several screens with 3 to 6 houses.",
+    "interiors": "Top-down 3/4 view rooms with visible back and side walls, furniture as sprites.",
+    "exteriors": "Streets with parallax mountains and clouds behind; house fronts in 3/4 view.",
+    "threshold": "Walk through a door; fade out and in to the room.",
+    "principles": [
+      {
+        "principle": "layering-depth",
+        "rule": "Stack 3 to 4 layers: sky, far land, mid buildings, near ground.",
+        "value": "3–4 planes"
+      },
+      {
+        "principle": "scale",
+        "rule": "Make a door 1.5 times the height of the character.",
+        "value": "door ≈ 1.5× character"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Paint 2 light layers: the sky band and warm window light.",
+        "value": "2 layers"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Put the warm window light near the player.",
+        "value": "1 warm accent"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Framed boxes in the corners or along the bottom, 10–25% of the screen.",
+    "type_and_icons": "A pixel font with lower case; small icons of 16 px with outlines.",
+    "diegesis": "On top; frames are blue gradients or stone borders."
+  },
+  "prompt_primer": {
+    "positive": [
+      "16-bit pixel art",
+      "SNES-era game graphics",
+      "parallax scrolling layers",
+      "rich pixel colour ramps",
+      "colour-banded sky gradient",
+      "hand-placed pixel shading",
+      "3/4 view town",
+      "selective outlines",
+      "256 colours",
+      "detailed sprite work"
+    ],
+    "negative": [
+      "smooth gradient",
+      "3D render",
+      "photoreal",
+      "blur",
+      "vector art",
+      "modern UI"
+    ],
+    "canonical_works": [
+      {
+        "work": "Chrono Trigger",
+        "maker": "Square",
+        "year": 1995
+      },
+      {
+        "work": "Sonic the Hedgehog",
+        "maker": "Sega",
+        "year": 1991
+      },
+      {
+        "work": "Final Fantasy VI",
+        "maker": "Square",
+        "year": 1994
+      },
+      {
+        "work": "Secret of Mana",
+        "maker": "Square",
+        "year": 1993
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "eight-bit-tile"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "ukiyo-e",
+      "pixel-art-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "A warm, rich nostalgia: the viewer sees a painted world with air in it and wants to explore.",
+    "keywords": [
+      "warm",
+      "rich",
+      "adventurous",
+      "nostalgic",
+      "painterly"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "hero",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "16-bit",
+      "snes style",
+      "mega drive look",
+      "jrpg pixel art",
+      "parallax pixel art"
+    ],
+    "use_cases": [
+      "retro game art",
+      "pixel murals",
+      "illustrated wayfinding",
+      "nostalgic marketing visuals"
+    ],
+    "avoid_when": [
+      "The brief needs real 3D space.",
+      "The design must look current and clean."
+    ],
+    "modifiers": [
+      {
+        "request": "more depth",
+        "toward": "hd-2d-diorama",
+        "how": "Keep the sprites; put them in a 3D diorama with depth of field and real light."
+      },
+      {
+        "request": "simpler",
+        "toward": "eight-bit-tile",
+        "how": "Cut the palette to about 25 colours and drop the parallax."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 224,
+      "min": 224,
+      "max": 240
+    },
+    "colour_depth": {
+      "default": 8,
+      "min": 4,
+      "max": 15
+    },
+    "camera_projection": {
+      "default": "side-view",
+      "options": [
+        "side-view",
+        "top-down"
+      ]
+    },
+    "shading_steps": {
+      "default": 4,
+      "min": 3,
+      "max": 6
+    },
+    "texel_density": {
+      "default": 24,
+      "min": 16,
+      "max": 32
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Super Nintendo Entertainment System",
+      "url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"
+    },
+    {
+      "title": "Wikipedia: Parallax scrolling",
+      "url": "https://en.wikipedia.org/wiki/Parallax_scrolling"
+    },
+    {
+      "title": "Wikipedia: Pixel art",
+      "url": "https://en.wikipedia.org/wiki/Pixel_art"
+    }
+  ]
+}

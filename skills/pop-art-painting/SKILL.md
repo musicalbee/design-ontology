@@ -187,7 +187,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`photorealism`](../photorealism/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
+- **Kin in another domain:** [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
 - **Nearest by vector profile:** [`mannerism-painting`](../mannerism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target
