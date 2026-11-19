@@ -1,0 +1,35 @@
+{
+  "id": "game",
+  "order": 10,
+  "name": "Video game",
+  "schema": "schema/domains/game.schema.json",
+  "task": "art-directing, prompting or building the look of a game world: its camera, geometry, surfaces, palette, light and the rooms and streets the player moves through",
+  "description": "Video game styles as visual rules, not as genres or stories. Each style is a set of hardware limits or art-direction choices that make one look of a world: the projection, the polygon or pixel budget, the colour depth, the light model and how rooms and streets are built for a player to move through. The domain is a source for immersive interior and exterior work: a game world is architecture that a person walks through on a screen.",
+  "vectors": [
+    { "key": "render_fidelity", "label": "Render fidelity", "abbr": "FID", "low": "a few pixels or lines that suggest a thing", "high": "a photoreal surface and light" },
+    { "key": "spatial_depth", "label": "Spatial depth", "abbr": "DEPTH", "low": "one flat plane", "high": "a free camera in a full 3D world" },
+    { "key": "stylisation", "label": "Stylisation", "abbr": "STYL", "low": "natural proportion, colour and light", "high": "drawn, exaggerated shapes and colour" },
+    { "key": "lighting_drama", "label": "Lighting drama", "abbr": "LIGHT", "low": "flat, even or unlit", "high": "hard contrast, volumetric beams and deep shadow" },
+    { "key": "surface_density", "label": "Surface density", "abbr": "DENS", "low": "bare, clean surfaces", "high": "dense detail, props and clutter" }
+  ],
+  "facets": [
+    { "key": "projection_and_camera", "title": "Projection & camera" },
+    { "key": "geometry", "title": "Geometry & shape" },
+    { "key": "surface", "title": "Surface & texture" },
+    { "key": "palette", "title": "Palette" },
+    { "key": "lighting", "title": "Light & atmosphere" },
+    { "key": "world_and_space", "title": "World & space" },
+    { "key": "interface", "title": "Interface" },
+    { "key": "prompt_primer", "title": "Prompt primer" }
+  ],
+  "assets": [
+    {"type": "scene", "purpose": "One fixed scene, a village square with a house front and an open door into a lit room, in the camera, geometry, palette and light of the style.", "made_by": "model", "file": "demo/previews/game/{id}.webp", "manifest": "demo/previews/game/manifest.json", "entry": "images.{id}", "generator": "scripts/render-previews.ts", "canvas": [{"width": 1152, "height": 768}]}
+  ],
+  "knobs": [
+    {"key": "render_resolution", "label": "Render resolution", "kind": "integer", "unit": "px", "min": 144, "max": 2160, "description": "The height of the internal frame before it is scaled to the display.", "drives": ["surface", "geometry"]},
+    {"key": "colour_depth", "label": "Colour depth", "kind": "integer", "unit": "bit/px", "min": 1, "max": 32, "description": "The bits for each pixel on screen: 2 for four shades, 8 for 256 colours, 24 or more for full colour.", "drives": ["palette"]},
+    {"key": "camera_projection", "label": "Camera projection", "kind": "enum", "options": ["side-view", "top-down", "isometric", "fixed-camera", "third-person", "first-person"], "description": "How the world is projected onto the screen.", "drives": ["projection_and_camera", "world_and_space"]},
+    {"key": "shading_steps", "label": "Shading steps", "kind": "integer", "min": 1, "max": 256, "description": "The number of tonal steps from the lit side to the shadow side of one surface: 1 = flat, 2 to 3 = cel, 256 = smooth.", "drives": ["lighting", "surface"]},
+    {"key": "texel_density", "label": "Texel density", "kind": "number", "unit": "px/m", "min": 4, "max": 2048, "description": "The texture or sprite pixels for each metre of the world.", "drives": ["surface"]}
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "low-poly-ps1-revival",
+  "domain": "game",
+  "name": "Low-poly PS1 revival",
+  "aliases": [
+    "PSX horror",
+    "Retro 3D revival",
+    "Haunted PS1 look"
+  ],
+  "era_id": "physically-based-and-indie",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "region": "Ireland, the United States and online indie scenes",
+  "hardware": [
+    "pc",
+    "web-browser",
+    "nintendo-switch"
+  ],
+  "summary": "Small indie teams copy the limits of the first 3D consoles on purpose: low polygons, warped low-res textures, vertex jitter, dither and dense fog. The look serves dread and nostalgia, often in empty houses and night streets.",
+  "philosophy": {
+    "core_thesis": "An old limit, chosen on purpose, makes a modern world feel like a half-remembered dream.",
+    "design_principles": [
+      "Render at 240–480 px height and scale up with no filter.",
+      "Snap vertices to a coarse grid so the geometry jitters.",
+      "Use affine texture mapping so textures warp on large faces.",
+      "Use textures of 64–128 px with colour-reduced, dithered colour.",
+      "Close the view with thick fog at 10–30 m.",
+      "Light scenes dimly, with one lamp or a flashlight."
+    ],
+    "anti_patterns": [
+      "Clean modern anti-aliasing",
+      "High-resolution textures",
+      "Bright, open vistas",
+      "Physically based gloss",
+      "Long draw distance"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 2,
+    "spatial_depth": 4,
+    "stylisation": 4,
+    "lighting_drama": 4,
+    "surface_density": 2
+  },
+  "projection_and_camera": {
+    "projection": "first-person",
+    "camera": "First-person or fixed horror angles.",
+    "field_of_view": "about 60–80",
+    "framing": "Eye height; short views into fog or darkness."
+  },
+  "geometry": {
+    "primitive": "A low-poly triangle with snapped vertices.",
+    "budget": "200–1,000 triangles for a character; rooms of simple boxes.",
+    "edge_rule": "Hard facets and visible jitter.",
+    "proportion": "Near real scale, slightly off; narrow corridors."
+  },
+  "surface": {
+    "texture_rule": "Small photo-sourced textures, colour-reduced and dithered.",
+    "texel_density": "about 32–64 px for each metre",
+    "filtering": "Nearest neighbour with affine warp.",
+    "material_model": "Vertex-lit diffuse only."
+  },
+  "palette": {
+    "strategy": "Dark, muddy palettes with one sick accent colour; dither in place of gradients.",
+    "colour_depth": "15 bits, dithered",
+    "on_screen_colours": "a few thousand, visibly dithered",
+    "colours": [
+      {
+        "name": "Fog black",
+        "hex": "#121212",
+        "role": "distance"
+      },
+      {
+        "name": "Wallpaper ochre",
+        "hex": "#7A6A3A",
+        "role": "walls"
+      },
+      {
+        "name": "Bruise purple",
+        "hex": "#3A2A40",
+        "role": "shadow"
+      },
+      {
+        "name": "Sick green",
+        "hex": "#6A8A3A",
+        "role": "accent"
+      },
+      {
+        "name": "Flashlight",
+        "hex": "#E8DCA0",
+        "role": "light"
+      },
+      {
+        "name": "Blood red",
+        "hex": "#6A1A1A",
+        "role": "accent"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Vertex lighting with a few point lights or a flashlight.",
+    "shadows": "Few; darkness and fog carry the mood.",
+    "atmosphere": "Thick fog, film grain, scan lines or a CRT filter.",
+    "time_of_day": "Night, or an empty grey day."
+  },
+  "world_and_space": {
+    "scale": "Near real, with tight corridors and low ceilings.",
+    "interiors": "Empty houses, motels and offices with sparse, wrong-feeling props.",
+    "exteriors": "Night streets, forests and car parks closed by fog.",
+    "threshold": "A door opens onto darkness; a cut or a short load.",
+    "principles": [
+      {
+        "principle": "sightlines",
+        "rule": "End every view in fog or darkness within 10–30 m.",
+        "value": "10–30 m"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 1 or 2 layers: a dim ambient and one lamp or a flashlight.",
+        "value": "1–2 layers"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Light one object or doorway as the only bright point.",
+        "value": "1 lit point"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Minimal; sometimes a retro menu or a CRT frame.",
+    "type_and_icons": "Pixel or 1990s bitmap fonts.",
+    "diegesis": "Mostly in the world: notes, tapes and signs."
+  },
+  "prompt_primer": {
+    "positive": [
+      "PS1 style horror game",
+      "low poly 3D",
+      "affine texture warping",
+      "vertex jitter",
+      "dithered colours",
+      "thick dark fog",
+      "low resolution render",
+      "empty house at night",
+      "flashlight beam",
+      "CRT scanlines"
+    ],
+    "negative": [
+      "high poly",
+      "4K textures",
+      "bright daylight",
+      "clean render",
+      "anti-aliasing",
+      "photoreal"
+    ],
+    "canonical_works": [
+      {
+        "work": "Haunted PS1 Demo Disc",
+        "maker": "Haunted PS1",
+        "year": 2020
+      },
+      {
+        "work": "Dusk",
+        "maker": "David Szymanski",
+        "year": 2018
+      },
+      {
+        "work": "Iron Lung",
+        "maker": "David Szymanski",
+        "year": 2022
+      },
+      {
+        "work": "Signalis",
+        "maker": "rose-engine",
+        "year": 2022
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "fifth-gen-low-poly"
+    ],
+    "rebelled_against": [
+      "pbr-photoreal"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "camcorder-revival",
+      "found-footage",
+      "film-grain-revival"
+    ]
+  },
+  "emotion": {
+    "target_response": "Uneasy nostalgia: the viewer feels a familiar old world that is wrong in some way.",
+    "keywords": [
+      "eerie",
+      "nostalgic",
+      "lo-fi",
+      "dark",
+      "dreamlike"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ps1 horror",
+      "psx style",
+      "retro 3d horror",
+      "haunted ps1",
+      "lo-fi 3d"
+    ],
+    "use_cases": [
+      "horror attractions",
+      "music videos",
+      "lo-fi art installations",
+      "indie game scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a clean or sales-grade image.",
+      "The tone must be bright and safe."
+    ],
+    "modifiers": [
+      {
+        "request": "less eerie",
+        "toward": "fifth-gen-low-poly",
+        "how": "Keep the polygons; open the fog and use brighter period colours."
+      },
+      {
+        "request": "more real",
+        "toward": "pbr-photoreal",
+        "how": "Keep the empty spaces; render with physical light and materials."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 240,
+      "min": 144,
+      "max": 480
+    },
+    "colour_depth": {
+      "default": 15,
+      "min": 8,
+      "max": 16
+    },
+    "camera_projection": {
+      "default": "first-person",
+      "options": [
+        "first-person",
+        "fixed-camera",
+        "third-person"
+      ]
+    },
+    "shading_steps": {
+      "default": 8,
+      "min": 2,
+      "max": 32
+    },
+    "texel_density": {
+      "default": 48,
+      "min": 16,
+      "max": 64
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Haunted PS1",
+      "url": "https://en.wikipedia.org/wiki/Haunted_PS1"
+    },
+    {
+      "title": "Haunted PS1 on itch.io",
+      "url": "https://hauntedps1.itch.io/"
+    },
+    {
+      "title": "Wikipedia: Affine transformation",
+      "url": "https://en.wikipedia.org/wiki/Affine_transformation"
+    }
+  ]
+}

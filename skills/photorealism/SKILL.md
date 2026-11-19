@@ -215,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`pop-art-painting`](../pop-art-painting/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Kin in another domain:** [`new-topographics`](../new-topographics/SKILL.md)
+- **Kin in another domain:** [`new-topographics`](../new-topographics/SKILL.md), [`pbr-photoreal`](../pbr-photoreal/SKILL.md)
 - **Nearest by vector profile:** [`surrealism-painting`](../surrealism-painting/SKILL.md), [`airbrush-surrealism`](../airbrush-surrealism/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
 
 ## Emotional target

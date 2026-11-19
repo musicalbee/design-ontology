@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "cel-shading",
+  "name": "Cel shading",
+  "aliases": [
+    "Toon shading",
+    "Toon shader"
+  ],
+  "kind": "technology",
+  "summary": "A render method that maps the light on a 3D surface to 2 or 3 flat tones and draws ink outlines, so 3D looks like a drawn animation cel.",
+  "how": [
+    "Quantise the light value into 2 or 3 bands with a hard edge.",
+    "Draw outlines 1–4 px wide on silhouettes, by an inverted hull or an edge filter.",
+    "Keep base colours flat; carry the shape with the bands and the lines."
+  ],
+  "origin": {
+    "domain": "game",
+    "year": 2000,
+    "where": "Tokyo",
+    "note": "Smilebit's Jet Set Radio is the first widely known cel-shaded game.",
+    "styles": [
+      "cel-shaded-3d"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "film",
+      "year": 2003,
+      "circa": true,
+      "via": "Studios render 3D vehicles and sets with toon shaders to match hand-drawn animation."
+    }
+  ],
+  "styles": [
+    "cel-shaded-3d"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Cel shading",
+      "url": "https://en.wikipedia.org/wiki/Cel_shading"
+    },
+    {
+      "title": "Wikipedia: Jet Set Radio",
+      "url": "https://en.wikipedia.org/wiki/Jet_Set_Radio"
+    }
+  ]
+}

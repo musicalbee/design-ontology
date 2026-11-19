@@ -1,0 +1,291 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "voxel-block-world",
+  "domain": "game",
+  "name": "Voxel block world",
+  "aliases": [
+    "Blocky voxel",
+    "Block-building look",
+    "Cube world"
+  ],
+  "era_id": "programmable-shader",
+  "time_period": {
+    "start": 2009,
+    "end": null,
+    "label": "2009–now"
+  },
+  "region": "Sweden and the United States, then worldwide",
+  "hardware": [
+    "pc",
+    "xbox-360",
+    "mobile",
+    "playstation-4",
+    "nintendo-switch"
+  ],
+  "summary": "The world is a grid of 1 m cubes, each with a 16×16 pixel texture on its faces. Every house, room and hill is built block by block, with nearest-neighbour pixels and simple face light.",
+  "philosophy": {
+    "core_thesis": "If the world is a grid of equal blocks, anyone can build in it, and the grid itself becomes the style.",
+    "design_principles": [
+      "Build every surface from cubes of 1 m on a 3D grid.",
+      "Texture each face with 16×16 px pixel art, scaled with no filter.",
+      "Light each face by its direction: top brightest, sides mid, bottom darkest.",
+      "Keep characters blocky: a body of rectangular boxes.",
+      "Use clear, saturated material colours: grass green, dirt brown, stone grey.",
+      "Let builds read as stacked blocks; avoid hiding the grid."
+    ],
+    "anti_patterns": [
+      "Smooth curves or bevelled edges",
+      "High-resolution or filtered textures",
+      "Objects off the block grid",
+      "Realistic characters",
+      "Photographic materials"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 2,
+    "spatial_depth": 5,
+    "stylisation": 4,
+    "lighting_drama": 2,
+    "surface_density": 2
+  },
+  "projection_and_camera": {
+    "projection": "first-person",
+    "camera": "Free first-person, or third-person behind the player.",
+    "field_of_view": "about 70–90",
+    "framing": "Eye level at 1.6 blocks; wide views over hills of blocks."
+  },
+  "geometry": {
+    "primitive": "A cube voxel of 1 m on each side.",
+    "budget": "Chunks of 16×16 columns; a view of hundreds of thousands of blocks.",
+    "edge_rule": "Hard 90° edges; every edge is on the grid.",
+    "proportion": "A character is 1.8 blocks high and 0.6 wide; a door is 1 by 2 blocks."
+  },
+  "surface": {
+    "texture_rule": "A 16×16 px tile for each material face, with simple noise in pixel art.",
+    "texel_density": "16 px for each metre",
+    "filtering": "Nearest neighbour.",
+    "material_model": "No material model; face light and smooth ambient occlusion only."
+  },
+  "palette": {
+    "strategy": "Natural, saturated material colours; each block is one recognisable material.",
+    "colour_depth": "24 bits, used in small pixel palettes",
+    "on_screen_colours": "full colour",
+    "colours": [
+      {
+        "name": "Grass",
+        "hex": "#5D9B3A",
+        "role": "top faces"
+      },
+      {
+        "name": "Dirt",
+        "hex": "#8A5A3A",
+        "role": "ground"
+      },
+      {
+        "name": "Stone",
+        "hex": "#7F7F7F",
+        "role": "rock"
+      },
+      {
+        "name": "Oak plank",
+        "hex": "#B08A50",
+        "role": "buildings"
+      },
+      {
+        "name": "Water",
+        "hex": "#3A5AE0",
+        "role": "water"
+      },
+      {
+        "name": "Sky",
+        "hex": "#8AB4FF",
+        "role": "sky"
+      },
+      {
+        "name": "Torch",
+        "hex": "#FFD24A",
+        "role": "light"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Light levels from 0 to 15 that spread block by block from the sky and torches.",
+    "shadows": "Darker blocks under cover; no sharp cast shadows by default.",
+    "atmosphere": "Distance fog and square clouds.",
+    "time_of_day": "A full day cycle with a square sun and moon."
+  },
+  "world_and_space": {
+    "scale": "1 block = 1 m; ceilings of 3 blocks are common.",
+    "interiors": "Rooms built from planks and stone with block furniture.",
+    "exteriors": "Villages of block houses on blocky hills, paths of gravel blocks.",
+    "threshold": "A 1×2 door block opens with no break.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Make a door 1 block wide and 2 blocks high for a figure 1.8 blocks high.",
+        "value": "door = 1×2 m"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep paths 2–3 blocks wide.",
+        "value": "2–3 m"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 2 layers: sky light and torch light.",
+        "value": "2 layers"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "A bar of item slots at the bottom centre, about 5% of the screen.",
+    "type_and_icons": "A pixel font and pixel-art item icons.",
+    "diegesis": "On top; signs in the world are blocks."
+  },
+  "prompt_primer": {
+    "positive": [
+      "voxel block world",
+      "cube blocks",
+      "16x16 pixel textures",
+      "blocky terrain",
+      "block house",
+      "nearest-neighbour pixels",
+      "face-shaded cubes",
+      "square clouds",
+      "blocky character"
+    ],
+    "negative": [
+      "smooth curves",
+      "high resolution textures",
+      "photoreal",
+      "rounded edges",
+      "realistic people",
+      "blur"
+    ],
+    "canonical_works": [
+      {
+        "work": "Infiniminer",
+        "maker": "Zachtronics",
+        "year": 2009
+      },
+      {
+        "work": "Minecraft",
+        "maker": "Mojang",
+        "year": 2011
+      },
+      {
+        "work": "Cube World",
+        "maker": "Picroma",
+        "year": 2013
+      },
+      {
+        "work": "Teardown",
+        "maker": "Tuxedo Labs",
+        "year": 2022
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "eight-bit-tile"
+    ],
+    "rebelled_against": [
+      "seventh-gen-desaturated"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "pixel-art-web",
+      "de-stijl-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Open creative play: the viewer sees a world that invites them to build.",
+    "keywords": [
+      "creative",
+      "playful",
+      "simple",
+      "open",
+      "modular"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "voxel",
+      "blocky",
+      "minecraft style",
+      "cube world",
+      "block building"
+    ],
+    "use_cases": [
+      "participatory design workshops",
+      "children's spaces",
+      "modular furniture concepts",
+      "massing studies"
+    ],
+    "avoid_when": [
+      "The brief needs curves or real materials.",
+      "The audience expects luxury."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "impossible-isometric-mobile",
+        "how": "Keep the cubes; use flat pastel faces and an isometric camera."
+      },
+      {
+        "request": "more retro",
+        "toward": "eight-bit-tile",
+        "how": "Collapse to a 2D side view on an 8×8 tile grid."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 1080,
+      "min": 480,
+      "max": 2160
+    },
+    "colour_depth": {
+      "default": 24,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "first-person",
+      "options": [
+        "first-person",
+        "third-person",
+        "isometric"
+      ]
+    },
+    "shading_steps": {
+      "default": 4,
+      "min": 3,
+      "max": 16
+    },
+    "texel_density": {
+      "default": 16,
+      "min": 16,
+      "max": 32
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Voxel",
+      "url": "https://en.wikipedia.org/wiki/Voxel"
+    },
+    {
+      "title": "Wikipedia: Minecraft",
+      "url": "https://en.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "title": "Wikipedia: Infiniminer",
+      "url": "https://en.wikipedia.org/wiki/Infiniminer"
+    }
+  ]
+}

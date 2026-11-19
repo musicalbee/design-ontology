@@ -1,0 +1,285 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "fifth-gen-low-poly",
+  "domain": "game",
+  "name": "Fifth-generation low poly",
+  "aliases": [
+    "PS1 look",
+    "N64 look",
+    "32/64-bit 3D"
+  ],
+  "era_id": "early-polygon",
+  "time_period": {
+    "start": 1994,
+    "end": 2001,
+    "label": "1994–2001"
+  },
+  "region": "Japan and the United States, then worldwide",
+  "hardware": [
+    "playstation",
+    "nintendo-64",
+    "saturn",
+    "pc"
+  ],
+  "summary": "Real-time 3D at about 320×240: characters of a few hundred polygons, small textures of 64 or 128 px, vertex lighting and fog at the far plane. On one console the textures warp and the vertices jitter; on another they blur.",
+  "philosophy": {
+    "core_thesis": "A world of few polygons can still be entered: a box with a picture on each face becomes a room the camera walks into.",
+    "design_principles": [
+      "Build characters from 300 to 1,000 triangles and rooms from simple boxes.",
+      "Use textures of 64×64 to 128×128 px, with detail painted in.",
+      "Light with per-vertex colour; bake shadows into the textures.",
+      "End the draw distance in fog of one colour.",
+      "Keep the frame at 320×240 or similar, and accept stepped edges.",
+      "Use a free or a following third-person camera."
+    ],
+    "anti_patterns": [
+      "High polygon counts or smooth curves",
+      "Normal maps or per-pixel light",
+      "Large, sharp textures",
+      "Long clear views to the horizon",
+      "Physically based materials"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 2,
+    "spatial_depth": 4,
+    "stylisation": 3,
+    "lighting_drama": 2,
+    "surface_density": 2
+  },
+  "projection_and_camera": {
+    "projection": "third-person",
+    "camera": "Follows the player behind the shoulder, or is fixed per room.",
+    "field_of_view": "about 60–75",
+    "framing": "Player at 1/4 to 1/3 of the frame height; fog closes the far distance."
+  },
+  "geometry": {
+    "primitive": "A flat-shaded or Gouraud-shaded triangle.",
+    "budget": "About 300–1,000 triangles for a character; a few thousand in view.",
+    "edge_rule": "Hard polygon facets; no anti-alias on the console with warp, soft blur on the console with a filter.",
+    "proportion": "Large heads and hands; doors and rooms 1.5 times real scale for the camera."
+  },
+  "surface": {
+    "texture_rule": "Small textures painted with brick, wood and dirt; the same texture tiles across large walls.",
+    "texel_density": "about 32–64 px for each metre",
+    "filtering": "Nearest with affine warp (PlayStation) or 3-point blur (N64).",
+    "material_model": "No material model; a texture times a vertex colour."
+  },
+  "palette": {
+    "strategy": "Muted, slightly dirty colours in the textures; fog in one tone fills the distance.",
+    "colour_depth": "15 or 16 bits, with dither",
+    "on_screen_colours": "thousands, with visible dither",
+    "colours": [
+      {
+        "name": "Fog grey",
+        "hex": "#8A8F96",
+        "role": "distance"
+      },
+      {
+        "name": "Concrete",
+        "hex": "#77706A",
+        "role": "walls"
+      },
+      {
+        "name": "Rust",
+        "hex": "#8C4A2E",
+        "role": "accents"
+      },
+      {
+        "name": "Grass",
+        "hex": "#4E6B32",
+        "role": "ground"
+      },
+      {
+        "name": "Sodium lamp",
+        "hex": "#E8B060",
+        "role": "light"
+      },
+      {
+        "name": "Night blue",
+        "hex": "#1E2638",
+        "role": "sky"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Per-vertex colour; a light is a brighter set of vertex colours.",
+    "shadows": "A dark blob under each character; shadows baked into textures.",
+    "atmosphere": "Distance fog in one colour; few particles.",
+    "time_of_day": "A change of fog colour and vertex tint."
+  },
+  "world_and_space": {
+    "scale": "Rooms and doors 1.5 times real size so the camera fits.",
+    "interiors": "Box rooms with tiled textures, few props, low ceilings for the draw distance.",
+    "exteriors": "Small open areas walled by cliffs or buildings, closed by fog.",
+    "threshold": "A door plays a short load animation, or a cut.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Build doors and corridors 1.5 times real size so the following camera fits.",
+        "value": "1.5× real scale"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Close long views with a wall, a turn or fog within about 40 m.",
+        "value": "≤ 40 m view"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Make corridors at least 3 m wide for the camera.",
+        "value": "≥ 3 m"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Small icons and bars in the corners, 5–10% of the screen.",
+    "type_and_icons": "Bitmap fonts with bevels; icons as small textured quads.",
+    "diegesis": "On top; some maps and notes as objects in the world."
+  },
+  "prompt_primer": {
+    "positive": [
+      "PS1-era low poly 3D",
+      "low resolution textures",
+      "affine texture warping",
+      "vertex jitter",
+      "distance fog",
+      "320x240 render",
+      "flat polygons",
+      "1990s 3D game",
+      "dithered colours",
+      "baked lighting"
+    ],
+    "negative": [
+      "high poly",
+      "photoreal",
+      "ray tracing",
+      "sharp 4K textures",
+      "smooth shading",
+      "depth of field"
+    ],
+    "canonical_works": [
+      {
+        "work": "Super Mario 64",
+        "maker": "Nintendo",
+        "year": 1996
+      },
+      {
+        "work": "Metal Gear Solid",
+        "maker": "Konami",
+        "year": 1998
+      },
+      {
+        "work": "The Legend of Zelda: Ocarina of Time",
+        "maker": "Nintendo",
+        "year": 1998
+      },
+      {
+        "work": "Silent Hill",
+        "maker": "Konami",
+        "year": 1999
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "vector-display-arcade"
+    ],
+    "rebelled_against": [
+      "sixteen-bit-sprite"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "y2k-aesthetic",
+      "camcorder-revival"
+    ]
+  },
+  "emotion": {
+    "target_response": "A strange, half-solid world: the viewer feels a place that is real enough to enter and a little uncanny.",
+    "keywords": [
+      "uncanny",
+      "nostalgic",
+      "raw",
+      "blocky",
+      "foggy"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ps1 graphics",
+      "n64 style",
+      "low poly 90s",
+      "retro 3d",
+      "playstation one look"
+    ],
+    "use_cases": [
+      "retro 3D scenes",
+      "music videos and covers",
+      "uncanny interior visuals",
+      "low-cost real-time demos"
+    ],
+    "avoid_when": [
+      "The brief needs a sales-grade realistic render.",
+      "The client expects clean modern 3D."
+    ],
+    "modifiers": [
+      {
+        "request": "more retro and eerie",
+        "toward": "low-poly-ps1-revival",
+        "how": "Keep the polygons; push the fog, the jitter and the dark palette."
+      },
+      {
+        "request": "more polished",
+        "toward": "cel-shaded-3d",
+        "how": "Keep the shapes; add outlines and a 2-step light ramp."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 240,
+      "min": 224,
+      "max": 480
+    },
+    "colour_depth": {
+      "default": 16,
+      "min": 15,
+      "max": 16
+    },
+    "camera_projection": {
+      "default": "third-person",
+      "options": [
+        "third-person",
+        "fixed-camera",
+        "first-person"
+      ]
+    },
+    "shading_steps": {
+      "default": 8,
+      "min": 2,
+      "max": 32
+    },
+    "texel_density": {
+      "default": 48,
+      "min": 16,
+      "max": 64
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: PlayStation (console)",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+    },
+    {
+      "title": "Wikipedia: Nintendo 64",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_64"
+    },
+    {
+      "title": "Wikipedia: Fifth generation of video game consoles",
+      "url": "https://en.wikipedia.org/wiki/Fifth_generation_of_video_game_consoles"
+    }
+  ]
+}

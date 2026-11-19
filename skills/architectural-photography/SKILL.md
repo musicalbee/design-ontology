@@ -198,7 +198,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
 - **Mixes well with:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md)
-- **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md)
+- **Kin in another domain:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`pbr-photoreal`](../pbr-photoreal/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Nearest by vector profile:** [`scandinavian-interior-photography`](../scandinavian-interior-photography/SKILL.md), [`duesseldorf-school`](../duesseldorf-school/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
 
 ## Emotional target

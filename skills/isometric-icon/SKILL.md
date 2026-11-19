@@ -163,6 +163,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`pixel-icon`](../pixel-icon/SKILL.md)
 - **Mixes well with:** [`flat-icon`](../flat-icon/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
+- **Kin in another domain:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md)
 - **Nearest by vector profile:** [`flat-icon`](../flat-icon/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md), [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
 
 ## Emotional target

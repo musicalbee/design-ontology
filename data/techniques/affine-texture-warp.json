@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "affine-texture-warp",
+  "name": "Affine texture warp",
+  "aliases": [
+    "Affine texture mapping",
+    "PS1 wobble"
+  ],
+  "kind": "technology",
+  "summary": "Texture mapping with no perspective correction: the texture is spread in a straight line across each triangle, so it bends and swims as the camera moves.",
+  "how": [
+    "Map textures in screen space with no division by depth.",
+    "Snap vertices to whole pixels so geometry jitters.",
+    "Split large faces into smaller triangles to limit the warp."
+  ],
+  "origin": {
+    "domain": "game",
+    "year": 1994,
+    "where": "Sony, Tokyo",
+    "note": "The PlayStation's graphics chip maps textures with no perspective correction."
+  },
+  "adoptions": [
+    {
+      "domain": "game",
+      "year": 1994,
+      "via": "PlayStation games show warped floors and walls as a side effect of the hardware.",
+      "styles": [
+        "fifth-gen-low-poly"
+      ]
+    },
+    {
+      "domain": "game",
+      "year": 2018,
+      "via": "Haunted PS1 developers use shaders that copy the warp on purpose.",
+      "styles": [
+        "low-poly-ps1-revival"
+      ]
+    }
+  ],
+  "styles": [
+    "fifth-gen-low-poly",
+    "low-poly-ps1-revival"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Texture mapping",
+      "url": "https://en.wikipedia.org/wiki/Texture_mapping"
+    },
+    {
+      "title": "Wikipedia: PlayStation (console)",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+    }
+  ]
+}

@@ -269,7 +269,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **warmer and Nordic**: move toward [`scandinavian-interior`](../scandinavian-interior/SKILL.md) (Scandinavian interior). Paint the brick white, add pale wood, wool and many small lamps; keep the open plan.
 
 - **Came from (go here for a more orthodox version):** [`bauhaus-interior`](../bauhaus-interior/SKILL.md)
-- **Kin in another domain:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md)
+- **Kin in another domain:** [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`new-topographics`](../new-topographics/SKILL.md), [`seventh-gen-desaturated`](../seventh-gen-desaturated/SKILL.md)
 - **Nearest by vector profile:** [`coastal-interior`](../coastal-interior/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md)
 
 ## Emotional target

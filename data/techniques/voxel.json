@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "voxel",
+  "name": "Voxel",
+  "aliases": [
+    "Volume pixel",
+    "Block grid"
+  ],
+  "kind": "technology",
+  "summary": "A value on a regular 3D grid: the volume version of a pixel. A world of voxels is built, lit and changed cell by cell.",
+  "how": [
+    "Fix one cell size for the whole world, for example 1 m.",
+    "Keep every surface on the grid; no free rotation.",
+    "Light each cell by the light level of its neighbours."
+  ],
+  "origin": {
+    "domain": "game",
+    "year": 1992,
+    "where": "NovaLogic, Calabasas, California",
+    "note": "Comanche draws its terrain with the Voxel Space engine."
+  },
+  "adoptions": [
+    {
+      "domain": "game",
+      "year": 2009,
+      "via": "Infiniminer and Minecraft build whole worlds from cube cells.",
+      "styles": [
+        "voxel-block-world"
+      ]
+    }
+  ],
+  "styles": [
+    "voxel-block-world"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Voxel",
+      "url": "https://en.wikipedia.org/wiki/Voxel"
+    },
+    {
+      "title": "Wikipedia: Comanche (video game series)",
+      "url": "https://en.wikipedia.org/wiki/Comanche_(video_game_series)"
+    }
+  ]
+}

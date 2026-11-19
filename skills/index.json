@@ -18158,6 +18158,1225 @@
           "max": 0.06
         }
       }
+    },
+    {
+      "id": "vector-display-arcade",
+      "name": "Vector display arcade",
+      "domain": "game",
+      "era": "arcade-age",
+      "period": "1979–1985",
+      "thesis": "A world can be drawn with light alone: a few sharp glowing lines on black are enough for the eye to build space.",
+      "summary": "The beam of the tube draws lines, not pixels. Bright monochrome or colour outlines glow on pure black, with no fill, no texture and a world built from wire shapes.",
+      "path": "skills/vector-display-arcade/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "vector graphics game",
+        "wireframe arcade",
+        "glowing line art",
+        "vector monitor",
+        "neon wireframe"
+      ],
+      "use_cases": [
+        "retro-futurist title screens",
+        "light installations",
+        "night-time wayfinding concepts",
+        "sci-fi interiors with line lighting"
+      ],
+      "emotion": [
+        "electric",
+        "exact",
+        "cold",
+        "futurist",
+        "minimal"
+      ],
+      "archetypes": [
+        "magician",
+        "explorer"
+      ],
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 3,
+        "stylisation": 5,
+        "lighting_drama": 3,
+        "surface_density": 1
+      },
+      "techniques": [
+        "vector-display"
+      ],
+      "media": [
+        "atari-inc"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 768,
+          "min": 480,
+          "max": 1024,
+          "note": "The addressable field of the beam, not a raster."
+        },
+        "colour_depth": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "camera_projection": {
+          "default": "first-person",
+          "options": [
+            "first-person",
+            "side-view",
+            "top-down"
+          ]
+        },
+        "shading_steps": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "texel_density": {
+          "default": 4,
+          "min": 4,
+          "max": 4,
+          "note": "No texture: the floor of the range."
+        }
+      }
+    },
+    {
+      "id": "eight-bit-tile",
+      "name": "8-bit tile graphics",
+      "domain": "game",
+      "era": "tile-and-sprite",
+      "period": "1983–1992",
+      "thesis": "A small grid and a small palette force each object into its clearest silhouette, so a house in 16 pixels reads at once.",
+      "summary": "A world drawn from 8×8 pixel tiles on a 256×240 screen, with 3 colours plus transparency in each sprite and a fixed hardware palette of about 54 colours. Black outlines and flat fills make each house and tree a small icon.",
+      "path": "skills/eight-bit-tile/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "8-bit",
+        "nes style",
+        "retro pixel art",
+        "chiptune era",
+        "8-bit game look"
+      ],
+      "use_cases": [
+        "retro game art",
+        "playful wayfinding",
+        "pixel-art murals and tiles",
+        "kids' rooms and play areas"
+      ],
+      "emotion": [
+        "playful",
+        "bright",
+        "clear",
+        "nostalgic",
+        "toy-like"
+      ],
+      "archetypes": [
+        "jester",
+        "innocent",
+        "hero"
+      ],
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 1,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 2
+      },
+      "techniques": [
+        "pixel-grid"
+      ],
+      "media": [
+        "famitsu",
+        "nintendo-power"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 240,
+          "min": 192,
+          "max": 240
+        },
+        "colour_depth": {
+          "default": 4,
+          "min": 2,
+          "max": 6,
+          "note": "A 54-colour master palette, used through 2-bit sub-palettes."
+        },
+        "camera_projection": {
+          "default": "side-view",
+          "options": [
+            "side-view",
+            "top-down"
+          ]
+        },
+        "shading_steps": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        },
+        "texel_density": {
+          "default": 16,
+          "min": 8,
+          "max": 24
+        }
+      }
+    },
+    {
+      "id": "isometric-pixel-world",
+      "name": "Isometric pixel world",
+      "domain": "game",
+      "era": "tile-and-sprite",
+      "period": "1984–2002",
+      "thesis": "A fixed 2:1 diagonal gives depth with no perspective, so a room can be read whole like an architect's axonometric drawing.",
+      "summary": "The world is seen from above at a fixed angle with 2:1 pixel diagonals. Rooms become boxes cut open on two sides, so a player reads walls, floor and furniture at once.",
+      "path": "skills/isometric-pixel-world/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "isometric pixel art",
+        "isometric game",
+        "2.5d view",
+        "cut-away room",
+        "dimetric"
+      ],
+      "use_cases": [
+        "floor-plan illustrations",
+        "space-planning visuals",
+        "game maps",
+        "explainer graphics of a building"
+      ],
+      "emotion": [
+        "ordered",
+        "legible",
+        "miniature",
+        "calm",
+        "strategic"
+      ],
+      "archetypes": [
+        "sage",
+        "ruler",
+        "creator"
+      ],
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 3,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 3
+      },
+      "techniques": [
+        "isometric-projection",
+        "pixel-grid"
+      ],
+      "media": [
+        "sega",
+        "ultimate-play-the-game"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 240,
+          "min": 192,
+          "max": 600
+        },
+        "colour_depth": {
+          "default": 8,
+          "min": 1,
+          "max": 8
+        },
+        "camera_projection": {
+          "default": "isometric",
+          "options": [
+            "isometric"
+          ]
+        },
+        "shading_steps": {
+          "default": 3,
+          "min": 2,
+          "max": 4
+        },
+        "texel_density": {
+          "default": 32,
+          "min": 16,
+          "max": 64
+        }
+      }
+    },
+    {
+      "id": "sixteen-bit-sprite",
+      "name": "16-bit sprite and parallax",
+      "domain": "game",
+      "era": "tile-and-sprite",
+      "period": "1988–1997",
+      "thesis": "A richer palette and stacked layers let pixel art paint light, air and distance without a 3D engine.",
+      "summary": "Pixel art at 256×224 with up to 256 colours on screen from a 32,768-colour range. Several scrolling layers give parallax depth, sprites carry 15 colours and soft ramps, and skies get gradients made of colour bands.",
+      "path": "skills/sixteen-bit-sprite/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "16-bit",
+        "snes style",
+        "mega drive look",
+        "jrpg pixel art",
+        "parallax pixel art"
+      ],
+      "use_cases": [
+        "retro game art",
+        "pixel murals",
+        "illustrated wayfinding",
+        "nostalgic marketing visuals"
+      ],
+      "emotion": [
+        "warm",
+        "rich",
+        "adventurous",
+        "nostalgic",
+        "painterly"
+      ],
+      "archetypes": [
+        "explorer",
+        "hero",
+        "creator"
+      ],
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 2,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 3
+      },
+      "techniques": [
+        "multiplane-parallax",
+        "pixel-grid"
+      ],
+      "media": [
+        "electronic-gaming-monthly",
+        "nintendo-power",
+        "sega",
+        "square"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 224,
+          "min": 224,
+          "max": 240
+        },
+        "colour_depth": {
+          "default": 8,
+          "min": 4,
+          "max": 15
+        },
+        "camera_projection": {
+          "default": "side-view",
+          "options": [
+            "side-view",
+            "top-down"
+          ]
+        },
+        "shading_steps": {
+          "default": 4,
+          "min": 3,
+          "max": 6
+        },
+        "texel_density": {
+          "default": 24,
+          "min": 16,
+          "max": 32
+        }
+      }
+    },
+    {
+      "id": "four-shade-handheld",
+      "name": "Four-shade handheld",
+      "domain": "game",
+      "era": "tile-and-sprite",
+      "period": "1989–1998",
+      "thesis": "Four values of one colour are enough for a world, if the pattern and the outline carry the form.",
+      "summary": "A 160×144 screen with four shades of one olive-green hue. Every house and room is drawn from 8×8 tiles in light, two mid tones and dark, so form lives only in value and pattern.",
+      "path": "skills/four-shade-handheld/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "game boy",
+        "four shades of green",
+        "dmg palette",
+        "monochrome pixel art",
+        "handheld retro"
+      ],
+      "use_cases": [
+        "one-colour pixel graphics",
+        "screen-printed tiles and textiles",
+        "monochrome wayfinding",
+        "small-screen interfaces"
+      ],
+      "emotion": [
+        "quiet",
+        "nostalgic",
+        "compact",
+        "humble",
+        "focused"
+      ],
+      "archetypes": [
+        "innocent",
+        "everyman"
+      ],
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 1,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 1
+      },
+      "techniques": [
+        "pixel-grid"
+      ],
+      "media": [
+        "nintendo-rd1"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 144,
+          "min": 144,
+          "max": 144
+        },
+        "colour_depth": {
+          "default": 2,
+          "min": 2,
+          "max": 2
+        },
+        "camera_projection": {
+          "default": "top-down",
+          "options": [
+            "top-down",
+            "side-view"
+          ]
+        },
+        "shading_steps": {
+          "default": 2,
+          "min": 1,
+          "max": 4
+        },
+        "texel_density": {
+          "default": 16,
+          "min": 8,
+          "max": 16
+        }
+      }
+    },
+    {
+      "id": "pre-rendered-backgrounds",
+      "name": "Pre-rendered backgrounds",
+      "domain": "game",
+      "era": "early-polygon",
+      "period": "1993–2002",
+      "thesis": "If the camera does not move, each view can be a finished render, composed like a film frame.",
+      "summary": "Rooms and streets are rendered offline in 3D software and shown as still images at fixed camera angles. The player moves as a low-poly figure, or as a cursor, over a scene with far more light and detail than the console can draw.",
+      "path": "skills/pre-rendered-backgrounds/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "pre-rendered",
+        "fixed camera",
+        "myst style",
+        "90s cgi",
+        "survival horror rooms"
+      ],
+      "use_cases": [
+        "moody interior stills",
+        "escape-room design",
+        "storyboards for spaces",
+        "narrative installations"
+      ],
+      "emotion": [
+        "cinematic",
+        "mysterious",
+        "moody",
+        "rich",
+        "suspenseful"
+      ],
+      "archetypes": [
+        "magician",
+        "explorer",
+        "sage"
+      ],
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 3,
+        "stylisation": 3,
+        "lighting_drama": 4,
+        "surface_density": 4
+      },
+      "techniques": [
+        "pre-rendered-background"
+      ],
+      "media": [
+        "cyan-worlds",
+        "square"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 480,
+          "min": 240,
+          "max": 480
+        },
+        "colour_depth": {
+          "default": 16,
+          "min": 15,
+          "max": 24
+        },
+        "camera_projection": {
+          "default": "fixed-camera",
+          "options": [
+            "fixed-camera",
+            "first-person"
+          ]
+        },
+        "shading_steps": {
+          "default": 128,
+          "min": 64,
+          "max": 256
+        },
+        "texel_density": {
+          "default": 96,
+          "min": 64,
+          "max": 128
+        }
+      }
+    },
+    {
+      "id": "fifth-gen-low-poly",
+      "name": "Fifth-generation low poly",
+      "domain": "game",
+      "era": "early-polygon",
+      "period": "1994–2001",
+      "thesis": "A world of few polygons can still be entered: a box with a picture on each face becomes a room the camera walks into.",
+      "summary": "Real-time 3D at about 320×240: characters of a few hundred polygons, small textures of 64 or 128 px, vertex lighting and fog at the far plane. On one console the textures warp and the vertices jitter; on another they blur.",
+      "path": "skills/fifth-gen-low-poly/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "ps1 graphics",
+        "n64 style",
+        "low poly 90s",
+        "retro 3d",
+        "playstation one look"
+      ],
+      "use_cases": [
+        "retro 3D scenes",
+        "music videos and covers",
+        "uncanny interior visuals",
+        "low-cost real-time demos"
+      ],
+      "emotion": [
+        "uncanny",
+        "nostalgic",
+        "raw",
+        "blocky",
+        "foggy"
+      ],
+      "archetypes": [
+        "explorer",
+        "outlaw"
+      ],
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 4,
+        "stylisation": 3,
+        "lighting_drama": 2,
+        "surface_density": 2
+      },
+      "techniques": [
+        "affine-texture-warp"
+      ],
+      "media": [
+        "edge-magazine"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 240,
+          "min": 224,
+          "max": 480
+        },
+        "colour_depth": {
+          "default": 16,
+          "min": 15,
+          "max": 16
+        },
+        "camera_projection": {
+          "default": "third-person",
+          "options": [
+            "third-person",
+            "fixed-camera",
+            "first-person"
+          ]
+        },
+        "shading_steps": {
+          "default": 8,
+          "min": 2,
+          "max": 32
+        },
+        "texel_density": {
+          "default": 48,
+          "min": 16,
+          "max": 64
+        }
+      }
+    },
+    {
+      "id": "cel-shaded-3d",
+      "name": "Cel-shaded 3D",
+      "domain": "game",
+      "era": "programmable-shader",
+      "period": "2000–now",
+      "thesis": "Real-time 3D does not need to imitate a photograph; it can imitate a drawing and keep its clarity at any angle.",
+      "summary": "3D models drawn to look like a cartoon or an animation cel: light falls in 2 or 3 flat steps, black outlines trace each shape, and colours stay bright and flat. A full 3D world looks hand drawn.",
+      "path": "skills/cel-shaded-3d/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "cel shaded",
+        "toon shader",
+        "anime 3d",
+        "cartoon 3d",
+        "wind waker style"
+      ],
+      "use_cases": [
+        "playful brand worlds",
+        "kids' and family spaces",
+        "animated explainers",
+        "stylised visualisation of a concept"
+      ],
+      "emotion": [
+        "joyful",
+        "bright",
+        "playful",
+        "clear",
+        "animated"
+      ],
+      "archetypes": [
+        "jester",
+        "hero",
+        "innocent"
+      ],
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 5,
+        "stylisation": 5,
+        "lighting_drama": 2,
+        "surface_density": 2
+      },
+      "techniques": [
+        "cel-shading"
+      ],
+      "media": [
+        "smilebit"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 1080,
+          "min": 480,
+          "max": 2160
+        },
+        "colour_depth": {
+          "default": 24,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "third-person",
+          "options": [
+            "third-person",
+            "first-person",
+            "isometric"
+          ]
+        },
+        "shading_steps": {
+          "default": 2,
+          "min": 2,
+          "max": 3
+        },
+        "texel_density": {
+          "default": 128,
+          "min": 32,
+          "max": 512
+        }
+      }
+    },
+    {
+      "id": "hand-painted-texture",
+      "name": "Hand-painted texture",
+      "domain": "game",
+      "era": "programmable-shader",
+      "period": "2004–now",
+      "thesis": "A painter's hand can carry the light of a world, so a small engine budget still gives a warm, rich place.",
+      "summary": "Mid-poly models with textures painted by hand: light, shadow, wear and colour shifts are in the paint, not in the engine. Chunky, exaggerated buildings and bright, saturated colour read clearly at a distance.",
+      "path": "skills/hand-painted-texture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "hand painted",
+        "stylised game art",
+        "warcraft style",
+        "painterly 3d",
+        "fantasy village"
+      ],
+      "use_cases": [
+        "themed hospitality interiors",
+        "fantasy environments",
+        "children's attractions",
+        "stylised real-time scenes"
+      ],
+      "emotion": [
+        "warm",
+        "cosy",
+        "heroic",
+        "colourful",
+        "inviting"
+      ],
+      "archetypes": [
+        "explorer",
+        "hero",
+        "caregiver"
+      ],
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 5,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 3
+      },
+      "techniques": [
+        "hand-painted-texture"
+      ],
+      "media": [
+        "blizzard-entertainment",
+        "polycount"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 1080,
+          "min": 720,
+          "max": 2160
+        },
+        "colour_depth": {
+          "default": 24,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "third-person",
+          "options": [
+            "third-person",
+            "isometric",
+            "top-down"
+          ]
+        },
+        "shading_steps": {
+          "default": 16,
+          "min": 4,
+          "max": 64
+        },
+        "texel_density": {
+          "default": 192,
+          "min": 64,
+          "max": 512
+        }
+      }
+    },
+    {
+      "id": "seventh-gen-desaturated",
+      "name": "Seventh-generation desaturated bloom",
+      "domain": "game",
+      "era": "programmable-shader",
+      "period": "2005–2013",
+      "thesis": "Realism is grit: a serious world is grey, worn and wet, and light blooms out of the dark.",
+      "summary": "The first HD consoles push normal maps, bloom and HDR light, and art direction answers with grey, brown and teal: desaturated ruins, heavy contrast, glowing windows and wet, specular surfaces.",
+      "path": "skills/seventh-gen-desaturated/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "gritty hd",
+        "brown and grey",
+        "bloom heavy",
+        "2008 game graphics",
+        "desaturated realism"
+      ],
+      "use_cases": [
+        "industrial and post-apocalyptic themes",
+        "escape rooms",
+        "military or survival attractions",
+        "period game references"
+      ],
+      "emotion": [
+        "gritty",
+        "heavy",
+        "tense",
+        "serious",
+        "bleak"
+      ],
+      "archetypes": [
+        "hero",
+        "outlaw"
+      ],
+      "vectors": {
+        "render_fidelity": 4,
+        "spatial_depth": 5,
+        "stylisation": 2,
+        "lighting_drama": 4,
+        "surface_density": 4
+      },
+      "techniques": [
+        "bloom-and-hdr"
+      ],
+      "media": [
+        "epic-games"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 720,
+          "min": 600,
+          "max": 1080
+        },
+        "colour_depth": {
+          "default": 24,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "third-person",
+          "options": [
+            "third-person",
+            "first-person"
+          ]
+        },
+        "shading_steps": {
+          "default": 256,
+          "min": 128,
+          "max": 256
+        },
+        "texel_density": {
+          "default": 384,
+          "min": 128,
+          "max": 512
+        }
+      }
+    },
+    {
+      "id": "voxel-block-world",
+      "name": "Voxel block world",
+      "domain": "game",
+      "era": "programmable-shader",
+      "period": "2009–now",
+      "thesis": "If the world is a grid of equal blocks, anyone can build in it, and the grid itself becomes the style.",
+      "summary": "The world is a grid of 1 m cubes, each with a 16×16 pixel texture on its faces. Every house, room and hill is built block by block, with nearest-neighbour pixels and simple face light.",
+      "path": "skills/voxel-block-world/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "voxel",
+        "blocky",
+        "minecraft style",
+        "cube world",
+        "block building"
+      ],
+      "use_cases": [
+        "participatory design workshops",
+        "children's spaces",
+        "modular furniture concepts",
+        "massing studies"
+      ],
+      "emotion": [
+        "creative",
+        "playful",
+        "simple",
+        "open",
+        "modular"
+      ],
+      "archetypes": [
+        "creator",
+        "explorer",
+        "everyman"
+      ],
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 5,
+        "stylisation": 4,
+        "lighting_drama": 2,
+        "surface_density": 2
+      },
+      "techniques": [
+        "voxel"
+      ],
+      "media": [
+        "itch-io",
+        "mojang-studios",
+        "tigsource"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 1080,
+          "min": 480,
+          "max": 2160
+        },
+        "colour_depth": {
+          "default": 24,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "first-person",
+          "options": [
+            "first-person",
+            "third-person",
+            "isometric"
+          ]
+        },
+        "shading_steps": {
+          "default": 4,
+          "min": 3,
+          "max": 16
+        },
+        "texel_density": {
+          "default": 16,
+          "min": 16,
+          "max": 32
+        }
+      }
+    },
+    {
+      "id": "pbr-photoreal",
+      "name": "PBR photoreal",
+      "domain": "game",
+      "era": "physically-based-and-indie",
+      "period": "2013–now",
+      "thesis": "If every material obeys the same physics of light, the world looks real from any angle and at any hour.",
+      "summary": "Materials follow physics: albedo, roughness and metalness answer one light model, so wood, stone and metal look right in any light. Scanned surfaces, global illumination and ray-traced reflections push game worlds close to architectural renders.",
+      "path": "skills/pbr-photoreal/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "photoreal",
+        "unreal engine",
+        "pbr",
+        "current gen graphics",
+        "real-time realism"
+      ],
+      "use_cases": [
+        "real-time architectural visualisation",
+        "interior walk-throughs",
+        "virtual showrooms",
+        "film previs"
+      ],
+      "emotion": [
+        "real",
+        "immersive",
+        "rich",
+        "cinematic",
+        "tactile"
+      ],
+      "archetypes": [
+        "explorer",
+        "ruler"
+      ],
+      "vectors": {
+        "render_fidelity": 5,
+        "spatial_depth": 5,
+        "stylisation": 1,
+        "lighting_drama": 4,
+        "surface_density": 5
+      },
+      "techniques": [
+        "physically-based-rendering"
+      ],
+      "media": [
+        "epic-games",
+        "polycount"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 2160,
+          "min": 1080,
+          "max": 2160
+        },
+        "colour_depth": {
+          "default": 30,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "third-person",
+          "options": [
+            "third-person",
+            "first-person"
+          ]
+        },
+        "shading_steps": {
+          "default": 256,
+          "min": 256,
+          "max": 256
+        },
+        "texel_density": {
+          "default": 1024,
+          "min": 512,
+          "max": 2048
+        }
+      }
+    },
+    {
+      "id": "impossible-isometric-mobile",
+      "name": "Flat geometric isometric",
+      "domain": "game",
+      "era": "physically-based-and-indie",
+      "period": "2014–now",
+      "thesis": "Architecture reduced to pure faces and an orthographic view becomes a calm puzzle that a hand can turn.",
+      "summary": "Clean geometric architecture in an orthographic isometric view, coloured in flat pastel faces with no texture. Stairs, arches and towers are built like a paper model, and the space can fold into impossible shapes.",
+      "path": "skills/impossible-isometric-mobile/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "monument valley style",
+        "flat isometric",
+        "pastel geometric",
+        "impossible architecture",
+        "low poly pastel"
+      ],
+      "use_cases": [
+        "architectural concept art",
+        "brand illustrations",
+        "calm interactive installations",
+        "wayfinding art"
+      ],
+      "emotion": [
+        "serene",
+        "dreamy",
+        "elegant",
+        "minimal",
+        "curious"
+      ],
+      "archetypes": [
+        "magician",
+        "sage",
+        "innocent"
+      ],
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 3,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 1
+      },
+      "techniques": [
+        "isometric-projection"
+      ],
+      "media": [
+        "app-store",
+        "edge-magazine",
+        "ustwo"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 1080,
+          "min": 720,
+          "max": 2160
+        },
+        "colour_depth": {
+          "default": 24,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "isometric",
+          "options": [
+            "isometric"
+          ]
+        },
+        "shading_steps": {
+          "default": 3,
+          "min": 2,
+          "max": 4
+        },
+        "texel_density": {
+          "default": 4,
+          "min": 4,
+          "max": 4,
+          "note": "No texture: the floor of the range."
+        }
+      }
+    },
+    {
+      "id": "hd-2d-diorama",
+      "name": "HD-2D diorama",
+      "domain": "game",
+      "era": "physically-based-and-indie",
+      "period": "2018–now",
+      "thesis": "Old pixel sprites inside modern light and depth of field read as a lovingly built miniature.",
+      "summary": "Pixel-art sprites stand in a 3D world built like a miniature model, seen from a high camera with strong depth of field, bloom and modern light. The world looks like a toy diorama lit at golden hour.",
+      "path": "skills/hd-2d-diorama/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "hd-2d",
+        "octopath style",
+        "pixel diorama",
+        "tilt-shift pixel art",
+        "miniature rpg"
+      ],
+      "use_cases": [
+        "model-like city visuals",
+        "warm marketing scenes",
+        "interior vignettes in miniature",
+        "game environments"
+      ],
+      "emotion": [
+        "nostalgic",
+        "warm",
+        "magical",
+        "miniature",
+        "cinematic"
+      ],
+      "archetypes": [
+        "magician",
+        "explorer",
+        "innocent"
+      ],
+      "vectors": {
+        "render_fidelity": 3,
+        "spatial_depth": 4,
+        "stylisation": 4,
+        "lighting_drama": 4,
+        "surface_density": 4
+      },
+      "techniques": [
+        "bloom-and-hdr",
+        "tilt-shift"
+      ],
+      "media": [
+        "famitsu"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 1080,
+          "min": 720,
+          "max": 2160
+        },
+        "colour_depth": {
+          "default": 24,
+          "min": 24,
+          "max": 32
+        },
+        "camera_projection": {
+          "default": "third-person",
+          "options": [
+            "third-person",
+            "isometric"
+          ]
+        },
+        "shading_steps": {
+          "default": 64,
+          "min": 16,
+          "max": 256
+        },
+        "texel_density": {
+          "default": 48,
+          "min": 32,
+          "max": 64
+        }
+      }
+    },
+    {
+      "id": "low-poly-ps1-revival",
+      "name": "Low-poly PS1 revival",
+      "domain": "game",
+      "era": "physically-based-and-indie",
+      "period": "2018–now",
+      "thesis": "An old limit, chosen on purpose, makes a modern world feel like a half-remembered dream.",
+      "summary": "Small indie teams copy the limits of the first 3D consoles on purpose: low polygons, warped low-res textures, vertex jitter, dither and dense fog. The look serves dread and nostalgia, often in empty houses and night streets.",
+      "path": "skills/low-poly-ps1-revival/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "ps1 horror",
+        "psx style",
+        "retro 3d horror",
+        "haunted ps1",
+        "lo-fi 3d"
+      ],
+      "use_cases": [
+        "horror attractions",
+        "music videos",
+        "lo-fi art installations",
+        "indie game scenes"
+      ],
+      "emotion": [
+        "eerie",
+        "nostalgic",
+        "lo-fi",
+        "dark",
+        "dreamlike"
+      ],
+      "archetypes": [
+        "outlaw",
+        "magician"
+      ],
+      "vectors": {
+        "render_fidelity": 2,
+        "spatial_depth": 4,
+        "stylisation": 4,
+        "lighting_drama": 4,
+        "surface_density": 2
+      },
+      "techniques": [
+        "affine-texture-warp"
+      ],
+      "media": [
+        "haunted-ps1",
+        "itch-io",
+        "puppet-combo"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 240,
+          "min": 144,
+          "max": 480
+        },
+        "colour_depth": {
+          "default": 15,
+          "min": 8,
+          "max": 16
+        },
+        "camera_projection": {
+          "default": "first-person",
+          "options": [
+            "first-person",
+            "fixed-camera",
+            "third-person"
+          ]
+        },
+        "shading_steps": {
+          "default": 8,
+          "min": 2,
+          "max": 32
+        },
+        "texel_density": {
+          "default": 48,
+          "min": 16,
+          "max": 64
+        }
+      }
     }
   ],
   "techniques": [
@@ -18184,6 +19403,41 @@
       ],
       "styles": [
         "cinematic-fpv"
+      ]
+    },
+    {
+      "id": "affine-texture-warp",
+      "name": "Affine texture warp",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 1994,
+        "where": "Sony, Tokyo",
+        "note": "The PlayStation's graphics chip maps textures with no perspective correction."
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 1994,
+          "via": "PlayStation games show warped floors and walls as a side effect of the hardware.",
+          "styles": [
+            "fifth-gen-low-poly"
+          ],
+          "lag_years": 0
+        },
+        {
+          "domain": "game",
+          "year": 2018,
+          "via": "Haunted PS1 developers use shaders that copy the warp on purpose.",
+          "styles": [
+            "low-poly-ps1-revival"
+          ],
+          "lag_years": 24
+        }
+      ],
+      "styles": [
+        "fifth-gen-low-poly",
+        "low-poly-ps1-revival"
       ]
     },
     {
@@ -18397,6 +19651,41 @@
       ]
     },
     {
+      "id": "bloom-and-hdr",
+      "name": "Bloom and HDR",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 2005,
+        "where": "Valve, Bellevue, Washington",
+        "note": "Half-Life 2: Lost Coast is made to show HDR rendering."
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2006,
+          "via": "Gears of War and other HD console games use bloom across whole scenes.",
+          "styles": [
+            "seventh-gen-desaturated"
+          ],
+          "lag_years": 1
+        },
+        {
+          "domain": "game",
+          "year": 2018,
+          "via": "HD-2D games use bloom on lamps to make pixel scenes glow.",
+          "styles": [
+            "hd-2d-diorama"
+          ],
+          "lag_years": 13
+        }
+      ],
+      "styles": [
+        "seventh-gen-desaturated",
+        "hd-2d-diorama"
+      ]
+    },
+    {
       "id": "board-marked-concrete",
       "name": "Board-marked concrete",
       "kind": "material",
@@ -18576,6 +19865,32 @@
         "organic-architecture",
         "bauhaus-architecture",
         "international-style-architecture"
+      ]
+    },
+    {
+      "id": "cel-shading",
+      "name": "Cel shading",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 2000,
+        "where": "Tokyo",
+        "note": "Smilebit's Jet Set Radio is the first widely known cel-shaded game.",
+        "styles": [
+          "cel-shaded-3d"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "film",
+          "year": 2003,
+          "circa": true,
+          "via": "Studios render 3D vehicles and sets with toon shaders to match hand-drawn animation.",
+          "lag_years": 3
+        }
+      ],
+      "styles": [
+        "cel-shaded-3d"
       ]
     },
     {
@@ -19780,6 +21095,35 @@
       ]
     },
     {
+      "id": "hand-painted-texture",
+      "name": "Hand-painted texture",
+      "kind": "skill",
+      "origin": {
+        "domain": "game",
+        "year": 2004,
+        "circa": true,
+        "where": "Irvine, California",
+        "note": "World of Warcraft makes hand-painted, diffuse-only textures the standard of its art team.",
+        "styles": [
+          "hand-painted-texture"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2009,
+          "via": "Torchlight and League of Legends carry the hand-painted look to other studios and to mobile games.",
+          "styles": [
+            "hand-painted-texture"
+          ],
+          "lag_years": 5
+        }
+      ],
+      "styles": [
+        "hand-painted-texture"
+      ]
+    },
+    {
       "id": "handheld-camera",
       "name": "Handheld camera",
       "kind": "tool",
@@ -19923,6 +21267,30 @@
           "lag_years": 101
         },
         {
+          "domain": "game",
+          "year": 1982,
+          "via": "Sega's Zaxxon is the first arcade game in an isometric view.",
+          "lag_years": 160
+        },
+        {
+          "domain": "game",
+          "year": 1984,
+          "via": "Ultimate's Knight Lore builds rooms as isometric boxes on home computers.",
+          "styles": [
+            "isometric-pixel-world"
+          ],
+          "lag_years": 162
+        },
+        {
+          "domain": "game",
+          "year": 2014,
+          "via": "Monument Valley uses an orthographic isometric view for impossible architecture.",
+          "styles": [
+            "impossible-isometric-mobile"
+          ],
+          "lag_years": 192
+        },
+        {
           "domain": "design",
           "year": 2015,
           "circa": true,
@@ -19946,7 +21314,9 @@
       "styles": [
         "corporate-memphis",
         "bento-grid-ui",
-        "isometric-icon"
+        "isometric-icon",
+        "isometric-pixel-world",
+        "impossible-isometric-mobile"
       ]
     },
     {
@@ -20559,6 +21929,21 @@
       },
       "adoptions": [
         {
+          "domain": "game",
+          "year": 1982,
+          "via": "Moon Patrol scrolls 3 background layers at different speeds in arcades.",
+          "lag_years": 45
+        },
+        {
+          "domain": "game",
+          "year": 1990,
+          "via": "16-bit consoles scroll 2 to 4 hardware layers for parallax depth.",
+          "styles": [
+            "sixteen-bit-sprite"
+          ],
+          "lag_years": 53
+        },
+        {
           "domain": "design",
           "year": 2011,
           "circa": true,
@@ -20580,7 +21965,8 @@
       ],
       "styles": [
         "flat-design",
-        "spatial-visionos"
+        "spatial-visionos",
+        "sixteen-bit-sprite"
       ]
     },
     {
@@ -20892,6 +22278,31 @@
       ]
     },
     {
+      "id": "physically-based-rendering",
+      "name": "Physically based rendering",
+      "kind": "technology",
+      "origin": {
+        "domain": "film",
+        "year": 2012,
+        "where": "Walt Disney Animation Studios, Burbank",
+        "note": "Brent Burley presents the Disney principled BRDF at SIGGRAPH."
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2013,
+          "via": "Brian Karis presents the Unreal Engine 4 shading model at SIGGRAPH; engines move to metal-roughness materials.",
+          "styles": [
+            "pbr-photoreal"
+          ],
+          "lag_years": 1
+        }
+      ],
+      "styles": [
+        "pbr-photoreal"
+      ]
+    },
+    {
       "id": "pixel-grid",
       "name": "Pixel grid",
       "kind": "process",
@@ -20911,6 +22322,15 @@
           "lag_years": 10
         },
         {
+          "domain": "game",
+          "year": 1983,
+          "via": "The Famicom builds every screen from 8×8 tiles in a fixed palette.",
+          "styles": [
+            "eight-bit-tile"
+          ],
+          "lag_years": 20
+        },
+        {
           "domain": "icon",
           "year": 1984,
           "via": "Susan Kare draws the Macintosh icons and the Chicago bitmap face on a grid of 32 by 32 cells.",
@@ -20920,10 +22340,37 @@
           "lag_years": 21
         },
         {
+          "domain": "game",
+          "year": 1984,
+          "via": "Knight Lore draws isometric rooms cell by cell on the ZX Spectrum.",
+          "styles": [
+            "isometric-pixel-world"
+          ],
+          "lag_years": 21
+        },
+        {
           "domain": "typeface",
           "year": 1985,
           "via": "Zuzana Licko draws the Emigre bitmap faces for the 72 dpi screen and the dot-matrix printer.",
           "lag_years": 22
+        },
+        {
+          "domain": "game",
+          "year": 1989,
+          "via": "The Game Boy limits the grid to 160×144 cells in four shades.",
+          "styles": [
+            "four-shade-handheld"
+          ],
+          "lag_years": 26
+        },
+        {
+          "domain": "game",
+          "year": 1990,
+          "via": "The Super Famicom widens the palette to 256 colours on screen.",
+          "styles": [
+            "sixteen-bit-sprite"
+          ],
+          "lag_years": 27
         },
         {
           "domain": "design",
@@ -20949,7 +22396,11 @@
       "styles": [
         "pixel-icon",
         "pixel-art-web",
-        "japanese-dense-web"
+        "japanese-dense-web",
+        "eight-bit-tile",
+        "four-shade-handheld",
+        "sixteen-bit-sprite",
+        "isometric-pixel-world"
       ]
     },
     {
@@ -21025,6 +22476,34 @@
       "styles": [
         "formal-script",
         "victorian-trademark"
+      ]
+    },
+    {
+      "id": "pre-rendered-background",
+      "name": "Pre-rendered background",
+      "kind": "process",
+      "origin": {
+        "domain": "game",
+        "year": 1993,
+        "where": "Spokane, Washington",
+        "note": "Cyan's Myst shows its island as a set of pre-rendered still views.",
+        "styles": [
+          "pre-rendered-backgrounds"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 1996,
+          "via": "Resident Evil sets polygon figures over pre-rendered rooms on the PlayStation.",
+          "styles": [
+            "pre-rendered-backgrounds"
+          ],
+          "lag_years": 3
+        }
+      ],
+      "styles": [
+        "pre-rendered-backgrounds"
       ]
     },
     {
@@ -21804,6 +23283,15 @@
           "year": 2012,
           "via": "Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web.",
           "lag_years": 108
+        },
+        {
+          "domain": "game",
+          "year": 2018,
+          "via": "Octopath Traveler blurs the top and bottom of each frame so the world reads as a miniature.",
+          "styles": [
+            "hd-2d-diorama"
+          ],
+          "lag_years": 114
         }
       ],
       "styles": [
@@ -21812,7 +23300,8 @@
         "straight-photography",
         "new-colour",
         "food-photography",
-        "scandinavian-interior-photography"
+        "scandinavian-interior-photography",
+        "hd-2d-diorama"
       ]
     },
     {
@@ -21854,6 +23343,56 @@
         "renaissance-painting",
         "mannerism-painting",
         "baroque-architecture"
+      ]
+    },
+    {
+      "id": "vector-display",
+      "name": "Vector display",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 1962,
+        "where": "MIT, Cambridge, Massachusetts",
+        "note": "Spacewar! runs on the point-plotting display of the PDP-1."
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 1979,
+          "via": "Atari ships Asteroids and Lunar Lander on vector monitors in arcades.",
+          "styles": [
+            "vector-display-arcade"
+          ],
+          "lag_years": 17
+        }
+      ],
+      "styles": [
+        "vector-display-arcade"
+      ]
+    },
+    {
+      "id": "voxel",
+      "name": "Voxel",
+      "kind": "technology",
+      "origin": {
+        "domain": "game",
+        "year": 1992,
+        "where": "NovaLogic, Calabasas, California",
+        "note": "Comanche draws its terrain with the Voxel Space engine."
+      },
+      "adoptions": [
+        {
+          "domain": "game",
+          "year": 2009,
+          "via": "Infiniminer and Minecraft build whole worlds from cube cells.",
+          "styles": [
+            "voxel-block-world"
+          ],
+          "lag_years": 17
+        }
+      ],
+      "styles": [
+        "voxel-block-world"
       ]
     },
     {

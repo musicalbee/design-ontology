@@ -148,10 +148,12 @@ Flat layers move at different speeds by their distance, so that a flat picture g
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Film & Video | 1937 | — | The Old Mill: Disney's multiplane camera moves painted glass layers at different speeds; The Old Mill (1937) is its first film. | |
-| 1 | Graphic & UI Design | c. 2011 | +74 years | Parallax scroll pages move the background layers slower than the page. | [`flat-design`](./flat-design/SKILL.md) |
-| 2 | Graphic & UI Design | 2015 | +78 years | Layered app icons on tvOS, and later visionOS, tilt their layers with parallax. | [`spatial-visionos`](./spatial-visionos/SKILL.md) |
+| 1 | Video game | 1982 | +45 years | Moon Patrol scrolls 3 background layers at different speeds in arcades. |  |
+| 2 | Video game | 1990 | +53 years | 16-bit consoles scroll 2 to 4 hardware layers for parallax depth. | [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md) |
+| 3 | Graphic & UI Design | c. 2011 | +74 years | Parallax scroll pages move the background layers slower than the page. | [`flat-design`](./flat-design/SKILL.md) |
+| 4 | Graphic & UI Design | 2015 | +78 years | Layered app icons on tvOS, and later visionOS, tilt their layers with parallax. | [`spatial-visionos`](./spatial-visionos/SKILL.md) |
 
-Used by: [`flat-design`](./flat-design/SKILL.md), [`spatial-visionos`](./spatial-visionos/SKILL.md).
+Used by: [`flat-design`](./flat-design/SKILL.md), [`spatial-visionos`](./spatial-visionos/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md).
 
 - Move each layer at a speed in proportion to its distance: a far layer at 20% to 50% of the speed of the front layer.
 - Use 3 to 5 layers; more layers add load and no depth.
@@ -976,10 +978,13 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 |---|---|---|---|---|---|
 | Origin | Architecture | 1822 | — | Cambridge: William Farish publishes isometrical perspective as a method for engineering drawing. | |
 | 1 | Architecture | 1923 | +101 years | Theo van Doesburg and Cornelis van Eesteren show houses in axonometric drawings. |  |
-| 2 | Graphic & UI Design | c. 2015 | +193 years | Isometric illustrations show products, data and offices on tech pages. | [`corporate-memphis`](./corporate-memphis/SKILL.md) |
-| 3 | Icons | c. 2015 | +193 years | Icon packs for product pages and dashboards draw small objects on the isometric grid. | [`isometric-icon`](./isometric-icon/SKILL.md) |
+| 2 | Video game | 1982 | +160 years | Sega's Zaxxon is the first arcade game in an isometric view. |  |
+| 3 | Video game | 1984 | +162 years | Ultimate's Knight Lore builds rooms as isometric boxes on home computers. | [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md) |
+| 4 | Video game | 2014 | +192 years | Monument Valley uses an orthographic isometric view for impossible architecture. | [`impossible-isometric-mobile`](./impossible-isometric-mobile/SKILL.md) |
+| 5 | Graphic & UI Design | c. 2015 | +193 years | Isometric illustrations show products, data and offices on tech pages. | [`corporate-memphis`](./corporate-memphis/SKILL.md) |
+| 6 | Icons | c. 2015 | +193 years | Icon packs for product pages and dashboards draw small objects on the isometric grid. | [`isometric-icon`](./isometric-icon/SKILL.md) |
 
-Used by: [`corporate-memphis`](./corporate-memphis/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`isometric-icon`](./isometric-icon/SKILL.md).
+Used by: [`corporate-memphis`](./corporate-memphis/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`isometric-icon`](./isometric-icon/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md), [`impossible-isometric-mobile`](./impossible-isometric-mobile/SKILL.md).
 
 - Draw the three axes at 120° to each other; on a pixel grid, use a 2:1 slope (26.57°).
 - Keep one scale on all three axes and draw no vanishing point.
@@ -1111,12 +1116,16 @@ A picture or a letter built from square cells that are each on or off, or one fl
 |---|---|---|---|---|---|
 | Origin | Film & Video | c. 1963 | — | Bell Labs, New Jersey: Ken Knowlton writes BEFLIX, a language that draws computer films as grids of cells in a small set of grey tones. | |
 | 1 | Icons | c. 1973 | +10 years | The Xerox Alto has a bitmap display, and its programs draw icons cell by cell. |  |
-| 2 | Icons | 1984 | +21 years | Susan Kare draws the Macintosh icons and the Chicago bitmap face on a grid of 32 by 32 cells. | [`pixel-icon`](./pixel-icon/SKILL.md) |
-| 3 | Typeface | 1985 | +22 years | Zuzana Licko draws the Emigre bitmap faces for the 72 dpi screen and the dot-matrix printer. |  |
-| 4 | Graphic & UI Design | c. 1998 | +35 years | The eBoy group publishes pixel illustrations of cities and objects on the web. | [`pixel-art-web`](./pixel-art-web/SKILL.md) |
-| 5 | Graphic & UI Design | c. 1999 | +36 years | Japanese portal pages set text at 10 to 12 px in bitmap kanji fonts, so each glyph sits on the pixel grid. | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) |
+| 2 | Video game | 1983 | +20 years | The Famicom builds every screen from 8×8 tiles in a fixed palette. | [`eight-bit-tile`](./eight-bit-tile/SKILL.md) |
+| 3 | Icons | 1984 | +21 years | Susan Kare draws the Macintosh icons and the Chicago bitmap face on a grid of 32 by 32 cells. | [`pixel-icon`](./pixel-icon/SKILL.md) |
+| 4 | Video game | 1984 | +21 years | Knight Lore draws isometric rooms cell by cell on the ZX Spectrum. | [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md) |
+| 5 | Typeface | 1985 | +22 years | Zuzana Licko draws the Emigre bitmap faces for the 72 dpi screen and the dot-matrix printer. |  |
+| 6 | Video game | 1989 | +26 years | The Game Boy limits the grid to 160×144 cells in four shades. | [`four-shade-handheld`](./four-shade-handheld/SKILL.md) |
+| 7 | Video game | 1990 | +27 years | The Super Famicom widens the palette to 256 colours on screen. | [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md) |
+| 8 | Graphic & UI Design | c. 1998 | +35 years | The eBoy group publishes pixel illustrations of cities and objects on the web. | [`pixel-art-web`](./pixel-art-web/SKILL.md) |
+| 9 | Graphic & UI Design | c. 1999 | +36 years | Japanese portal pages set text at 10 to 12 px in bitmap kanji fonts, so each glyph sits on the pixel grid. | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) |
 
-Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md).
+Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md), [`eight-bit-tile`](./eight-bit-tile/SKILL.md), [`four-shade-handheld`](./four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md).
 
 - Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
 - Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
@@ -1142,6 +1151,24 @@ Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-ro
 - Use the light that is there; add no lamp.
 
 Sources: John House, Impressionism: Paint and Politics (2004).
+
+### Pre-rendered background
+
+Render a room or a street offline in 3D software, then show it as a fixed image behind a real-time figure or a cursor.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | 1993 | — | Spokane, Washington: Cyan's Myst shows its island as a set of pre-rendered still views. | |
+| 1 | Video game | 1996 | +3 years | Resident Evil sets polygon figures over pre-rendered rooms on the PlayStation. | [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md) |
+
+Used by: [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md).
+
+- Fix the camera for each view and compose it like a film frame.
+- Render the background with offline light: soft shadows and many lamps.
+- Paint a depth mask so that the figure can pass behind props.
+- Match the figure's light direction to the render.
+
+Sources: [Wikipedia: Pre-rendering](https://en.wikipedia.org/wiki/Pre-rendering); [Wikipedia: Myst](https://en.wikipedia.org/wiki/Myst).
 
 ### Roof light
 
@@ -1486,8 +1513,9 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 | 6 | Photography | c. 2008 | +104 years | Food photographers tilt the plane of focus so that one bite is sharp and the rest falls away. | [`food-photography`](./food-photography/SKILL.md) |
 | 7 | Photography | c. 2010 | +106 years | Interior photographers for Nordic magazines and blogs use shift lenses to keep walls vertical. | [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md) |
 | 8 | Graphic & UI Design | 2012 | +108 years | Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web. |  |
+| 9 | Video game | 2018 | +114 years | Octopath Traveler blurs the top and bottom of each frame so the world reads as a miniature. | [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md) |
 
-Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./architectural-photography/SKILL.md), [`straight-photography`](./straight-photography/SKILL.md), [`new-colour`](./new-colour/SKILL.md), [`food-photography`](./food-photography/SKILL.md), [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md).
+Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./architectural-photography/SKILL.md), [`straight-photography`](./straight-photography/SKILL.md), [`new-colour`](./new-colour/SKILL.md), [`food-photography`](./food-photography/SKILL.md), [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md), [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md).
 
 - Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.
 - Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.
@@ -1496,7 +1524,44 @@ Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./ar
 
 Sources: [Wikipedia: Tilt–shift photography](https://en.wikipedia.org/wiki/Tilt%E2%80%93shift_photography); [Wikipedia: Scheimpflug principle](https://en.wikipedia.org/wiki/Scheimpflug_principle).
 
+## Skill
+
+### Hand-painted texture
+
+Paint the colour, light, shadow and wear of a surface by hand into its texture, so the material reads with little help from the engine.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | c. 2004 | — | Irvine, California: World of Warcraft makes hand-painted, diffuse-only textures the standard of its art team. | |
+| 1 | Video game | 2009 | +5 years | Torchlight and League of Legends carry the hand-painted look to other studios and to mobile games. | [`hand-painted-texture`](./hand-painted-texture/SKILL.md) |
+
+Used by: [`hand-painted-texture`](./hand-painted-texture/SKILL.md).
+
+- Paint light from above: lighter top edges and darker bottoms on each element.
+- Shift shadows toward cool hues and highlights toward warm hues.
+- Paint wear as bright strokes 2–4 px wide on edges.
+
+Sources: [Wikipedia: World of Warcraft](https://en.wikipedia.org/wiki/World_of_Warcraft); [Wikipedia: Texture mapping](https://en.wikipedia.org/wiki/Texture_mapping).
+
 ## Technology
+
+### Affine texture warp
+
+Texture mapping with no perspective correction: the texture is spread in a straight line across each triangle, so it bends and swims as the camera moves.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | 1994 | — | Sony, Tokyo: The PlayStation's graphics chip maps textures with no perspective correction. | |
+| 1 | Video game | 1994 | +0 years | PlayStation games show warped floors and walls as a side effect of the hardware. | [`fifth-gen-low-poly`](./fifth-gen-low-poly/SKILL.md) |
+| 2 | Video game | 2018 | +24 years | Haunted PS1 developers use shaders that copy the warp on purpose. | [`low-poly-ps1-revival`](./low-poly-ps1-revival/SKILL.md) |
+
+Used by: [`fifth-gen-low-poly`](./fifth-gen-low-poly/SKILL.md), [`low-poly-ps1-revival`](./low-poly-ps1-revival/SKILL.md).
+
+- Map textures in screen space with no division by depth.
+- Snap vertices to whole pixels so geometry jitters.
+- Split large faces into smaller triangles to limit the warp.
+
+Sources: [Wikipedia: Texture mapping](https://en.wikipedia.org/wiki/Texture_mapping); [Wikipedia: PlayStation (console)](https://en.wikipedia.org/wiki/PlayStation_(console)).
 
 ### Backdrop blur
 
@@ -1515,6 +1580,41 @@ Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
 - Add a 1 px light edge at 20% to 50% opacity to show the edge of the glass.
 
 Sources: W3C, Filter Effects Module Level 2: backdrop-filter.
+
+### Bloom and HDR
+
+Render light in a high dynamic range, map it down to the screen, and let the brightest areas glow past their edges as on a camera lens.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | 2005 | — | Valve, Bellevue, Washington: Half-Life 2: Lost Coast is made to show HDR rendering. | |
+| 1 | Video game | 2006 | +1 years | Gears of War and other HD console games use bloom across whole scenes. | [`seventh-gen-desaturated`](./seventh-gen-desaturated/SKILL.md) |
+| 2 | Video game | 2018 | +13 years | HD-2D games use bloom on lamps to make pixel scenes glow. | [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md) |
+
+Used by: [`seventh-gen-desaturated`](./seventh-gen-desaturated/SKILL.md), [`hd-2d-diorama`](./hd-2d-diorama/SKILL.md).
+
+- Render in a floating-point buffer; keep sky and lamps 10–100 times brighter than walls.
+- Blur pixels above a threshold and add them back as a glow.
+- Map the range to the screen with a tone curve and eye adaptation.
+
+Sources: [Wikipedia: High-dynamic-range rendering](https://en.wikipedia.org/wiki/High-dynamic-range_rendering); [Wikipedia: Bloom (shader effect)](https://en.wikipedia.org/wiki/Bloom_(shader_effect)).
+
+### Cel shading
+
+A render method that maps the light on a 3D surface to 2 or 3 flat tones and draws ink outlines, so 3D looks like a drawn animation cel.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | 2000 | — | Tokyo: Smilebit's Jet Set Radio is the first widely known cel-shaded game. | |
+| 1 | Film & Video | c. 2003 | +3 years | Studios render 3D vehicles and sets with toon shaders to match hand-drawn animation. |  |
+
+Used by: [`cel-shaded-3d`](./cel-shaded-3d/SKILL.md).
+
+- Quantise the light value into 2 or 3 bands with a hard edge.
+- Draw outlines 1–4 px wide on silhouettes, by an inverted hull or an edge filter.
+- Keep base colours flat; carry the shape with the bands and the lines.
+
+Sources: [Wikipedia: Cel shading](https://en.wikipedia.org/wiki/Cel_shading); [Wikipedia: Jet Set Radio](https://en.wikipedia.org/wiki/Jet_Set_Radio).
 
 ### Curtain wall
 
@@ -1586,6 +1686,23 @@ Used by: [`neo-grotesque-sans`](./neo-grotesque-sans/SKILL.md).
 
 Sources: Adrian Frutiger, Signs and Symbols (1989).
 
+### Physically based rendering
+
+A render model in which each material has measured albedo, roughness and metalness and conserves energy, so it looks right under any light.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | 2012 | — | Walt Disney Animation Studios, Burbank: Brent Burley presents the Disney principled BRDF at SIGGRAPH. | |
+| 1 | Video game | 2013 | +1 years | Brian Karis presents the Unreal Engine 4 shading model at SIGGRAPH; engines move to metal-roughness materials. | [`pbr-photoreal`](./pbr-photoreal/SKILL.md) |
+
+Used by: [`pbr-photoreal`](./pbr-photoreal/SKILL.md).
+
+- Keep albedo in a physical range: about 30–240 sRGB for non-metals.
+- Set roughness and metalness from measured or scanned samples.
+- Light with physical units and a real sky; let light bounce.
+
+Sources: [Wikipedia: Physically based rendering](https://en.wikipedia.org/wiki/Physically_based_rendering); [Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013](https://blog.selfshadow.com/publications/s2013-shading-course/).
+
 ### 35 mm camera
 
 A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that the photographer can work by hand in the street.
@@ -1604,6 +1721,40 @@ Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-ph
 - Show the full frame; keep the 2:3 format.
 
 Sources: Ian Jeffrey, Photography: A Concise History (1981).
+
+### Vector display
+
+A cathode-ray tube whose beam draws straight lines from point to point, not a raster of pixels. Lines are sharp at any angle and glow on a black ground.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | 1962 | — | MIT, Cambridge, Massachusetts: Spacewar! runs on the point-plotting display of the PDP-1. | |
+| 1 | Video game | 1979 | +17 years | Atari ships Asteroids and Lunar Lander on vector monitors in arcades. | [`vector-display-arcade`](./vector-display-arcade/SKILL.md) |
+
+Used by: [`vector-display-arcade`](./vector-display-arcade/SKILL.md).
+
+- Draw each object as a list of line segments; keep a whole frame under a few thousand segments.
+- Keep the ground black; only the lines emit light.
+- Use full beam brightness for the player and half for the background.
+
+Sources: [Wikipedia: Vector monitor](https://en.wikipedia.org/wiki/Vector_monitor); [Wikipedia: Spacewar!](https://en.wikipedia.org/wiki/Spacewar!).
+
+### Voxel
+
+A value on a regular 3D grid: the volume version of a pixel. A world of voxels is built, lit and changed cell by cell.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Video game | 1992 | — | NovaLogic, Calabasas, California: Comanche draws its terrain with the Voxel Space engine. | |
+| 1 | Video game | 2009 | +17 years | Infiniminer and Minecraft build whole worlds from cube cells. | [`voxel-block-world`](./voxel-block-world/SKILL.md) |
+
+Used by: [`voxel-block-world`](./voxel-block-world/SKILL.md).
+
+- Fix one cell size for the whole world, for example 1 m.
+- Keep every surface on the grid; no free rotation.
+- Light each cell by the light level of its neighbours.
+
+Sources: [Wikipedia: Voxel](https://en.wikipedia.org/wiki/Voxel); [Wikipedia: Comanche (video game series)](https://en.wikipedia.org/wiki/Comanche_(video_game_series)).
 
 ---
 
