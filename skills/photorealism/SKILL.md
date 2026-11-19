@@ -195,6 +195,17 @@ A grid laid over a subject or a photograph and a matching grid on the canvas; th
 - Paint each square at the same focus, with an even grain over the full surface.
 - Scale up by a fixed ratio, for example 10:1.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #9DB4C7 | #9DB4C7, #C4322B, #E3B83A, #4A4D52 | palette |
+| Value contrast (`value_contrast`) | 0.7 | 0.55–0.85 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.1 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

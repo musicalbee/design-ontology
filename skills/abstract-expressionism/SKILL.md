@@ -163,6 +163,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `negative-space` | Negative space | The empty area around and between elements. It is a part of the composition, not a remainder. | empty frame area (% of image): 30–70 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Soak-stain (process, invented here)
+
+Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth drinks the colour and the colour and the weave become one. Origin: painting, New York, 1952.
+
+- Thin oil with turpentine, or acrylic with water, until it flows like ink.
+- Lay the canvas flat and unprimed on the floor; pour in pools and guide the paint with a sponge or a tilt of the cloth.
+- Leave 30% to 60% of the cloth bare so that the raw colour is part of the picture.
+- Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #141414 | #141414, #8E1B2C, #14305A, #C99A3A | palette |
+| Value contrast (`value_contrast`) | 0.85 | 0.6–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 4 | 2–8 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 1:1, 4:5, 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

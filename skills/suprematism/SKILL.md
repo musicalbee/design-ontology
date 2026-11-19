@@ -176,6 +176,25 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 - Use one saturated colour (red) against a white or black field.
 - Leave a clear field around the diagonal: at least 50% of the area stays empty.
 
+### Primary shapes (motif, invented here)
+
+The circle, the square and the triangle in flat colour, used as the whole picture or as a sign. Origin: painting, Petrograd, Russia, 1915.
+
+- Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
+- Fill each shape with one flat colour; no gradient and no outline.
+- Put the shapes on a plain ground with 30% or more empty space.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #F2EFE6 | #F2EFE6, #16161A, #C9302C, #2F4FA2 | palette |
+| Value contrast (`value_contrast`) | 0.85 | 0.7–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.2 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 4:5 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

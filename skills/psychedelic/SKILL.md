@@ -241,6 +241,19 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Whiplash line (motif)
+
+A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke. Origin: architecture, Brussels, c. 1893.
+
+- Draw each line as an S-curve with a radius that changes along its length.
+- Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
+- Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
+- Use few colours, 2 to 4, in muted tones.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

@@ -209,6 +209,18 @@ A cut inside one continuous shot that removes time and leaves the jump in view. 
 - Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
 - In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 9:16 | 9:16 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 30 | 24–60 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 2 | 1.5–3 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 5000–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0 | 0–0.03 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

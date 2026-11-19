@@ -238,6 +238,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Drop cap (motif)
+
+A large first letter that drops down 2 or more lines of text and marks the start of a chapter or an article. Origin: typeface, Mainz, Germany, 1457.
+
+- Set the drop cap to the height of 3 to 4 body lines; align its top with the cap height of the first line.
+- Set the first 3 to 5 words after it in small capitals.
+- Use one drop cap for each article or chapter.
+
 ## Permutations
 
 Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.

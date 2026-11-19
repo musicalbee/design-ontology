@@ -186,6 +186,18 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
 - Repeat the horizontal line in a run of 2 or 3 projecting planes to give a strong shadow.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 2.8 | 2.4–3.4 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 3–8 m | structure |
+| Glazing ratio (`glazing_ratio`) | 45 | 30–60 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 5 | 0–20 deg | massing |
+| Base material (`base_material`) | stone | stone, concrete, timber, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

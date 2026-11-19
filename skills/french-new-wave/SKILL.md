@@ -223,6 +223,18 @@ The salons, schools, magazines, publishers, galleries and platforms that carried
 
 - **Cahiers du cinéma** (magazine, Paris, 1951–now), published the style. A film magazine whose young critics argued for the director as author. Several of them went on to make the first films of the French New Wave.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.37:1 | 1.37:1, 1.66:1, 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 6.5 | 5–8 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.22 | 0.18–0.25 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

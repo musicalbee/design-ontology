@@ -277,6 +277,12 @@
       }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#1E6BFF", "options": ["#0B1140", "#1E6BFF", "#E0189B", "#FF7A1A"]},
+    "value_contrast": {"default": 0.9, "min": 0.75, "max": 1.0},
+    "brush_size": {"default": 0, "min": 0, "max": 0.2, "note": "The airbrush leaves no stroke, so the size stays near 0."},
+    "canvas_ratio": {"default": "1:1", "options": ["1:1", "2:3", "3:2"]}
+  },
   "sources": [
     {
       "title": "CARI, Consumer Aesthetics Research Institute: Airbrush Surrealism",

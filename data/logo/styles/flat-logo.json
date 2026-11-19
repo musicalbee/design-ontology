@@ -209,6 +209,12 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"default": "#4285F4", "options": ["#4285F4", "#EA4335", "#FBBC05", "#34A853"]},
+    "colour_count": {"default": 4, "min": 1, "max": 4},
+    "stroke_weight": {"default": 8, "min": 6, "max": 10, "note": "A stroke is 1/12 of the icon size."},
+    "container": {"default": "square", "options": ["square", "circle", "none"]}
+  },
   "sources": [
     {
       "title": "Wikipedia: Flat design",

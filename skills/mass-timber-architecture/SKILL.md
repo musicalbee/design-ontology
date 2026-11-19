@@ -188,6 +188,18 @@ Thin boards or veneers glued in layers, so that wood forms long spans, bent shap
 - Bend veneers of 1 to 3mm in a mould for furniture; glue 5 to 9 layers.
 - Leave the layered edge in view as a line pattern.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.3 | 3–3.6 m | massing, facade |
+| Structural grid (`structural_grid`) | 7.5 | 6–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 45 | 35–60 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–10 deg | massing |
+| Base material (`base_material`) | timber | timber, concrete, glass | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

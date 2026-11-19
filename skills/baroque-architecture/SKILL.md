@@ -174,6 +174,30 @@ Reference works:
 | Würzburg Residence | Balthasar Neumann | 1744 |
 | Karlskirche, Vienna | Johann Bernhard Fischer von Erlach | 1737 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Trompe-l'oeil (process)
+
+Painted perspective that continues the real room, so that a flat wall or ceiling seems to open into space. Origin: painting, Mantua, Italy, c. 1465.
+
+- Set the vanishing point at the eye of a viewer who stands at one marked spot in the room.
+- Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
+- Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 5.5 | 4.5–8 m | massing, facade |
+| Structural grid (`structural_grid`) | 5 | 4–6 m | structure |
+| Glazing ratio (`glazing_ratio`) | 22 | 15–30 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 35 | 0–60 deg | massing |
+| Base material (`base_material`) | stone | stone, brick | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

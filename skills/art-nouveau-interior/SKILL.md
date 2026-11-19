@@ -237,6 +237,39 @@ Reference works:
 | Dining room for Eugène Vallin | Eugène Vallin | 1903 |
 | Tiffany lamps | Tiffany Studios | 1900 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Stained glass (material)
+
+Pieces of coloured glass held in lead strips, so that a window becomes a picture of coloured light. Origin: architecture, Saint-Denis, France, 1144.
+
+- Cut each piece to one colour; join the pieces with H-section lead 4 to 8 mm wide.
+- Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
+- Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
+
+### Whiplash line (motif)
+
+A long S-shaped line whose curve changes along its length, drawn from a plant stem; it joins structure and ornament in one stroke. Origin: architecture, Brussels, c. 1893.
+
+- Draw each line as an S-curve with a radius that changes along its length.
+- Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
+- Join letters, frame and plant forms with the same line; leave no straight edge to break the flow.
+- Use few colours, 2 to 4, in muted tones.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #EDE3C8 | #EDE3C8, #7D8B5A | palette |
+| Accent colour (`accent_colour`) | #D49A3A | #D49A3A, #8C6C8E, #A8843F | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3.2 | 2.8–4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2300–3000 K | lighting |
+| Object density (`object_density`) | 0.6 | 0.45–0.75 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

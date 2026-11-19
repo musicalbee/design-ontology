@@ -257,6 +257,18 @@ The salons, schools, magazines, publishers, galleries and platforms that carried
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), made the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F4F4F0 | #F4F4F0, #C9C9C4 | palette |
+| Accent colour (`accent_colour`) | #C8281E | #C8281E, #F2C230, #1F4E9C | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.8 | 2.5–3.5 m | composition, lighting |
+| Light temperature (`light_temperature`) | 3500 | 3000–4000 K | lighting |
+| Object density (`object_density`) | 0.15 | 0.05–0.25 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

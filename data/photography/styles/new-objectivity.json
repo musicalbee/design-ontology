@@ -245,6 +245,36 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 5500,
+      "min": 5000,
+      "max": 6000
+    },
+    "contrast": {
+      "default": 1.1,
+      "min": 1.0,
+      "max": 1.25
+    },
+    "grain": {
+      "default": 25,
+      "min": 25,
+      "max": 50
+    },
+    "focal_length": {
+      "default": 50,
+      "min": 45,
+      "max": 90,
+      "note": "This is the 35 mm equivalent of 135 to 210 mm on a 9×12 cm or 13×18 cm plate, used close."
+    },
+    "aspect_ratio": {
+      "default": "3:4",
+      "options": [
+        "3:4",
+        "4:5"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q160218: New Objectivity (Neue Sachlichkeit)",

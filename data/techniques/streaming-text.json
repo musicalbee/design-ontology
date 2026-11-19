@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "streaming-text",
+  "name": "Streaming text",
+  "aliases": [
+    "Token streaming",
+    "Typewriter reveal"
+  ],
+  "kind": "animation",
+  "summary": "Text that appears word by word as the system writes it, so the reader can read the answer before it is complete.",
+  "how": [
+    "Show each new word or token as it comes, with no fade longer than 100 ms.",
+    "Keep the bottom line in view while the text grows; stop the auto-scroll when the reader scrolls up.",
+    "Show one cursor or dot at the end of the text while it is streaming."
+  ],
+  "origin": {
+    "domain": "design",
+    "year": 2022,
+    "where": "United States",
+    "note": "ChatGPT streams its answers word by word in a single column.",
+    "styles": [
+      "ai-chat-ui"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2023,
+      "via": "Other chat assistants and search tools copy the streamed answer."
+    }
+  ],
+  "styles": [
+    "ai-chat-ui"
+  ],
+  "sources": [
+    {
+      "title": "OpenAI, Introducing ChatGPT (2022)"
+    }
+  ]
+}

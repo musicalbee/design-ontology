@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "drop-cap",
+  "name": "Drop cap",
+  "aliases": [
+    "Initial",
+    "Versal"
+  ],
+  "kind": "motif",
+  "summary": "A large first letter that drops down 2 or more lines of text and marks the start of a chapter or an article.",
+  "how": [
+    "Set the drop cap to the height of 3 to 4 body lines; align its top with the cap height of the first line.",
+    "Set the first 3 to 5 words after it in small capitals.",
+    "Use one drop cap for each article or chapter."
+  ],
+  "origin": {
+    "domain": "typeface",
+    "year": 1457,
+    "where": "Mainz, Germany",
+    "note": "The Mainz Psalter of Fust and Schöffer prints large decorated initials in red and blue."
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 1880,
+      "circa": true,
+      "via": "Victorian books and magazines open chapters with engraved, ornamented initials.",
+      "styles": [
+        "victorian-web"
+      ]
+    },
+    {
+      "domain": "design",
+      "year": 2021,
+      "circa": true,
+      "via": "Editorial sites open long articles with a large serif initial over 3 to 4 lines.",
+      "styles": [
+        "editorial-serif-revival"
+      ]
+    }
+  ],
+  "styles": [
+    "victorian-web",
+    "editorial-serif-revival"
+  ],
+  "principles": [
+    "hierarchy"
+  ],
+  "sources": [
+    {
+      "title": "Robert Bringhurst, The Elements of Typographic Style (1992)"
+    }
+  ]
+}

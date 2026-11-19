@@ -251,6 +251,36 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 5500,
+      "min": 5000,
+      "max": 6000
+    },
+    "contrast": {
+      "default": 1.2,
+      "min": 1.0,
+      "max": 1.4
+    },
+    "grain": {
+      "default": 50,
+      "min": 25,
+      "max": 64
+    },
+    "focal_length": {
+      "default": 40,
+      "min": 28,
+      "max": 50,
+      "note": "This is the 35 mm equivalent of 210 to 300 mm on 8×10 in."
+    },
+    "aspect_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5"
+      ],
+      "note": "The 8×10 in contact plate is the frame."
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q309961: Group f/64",

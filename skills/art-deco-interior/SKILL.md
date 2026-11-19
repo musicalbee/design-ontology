@@ -257,6 +257,18 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 - Keep the centre disc at 15% to 30% of the full diameter.
 - In a room, use one sunburst as the focal point of one wall.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #151414 | #151414, #EFE6D2 | palette |
+| Accent colour (`accent_colour`) | #3E7D6B | #3E7D6B, #C3A04A | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 3.2 | 2.8–4.5 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.4 | 0.3–0.5 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

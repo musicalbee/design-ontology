@@ -300,6 +300,36 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.33:1",
+      "options": [
+        "1.33:1",
+        "1.37:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 25,
+      "min": 24,
+      "max": 25
+    },
+    "average_shot_length": {
+      "default": 6,
+      "min": 4,
+      "max": 8
+    },
+    "colour_temperature": {
+      "default": 4300,
+      "min": 3200,
+      "max": 5600,
+      "note": "Tungsten and daylight stay mixed and uncorrected."
+    },
+    "grain": {
+      "default": 0.1,
+      "min": 0.08,
+      "max": 0.12
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q211481: Dogme 95",

@@ -267,6 +267,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3.6, "min": 3.2, "max": 4.2},
+    "structural_grid": {"default": 4.5, "min": 3, "max": 8},
+    "glazing_ratio": {"default": 32, "min": 25, "max": 40},
+    "roof_pitch": {"default": 45, "min": 0, "max": 60, "note": "A flat roof is only permitted behind a curved parapet."},
+    "base_material": {"default": "stone", "options": ["stone", "brick", "steel"]}
+  },
   "sources": [
     {
       "title": "Wikidata Q1295040, Art Nouveau architecture (CC0)",

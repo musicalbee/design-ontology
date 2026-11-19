@@ -219,6 +219,18 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
 - Set type as one more fragment, turned 0° to 30°, in the same stack of layers.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.33:1 | 1.33:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 18 | 16–20 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 2.5 | 2–3 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 5000–6000 K | colour_and_grade, light |
+| Grain (`grain`) | 0.1 | 0.08–0.12 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

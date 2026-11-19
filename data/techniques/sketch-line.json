@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "sketch-line",
+  "name": "Sketch line",
+  "aliases": [
+    "Hand-drawn line",
+    "Rough line"
+  ],
+  "kind": "process",
+  "summary": "Lines with a small jitter and a double stroke, so that a drawing on a screen looks drawn by hand.",
+  "how": [
+    "Offset each line by 0.5 to 2 px at random points along its length.",
+    "Draw each line twice with a small change, as a pencil does.",
+    "Fill shapes with hatching at 45 degrees, not with flat colour."
+  ],
+  "origin": {
+    "domain": "design",
+    "year": 2008,
+    "where": "United States",
+    "note": "Balsamiq Mockups draws wireframes with hand-drawn lines and a comic font, so that they look unfinished."
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2020,
+      "via": "Excalidraw and the Rough.js library draw diagrams and interface shapes with a jittered double stroke.",
+      "styles": [
+        "conceptual-sketch-ui"
+      ]
+    }
+  ],
+  "styles": [
+    "conceptual-sketch-ui"
+  ],
+  "sources": [
+    {
+      "title": "Rough.js documentation (2019)"
+    }
+  ]
+}

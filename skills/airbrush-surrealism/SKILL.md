@@ -180,6 +180,17 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
 - Put one specular highlight of pure white on each chrome form.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #1E6BFF | #0B1140, #1E6BFF, #E0189B, #FF7A1A | palette |
+| Value contrast (`value_contrast`) | 0.9 | 0.75–1 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0 | 0–0.2 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 1:1 | 1:1, 2:3, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

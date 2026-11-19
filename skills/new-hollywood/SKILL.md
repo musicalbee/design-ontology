@@ -198,6 +198,31 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Handheld camera (tool)
+
+A camera that the operator carries on the body, with no tripod or dolly; the shake of the body shows in the frame. Origin: film & video, Paris, c. 1960.
+
+- Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
+- Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.
+- Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
+- Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 2.39:1 | 1.85:1, 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 6.5 | 5–8 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 3200 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.18 | 0.15–0.2 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -198,6 +198,40 @@ The rules above name these shared principles by id. The definition is the same i
 | `unity-variety` | Unity and variety | Repeated materials, colours and shapes join the parts into one whole. A small, planned number of deviations keeps the whole alive. | materials or hues that repeat (count): 2 to 4; deliberate deviations (count): 1 to 2 |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Glitch (process)
+
+A fault in a signal, kept as an image: torn lines, split colour channels and repeated frames. Origin: film & video, Wuppertal, 1963.
+
+- Shift the red and blue channels by 2 to 8px in opposite directions.
+- Cut bands of 4 to 40px and move them sideways by 10 to 60px.
+- Run the effect in bursts of 2 to 6 frames at 24 fps, and leave the image clean between bursts.
+- Do not apply it to body text.
+
+### Handheld camera (tool)
+
+A camera that the operator carries on the body, with no tripod or dolly; the shake of the body shows in the frame. Origin: film & video, Paris, c. 1960.
+
+- Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
+- Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.
+- Do not stabilise in post; accept a late refocus and a missed frame as part of the take.
+- Shoot long takes of 30 seconds or more, so that the camera seems to live in the room.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.33:1 | 1.33:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 29.97 | 25–30 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 12 | 8–20 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 4300 | 3200–5600 K | colour_and_grade, light |
+| Grain (`grain`) | 0.12 | 0.08–0.15 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

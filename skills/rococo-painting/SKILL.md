@@ -165,6 +165,29 @@ The rules above name these shared principles by id. The definition is the same i
 | `scale` | Scale | The size of an element in relation to the human body, to the space around it and to the other elements. A style chooses a reference body and holds the elements in a range around it. | subject height to frame or canvas height (% of frame height): 10–30 in a wide shot; 40–80 in a close-up |
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | accent to ambient (ratio): 3:1 to 10:1 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chinoiserie (motif)
+
+European ornament after Chinese and East Asian art: pagodas, figures, birds and branches on lacquer, porcelain and paper. Origin: interior, Versailles, France, 1670.
+
+- Paint branches, birds and small figures over a plain ground of 50% or more.
+- Use blue and white, or gold on black or red lacquer.
+- Put one room or one wall in chinoiserie, not the whole house.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #EBB7BC | #EBB7BC, #A9C4DE, #F4EBD8, #9DB38B | palette |
+| Value contrast (`value_contrast`) | 0.35 | 0.2–0.5 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 0.8 | 0.3–1.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 4:5 | 1:1, 4:5 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

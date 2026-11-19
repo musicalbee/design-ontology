@@ -109,6 +109,12 @@
       { "request": "bolder and wilder colour", "toward": "fauvism", "how": "Keep the pure hue; enlarge the dot to a patch of 20–60mm, allow a hue that is not true to nature, and add a dark contour." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#2F58A3", "options": ["#2F58A3", "#E8832B", "#2E8B6E", "#F1CC3A"]},
+    "value_contrast": {"default": 0.4, "min": 0.25, "max": 0.55},
+    "brush_size": {"default": 0.25, "min": 0.1, "max": 0.5, "note": "A dot of 2–5mm on a canvas of 1–3m is well under 1% of the width."},
+    "canvas_ratio": {"default": "3:2", "options": ["3:2", "16:9"]}
+  },
   "sources": [
     { "title": "Wikidata Q200034 (Pointillism)", "url": "https://www.wikidata.org/wiki/Q200034" },
     { "title": "Getty AAT 300067450 (Pointillism)", "url": "https://vocab.getty.edu/page/aat/300067450" },

@@ -303,6 +303,35 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "2.39:1",
+      "options": [
+        "2.39:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 24
+    },
+    "average_shot_length": {
+      "default": 6,
+      "min": 2,
+      "max": 8,
+      "note": "A duel cuts at 0.5 to 2 s."
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 5000,
+      "max": 5900
+    },
+    "grain": {
+      "default": 0.22,
+      "min": 0.2,
+      "max": 0.25
+    }
+  },
   "sources": [
     {
       "title": "Spaghetti Western",

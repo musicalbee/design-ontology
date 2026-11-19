@@ -239,6 +239,18 @@ An icon pack is a typeface for pictures. Choose it with the same care as the tex
 7. **The colour is a token.** An icon takes currentColor. A second tone comes from a token, not from the file.
 8. **The licence permits the use.** Read the licence of the set. Give credit where the licence asks for it. A product with a brand uses its licensed library and applies the same rules to choose the family.
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Dual soft shadow (process, invented here)
+
+A light shadow on one side and a dark shadow on the other, on a ground of the same colour, so that a shape seems pressed out of the surface. Origin: graphic & ui design, Online (Dribbble), 2019.
+
+- Use the ground colour for the shape; no border.
+- Cast a dark shadow 6 to 12 px to the bottom right and a light shadow at the same distance to the top left.
+- Blur each shadow by 2 times its distance.
+
 ## Media
 
 The salons, schools, magazines, publishers, galleries and platforms that carried this style.

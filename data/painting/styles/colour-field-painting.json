@@ -109,6 +109,12 @@
       { "request": "harder and more exact", "toward": "minimalism-painting", "how": "Sharpen every edge to under 1mm, flatten each field to one even coat, and cut the palette to 1–2 hues in a strict, repeated order." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#9E2A2B", "options": ["#9E2A2B", "#5B2A4A", "#E26A2C", "#6FA3D8"]},
+    "value_contrast": {"default": 0.3, "min": 0.15, "max": 0.5},
+    "brush_size": {"default": 0, "min": 0, "max": 0.5, "note": "Poured and stained paint shows almost no stroke."},
+    "canvas_ratio": {"default": "4:5", "options": ["1:1", "4:5", "3:4"]}
+  },
   "sources": [
     { "title": "Wikidata Q1164982 (Colour field)", "url": "https://www.wikidata.org/wiki/Q1164982" },
     { "title": "Art Institute of Chicago API (CC0 data)", "url": "https://api.artic.edu/docs/" },

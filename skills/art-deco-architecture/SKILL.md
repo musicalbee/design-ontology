@@ -200,6 +200,18 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 - Use 2 to 4 chip colours on one ground colour.
 - Grind and polish the surface flat, so that the chip edges show as cut sections.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3.8 | 3.4–4.5 m | massing, facade |
+| Structural grid (`structural_grid`) | 7.5 | 6–9 m | structure |
+| Glazing ratio (`glazing_ratio`) | 38 | 30–45 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 0 | 0–5 deg | massing |
+| Base material (`base_material`) | stone | stone, brick, steel, concrete | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -307,6 +307,34 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "9:16",
+      "options": [
+        "9:16"
+      ]
+    },
+    "frame_rate": {
+      "default": 30,
+      "min": 24,
+      "max": 60
+    },
+    "average_shot_length": {
+      "default": 2,
+      "min": 1.5,
+      "max": 3
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 5000,
+      "max": 5600
+    },
+    "grain": {
+      "default": 0,
+      "min": 0,
+      "max": 0.03
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q59688552: vertical video",

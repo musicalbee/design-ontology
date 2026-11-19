@@ -198,6 +198,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `rule-of-thirds` | Rule of thirds | Two horizontal and two vertical lines divide the view into nine equal parts. The focal point sits on one of the four crossings, and a horizon sits on one of the two horizontal lines. | focal point position (fraction of width and height): 0.33 or 0.67, tolerance 0.05; horizon position (fraction of height): 0.33 or 0.67 |
 | `balance` | Visual balance | The visual weights on the two sides of a centre cancel out. Formal balance uses mirrored equal weights; informal balance sets a large near mass against several small far masses. | moment of visual weight, left to right about the centre (ratio): 1.0 formal; 0.8–1.25 informal; type (kind): formal, informal, radial |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Three-point lighting (process, invented here)
+
+A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground. Origin: film & video, Hollywood, United States, c. 1915.
+
+- Set the key light 30 to 45 degrees off the camera axis and above eye level.
+- Set the fill on the other side at 1/4 to 1/2 of the key.
+- Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.37:1 | 1.33:1, 1.37:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 9 | 8–12 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 3200 | 3000–3400 K | colour_and_grade, light |
+| Grain (`grain`) | 0.08 | 0.06–0.1 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

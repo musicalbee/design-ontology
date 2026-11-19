@@ -199,6 +199,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `layering-depth` | Layering in depth | A view holds elements on several planes at different distances from the eye. Overlap between the planes shows depth. | planes in depth (count): 2 to 4; overlap between planes (% of the nearer element): 10–40 |
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Wire work (process, invented here)
+
+Actors hang on thin steel wires, so that they fly, leap and turn in a fight faster and higher than a body can. Origin: film & video, Hong Kong, c. 1983.
+
+- Hide the wires against the background, or remove them in post-production.
+- Cut on the peak of each leap; keep each air shot under 2 s.
+- Mix wire shots with ground shots at real speed, so that the flight reads as a skill.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 2.39:1 | 2.39:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–96 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 2.5 | 1.5–4 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 3200 | 2000–9000 K | colour_and_grade, light |
+| Grain (`grain`) | 0.1 | 0.08–0.12 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

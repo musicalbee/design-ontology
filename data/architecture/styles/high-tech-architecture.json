@@ -262,6 +262,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3.9, "min": 3.5, "max": 4.2},
+    "structural_grid": {"default": 12, "min": 6, "max": 30, "note": "Floor spans reach 48m; the domain stops at 30m."},
+    "glazing_ratio": {"default": 80, "min": 60, "max": 100},
+    "roof_pitch": {"default": 0, "min": 0, "max": 3},
+    "base_material": {"default": "steel", "options": ["steel", "glass"]}
+  },
   "sources": [
     {
       "title": "Wikidata Q845318, high-tech architecture (CC0)",

@@ -198,6 +198,12 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"default": "#0B3D91", "options": ["#0B3D91", "#FC3D21", "#C9A227"]},
+    "colour_count": {"default": 3, "min": 2, "max": 4},
+    "stroke_weight": {"default": 4, "min": 2, "max": 8},
+    "container": {"default": "badge", "options": ["badge", "circle", "shield"]}
+  },
   "sources": [
     {
       "title": "Wikipedia: NASA insignia",

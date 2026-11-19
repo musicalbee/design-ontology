@@ -28,8 +28,8 @@
   "knobs": [
     {"key": "base_colour", "label": "Base colour", "kind": "colour", "description": "The primary colour: buttons, links on a surface, the main mark.", "drives": ["--color-primary", "--color-on-primary", "--color-link-on-surface"], "token": "--color-primary"},
     {"key": "accent_colour", "label": "Accent colour", "kind": "colour", "description": "The second colour: the accent field and the link on the background.", "drives": ["--color-accent", "--color-on-accent", "--color-link"], "token": "--color-accent"},
-    {"key": "corner_radius", "label": "Corner radius", "kind": "length", "unit": "px", "min": 0, "max": 999, "description": "The radius of each container corner. 999 makes a pill.", "drives": ["--border-radius"], "token": "--border-radius"},
+    {"key": "corner_radius", "label": "Corner radius", "kind": "length", "unit": "px", "min": 0, "max": 999, "description": "The radius of each container corner. 999 makes a pill. If the token gives more than one corner, the knob is the largest corner, and the other corners scale with it.", "drives": ["--border-radius"], "token": "--border-radius"},
     {"key": "grid_step", "label": "Grid step", "kind": "length", "unit": "px", "min": 2, "max": 16, "description": "The base unit of the space scale. If the style has a gutter token, the gutter moves with it.", "drives": ["--space-unit", "--grid-gutter"], "token": "--space-unit"},
-    {"key": "type_scale_ratio", "label": "Type scale ratio", "kind": "number", "min": 1.067, "max": 1.618, "description": "The ratio between two steps of the type scale, from the body size up.", "drives": ["--type-ratio", "--size-small", "--size-h3", "--size-h2", "--size-h1"]}
+    {"key": "type_scale_ratio", "label": "Type scale ratio", "kind": "number", "min": 1.067, "max": 1.618, "description": "The ratio between two steps of the type scale, from the body size up. The small size is body / ratio. The scale skips body x ratio, which stays free for a lead paragraph or a subhead: h3 is body x ratio^2, h2 is body x ratio^3 and h1 is body x ratio^4.", "drives": ["--type-ratio", "--size-small", "--size-h3", "--size-h2", "--size-h1"]}
   ]
 }

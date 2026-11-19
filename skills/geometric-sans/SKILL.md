@@ -148,6 +148,18 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 - Cut every angle to 45° or 90°, or to one other fixed angle.
 - Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 300–800 | metrics, setting |
+| Width (`width`) | 100 | 90–115 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.42 | 0.38–0.5 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 1.1 | 1–1.3 | anatomy |
+| Tracking (`tracking`) | -0.02 | -0.04–0.1 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

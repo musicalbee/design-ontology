@@ -307,6 +307,36 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "1.33:1",
+      "options": [
+        "1.33:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 18,
+      "min": 16,
+      "max": 20,
+      "note": "A hand crank sets the capture rate."
+    },
+    "average_shot_length": {
+      "default": 2.5,
+      "min": 2,
+      "max": 3,
+      "note": "Cinemetrics gives 2.1 s for Man with a Movie Camera and 2.8 s for Battleship Potemkin."
+    },
+    "colour_temperature": {
+      "default": 5600,
+      "min": 5000,
+      "max": 6000
+    },
+    "grain": {
+      "default": 0.1,
+      "min": 0.08,
+      "max": 0.12
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q3321104: Soviet montage theory",

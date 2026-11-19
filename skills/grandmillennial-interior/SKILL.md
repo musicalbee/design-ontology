@@ -228,6 +228,38 @@ Reference works:
 | Chintz-filled rooms for Colefax and Fowler | Sibyl Colefax and John Fowler | 1938 |
 | Interiors of the English country house style | Nancy Lancaster | 1950 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Chinoiserie (motif)
+
+European ornament after Chinese and East Asian art: pagodas, figures, birds and branches on lacquer, porcelain and paper. Origin: interior, Versailles, France, 1670.
+
+- Paint branches, birds and small figures over a plain ground of 50% or more.
+- Use blue and white, or gold on black or red lacquer.
+- Put one room or one wall in chinoiserie, not the whole house.
+
+### Chintz (material)
+
+Cotton printed with large flowers and birds, often glazed, used for curtains, covers and walls. Origin: interior, India, c. 1600.
+
+- Use one large floral repeat of 40 to 70 cm for curtains and covers.
+- Combine it with one stripe or check in a colour of the flowers.
+- Repeat the same print on 2 to 3 pieces in the room.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Base colour (`base_colour`) | #F3EBDD | #F3EBDD, #E3A6A4 | palette |
+| Accent colour (`accent_colour`) | #E0745B | #E0745B, #2F4F8A, #7A9A5B | palette, textiles, objects |
+| Ceiling height (`ceiling_height`) | 2.7 | 2.4–3.4 m | composition, lighting |
+| Light temperature (`light_temperature`) | 2700 | 2400–3000 K | lighting |
+| Object density (`object_density`) | 0.75 | 0.6–0.9 | objects, furniture |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "digital-colour-grade",
+  "name": "Digital colour grade",
+  "aliases": [
+    "Digital intermediate",
+    "LUT grade"
+  ],
+  "kind": "technology",
+  "summary": "The whole image is scanned to digital, and its colour is set shot by shot with curves and look-up tables.",
+  "how": [
+    "Push skin tones towards orange (hue 25 to 35 degrees) and shadows towards teal (hue 180 to 200 degrees).",
+    "Keep the saturation of skin under 60%.",
+    "Use one look-up table for each scene, so that the shots match."
+  ],
+  "origin": {
+    "domain": "film",
+    "year": 2000,
+    "where": "United States",
+    "note": "O Brother, Where Art Thou? is the first feature film that is graded as a whole in a digital intermediate."
+  },
+  "adoptions": [
+    {
+      "domain": "photography",
+      "year": 2010,
+      "circa": true,
+      "via": "Photographers apply film-look presets and split toning in Lightroom to push skin to orange and shadows to teal.",
+      "styles": [
+        "cinematic-teal-orange"
+      ]
+    }
+  ],
+  "styles": [
+    "cinematic-teal-orange"
+  ],
+  "sources": [
+    {
+      "title": "Alexis Van Hurkman, Color Correction Handbook (2010)"
+    }
+  ]
+}

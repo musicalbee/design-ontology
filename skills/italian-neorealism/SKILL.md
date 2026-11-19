@@ -197,6 +197,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | key to fill (ratio): 2:1 flat and natural; 4:1 glamour; 8:1 or more for deep shadow |
 | `rhythm` | Rhythm and repetition | An element or an interval repeats at a regular, alternating or progressive step, and the eye moves along the series. | repetitions in one series (count): 3 or more; type (kind): regular, alternating, progressive; average shot length (seconds): 1.5–3 fast; 5–12 moderate; 30 or more for a long take |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Plein air (process)
+
+Work made outside in front of the subject, in the light of the place and the hour. Origin: painting, France, 1841.
+
+- Work in front of the motif in one session of 1 to 3 hours, before the light moves.
+- Take the colour of shadows from the sky and the ground around them; do not paint them black.
+- Use the light that is there; add no lamp.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Aspect ratio (`aspect_ratio`) | 1.37:1 | 1.37:1 | lens_and_format, composition |
+| Frame rate (`frame_rate`) | 24 | 24–24 fps | capture, camera_and_movement |
+| Average shot length (`average_shot_length`) | 10 | 8–12 s | editing_and_rhythm |
+| Colour temperature (`colour_temperature`) | 5600 | 5000–6000 K | colour_and_grade, light |
+| Grain (`grain`) | 0.18 | 0.15–0.2 | colour_and_grade |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

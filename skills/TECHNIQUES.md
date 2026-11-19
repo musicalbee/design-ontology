@@ -33,10 +33,11 @@ A cut inside one continuous shot that removes time and leaves the jump in view.
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Film & Video | 1960 | — | Paris: Jean-Luc Godard cuts inside continuous shots in À bout de souffle and does not hide the jump. | |
-| 1 | Film & Video | c. 2006 | +46 years | Video bloggers on YouTube cut the pauses out of a talk to the camera. | [`creator-vlog`](./creator-vlog/SKILL.md) |
-| 2 | Film & Video | c. 2018 | +58 years | Vertical short-form apps make the fast jump cut the default rhythm of a clip. | [`vertical-short-form`](./vertical-short-form/SKILL.md) |
+| 1 | Film & Video | 1981 | +21 years | MTV starts in 1981; music videos cut on the beat and jump inside one take. | [`music-video`](./music-video/SKILL.md) |
+| 2 | Film & Video | c. 2006 | +46 years | Video bloggers on YouTube cut the pauses out of a talk to the camera. | [`creator-vlog`](./creator-vlog/SKILL.md) |
+| 3 | Film & Video | c. 2018 | +58 years | Vertical short-form apps make the fast jump cut the default rhythm of a clip. | [`vertical-short-form`](./vertical-short-form/SKILL.md) |
 
-Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`creator-vlog`](./creator-vlog/SKILL.md), [`vertical-short-form`](./vertical-short-form/SKILL.md).
+Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`creator-vlog`](./creator-vlog/SKILL.md), [`vertical-short-form`](./vertical-short-form/SKILL.md), [`music-video`](./music-video/SKILL.md).
 
 - Remove 0.3 to 2 seconds inside one shot and keep the framing within 10% of the frame width, so that the jump shows.
 - In a talk to camera, cut on the word and not on the action: one cut every 2 to 4 seconds.
@@ -93,8 +94,10 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 | 3 | Graphic & UI Design | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
 | 4 | Graphic & UI Design | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
 | 5 | Graphic & UI Design | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
+| 6 | Graphic & UI Design | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
+| 7 | Graphic & UI Design | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
 
-Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md).
+Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md).
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -175,6 +178,23 @@ Used by: [`flat-design`](./flat-design/SKILL.md), [`blob-world`](./blob-world/SK
 
 Sources: Frank Thomas and Ollie Johnston, The Illusion of Life: Disney Animation (1981); John Lasseter, Principles of Traditional Animation Applied to 3D Computer Animation (SIGGRAPH, 1987).
 
+### Streaming text
+
+Text that appears word by word as the system writes it, so the reader can read the answer before it is complete.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Graphic & UI Design | 2022 | — | United States: ChatGPT streams its answers word by word in a single column. | |
+| 1 | Graphic & UI Design | 2023 | +1 years | Other chat assistants and search tools copy the streamed answer. |  |
+
+Used by: [`ai-chat-ui`](./ai-chat-ui/SKILL.md).
+
+- Show each new word or token as it comes, with no fade longer than 100 ms.
+- Keep the bottom line in view while the text grows; stop the auto-scroll when the reader scrolls up.
+- Show one cursor or dot at the end of the text while it is streaming.
+
+Sources: OpenAI, Introducing ChatGPT (2022).
+
 ## Motif
 
 ### Arch
@@ -184,11 +204,14 @@ A curved head over an opening that carries load as compression; inside, a soft f
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 200 BCE | — | Rome: Roman builders use the semicircular masonry arch at large scale in aqueducts, bridges and gates; the arch itself is older. | |
-| 1 | Interior | c. 1720 | +1920 years | Palladian arched windows and niches frame Georgian rooms. | [`georgian-interior`](./georgian-interior/SKILL.md) |
-| 2 | Architecture | c. 1978 | +2178 years | Postmodern facades quote the round arch as a sign, not as a structure. | [`postmodern-architecture`](./postmodern-architecture/SKILL.md) |
-| 3 | Interior | c. 2019 | +2219 years | Arched mirrors, headboards, doorways and painted arches become a room motif. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
+| 1 | Architecture | 1419 | +1619 years | Filippo Brunelleschi puts round Roman arches on slim columns in the loggia of the Foundling Hospital in Florence. | [`renaissance-architecture`](./renaissance-architecture/SKILL.md) |
+| 2 | Interior | c. 1720 | +1920 years | Palladian arched windows and niches frame Georgian rooms. | [`georgian-interior`](./georgian-interior/SKILL.md) |
+| 3 | Architecture | 1875 | +2075 years | The Ecole des Beaux-Arts teaches the triumphal arch and the arcade as the main entrance of a public building; the Paris Opera opens in 1875. | [`beaux-arts-architecture`](./beaux-arts-architecture/SKILL.md) |
+| 4 | Architecture | c. 1978 | +2178 years | Postmodern facades quote the round arch as a sign, not as a structure. | [`postmodern-architecture`](./postmodern-architecture/SKILL.md) |
+| 5 | Graphic & UI Design | c. 2015 | +2215 years | Bohemian websites frame photographs and cards in arch-shaped masks. | [`bohemian-web`](./bohemian-web/SKILL.md) |
+| 6 | Interior | c. 2019 | +2219 years | Arched mirrors, headboards, doorways and painted arches become a room motif. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
 
-Used by: [`georgian-interior`](./georgian-interior/SKILL.md), [`postmodern-architecture`](./postmodern-architecture/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md).
+Used by: [`georgian-interior`](./georgian-interior/SKILL.md), [`postmodern-architecture`](./postmodern-architecture/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`renaissance-architecture`](./renaissance-architecture/SKILL.md), [`beaux-arts-architecture`](./beaux-arts-architecture/SKILL.md), [`bohemian-web`](./bohemian-web/SKILL.md).
 
 - Use a semicircular head: the rise is half the span.
 - Keep the ratio of height to width of the opening at 1.6:1 to 2:1.
@@ -205,14 +228,33 @@ A grid of squares in two alternate colours, on a floor, in a picture or on a sur
 | Origin | Architecture | c. 1300 | — | Italy: Squares of two colours of marble pave Italian church floors and palace halls. | |
 | 1 | Painting | 1435 | +135 years | Leon Battista Alberti builds the perspective of a picture on a squared pavement in De pictura. | [`renaissance-painting`](./renaissance-painting/SKILL.md) |
 | 2 | Interior | c. 1925 | +625 years | Black and white floors pave Art Deco halls, bars and bathrooms. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
-| 3 | Interior | c. 2020 | +720 years | Checker rugs, tiles and painted floors become a motif of colourful rooms. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
+| 3 | Interior | c. 1936 | +636 years | Dorothy Draper lays black-and-white marble floors in hotel lobbies and halls. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
+| 4 | Interior | c. 2020 | +720 years | Checker rugs, tiles and painted floors become a motif of colourful rooms. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
 
-Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md).
+Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md).
 
 - Use squares of one size: 300 to 600mm on a floor, or 1/8 to 1/16 of the width of a picture.
 - Lay the grid at 45° to make a small room look wider, or at 0° to show the vanishing point.
 
 Sources: Leon Battista Alberti, De pictura (1435).
+
+### Chinoiserie
+
+European ornament after Chinese and East Asian art: pagodas, figures, birds and branches on lacquer, porcelain and paper.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Interior | 1670 | — | Versailles, France: Louis XIV builds the Trianon de Porcelaine, with blue-and-white tiles after Chinese porcelain. | |
+| 1 | Painting | c. 1742 | +72 years | François Boucher paints Chinese scenes for tapestries and decoration. | [`rococo-painting`](./rococo-painting/SKILL.md) |
+| 2 | Interior | 2019 | +349 years | Grandmillennial rooms hang hand-painted chinoiserie wallpaper with birds and branches. | [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md) |
+
+Used by: [`rococo-painting`](./rococo-painting/SKILL.md), [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md).
+
+- Paint branches, birds and small figures over a plain ground of 50% or more.
+- Use blue and white, or gold on black or red lacquer.
+- Put one room or one wall in chinoiserie, not the whole house.
+
+Sources: Hugh Honour, Chinoiserie: The Vision of Cathay (1961).
 
 ### Crystal facet
 
@@ -225,8 +267,9 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 | 2 | Architecture | c. 1912 | +3 years | Pavel Janak and Josef Gocar design Czech Cubist buildings with faceted walls, such as the House of the Black Madonna in Prague. |  |
 | 3 | Architecture | 1914 | +5 years | Bruno Taut builds the Glass Pavilion for the Werkbund exhibition in Cologne as a crystal dome of glass prisms. | [`expressionist-architecture`](./expressionist-architecture/SKILL.md) |
 | 4 | Film & Video | 1920 | +11 years | Hermann Warm, Walter Reimann and Walter Roehrig build the angled, painted sets of The Cabinet of Dr. Caligari. | [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md) |
+| 5 | Architecture | 1988 | +79 years | The MoMA exhibition Deconstructivist Architecture shows broken and tilted planes by Gehry, Hadid and Libeskind. | [`deconstructivist-architecture`](./deconstructivist-architecture/SKILL.md) |
 
-Used by: [`cubism-painting`](./cubism-painting/SKILL.md), [`expressionist-architecture`](./expressionist-architecture/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md).
+Used by: [`cubism-painting`](./cubism-painting/SKILL.md), [`expressionist-architecture`](./expressionist-architecture/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md), [`deconstructivist-architecture`](./deconstructivist-architecture/SKILL.md).
 
 - Cut each mass into flat planes; most planes meet at angles between 30° and 120°.
 - Use one plane size family: 3 to 5 sizes, with no curve.
@@ -255,6 +298,41 @@ Used by: [`suprematism`](./suprematism/SKILL.md), [`constructivism-web`](./const
 
 Sources: Kazimir Malevich, The Non-Objective World (Bauhausbücher 11, 1927); Jan Tschichold, Die neue Typographie (1928).
 
+### Drop cap
+
+A large first letter that drops down 2 or more lines of text and marks the start of a chapter or an article.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | 1457 | — | Mainz, Germany: The Mainz Psalter of Fust and Schöffer prints large decorated initials in red and blue. | |
+| 1 | Graphic & UI Design | c. 1880 | +423 years | Victorian books and magazines open chapters with engraved, ornamented initials. | [`victorian-web`](./victorian-web/SKILL.md) |
+| 2 | Graphic & UI Design | c. 2021 | +564 years | Editorial sites open long articles with a large serif initial over 3 to 4 lines. | [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md) |
+
+Used by: [`victorian-web`](./victorian-web/SKILL.md), [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md).
+
+- Set the drop cap to the height of 3 to 4 body lines; align its top with the cap height of the first line.
+- Set the first 3 to 5 words after it in small capitals.
+- Use one drop cap for each article or chapter.
+
+Sources: Robert Bringhurst, The Elements of Typographic Style (1992).
+
+### Figura serpentinata
+
+A figure that twists along its height like a snake, with hips, shoulders and head turned in different directions.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | c. 1520 | — | Italy: Late works of Michelangelo and the painters after him twist figures in a spiral; Lomazzo names the idea in 1584. | |
+| 1 | Painting | c. 1590 | +70 years | El Greco stretches and twists his figures in tall altarpieces in Toledo. | [`mannerism-painting`](./mannerism-painting/SKILL.md) |
+
+Used by: [`mannerism-painting`](./mannerism-painting/SKILL.md).
+
+- Turn the hips, the shoulders and the head each 30 to 90 degrees from the one below.
+- Stretch the body to 9 or 10 heads tall.
+- Put the weight on one leg, so that the figure seems to spiral up.
+
+Sources: John Shearman, Mannerism (1967).
+
 ### Fluting and reeding
 
 Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a sheet of glass.
@@ -262,17 +340,35 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 600 BCE | — | Greece: Greek Doric and Ionic columns carry vertical concave grooves; a Doric shaft has 20 flutes. | |
-| 1 | Interior | c. 1790 | +2390 years | Neoclassical and Regency furniture takes fluted and reeded legs and friezes. | [`georgian-interior`](./georgian-interior/SKILL.md) |
-| 2 | Interior | c. 1925 | +2525 years | Art Deco rooms use fluted pilasters, fluted glass and fluted wood panels. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
-| 3 | Interior | c. 2018 | +2618 years | Reeded glass and fluted wood or stone cover cabinets, islands and walls. | [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
+| 1 | Architecture | 1757 | +2357 years | Jacques-Germain Soufflot starts the Pantheon in Paris with a portico of fluted Corinthian columns. | [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md) |
+| 2 | Interior | c. 1790 | +2390 years | Neoclassical and Regency furniture takes fluted and reeded legs and friezes. | [`georgian-interior`](./georgian-interior/SKILL.md) |
+| 3 | Interior | c. 1925 | +2525 years | Art Deco rooms use fluted pilasters, fluted glass and fluted wood panels. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
+| 4 | Interior | c. 2018 | +2618 years | Reeded glass and fluted wood or stone cover cabinets, islands and walls. | [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`georgian-interior`](./georgian-interior/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`georgian-interior`](./georgian-interior/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`quiet-luxury-interior`](./quiet-luxury-interior/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`neoclassical-architecture`](./neoclassical-architecture/SKILL.md).
 
 - Cut 16 to 24 flutes round a column, or set the grooves at 15 to 40mm centres on a flat panel.
 - Run the flutes vertical to make a surface look taller.
 - Use one fluted surface in each room as an accent.
 
 Sources: John Summerson, The Classical Language of Architecture (1963).
+
+### Hard offset shadow
+
+A solid copy of a letter or a box, set behind it and moved down and to the side, with no blur.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | c. 1815 | — | London, United Kingdom: London type founders cast shaded and shadowed display letters for posters and handbills. | |
+| 1 | Graphic & UI Design | c. 2020 | +205 years | Neo-brutalist interfaces give each card and button a solid black shadow offset by 4 to 8 px. | [`neo-brutalism-ui`](./neo-brutalism-ui/SKILL.md) |
+
+Used by: [`neo-brutalism-ui`](./neo-brutalism-ui/SKILL.md).
+
+- Move the shadow 4 to 8 px down and to the right, or 5% to 10% of the letter height.
+- Fill the shadow with one solid colour, usually black.
+- Use no blur and no transparency.
+
+Sources: Rob Roy Kelly, American Wood Type 1828-1900 (1969).
 
 ### Letterspaced capitals
 
@@ -281,11 +377,12 @@ Capital letters set with wide space between them, so that a short word reads as 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Typeface | 113 | — | Rome: Carvers cut the spaced roman capitals of the inscription on Trajan's Column. | |
-| 1 | Logo | c. 1970 | +1857 years | Fashion and hotel houses set their names in spaced roman capitals. | [`minimal-wordmark`](./minimal-wordmark/SKILL.md) |
-| 2 | Typeface | 1989 | +1876 years | Carol Twombly draws the Trajan typeface for Adobe from the column inscription. |  |
-| 3 | Graphic & UI Design | c. 2010 | +1897 years | Luxury sites set spaced small-cap labels over a large serif head. | [`luxury-typography-web`](./luxury-typography-web/SKILL.md) |
+| 1 | Logo | c. 1900 | +1787 years | Badges of clubs, railways and makers set the name in spaced capitals round the ring. | [`emblem-badge`](./emblem-badge/SKILL.md) |
+| 2 | Logo | c. 1970 | +1857 years | Fashion and hotel houses set their names in spaced roman capitals. | [`minimal-wordmark`](./minimal-wordmark/SKILL.md) |
+| 3 | Typeface | 1989 | +1876 years | Carol Twombly draws the Trajan typeface for Adobe from the column inscription. |  |
+| 4 | Graphic & UI Design | c. 2010 | +1897 years | Luxury sites set spaced small-cap labels over a large serif head. | [`luxury-typography-web`](./luxury-typography-web/SKILL.md) |
 
-Used by: [`minimal-wordmark`](./minimal-wordmark/SKILL.md), [`luxury-typography-web`](./luxury-typography-web/SKILL.md).
+Used by: [`minimal-wordmark`](./minimal-wordmark/SKILL.md), [`luxury-typography-web`](./luxury-typography-web/SKILL.md), [`emblem-badge`](./emblem-badge/SKILL.md).
 
 - Track capitals at 0.1 to 0.3em; do not track lowercase.
 - Set the size small, at 11 to 14px on screen, in a light weight.
@@ -314,6 +411,43 @@ Used by: [`surrealism-painting`](./surrealism-painting/SKILL.md), [`german-expre
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
 Sources: [Wikipedia, The Mystery and Melancholy of a Street](https://en.wikipedia.org/wiki/The_Mystery_and_Melancholy_of_a_Street); [Wikipedia, Nosferatu](https://en.wikipedia.org/wiki/Nosferatu).
+
+### Neoplastic grid
+
+A plane divided by black horizontal and vertical bars into white fields and a few fields of primary colour.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | 1917 | — | Leiden, Netherlands: Theo van Doesburg starts the magazine De Stijl; Piet Mondrian publishes his ideas on the new plastic in painting there. | |
+| 1 | Architecture | 1924 | +7 years | Gerrit Rietveld builds the Schröder House in Utrecht from planes and bars in white, grey and primary colours. |  |
+| 2 | Graphic & UI Design | c. 2015 | +98 years | Web pages split the screen with black rules into white and primary-colour fields. | [`de-stijl-web`](./de-stijl-web/SKILL.md) |
+
+Used by: [`de-stijl-painting`](./de-stijl-painting/SKILL.md), [`de-stijl-web`](./de-stijl-web/SKILL.md).
+
+- Use only horizontal and vertical lines; no curves and no diagonals.
+- Fill one to three fields with red, yellow or blue; leave the rest white or grey.
+- Set the bars at one weight, 1% to 2% of the short side.
+
+Sources: Hans L. C. Jaffé, De Stijl 1917-1931 (1956).
+
+### Primary shapes
+
+The circle, the square and the triangle in flat colour, used as the whole picture or as a sign.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | 1915 | — | Petrograd, Russia: Kazimir Malevich shows the Black Square and other pure shapes at the 0,10 exhibition. | |
+| 1 | Graphic & UI Design | 1923 | +8 years | Wassily Kandinsky asks Bauhaus students to match the circle, the square and the triangle to blue, red and yellow. | [`bauhaus`](./bauhaus/SKILL.md) |
+| 2 | Graphic & UI Design | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
+| 3 | Graphic & UI Design | 1981 | +66 years | Memphis Milano sets circles, triangles and squiggles on furniture and prints in loud colour. | [`memphis-design`](./memphis-design/SKILL.md) |
+
+Used by: [`suprematism`](./suprematism/SKILL.md), [`bauhaus`](./bauhaus/SKILL.md), [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md).
+
+- Use 1 to 3 shapes at large size; let one shape fill 30% to 60% of the frame.
+- Fill each shape with one flat colour; no gradient and no outline.
+- Put the shapes on a plain ground with 30% or more empty space.
+
+Sources: Magdalena Droste, Bauhaus 1919-1933 (1990).
 
 ### Roman capital proportions
 
@@ -356,6 +490,24 @@ Used by: [`solid-glyph-icon`](./solid-glyph-icon/SKILL.md), [`flat-icon`](./flat
 
 Sources: Lotte Reiniger, Die Abenteuer des Prinzen Achmed (1926).
 
+### Skeuomorph
+
+A detail that copies the material or the form of an older object, though it no longer has that function.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | c. 600 BCE | — | Greece: Doric stone temples carve triglyphs and guttae that copy the beam ends and pegs of earlier timber temples. | |
+| 1 | Icons | 2001 | +2601 years | Mac OS X icons draw each application as a real object, such as a stamp, a clock or a disc. | [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) |
+| 2 | Graphic & UI Design | 2007 | +2607 years | iPhone OS copies notepads, leather, felt and brushed metal in its applications. | [`skeuomorphism`](./skeuomorphism/SKILL.md) |
+
+Used by: [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md), [`skeuomorphism`](./skeuomorphism/SKILL.md).
+
+- Copy one material for each surface: leather, felt, wood, paper or brushed metal.
+- Light every surface from one source above, at 90 degrees.
+- Keep the old details that tell the use: stitches, page edges, knobs and screws.
+
+Sources: Donald Norman, The Design of Everyday Things (1988).
+
 ### Sunburst
 
 Rays from a disc or a half disc: a sign of light and of the new, on a facade, a gate, a mirror or a clock.
@@ -364,11 +516,12 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 |---|---|---|---|---|---|
 | Origin | Architecture | 1925 | — | Paris: Rays from a half disc appear on Art Deco facades, gates and lift doors around the Paris exposition of decorative arts in 1925. | |
 | 1 | Interior | c. 1928 | +3 years | Art Deco furniture, screens and mirrors take the ray motif inside. | [`art-deco-interior`](./art-deco-interior/SKILL.md) |
-| 2 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 3 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md) |
-| 4 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
+| 2 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
+| 3 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
+| 4 | Graphic & UI Design | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
+| 5 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md).
 
 - Draw 12 to 36 rays from one centre; alternate long and short rays, or two finishes.
 - Keep the centre disc at 15% to 30% of the full diameter.
@@ -383,12 +536,14 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 1893 | — | Brussels: Victor Horta uses curved iron stems on the stair and the ceiling of the Hotel Tassel. | |
-| 1 | Graphic & UI Design | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
-| 2 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
-| 3 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
-| 4 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
+| 1 | Interior | 1893 | +0 years | Victor Horta carries the iron whiplash line into the stair, the floor mosaic and the wall paint of the Hotel Tassel in Brussels. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
+| 2 | Graphic & UI Design | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
+| 3 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
+| 4 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
+| 5 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
+| 6 | Graphic & UI Design | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
 
-Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md).
+Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md).
 
 - Draw each line as an S-curve with a radius that changes along its length.
 - Swell the stroke from 1 to 4 units along the curve, as a stem thickens at the base.
@@ -398,6 +553,23 @@ Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`ar
 Sources: Victor Horta, Hotel Tassel, Brussels (1893).
 
 ## Material
+
+### Board-marked concrete
+
+Concrete cast in rough timber forms, so that the grain and the joints of the boards stay on the surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | 1952 | — | Marseille, France: Le Corbusier completes the Unité d'Habitation with walls and piers of raw, board-marked concrete. | |
+| 1 | Interior | c. 2010 | +58 years | Loft interiors and restaurants cast board-marked concrete walls and counters. | [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md) |
+
+Used by: [`brutalist-architecture`](./brutalist-architecture/SKILL.md), [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md).
+
+- Use sawn boards 100 to 150 mm wide for the formwork.
+- Leave the surface as it comes from the form: no paint and no plaster.
+- Let the board joints run in one direction on each wall.
+
+Sources: Reyner Banham, The New Brutalism (1966).
 
 ### Breeze block
 
@@ -416,6 +588,24 @@ Used by: [`mid-century-modern-architecture`](./mid-century-modern-architecture/S
 - Inside, use the screen to divide zones while it keeps light and air.
 
 Sources: Edward Durell Stone, United States Embassy, New Delhi (1959).
+
+### Chintz
+
+Cotton printed with large flowers and birds, often glazed, used for curtains, covers and walls.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Interior | c. 1600 | — | India: Painted and printed Indian cottons reach Europe through the East India Companies. | |
+| 1 | Interior | c. 1850 | +250 years | Victorian parlours cover sofas, curtains and walls in floral chintz. | [`victorian-interior`](./victorian-interior/SKILL.md) |
+| 2 | Interior | 2019 | +419 years | Grandmillennial rooms bring back chintz, skirted tables and floral wallpaper. | [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md) |
+
+Used by: [`victorian-interior`](./victorian-interior/SKILL.md), [`grandmillennial-interior`](./grandmillennial-interior/SKILL.md).
+
+- Use one large floral repeat of 40 to 70 cm for curtains and covers.
+- Combine it with one stripe or check in a colour of the flowers.
+- Repeat the same print on 2 to 3 pieces in the room.
+
+Sources: Rosemary Crill, Chintz: Indian Textiles for the West (2008).
 
 ### Laminated timber
 
@@ -448,8 +638,9 @@ A thin wash of slaked lime that dries to a soft, matt white with a faint cloud o
 | 1 | Architecture | 1911 | +9111 years | Le Corbusier records the white lime-washed houses of the Aegean on his Journey to the East. |  |
 | 2 | Architecture | c. 1960 | +9160 years | Geoffrey Bawa builds white-plastered houses in Sri Lanka. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
 | 3 | Interior | c. 1990 | +9190 years | Beach houses in the USA put white-washed walls and boards in summer rooms. | [`coastal-interior`](./coastal-interior/SKILL.md) |
+| 4 | Graphic & UI Design | c. 2015 | +9215 years | Wabi-sabi websites use limewash and plaster textures as the page ground. | [`wabi-sabi-web`](./wabi-sabi-web/SKILL.md) |
 
-Used by: [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`coastal-interior`](./coastal-interior/SKILL.md).
+Used by: [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`coastal-interior`](./coastal-interior/SKILL.md), [`wabi-sabi-web`](./wabi-sabi-web/SKILL.md).
 
 - Mix slaked lime with water to a thin milk, and apply 2 to 3 coats with a wide brush.
 - Cross the brush strokes between coats, and let each coat dry for 4 to 24 hours.
@@ -478,6 +669,24 @@ Used by: [`postmodern-architecture`](./postmodern-architecture/SKILL.md), [`neon
 
 Sources: [Wikipedia, Neon lighting](https://en.wikipedia.org/wiki/Neon_lighting); [Wikipedia, Blade Runner](https://en.wikipedia.org/wiki/Blade_Runner).
 
+### Stained glass
+
+Pieces of coloured glass held in lead strips, so that a window becomes a picture of coloured light.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | 1144 | — | Saint-Denis, France: Abbot Suger consecrates the new choir of the Abbey of Saint-Denis, with tall windows of coloured glass. | |
+| 1 | Interior | c. 1850 | +706 years | Victorian houses put coloured glass in doors, stair windows and fanlights. | [`victorian-interior`](./victorian-interior/SKILL.md) |
+| 2 | Interior | c. 1895 | +751 years | Louis Comfort Tiffany and Jacques Gruber make leaded opalescent glass for lamps, ceilings and screens. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
+
+Used by: [`gothic-architecture`](./gothic-architecture/SKILL.md), [`victorian-interior`](./victorian-interior/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md).
+
+- Cut each piece to one colour; join the pieces with H-section lead 4 to 8 mm wide.
+- Paint the lines of faces and folds in dark grisaille and fire them onto the glass.
+- Use deep blue and red for the field; keep the clear or yellow pieces under 20% of the window.
+
+Sources: Lawrence Lee, George Seddon and Francis Stephens, Stained Glass (1976).
+
 ### Terrazzo
 
 Chips of marble or glass set in a binder and ground flat, so that each chip shows as a cut section.
@@ -487,9 +696,10 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 | Origin | Architecture | c. 1500 | — | Venice: Venetian workers set marble offcuts in lime and polish the floor of palaces: terrazzo alla veneziana. | |
 | 1 | Architecture | c. 1925 | +425 years | Poured terrazzo with brass strips paves Art Deco lobbies. | [`art-deco-architecture`](./art-deco-architecture/SKILL.md) |
 | 2 | Interior | c. 1950 | +450 years | Poured terrazzo floors go into mid-century homes, schools and airports. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 3 | Interior | c. 2016 | +516 years | Terrazzo moves from the floor to tables, tiles, lamps and small objects. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
+| 3 | Graphic & UI Design | 1981 | +481 years | Memphis Milano prints speckled chip patterns on plastic laminates and fabrics. | [`memphis-design`](./memphis-design/SKILL.md) |
+| 4 | Interior | c. 2016 | +516 years | Terrazzo moves from the floor to tables, tiles, lamps and small objects. | [`dopamine-decor`](./dopamine-decor/SKILL.md) |
 
-Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`memphis-interior`](./memphis-interior/SKILL.md).
+Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`dopamine-decor`](./dopamine-decor/SKILL.md), [`memphis-interior`](./memphis-interior/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md).
 
 - Set chips of 5 to 25mm in a binder; the chips cover 40% to 60% of the surface.
 - Use 2 to 4 chip colours on one ground colour.
@@ -508,9 +718,11 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 | Origin | Architecture | c. 1300 | — | Northern Europe: Builders in northern Europe project the upper floors of timber houses beyond the lower floor on jetties. | |
 | 1 | Architecture | 1909 | +609 years | Frank Lloyd Wright carries the roofs of the Robie House 6 m past the wall on steel beams. | [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md) |
 | 2 | Interior | 1926 | +626 years | Mart Stam and then Marcel Breuer bend steel tube into a chair that has no back legs. | [`bauhaus-interior`](./bauhaus-interior/SKILL.md) |
-| 3 | Architecture | 1935 | +635 years | Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania. | [`organic-architecture`](./organic-architecture/SKILL.md) |
+| 3 | Architecture | 1926 | +626 years | The studio block of the Bauhaus Dessau has a small cantilevered balcony at each studio. | [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md) |
+| 4 | Architecture | 1927 | +627 years | The houses of the Weissenhof Estate in Stuttgart extend slabs past their columns, so that the window band can turn the corner. | [`international-style-architecture`](./international-style-architecture/SKILL.md) |
+| 5 | Architecture | 1935 | +635 years | Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania. | [`organic-architecture`](./organic-architecture/SKILL.md) |
 
-Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md), [`bauhaus-interior`](./bauhaus-interior/SKILL.md), [`organic-architecture`](./organic-architecture/SKILL.md).
+Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md), [`bauhaus-interior`](./bauhaus-interior/SKILL.md), [`organic-architecture`](./organic-architecture/SKILL.md), [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`international-style-architecture`](./international-style-architecture/SKILL.md).
 
 - Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
@@ -526,13 +738,14 @@ A hard contrast of light and dark that models form: one strong source, deep shad
 |---|---|---|---|---|---|
 | Origin | Painting | c. 1500 | — | Italy: Italian painters model form with strong light and dark from the late 15th century; Caravaggio makes the contrast extreme in The Calling of Saint Matthew (1599–1600). | |
 | 1 | Painting | c. 1600 | +100 years | Caravaggio paints figures out of a dark ground with one hard shaft of light, and the Baroque painters follow. | [`baroque-painting`](./baroque-painting/SKILL.md) |
-| 2 | Film & Video | 1915 | +415 years | Cecil B. DeMille and the cameraman Alvin Wyckoff light The Cheat with hard side light and call the result Rembrandt lighting. |  |
-| 3 | Film & Video | 1920 | +420 years | The Cabinet of Dr. Caligari uses painted shadows and sharp light to set a mind in a distorted room. | [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md) |
-| 4 | Film & Video | 1941 | +441 years | Citizen Kane and The Maltese Falcon use low-key light, deep shadow and hard bars of light; crime films of the 1940s make it a house style. | [`film-noir`](./film-noir/SKILL.md) |
-| 5 | Photography | c. 1946 | +446 years | Stills of noir films and press night photographs keep the single hard light and the black ground. | [`film-noir-still`](./film-noir-still/SKILL.md) |
-| 6 | Film & Video | 1982 | +482 years | Blade Runner, shot by Jordan Cronenweth for Ridley Scott, cuts shafts of light through smoke and blinds in a colour city. | [`neon-noir`](./neon-noir/SKILL.md) |
+| 2 | Painting | 1766 | +266 years | Joseph Wright of Derby, and the Romantic painters after him, light night scenes from one candle, fire or moon. | [`romanticism-painting`](./romanticism-painting/SKILL.md) |
+| 3 | Film & Video | 1915 | +415 years | Cecil B. DeMille and the cameraman Alvin Wyckoff light The Cheat with hard side light and call the result Rembrandt lighting. |  |
+| 4 | Film & Video | 1920 | +420 years | The Cabinet of Dr. Caligari uses painted shadows and sharp light to set a mind in a distorted room. | [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md) |
+| 5 | Film & Video | 1941 | +441 years | Citizen Kane and The Maltese Falcon use low-key light, deep shadow and hard bars of light; crime films of the 1940s make it a house style. | [`film-noir`](./film-noir/SKILL.md) |
+| 6 | Photography | c. 1946 | +446 years | Stills of noir films and press night photographs keep the single hard light and the black ground. | [`film-noir-still`](./film-noir-still/SKILL.md) |
+| 7 | Film & Video | 1982 | +482 years | Blade Runner, shot by Jordan Cronenweth for Ridley Scott, cuts shafts of light through smoke and blinds in a colour city. | [`neon-noir`](./neon-noir/SKILL.md) |
 
-Used by: [`baroque-painting`](./baroque-painting/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md), [`film-noir`](./film-noir/SKILL.md), [`film-noir-still`](./film-noir-still/SKILL.md), [`neon-noir`](./neon-noir/SKILL.md).
+Used by: [`baroque-painting`](./baroque-painting/SKILL.md), [`german-expressionist-cinema`](./german-expressionist-cinema/SKILL.md), [`film-noir`](./film-noir/SKILL.md), [`film-noir-still`](./film-noir-still/SKILL.md), [`neon-noir`](./neon-noir/SKILL.md), [`romanticism-painting`](./romanticism-painting/SKILL.md).
 
 - Light the subject from one hard source at 30° to 60° above and to the side; let the shadow side fall to near black.
 - Keep the light on 20% to 30% of the frame and let the rest sink into shadow.
@@ -562,6 +775,24 @@ Used by: [`futurism-painting`](./futurism-painting/SKILL.md), [`cubism-painting`
 
 Sources: Marta Braun, Picturing Time: The Work of Étienne-Jules Marey (University of Chicago Press, 1992); Giacomo Balla, Dynamism of a Dog on a Leash (1912).
 
+### Clay look
+
+Forms that look modelled in soft clay: round edges, one matte material and soft, even light.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | c. 1908 | — | United States: Early films such as The Sculptor's Nightmare animate figures modelled in clay. | |
+| 1 | Icons | c. 2020 | +112 years | Icon sets render each object in 3D with one matte, clay-like material and soft light. | [`clay-3d-icon`](./clay-3d-icon/SKILL.md) |
+| 2 | Graphic & UI Design | 2021 | +113 years | Claymorphism gives cards and buttons the round, puffed form of clay. | [`claymorphism`](./claymorphism/SKILL.md) |
+
+Used by: [`clay-3d-icon`](./clay-3d-icon/SKILL.md), [`claymorphism`](./claymorphism/SKILL.md).
+
+- Round every edge; set the fillet at 10% to 20% of the form size.
+- Use one matte material with no texture and no specular highlight.
+- Light with one large soft source and a soft contact shadow under the form.
+
+Sources: Michael Frierson, Clay Animation: American Highlights 1908 to the Present (1994).
+
 ### Coloured gel lighting
 
 A white lamp covered with a sheet of coloured film, so that a set or a face is lit in red, blue or green with no natural cause.
@@ -590,12 +821,13 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 |---|---|---|---|---|---|
 | Origin | Typeface | 1525 | — | Nuremberg: Albrecht Duerer publishes letters built with ruler and compass on a square grid in Underweysung der Messung. | |
 | 1 | Typeface | 1692 | +167 years | The committee of the Academie des Sciences draws the Romain du roi on a grid of 2304 small squares. |  |
-| 2 | Typeface | 1927 | +402 years | Paul Renner draws Futura from the circle, the square and the triangle. | [`geometric-sans`](./geometric-sans/SKILL.md) |
-| 3 | Icons | 1972 | +447 years | Otl Aicher builds the pictograms of the Munich Olympics on a grid with angles of 45° and 90° only. | [`outline-icon`](./outline-icon/SKILL.md) |
-| 4 | Logo | 2012 | +487 years | The Twitter bird is drawn from overlapping circles with set radii. | [`geometric-symbol`](./geometric-symbol/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`flat-logo`](./flat-logo/SKILL.md) |
-| 5 | Icons | 2014 | +489 years | Material Design sets 24 dp icons with a 20 dp live area and keyline shapes. | [`material-symbols-icon`](./material-symbols-icon/SKILL.md) |
+| 2 | Graphic & UI Design | 1925 | +400 years | Herbert Bayer draws the Universal alphabet at the Bauhaus with a compass and a ruler. | [`bauhaus`](./bauhaus/SKILL.md) |
+| 3 | Typeface | 1927 | +402 years | Paul Renner draws Futura from the circle, the square and the triangle. | [`geometric-sans`](./geometric-sans/SKILL.md) |
+| 4 | Icons | 1972 | +447 years | Otl Aicher builds the pictograms of the Munich Olympics on a grid with angles of 45° and 90° only. | [`outline-icon`](./outline-icon/SKILL.md) |
+| 5 | Logo | 2012 | +487 years | The Twitter bird is drawn from overlapping circles with set radii. | [`geometric-symbol`](./geometric-symbol/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`flat-logo`](./flat-logo/SKILL.md) |
+| 6 | Icons | 2014 | +489 years | Material Design sets 24 dp icons with a 20 dp live area and keyline shapes. | [`material-symbols-icon`](./material-symbols-icon/SKILL.md) |
 
-Used by: [`outline-icon`](./outline-icon/SKILL.md), [`material-symbols-icon`](./material-symbols-icon/SKILL.md), [`geometric-symbol`](./geometric-symbol/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`geometric-sans`](./geometric-sans/SKILL.md), [`flat-logo`](./flat-logo/SKILL.md).
+Used by: [`outline-icon`](./outline-icon/SKILL.md), [`material-symbols-icon`](./material-symbols-icon/SKILL.md), [`geometric-symbol`](./geometric-symbol/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`geometric-sans`](./geometric-sans/SKILL.md), [`flat-logo`](./flat-logo/SKILL.md), [`bauhaus`](./bauhaus/SKILL.md).
 
 - Fix one live area inside a square canvas; on a 24 unit canvas, keep a 2 unit margin.
 - Define 4 keyline shapes (circle, square, tall and wide rectangle) and fit each glyph to the one that suits it.
@@ -603,6 +835,23 @@ Used by: [`outline-icon`](./outline-icon/SKILL.md), [`material-symbols-icon`](./
 - Use one stroke weight for the full set, for example 2 units on a 24 unit canvas.
 
 Sources: Albrecht Duerer, Underweysung der Messung (Nuremberg, 1525); [Google, Material Design system icons guidelines (2014)](https://m3.material.io/styles/icons/overview).
+
+### Dual soft shadow
+
+A light shadow on one side and a dark shadow on the other, on a ground of the same colour, so that a shape seems pressed out of the surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Graphic & UI Design | 2019 | — | Online (Dribbble): Designers on Dribbble post soft-plastic interface concepts, and the name neumorphism spreads. | |
+| 1 | Graphic & UI Design | 2021 | +2 years | Claymorphism adds an inner shadow and a large radius, so that cards look like soft clay. | [`claymorphism`](./claymorphism/SKILL.md) |
+
+Used by: [`neumorphism`](./neumorphism/SKILL.md), [`claymorphism`](./claymorphism/SKILL.md).
+
+- Use the ground colour for the shape; no border.
+- Cast a dark shadow 6 to 12 px to the bottom right and a light shadow at the same distance to the top left.
+- Blur each shadow by 2 times its distance.
+
+Sources: Michal Malewicz, Neumorphism in user interfaces (2019).
 
 ### Exposed joinery
 
@@ -615,14 +864,32 @@ A joint that stays in view, so that the way of making is part of the look.
 | 2 | Interior | 1900 | +4400 years | Gustav Stickley sells Craftsman furniture with through-tenons that show on the face. | [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md) |
 | 3 | Architecture | 1908 | +4408 years | Greene and Greene build the Gamble House in Pasadena with pegged and exposed timber joints. | [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md) |
 | 4 | Architecture | c. 1996 | +4496 years | Peter Zumthor and other critical regionalists keep the joint and the junction as the only ornament. | [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md) |
+| 5 | Interior | 2016 | +4516 years | Japandi rooms show the joints of oak and ash furniture, as Japanese and Danish joiners do. | [`japandi-interior`](./japandi-interior/SKILL.md) |
 
-Used by: [`shaker-interior`](./shaker-interior/SKILL.md), [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md), [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md).
+Used by: [`shaker-interior`](./shaker-interior/SKILL.md), [`arts-and-crafts-interior`](./arts-and-crafts-interior/SKILL.md), [`arts-and-crafts-architecture`](./arts-and-crafts-architecture/SKILL.md), [`critical-regionalism-architecture`](./critical-regionalism-architecture/SKILL.md), [`japandi-interior`](./japandi-interior/SKILL.md).
 
 - Cut the joint in the main wood: a through-tenon of 6 to 12mm shows beyond the face.
 - Peg the joint with a wooden pin of 8 to 12mm; do not hide it with filler or paint.
 - Use one joint type in a room or a building; repeat it at each corner.
 
 Sources: [Wikipedia, Mortise and tenon](https://en.wikipedia.org/wiki/Mortise_and_tenon); [Wikipedia, Gamble House](https://en.wikipedia.org/wiki/Gamble_House_(Pasadena,_California)).
+
+### Exposed services
+
+Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, often colour-coded, so the building shows how it works.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | 1977 | — | Paris, France: The Centre Pompidou of Renzo Piano and Richard Rogers puts its ducts, pipes and escalators on the outside. | |
+| 1 | Interior | c. 1990 | +13 years | Loft conversions leave ducts, pipes and cable trays bare on the ceiling. | [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md) |
+
+Used by: [`high-tech-architecture`](./high-tech-architecture/SKILL.md), [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md).
+
+- Leave each duct, pipe and cable tray in view; paint them or leave them raw metal.
+- Give each system one colour: for example blue for air, green for water, yellow for electricity.
+- Keep the floor plate free; put the services on the facade or the ceiling.
+
+Sources: Kenneth Powell, Richard Rogers: Complete Works (1999).
 
 ### Fixed-pitch grid
 
@@ -633,8 +900,9 @@ Every character takes one cell of the same width, so text forms columns without 
 | Origin | Typeface | 1874 | — | Ilion, New York: The Sholes and Glidden typewriter by E. Remington and Sons moves the carriage one fixed step for each key, so its type must be monospaced. | |
 | 1 | Typeface | 1874 | +0 years | Typewriter faces, then Courier for IBM in 1955. | [`monospace`](./monospace/SKILL.md) |
 | 2 | Graphic & UI Design | 1978 | +104 years | Video terminals such as the DEC VT100 draw the whole screen as a grid of 80 by 24 character cells. | [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md) |
+| 3 | Graphic & UI Design | c. 2014 | +140 years | Brutalist websites set all text in a system monospace face on default browser styles. | [`brutalist-web`](./brutalist-web/SKILL.md) |
 
-Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md).
+Used by: [`monospace`](./monospace/SKILL.md), [`terminal-tui-web`](./terminal-tui-web/SKILL.md), [`dark-devtool-ui`](./dark-devtool-ui/SKILL.md), [`brutalist-web`](./brutalist-web/SKILL.md).
 
 - Give every glyph one advance width, 0.60 em in most fonts, or 10 or 12 characters an inch on a typewriter.
 - Align columns with spaces and set tables, code and forms on the cell grid.
@@ -650,8 +918,10 @@ A fault in a signal, kept as an image: torn lines, split colour channels and rep
 |---|---|---|---|---|---|
 | Origin | Film & Video | 1963 | — | Wuppertal: Nam June Paik bends the picture of television sets with magnets in his first Exposition of Music-Electronic Television. | |
 | 1 | Graphic & UI Design | c. 2010 | +47 years | Rosa Menkman writes the Glitch Studies Manifesto; designers copy channel splits and torn bands in posters and sites. | [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md) |
+| 2 | Film & Video | c. 2015 | +52 years | Short films and music videos shot on old camcorders keep VHS tracking errors and colour bleed. | [`camcorder-revival`](./camcorder-revival/SKILL.md) |
+| 3 | Graphic & UI Design | c. 2020 | +57 years | Cybercore pages add scan lines, split colour channels and torn frames as decoration. | [`cybercore-web`](./cybercore-web/SKILL.md) |
 
-Used by: [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md).
+Used by: [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md), [`cybercore-web`](./cybercore-web/SKILL.md).
 
 - Shift the red and blue channels by 2 to 8px in opposite directions.
 - Cut bands of 4 to 40px and move them sideways by 10 to 60px.
@@ -757,6 +1027,24 @@ Used by: [`symbolism-painting`](./symbolism-painting/SKILL.md), [`art-nouveau-we
 
 Sources: [Wikipedia: Lithography](https://en.wikipedia.org/wiki/Lithography); Odilon Redon, Dans le rêve (1879).
 
+### Mesh gradient
+
+A colour field built from many points that each hold a colour, so the colours blend in soft, organic shapes.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Graphic & UI Design | 1998 | — | United States: Adobe Illustrator 8 adds the gradient mesh tool. | |
+| 1 | Graphic & UI Design | 2018 | +20 years | Product sites blur large colour blobs into soft aurora fields behind the hero. | [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md) |
+| 2 | Graphic & UI Design | 2021 | +23 years | Ethereal pages fade pale pastel fields into each other behind thin type. | [`ethereal-web`](./ethereal-web/SKILL.md) |
+
+Used by: [`aurora-gradient-ui`](./aurora-gradient-ui/SKILL.md), [`ethereal-web`](./ethereal-web/SKILL.md).
+
+- Use 3 to 5 colours of near value; keep the step between them small.
+- Blur the field by 80 to 200 px, so that no edge shows.
+- Put the field behind the content and give the text a solid or near-solid surface.
+
+Sources: Adobe Illustrator 8 user guide (1998).
+
 ### Modular grid
 
 A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure.
@@ -766,9 +1054,11 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 | Origin | Graphic & UI Design | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
 | 1 | Logo | c. 1962 | +4 years | Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour. | [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) |
 | 2 | Graphic & UI Design | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
-| 3 | Graphic & UI Design | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
+| 3 | Graphic & UI Design | 2010 | +52 years | Windows Phone 7 builds its start screen from square and wide live tiles on one grid. | [`metro-ui`](./metro-ui/SKILL.md) |
+| 4 | Graphic & UI Design | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
+| 5 | Graphic & UI Design | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
 
-Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md).
+Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md), [`metro-ui`](./metro-ui/SKILL.md), [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md).
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
@@ -777,6 +1067,23 @@ Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modern
 
 Sources: Josef Mueller-Brockmann, Grid Systems in Graphic Design (Niggli, 1981).
 
+### Optical mixing
+
+Small dots or strokes of pure colour placed side by side, so that the eye mixes them at a distance.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | 1886 | — | Paris, France: Georges Seurat shows A Sunday on La Grande Jatte at the last Impressionist exhibition. | |
+| 1 | Photography | 1907 | +21 years | The Autochrome plate of the Lumière brothers builds colour from dyed starch grains, and pictorialists use it for soft colour pictures. | [`pictorialism`](./pictorialism/SKILL.md) |
+
+Used by: [`pointillism`](./pointillism/SKILL.md), [`pictorialism`](./pictorialism/SKILL.md).
+
+- Put dots of pure colour side by side; do not mix them on the palette.
+- Set complementary colours next to each other in the shadows.
+- Keep each dot under 0.5% of the picture width.
+
+Sources: Michel-Eugène Chevreul, The Principles of Harmony and Contrast of Colours (1839).
+
 ### Perspective grid
 
 Lines that run to one vanishing point on a horizon, so that a flat surface reads as a floor in deep space.
@@ -784,11 +1091,12 @@ Lines that run to one vanishing point on a horizon, so that a flat surface reads
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | c. 1415 | — | Florence: Filippo Brunelleschi demonstrates linear perspective; Alberti writes the method down in De pictura (1435). | |
-| 1 | Graphic & UI Design | c. 1980 | +565 years | Cassette Futurism screens and sleeves draw wireframe floors to a horizon. | [`cassette-futurism`](./cassette-futurism/SKILL.md) |
-| 2 | Film & Video | 1982 | +567 years | Tron draws vector grids that run to a horizon. |  |
-| 3 | Graphic & UI Design | 2012 | +597 years | Vaporwave draws neon grid floors under a sunset. | [`vaporwave`](./vaporwave/SKILL.md) |
+| 1 | Film & Video | 1968 | +553 years | Stanley Kubrick sets corridors and rooms on one central vanishing point in 2001: A Space Odyssey; Wes Anderson later builds whole films on the flat, centred frame. | [`planimetric-symmetry`](./planimetric-symmetry/SKILL.md) |
+| 2 | Graphic & UI Design | c. 1980 | +565 years | Cassette Futurism screens and sleeves draw wireframe floors to a horizon. | [`cassette-futurism`](./cassette-futurism/SKILL.md) |
+| 3 | Film & Video | 1982 | +567 years | Tron draws vector grids that run to a horizon. |  |
+| 4 | Graphic & UI Design | 2012 | +597 years | Vaporwave draws neon grid floors under a sunset. | [`vaporwave`](./vaporwave/SKILL.md) |
 
-Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`cassette-futurism`](./cassette-futurism/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md).
+Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`cassette-futurism`](./cassette-futurism/SKILL.md), [`vaporwave`](./vaporwave/SKILL.md), [`planimetric-symmetry`](./planimetric-symmetry/SKILL.md).
 
 - Put the horizon at 50% to 65% of the height and draw 12 to 24 lines to one vanishing point.
 - Space the cross lines so that each gap is about 0.8 of the gap in front of it.
@@ -806,8 +1114,9 @@ A picture or a letter built from square cells that are each on or off, or one fl
 | 2 | Icons | 1984 | +21 years | Susan Kare draws the Macintosh icons and the Chicago bitmap face on a grid of 32 by 32 cells. | [`pixel-icon`](./pixel-icon/SKILL.md) |
 | 3 | Typeface | 1985 | +22 years | Zuzana Licko draws the Emigre bitmap faces for the 72 dpi screen and the dot-matrix printer. |  |
 | 4 | Graphic & UI Design | c. 1998 | +35 years | The eBoy group publishes pixel illustrations of cities and objects on the web. | [`pixel-art-web`](./pixel-art-web/SKILL.md) |
+| 5 | Graphic & UI Design | c. 1999 | +36 years | Japanese portal pages set text at 10 to 12 px in bitmap kanji fonts, so each glyph sits on the pixel grid. | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) |
 
-Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md).
+Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md).
 
 - Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
 - Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
@@ -816,6 +1125,41 @@ Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-we
 
 Sources: Susan Kare, Mac icon and font work (Apple Macintosh, 1984); Zuzana Licko, Emigre bitmap typefaces (Emigre, 1985).
 
+### Plein air
+
+Work made outside in front of the subject, in the light of the place and the hour.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | 1841 | — | France: The collapsible paint tube (John Goffe Rand, 1841) lets the Barbizon painters work outdoors in front of the motif. | |
+| 1 | Painting | c. 1880 | +39 years | The Skagen painters and other Nordic painters work on the beach and in the summer night light. | [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md) |
+| 2 | Film & Video | 1945 | +104 years | Rome Open City is shot on real streets in daylight, with little added light. | [`italian-neorealism`](./italian-neorealism/SKILL.md) |
+
+Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-romanticism-painting`](./nordic-national-romanticism-painting/SKILL.md), [`italian-neorealism`](./italian-neorealism/SKILL.md).
+
+- Work in front of the motif in one session of 1 to 3 hours, before the light moves.
+- Take the colour of shadows from the sky and the ground around them; do not paint them black.
+- Use the light that is there; add no lamp.
+
+Sources: John House, Impressionism: Paint and Politics (2004).
+
+### Roof light
+
+An opening in the roof that lets daylight fall into a room from above.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | c. 125 | — | Rome, Italy: The dome of the Pantheon has an open oculus 8.9 m wide; it is the only source of light. | |
+| 1 | Architecture | 1935 | +1810 years | Alvar Aalto cuts many round, deep roof lights into the reading room of the Viipuri Library. | [`nordic-modernism-architecture`](./nordic-modernism-architecture/SKILL.md) |
+
+Used by: [`nordic-modernism-architecture`](./nordic-modernism-architecture/SKILL.md).
+
+- Make each opening 1% to 5% of the floor area under it.
+- Splay the sides of a deep opening, so that the light spreads before it reaches the floor.
+- Put the roof light over the place of use: a reading table, a stair or the centre of a hall.
+
+Sources: Richard Weston, Alvar Aalto (1995).
+
 ### Serial repetition
 
 One motif or one frame, repeated with small changes in a set of works, so that the viewer reads the change and not the object.
@@ -823,11 +1167,12 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | 1891 | — | Paris: Claude Monet shows a group of Haystacks canvases, each of one motif in a different light. | |
-| 1 | Painting | 1958 | +67 years | Frank Stella starts his Black Paintings, in which equal stripes repeat the shape of the canvas. | [`minimalism-painting`](./minimalism-painting/SKILL.md) |
-| 2 | Photography | c. 1959 | +68 years | Bernd and Hilla Becher begin their typologies of water towers, blast furnaces and houses on one fixed frame. | [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md) |
-| 3 | Painting | 1962 | +71 years | Andy Warhol repeats one soup can or one face in a grid of identical canvases. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
+| 1 | Photography | 1928 | +37 years | Karl Blossfeldt's book Urformen der Kunst shows plant forms one by one in a uniform series. | [`new-objectivity`](./new-objectivity/SKILL.md) |
+| 2 | Painting | 1958 | +67 years | Frank Stella starts his Black Paintings, in which equal stripes repeat the shape of the canvas. | [`minimalism-painting`](./minimalism-painting/SKILL.md) |
+| 3 | Photography | c. 1959 | +68 years | Bernd and Hilla Becher begin their typologies of water towers, blast furnaces and houses on one fixed frame. | [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md) |
+| 4 | Painting | 1962 | +71 years | Andy Warhol repeats one soup can or one face in a grid of identical canvases. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
 
-Used by: [`impressionism`](./impressionism/SKILL.md), [`minimalism-painting`](./minimalism-painting/SKILL.md), [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md).
+Used by: [`impressionism`](./impressionism/SKILL.md), [`minimalism-painting`](./minimalism-painting/SKILL.md), [`duesseldorf-school`](./duesseldorf-school/SKILL.md), [`new-topographics`](./new-topographics/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`new-objectivity`](./new-objectivity/SKILL.md).
 
 - Fix the motif, the format and the viewpoint; change one variable only, such as the hour, the colour or the stripe width.
 - Make at least 5 works in the set and show them in one row at one height.
@@ -855,6 +1200,23 @@ Used by: [`adaptive-reuse-architecture`](./adaptive-reuse-architecture/SKILL.md)
 
 Sources: [Wikipedia, Castelvecchio Museum](https://en.wikipedia.org/wiki/Castelvecchio_Museum).
 
+### Sketch line
+
+Lines with a small jitter and a double stroke, so that a drawing on a screen looks drawn by hand.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Graphic & UI Design | 2008 | — | United States: Balsamiq Mockups draws wireframes with hand-drawn lines and a comic font, so that they look unfinished. | |
+| 1 | Graphic & UI Design | 2020 | +12 years | Excalidraw and the Rough.js library draw diagrams and interface shapes with a jittered double stroke. | [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md) |
+
+Used by: [`conceptual-sketch-ui`](./conceptual-sketch-ui/SKILL.md).
+
+- Offset each line by 0.5 to 2 px at random points along its length.
+- Draw each line twice with a small change, as a pencil does.
+- Fill shapes with hatching at 45 degrees, not with flat colour.
+
+Sources: Rough.js documentation (2019).
+
 ### Soak-stain
 
 Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth drinks the colour and the colour and the weave become one.
@@ -865,7 +1227,7 @@ Thin paint is poured on raw, unprimed canvas that lies on the floor; the cloth d
 | 1 | Painting | 1953 | +1 years | Morris Louis and Kenneth Noland visit the studio of Frankenthaler and take up the stain method; Louis turns it into his Veils from 1954. | [`colour-field-painting`](./colour-field-painting/SKILL.md) |
 | 2 | Painting | c. 1960 | +8 years | Noland moves from oil to thinned acrylic, which stains the cloth with no halo; Louis stains with thinned Magna acrylic from the first Veils in 1954. | [`colour-field-painting`](./colour-field-painting/SKILL.md) |
 
-Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md).
+Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md), [`abstract-expressionism`](./abstract-expressionism/SKILL.md).
 
 - Thin oil with turpentine, or acrylic with water, until it flows like ink.
 - Lay the canvas flat and unprimed on the floor; pour in pools and guide the paint with a sponge or a tilt of the cloth.
@@ -873,6 +1235,58 @@ Used by: [`colour-field-painting`](./colour-field-painting/SKILL.md).
 - Work at a size of 2 metres or more so that the field is wider than the viewer's sight.
 
 Sources: [Wikipedia: Helen Frankenthaler](https://en.wikipedia.org/wiki/Helen_Frankenthaler); Helen Frankenthaler, Mountains and Sea (1952).
+
+### Three-point lighting
+
+A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | c. 1915 | — | Hollywood, United States: Hollywood studios light stars with a key, a fill and a back light, and the method becomes the studio standard. | |
+| 1 | Photography | c. 1930 | +15 years | George Hurrell and other studio portraitists bring key, fill and back light to portraits for film and fashion magazines. | [`fashion-editorial`](./fashion-editorial/SKILL.md) |
+
+Used by: [`classical-hollywood`](./classical-hollywood/SKILL.md), [`fashion-editorial`](./fashion-editorial/SKILL.md).
+
+- Set the key light 30 to 45 degrees off the camera axis and above eye level.
+- Set the fill on the other side at 1/4 to 1/2 of the key.
+- Put the back light behind the subject, so that a thin rim of light separates hair and shoulders from the ground.
+
+Sources: Kristin Thompson, David Bordwell and Janet Staiger, The Classical Hollywood Cinema (1985).
+
+### Trompe-l'oeil
+
+Painted perspective that continues the real room, so that a flat wall or ceiling seems to open into space.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | c. 1465 | — | Mantua, Italy: Andrea Mantegna paints an open oculus with figures that look down into the Camera degli Sposi (1465 to 1474). | |
+| 1 | Painting | 1532 | +67 years | Giulio Romano paints the Sala dei Giganti in Mantua so that the walls and the vault seem to fall on the viewer. | [`mannerism-painting`](./mannerism-painting/SKILL.md) |
+| 2 | Architecture | c. 1685 | +220 years | Andrea Pozzo paints a false dome and an open vault over the nave of Sant'Ignazio in Rome. | [`baroque-architecture`](./baroque-architecture/SKILL.md) |
+
+Used by: [`renaissance-painting`](./renaissance-painting/SKILL.md), [`mannerism-painting`](./mannerism-painting/SKILL.md), [`baroque-architecture`](./baroque-architecture/SKILL.md).
+
+- Set the vanishing point at the eye of a viewer who stands at one marked spot in the room.
+- Continue the real cornice, columns and arches in paint for 1 to 3 storeys of false height.
+- Paint the sky or the open part with the lightest value; keep the painted frame at the value of the real stone.
+
+Sources: Martin Kemp, The Science of Art (1990); Andrea Pozzo, Perspectiva pictorum et architectorum (1693).
+
+### Wire work
+
+Actors hang on thin steel wires, so that they fly, leap and turn in a fight faster and higher than a body can.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | c. 1983 | — | Hong Kong: Wuxia films such as Zu Warriors from the Magic Mountain hang actors on wires for flying fights. | |
+| 1 | Film & Video | 1999 | +16 years | Yuen Woo-ping choreographs the wire fights of The Matrix for Hollywood. |  |
+
+Used by: [`hong-kong-action`](./hong-kong-action/SKILL.md).
+
+- Hide the wires against the background, or remove them in post-production.
+- Cut on the peak of each leap; keep each air shot under 2 s.
+- Mix wire shots with ground shots at real speed, so that the flight reads as a skill.
+
+Sources: David Bordwell, Planet Hong Kong (2000).
 
 ### Wood type
 
@@ -903,8 +1317,9 @@ A print from a block of wood with the white parts cut away; the result is flat c
 | 1 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
 | 2 | Painting | c. 1894 | +1026 years | Paul Gauguin cuts the woodcuts of the Noa Noa series with flat colour and rough cuts. | [`post-impressionism`](./post-impressionism/SKILL.md) |
 | 3 | Painting | 1905 | +1037 years | Ernst Ludwig Kirchner, Erich Heckel and Karl Schmidt-Rottluff of Die Brücke cut jagged woodcuts in Dresden. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
+| 4 | Painting | 1906 | +1038 years | André Derain and Maurice de Vlaminck cut woodcuts with flat colour and rough gouge marks. | [`fauvism`](./fauvism/SKILL.md) |
 
-Used by: [`ukiyo-e`](./ukiyo-e/SKILL.md), [`post-impressionism`](./post-impressionism/SKILL.md), [`expressionism-painting`](./expressionism-painting/SKILL.md).
+Used by: [`ukiyo-e`](./ukiyo-e/SKILL.md), [`post-impressionism`](./post-impressionism/SKILL.md), [`expressionism-painting`](./expressionism-painting/SKILL.md), [`fauvism`](./fauvism/SKILL.md).
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.
@@ -914,6 +1329,23 @@ Used by: [`ukiyo-e`](./ukiyo-e/SKILL.md), [`post-impressionism`](./post-impressi
 Sources: [British Library: The Diamond Sutra](https://www.bl.uk/collection-items/diamond-sutra); [Wikipedia: Woodcut](https://en.wikipedia.org/wiki/Woodcut).
 
 ## Tool
+
+### Aerial drone
+
+A small remote-controlled aircraft that carries a camera, so that a shot can fly over, round and through a scene.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Photography | 2013 | — | Shenzhen, China: DJI sells the Phantom, a ready-to-fly drone that carries a small camera. | |
+| 1 | Film & Video | 2021 | +8 years | Right Up Our Alley, a one-take FPV flight through a bowling alley, makes the drone a camera that flies through rooms. | [`cinematic-fpv`](./cinematic-fpv/SKILL.md) |
+
+Used by: [`cinematic-fpv`](./cinematic-fpv/SKILL.md).
+
+- Fly at 1 to 3 m from the subject for an FPV shot; fly higher for a survey shot.
+- Keep the horizon level in a calm shot; let it bank only for a fast FPV move.
+- Plan one continuous route; one take holds the scene.
+
+Sources: Right Up Our Alley, Jay Christensen (2021).
 
 ### Airbrush
 
@@ -925,11 +1357,13 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 | 1 | Graphic & UI Design | c. 1930 | +51 years | Streamline posters and car advertisements use airbrushed gradients and chrome. |  |
 | 2 | Painting | c. 1968 | +89 years | Illustrators airbrush surreal chrome, lightning and X-ray cut-aways for album covers and magazines. | [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`photorealism`](./photorealism/SKILL.md) |
 | 3 | Graphic & UI Design | 1990 | +111 years | Photoshop 1.0 ships with an airbrush tool, and the soft spray becomes digital. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 4 | Logo | c. 2001 | +122 years | Web 2.0 logos take the airbrush gradient and the white specular highlight to the screen as glossy marks. | [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md) |
-| 5 | Icons | 2001 | +122 years | Apple Aqua icons in Mac OS X use soft gradients, highlights and cast shadows that echo airbrush work. | [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) |
-| 6 | Graphic & UI Design | c. 2004 | +125 years | Glossy interface gradients and highlights take the airbrush look to the screen. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
+| 4 | Graphic & UI Design | 2000 | +121 years | Mac OS X Aqua draws gel buttons and scroll bars with soft gradients and one white highlight. | [`apple-aqua`](./apple-aqua/SKILL.md) |
+| 5 | Logo | c. 2001 | +122 years | Web 2.0 logos take the airbrush gradient and the white specular highlight to the screen as glossy marks. | [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md) |
+| 6 | Icons | 2001 | +122 years | Apple Aqua icons in Mac OS X use soft gradients, highlights and cast shadows that echo airbrush work. | [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md) |
+| 7 | Graphic & UI Design | c. 2004 | +125 years | Glossy interface gradients and highlights take the airbrush look to the screen. | [`frutiger-aero`](./frutiger-aero/SKILL.md) |
+| 8 | Graphic & UI Design | 2007 | +128 years | iPhone OS draws glass, chrome and felt with soft gradients and specular highlights. | [`skeuomorphism`](./skeuomorphism/SKILL.md) |
 
-Used by: [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`frutiger-aero`](./frutiger-aero/SKILL.md), [`y2k-aesthetic`](./y2k-aesthetic/SKILL.md), [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md), [`photorealism`](./photorealism/SKILL.md).
+Used by: [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`frutiger-aero`](./frutiger-aero/SKILL.md), [`y2k-aesthetic`](./y2k-aesthetic/SKILL.md), [`glossy-3d-logo`](./glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](./skeuomorphic-icon/SKILL.md), [`photorealism`](./photorealism/SKILL.md), [`apple-aqua`](./apple-aqua/SKILL.md), [`skeuomorphism`](./skeuomorphism/SKILL.md).
 
 - Build tone in 3 to 6 thin passes; each pass adds 20% to 40% of the final density.
 - Cut a hard mask for each edge that must stay sharp; leave the light soft.
@@ -976,6 +1410,24 @@ Used by: [`ai-hyperreal`](./ai-hyperreal/SKILL.md).
 
 Sources: [Sohl-Dickstein et al., Deep Unsupervised Learning using Nonequilibrium Thermodynamics (ICML 2015)](https://arxiv.org/abs/1503.03585); [Ho, Jain and Abbeel, Denoising Diffusion Probabilistic Models (2020)](https://arxiv.org/abs/2006.11239).
 
+### Direct flash
+
+A flash on the camera that fires straight at the subject, so that faces are bright, shadows are hard and the background goes dark.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Photography | 1929 | — | Germany: The Vacublitz flash bulb replaces flash powder and makes the flash safe to use by hand. | |
+| 1 | Photography | c. 1999 | +70 years | Compact digital cameras fire their small built-in flash at each snapshot. | [`y2k-digicam`](./y2k-digicam/SKILL.md) |
+| 2 | Photography | c. 2008 | +79 years | Party and nightlife photographers post direct-flash pictures from clubs to blogs. | [`party-flash`](./party-flash/SKILL.md) |
+
+Used by: [`y2k-digicam`](./y2k-digicam/SKILL.md), [`party-flash`](./party-flash/SKILL.md).
+
+- Put the flash on the camera axis; do not bounce it.
+- Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
+- Keep the red eye, the shine on skin and the hard shadow behind the subject.
+
+Sources: Weegee, Naked City (1945).
+
 ### Handheld camera
 
 A camera that the operator carries on the body, with no tripod or dolly; the shake of the body shows in the frame.
@@ -985,12 +1437,14 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 | Origin | Film & Video | c. 1960 | — | Paris: Jean Rouch and Edgar Morin shoot Chronique d'un été with the light synchronous-sound camera that Michel Brault operates by hand; earlier handheld shots exist. | |
 | 1 | Film & Video | c. 1960 | +0 years | Raoul Coutard shoots À bout de souffle by hand for Jean-Luc Godard. | [`french-new-wave`](./french-new-wave/SKILL.md) |
 | 2 | Film & Video | c. 1960 | +0 years | Rouch, Brault and the Direct Cinema crews carry the light 16mm camera and the sound recorder into real rooms. | [`documentary-verite`](./documentary-verite/SKILL.md) |
-| 3 | Film & Video | 1995 | +35 years | The Dogme 95 Vow of Chastity demands that the camera is hand-held. | [`dogme-95`](./dogme-95/SKILL.md) |
-| 4 | Film & Video | 1999 | +39 years | The Blair Witch Project gives the camera to its characters and shows the shake as their fear. | [`found-footage`](./found-footage/SKILL.md) |
-| 5 | Film & Video | 2002 | +42 years | Andrew Bujalski shoots Funny Ha Ha with a small camera in plain rooms. | [`mumblecore`](./mumblecore/SKILL.md) |
-| 6 | Film & Video | 2015 | +55 years | Sean Baker shoots Tangerine on three iPhone 5S phones with a clip-on anamorphic lens and a small stabiliser. | [`phone-cinema`](./phone-cinema/SKILL.md) |
+| 3 | Film & Video | 1969 | +9 years | Easy Rider and other New Hollywood films use light cameras on real roads and locations. | [`new-hollywood`](./new-hollywood/SKILL.md) |
+| 4 | Film & Video | 1995 | +35 years | The Dogme 95 Vow of Chastity demands that the camera is hand-held. | [`dogme-95`](./dogme-95/SKILL.md) |
+| 5 | Film & Video | 1999 | +39 years | The Blair Witch Project gives the camera to its characters and shows the shake as their fear. | [`found-footage`](./found-footage/SKILL.md) |
+| 6 | Film & Video | 2002 | +42 years | Andrew Bujalski shoots Funny Ha Ha with a small camera in plain rooms. | [`mumblecore`](./mumblecore/SKILL.md) |
+| 7 | Film & Video | 2015 | +55 years | Sean Baker shoots Tangerine on three iPhone 5S phones with a clip-on anamorphic lens and a small stabiliser. | [`phone-cinema`](./phone-cinema/SKILL.md) |
+| 8 | Film & Video | c. 2020 | +60 years | Camcorder revival films shoot on handheld consumer video cameras. | [`camcorder-revival`](./camcorder-revival/SKILL.md) |
 
-Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`](./documentary-verite/SKILL.md), [`dogme-95`](./dogme-95/SKILL.md), [`found-footage`](./found-footage/SKILL.md), [`mumblecore`](./mumblecore/SKILL.md), [`phone-cinema`](./phone-cinema/SKILL.md).
+Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`](./documentary-verite/SKILL.md), [`dogme-95`](./dogme-95/SKILL.md), [`found-footage`](./found-footage/SKILL.md), [`mumblecore`](./mumblecore/SKILL.md), [`phone-cinema`](./phone-cinema/SKILL.md), [`new-hollywood`](./new-hollywood/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md).
 
 - Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
 - Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.
@@ -1024,12 +1478,16 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Photography | 1904 | — | Vienna: Theodor Scheimpflug patents the rule for tilted lens and plane of focus. | |
-| 1 | Photography | c. 1932 | +28 years | Group f/64 use large-format view cameras with small stops and sharp focus from front to back. | [`group-f64`](./group-f64/SKILL.md) |
-| 2 | Photography | c. 1960 | +56 years | Julius Shulman photographs Case Study House No. 22 on a large-format camera with upright lines. | [`architectural-photography`](./architectural-photography/SKILL.md) |
-| 3 | Photography | 1961 | +57 years | Nikon sells the PC-Nikkor 35mm f/3.5, the first shift lens for a 35mm camera. | [`architectural-photography`](./architectural-photography/SKILL.md) |
-| 4 | Graphic & UI Design | 2012 | +108 years | Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web. |  |
+| 1 | Photography | c. 1917 | +13 years | Paul Strand and Alfred Stieglitz use large view cameras for sharp, unretouched prints. | [`straight-photography`](./straight-photography/SKILL.md) |
+| 2 | Photography | c. 1932 | +28 years | Group f/64 use large-format view cameras with small stops and sharp focus from front to back. | [`group-f64`](./group-f64/SKILL.md) |
+| 3 | Photography | c. 1960 | +56 years | Julius Shulman photographs Case Study House No. 22 on a large-format camera with upright lines. | [`architectural-photography`](./architectural-photography/SKILL.md) |
+| 4 | Photography | 1961 | +57 years | Nikon sells the PC-Nikkor 35mm f/3.5, the first shift lens for a 35mm camera. | [`architectural-photography`](./architectural-photography/SKILL.md) |
+| 5 | Photography | c. 1975 | +71 years | Stephen Shore and Joel Sternfeld use 8 x 10 in view cameras with movements for large colour prints. | [`new-colour`](./new-colour/SKILL.md) |
+| 6 | Photography | c. 2008 | +104 years | Food photographers tilt the plane of focus so that one bite is sharp and the rest falls away. | [`food-photography`](./food-photography/SKILL.md) |
+| 7 | Photography | c. 2010 | +106 years | Interior photographers for Nordic magazines and blogs use shift lenses to keep walls vertical. | [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md) |
+| 8 | Graphic & UI Design | 2012 | +108 years | Photoshop CS6 adds the Tilt-Shift blur filter, and the miniature look spreads on the web. |  |
 
-Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./architectural-photography/SKILL.md).
+Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./architectural-photography/SKILL.md), [`straight-photography`](./straight-photography/SKILL.md), [`new-colour`](./new-colour/SKILL.md), [`food-photography`](./food-photography/SKILL.md), [`scandinavian-interior-photography`](./scandinavian-interior-photography/SKILL.md).
 
 - Keep the back of the camera vertical and shift the lens up by 10 to 20 mm, so that vertical lines stay parallel.
 - Tilt the lens by 2° to 8° to turn the plane of focus along the ground for depth at a small stop.
@@ -1037,6 +1495,115 @@ Used by: [`group-f64`](./group-f64/SKILL.md), [`architectural-photography`](./ar
 - In an editor, use a narrow band of focus and a strong blur outside it to fake a miniature.
 
 Sources: [Wikipedia: Tilt–shift photography](https://en.wikipedia.org/wiki/Tilt%E2%80%93shift_photography); [Wikipedia: Scheimpflug principle](https://en.wikipedia.org/wiki/Scheimpflug_principle).
+
+## Technology
+
+### Backdrop blur
+
+A translucent layer that blurs what is behind it, so that a panel reads as frosted glass over the content.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Graphic & UI Design | 2013 | — | United States: iOS 7 puts the control centre and the menus on blurred, translucent layers. | |
+| 1 | Graphic & UI Design | c. 2019 | +6 years | CSS backdrop-filter reaches the main browsers, and web pages take up frosted panels. |  |
+| 2 | Graphic & UI Design | 2025 | +12 years | Apple's Liquid Glass adds refraction and bright edges to the blurred layer. | [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md) |
+
+Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
+
+- Blur the backdrop by 10 to 40 px.
+- Give the panel a white or black tint of 10% to 40% opacity.
+- Add a 1 px light edge at 20% to 50% opacity to show the edge of the glass.
+
+Sources: W3C, Filter Effects Module Level 2: backdrop-filter.
+
+### Curtain wall
+
+A thin outer wall of glass and metal that hangs on the frame of the building and carries no floor load.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | 1918 | — | San Francisco, United States: The Hallidie Building of Willis Polk hangs a glass wall in front of a concrete frame. | |
+| 1 | Architecture | 1926 | +8 years | The workshop wing of the Bauhaus Dessau hangs a three-storey glass wall in front of its frame. | [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md) |
+| 2 | Architecture | 1952 | +34 years | Lever House in New York wraps a slab of offices in green glass and steel. | [`international-style-architecture`](./international-style-architecture/SKILL.md) |
+| 3 | Architecture | 1975 | +57 years | Norman Foster hangs a frameless glass wall from the roof of the Willis Faber and Dumas building in Ipswich. | [`high-tech-architecture`](./high-tech-architecture/SKILL.md) |
+
+Used by: [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`international-style-architecture`](./international-style-architecture/SKILL.md), [`high-tech-architecture`](./high-tech-architecture/SKILL.md).
+
+- Carry the floors on columns set 1 to 3 m back from the facade line.
+- Hang the glass in a grid of mullions at 1.2 to 1.5 m centres.
+- Keep the glass part of the facade above 60%.
+
+Sources: Kenneth Frampton, Modern Architecture: A Critical History (1980).
+
+### Digital colour grade
+
+The whole image is scanned to digital, and its colour is set shot by shot with curves and look-up tables.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Film & Video | 2000 | — | United States: O Brother, Where Art Thou? is the first feature film that is graded as a whole in a digital intermediate. | |
+| 1 | Photography | c. 2010 | +10 years | Photographers apply film-look presets and split toning in Lightroom to push skin to orange and shadows to teal. | [`cinematic-teal-orange`](./cinematic-teal-orange/SKILL.md) |
+
+Used by: [`cinematic-teal-orange`](./cinematic-teal-orange/SKILL.md).
+
+- Push skin tones towards orange (hue 25 to 35 degrees) and shadows towards teal (hue 180 to 200 degrees).
+- Keep the saturation of skin under 60%.
+- Use one look-up table for each scene, so that the shots match.
+
+Sources: Alexis Van Hurkman, Color Correction Handbook (2010).
+
+### Parametric modelling
+
+Form generated by a model of rules and parameters, so that a change to one value updates the whole geometry.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | 1992 | — | Barcelona, Spain: The office of Frank Gehry uses CATIA, a tool from aircraft design, to model and build the Fish sculpture in Barcelona. | |
+| 1 | Architecture | 2008 | +16 years | Patrik Schumacher names Parametricism at the Venice Architecture Biennale; Zaha Hadid Architects scripts whole facades. | [`parametricism-architecture`](./parametricism-architecture/SKILL.md) |
+
+Used by: [`parametricism-architecture`](./parametricism-architecture/SKILL.md).
+
+- Drive the geometry from 3 to 10 named parameters, not from drawn lines.
+- Vary each facade panel by a field value; no two panels need to be equal.
+- Keep the curvature continuous between the surfaces.
+
+Sources: Patrik Schumacher, The Autopoiesis of Architecture (2011).
+
+### Phototypesetting
+
+Type set by light through a film negative of each letter onto paper or film, instead of from cast metal.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Typeface | c. 1949 | — | Cambridge, United States: The Lumitype, also called Photon, of René Higonnet and Louis Moyroud sets type from a film disc with light. | |
+| 1 | Typeface | 1957 | +8 years | Adrian Frutiger draws Univers as one system of 21 weights and widths, for the Lumitype and for metal. | [`neo-grotesque-sans`](./neo-grotesque-sans/SKILL.md) |
+
+Used by: [`neo-grotesque-sans`](./neo-grotesque-sans/SKILL.md).
+
+- Design each weight and width of a family together, so that the machine can mix them.
+- Set display sizes with tight spacing; film letters can touch.
+- Draw one master for all sizes; correct the spacing by size.
+
+Sources: Adrian Frutiger, Signs and Symbols (1989).
+
+### 35 mm camera
+
+A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that the photographer can work by hand in the street.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Photography | 1925 | — | Wetzlar, Germany: Leitz sells the Leica I, designed by Oskar Barnack. | |
+| 1 | Photography | 1932 | +7 years | Henri Cartier-Bresson starts to photograph streets with a Leica. | [`street-photography`](./street-photography/SKILL.md) |
+| 2 | Photography | 1936 | +11 years | Life magazine and the Farm Security Administration send photographers out with small cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
+| 3 | Photography | c. 2015 | +90 years | Young photographers buy old 35 mm cameras and shoot colour negative and Tri-X film again. | [`film-grain-revival`](./film-grain-revival/SKILL.md) |
+
+Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-photography`](./documentary-photography/SKILL.md), [`film-grain-revival`](./film-grain-revival/SKILL.md).
+
+- Use a 28 to 50 mm lens and focus by scale, not through the finder.
+- Shoot at 1/125 to 1/500 s, from the hand.
+- Show the full frame; keep the 2:3 format.
+
+Sources: Ian Jeffrey, Photography: A Concise History (1981).
 
 ---
 

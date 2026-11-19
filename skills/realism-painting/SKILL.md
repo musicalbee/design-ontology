@@ -165,6 +165,29 @@ The rules above name these shared principles by id. The definition is the same i
 | `lighting-layers` | Lighting layers | Light comes from separate layers with separate jobs: ambient light for the whole space, task light for work, accent light for the focal point. In photography the same split is key, fill and accent light. | accent to ambient (ratio): 3:1 to 10:1 |
 | `hierarchy` | Hierarchy | The elements of a composition rank by importance through size, position, contrast or isolation. The viewer reads them in that order. | levels of rank (count): 2 to 3; size ratio between adjacent levels (ratio): 1.5:1 or more |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Plein air (process, invented here)
+
+Work made outside in front of the subject, in the light of the place and the hour. Origin: painting, France, 1841.
+
+- Work in front of the motif in one session of 1 to 3 hours, before the light moves.
+- Take the colour of shadows from the sky and the ground around them; do not paint them black.
+- Use the light that is there; add no lamp.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #5C4733 | #5C4733, #B88F4B, #5E6140, #22201D | palette |
+| Value contrast (`value_contrast`) | 0.65 | 0.5–0.8 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1.5 | 0.8–3 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 3:4, 3:2, 16:9 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

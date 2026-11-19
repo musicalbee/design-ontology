@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "dual-soft-shadow",
+  "name": "Dual soft shadow",
+  "aliases": [
+    "Soft UI",
+    "Neumorphic shadow"
+  ],
+  "kind": "process",
+  "summary": "A light shadow on one side and a dark shadow on the other, on a ground of the same colour, so that a shape seems pressed out of the surface.",
+  "how": [
+    "Use the ground colour for the shape; no border.",
+    "Cast a dark shadow 6 to 12 px to the bottom right and a light shadow at the same distance to the top left.",
+    "Blur each shadow by 2 times its distance."
+  ],
+  "origin": {
+    "domain": "design",
+    "year": 2019,
+    "where": "Online (Dribbble)",
+    "note": "Designers on Dribbble post soft-plastic interface concepts, and the name neumorphism spreads.",
+    "styles": [
+      "neumorphism"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "design",
+      "year": 2021,
+      "via": "Claymorphism adds an inner shadow and a large radius, so that cards look like soft clay.",
+      "styles": [
+        "claymorphism"
+      ]
+    }
+  ],
+  "styles": [
+    "neumorphism",
+    "claymorphism"
+  ],
+  "sources": [
+    {
+      "title": "Michal Malewicz, Neumorphism in user interfaces (2019)"
+    }
+  ]
+}

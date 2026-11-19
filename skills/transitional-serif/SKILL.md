@@ -146,6 +146,18 @@ Lines cut into a metal plate with a burin; thin hairlines and swelling strokes g
 - Build shade with parallel lines or cross hatching, and keep the lines at 30° to 45° to each other.
 - Print on smooth paper so the hairlines stay clean.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 400–700 | metrics, setting |
+| Width (`width`) | 100 | 95–110 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.43 | 0.4–0.52 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 3 | 2.5–4.5 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0.08 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

@@ -109,6 +109,12 @@
       { "request": "more dramatic", "toward": "baroque-painting", "how": "Keep the twist and the figure scale; cut the acid colour, add one strong beam of light and a dark ground at 50% of the area." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#2A4E96", "options": ["#2A4E96", "#D98A9B", "#5E9E87", "#C73B26"]},
+    "value_contrast": {"default": 0.65, "min": 0.5, "max": 0.8},
+    "brush_size": {"default": 0.2, "min": 0, "max": 0.5},
+    "canvas_ratio": {"default": "2:3", "options": ["3:4", "2:3"], "note": "The format is tall, from 2:3 to 1:2."}
+  },
   "sources": [
     { "title": "Wikidata Q131808 (Mannerism)", "url": "https://www.wikidata.org/wiki/Q131808" },
     { "title": "Getty AAT 300021144 (Mannerism)", "url": "https://vocab.getty.edu/page/aat/300021144" },

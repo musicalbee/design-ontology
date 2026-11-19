@@ -271,6 +271,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 3, "min": 2.7, "max": 3.4},
+    "structural_grid": {"default": 5, "min": 4, "max": 7},
+    "glazing_ratio": {"default": 32, "min": 25, "max": 40},
+    "roof_pitch": {"default": 12, "min": 9, "max": 15, "note": "A pitch of 1:6 to 1:4 is about 9 to 14 degrees."},
+    "base_material": {"default": "brick", "options": ["brick", "timber", "stone"]}
+  },
   "sources": [
     {
       "title": "H. Allen Brooks, The Prairie School (University of Toronto Press, 1972)"

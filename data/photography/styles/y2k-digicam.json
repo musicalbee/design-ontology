@@ -248,6 +248,36 @@
       }
     ]
   },
+  "permutations": {
+    "colour_temperature": {
+      "default": 5500,
+      "min": 4000,
+      "max": 6500,
+      "note": "Auto white balance drifts across this band."
+    },
+    "contrast": {
+      "default": 1.2,
+      "min": 1.1,
+      "max": 1.4
+    },
+    "grain": {
+      "default": 100,
+      "min": 50,
+      "max": 400
+    },
+    "focal_length": {
+      "default": 35,
+      "min": 35,
+      "max": 105,
+      "note": "This is the 35 mm equivalent of a 3× zoom of 5.8 to 17 mm on a 1/2.7 in CCD."
+    },
+    "aspect_ratio": {
+      "default": "3:4",
+      "options": [
+        "3:4"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Wikidata Q106646709: compact digital camera",

@@ -23,6 +23,14 @@ const px = (v: string | undefined): number | undefined => {
   return m ? Number(m[1]) : undefined;
 };
 const HEX = /^#[0-9A-Fa-f]{6}$/;
+
+/** The corners of a border-radius shorthand of 1 to 4 lengths ("0px 48px 0px 0px"), or undefined. */
+const corners = (v: string | undefined): number[] | undefined => {
+  const parts = v?.trim().split(/\s+/);
+  if (!parts || parts.length < 2 || parts.length > 4) return undefined;
+  const n = parts.map((p) => px(p));
+  return n.every((x) => x !== undefined) ? (n as number[]) : undefined;
+};
 const round = (n: number, d = 3) => Number(n.toFixed(d));
 
 /** The default of a knob for a style: from the token that the knob names, else from permutations. */
@@ -30,7 +38,9 @@ export function knobDefault(style: Style, knob: Knob): number | string | undefin
   if (knob.token) {
     const raw = style.tokens?.css[knob.token];
     if (raw === undefined) return undefined;
-    return knob.kind === "colour" || knob.kind === "enum" ? raw : (px(raw) ?? raw);
+    if (knob.kind === "colour" || knob.kind === "enum") return raw;
+    // A shorthand with more than one corner (for example "0px 48px 0px 0px"): the knob reads the largest corner.
+    return px(raw) ?? (knob.kind === "length" ? corners(raw)?.reduce((a, b) => Math.max(a, b)) : undefined) ?? raw;
   }
   return style.permutations?.[knob.key]?.default;
 }
@@ -76,7 +86,14 @@ export function applyKnobs(style: Style, values: KnobValues): Record<string, str
   const v = values;
   if (typeof v.base_colour === "string") css["--color-primary"] = v.base_colour.toUpperCase();
   if (typeof v.accent_colour === "string") css["--color-accent"] = v.accent_colour.toUpperCase();
-  if (typeof v.corner_radius === "number") css["--border-radius"] = `${v.corner_radius}px`;
+  if (typeof v.corner_radius === "number") {
+    // An authored shorthand keeps its shape: each corner scales with the largest one.
+    const r = v.corner_radius;
+    const was = corners(style.tokens!.css["--border-radius"]);
+    const max = was ? Math.max(...was) : 0;
+    css["--border-radius"] =
+      was && max > 0 ? was.map((c) => `${round((c * r) / max, 2)}px`).join(" ") : `${r}px`;
+  }
   if (typeof v.grid_step === "number") {
     const was = px(style.tokens!.css["--space-unit"]);
     const gutter = px(style.tokens!.css["--grid-gutter"]);

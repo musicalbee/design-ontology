@@ -182,6 +182,17 @@ The salons, schools, magazines, publishers, galleries and platforms that carried
 
 - **Salon des Refusés** (exhibition, Paris, 1863–1863), exhibited the style. An official show of the works that the jury of the Paris Salon rejected in 1863. It put the new painting of modern life in front of a large public.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #2F5FA8 | #2F5FA8, #E8B923, #2E8B6A, #7A68A8 | palette |
+| Value contrast (`value_contrast`) | 0.4 | 0.25–0.55 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 2 | 1–3.5 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 3:2 | 4:5, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

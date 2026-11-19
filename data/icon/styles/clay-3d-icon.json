@@ -214,6 +214,40 @@
       }
     ]
   },
+  "permutations": {
+    "grid_size": {
+      "default": 256,
+      "min": 64,
+      "max": 512
+    },
+    "stroke_width": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "There is no stroke; light and the fillet make the edges."
+    },
+    "corner_radius": {
+      "default": 16,
+      "min": 12,
+      "max": 16,
+      "note": "The style uses a fillet of 48 px at 256 px; the domain caps the radius at 16 px."
+    },
+    "fill_mode": {
+      "default": "render",
+      "options": [
+        "render"
+      ]
+    },
+    "base_colour": {
+      "default": "#FF8A73",
+      "options": [
+        "#FF8A73",
+        "#7CC6FE",
+        "#7EDDB0",
+        "#B49CF5"
+      ]
+    }
+  },
   "sources": [
     {
       "title": "Fluent Emoji repository",

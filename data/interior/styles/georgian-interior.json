@@ -421,6 +421,39 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {
+      "default": "#A9B48E",
+      "options": [
+        "#A9B48E",
+        "#EAE4D6",
+        "#B7A88A"
+      ]
+    },
+    "accent_colour": {
+      "default": "#B8913A",
+      "options": [
+        "#B8913A",
+        "#5C2E1E"
+      ]
+    },
+    "ceiling_height": {
+      "default": 3.4,
+      "min": 3,
+      "max": 4.2,
+      "note": "Below about 2.4 m the proportions of the orders fail."
+    },
+    "light_temperature": {
+      "default": 2400,
+      "min": 2000,
+      "max": 2700
+    },
+    "object_density": {
+      "default": 0.35,
+      "min": 0.25,
+      "max": 0.5
+    }
+  },
   "sources": [
     {
       "title": "John Cornforth, Early Georgian Interiors (Yale University Press, 2004)"

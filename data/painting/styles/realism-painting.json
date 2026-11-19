@@ -109,6 +109,12 @@
       { "request": "more dramatic", "toward": "romanticism-painting", "how": "Keep the weight of the figure; add a stormy sky, a burning horizon at 35–45% of the height, and a strong warm and cold split." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#5C4733", "options": ["#5C4733", "#B88F4B", "#5E6140", "#22201D"]},
+    "value_contrast": {"default": 0.65, "min": 0.5, "max": 0.8},
+    "brush_size": {"default": 1.5, "min": 0.8, "max": 3},
+    "canvas_ratio": {"default": "3:2", "options": ["3:4", "3:2", "16:9"]}
+  },
   "sources": [
     { "title": "Wikidata Q10857409 (Realism)", "url": "https://www.wikidata.org/wiki/Q10857409" },
     { "title": "Getty AAT 300056550 (Realism)", "url": "https://vocab.getty.edu/page/aat/300056550" },

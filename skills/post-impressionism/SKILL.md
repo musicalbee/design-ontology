@@ -178,6 +178,17 @@ A print from a block of wood with the white parts cut away; the result is flat c
 - Print with a flat, opaque ink and leave the grain and the knife marks visible.
 - Keep the shapes flat, with no more than 3 to 6 tones in a print.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Key colour (`key_colour`) | #E9B91E | #E9B91E, #1F3E73, #2F8F5E, #CF4129 | palette |
+| Value contrast (`value_contrast`) | 0.6 | 0.45–0.75 | light_and_modelling, palette |
+| Brush size (`brush_size`) | 1.8 | 1–4 % of canvas width | brushwork_and_medium |
+| Canvas ratio (`canvas_ratio`) | 4:5 | 4:5, 3:4, 3:2 | surface, composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

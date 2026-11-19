@@ -109,6 +109,12 @@
       { "request": "painterly", "toward": "impressionism", "how": "Keep the high horizon and the cropped foreground; replace the contour with visible strokes of 5–15mm and let the colour fields break into touches." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#17406E", "options": ["#1C1A1F", "#17406E", "#D8452B", "#D9A93F"]},
+    "value_contrast": {"default": 0.65, "min": 0.5, "max": 0.8},
+    "brush_size": {"default": 0, "min": 0, "max": 0.3, "note": "The line is printed from a carved block, so no brush trace shows."},
+    "canvas_ratio": {"default": "3:2", "options": ["2:3", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q185905 (ukiyo-e)", "url": "https://www.wikidata.org/wiki/Q185905" },
     { "title": "Getty AAT 300106769 (ukiyo-e)", "url": "https://vocab.getty.edu/page/aat/300106769" },

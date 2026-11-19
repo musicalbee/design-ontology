@@ -183,6 +183,18 @@ A hollow concrete block with a pierced pattern; a wall of them shades and lets a
 - Stack the blocks in one grid of one pattern; mix no more than 2 patterns in one wall.
 - Inside, use the screen to divide zones while it keeps light and air.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 2.6 | 2.4–3.2 m | massing, facade |
+| Structural grid (`structural_grid`) | 4.2 | 3.6–4.8 m | structure |
+| Glazing ratio (`glazing_ratio`) | 50 | 15–80 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 5 | 0–15 deg | massing |
+| Base material (`base_material`) | timber | timber, glass, steel, brick, stone | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

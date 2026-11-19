@@ -306,6 +306,36 @@
       }
     ]
   },
+  "permutations": {
+    "aspect_ratio": {
+      "default": "2.39:1",
+      "options": [
+        "1.85:1",
+        "2.39:1"
+      ]
+    },
+    "frame_rate": {
+      "default": 24,
+      "min": 24,
+      "max": 24
+    },
+    "average_shot_length": {
+      "default": 7,
+      "min": 5,
+      "max": 9
+    },
+    "colour_temperature": {
+      "default": 3200,
+      "min": 2800,
+      "max": 3600,
+      "note": "Coloured gels on tungsten make the hue, not the white balance."
+    },
+    "grain": {
+      "default": 0.18,
+      "min": 0.15,
+      "max": 0.2
+    }
+  },
   "sources": [
     {
       "title": "Giallo",

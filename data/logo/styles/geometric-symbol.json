@@ -206,6 +206,12 @@
       }
     ]
   },
+  "permutations": {
+    "base_colour": {"default": "#0018A8", "options": ["#0018A8", "#00843D", "#000000"]},
+    "colour_count": {"default": 1, "min": 1, "max": 2},
+    "stroke_weight": {"default": 15, "min": 12, "max": 20, "note": "Bands are 12 to 25% of the symbol height; the domain stops at 20%."},
+    "container": {"default": "none", "options": ["none", "circle", "square"]}
+  },
   "sources": [
     {
       "title": "Wikipedia: Anton Stankowski",

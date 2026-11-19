@@ -156,6 +156,18 @@ A sharp, flexible steel or quill nib: pressure spreads the two tines for a swell
 - Press only on the downstrokes, to 3–8 times the hairline width, and release on the upstrokes and the joins.
 - Join each lower-case letter to the next with a hairline from the baseline or the x-height.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 400 | 300–500 | metrics, setting |
+| Width (`width`) | 100 | 90–110 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.36 | 0.35–0.42 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 4 | 3–8 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

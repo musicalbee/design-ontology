@@ -110,6 +110,12 @@
       { "request": "more abstract and structural", "toward": "cubism-painting", "how": "Keep the flat patches; cut the palette to 3–4 earth hues, break the subject into tilted planes, and show more than one viewpoint." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#E2412A", "options": ["#E2412A", "#1F9E64", "#2547A8", "#F08A1C"]},
+    "value_contrast": {"default": 0.45, "min": 0.3, "max": 0.6, "note": "Fauve colour works by hue, not by dark and light, so the value span stays moderate."},
+    "brush_size": {"default": 3, "min": 2, "max": 5},
+    "canvas_ratio": {"default": "4:5", "options": ["4:5", "3:4", "3:2"]}
+  },
   "sources": [
     { "title": "Wikidata Q166593 (Fauvism)", "url": "https://www.wikidata.org/wiki/Q166593" },
     { "title": "Getty AAT 300021300 (Fauvism)", "url": "https://vocab.getty.edu/page/aat/300021300" },

@@ -139,6 +139,18 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Grid size (`grid_size`) | 24 | 16–32 px | grid |
+| Stroke width (`stroke_width`) | 2 | 1.5–2 px | stroke |
+| Corner radius (`corner_radius`) | 2 | 1–3 px | shape |
+| Fill mode (`fill_mode`) | duotone | duotone | colour, shape |
+| Base colour (`base_colour`) | #1E3A8A | #1E3A8A, #93A8DD | colour |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

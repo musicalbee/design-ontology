@@ -109,6 +109,12 @@
       { "request": "more dreamlike", "toward": "surrealism-painting", "how": "Keep the flat clarity; set the object in a deep, empty plain with a long shadow, and change its scale by 3 to 10 times." }
     ]
   },
+  "permutations": {
+    "key_colour": {"default": "#E3262E", "options": ["#E3262E", "#FFD700", "#1E59C8", "#F0489B"]},
+    "value_contrast": {"default": 0.85, "min": 0.7, "max": 1.0},
+    "brush_size": {"default": 0, "min": 0, "max": 0.3, "note": "Fields are flat and screened, so no stroke shows."},
+    "canvas_ratio": {"default": "1:1", "options": ["1:1", "4:5", "3:4"]}
+  },
   "sources": [
     { "title": "Wikidata Q134147 (Pop art)", "url": "https://www.wikidata.org/wiki/Q134147" },
     { "title": "Getty AAT 300022205 (Pop art)", "url": "https://vocab.getty.edu/page/aat/300022205" },

@@ -149,6 +149,18 @@ A pen with a flat, square-cut tip held at a fixed angle, so the width of a strok
 - Make the x-height about 4 nib widths in a round book hand and about 5 in textura; a stem is one nib width wide.
 - Let the thin parts fall on the diagonal of the nib angle, so the o has its thinnest points at about 11 and 5 o'clock.
 
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Weight (`weight`) | 600 | 500–800 | metrics, setting |
+| Width (`width`) | 100 | 85–105 % | metrics |
+| x-height ratio (`x_height_ratio`) | 0.46 | 0.4–0.52 | metrics, anatomy |
+| Stroke contrast (`stroke_contrast`) | 5 | 3–10 | anatomy |
+| Tracking (`tracking`) | 0 | 0–0.15 em | setting |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

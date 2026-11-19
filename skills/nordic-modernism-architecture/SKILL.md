@@ -172,6 +172,30 @@ Reference works:
 | SAS Royal Hotel, Copenhagen | Arne Jacobsen | 1960 |
 | St. Peter's Church, Klippan | Sigurd Lewerentz | 1966 |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Roof light (process)
+
+An opening in the roof that lets daylight fall into a room from above. Origin: architecture, Rome, Italy, c. 125.
+
+- Make each opening 1% to 5% of the floor area under it.
+- Splay the sides of a deep opening, so that the light spreads before it reaches the floor.
+- Put the roof light over the place of use: a reading table, a stair or the centre of a hall.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Storey height (`storey_height`) | 3 | 2.7–3.5 m | massing, facade |
+| Structural grid (`structural_grid`) | 6 | 5–7.5 m | structure |
+| Glazing ratio (`glazing_ratio`) | 32 | 25–40 % | facade, light_and_space |
+| Roof pitch (`roof_pitch`) | 5 | 0–15 deg | massing |
+| Base material (`base_material`) | brick | brick, concrete, timber, stone | materials |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

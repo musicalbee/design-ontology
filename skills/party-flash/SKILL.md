@@ -165,6 +165,30 @@ The rules above name these shared principles by id. The definition is the same i
 | `contrast` | Contrast | Two adjacent elements differ in value, hue, texture, size or shape. Contrast marks edges and makes the focal point. | brightest mass to deepest shadow in one image (stops): 3–4 flat; 5–8 hard, 8 or more for expressionist |
 | `grouping` | Grouping | Elements close to each other read as one group. The gap inside a group is smaller than the gap between groups. | gap between groups to gap inside a group (ratio): 2:1 or more; elements in a group (count): 3 or 5 for an informal group, pairs for a formal group |
 
+## Techniques
+
+These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
+
+### Direct flash (tool)
+
+A flash on the camera that fires straight at the subject, so that faces are bright, shadows are hard and the background goes dark. Origin: photography, Germany, 1929.
+
+- Put the flash on the camera axis; do not bounce it.
+- Stand 1 to 3 m from the subject; let the background fall 2 to 4 stops darker.
+- Keep the red eye, the shine on skin and the hard shadow behind the subject.
+
+## Permutations
+
+Each knob varies the style inside a range where it stays itself. Keep each value in its range. `npm run permute -- <id> key=value` writes the tokens for other values.
+
+| Knob | Default | Range | Changes |
+|---|---|---|---|
+| Colour temperature (`colour_temperature`) | 5500 | 4500–6000 K | colour_and_grade, light |
+| Contrast (`contrast`) | 1.3 | 1.2–1.6 | colour_and_grade, post_processing |
+| Grain (`grain`) | 400 | 200–1600 ISO | process, post_processing |
+| Focal length (`focal_length`) | 28 | 24–35 mm | lens_and_camera, composition |
+| Aspect ratio (`aspect_ratio`) | 2:3 | 2:3, 4:5 | composition |
+
 ## Lineage fallbacks
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.

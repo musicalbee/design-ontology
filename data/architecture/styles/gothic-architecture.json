@@ -267,6 +267,13 @@
       }
     ]
   },
+  "permutations": {
+    "storey_height": {"default": 7, "min": 5, "max": 8, "note": "A nave rises 25 to 45m; the domain stops at 8m per storey."},
+    "structural_grid": {"default": 6, "min": 5, "max": 7},
+    "glazing_ratio": {"default": 50, "min": 30, "max": 75, "note": "The nave wall is mostly glass; the west front is mostly stone."},
+    "roof_pitch": {"default": 55, "min": 50, "max": 60},
+    "base_material": {"default": "stone", "options": ["stone", "brick"]}
+  },
   "sources": [
     {
       "title": "Paul Frankl, Gothic Architecture (Yale University Press, 2000; rev. Paul Crossley)"
