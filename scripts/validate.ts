@@ -15,7 +15,7 @@ import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNe
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
 import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
-import { ROOT, loadDomains, loadEras, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
+import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -300,8 +300,8 @@ for (const { file, slug, person } of people) {
     if (!after && m.posthumous) errors.push(`${file}: milestone ${m.year} is marked posthumous, but it is not after died`);
     if (m.style && !own.has(m.style)) errors.push(`${file}: milestone ${m.year} names style "${m.style}", which is not in styles`);
   }
-  if (person.born === null && !person.milestones.length)
-    errors.push(`${file}: no born year and no milestones, so the person has no place on the time line`);
+  if (person.born === null && !person.milestones.some((m) => !m.posthumous))
+    errors.push(`${file}: no born year and no milestone in the life, so the person has no place on the time line`);
 }
 
 
@@ -335,6 +335,34 @@ for (const { file, slug, org: m } of orgs) {
       warnings.push(`${file}: move ${mv.year} (${mv.kind}) is outside ${m.founded ?? "?"}–${m.closed ?? "now"}`);
 }
 
+// The money layer: who paid whom, when, for what. Each flow cites a source; an amount names the
+// source that gives it; a flow to a person or an organisation names the styles that the money helped.
+const validateFunding = ajv.compile(readJson<object>(join(ROOT, "schema", "funding.schema.json")));
+const funding = loadFunding();
+const endIds = { person: personIds, org: orgIds, style: new Set(byId.keys()) };
+const backers = new Set<string>();
+for (const { file, slug, funding: f } of funding) {
+  if (!validateFunding(f)) {
+    for (const e of validateFunding.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (f.id !== slug) errors.push(`${file}: id "${f.id}" is not equal to the file name`);
+  for (const end of ["from", "to"] as const) {
+    const { type, id } = f[end];
+    if (!schemaOnly && !endIds[type].has(id)) errors.push(`${file}: ${end} ${type} "${id}" does not exist`);
+  }
+  if (f.from.type === f.to.type && f.from.id === f.to.id) errors.push(`${file}: from and to are the same`);
+  if (f.to.type !== "style" && !f.styles?.length) errors.push(`${file}: a flow to a ${f.to.type} names the styles that it helped`);
+  for (const s of f.styles ?? []) if (!schemaOnly && !byId.has(s)) errors.push(`${file}: style "${s}" does not exist`);
+  if (f.years[1] !== null && f.years[1] < f.years[0]) errors.push(`${file}: the end year (${f.years[1]}) is before the start year (${f.years[0]})`);
+  if (f.amount && f.amount.source >= f.sources.length) errors.push(`${file}: amount.source ${f.amount.source} is not an index into sources`);
+  backers.add(`${f.from.type}:${f.from.id}`);
+}
+// A backer org with the part "funded" has at least one flow in data/funding/.
+for (const { file, org: m } of orgs)
+  if (m.styles.some((s) => s.part === "funded") && !backers.has(`org:${m.id}`))
+    warnings.push(`${file}: part "funded" but no flow in data/funding/ starts here`);
+
 // The curation gate (CONTRIBUTING.md, "The six curation rules"). A miss is an error. The only
 // exception is a style on data/curation-allowlist.json, which can only shrink.
 let curation = "";
@@ -359,6 +387,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${orgs.length} orgs · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);

@@ -187,6 +187,7 @@ A press forms a flat steel sheet into a body panel in one stroke. The panels are
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **General Motors** (company, Detroit, ?–now), funded the style. American car maker. In 1927 its president Alfred P. Sloan formed the Art and Colour Section with Harley Earl as director.
 - **General Motors Motorama** (exhibition, New York, United States, 1949–1961), exhibited the style. A travelling show of dream cars that General Motors ran from 1949 to 1961. It showed fins, glass roofs and chrome years before production.
 
 ## Permutations

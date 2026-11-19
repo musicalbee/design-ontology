@@ -219,6 +219,7 @@ A slow pan and zoom across a still image, so that a photograph moves in a film. 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Google** (company, Mountain View, ?–now), funded the style. US technology company. It bought YouTube in 2006 for 1.65 billion dollars in stock.
 - **YouTube** (platform, web, 2005–now), launched the style. A web site where people post video. The daily vlog grew here, and it became the main home of the music video.
 
 ## Permutations

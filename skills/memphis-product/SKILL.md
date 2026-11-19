@@ -176,6 +176,7 @@ Chips of marble or glass set in a binder and ground flat, so that each chip show
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Memphis Group** (studio, Milan, 1980–1987), launched the style. A collective of designers round Ettore Sottsass that showed bold laminate furniture and objects. Its first show in 1981 launched the Memphis style.
+- **Olivetti** (company, Ivrea, ?–now), funded the style. Italian maker of typewriters and computers, known for a company-wide design policy. Ettore Sottsass consulted for it from the late 1950s.
 
 ## Permutations
 

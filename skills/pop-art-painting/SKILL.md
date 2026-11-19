@@ -192,6 +192,7 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
+- **Sidney Janis Gallery** (gallery, New York, 1948–now), funded the style. A New York gallery. It gave Pollock the first of three solo shows in 1952 and held the New Realists show of 1962.
 - **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.
 
 ## Permutations

@@ -186,7 +186,7 @@ export interface Org {
   closed: number | null;
   place: string;
   summary: string;
-  styles: { style: string; part: "launched" | "exhibited" | "published" | "taught" | "made" | "sold" | "gathered" | "shaped" | "opposed" | "revived" }[];
+  styles: { style: string; part: "launched" | "exhibited" | "published" | "taught" | "made" | "sold" | "gathered" | "shaped" | "opposed" | "revived" | "funded" }[];
   people?: string[];
   members?: { person: string; role: "founder" | "member" | "leader" | "guest"; from?: number | null; to?: number | null }[];
   statement?: { text: string; title?: string; year?: number; url?: string };
@@ -202,6 +202,30 @@ export function loadOrgs(): { file: string; slug: string; org: Org }[] {
     file: join("data", "orgs", f),
     slug: f.replace(/\.json$/, ""),
     org: readJson<Org>(join(dir, f)),
+  }));
+}
+
+/** One flow of money or paid support: who paid whom, when, for what, and the source. */
+export interface Funding {
+  id: string;
+  from: { type: "person" | "org"; id: string };
+  to: { type: "person" | "org" | "style"; id: string };
+  styles?: string[];
+  kind: "commission" | "stipend" | "purchase" | "exhibition" | "dealer-contract" | "publishing" | "residency" | "prize" | "grant" | "state-programme" | "investment" | "acquisition" | "crowdfunding" | "platform-fund" | "employment";
+  years: [number, number | null];
+  what: string;
+  amount?: { value: number; currency: string; year?: number; source: number };
+  confidence: "documented" | "reported" | "contested";
+  sources: { title: string; url: string }[];
+}
+
+/** The money layer in data/funding/, by file. */
+export function loadFunding(): { file: string; slug: string; funding: Funding }[] {
+  const dir = join(ROOT, "data", "funding");
+  return jsonFiles(dir).map((f) => ({
+    file: join("data", "funding", f),
+    slug: f.replace(/\.json$/, ""),
+    funding: readJson<Funding>(join(dir, f)),
   }));
 }
 

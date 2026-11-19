@@ -175,6 +175,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 
 - **Braun** (company, Frankfurt, 1921–now), made the style. A German maker of radios, record players and small appliances. Its design team under Dieter Rams made the calm, functional products that later shaped interface design.
 - **Ulm School of Design** (school, Ulm, 1953–1968), taught the style. A school of design that taught system, grid and method. Its teachers worked with Braun and with corporate identity programs.
+- **US High Commission for Germany** (state programme, Germany, ?–now), funded the style. US occupation authority in Germany. Its High Commissioner John McCloy gave one million marks to the Ulm school project.
 
 ## Permutations
 

@@ -197,6 +197,8 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Graham Foundation** (foundation, Chicago, 1956–now), funded the style. Chicago foundation for architecture, founded in 1956. It backed Robert Venturi's book Complexity and Contradiction in Architecture.
+- **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
 - **Venice Biennale of Architecture** (salon, Venice, 1980–now), launched the style. An architecture show that the Venice Biennale holds every two years. Its first edition built a street of postmodern facades, and later editions showed buildings made again from old structures.
 
 ## Permutations

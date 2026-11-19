@@ -189,6 +189,7 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Association of Devotees of St Joseph** (church, Barcelona, ?–now), funded the style. The group of Catholic donors that paid for the Sagrada Família. Its founder was the bookseller José María Bocabella.
 - **Exposition Universelle of 1900** (exhibition, Paris, 1900–1900), exhibited the style. A world's fair in Paris at the turn of the century. Art Nouveau buildings, rooms and metro entrances were on show, and the Finnish pavilion had frescoes of national myths.
 
 ## Permutations

@@ -177,6 +177,7 @@ Parallel grooves (flutes) or ridges (reeds) on a column, a panel, a leg or a she
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Gillows of Lancaster and London** (company, Lancaster and London, ?–now), made the style. An English furniture maker that started in about 1730. Its mahogany furniture filled Georgian houses.
+- **Wedgwood** (company, Staffordshire, ?–now), made the style. The pottery of Josiah Wedgwood. Queen Charlotte and Catherine the Great were among its early royal buyers.
 
 ## Permutations
 

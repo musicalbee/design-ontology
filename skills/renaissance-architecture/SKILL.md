@@ -190,6 +190,7 @@ A curved head over an opening that carries load as compression; inside, a soft f
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Arte della Lana** (company, Florence, ?–now), funded the style. The wool guild of Florence. It took over the patronage of the cathedral in 1331 and ran the dome competition in 1418.
 - **Opera di Santa Maria del Fiore** (church, Florence, ?–now), made the style. The works office of Florence Cathedral. It ran the competition and the building site for the dome of Brunelleschi.
 
 ## Permutations
