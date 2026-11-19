@@ -37,8 +37,9 @@ export async function preflight() {
 }
 
 // Render one prompt to a WebP file. Returns the record for a manifest.
-export async function renderWebp(prompt: string, out: string, size: { width: number; height: number }, prefix: string) {
-  const wf = workflow({ ...MODEL, ...size, steps: STEPS, seed: SEED, prompt, prefix });
+// The seed is fixed (SEED), so a render can be made again. The frames of a set pass SEED + n, so they differ.
+export async function renderWebp(prompt: string, out: string, size: { width: number; height: number }, prefix: string, seed = SEED) {
+  const wf = workflow({ ...MODEL, ...size, steps: STEPS, seed, prompt, prefix });
   const { prompt_id } = await (await api("/prompt", { prompt: wf })).json();
   for (let t = 0; t < 600; t++) {
     await new Promise((r) => setTimeout(r, 1000));
@@ -52,7 +53,7 @@ export async function renderWebp(prompt: string, out: string, size: { width: num
     writeFileSync(tmp, png);
     execFileSync("cwebp", ["-quiet", "-q", "80", tmp, "-o", out]);
     execFileSync("rm", [tmp]);
-    return { prompt, model: MODEL.name, licence: MODEL.licence, seed: SEED, steps: STEPS, ...size, generated: new Date().toISOString().slice(0, 10) };
+    return { prompt, model: MODEL.name, licence: MODEL.licence, seed, steps: STEPS, ...size, generated: new Date().toISOString().slice(0, 10) };
   }
   throw new Error(`${out}: no image after 600 s`);
 }

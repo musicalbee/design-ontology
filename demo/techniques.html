@@ -108,7 +108,7 @@
 </main>
 <script>
 // A domain with no entry here uses <id>.html, a letter from its name and the grey "other" colour, so a new domain never shows "undefined".
-const PAGES = { design: "index.html" };
+const PAGES = { design: "design.html" };
 const page = (d) => PAGES[d] ?? `${d}.html`;
 const LETTER = { design: "D", architecture: "A", interior: "I", photography: "Ph", film: "F", painting: "P", logo: "L", icon: "Ic", typeface: "T", game: "G" };
 const letter = (d) => LETTER[d] ?? d.slice(0, 2).replace(/^./, (c) => c.toUpperCase());
