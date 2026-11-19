@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "window-view-trees-recovery",
+  "name": "A view of trees helps recovery",
+  "variable": "view-to-nature",
+  "direction": {
+    "change": "present",
+    "unit": "window view",
+    "range": {
+      "from": "brick wall",
+      "to": "deciduous trees"
+    }
+  },
+  "effects": [
+    {
+      "target": "relaxation",
+      "sign": 1,
+      "size": "medium"
+    },
+    {
+      "target": "pad:p",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "Surgery patients with a window view of trees had shorter stays, fewer negative nurse notes and fewer strong pain drugs than matched patients who faced a brick wall.",
+  "study": {
+    "participants": 46,
+    "setting": "retrospective"
+  },
+  "caveat": "Hospital records of one US hospital, matched but not random; it measures recovery, not a felt emotion.",
+  "sources": [
+    {
+      "title": "Ulrich 1984, View through a window may influence recovery from surgery, Science 224(4647)",
+      "url": "https://doi.org/10.1126/science.6143402"
+    }
+  ]
+}

@@ -110,7 +110,9 @@
   style.textContent = css;
   document.head.append(style);
   // zoom.js: the image lens. faces.js: the people of each style. orgs.js: the organisations of each style.
-  for (const f of ["zoom.js", "faces.js", "orgs.js"]) {
+  // ?embed: the page is inside a frame of another demo page, which has the chrome. Keep the elements, hide them.
+  const EMBED = new URLSearchParams(location.search).has("embed");
+  for (const f of EMBED ? ["zoom.js"] : ["zoom.js", "faces.js", "orgs.js"]) {
     if (document.querySelector(`script[src$="${f}"]`)) continue;
     const s = document.createElement("script");
     s.src = new URL(f, document.currentScript?.src || location.href).href;
@@ -146,6 +148,7 @@
 
   const mount = () => {
     document.body.prepend(bar, drawer);
+    if (EMBED) bar.style.display = drawer.style.display = "none";
     const $ = (id) => document.getElementById(id);
     const list = $("chips"), open = $("do-open");
     const setOpen = (on, remember = true) => {

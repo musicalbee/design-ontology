@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schema/cue.schema.json",
+  "id": "dim-light-creativity",
+  "name": "Dim light frees the mind",
+  "variable": "illuminance",
+  "direction": {
+    "change": "lower",
+    "unit": "lux",
+    "range": {
+      "from": 1500,
+      "to": 150
+    },
+    "note": "The study compared 150, 500 and 1500 lux."
+  },
+  "effects": [
+    {
+      "target": "pad:d",
+      "sign": 1,
+      "size": "small"
+    },
+    {
+      "target": "insight",
+      "sign": 1,
+      "size": "small"
+    }
+  ],
+  "evidence_kind": "measured",
+  "claim": "People in dim light felt freer from constraints and solved creative tasks better than people in bright light.",
+  "study": {
+    "participants": 114,
+    "setting": "lab"
+  },
+  "caveat": "German students in a simulated office; the lux values and sample size come from press reports of the paper; it measures creativity, not a named emotion.",
+  "sources": [
+    {
+      "title": "Steidle and Werth 2013, Freedom from constraints: darkness and dim illumination promote creativity, Journal of Environmental Psychology 35",
+      "url": "https://doi.org/10.1016/j.jenvp.2013.05.003"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "spring-thaw",
+  "name": "Spring thaw",
+  "kind": "seasonal",
+  "description": "Snow melts first in rings around dark tree trunks, water runs everywhere, and the light comes back.",
+  "emotions": [
+    {
+      "emotion": "vitality",
+      "strength": 1
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.6
+    },
+    {
+      "emotion": "sehnsucht",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "midday",
+      "afternoon"
+    ],
+    "season": [
+      "spring"
+    ],
+    "sun_elevation_deg": {
+      "min": 15,
+      "max": 40
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 5000,
+      "max": 6000
+    },
+    "lux": {
+      "min": 10000,
+      "max": 100000
+    },
+    "direction": "high-side",
+    "quality": "hard",
+    "sources": [
+      "sun",
+      "snow-reflection"
+    ]
+  },
+  "weather": [
+    "clear",
+    "partly-cloudy"
+  ],
+  "sound": [
+    "running water",
+    "birds back",
+    "dripping eaves"
+  ],
+  "scent": [
+    "wet earth",
+    "melting snow"
+  ],
+  "people": {
+    "min": 0,
+    "max": 6,
+    "activity": "first coffee outside, open the windows"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "melting snow",
+      "mud",
+      "bare birches"
+    ]
+  },
+  "cues": [
+    "bright-light-intensifies-emotion",
+    "nature-sound-stress-recovery"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Snowmelt: dark trunks absorb sun, so snow melts first around trees",
+      "url": "https://en.wikipedia.org/wiki/Snowmelt"
+    },
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    }
+  ]
+}

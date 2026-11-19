@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "first-snow-morning",
+  "name": "First snow in the morning",
+  "kind": "seasonal",
+  "description": "The first snow covers the ground overnight, the world is quiet, and the light is bright from below.",
+  "emotions": [
+    {
+      "emotion": "enchantment",
+      "strength": 1
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.7
+    },
+    {
+      "emotion": "awe",
+      "strength": 0.4
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.4
+    }
+  ],
+  "time": {
+    "of_day": [
+      "morning"
+    ],
+    "season": [
+      "winter",
+      "autumn"
+    ],
+    "sun_elevation_deg": {
+      "min": 0,
+      "max": 15
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 5500,
+      "max": 7000
+    },
+    "lux": {
+      "min": 1000,
+      "max": 25000
+    },
+    "direction": "diffuse",
+    "quality": "soft",
+    "sources": [
+      "sky",
+      "snow-reflection"
+    ]
+  },
+  "weather": [
+    "snow",
+    "overcast"
+  ],
+  "sound": [
+    "muffled silence",
+    "snow under boots"
+  ],
+  "scent": [
+    "cold clean air"
+  ],
+  "people": {
+    "min": 0,
+    "max": 4,
+    "activity": "look out of the window, first steps outside"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "nordic-modernism-architecture"
+    ],
+    "things": [
+      "fresh snow",
+      "dark tree trunks",
+      "wool mittens"
+    ]
+  },
+  "cues": [
+    "bright-light-intensifies-emotion",
+    "window-view-trees-recovery"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Albedo: fresh snow reflects about 80 percent of the light",
+      "url": "https://en.wikipedia.org/wiki/Albedo"
+    },
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    }
+  ]
+}
