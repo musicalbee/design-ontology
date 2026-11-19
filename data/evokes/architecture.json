@@ -5,18 +5,6 @@
   "edges": {
     "adaptive-reuse-architecture": [
       {
-        "emotion": "interest",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:layered"
-            ]
-          }
-        ]
-      },
-      {
         "emotion": "nostalgia",
         "strength": 1,
         "evidence": [
@@ -24,6 +12,40 @@
             "kind": "inferred",
             "basis": [
               "keyword:memory"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says old buildings physically link people to their past and can become the heart of a community.",
+            "source": {
+              "title": "Wikipedia: Adaptive reuse",
+              "url": "https://en.wikipedia.org/wiki/Adaptive_reuse"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article names architectural beauty and the beauty of ageing as reasons to keep and reuse old buildings.",
+            "source": {
+              "title": "Wikipedia: Adaptive reuse",
+              "url": "https://en.wikipedia.org/wiki/Adaptive_reuse"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:layered"
             ]
           }
         ]
@@ -40,23 +62,47 @@
               "keyword:glamorous",
               "keyword:lustrous"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says the style represented luxury, glamour and exuberance.",
+            "source": {
+              "title": "Wikipedia: Art Deco architecture",
+              "url": "https://en.wikipedia.org/wiki/Art_Deco_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article describes Radio City Music Hall as a visual escape from reality.",
+            "source": {
+              "title": "Wikipedia: Art Deco architecture",
+              "url": "https://en.wikipedia.org/wiki/Art_Deco_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says height, colour and dramatic night lighting made Art Deco skyscrapers a bold spectacle.",
+            "source": {
+              "title": "Wikipedia: Art Deco architecture",
+              "url": "https://en.wikipedia.org/wiki/Art_Deco_architecture"
+            }
           }
         ]
       }
     ],
     "art-nouveau-architecture": [
-      {
-        "emotion": "beauty",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:sinuous"
-            ]
-          }
-        ]
-      },
       {
         "emotion": "being-moved",
         "strength": 1,
@@ -66,6 +112,14 @@
             "basis": [
               "keyword:romantic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says German architects wanted a spiritually uplifting total work of art.",
+            "source": {
+              "title": "Wikipedia: Art Nouveau",
+              "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+            }
           }
         ]
       },
@@ -78,23 +132,45 @@
             "basis": [
               "keyword:organic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says whiplash lines and asymmetry give Art Nouveau buildings a sense of dynamism and movement.",
+            "source": {
+              "title": "Wikipedia: Art Nouveau",
+              "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+            }
           }
         ]
-      }
-    ],
-    "arts-and-crafts-architecture": [
+      },
       {
-        "emotion": "hygge",
+        "emotion": "surprise",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article reports that a critic called Hankar's Brussels shop fronts a delirium of originality.",
+            "source": {
+              "title": "Wikipedia: Art Nouveau",
+              "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
         "strength": 1,
         "evidence": [
           {
             "kind": "inferred",
             "basis": [
-              "keyword:homely"
+              "keyword:sinuous"
             ]
           }
         ]
-      },
+      }
+    ],
+    "arts-and-crafts-architecture": [
       {
         "emotion": "joy",
         "strength": 1,
@@ -103,6 +179,40 @@
             "kind": "inferred",
             "basis": [
               "keyword:warm"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article links Arts and Crafts towns such as Letchworth with simple living and a more harmonious society.",
+            "source": {
+              "title": "Wikipedia: Arts and Crafts movement",
+              "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "nostalgia",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says the movement idealised medieval life and building.",
+            "source": {
+              "title": "Wikipedia: Arts and Crafts movement",
+              "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "hygge",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:homely"
             ]
           }
         ]
@@ -118,6 +228,14 @@
             "basis": [
               "keyword:dramatic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Baroque churches were built to inspire astonishment, reverence and awe.",
+            "source": {
+              "title": "Wikipedia: Baroque architecture",
+              "url": "https://en.wikipedia.org/wiki/Baroque_architecture"
+            }
           }
         ]
       },
@@ -130,6 +248,28 @@
             "basis": [
               "keyword:dynamic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Baroque architects used light for dramatic effect and made Renaissance forms more dramatic.",
+            "source": {
+              "title": "Wikipedia: Baroque architecture",
+              "url": "https://en.wikipedia.org/wiki/Baroque_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "surprise",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says Baroque effects were meant to amaze the viewer, for example painted ceilings that open into the heavens.",
+            "source": {
+              "title": "Wikipedia: Baroque architecture",
+              "url": "https://en.wikipedia.org/wiki/Baroque_architecture"
+            }
           }
         ]
       }
@@ -145,6 +285,14 @@
               "keyword:didactic",
               "keyword:rational"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article places the Bauhaus in the turn from emotional Expressionism to a matter-of-fact New Objectivity.",
+            "source": {
+              "title": "Wikipedia: Bauhaus",
+              "url": "https://en.wikipedia.org/wiki/Bauhaus"
+            }
           }
         ]
       },
@@ -172,6 +320,28 @@
               "keyword:grand",
               "keyword:ceremonial"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article describes a hierarchy of noble spaces and civic plans with a theatrical nobility.",
+            "source": {
+              "title": "Wikipedia: Beaux-Arts architecture",
+              "url": "https://en.wikipedia.org/wiki/Beaux-Arts_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "beauty",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "measured",
+            "claim": "In an fMRI study, participants judged rooms with high ceilings more beautiful than rooms with low ceilings; high ceilings are a mark of this style.",
+            "source": {
+              "title": "Vartanian et al. 2015, Architectural design and the brain: effects of ceiling height and perceived enclosure on beauty judgments (Journal of Environmental Psychology 41)",
+              "url": "https://portalciencia.ull.es/documentos/5e39b79e2999523aa92714b1"
+            }
           }
         ]
       }
@@ -186,18 +356,14 @@
             "basis": [
               "keyword:monumental"
             ]
-          }
-        ]
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": [
+          },
           {
-            "kind": "inferred",
-            "basis": [
-              "keyword:protective"
-            ]
+            "kind": "stated",
+            "claim": "The article says Brutalist buildings are massive in character, even when they are small.",
+            "source": {
+              "title": "Wikipedia: Brutalist architecture",
+              "url": "https://en.wikipedia.org/wiki/Brutalist_architecture"
+            }
           }
         ]
       },
@@ -209,6 +375,40 @@
             "kind": "inferred",
             "basis": [
               "keyword:severe"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Brutalism is often called cold and that critics find in it an atmosphere of totalitarianism.",
+            "source": {
+              "title": "Wikipedia: Brutalist architecture",
+              "url": "https://en.wikipedia.org/wiki/Brutalist_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "ugliness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article reports that critics called some Brutalist buildings an eyesore and among the ugliest.",
+            "source": {
+              "title": "Wikipedia: Brutalist architecture",
+              "url": "https://en.wikipedia.org/wiki/Brutalist_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:protective"
             ]
           }
         ]
@@ -224,6 +424,28 @@
             "basis": [
               "keyword:calm"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says critical regionalism puts the sense of touch, climate and local light before the placelessness of the International Style.",
+            "source": {
+              "title": "Wikipedia: Critical regionalism",
+              "url": "https://en.wikipedia.org/wiki/Critical_regionalism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says the light in Utzon's Bagsværd Church was shaped to make a sacred space.",
+            "source": {
+              "title": "Wikipedia: Critical regionalism",
+              "url": "https://en.wikipedia.org/wiki/Critical_regionalism"
+            }
           }
         ]
       },
@@ -241,6 +463,68 @@
       }
     ],
     "deconstructivist-architecture": [
+      {
+        "emotion": "uneasiness",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:unstable"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says the Wexner Center columns that do not reach the ground make a neurotic unease.",
+            "source": {
+              "title": "Wikipedia: Deconstructivism",
+              "url": "https://en.wikipedia.org/wiki/Deconstructivism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "confusion",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article describes Deconstructivism as fragmentation with no obvious harmony, a controlled chaos.",
+            "source": {
+              "title": "Wikipedia: Deconstructivism",
+              "url": "https://en.wikipedia.org/wiki/Deconstructivism"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "sadness",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says the empty voids of Libeskind's Jewish Museum Berlin stand for humanity reduced to ashes.",
+            "source": {
+              "title": "Wikipedia: Jewish Museum Berlin",
+              "url": "https://en.wikipedia.org/wiki/Jewish_Museum_Berlin"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "humour",
+        "strength": 0.3,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article calls Gehry's Santa Monica house a playful subversion of the suburban house.",
+            "source": {
+              "title": "Wikipedia: Deconstructivism",
+              "url": "https://en.wikipedia.org/wiki/Deconstructivism"
+            }
+          }
+        ]
+      },
       {
         "emotion": "energy",
         "strength": 1,
@@ -276,18 +560,6 @@
             ]
           }
         ]
-      },
-      {
-        "emotion": "uneasiness",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:unstable"
-            ]
-          }
-        ]
       }
     ],
     "expressionist-architecture": [
@@ -300,6 +572,28 @@
             "basis": [
               "keyword:dramatic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article ties the movement to the sublime and to themes of caves, mountains, lightning and crystal.",
+            "source": {
+              "title": "Wikipedia: Expressionist architecture",
+              "url": "https://en.wikipedia.org/wiki/Expressionist_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "energy",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says the term covers work that communicates violent or overstressed emotion through distorted form.",
+            "source": {
+              "title": "Wikipedia: Expressionist architecture",
+              "url": "https://en.wikipedia.org/wiki/Expressionist_architecture"
+            }
           }
         ]
       }
@@ -315,6 +609,14 @@
               "keyword:soaring",
               "keyword:sacred"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Gothic builders wanted to express local grandeur and used awe-inspiring decoration.",
+            "source": {
+              "title": "Wikipedia: Gothic architecture",
+              "url": "https://en.wikipedia.org/wiki/Gothic_architecture"
+            }
           }
         ]
       },
@@ -327,6 +629,28 @@
             "basis": [
               "keyword:luminous"
             ]
+          },
+          {
+            "kind": "measured",
+            "claim": "In an fMRI study, participants judged rooms with high ceilings more beautiful than rooms with low ceilings; high ceilings are a mark of this style.",
+            "source": {
+              "title": "Vartanian et al. 2015, Architectural design and the brain: effects of ceiling height and perceived enclosure on beauty judgments (Journal of Environmental Psychology 41)",
+              "url": "https://portalciencia.ull.es/documentos/5e39b79e2999523aa92714b1"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "enchantment",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says Abbot Suger wanted wonderful, uninterrupted light in Saint-Denis.",
+            "source": {
+              "title": "Wikipedia: Gothic architecture",
+              "url": "https://en.wikipedia.org/wiki/Gothic_architecture"
+            }
           }
         ]
       },
@@ -353,6 +677,28 @@
             "basis": [
               "keyword:energetic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says high-tech buildings aim to convey science, progress and a dynamic sense of movement.",
+            "source": {
+              "title": "Wikipedia: High-tech architecture",
+              "url": "https://en.wikipedia.org/wiki/High-tech_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "interest",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says exposed services in bright colours evoke a drawing or diagram of the building.",
+            "source": {
+              "title": "Wikipedia: High-tech architecture",
+              "url": "https://en.wikipedia.org/wiki/High-tech_architecture"
+            }
           }
         ]
       }
@@ -367,6 +713,42 @@
             "basis": [
               "keyword:rational"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says the style was adopted as a symbol of industry, progress and modernity.",
+            "source": {
+              "title": "Wikipedia: International Style",
+              "url": "https://en.wikipedia.org/wiki/International_Style"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "boredom",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says the style drew negative reactions as monotonous and austere.",
+            "source": {
+              "title": "Wikipedia: International Style",
+              "url": "https://en.wikipedia.org/wiki/International_Style"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "measured",
+            "claim": "In a study of 49 office workers, people with windows at work slept longer and scored higher on vitality than people without windows; large glazed openings are a mark of this style.",
+            "source": {
+              "title": "Northwestern University news on Boubekri et al. 2014, windows at work and sleep and quality of life (Journal of Clinical Sleep Medicine)",
+              "url": "https://news.feinberg.northwestern.edu/2014/08/Zee-office-light"
+            }
           }
         ]
       },
@@ -405,6 +787,14 @@
             "basis": [
               "keyword:warm"
             ]
+          },
+          {
+            "kind": "measured",
+            "claim": "In surveys and interviews of employees in two mass timber offices, people reported high satisfaction with exposed wood and better mental wellbeing.",
+            "source": {
+              "title": "Happy Cities: Mass timber post-occupancy evaluations, Kelowna offices",
+              "url": "https://happycities.com/projects/mass-timber-post-occupancy-evaluations"
+            }
           }
         ]
       },
@@ -417,6 +807,22 @@
             "basis": [
               "keyword:calm"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article describes exposed wood as beautiful, natural and stress-relieving for building users.",
+            "source": {
+              "title": "ArchDaily: The biophilic response to wood (2022)",
+              "url": "https://www.archdaily.com/974790"
+            }
+          },
+          {
+            "kind": "measured",
+            "claim": "In a crossover study with 26 participants, a wooden table in a Japanese-style room made people feel more relaxed and comfortable and lowered sympathetic activity; wood is a main material of this style.",
+            "source": {
+              "title": "Ikei, Jo and Miyazaki 2023, Physiological effects of visual stimulation by a Japanese low wooden table (IJERPH 20(14):6351)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10378921"
+            }
           }
         ]
       },
@@ -444,6 +850,14 @@
               "keyword:warm",
               "keyword:optimistic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says mid-century modern buildings signalled a new chapter, a mood of optimism.",
+            "source": {
+              "title": "Wikipedia: Mid-century modern",
+              "url": "https://en.wikipedia.org/wiki/Mid-century_modern"
+            }
           }
         ]
       },
@@ -456,6 +870,28 @@
             "basis": [
               "keyword:domestic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Scandinavian mid-century design aimed at cosy togetherness.",
+            "source": {
+              "title": "Wikipedia: Mid-century modern",
+              "url": "https://en.wikipedia.org/wiki/Mid-century_modern"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "measured",
+            "claim": "In a study of 49 office workers, people with windows at work slept longer and scored higher on vitality than people without windows; large glazed openings are a mark of this style.",
+            "source": {
+              "title": "Northwestern University news on Boubekri et al. 2014, windows at work and sleep and quality of life (Journal of Clinical Sleep Medicine)",
+              "url": "https://news.feinberg.northwestern.edu/2014/08/Zee-office-light"
+            }
           }
         ]
       },
@@ -482,6 +918,14 @@
             "basis": [
               "keyword:dignified"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article links Boullée's spare designs to the sublime and to the eternity of the universe.",
+            "source": {
+              "title": "Wikipedia: Neoclassical architecture",
+              "url": "https://en.wikipedia.org/wiki/Neoclassical_architecture"
+            }
           }
         ]
       },
@@ -494,6 +938,14 @@
             "basis": [
               "keyword:pure"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says the Adam brothers gave interiors a lighter and more elegant feel.",
+            "source": {
+              "title": "Wikipedia: Neoclassical architecture",
+              "url": "https://en.wikipedia.org/wiki/Neoclassical_architecture"
+            }
           }
         ]
       },
@@ -524,6 +976,46 @@
     ],
     "nordic-modernism-architecture": [
       {
+        "emotion": "relaxation",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:calm"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Aalto wanted to humanise architecture and gave the Viipuri Library warm colours and undulating lines.",
+            "source": {
+              "title": "Wikipedia: Alvar Aalto",
+              "url": "https://en.wikipedia.org/wiki/Alvar_Aalto"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 1,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:natural"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says the columns of Villa Mairea give the feeling of a natural forest.",
+            "source": {
+              "title": "Wikipedia: Alvar Aalto",
+              "url": "https://en.wikipedia.org/wiki/Alvar_Aalto"
+            }
+          }
+        ]
+      },
+      {
         "emotion": "being-moved",
         "strength": 1,
         "evidence": [
@@ -546,30 +1038,6 @@
             ]
           }
         ]
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:calm"
-            ]
-          }
-        ]
-      },
-      {
-        "emotion": "vitality",
-        "strength": 1,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:natural"
-            ]
-          }
-        ]
       }
     ],
     "organic-architecture": [
@@ -583,6 +1051,34 @@
               "keyword:organic",
               "keyword:natural"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article describes Fallingwater as a harmonious union of art and nature, in lively dialogue with the waterfall.",
+            "source": {
+              "title": "Wikipedia: Organic architecture",
+              "url": "https://en.wikipedia.org/wiki/Organic_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "relaxation",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "inferred",
+            "basis": [
+              "keyword:sheltering"
+            ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says organic architecture seeks harmony with nature and a sense of shelter and safety.",
+            "source": {
+              "title": "Wikipedia: Organic architecture",
+              "url": "https://en.wikipedia.org/wiki/Organic_architecture"
+            }
           }
         ]
       },
@@ -597,21 +1093,37 @@
             ]
           }
         ]
-      },
-      {
-        "emotion": "relaxation",
-        "strength": 0.5,
-        "evidence": [
-          {
-            "kind": "inferred",
-            "basis": [
-              "keyword:sheltering"
-            ]
-          }
-        ]
       }
     ],
     "parametricism-architecture": [
+      {
+        "emotion": "beauty",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says parametricism aims at elegance, both unified and beautiful.",
+            "source": {
+              "title": "Wikipedia: Parametric architecture",
+              "url": "https://en.wikipedia.org/wiki/Parametric_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "fascination",
+        "strength": 0.7,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article reports that a source called the Phaeno Science Center a hypnotic work of architecture.",
+            "source": {
+              "title": "Wikipedia: Parametric architecture",
+              "url": "https://en.wikipedia.org/wiki/Parametric_architecture"
+            }
+          }
+        ]
+      },
       {
         "emotion": "intellectual-challenge",
         "strength": 1,
@@ -636,6 +1148,28 @@
               "keyword:playful",
               "keyword:ironic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says postmodern architects wanted to communicate in a humorous or witty way, as in Venturi's reply that less is a bore.",
+            "source": {
+              "title": "Wikipedia: Postmodern architecture",
+              "url": "https://en.wikipedia.org/wiki/Postmodern_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "vitality",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article says Venturi preferred messy vitality over obvious unity.",
+            "source": {
+              "title": "Wikipedia: Postmodern architecture",
+              "url": "https://en.wikipedia.org/wiki/Postmodern_architecture"
+            }
           }
         ]
       },
@@ -662,6 +1196,14 @@
             "basis": [
               "keyword:sheltering"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says open plans give a sense of spaciousness.",
+            "source": {
+              "title": "Wikipedia: Prairie School",
+              "url": "https://en.wikipedia.org/wiki/Prairie_School"
+            }
           }
         ]
       },
@@ -674,6 +1216,14 @@
             "basis": [
               "keyword:organic"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Prairie houses use horizontal lines, earthy colours and local materials so that they belong to the landscape.",
+            "source": {
+              "title": "Wikipedia: Prairie School",
+              "url": "https://en.wikipedia.org/wiki/Prairie_School"
+            }
           }
         ]
       }
@@ -688,6 +1238,28 @@
             "basis": [
               "keyword:harmonious"
             ]
+          },
+          {
+            "kind": "stated",
+            "claim": "The article says Renaissance buildings have harmonious facades and an ideal of harmony.",
+            "source": {
+              "title": "Wikipedia: Renaissance architecture",
+              "url": "https://en.wikipedia.org/wiki/Renaissance_architecture"
+            }
+          }
+        ]
+      },
+      {
+        "emotion": "awe",
+        "strength": 0.5,
+        "evidence": [
+          {
+            "kind": "stated",
+            "claim": "The article reports that Pevsner called the Laurentian Library the most sublime work of Mannerism, with an intimidating staircase.",
+            "source": {
+              "title": "Wikipedia: Renaissance architecture",
+              "url": "https://en.wikipedia.org/wiki/Renaissance_architecture"
+            }
           }
         ]
       },
