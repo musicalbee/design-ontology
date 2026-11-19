@@ -147,7 +147,7 @@ Printing from raised metal or wood type and blocks, locked in a forme and presse
 
 ### Woodcut (process)
 
-A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: graphic & ui design, Dunhuang, 868.
+A print from a block of wood with the white parts cut away; the result is flat colour, hard edges and visible grain. Origin: internet, Dunhuang, 868.
 
 - Cut the block along the grain with a knife and a gouge; leave a line of 1mm to 3mm for the black.
 - Use one block for each colour and register them within 1 mm.

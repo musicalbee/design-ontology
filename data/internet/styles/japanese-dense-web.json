@@ -1,0 +1,317 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "japanese-dense-web",
+  "domain": "internet",
+  "name": "Japanese Dense Web",
+  "aliases": [
+    "Information-dense web",
+    "Portal style",
+    "Japanese portal design"
+  ],
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1999,
+    "end": null,
+    "label": "1999–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Dense pages with many links, small type, bright accent colours, banners, ranking lists and tight grids. It grew from portals such as Yahoo! JAPAN and Rakuten and makes a page rich in choice.",
+  "philosophy": {
+    "core_thesis": "Density is hospitality: show all the options at once, so the visitor never has to search.",
+    "design_principles": [
+      "Pack 6 to 12 content blocks above the fold, each with a title row of 28px to 32px and 5 to 10 links beneath.",
+      "Set text at 12px to 14px with a leading of 1.5 to 1.7; keep headings at 14px to 18px and bold.",
+      "Use a tight grid with 8px gutters and block padding of 8px to 12px; borders of 1px in light grey separate blocks.",
+      "Mark categories with bright accent colours (red #E60012, orange, blue #0A58CA) in 3px to 4px header bars.",
+      "Show ranking numbers (1 to 10), price, discount badge and star ratings in small bright elements of 12px to 16px.",
+      "Add 3 or more banners of 300px to 728px width in rows, and a sticky bar for search and cart of 48px to 56px height.",
+      "Keep a clear text-first path: every block has a text link, and images are small thumbnails of 64px to 120px."
+    ],
+    "anti_patterns": [
+      "Large empty hero sections with one headline",
+      "Single call to action per screen",
+      "Thin light type at 16px or above for everything",
+      "One-column minimal layouts",
+      "Hidden navigation behind a single menu icon",
+      "Large padding above 24px",
+      "Monochrome palettes with no accent colours"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A modular grid of 4 to 6 columns with 8px gutters; blocks of 160px to 320px width stack in rows; side columns of 180px hold categories and rankings.",
+    "whitespace_ratio": "5% to 15% of the surface stays empty; the spacing scale is 4, 8, 12 and 16px.",
+    "alignment_rules": "Flush left; numbers right-aligned; tags and badges inline; banners centred in their row.",
+    "container_geometry": "Rectangles with a 0px to 4px radius and a 1px border in #DDDDDD; header bars of 3px to 4px colour above blocks."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans serif",
+      "CJK sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Noto Sans JP",
+        "body": "Noto Sans JP",
+        "note": "A single family with full Japanese coverage for tight small text."
+      },
+      {
+        "display": "M PLUS 1p",
+        "body": "Noto Sans JP",
+        "note": "A friendlier gothic that stays clear at 12px."
+      },
+      {
+        "display": "Noto Sans",
+        "body": "Noto Sans JP",
+        "note": "A Latin and CJK pair for mixed text."
+      }
+    ],
+    "tracking": "Tracking stays at 0 to +0.02em; small text takes +0.02em.",
+    "leading": "Display 1.4; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (700).",
+      "Use sizes 12, 14, 16 and 20px.",
+      "Set the titles of blocks at 14px bold.",
+      "Set prices in bold red at 16px to 20px."
+    ]
+  },
+  "color": {
+    "palette_structure": "White ground with bright category colours and red for price and promotion.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "name": "Signal Red",
+        "hex": "#E60012",
+        "role": "price and primary"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#0A58CA",
+        "role": "links"
+      },
+      {
+        "name": "Grey",
+        "hex": "#F2F2F2",
+        "role": "block surface"
+      },
+      {
+        "name": "Gold",
+        "hex": "#F5A623",
+        "role": "ranking and accent"
+      }
+    ],
+    "contrast_rules": "Ink on paper holds 16:1; red on paper holds at least 4.5:1 for 14px bold and larger; link blue holds at least 7:1.",
+    "surface_treatment": "Flat, opaque fields; small gradient on a header bar or button is allowed (2 stops).",
+    "light_and_shadow": "None; a 1px grey border separates blocks."
+  },
+  "materiality": {
+    "surface_simulation": "Print flyers, catalogues and magazines, shown flat on screen.",
+    "border_rules": "1px solid #DDDDDD around blocks; 3px to 4px colour bars on headers.",
+    "blur_and_elevation": "No blur. No elevation. A 1px shadow only on sticky bars."
+  },
+  "ornamentation_details": {
+    "iconography": "Small 16px to 20px solid or outline pictograms with a 1.5px stroke, used as inline labels; badges and arrows in text.",
+    "illustration": "Product thumbnails, banners, character mascots and ranking badges in flat colour.",
+    "decorative_elements": [
+      "ranking list",
+      "colour header bar",
+      "banner row",
+      "price badge",
+      "sticky search bar"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Little motion; banners cycle every 5s with a 300ms slide; hover changes the link colour at once.",
+    "easing": "linear",
+    "duration_ms": 150,
+    "hover_and_active": "Hover underlines a link and turns it red (#E60012); active state darkens a button by 10%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "swiss-international"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels abundance, convenience and a sense that everything is at hand.",
+    "keywords": [
+      "abundant",
+      "convenient",
+      "busy",
+      "friendly",
+      "practical",
+      "lively"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "japanese web",
+      "japanese portal",
+      "dense layout",
+      "yahoo japan",
+      "rakuten",
+      "information dense",
+      "banner rows",
+      "ranking list"
+    ],
+    "use_cases": [
+      "commerce and marketplace portals",
+      "news and media portals",
+      "price and review comparison sites",
+      "campaign and sale pages",
+      "local-service directories"
+    ],
+    "avoid_when": [
+      "The brand needs a premium, calm look.",
+      "The page has one task and one action.",
+      "The audience reads on a very small screen with big type needs."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "swiss-international",
+        "how": "Cut to 3 blocks, raise type to 16px and set 24px gutters; keep one red accent."
+      },
+      {
+        "request": "more modern",
+        "toward": "bento-grid-ui",
+        "how": "Put blocks in cells with a 12px radius and a 1px border; keep the density."
+      },
+      {
+        "request": "more playful",
+        "toward": "memphis-design",
+        "how": "Add pastel fills and squiggle patterns to the header bars."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.4,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "square",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "A compact, solid family that stays clear at 16px beside 12px to 14px text."
+      }
+    },
+    "art": {
+      "recipe": "corporate",
+      "pattern": "grid",
+      "seed": 45
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rules",
+      "why": "Dense Japanese portals sit on a ruled grid with a colour bar across the top."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#F2F2F2",
+      "--color-text": "#222222",
+      "--color-muted": "#5A5A5A",
+      "--color-primary": "#E60012",
+      "--color-accent": "#0A58CA",
+      "--color-border": "#DDDDDD",
+      "--font-sans": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+      "--font-display": "\"Noto Sans JP\", \"Noto Sans\", sans-serif",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "linear",
+      "--duration": "150ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-[#222222] font-sans text-sm leading-[1.6] antialiased px-2 md:px-4"
+      },
+      {
+        "element": "heading",
+        "classes": "text-lg font-bold leading-[1.4] border-t-4 border-[#E60012] pt-2"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.6]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#DDDDDD] bg-white p-2"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm bg-[#E60012] px-4 py-2 text-sm font-bold text-white transition-colors duration-150 hover:brightness-90"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold text-[#5A5A5A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#E60012", "#0A58CA", "#222222"]},
+    "accent_colour": {"options": ["#0A58CA", "#E60012"]},
+    "corner_radius": {"min": 1, "max": 3},
+    "grid_step": {"min": 2, "max": 6},
+    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+  },
+  "sources": [
+    {
+      "title": "Example: Yahoo! JAPAN top page (1999–2025)"
+    },
+    {
+      "title": "Example: Rakuten Ichiba (2000–2025)"
+    },
+    {
+      "title": "Example: Kakaku.com and Livedoor-era portals"
+    }
+  ]
+}

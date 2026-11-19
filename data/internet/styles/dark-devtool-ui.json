@@ -1,0 +1,319 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "dark-devtool-ui",
+  "domain": "internet",
+  "name": "Dark-Mode Developer Tool",
+  "aliases": [
+    "Dev-tool dark UI",
+    "Linear style",
+    "Code-editor UI"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2016,
+    "end": null,
+    "label": "2016–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Near-black surfaces, 1px hairline borders, one saturated accent, a monospace for data and keyboard hints on every action. It came from code editors and terminals and now defines software for engineers.",
+  "philosophy": {
+    "core_thesis": "A tool for experts is a dense, calm, dark instrument: show a lot, keep it quiet and make everything reachable from the keyboard.",
+    "design_principles": [
+      "Use a near-black ground (#0B0B0E) and 2 or 3 surface steps of 4% to 8% lightness each; no pure black and no pure white.",
+      "Draw every border as a 1px hairline in white at 8% to 12% opacity; panels have a radius of 6px to 8px.",
+      "Set one accent colour (indigo #5A66E8 or similar) and use it on less than 5% of the surface: focus, selection and the primary button.",
+      "Set UI text at 13px to 14px in a neutral sans and all data, ids and code in a monospace at 12px to 13px.",
+      "Show a keyboard hint in a 1px bordered key cap (radius 4px, 11px text) next to each main action; offer a command palette on Cmd+K.",
+      "Give every row a height of 32px to 40px and keep lists dense; separate rows by hairline, not by space.",
+      "Use motion of 100ms to 200ms for state changes only, with no entrance effects on content."
+    ],
+    "anti_patterns": [
+      "Pure black (#000000) or pure white text",
+      "Large rounded cards and thick borders",
+      "Colourful backgrounds and more than one accent colour",
+      "Decorative illustration in the product view",
+      "Large padding above 24px inside lists",
+      "Drop shadows with large blur on panels",
+      "Light themes as the only option"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A sidebar of 240px to 280px and a content area on a 4px grid; panels split by hairlines; rows of 32px to 40px.",
+    "whitespace_ratio": "15% to 25% of the surface stays empty; the spacing scale is 4, 8, 12, 16 and 24px.",
+    "alignment_rules": "Flush left; numbers right-aligned in a monospace; actions in a toolbar at the top right.",
+    "container_geometry": "Rectangles with a 6px to 8px radius, a 1px hairline border and no shadow; key caps with a 4px radius."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans serif",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "One neutral UI face for text; set data and code in JetBrains Mono through --font-mono."
+      },
+      {
+        "display": "Geist",
+        "body": "Geist Mono",
+        "note": "A matched sans and mono family."
+      },
+      {
+        "display": "IBM Plex Sans",
+        "body": "IBM Plex Mono",
+        "note": "A technical pairing with a clear voice."
+      }
+    ],
+    "tracking": "Display takes -0.02em; body stays at 0; small labels take +0.02em.",
+    "leading": "Display 1.15; body 1.5; rows 1.4.",
+    "hierarchy_rules": [
+      "Use three weights: regular (400), medium (500) and semibold (600).",
+      "Use sizes 12, 13, 14, 20 and 32px.",
+      "Set headings in sentence case in medium weight.",
+      "Set ids, hashes and numbers in the monospace with tabular figures."
+    ]
+  },
+  "color": {
+    "palette_structure": "Near-black ground, grey surfaces, off-white text and one accent.",
+    "palette": [
+      {
+        "name": "Void",
+        "hex": "#0B0B0E",
+        "role": "background"
+      },
+      {
+        "name": "Panel",
+        "hex": "#141418",
+        "role": "surface"
+      },
+      {
+        "name": "Raised",
+        "hex": "#1C1C22",
+        "role": "raised surface"
+      },
+      {
+        "name": "Text",
+        "hex": "#E6E6EB",
+        "role": "text"
+      },
+      {
+        "name": "Muted",
+        "hex": "#8A8A96",
+        "role": "secondary text"
+      },
+      {
+        "name": "Indigo",
+        "hex": "#5A66E8",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "Text holds at least 12:1 on void; muted text holds at least 4.5:1; the accent carries focus and primary buttons.",
+    "surface_treatment": "Flat, opaque, matt surfaces; steps of 4% to 8% lightness show depth; a faint radial glow of the accent at 6% opacity is allowed behind the hero only.",
+    "light_and_shadow": "No cast shadows; elevation is a lighter surface and a hairline; a 1px top highlight of white at 6% on cards."
+  },
+  "materiality": {
+    "surface_simulation": "A dark terminal and code editor, shown as flat tonal surfaces.",
+    "border_rules": "1px hairline in white at 8% to 12% opacity on all panels, inputs and key caps.",
+    "blur_and_elevation": "No blur on panels except a 12px blur on overlays. Elevation is shown by lighter tone and hairline, not by shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons with a 1.5px stroke, round caps and round joins at 16px; one family only; icons sit next to text and have no container.",
+    "illustration": "Product screenshots of the real tool in dark mode, with an accent glow; abstract line diagrams.",
+    "decorative_elements": [
+      "hairline border",
+      "key cap",
+      "command palette",
+      "monospace data",
+      "faint accent glow"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Quick, quiet state moves: panels slide 8px and fade in 150ms; lists update with no delay; the command palette opens in 120ms.",
+    "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "Hover lifts a row to the raised surface and shows its key hint; active state shows a 1px accent ring."
+  },
+  "lineage": {
+    "evolved_from": [
+      "flat-design"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "bento-grid-ui",
+      "glassmorphism"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels focus, speed and the calm of a tool made by experts.",
+    "keywords": [
+      "focused",
+      "fast",
+      "precise",
+      "technical",
+      "calm",
+      "dense"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dark mode",
+      "developer tool",
+      "dev tool",
+      "linear style",
+      "command palette",
+      "vercel style",
+      "code editor",
+      "keyboard first",
+      "hairline borders"
+    ],
+    "use_cases": [
+      "developer tools and CLIs",
+      "SaaS for engineers",
+      "observability and infra dashboards",
+      "API and docs sites",
+      "issue and project trackers"
+    ],
+    "avoid_when": [
+      "The audience is a general consumer.",
+      "The brand must feel warm or playful.",
+      "The page is long-form editorial reading."
+    ],
+    "modifiers": [
+      {
+        "request": "lighter",
+        "toward": "swiss-international",
+        "how": "Switch to a white ground and ink text; keep the 1px hairlines and one accent."
+      },
+      {
+        "request": "more visual",
+        "toward": "glassmorphism",
+        "how": "Add 16px backdrop blur to overlays and a colour glow behind panels."
+      },
+      {
+        "request": "more playful",
+        "toward": "neo-brutalism-ui",
+        "how": "Replace hairlines with 3px black borders and hard shadows; keep the density."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 500,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, even 1.5px line at 16px that sits beside 13px text without weight."
+      }
+    },
+    "art": {
+      "recipe": "bento",
+      "pattern": "grid",
+      "seed": 34
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "dot-grid",
+      "why": "Developer tools sit on a dark canvas with a dot grid and a glow of the brand colour."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0B0B0E",
+      "--color-surface": "#141418",
+      "--color-text": "#E6E6EB",
+      "--color-muted": "#8A8A96",
+      "--color-primary": "#5A66E8",
+      "--color-accent": "#5A66E8",
+      "--color-border": "#2A2A32",
+      "--font-sans": "\"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Inter\", system-ui, sans-serif",
+      "--border-radius": "6px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "--duration": "150ms",
+      "--font-mono": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0B0B0E] text-[#E6E6EB] font-sans text-sm antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-semibold tracking-[-0.02em] leading-[1.15]"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.5] text-[#8A8A96]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-md border border-white/10 bg-[#141418] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-md bg-[#5A66E8] px-3 py-1.5 text-sm font-medium text-white transition-colors duration-150 hover:bg-[#4853D6]"
+      },
+      {
+        "element": "label",
+        "classes": "font-mono text-xs text-[#8A8A96]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#5A66E8", "#E6E6EB"]},
+    "accent_colour": {"options": ["#5A66E8", "#E6E6EB"]},
+    "corner_radius": {"min": 3, "max": 9},
+    "grid_step": {"min": 2, "max": 6},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
+  "sources": [
+    {
+      "title": "Linear, Vercel and GitHub dark-mode interfaces (2019–2025), public product pages"
+    },
+    {
+      "title": "Stack Overflow Developer Survey (editor and dark-mode share)"
+    }
+  ]
+}

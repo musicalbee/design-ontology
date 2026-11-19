@@ -22,7 +22,7 @@ const domain = opt("domain");
 const only = opt("only")?.split(",");
 const force = args.includes("--force");
 const dry = args.includes("--dry-run");
-if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|design");
+if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet");
 
 type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {

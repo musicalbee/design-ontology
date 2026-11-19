@@ -11,7 +11,7 @@ How to pick:
 
 A machine-readable copy of this table is in [`index.json`](./index.json). The relations between styles are in [`../graph/lineage.json`](../graph/lineage.json). Techniques that cross domains (cuts, motion rules, motifs, materials) are in [`TECHNIQUES.md`](./TECHNIQUES.md).
 
-## Graphic & UI Design
+## Internet
 
 Vector axes, each 1 to 5: **ORN** ornamentation (pure minimal → maximalist) · **DIM** dimensionality (strictly 2D → full 3D / spatial) · **GRID** grid rigidity (chaotic / organic → strict mathematical grid) · **REAL** skeuomorphic realism (abstract digital → photorealistic material) · **TYPE** typographic expressiveness (neutral / invisible → experimental / illustrative).
 

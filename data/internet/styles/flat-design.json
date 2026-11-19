@@ -1,0 +1,325 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "flat-design",
+  "domain": "internet",
+  "name": "Flat Design",
+  "aliases": [
+    "Flat UI",
+    "Flat 2.0",
+    "Metro-inspired flat"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–present"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Interfaces of solid colour fields, simple geometric shapes, bold sans-serif type and no gradients or shadows. It followed Microsoft Metro in 2010 and Windows 8 in 2012, and became the default after iOS 7 in 2013.",
+  "philosophy": {
+    "core_thesis": "A digital interface is honest when it shows itself as pixels and type, and does not imitate physical objects.",
+    "design_principles": [
+      "Fill every surface with one solid colour and use no gradient, texture or shadow.",
+      "Build the palette from 4 to 6 saturated colours, such as turquoise, emerald, amethyst, carrot and alizarin, plus one neutral.",
+      "Draw icons as simple geometric shapes on a 24px or 32px square, with solid fills or a 2px stroke and no bevel.",
+      "Express hierarchy with size, weight and colour, using at least a 1.25 ratio between type levels.",
+      "Use large tap targets of at least 44px and generous padding of 16 to 24px around content.",
+      "Separate regions with a change of colour and not with a border, a shadow or a line.",
+      "Give interactive elements a plain colour change on hover and press, with no lift and no glow."
+    ],
+    "anti_patterns": [
+      "Gradients, glossy highlights and reflections on buttons",
+      "Drop shadows, inner shadows and bevels on any element",
+      "Textures of leather, paper, wood or linen as backgrounds",
+      "Photographic or 3D-rendered icons",
+      "Low-contrast pastel text under 4.5:1 on a coloured field",
+      "Ghost buttons with a 1px outline as the only primary action",
+      "Mixed icon styles of outline and filled in one view"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 30px gutters on the web and a 4-column grid with 16px margins on a phone; every spacing value is a multiple of 8px.",
+    "whitespace_ratio": "35–50% of the surface stays empty; the spacing scale is 8, 16, 24, 32, 48, 64px.",
+    "alignment_rules": "Flush-left text with a shared left edge; icons centre in their containers; blocks of colour run full-width and bleed to the screen edge on mobile.",
+    "container_geometry": "Rectangles and circles with a radius of 0px to 4px on buttons and cards, and 50% on avatars; tiles are squares or 2:1 rectangles."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans serif",
+      "grotesque sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Montserrat",
+        "body": "Open Sans",
+        "note": "A wide geometric face for headlines and a neutral text face; common in 2013 flat templates."
+      },
+      {
+        "display": "Lato",
+        "body": "Lato",
+        "note": "A single-family setting with weights 300 to 900, close to the Helvetica Neue Light used by iOS 7."
+      },
+      {
+        "display": "Raleway",
+        "body": "Source Sans 3",
+        "note": "A thin elegant display face for large headings with a sturdy text face."
+      }
+    ],
+    "tracking": "Display sizes take -0.01em to 0em; body stays at 0; upper-case labels take +0.05em.",
+    "leading": "Display 1.15; body 1.5; labels 1.2.",
+    "hierarchy_rules": [
+      "Use light (300) or regular (400) for large display text and bold (700) for buttons and labels.",
+      "Use four sizes, for example 14, 18, 32 and 64px, with a ratio near 1.8 between display levels.",
+      "Set headline text in white on a saturated colour field or in near-black on white.",
+      "Keep body text at 16px or more with a line length of 45 to 75 characters."
+    ]
+  },
+  "color": {
+    "palette_structure": "One white or light-grey base, 4 to 6 saturated flat colours, and one dark neutral; each section holds one dominant colour on 30 to 60% of its area.",
+    "palette": [
+      {
+        "name": "Clouds",
+        "hex": "#ECF0F1",
+        "role": "background"
+      },
+      {
+        "name": "Midnight",
+        "hex": "#2C3E50",
+        "role": "text and dark surface"
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#1ABC9C",
+        "role": "primary"
+      },
+      {
+        "name": "Peter River",
+        "hex": "#3498DB",
+        "role": "secondary action"
+      },
+      {
+        "name": "Alizarin",
+        "hex": "#E74C3C",
+        "role": "alert and accent"
+      },
+      {
+        "name": "Sun Flower",
+        "hex": "#F1C40F",
+        "role": "highlight"
+      }
+    ],
+    "contrast_rules": "Body text holds at least 4.5:1; white text on Turquoise reaches only 2.5:1, so large text of 24px or more or a darker shade of #16A085 is required on that field.",
+    "surface_treatment": "Opaque solid fills with no gradient, no noise and no transparency except for 50% overlays on photographs.",
+    "light_and_shadow": "None. There is no light source; depth comes from overlap and from colour change."
+  },
+  "materiality": {
+    "surface_simulation": "None; surfaces are plain screen colour and do not imitate any material.",
+    "border_rules": "No borders on cards and buttons; inputs take a 2px solid bottom or full border in the accent colour when focused.",
+    "blur_and_elevation": "No blur and no elevation; box-shadow and backdrop-filter stay at none, and there is one flat layer."
+  },
+  "ornamentation_details": {
+    "iconography": "Solid or 2px-stroke glyphs on a 24px grid with rounded or square terminals, one colour each, and no gradient.",
+    "illustration": "Flat vector shapes in the palette with no outlines and no shading, or full-bleed photographs under a 50% colour overlay.",
+    "decorative_elements": [
+      "colour blocks",
+      "circles",
+      "long shadow of 45 degrees on icons in the 2013 variant",
+      "oversized numerals",
+      "ghost-weight hero type"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Short plain transitions of colour, opacity and position with no overshoot; panels slide in from the edge by their own width.",
+    "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover darkens the fill by 8 to 10% lightness; active darkens it by 15%; nothing lifts, scales more than 1.02 or glows."
+  },
+  "lineage": {
+    "evolved_from": [
+      "swiss-international"
+    ],
+    "rebelled_against": [
+      "skeuomorphism"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Directness and lightness: the viewer feels that the interface is quick, honest and free of ornament.",
+    "keywords": [
+      "direct",
+      "light",
+      "bright",
+      "honest",
+      "quick",
+      "utilitarian"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "sage",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "flat design",
+      "flat ui",
+      "flat style",
+      "no gradients",
+      "no shadows",
+      "solid colours",
+      "ios 7 look",
+      "metro style",
+      "simple icons",
+      "flat vector",
+      "colour blocks"
+    ],
+    "use_cases": [
+      "marketing landing pages",
+      "mobile apps",
+      "dashboards",
+      "icon sets",
+      "startup brands"
+    ],
+    "avoid_when": [
+      "The user must tell raised controls from plain content, because flat buttons lose the affordance cue.",
+      "The brand needs warmth, material richness or a premium feel.",
+      "The interface has many dense, equal-weight controls that need layers to show order."
+    ],
+    "modifiers": [
+      {
+        "request": "more depth",
+        "toward": "material-design",
+        "how": "Add elevation shadows of 2 to 24dp with a top-left key light and keep the solid fills and the colour palette."
+      },
+      {
+        "request": "more tactile",
+        "toward": "skeuomorphism",
+        "how": "Add a 4 to 8% top-to-bottom gradient and a 1px highlight on controls; keep the layout and the colours."
+      },
+      {
+        "request": "more human",
+        "toward": "corporate-memphis",
+        "how": "Add flat illustrated people with exaggerated proportions and a 4-hue palette; keep the solid fills and the layout."
+      },
+      {
+        "request": "more grid and type",
+        "toward": "swiss-international",
+        "how": "Reduce the palette to black, white and one accent; set text flush left on a 12-column grid with a single typeface."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 300,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.01em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "circle",
+      "pack": {
+        "id": "ion",
+        "why": "Solid glyphs with no depth and no detail: the form alone carries the meaning."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "diagonal",
+      "seed": 10
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "blocks",
+      "why": "Flat design uses solid blocks of colour; the long hard shadow gives depth with no gradient."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#ECF0F1",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#2C3E50",
+      "--color-muted": "#7F8C8D",
+      "--color-primary": "#1ABC9C",
+      "--color-accent": "#E74C3C",
+      "--color-border": "#BDC3C7",
+      "--font-sans": "\"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "--font-display": "\"Montserrat\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "0px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "--duration": "200ms",
+      "--color-primary-hover": "#16A085",
+      "--grid-columns": "12",
+      "--grid-gutter": "30px",
+      "--leading-body": "1.5"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#ECF0F1] text-[#2C3E50] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "font-bold text-4xl md:text-6xl leading-[1.15] tracking-tight text-[#2C3E50]"
+      },
+      {
+        "element": "card",
+        "classes": "rounded bg-white p-6 shadow-none"
+      },
+      {
+        "element": "button",
+        "classes": "rounded bg-[#1ABC9C] px-6 py-3 text-base font-bold text-white transition-colors duration-200 hover:bg-[#16A085] active:bg-[#138D75]"
+      },
+      {
+        "element": "input",
+        "classes": "rounded bg-white px-4 py-3 text-base text-[#2C3E50] border-2 border-transparent focus:border-[#1ABC9C] focus:outline-none"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#1ABC9C", "#E74C3C", "#2C3E50"]},
+    "accent_colour": {"options": ["#E74C3C", "#1ABC9C"]},
+    "corner_radius": {"min": 2, "max": 6},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
+  "sources": [
+    {
+      "title": "Apple, iOS Human Interface Guidelines for iOS 7 (Apple Inc., 2013)"
+    },
+    {
+      "title": "Microsoft, Windows 8 design language guidelines, formerly Metro (Microsoft, 2012)"
+    }
+  ]
+}

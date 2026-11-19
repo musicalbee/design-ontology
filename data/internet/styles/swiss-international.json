@@ -1,0 +1,329 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "swiss-international",
+  "domain": "internet",
+  "name": "Swiss International Style",
+  "aliases": [
+    "International Typographic Style",
+    "Swiss Style",
+    "Swiss Grid"
+  ],
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1950,
+    "end": 1975,
+    "label": "1950s–1970s"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Asymmetric layouts on a mathematical grid, one neo-grotesque sans serif, flush-left text and objective photography. It came out of Zurich and Basel in the 1950s and became the default language of corporate modernism.",
+  "philosophy": {
+    "core_thesis": "Design is a neutral carrier of information, and a mathematical grid makes that neutrality visible.",
+    "design_principles": [
+      "Build every layout on a modular grid of 6 or 12 columns and align every element to a column edge and a baseline.",
+      "Use one sans-serif family for the whole piece, and make hierarchy with size and weight only.",
+      "Set all text flush left with a ragged right edge.",
+      "Compose asymmetrically: put the main mass off centre and balance it with empty space.",
+      "Use at most one accent colour in addition to black and white, and use it on less than 10% of the surface.",
+      "Jump between type sizes by a ratio of 1.5 or more, so that each level reads as a different level.",
+      "Prefer photography and plain diagrams to illustration, and crop photographs to grid modules."
+    ],
+    "anti_patterns": [
+      "Centred body text or centred multi-line headlines",
+      "Drop shadows, gradients, glows or any simulated depth",
+      "Rounded corners on containers, images or buttons",
+      "A second typeface, script fonts or decorative display fonts",
+      "Decorative illustration, ornaments, emoji or stock icons used as filler",
+      "Elements placed by eye that do not sit on a grid line",
+      "Justified text with uneven word spacing"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column modular grid with 24px gutters and an 8px baseline; every block spans whole columns and every text line sits on the baseline.",
+    "whitespace_ratio": "40–60% of the surface stays empty; the spacing scale is 8, 16, 24, 48, 96, 144px and nothing in between.",
+    "alignment_rules": "Flush left, ragged right; shared left edges across sections; nothing is centred and nothing floats outside a column.",
+    "container_geometry": "Sharp rectangles with a 0px radius; sections are divided by 1px or 2px rules and by space, not by boxes or cards."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter Tight",
+        "body": "Inter",
+        "note": "The closest open-source match to Helvetica at display and text sizes."
+      },
+      {
+        "display": "Archivo",
+        "body": "IBM Plex Sans",
+        "note": "A little more character; nearer to Akzidenz-Grotesk."
+      },
+      {
+        "display": "Hanken Grotesk",
+        "body": "Hanken Grotesk",
+        "note": "A single-family setting, which is the orthodox choice."
+      }
+    ],
+    "tracking": "Display sizes take -0.02em to -0.04em; body stays at 0; small upper-case labels take +0.06em.",
+    "leading": "Display 1.0 to 1.1; body 1.4 to 1.5; all line-heights are multiples of the 8px baseline.",
+    "hierarchy_rules": [
+      "Use two weights only: regular (400) and bold (700).",
+      "Use three or four sizes with large jumps, for example 14, 21, 48 and 96px.",
+      "Set headlines in sentence case or all lower case, and never in title case.",
+      "Put small labels and numerals in the margin column to index the content."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black, white and one saturated primary; the accent covers less than 10% of the surface, or one full-bleed field.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#111111",
+        "role": "text and rules"
+      },
+      {
+        "name": "Swiss Red",
+        "hex": "#E30613",
+        "role": "single accent"
+      },
+      {
+        "name": "Grey",
+        "hex": "#5E5E5E",
+        "role": "secondary text"
+      },
+      {
+        "name": "Fog",
+        "hex": "#F2F2F0",
+        "role": "alternate surface"
+      }
+    ],
+    "contrast_rules": "Body text holds at least 7:1 against its background; the accent carries large type or solid fields, never long text.",
+    "surface_treatment": "Flat, opaque, uncoated fields of solid colour; no texture, no gradient, no transparency.",
+    "light_and_shadow": "None. There is no light source; depth comes only from scale, overlap and empty space."
+  },
+  "materiality": {
+    "surface_simulation": "None; the surface is ink on paper and does not imitate any other material.",
+    "border_rules": "Solid ink rules of 1px or 2px, used as dividers above sections; containers have no outline on all four sides.",
+    "blur_and_elevation": "No blur and no elevation; box-shadow and backdrop-filter stay at none on every element."
+  },
+  "ornamentation_details": {
+    "iconography": "Geometric pictograms with a uniform 2px stroke or solid fill, square terminals and no perspective; use few of them.",
+    "illustration": "Objective black-and-white photography or plain diagrams, cropped hard to grid modules; no decorative illustration.",
+    "decorative_elements": [
+      "horizontal rules",
+      "oversized numerals",
+      "one full-bleed colour field",
+      "margin labels"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: short functional moves along grid axes with no bounce, no overshoot and no parallax.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 150,
+    "hover_and_active": "Hover inverts ink and paper or adds a 2px underline; active state shows the accent colour; nothing scales, lifts or glows."
+  },
+  "lineage": {
+    "evolved_from": [
+      "bauhaus"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "flat-design",
+      "bento-grid-ui"
+    ],
+    "echoes": [
+      "international-style-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Trust through order: the viewer feels that the information is objective, complete and easy to check.",
+    "keywords": [
+      "objective",
+      "precise",
+      "calm",
+      "authoritative",
+      "rational",
+      "timeless"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "swiss",
+      "swiss style",
+      "international style",
+      "helvetica",
+      "grid-based",
+      "minimal editorial",
+      "clean and typographic",
+      "modernist",
+      "müller-brockmann",
+      "poster-like",
+      "neutral corporate"
+    ],
+    "use_cases": [
+      "editorial sites",
+      "documentation",
+      "annual reports",
+      "portfolios",
+      "institutional brands",
+      "data-heavy dashboards"
+    ],
+    "avoid_when": [
+      "The brand must feel playful, warm or handmade.",
+      "The audience is children or the product is a game.",
+      "The content has little text and relies on rich imagery of products with lifestyle context."
+    ],
+    "modifiers": [
+      {
+        "request": "softer",
+        "toward": "flat-design",
+        "how": "Add a 4px radius and a second muted hue; keep the grid, the single typeface and the flush-left text."
+      },
+      {
+        "request": "warmer",
+        "toward": "mid-century-modern",
+        "how": "Change the accent to an earth tone and let one illustration with organic shapes into the layout; keep the grid."
+      },
+      {
+        "request": "bolder",
+        "toward": "neo-brutalism-ui",
+        "how": "Raise the rules to 3px, add a hard offset shadow and a second loud accent; keep the 0px radius and the grid."
+      },
+      {
+        "request": "more app-like",
+        "toward": "bento-grid-ui",
+        "how": "Close the open sections into cells with a 1px border; keep the type scale and the monochrome palette."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "size",
+      "display_tracking": "-0.03em",
+      "display_leading": 0.95,
+      "display_case": "none",
+      "body_leading": 1.45,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "carbon",
+        "why": "A thin, even line on a strict grid with butt terminals: the icon as neutral information."
+      }
+    },
+    "art": {
+      "recipe": "swiss",
+      "pattern": "grid",
+      "seed": 2
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "swiss-grid",
+      "why": "The Swiss poster shows its column grid, and one red field marks the start of the read."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#F2F2F0",
+      "--color-text": "#111111",
+      "--color-muted": "#5E5E5E",
+      "--color-primary": "#111111",
+      "--color-accent": "#E30613",
+      "--color-border": "#111111",
+      "--font-sans": "\"Inter\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "--font-display": "\"Inter Tight\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "150ms",
+      "--grid-columns": "12",
+      "--grid-gutter": "24px",
+      "--tracking-display": "-0.03em",
+      "--leading-body": "1.5"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-neutral-900 font-sans antialiased grid grid-cols-12 gap-x-6 px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "col-span-12 md:col-span-9 text-6xl md:text-8xl font-bold leading-none tracking-[-0.03em] text-left"
+      },
+      {
+        "element": "body",
+        "classes": "col-span-12 md:col-span-5 md:col-start-4 text-base leading-6 text-left"
+      },
+      {
+        "element": "section",
+        "classes": "col-span-12 border-t-2 border-neutral-900 pt-4 mt-24"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-neutral-900 bg-neutral-900 px-6 py-3 text-sm font-bold text-white transition-colors duration-150 hover:bg-white hover:text-neutral-900"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.06em] text-neutral-600"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#111111", "#E30613"]},
+    "accent_colour": {"options": ["#E30613", "#111111"]},
+    "corner_radius": {"min": 0, "max": 0},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
+  "sources": [
+    {
+      "title": "Josef Müller-Brockmann, Grid Systems in Graphic Design (Niggli, 1981)"
+    },
+    {
+      "title": "Richard Hollis, Swiss Graphic Design: The Origins and Growth of an International Style (Yale, 2006)"
+    },
+    {
+      "title": "eMuseum, Museum für Gestaltung Zürich: poster and graphic design collection",
+      "url": "https://www.emuseum.ch"
+    }
+  ]
+}

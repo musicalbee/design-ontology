@@ -1,0 +1,340 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "neo-brutalism-ui",
+  "domain": "internet",
+  "name": "Neo-Brutalism UI",
+  "aliases": [
+    "Neubrutalism",
+    "Neobrutalism",
+    "Brutalist Web UI"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–present"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Flat, loud colour fields with thick black borders and hard, unblurred offset shadows. It grew from product sites such as Gumroad and from Figma community kits as a deliberate reply to corporate softness.",
+  "philosophy": {
+    "core_thesis": "An interface earns trust by showing its structure openly and being loud about it, because every border and shadow is a stated fact.",
+    "design_principles": [
+      "Draw a solid #000000 border of 2px to 4px around every card, button, input and image.",
+      "Cast one hard shadow with zero blur, offset 4px 4px, for example 4px 4px 0 0 #000000, on every raised element.",
+      "Fill surfaces with flat saturated colour at 100% opacity, and use two to four loud hues on one page.",
+      "On hover, move the element by the shadow offset and cut the shadow to 0, so that it appears to press into the page.",
+      "Use radii of 0px to 8px only, and use the same value on all elements of one page.",
+      "Set headings in a heavy grotesque or mono face at weight 700 or higher, in sizes from 48px to 96px.",
+      "Keep text black on colour fields, and reach at least 7:1 contrast on every fill."
+    ],
+    "anti_patterns": [
+      "Blurred drop shadows with a blur radius above 0px",
+      "Subtle grey gradients or glossy highlights on surfaces",
+      "Pastel, low-saturation fills with grey text",
+      "Hairline 1px borders or borders in a colour other than black",
+      "Mixed corner radii on one page, such as 4px on cards and 24px on buttons",
+      "Translucent or backdrop-blurred panels",
+      "Thin font weights below 500 for headings"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px to 32px gutters and cards that sit in blocks of 2, 3 or 4 columns; the offset shadow adds 4px to 8px of visual width.",
+    "whitespace_ratio": "25–40% of the surface is open; the spacing scale is 8, 16, 24, 32, 48 and 64px, and a card has 24px padding.",
+    "alignment_rules": "Left-aligned text; blocks sit on grid edges with a slight tilt of 1 to 2 degrees allowed on stickers and badges only; sections are cut by full-width 3px black rules.",
+    "container_geometry": "Rectangles with a 0px to 8px radius, a 3px black border and a 4px 4px 0 0 #000000 shadow; pills use a 999px radius only for tags."
+  },
+  "typography": {
+    "classifications": [
+      "grotesque sans",
+      "monospace",
+      "slab serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Space Grotesk",
+        "body": "DM Sans",
+        "note": "Quirky grotesque headlines over a plain text face."
+      },
+      {
+        "display": "Archivo Black",
+        "body": "Work Sans",
+        "note": "Heavy poster-weight display for large headings."
+      },
+      {
+        "display": "Bricolage Grotesque",
+        "body": "Inter",
+        "note": "Condensed, high-contrast display with a neutral body."
+      },
+      {
+        "display": "Space Mono",
+        "body": "Space Grotesk",
+        "note": "Monospace labels for a raw, technical voice."
+      }
+    ],
+    "tracking": "Display sizes take -0.03em; body stays at 0; upper-case labels take +0.05em.",
+    "leading": "Display 1.0 to 1.1; body 1.5; labels 1.2.",
+    "hierarchy_rules": [
+      "Use weight 700 or 800 for headings and 400 or 500 for body; skip the light weights.",
+      "Set headings at 48px to 96px and body at 16px to 18px, a ratio of about 3:1 or higher.",
+      "Set buttons and labels in bold upper case at 14px with +0.05em tracking.",
+      "Put the key word of a headline on a colour highlight block with a 3px black border."
+    ]
+  },
+  "color": {
+    "palette_structure": "Black outlines, a warm off-white or yellow page and two to four loud flat hues such as pink, blue and green, each at 100% opacity and used in large blocks.",
+    "palette": [
+      {
+        "name": "Ink",
+        "hex": "#000000",
+        "role": "borders, shadows and text"
+      },
+      {
+        "name": "Cream",
+        "hex": "#FFF8E7",
+        "role": "page background"
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFE14D",
+        "role": "highlight and primary fill"
+      },
+      {
+        "name": "Hot Pink",
+        "hex": "#FF5DA2",
+        "role": "accent fill"
+      },
+      {
+        "name": "Electric Blue",
+        "hex": "#4D7CFF",
+        "role": "secondary accent"
+      },
+      {
+        "name": "Mint",
+        "hex": "#6EE7B7",
+        "role": "success and tag fill"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "card surface"
+      }
+    ],
+    "contrast_rules": "Black text on every loud fill reaches at least 7:1, for example 15:1 on Lemon and 7:1 on Electric Blue; white text is allowed only on black fills; the 3px black border gives each control a 21:1 edge.",
+    "surface_treatment": "Flat opaque fields at 100% opacity with no gradient, no texture and no transparency; an optional dot or grid pattern at 8% black on the page background.",
+    "light_and_shadow": "No light source is simulated; a hard offset shadow of 4px 4px 0 0 #000000 falls to the bottom right with zero blur, and it works as an outline extension."
+  },
+  "materiality": {
+    "surface_simulation": "None; the surface is flat cut paper or sticker stock with a black outline and a hard drop, and it imitates no real material.",
+    "border_rules": "Solid #000000 borders of 2px on small controls, 3px on cards and 4px on hero blocks; the border colour never changes between states.",
+    "blur_and_elevation": "Blur is 0px everywhere; elevation is the shadow offset: 2px 2px on tags, 4px 4px on cards and buttons, 8px 8px on modals, all in #000000."
+  },
+  "ornamentation_details": {
+    "iconography": "Bold icons with a 2.5px to 3px stroke and square or round caps at 24px, in black, often inside a coloured circle with a 2px border.",
+    "illustration": "Flat illustration in the loud palette with thick black outlines, plus stickers, stars and arrows; hand-drawn marks are welcome.",
+    "decorative_elements": [
+      "stickers and badges",
+      "marquee text bands",
+      "starbursts",
+      "dot grid backgrounds",
+      "arrows and underline scribbles"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Elements translate by exactly the shadow offset on hover and press, so that the shadow appears to collapse; the move is short, linear in feel and without overshoot.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 120,
+    "hover_and_active": "Hover moves the element 4px right and 4px down and sets the shadow to 0 0 0 0; active keeps that position; focus adds a 3px solid #4D7CFF outline offset by 2px."
+  },
+  "lineage": {
+    "evolved_from": [
+      "flat-design"
+    ],
+    "rebelled_against": [
+      "corporate-memphis",
+      "material-design"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "brutalist-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "Direct energy: the viewer feels that the brand is honest, a little rebellious and not afraid of being seen.",
+    "keywords": [
+      "loud",
+      "raw",
+      "honest",
+      "playful",
+      "rebellious",
+      "graphic"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "jester",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "neo-brutalism",
+      "neubrutalism",
+      "neobrutalist",
+      "brutalist ui",
+      "thick black borders",
+      "hard shadow",
+      "offset shadow",
+      "gumroad style",
+      "loud flat colours",
+      "sticker style"
+    ],
+    "use_cases": [
+      "creator-economy products",
+      "indie SaaS landing pages",
+      "developer tool sites",
+      "portfolios",
+      "event and festival sites"
+    ],
+    "avoid_when": [
+      "The brand must signal quiet luxury, medical care or banking security.",
+      "The interface is a dense enterprise tool, because 3px borders and 4px shadows consume space on every row.",
+      "The audience expects a native platform look, such as an OS settings screen."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "flat-design",
+        "how": "Cut the border to 1px, remove the offset shadow and mute the fills to 60% saturation; keep the flat fields and the grid."
+      },
+      {
+        "request": "more orderly",
+        "toward": "swiss-international",
+        "how": "Cut the palette to black, white and one red, set a 0px radius and flush-left text on a 12-column grid; keep the 2px rules."
+      },
+      {
+        "request": "more app-like",
+        "toward": "bento-grid-ui",
+        "how": "Pack the content into a rectangular grid of mixed-size cells with a 16px gap; keep the 3px border and the hard shadow."
+      },
+      {
+        "request": "more polished",
+        "toward": "material-design",
+        "how": "Move to an 8px radius, a 1px border and a soft shadow of 0 2px 4px rgba(0, 0, 0, 0.2); keep one loud accent."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 500,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "-0.03em",
+      "display_leading": 0.95,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2.5,
+      "linecap": "square",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "ph-bold",
+        "why": "A heavy line with a blunt weight that matches the thick borders."
+      }
+    },
+    "art": {
+      "recipe": "neobrutal",
+      "pattern": "checks",
+      "seed": 15
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": -1
+    },
+    "ground": {
+      "kind": "blocks",
+      "why": "Neo-brutalism uses flat colour blocks with a thick border and a hard black shadow."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFF8E7",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#000000",
+      "--color-muted": "#3A3A3A",
+      "--color-primary": "#FFE14D",
+      "--color-accent": "#FF5DA2",
+      "--color-border": "#000000",
+      "--font-sans": "\"DM Sans\", \"Work Sans\", system-ui, sans-serif",
+      "--font-display": "\"Space Grotesk\", \"DM Sans\", system-ui, sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "3px",
+      "--shadow-elevation": "4px 4px 0 0 #000000",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "120ms",
+      "--shadow-large": "8px 8px 0 0 #000000",
+      "--accent-blue": "#4D7CFF"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FFF8E7] text-black font-sans antialiased p-6 md:p-12"
+      },
+      {
+        "element": "card",
+        "classes": "rounded bg-white p-6 border-[3px] border-black shadow-[4px_4px_0_0_#000000]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded border-[3px] border-black bg-[#FFE14D] px-6 py-3 text-sm font-bold uppercase tracking-[0.05em] text-black shadow-[4px_4px_0_0_#000000] transition-all duration-[120ms] hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
+      },
+      {
+        "element": "input",
+        "classes": "rounded border-[3px] border-black bg-white px-4 py-3 text-black shadow-[4px_4px_0_0_#000000] outline-none focus:outline-[3px] focus:outline-offset-2 focus:outline-[#4D7CFF]"
+      },
+      {
+        "element": "heading",
+        "classes": "font-extrabold text-5xl md:text-7xl leading-none tracking-[-0.03em] text-black"
+      },
+      {
+        "element": "tag",
+        "classes": "inline-block rounded-full border-2 border-black bg-[#6EE7B7] px-3 py-1 text-xs font-bold uppercase shadow-[2px_2px_0_0_#000000]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#FFE14D", "#FF5DA2", "#000000"]},
+    "accent_colour": {"options": ["#FF5DA2", "#FFE14D"]},
+    "corner_radius": {"min": 2, "max": 6},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.5, "min": 1.414, "max": 1.618}
+  },
+  "sources": [
+    {
+      "title": "Neubrutalism UI components, Figma Community (2022)"
+    },
+    {
+      "title": "Gumroad redesign, Gumroad (2021)"
+    }
+  ]
+}

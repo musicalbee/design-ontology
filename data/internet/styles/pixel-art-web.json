@@ -1,0 +1,319 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "pixel-art-web",
+  "domain": "internet",
+  "name": "Pixel Art Web",
+  "aliases": [
+    "Pixel UI",
+    "8-bit web",
+    "Retro game UI"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2010,
+    "end": null,
+    "label": "2010–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Blocky sprites, a limited palette, hard pixel edges, bitmap type and game-style panels. It borrows from 8-bit and 16-bit games and makes a page feel like a game screen.",
+  "philosophy": {
+    "core_thesis": "Limits are the style: few pixels, few colours and a hard grid make a clear, playful picture.",
+    "design_principles": [
+      "Draw art on a base grid of 8px or 16px sprites and scale only by whole numbers (2x, 3x, 4x).",
+      "Limit the palette to 8 to 16 colours; use 1 outline colour and no more than 3 tones per material.",
+      "Render images with `image-rendering: pixelated` and never use anti-aliased scaling.",
+      "Build panels with a 4px stepped border (corner pixels cut) and a 4px hard shadow offset (4px, 4px) with no blur.",
+      "Set text in a bitmap face at multiples of 8px (8, 16, 24, 32px) with a line height of 1.5.",
+      "Animate in steps: use `steps(4)` for sprites at 8 to 12 frames per second and blink cursors at 1s.",
+      "Show a game element on each screen: a health bar, a counter, a menu with a pointer or a dialogue box."
+    ],
+    "anti_patterns": [
+      "Smooth gradients and soft blur",
+      "Anti-aliased scaling of sprites",
+      "Rounded corners with a smooth radius",
+      "Thin, light, modern sans text",
+      "More than 16 colours",
+      "Photographs with no pixel treatment",
+      "Easing curves on sprite motion"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A pixel grid of 8px; panels snap to it; the screen is a stage with a HUD frame and a dialogue box at the bottom.",
+    "whitespace_ratio": "20% to 30% of the surface is empty; spacing is 8, 16, 24 and 32px.",
+    "alignment_rules": "Left-aligned text in boxes; menus in a vertical list with a pointer; counters in the corners.",
+    "container_geometry": "Rectangles with stepped corners (a 4px notch); 4px borders; hard 4px offset shadows."
+  },
+  "typography": {
+    "classifications": [
+      "pixel bitmap",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Press Start 2P",
+        "body": "VT323",
+        "note": "An 8-bit display face on an 8px grid."
+      },
+      {
+        "display": "Silkscreen",
+        "body": "VT323",
+        "note": "A compact pixel face for labels."
+      },
+      {
+        "display": "Pixelify Sans",
+        "body": "VT323",
+        "note": "A pixel sans that stays readable in longer text."
+      }
+    ],
+    "tracking": "Tracking stays at 0 so the pixels line up.",
+    "leading": "Display 1.4; body 1.6.",
+    "hierarchy_rules": [
+      "Use one weight (400) and let size and colour make hierarchy.",
+      "Use sizes 8, 16, 24 and 40px.",
+      "Set headings in upper case.",
+      "Set body at 16px in the readable pixel sans."
+    ]
+  },
+  "color": {
+    "palette_structure": "A small, saturated game palette.",
+    "palette": [
+      {
+        "name": "Night",
+        "hex": "#1A1C2C",
+        "role": "background"
+      },
+      {
+        "name": "Panel",
+        "hex": "#333C57",
+        "role": "surface"
+      },
+      {
+        "name": "Bone",
+        "hex": "#F4F4F4",
+        "role": "text"
+      },
+      {
+        "name": "Slate",
+        "hex": "#94B0C2",
+        "role": "secondary text"
+      },
+      {
+        "name": "Lava",
+        "hex": "#EF7D57",
+        "role": "primary"
+      },
+      {
+        "name": "Mint",
+        "hex": "#38B764",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "Bone on night holds 14:1; slate on night holds at least 7:1; lava marks action and mint marks success.",
+    "surface_treatment": "Flat colour with dithering (checks of 1px or 2px) instead of gradients.",
+    "light_and_shadow": "Hard: a 4px offset shadow in a darker tone; no blur."
+  },
+  "materiality": {
+    "surface_simulation": "Pixels on a screen: flat, hard and countable.",
+    "border_rules": "A 4px border with stepped corners in the outline colour.",
+    "blur_and_elevation": "Hard offset shadow (4px, 4px) in a darker tone; no blur; no radius."
+  },
+  "ornamentation_details": {
+    "iconography": "Pixel icons on a 16px or 24px grid, solid with a 1px outline; hearts, coins and arrows.",
+    "illustration": "Sprites, tile maps, dithered skies and pixel characters.",
+    "decorative_elements": [
+      "stepped border",
+      "sprite sheet",
+      "health bar",
+      "dialogue box"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Frame-based: sprites animate at 8 to 12 frames per second; menus move one step at a time; text types out at 20 characters per second.",
+    "easing": "steps(4)",
+    "duration_ms": 120,
+    "hover_and_active": "Hover moves a pointer sprite beside the item and inverts the colours; active state shifts the box 4px down and right."
+  },
+  "lineage": {
+    "evolved_from": [
+      "y2k-aesthetic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "terminal-tui-web",
+      "vaporwave"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels play, nostalgia and the joy of a small, clear world.",
+    "keywords": [
+      "playful",
+      "nostalgic",
+      "geeky",
+      "friendly",
+      "blocky",
+      "game"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pixel art",
+      "8-bit",
+      "16-bit",
+      "retro game",
+      "sprite",
+      "bitmap",
+      "pixelated",
+      "game ui"
+    ],
+    "use_cases": [
+      "indie game sites",
+      "developer and maker portfolios",
+      "community and Discord tools",
+      "nostalgia campaigns",
+      "education for children"
+    ],
+    "avoid_when": [
+      "The brand needs a premium, calm look.",
+      "The page has long reading text.",
+      "The audience is not familiar with games."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "flat-design",
+        "how": "Use flat fills, a 4px radius and a plain sans; keep the palette."
+      },
+      {
+        "request": "more neon",
+        "toward": "synthwave-web",
+        "how": "Use pink and violet gradients and a perspective grid under the sprites."
+      },
+      {
+        "request": "more raw",
+        "toward": "terminal-tui-web",
+        "how": "Remove sprites and keep text and a mono grid."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 400,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0em",
+      "display_leading": 1.4,
+      "display_case": "uppercase",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "A pixel family drawn on a strict 24px grid that fits bitmap type."
+      }
+    },
+    "art": {
+      "recipe": "pixel",
+      "pattern": "checks",
+      "seed": 53
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "pixel",
+      "why": "Pixel art draws a night sky of single pixels over stepped hills on a coarse grid."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#1A1C2C",
+      "--color-surface": "#333C57",
+      "--color-text": "#F4F4F4",
+      "--color-muted": "#94B0C2",
+      "--color-primary": "#EF7D57",
+      "--color-accent": "#38B764",
+      "--color-border": "#F4F4F4",
+      "--font-sans": "\"Pixelify Sans\", \"VT323\", monospace",
+      "--font-display": "\"Press Start 2P\", \"Silkscreen\", monospace",
+      "--border-radius": "0px",
+      "--border-width": "4px",
+      "--shadow-elevation": "4px 4px 0 #0B0C14",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(4)",
+      "--duration": "120ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#1A1C2C] text-[#F4F4F4] font-mono antialiased [image-rendering:pixelated]"
+      },
+      {
+        "element": "heading",
+        "classes": "uppercase text-2xl md:text-4xl leading-[1.4]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6]"
+      },
+      {
+        "element": "section",
+        "classes": "border-4 border-[#F4F4F4] bg-[#333C57] p-4 shadow-[4px_4px_0_#0B0C14]"
+      },
+      {
+        "element": "button",
+        "classes": "border-4 border-[#F4F4F4] bg-[#EF7D57] px-4 py-2 uppercase text-[#1A1C2C] shadow-[4px_4px_0_#0B0C14] active:translate-x-1 active:translate-y-1 active:shadow-none"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase text-[#94B0C2]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#EF7D57", "#38B764", "#F4F4F4"]},
+    "accent_colour": {"options": ["#38B764", "#EF7D57"]},
+    "corner_radius": {"min": 0, "max": 0},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+  },
+  "sources": [
+    {
+      "title": "Example: Celeste and Stardew Valley official sites (2016–2018)"
+    },
+    {
+      "title": "Example: itch.io game pages (2013–2025)"
+    },
+    {
+      "title": "Example: Habbo and Neopets-style revival pages (2020–2025)"
+    }
+  ]
+}

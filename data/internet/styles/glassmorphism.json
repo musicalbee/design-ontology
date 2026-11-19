@@ -1,0 +1,318 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "glassmorphism",
+  "domain": "internet",
+  "name": "Glassmorphism",
+  "aliases": [
+    "Frosted Glass UI",
+    "Glass UI"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2020,
+    "end": null,
+    "label": "2020–present"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "Translucent panels that blur the colourful shapes behind them, edged with a thin light border. It spread after macOS Big Sur in 2020 and revives the glass of Frutiger Aero with real backdrop blur.",
+  "philosophy": {
+    "core_thesis": "Layers are readable when each one is a pane of frosted glass: it shows what lies beneath it and still keeps its own plane.",
+    "design_principles": [
+      "Place panels over a vivid background of gradients or blurred shapes, because blur needs colour behind it to be visible.",
+      "Fill each panel with rgba(255, 255, 255, 0.15) to 0.25 and apply backdrop-filter: blur(16px to 24px) saturate(160%).",
+      "Add a 1px border of rgba(255, 255, 255, 0.3) on every panel, to mark the glass edge.",
+      "Use radii of 16px to 24px on panels and 12px on buttons.",
+      "Show depth by stacking: the further layer has a blur of 24px and the nearer layer a blur of 8px.",
+      "Keep one soft shadow of 0 8px 32px rgba(31, 38, 135, 0.2) under each panel, to lift it from the background.",
+      "Put text on a panel only when the area under it holds at least 4.5:1 contrast, or add a scrim of rgba(0, 0, 0, 0.25)."
+    ],
+    "anti_patterns": [
+      "Blur on a plain white or plain grey background where nothing shows through",
+      "Body text on a panel with less than 4.5:1 contrast to the blurred layer behind",
+      "Opaque panels with a faked frost texture and no backdrop-filter",
+      "Stacks of more than three overlapping glass layers",
+      "Panel borders thicker than 1px or darker than the fill",
+      "Hard black drop shadows under a glass panel",
+      "Blur radii above 40px on large areas, which cost frame rate"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 3,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; panels span whole columns and overlap background shapes by 10% to 30% of their area.",
+    "whitespace_ratio": "35–50% of the surface is open; the spacing scale is 8, 12, 16, 24, 32 and 48px, and panel padding is 24px.",
+    "alignment_rules": "Left-aligned text inside panels; panels align to columns while the background shapes sit off-grid, so the glass reads as a separate plane.",
+    "container_geometry": "Panels use a 20px radius with a 1px light border; buttons use a 12px radius; avatars and chips use a full radius of 999px."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "neo-grotesque sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Plus Jakarta Sans",
+        "body": "Inter",
+        "note": "Friendly display weights over a neutral text face."
+      },
+      {
+        "display": "Manrope",
+        "body": "Manrope",
+        "note": "One family at weights 400, 600 and 800."
+      },
+      {
+        "display": "Outfit",
+        "body": "DM Sans",
+        "note": "Geometric display with round counters that match the panel radius."
+      }
+    ],
+    "tracking": "Display sizes take -0.02em; body stays at 0; small labels take +0.02em.",
+    "leading": "Display 1.15; body 1.5; labels 1.3.",
+    "hierarchy_rules": [
+      "Use weight 600 or higher for text over glass, because weight 300 breaks up against a blurred background.",
+      "Set body text at 16px or larger and headings at 32px or larger on panels.",
+      "Use white text on dark backgrounds and near-black text on light ones; do not mix both on one panel.",
+      "Add a text-shadow of 0 1px 2px rgba(0, 0, 0, 0.25) only to white text over a bright patch."
+    ]
+  },
+  "color": {
+    "palette_structure": "A saturated two or three hue gradient background, white translucent panels at 15% to 25% opacity, and one solid accent for the main action.",
+    "palette": [
+      {
+        "name": "Aurora Violet",
+        "hex": "#6C5CE7",
+        "role": "background gradient start"
+      },
+      {
+        "name": "Aurora Pink",
+        "hex": "#FD79A8",
+        "role": "background gradient end"
+      },
+      {
+        "name": "Glass White",
+        "hex": "#FFFFFF",
+        "role": "panel fill at 15% to 25% alpha and border"
+      },
+      {
+        "name": "Deep Ink",
+        "hex": "#1B1B3A",
+        "role": "text on light glass"
+      },
+      {
+        "name": "Sky",
+        "hex": "#74B9FF",
+        "role": "accent"
+      },
+      {
+        "name": "Midnight",
+        "hex": "#0F0F2D",
+        "role": "dark mode background"
+      }
+    ],
+    "contrast_rules": "Glass cannot guarantee contrast, because the layer behind changes; test the worst patch of the background and reach 4.5:1 for text, with a rgba(0, 0, 0, 0.25) scrim where it falls short, and give each control a solid state for WCAG 3:1.",
+    "surface_treatment": "Translucent fill of rgba(255, 255, 255, 0.15 to 0.25) with backdrop-filter blur(16px to 24px) and saturate(160%); an optional noise overlay at 3% opacity adds grain.",
+    "light_and_shadow": "Light comes from the top left: a 1px inner highlight on the top and left edges of rgba(255, 255, 255, 0.5) and a soft shadow of 0 8px 32px rgba(31, 38, 135, 0.2)."
+  },
+  "materiality": {
+    "surface_simulation": "Frosted glass, a thin sheet that scatters the light behind it and shows its own edge.",
+    "border_rules": "1px solid rgba(255, 255, 255, 0.3) on all sides; a brighter 1px edge of 0.5 alpha on the top; no coloured borders.",
+    "blur_and_elevation": "Background blur of 16px to 24px with saturate(160%); three levels: 8px blur for a toast, 16px for a card and 24px for a sheet, with shadows of 0 4px 16px, 0 8px 32px and 0 16px 48px."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons with a 1.5px to 2px stroke and round caps at 24px, in white at 90% opacity; filled variants for the active state.",
+    "illustration": "Blurred gradient orbs and abstract 3D shapes placed behind the panels, so that the blur shows colour changes.",
+    "decorative_elements": [
+      "gradient orbs",
+      "noise grain",
+      "inner top highlight",
+      "layered panels"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Panels fade and rise by 8px to 16px while the blur radius eases from 0 to its final value, as if the glass slides into focus; no bounce.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 300,
+    "hover_and_active": "Hover raises the fill alpha from 0.2 to 0.3 and lifts the panel by 2px; active drops the alpha to 0.15 and the lift to 0; focus adds a 2px solid #FFFFFF ring."
+  },
+  "lineage": {
+    "evolved_from": [
+      "frutiger-aero"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "neumorphism"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Light, airy depth: the viewer feels that the interface floats above a living background and is easy to see through.",
+    "keywords": [
+      "translucent",
+      "airy",
+      "layered",
+      "luminous",
+      "fluid",
+      "polished"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "glassmorphism",
+      "frosted glass",
+      "glass ui",
+      "translucent panels",
+      "backdrop blur",
+      "blurred background card",
+      "acrylic",
+      "vibrancy",
+      "big sur style"
+    ],
+    "use_cases": [
+      "music and media players",
+      "weather apps",
+      "crypto and fintech dashboards",
+      "landing pages for SaaS",
+      "OS-level widgets"
+    ],
+    "avoid_when": [
+      "Text-heavy screens need guaranteed 4.5:1 contrast, because the layer behind the glass changes under the text.",
+      "The target device is low-end, because backdrop-filter blur of 16px costs frame rate on weak GPUs.",
+      "The background is plain, because blur on a flat colour shows nothing and the panels look dirty."
+    ],
+    "modifiers": [
+      {
+        "request": "more readable",
+        "toward": "flat-design",
+        "how": "Raise the panel fill to rgba(255, 255, 255, 0.85) and cut the blur to 8px; keep the 20px radius and the 1px border."
+      },
+      {
+        "request": "softer",
+        "toward": "neumorphism",
+        "how": "Replace the border with the dual shadow 8px 8px 16px and -8px -8px 16px on a single neutral surface; keep the radius."
+      },
+      {
+        "request": "more tangible",
+        "toward": "skeuomorphism",
+        "how": "Add a 1px inner highlight, a glossy 135-degree gradient of 12% lightness and a deeper 0 16px 48px shadow; keep the blur."
+      },
+      {
+        "request": "bolder",
+        "toward": "neo-brutalism-ui",
+        "how": "Replace the blur and the soft border with a solid fill, a 3px black border and a 4px 4px 0 0 #000000 shadow."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 600,
+      "body_weight": 500,
+      "strong_weight": 700,
+      "label_weight": 600,
+      "accent": "weight",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.05,
+      "display_case": "none",
+      "body_leading": 1.55,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "rounded",
+      "pack": {
+        "id": "solar-linear",
+        "why": "A light round line that stays legible on a blurred, bright surface."
+      }
+    },
+    "art": {
+      "recipe": "glass",
+      "pattern": "none",
+      "seed": 14
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "orbs",
+      "why": "Frosted glass needs bright orbs of colour behind it, or the blur has nothing to show."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#6C5CE7",
+      "--color-surface": "rgba(255, 255, 255, 0.18)",
+      "--color-text": "#FFFFFF",
+      "--color-muted": "rgba(255, 255, 255, 0.72)",
+      "--color-primary": "#74B9FF",
+      "--color-accent": "#FD79A8",
+      "--color-border": "rgba(255, 255, 255, 0.3)",
+      "--font-sans": "\"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Plus Jakarta Sans\", \"Inter\", system-ui, sans-serif",
+      "--border-radius": "20px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 32px rgba(31, 38, 135, 0.2)",
+      "--backdrop-filter": "blur(20px) saturate(160%)",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "300ms",
+      "--surface-hover": "rgba(255, 255, 255, 0.28)",
+      "--background-gradient": "linear-gradient(135deg, #6C5CE7 0%, #FD79A8 100%)"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "min-h-screen bg-gradient-to-br from-[#6C5CE7] to-[#FD79A8] font-sans text-white antialiased p-8"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-[20px] border border-white/30 bg-white/[0.18] p-6 shadow-[0_8px_32px_rgba(31,38,135,0.2)] backdrop-blur-[20px] backdrop-saturate-[1.6]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-xl border border-white/30 bg-white/20 px-5 py-3 font-semibold text-white backdrop-blur-md transition duration-300 hover:-translate-y-0.5 hover:bg-white/30"
+      },
+      {
+        "element": "input",
+        "classes": "rounded-xl border border-white/30 bg-white/10 px-4 py-3 text-white placeholder:text-white/70 backdrop-blur-md focus:outline-2 focus:outline-white"
+      },
+      {
+        "element": "heading",
+        "classes": "font-extrabold text-4xl leading-tight tracking-[-0.02em]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#74B9FF", "#FD79A8", "#FFFFFF"]},
+    "accent_colour": {"options": ["#FD79A8", "#74B9FF"]},
+    "corner_radius": {"min": 10, "max": 30},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
+  "sources": [
+    {
+      "title": "Michal Malewicz, Glassmorphism in user interfaces, Hype4 Academy (2020)"
+    },
+    {
+      "title": "backdrop-filter, CSS Filter Effects Module Level 2, W3C"
+    }
+  ]
+}

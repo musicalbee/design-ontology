@@ -1,0 +1,320 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "ai-chat-ui",
+  "domain": "internet",
+  "name": "AI Chat Interface",
+  "aliases": [
+    "Conversational UI",
+    "LLM chat UI",
+    "Prompt-first UI"
+  ],
+  "era_id": "contemporary-spatial",
+  "time_period": {
+    "start": 2022,
+    "end": null,
+    "label": "2022–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "A single centred column, one large input at the bottom, streaming text, suggestion chips and almost no chrome. It came with ChatGPT in 2022 and makes language the main control.",
+  "philosophy": {
+    "core_thesis": "The interface is a conversation: one box to speak into, and everything else appears in the reply.",
+    "design_principles": [
+      "Centre one column of 680px to 768px; use a measure of 60 to 75 characters and 16px to 17px text with a leading of 1.6.",
+      "Dock a single input at the bottom: height 56px to 120px that grows to 200px, radius 16px to 28px, with a send button of 32px to 40px inside it.",
+      "Mark user turns with a tinted bubble (radius 18px, max width 80%) and leave assistant turns as plain text with no bubble.",
+      "Stream text word by word at 20 to 60 words per second and show a 12px pulsing cursor or dot while it streams.",
+      "Offer 3 to 4 suggestion chips (height 36px to 44px, radius 999px) on the empty state and 2 to 3 follow-ups after a reply.",
+      "Hide the sidebar by default on screens under 768px and keep it 260px wide on desktop with one row per chat of 36px.",
+      "Show sources, tools and code as collapsible blocks with a 1px border and 12px radius; code blocks use a mono face at 13px."
+    ],
+    "anti_patterns": [
+      "Dashboards of tiles and many menus beside the chat",
+      "Heavy bubbles around every assistant message",
+      "Decorative backgrounds behind text",
+      "Multi-column layouts for the main reply",
+      "Dense toolbars above the input",
+      "Typing indicators that fake a human",
+      "Hidden input that needs a click to open"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "One centred column of 680px to 768px, a docked input and an optional sidebar of 260px; a 4px baseline.",
+    "whitespace_ratio": "50% to 70% of the surface stays empty on desktop; the spacing scale is 4, 8, 12, 16, 24 and 48px.",
+    "alignment_rules": "Centred column; text flush left; user messages flush right; input centred under the column.",
+    "container_geometry": "Rounded input of 16px to 28px radius; user bubbles 18px; blocks 12px; chips 999px."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans serif",
+      "serif",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "JetBrains Mono",
+        "note": "A neutral UI face for chat and a code face for blocks."
+      },
+      {
+        "display": "Source Serif 4",
+        "body": "Inter",
+        "note": "A literary serif for reply text with a sans for the interface."
+      },
+      {
+        "display": "Geist",
+        "body": "Geist Mono",
+        "note": "A single family with a matched mono."
+      }
+    ],
+    "tracking": "Display takes -0.01em; body stays at 0.",
+    "leading": "Display 1.2; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and medium (500) or semibold (600) for headings in replies.",
+      "Use sizes 13, 16, 17 and 28px.",
+      "Set the greeting on the empty state at 28px to 36px.",
+      "Set code at 13px in a mono face."
+    ]
+  },
+  "color": {
+    "palette_structure": "A quiet neutral ground, one accent and soft tints for user turns.",
+    "palette": [
+      {
+        "name": "Page",
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1F1F23",
+        "role": "text"
+      },
+      {
+        "name": "Tint",
+        "hex": "#F4F4F5",
+        "role": "user bubble and input"
+      },
+      {
+        "name": "Mute",
+        "hex": "#6B6B76",
+        "role": "secondary text"
+      },
+      {
+        "name": "Accent",
+        "hex": "#D97757",
+        "role": "accent and cursor"
+      },
+      {
+        "name": "Line",
+        "hex": "#E4E4E7",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Ink on page holds 16:1; muted holds at least 4.5:1; the accent marks the cursor, links and the send button.",
+    "surface_treatment": "Flat, opaque neutral surfaces; no gradient; one tint step for the user bubble.",
+    "light_and_shadow": "None; a 1px border and a 0 1px 2px shadow at 6% on the input only."
+  },
+  "materiality": {
+    "surface_simulation": "Plain digital paper: neutral surfaces with no material.",
+    "border_rules": "1px border in #E4E4E7 on the input, blocks and chips.",
+    "blur_and_elevation": "No blur. A single soft shadow of 0 1px 2px at 6% on the input; no elevation elsewhere."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin 1.5px outline icons with round caps at 16px to 20px; the send button is a filled circle.",
+    "illustration": "None in the reply flow; one small brand mark on the empty state.",
+    "decorative_elements": [
+      "docked input",
+      "suggestion chips",
+      "streaming cursor",
+      "collapsible block"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Streaming: text appears word by word at 20 to 60 words per second; a new message slides up 8px in 200ms; the input grows in 120ms.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover shows the message actions (copy, retry) at 100% opacity; active state on the send button darkens it by 10%."
+  },
+  "lineage": {
+    "evolved_from": [
+      "flat-design"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "dark-devtool-ui",
+      "editorial-serif-revival"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels that they are talking with a patient, capable partner.",
+    "keywords": [
+      "calm",
+      "conversational",
+      "focused",
+      "helpful",
+      "minimal",
+      "personal"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "chat ui",
+      "chatbot",
+      "ai assistant",
+      "llm interface",
+      "prompt box",
+      "chatgpt style",
+      "conversation ui",
+      "copilot"
+    ],
+    "use_cases": [
+      "AI assistants and copilots",
+      "support and onboarding chat",
+      "search with answers",
+      "agent and tool consoles",
+      "knowledge-base front ends"
+    ],
+    "avoid_when": [
+      "The task needs a spatial or multi-panel view.",
+      "The content is browsing of many items.",
+      "The user needs a form with many fields."
+    ],
+    "modifiers": [
+      {
+        "request": "more editorial",
+        "toward": "editorial-serif-revival",
+        "how": "Set replies in a serif at 18px and add a paper-tone background and hairline rules."
+      },
+      {
+        "request": "more technical",
+        "toward": "dark-devtool-ui",
+        "how": "Switch to a dark ground, add a mono face and show tool calls inline."
+      },
+      {
+        "request": "more visual",
+        "toward": "aurora-gradient-ui",
+        "how": "Add a soft gradient ground on the empty state only."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "colour",
+      "display_tracking": "-0.01em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, neutral 1.5px line at 16px to 20px that stays quiet next to running text."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "none",
+      "seed": 43
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "center",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "dot-grid",
+      "why": "Chat interfaces keep a calm field with one warm light at the top."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FFFFFF",
+      "--color-surface": "#F4F4F5",
+      "--color-text": "#1F1F23",
+      "--color-muted": "#6B6B76",
+      "--color-primary": "#1F1F23",
+      "--color-accent": "#D97757",
+      "--color-border": "#E4E4E7",
+      "--font-sans": "\"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Inter\", system-ui, sans-serif",
+      "--border-radius": "20px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 1px 2px rgba(0,0,0,0.06)",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-white text-[#1F1F23] font-sans antialiased flex flex-col items-center"
+      },
+      {
+        "element": "heading",
+        "classes": "text-3xl md:text-4xl font-semibold tracking-[-0.01em] leading-[1.2] text-center"
+      },
+      {
+        "element": "body",
+        "classes": "w-full max-w-[720px] px-4 text-base leading-[1.6]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded-xl border border-[#E4E4E7] p-3"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#1F1F23] p-2 text-white transition-colors duration-200 hover:bg-[#3A3A40]"
+      },
+      {
+        "element": "label",
+        "classes": "text-[13px] font-medium text-[#6B6B76]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#1F1F23", "#D97757"]},
+    "accent_colour": {"options": ["#D97757", "#1F1F23"]},
+    "corner_radius": {"min": 10, "max": 30},
+    "grid_step": {"min": 2, "max": 6},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
+  "sources": [
+    {
+      "title": "Example: chatgpt.com (2022–2025)"
+    },
+    {
+      "title": "Example: claude.ai (2023–2025)"
+    },
+    {
+      "title": "Example: perplexity.ai and gemini.google.com (2023–2025)"
+    }
+  ]
+}

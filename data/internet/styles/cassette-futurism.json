@@ -1,0 +1,322 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "cassette-futurism",
+  "domain": "internet",
+  "name": "Cassette Futurism",
+  "aliases": [
+    "Retro-futurism of the analogue age",
+    "Used future",
+    "Cassette punk"
+  ],
+  "era_id": "postmodern-early-digital",
+  "time_period": {
+    "start": 1976,
+    "end": 1989,
+    "label": "1976–1989"
+  },
+  "primary_mediums": [
+    "web",
+    "print"
+  ],
+  "summary": "Bulky hardware from a future imagined on tape: CRT monitors, membrane keys, toggle switches and beige casings, with amber or green phosphor text. It draws on Syd Mead's industrial futures and Japanese bubble-era electronics. The look is functional, worn and a little cramped.",
+  "philosophy": {
+    "core_thesis": "The future is a machine with visible switches: every function has a physical control, a label and a status light, and the casing shows the wear of use.",
+    "design_principles": [
+      "Set text in phosphor amber (#FFB000) or green (#33FF66) on a near-black ground (#14130F) with contrast of 9:1 or more.",
+      "Build panels as casings in beige (#D8D0B8) or grey (#9A9A8E) with a 4px radius, a 2px dark border and a 1px light top edge.",
+      "Label each control in upper-case mono at 12px with +0.08em tracking, and place the label above the control.",
+      "Group controls in bays on a 12-column grid with 16px gutters; separate bays with a 2px groove.",
+      "Add a status light of 8px, a toggle switch, a segment display or a cassette window to each major panel.",
+      "Frame the main screen as a CRT: 8% corner radius, a 1px inner glow and scanlines of 2px at 8% opacity.",
+      "Add print marks to casings: part numbers, arrows, and one hazard stripe of 8px in orange (#E8662B) or yellow."
+    ],
+    "anti_patterns": [
+      "Rounded pill buttons with soft shadows",
+      "Pastel gradients and glass blur",
+      "Hidden controls behind icons with no label",
+      "Clean white surfaces with no wear",
+      "Proportional sans-serif body text",
+      "Sleek, seamless hardware with no visible switches",
+      "Neon pink and cyan glow"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 4,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid of equipment bays with 16px gutters; each bay is a panel with a 2px groove between it and the next.",
+    "whitespace_ratio": "10% to 20% of the surface stays empty; the spacing scale is 4, 8, 16 and 24px.",
+    "alignment_rules": "Flush-left labels above controls; numeric readouts right-aligned; panels align to a common baseline of 8px.",
+    "container_geometry": "Casings with a 4px radius, a 2px border and a 1px highlight on the top edge; screens with an 8% radius; round 8px status lights."
+  },
+  "typography": {
+    "classifications": [
+      "technical sans",
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "Chakra Petch",
+        "body": "IBM Plex Mono",
+        "note": "An angular technical display face with a plain mono text face."
+      },
+      {
+        "display": "Orbitron",
+        "body": "Share Tech Mono",
+        "note": "A wide display face for panel titles with a mono readout face."
+      },
+      {
+        "display": "Rajdhani",
+        "body": "VT323",
+        "note": "A narrow label face with a pixel terminal face for screens."
+      }
+    ],
+    "tracking": "Display +0.06em; labels +0.08em; body 0em.",
+    "leading": "Display 1.1; body 1.5.",
+    "hierarchy_rules": [
+      "Use weights 400, 600 and 700 only.",
+      "Use sizes 12, 14, 16, 32 and 56px.",
+      "Set display and labels in upper case.",
+      "Put readouts and data in mono; put panel titles in the display face."
+    ]
+  },
+  "color": {
+    "palette_structure": "A near-black screen ground with two phosphor colours, on beige and grey casings with one orange warning mark.",
+    "palette": [
+      {
+        "name": "Tube Black",
+        "hex": "#14130F",
+        "role": "background"
+      },
+      {
+        "name": "Casing Beige",
+        "hex": "#D8D0B8",
+        "role": "casing surface"
+      },
+      {
+        "name": "Amber Phosphor",
+        "hex": "#FFB000",
+        "role": "primary"
+      },
+      {
+        "name": "Green Phosphor",
+        "hex": "#33FF66",
+        "role": "accent"
+      },
+      {
+        "name": "Warning Orange",
+        "hex": "#E8662B",
+        "role": "highlight"
+      },
+      {
+        "name": "Panel Grey",
+        "hex": "#9A9A8E",
+        "role": "second surface"
+      }
+    ],
+    "contrast_rules": "Phosphor text on tube black holds 9:1 or more; text on beige casings uses tube black at 12:1.",
+    "surface_treatment": "Matte, slightly speckled casings (noise at 4% opacity); flat screen grounds with scanlines at 8% opacity.",
+    "light_and_shadow": "A 1px light top edge and a 2px dark bottom edge give each casing its bulk; screens carry a 6px to 12px phosphor glow."
+  },
+  "materiality": {
+    "surface_simulation": "Moulded plastic casings, membrane keys, rubber-capped toggles and glass CRT screens.",
+    "border_rules": "A 2px dark border on casings; a 2px groove between bays; a 1px inner border on screens.",
+    "blur_and_elevation": "No backdrop blur; keys rise by 2px to 4px with a hard shadow; the glow on text is 6px to 12px."
+  },
+  "ornamentation_details": {
+    "iconography": "Heavy solid glyphs at 24px on square tiles, in the style of panel symbols: arrows, power, record, eject.",
+    "illustration": "Industrial vehicles, control rooms and orbital stations drawn with airbrush gradients; wireframe grids in green or amber.",
+    "decorative_elements": [
+      "status light",
+      "toggle switch",
+      "segment display",
+      "cassette window",
+      "hazard stripe",
+      "part-number label"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Mechanical and stepped: panels switch on in 3 to 5 steps; text types in at 40ms per character; a CRT flicker of 2% runs every 8s.",
+    "easing": "steps(4)",
+    "duration_ms": 240,
+    "hover_and_active": "Hover lights the status light and raises the key by 2px; active presses the key down by 2px and shows the phosphor colour."
+  },
+  "lineage": {
+    "evolved_from": [
+      "rams-functionalism-ui"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "skeuomorphism"
+    ],
+    "echoes": [
+      "high-tech-architecture"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels the weight of a working machine and a future that smells of warm plastic.",
+    "keywords": [
+      "analogue",
+      "industrial",
+      "tactile",
+      "worn",
+      "technical",
+      "nostalgic"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "creator",
+      "sage"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cassette futurism",
+      "retro futurism",
+      "crt terminal",
+      "amber terminal",
+      "1980s hardware",
+      "tape deck",
+      "syd mead",
+      "used future",
+      "control panel"
+    ],
+    "use_cases": [
+      "science-fiction game and film sites",
+      "hardware and synthesiser product pages",
+      "developer tools with a terminal character",
+      "audio and music gear",
+      "interactive fiction"
+    ],
+    "avoid_when": [
+      "The audience needs a calm, consumer-grade interface.",
+      "The page has long reading text on a light ground.",
+      "The product is touch-first and needs large soft targets."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "rams-functionalism-ui",
+        "how": "Remove the screen glow, hazard stripes and part numbers; keep the grid, the labels and one accent colour."
+      },
+      {
+        "request": "more neon",
+        "toward": "vaporwave",
+        "how": "Replace amber and green with pink and cyan on deep violet; keep the windows and add a perspective grid."
+      },
+      {
+        "request": "more tactile",
+        "toward": "skeuomorphism",
+        "how": "Add leather and brushed-metal textures and 8px to 16px soft shadows; keep the labelled controls."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "colour",
+      "display_tracking": "0.06em",
+      "display_leading": 1.1,
+      "display_case": "uppercase",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "square",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "Square, blocky glyphs match the panel symbols and the pixel screens of the period."
+      }
+    },
+    "art": {
+      "recipe": "skeuo",
+      "pattern": "grid",
+      "seed": 76
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "Cassette futurism lives on a phosphor screen with visible scan lines and a dark bezel."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#14130F",
+      "--color-surface": "#2A2822",
+      "--color-text": "#F3E9C8",
+      "--color-muted": "#B8B09A",
+      "--color-primary": "#FFB000",
+      "--color-accent": "#33FF66",
+      "--color-border": "#9A9A8E",
+      "--font-sans": "\"IBM Plex Mono\", \"Share Tech Mono\", monospace",
+      "--font-display": "\"Chakra Petch\", \"Orbitron\", sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "2px",
+      "--shadow-elevation": "0 2px 0 #000000, 0 0 12px rgba(255, 176, 0, 0.25)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(4)",
+      "--duration": "240ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#14130F] text-[#F3E9C8] font-mono antialiased px-4 md:px-10"
+      },
+      {
+        "element": "heading",
+        "classes": "font-bold uppercase tracking-[0.06em] leading-[1.1] text-4xl md:text-6xl text-[#FFB000]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.5] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "rounded border-2 border-[#9A9A8E] bg-[#2A2822] shadow-[0_2px_0_#000000]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded border-2 border-[#9A9A8E] bg-[#FFB000] px-5 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-[#14130F] transition-transform duration-[240ms] active:translate-y-0.5"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-semibold uppercase tracking-[0.08em] text-[#33FF66]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#FFB000", "#33FF66", "#F3E9C8"]},
+    "accent_colour": {"options": ["#33FF66", "#FFB000"]},
+    "corner_radius": {"min": 2, "max": 6},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+  },
+  "sources": [
+    {
+      "title": "CARI, Consumer Aesthetics Research Institute: Cassette Futurism",
+      "url": "https://cari.institute/aesthetics/cassette-futurism"
+    },
+    {
+      "title": "Syd Mead, Sentinel (Dragon's Dream, 1979)"
+    }
+  ]
+}

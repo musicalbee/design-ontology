@@ -1,0 +1,328 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "minimalism-web",
+  "domain": "internet",
+  "name": "Minimalism Web",
+  "aliases": [
+    "Minimal web",
+    "Less is more UI",
+    "Quiet web"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–now"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "A page with one idea per screen: few elements, much space, one type family and one accent. Every part must earn its place; what stays is clear, calm and fast.",
+  "philosophy": {
+    "core_thesis": "Remove until only the need is left: space and restraint carry the message.",
+    "design_principles": [
+      "Show one idea, one action and one image or none per screen.",
+      "Use 60% to 75% of the surface as empty space; the spacing scale is 8, 16, 32, 64 and 128px.",
+      "Use one type family in 2 weights and a scale of 14, 16, 24 and 64px.",
+      "Set the page in white or off-white (#FAFAF8) with text in near-black (#161616) and one accent for the main action only.",
+      "Use no border, shadow or gradient; separate parts with space or a hairline of 1px at 12% opacity.",
+      "Keep navigation to 5 items or fewer and show no icon that has no clear meaning.",
+      "Animate only state changes, in 150ms to 250ms."
+    ],
+    "anti_patterns": [
+      "Decorative ornament",
+      "Gradients and shadows for depth",
+      "More than 1 accent colour",
+      "Banners, pop-ups and carousels",
+      "Dense navigation with many levels",
+      "Stock photos used as filler",
+      "Clutter of badges, icons and labels"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "dimensionality": 1,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A single column or a 12-column grid with few filled columns; one block per screen section; 160px to 240px between sections.",
+    "whitespace_ratio": "65% to 80% of the surface is empty.",
+    "alignment_rules": "Flush left with a strict left edge; one centred axis only for a hero; no mixed alignments.",
+    "container_geometry": "Rectangles with 0px to 4px radius; no frames; 1px hairlines only."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans serif",
+      "geometric sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Inter",
+        "body": "Inter",
+        "note": "One neutral family in 2 weights."
+      },
+      {
+        "display": "DM Sans",
+        "body": "DM Sans",
+        "note": "A soft geometric voice with open shapes."
+      },
+      {
+        "display": "Manrope",
+        "body": "Manrope",
+        "note": "A modern sans with calm, even rhythm."
+      }
+    ],
+    "tracking": "Display takes -0.02em; body 0; labels +0.04em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use weights 400 and 600 only.",
+      "Use sizes 14, 16, 24 and 64px.",
+      "Set one headline per screen and keep it under 8 words.",
+      "Set labels at 12px in the muted colour."
+    ]
+  },
+  "color": {
+    "palette_structure": "White, near-black and one quiet accent.",
+    "palette": [
+      {
+        "name": "Paper",
+        "hex": "#FAFAF8",
+        "role": "background"
+      },
+      {
+        "name": "Panel",
+        "hex": "#F0F0EC",
+        "role": "surface"
+      },
+      {
+        "name": "Ink",
+        "hex": "#161616",
+        "role": "text"
+      },
+      {
+        "name": "Stone",
+        "hex": "#55554F",
+        "role": "secondary text"
+      },
+      {
+        "name": "Signal",
+        "hex": "#2F5BEA",
+        "role": "primary"
+      },
+      {
+        "name": "Signal Ink",
+        "hex": "#1E3FB0",
+        "role": "accent"
+      },
+      {
+        "name": "Hairline",
+        "hex": "#D9D9D3",
+        "role": "border"
+      }
+    ],
+    "contrast_rules": "Ink on paper holds 17:1; the accent marks 1 action per screen and holds 4.5:1 for text.",
+    "surface_treatment": "Flat fields with no gradient and no texture.",
+    "light_and_shadow": "No shadow; depth comes from space and order."
+  },
+  "materiality": {
+    "surface_simulation": "A matt, flat surface like white paper.",
+    "border_rules": "A 1px hairline at 12% opacity, used rarely.",
+    "blur_and_elevation": "No blur; no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "One outline icon set at 1.5px, used only where the word is unclear.",
+    "illustration": "None, or a single photograph at full width with no frame.",
+    "decorative_elements": [
+      "white space",
+      "single accent",
+      "hairline rule",
+      "one headline"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Quiet: short fades and 8px slides; no bounce; no loop; motion only confirms a change.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 200,
+    "hover_and_active": "Hover underlines or darkens the accent by 8% in 150ms; active state shifts it 1px."
+  },
+  "lineage": {
+    "evolved_from": [
+      "swiss-international",
+      "flat-design"
+    ],
+    "rebelled_against": [
+      "skeuomorphism"
+    ],
+    "hybridized_with": [
+      "editorial-serif-revival"
+    ],
+    "echoes": [
+      "minimalist-interior"
+    ]
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm, focused and free of noise.",
+    "keywords": [
+      "calm",
+      "clear",
+      "focused",
+      "honest",
+      "light",
+      "precise"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "minimal",
+      "minimalism",
+      "clean",
+      "simple",
+      "white space",
+      "less is more",
+      "restrained",
+      "quiet"
+    ],
+    "use_cases": [
+      "product and software landing pages",
+      "portfolios and studio sites",
+      "documentation and writing sites",
+      "fintech and tools that need trust",
+      "single-purpose apps"
+    ],
+    "avoid_when": [
+      "The brand needs warmth, play or ornament.",
+      "The page must show a large catalogue at once.",
+      "The audience expects density and many options."
+    ],
+    "modifiers": [
+      {
+        "request": "warmer",
+        "toward": "editorial-serif-revival",
+        "how": "Add a serif for headlines and a paper tint; keep the space."
+      },
+      {
+        "request": "more crafted",
+        "toward": "swiss-international",
+        "how": "Add a strict 12-column grid and a bold red accent."
+      },
+      {
+        "request": "softer",
+        "toward": "ethereal-web",
+        "how": "Replace the grey by pastel haze and a light serif."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 500,
+      "accent": "weight",
+      "display_tracking": "-0.02em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "A thin, neutral outline family that stays quiet next to plain type."
+      }
+    },
+    "art": {
+      "recipe": "plain",
+      "pattern": "none",
+      "seed": 12
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "dot-grid",
+      "why": "Minimalism keeps the field almost empty: a faint dot grid and one small light of colour."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#FAFAF8",
+      "--color-surface": "#F0F0EC",
+      "--color-text": "#161616",
+      "--color-muted": "#55554F",
+      "--color-primary": "#2F5BEA",
+      "--color-accent": "#1E3FB0",
+      "--color-border": "#D9D9D3",
+      "--font-sans": "\"Inter\", system-ui, sans-serif",
+      "--font-display": "\"Inter\", system-ui, sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "200ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#FAFAF8] text-[#161616] font-sans antialiased"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-semibold leading-[1.1] tracking-[-0.02em]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded border border-[#D9D9D3] bg-[#F0F0EC] p-8"
+      },
+      {
+        "element": "button",
+        "classes": "rounded bg-[#2F5BEA] px-6 py-3 font-semibold text-white transition-colors duration-150 hover:bg-[#1E3FB0]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.04em] text-[#55554F]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#2F5BEA", "#1E3FB0", "#161616"]},
+    "accent_colour": {"options": ["#1E3FB0", "#2F5BEA"]},
+    "corner_radius": {"min": 2, "max": 6},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.25, "min": 1.2, "max": 1.333}
+  },
+  "sources": [
+    {
+      "title": "Example: Apple product pages (2013–2025)"
+    },
+    {
+      "title": "Example: Linear and Stripe marketing pages (2019–2025)"
+    },
+    {
+      "title": "Example: Dieter Rams, Less but better (1970s)"
+    }
+  ]
+}

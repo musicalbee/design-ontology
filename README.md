@@ -16,7 +16,7 @@ Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API 
 
 <a href="https://musicalbee.github.io/design-ontology/demo/"><img src="assets/showreel.gif" width="880" alt="One landing page that wears 17 design styles in turn, from Bauhaus to visionOS"></a>
 
-[**Live demo**](https://musicalbee.github.io/design-ontology/demo/) · [Skill index](skills/SKILL_INDEX.md) · [Add a style](#add-a-style) · [The schema](schema/domains/design.schema.json)
+[**Live demo**](https://musicalbee.github.io/design-ontology/demo/) · [Skill index](skills/SKILL_INDEX.md) · [Add a style](#add-a-style) · [The schema](schema/domains/internet.schema.json)
 
 </div>
 
@@ -114,11 +114,11 @@ Solid arrows show descent. Red dotted arrows show rejection. Grey dotted arrows 
 <!-- lineage:start -->
 ```mermaid
 flowchart LR
-  subgraph design_fin_de_siecle["Fin de Siècle · 1880–1918"]
+  subgraph internet_fin_de_siecle["Fin de Siècle · 1880–1918"]
     victorian_web["Victorian Web"]
     art_nouveau_web["Art Nouveau (web)"]
   end
-  subgraph design_modernist["Modernist · 1919–1975"]
+  subgraph internet_modernist["Modernist · 1919–1975"]
     de_stijl_web["De Stijl (web)"]
     bauhaus["Bauhaus"]
     constructivism_web["Constructivism (web)"]
@@ -131,7 +131,7 @@ flowchart LR
     space_age["Space Age Design"]
     psychedelic["Psychedelic"]
   end
-  subgraph design_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
+  subgraph internet_postmodern_early_digital["Postmodern & Early Digital · 1976–2006"]
     cassette_futurism["Cassette Futurism"]
     punk_zine["Punk Zine"]
     memphis_design["Memphis Design"]
@@ -142,7 +142,7 @@ flowchart LR
     apple_aqua["Apple Aqua"]
     frutiger_aero["Frutiger Aero"]
   end
-  subgraph design_touchscreen["Touchscreen · 2007–2018"]
+  subgraph internet_touchscreen["Touchscreen · 2007–2018"]
     skeuomorphism["Skeuomorphism"]
     metro_ui["Metro UI"]
     pixel_art_web["Pixel Art Web"]
@@ -166,7 +166,7 @@ flowchart LR
     aurora_gradient_ui["Aurora Gradient UI"]
     scrapbook_ui["Scrapbook UI"]
   end
-  subgraph design_contemporary_spatial["Contemporary & Spatial · 2019–now"]
+  subgraph internet_contemporary_spatial["Contemporary & Spatial · 2019–now"]
     neumorphism["Neumorphism"]
     cybercore_web["Cybercore Web"]
     glassmorphism["Glassmorphism"]
@@ -2591,7 +2591,7 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 
 | Domain | Styles | Implementation layer | Demo |
 |---|--:|---|---|
-| Design | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/design.html) |
+| Internet | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/internet.html) |
 | Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
 | Interior | 19 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
 | Photography | 19 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
@@ -2619,7 +2619,7 @@ Each record gives the origin, each adoption with its lag in years, and 2 to 6 ru
 
 A contribution is one JSON file. The build does the rest.
 
-1. Copy [`data/design/styles/swiss-international.json`](data/design/styles/swiss-international.json) to `data/design/styles/<your-id>.json`.
+1. Copy [`data/internet/styles/swiss-international.json`](data/internet/styles/swiss-international.json) to `data/internet/styles/<your-id>.json`.
 2. Fill each field. Give numbers: px, em, ratios, hex. "Clean and modern" is not a rule.
 3. Write anti-patterns as the thing to avoid ("Rounded corners on containers"). The compiler adds `NEVER`.
 4. Connect the style to the graph with at least one lineage edge.

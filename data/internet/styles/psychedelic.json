@@ -1,0 +1,334 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "psychedelic",
+  "domain": "internet",
+  "name": "Psychedelic",
+  "aliases": [
+    "Psychedelic Poster Art",
+    "San Francisco Sound Poster",
+    "Acid Graphics"
+  ],
+  "era_id": "modernist",
+  "time_period": {
+    "start": 1965,
+    "end": 1972,
+    "label": "1965–1972"
+  },
+  "primary_mediums": [
+    "print",
+    "web"
+  ],
+  "summary": "Vibrating complementary colours, melting hand-drawn lettering and symmetrical swirls that fill the whole sheet. It came from San Francisco concert posters of 1966 to 1968, and it set out to reject the order of Swiss modernism.",
+  "philosophy": {
+    "core_thesis": "Design should alter perception, and a page that vibrates, flows and resists easy reading puts the viewer in an expanded state of mind.",
+    "design_principles": [
+      "Fill 90% or more of the sheet with pattern, colour or lettering, and leave no neutral margin.",
+      "Pair complementary colours of equal value, such as orange against blue and magenta against green, so that edges vibrate.",
+      "Draw lettering by hand to fit a shape: bend baselines, melt letterforms and reduce the gaps between letters to 0 or less.",
+      "Build compositions on curves and spirals, with mirrored or radial symmetry around one focal point.",
+      "Use three to five saturated hues in one piece, and shift hue in gradients across the sheet.",
+      "Outline shapes with a 2px to 4px dark line, and repeat contours in 3 to 6 concentric rings.",
+      "Borrow from Art Nouveau, Victorian posters and Op Art, and distort them."
+    ],
+    "anti_patterns": [
+      "Flush-left ragged text on a visible modular grid",
+      "Neutral grey or white margins that frame the content",
+      "A single neo-grotesque typeface at regular weight",
+      "Muted earth-tone palettes with low saturation",
+      "Straight horizontal baselines on every line of display text",
+      "Photographic realism without distortion or colour shift",
+      "Wide empty space as the main compositional element"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 5,
+    "dimensionality": 2,
+    "grid_rigidity": 1,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 5
+  },
+  "layout": {
+    "grid_mechanics": "No modular grid; compositions use a radial or mirrored axis at the sheet centre, with lettering blocks fitted to curves and a 0px to 8px gap between elements.",
+    "whitespace_ratio": "Under 10% of the surface stays empty; every gap is filled with pattern, and the spacing scale is 0, 4, 8 and 16px.",
+    "alignment_rules": "Centred or mirrored composition; text follows arcs, waves and tapered shapes; lines of text run at any angle between 0 and 30 degrees.",
+    "container_geometry": "Organic blobs, arches and rounded panels with a radius of 32px or more; outlines wobble by 2px to 6px as in hand-cut lettering."
+  },
+  "typography": {
+    "classifications": [
+      "art nouveau display",
+      "hand-drawn melting lettering",
+      "decorative serif",
+      "bubble sans serif"
+    ],
+    "font_pairings": [
+      {
+        "display": "Monoton",
+        "body": "Rubik",
+        "note": "A multi-line neon face for short headlines, with a plain body face for legibility."
+      },
+      {
+        "display": "Rye",
+        "body": "Lora",
+        "note": "A Victorian wood-type face in the manner of Wes Wilson revival posters."
+      },
+      {
+        "display": "Shrikhand",
+        "body": "Nunito",
+        "note": "A fat italic display face with soft round terminals."
+      },
+      {
+        "display": "Bungee Shade",
+        "body": "Work Sans",
+        "note": "A layered display face for large type on saturated fields."
+      }
+    ],
+    "tracking": "Display sizes take -0.06em to 0 so that letters touch; body takes 0 to +0.01em; labels take +0.04em.",
+    "leading": "Display 0.85 to 1.0; body 1.5 so that the text stays readable on busy fields.",
+    "hierarchy_rules": [
+      "Set display text at 72px to 160px and body at 18px to 20px; the ratio stays above 4:1.",
+      "Place body text on a solid panel of one flat colour, never straight on the pattern.",
+      "Use no more than two display faces in one piece, and set both in bold weights of 700 or more.",
+      "Warp or curve the headline along an arc; keep body text on a straight baseline."
+    ]
+  },
+  "color": {
+    "palette_structure": "Four to five fully saturated hues in complementary pairs, with near-equal area for each pair and a black outline to hold shapes together.",
+    "palette": [
+      {
+        "name": "Acid Orange",
+        "hex": "#FF6A00",
+        "role": "primary field"
+      },
+      {
+        "name": "Electric Blue",
+        "hex": "#1B3BFF",
+        "role": "complement to orange"
+      },
+      {
+        "name": "Hot Magenta",
+        "hex": "#FF1493",
+        "role": "secondary field"
+      },
+      {
+        "name": "Lime",
+        "hex": "#9AFF00",
+        "role": "complement to magenta"
+      },
+      {
+        "name": "Acid Yellow",
+        "hex": "#FFE600",
+        "role": "highlight"
+      },
+      {
+        "name": "Deep Violet",
+        "hex": "#2B0A4D",
+        "role": "outline and text"
+      }
+    ],
+    "contrast_rules": "Vibration is intended on decorative fields; text panels still hold at least 7:1, for example violet #2B0A4D on yellow #FFE600.",
+    "surface_treatment": "Saturated flat fills with hue gradients across the sheet; overprinted halftone dots of 4px to 8px and moire patterns are allowed.",
+    "light_and_shadow": "No single light source; glow is drawn as repeated 2px to 4px contour rings in shifting hues, not as a blur."
+  },
+  "materiality": {
+    "surface_simulation": "Offset-litho poster ink on cheap stock, with overprint and fluorescent inks; the surface imitates blacklight posters.",
+    "border_rules": "Solid violet outlines of 3px to 4px around every shape; inner contours repeat at 6px steps.",
+    "blur_and_elevation": "Blur is 0 for shapes; a glow may use a 0 0 24px coloured shadow on one focal element; there are no elevation levels."
+  },
+  "ornamentation_details": {
+    "iconography": "Hand-drawn solid glyphs with 3px outlines and wobbling terminals: eyes, flowers, suns and mushrooms; no uniform geometric sets.",
+    "illustration": "Symmetrical swirls, paisley, flowers, eyes and melting figures drawn in ink and filled with flat gradients; Art Nouveau borders reworked in neon hues.",
+    "decorative_elements": [
+      "concentric contour rings",
+      "paisley and flower motifs",
+      "op-art stripes and checks",
+      "halftone dot fields",
+      "wavy borders",
+      "radial sunbursts"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Translation for screen: shapes breathe with a 4s loop of 3% scale and 6 degrees of rotation, and hue shifts slowly across fills.",
+    "easing": "cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+    "duration_ms": 600,
+    "hover_and_active": "Hover shifts hue by 40 degrees and warps the element with a 2 degree skew; active inverts the colour pair and adds a 3px contour ring."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "swiss-international"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Disorientation and euphoria: the viewer feels that the page moves, that rules are off and that the experience is communal.",
+    "keywords": [
+      "trippy",
+      "liberated",
+      "vibrating",
+      "fluid",
+      "countercultural",
+      "ecstatic"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "magician",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "psychedelic",
+      "60s poster",
+      "acid",
+      "trippy",
+      "tie-dye",
+      "fillmore poster",
+      "wes wilson",
+      "victor moscoso",
+      "counterculture",
+      "op art type"
+    ],
+    "use_cases": [
+      "music festival posters",
+      "album covers",
+      "event and club sites",
+      "tea and cannabis packaging",
+      "retro campaign pages"
+    ],
+    "avoid_when": [
+      "The product handles money, health or legal content that needs calm and clear reading.",
+      "The page needs long body text, accessibility compliance for photosensitive users or dense forms.",
+      "The brand must feel institutional, minimal or neutral."
+    ],
+    "modifiers": [
+      {
+        "request": "more readable",
+        "toward": "mid-century-modern",
+        "how": "Mute the hues to mustard, teal and orange, restore a 6-column grid and 35% empty space; keep the flat layers and the curved shapes."
+      },
+      {
+        "request": "more ordered",
+        "toward": "swiss-international",
+        "how": "Keep one saturated accent such as #FF6A00 under 10% of the surface, set all text flush left on a 12-column grid; drop the contour rings."
+      },
+      {
+        "request": "louder",
+        "toward": "memphis-design",
+        "how": "Replace swirls with squiggles, terrazzo and 3px black outlines on pink and teal; keep the saturation and the tilted shapes."
+      },
+      {
+        "request": "more modern web",
+        "toward": "y2k-aesthetic",
+        "how": "Swap hand-drawn lettering for chrome gradients and translucent blobs; keep the saturated hues and the full-bleed fields."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 400,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "size",
+      "display_tracking": "-0.02em",
+      "display_leading": 0.95,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "18px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 3,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "solar-bold",
+        "why": "Heavy, swollen solid forms with no straight terminal: the weight of the poster lettering."
+      }
+    },
+    "art": {
+      "recipe": "psychedelic",
+      "pattern": "waves",
+      "seed": 4
+    },
+    "layout": {
+      "hero": "poster",
+      "align": "center",
+      "density": "compact",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "swirl",
+      "why": "Psychedelic posters fill the field with colour that turns around one centre until the eye moves with it."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#2B0A4D",
+      "--color-surface": "#FFE600",
+      "--color-text": "#2B0A4D",
+      "--color-muted": "#5A2A8A",
+      "--color-primary": "#FF6A00",
+      "--color-accent": "#FF1493",
+      "--color-border": "#2B0A4D",
+      "--font-sans": "\"Rubik\", \"Nunito\", \"Trebuchet MS\", sans-serif",
+      "--font-display": "\"Shrikhand\", \"Rye\", \"Cooper Black\", Georgia, serif",
+      "--border-radius": "32px",
+      "--border-width": "3px",
+      "--shadow-elevation": "0 0 24px rgba(255, 20, 147, 0.6)",
+      "--backdrop-filter": "none",
+      "--space-unit": "4px",
+      "--ease": "cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+      "--duration": "600ms",
+      "--color-complement": "#1B3BFF",
+      "--color-lime": "#9AFF00",
+      "--tracking-display": "-0.04em",
+      "--leading-body": "1.5"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#2B0A4D] bg-[radial-gradient(circle_at_50%_40%,#FF6A00,#FF1493_45%,#1B3BFF)] text-[#2B0A4D] font-sans antialiased px-4 md:px-10"
+      },
+      {
+        "element": "heading",
+        "classes": "font-display text-7xl md:text-[10rem] leading-[0.85] tracking-[-0.04em] text-[#FFE600] -rotate-3 [text-shadow:4px_4px_0_#2B0A4D]"
+      },
+      {
+        "element": "card",
+        "classes": "rounded-[32px] border-[3px] border-[#2B0A4D] bg-[#FFE600] p-8 text-[#2B0A4D] shadow-[0_0_24px_rgba(255,20,147,0.6)]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full border-[3px] border-[#2B0A4D] bg-[#9AFF00] px-8 py-3 text-base font-bold text-[#2B0A4D] transition-transform duration-[600ms] hover:-skew-x-2 hover:bg-[#FF1493] hover:text-white"
+      },
+      {
+        "element": "divider",
+        "classes": "h-3 w-full rounded-full border-[3px] border-[#2B0A4D] bg-[repeating-linear-gradient(90deg,#FF6A00_0_12px,#1B3BFF_12px_24px)]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs font-bold uppercase tracking-[0.04em] text-[#2B0A4D]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#FF6A00", "#FF1493", "#2B0A4D"]},
+    "accent_colour": {"options": ["#FF1493", "#FF6A00"]},
+    "corner_radius": {"min": 16, "max": 48},
+    "grid_step": {"min": 2, "max": 6},
+    "type_scale_ratio": {"default": 1.618, "min": 1.5, "max": 1.618}
+  },
+  "sources": [
+    {
+      "title": "Eric Schaal and Walter Medeiros, The Art of Rock: Posters from Presley to Punk (Abbeville Press, 1987)"
+    },
+    {
+      "title": "Ted Owen and Denise Dickson, High Art: A History of the Psychedelic Poster (Sanctuary Publishing, 1999)"
+    }
+  ]
+}

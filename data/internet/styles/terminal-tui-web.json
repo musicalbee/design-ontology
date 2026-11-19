@@ -1,0 +1,319 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "terminal-tui-web",
+  "domain": "internet",
+  "name": "Terminal / TUI Web",
+  "aliases": [
+    "Terminal UI",
+    "TUI aesthetic",
+    "Console web"
+  ],
+  "era_id": "touchscreen",
+  "time_period": {
+    "start": 2017,
+    "end": null,
+    "label": "2017–now"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "A monospace grid, box-drawing borders, a dark or phosphor ground and keyboard hints. It borrows from command-line tools and text user interfaces to make web pages that feel like a terminal.",
+  "philosophy": {
+    "core_thesis": "The terminal is the honest interface: a fixed character grid, text only and a keyboard make a tool fast and trustworthy.",
+    "design_principles": [
+      "Set every character on a fixed grid: one monospace at 14px to 16px, character width 8px to 10px, line height 20px to 24px.",
+      "Align all blocks to whole characters and whole lines; widths are multiples of 1 ch and heights multiples of 1 line.",
+      "Draw borders with box-drawing characters (┌ ─ ┐ │ └ ┘) or a 1px line snapped to the grid; corner radius is 0px.",
+      "Use 2 to 4 colours: a dark ground (#0C0C0C), one text colour, one accent and an alert colour; green or amber on black for a phosphor look.",
+      "Show a prompt (>, $ or ▌) and a blinking block cursor at 1s intervals (500ms on, 500ms off).",
+      "Show keyboard shortcuts in brackets, for example [q] quit, [/] search, at 12px to 14px next to each action.",
+      "Use ASCII art, bars (▁▂▃▅▇) and text spinners (⠋⠙⠹) instead of images and icons."
+    ],
+    "anti_patterns": [
+      "Proportional fonts for UI text",
+      "Rounded corners, shadows and gradients",
+      "Icons, emoji and illustration",
+      "Mouse-only controls with no key",
+      "Smooth animation and easing curves",
+      "More than 4 colours",
+      "Elements off the character grid"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 1,
+    "grid_rigidity": 5,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 3
+  },
+  "layout": {
+    "grid_mechanics": "A character grid of 80 to 120 columns; each block spans whole columns and lines; the gutter is 1 character.",
+    "whitespace_ratio": "20% to 30% of the surface is empty, in whole lines; spacing is 1 or 2 lines and 1 or 2 characters.",
+    "alignment_rules": "Flush left on the grid; numbers right-aligned in columns; headers in boxes.",
+    "container_geometry": "Boxes with 0px radius drawn by a 1px line or box-drawing characters; panels split by single lines."
+  },
+  "typography": {
+    "classifications": [
+      "monospace"
+    ],
+    "font_pairings": [
+      {
+        "display": "JetBrains Mono",
+        "body": "JetBrains Mono",
+        "note": "A clear coding face with ligatures off for an exact grid."
+      },
+      {
+        "display": "IBM Plex Mono",
+        "body": "IBM Plex Mono",
+        "note": "A technical mono with a warm voice."
+      },
+      {
+        "display": "VT323",
+        "body": "Share Tech Mono",
+        "note": "A bitmap-style mono for a CRT look."
+      }
+    ],
+    "tracking": "Tracking stays at 0 so the grid holds.",
+    "leading": "Line height is a fixed 1.5 on a 16px face: 24px.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and bold (700).",
+      "Use one size, 14px to 16px; headers differ by bold, case and box, not by size.",
+      "Set headers in upper case in bold.",
+      "Set shortcut keys in brackets."
+    ]
+  },
+  "color": {
+    "palette_structure": "Dark ground, one phosphor colour and an alert colour.",
+    "palette": [
+      {
+        "name": "Console",
+        "hex": "#0C0C0C",
+        "role": "background"
+      },
+      {
+        "name": "Phosphor",
+        "hex": "#33FF66",
+        "role": "text and primary"
+      },
+      {
+        "name": "Amber",
+        "hex": "#FFB000",
+        "role": "accent"
+      },
+      {
+        "name": "Dim",
+        "hex": "#6B8F71",
+        "role": "secondary text"
+      },
+      {
+        "name": "Alert",
+        "hex": "#FF5555",
+        "role": "error"
+      },
+      {
+        "name": "Panel",
+        "hex": "#131313",
+        "role": "surface"
+      }
+    ],
+    "contrast_rules": "Phosphor on console holds at least 13:1; dim text holds at least 4.5:1; amber marks selection and warnings.",
+    "surface_treatment": "Flat black with an optional scanline overlay of 2px stripes at 4% opacity; no gradient.",
+    "light_and_shadow": "None; an optional glow of 4px blur in the text colour at 30% for a CRT look."
+  },
+  "materiality": {
+    "surface_simulation": "A cathode-ray terminal: a flat dark field with glowing characters.",
+    "border_rules": "A single line of 1px in the dim colour or box-drawing characters; no thick border.",
+    "blur_and_elevation": "No blur and no elevation; an optional text-shadow of 0 0 4px at 30% for glow."
+  },
+  "ornamentation_details": {
+    "iconography": "No icons; use characters (▶ ✓ ✗ ● ○) and bracketed keys.",
+    "illustration": "ASCII art, text charts and block-character progress bars.",
+    "decorative_elements": [
+      "box-drawing frame",
+      "blinking cursor",
+      "bracketed key hint",
+      "ASCII chart",
+      "text spinner"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Stepped, discrete: the cursor blinks at 1s; text types at 30 to 80 characters per second; spinners cycle at 80ms per frame.",
+    "easing": "steps(1)",
+    "duration_ms": 0,
+    "hover_and_active": "Hover inverts the row (text and ground swap); active state shows the amber ground."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "material-design"
+    ],
+    "hybridized_with": [
+      "dark-devtool-ui",
+      "brutalist-web"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The viewer feels the speed and honesty of a tool made by and for experts.",
+    "keywords": [
+      "technical",
+      "fast",
+      "honest",
+      "nostalgic",
+      "hacker",
+      "focused"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "terminal",
+      "tui",
+      "command line",
+      "cli aesthetic",
+      "monospace ui",
+      "hacker style",
+      "ascii",
+      "retro terminal",
+      "phosphor"
+    ],
+    "use_cases": [
+      "CLI and developer tool sites",
+      "documentation for command-line tools",
+      "hacker, security and CTF pages",
+      "indie games and tools",
+      "personal sites of engineers"
+    ],
+    "avoid_when": [
+      "The audience is a general consumer.",
+      "The page needs rich images or brand warmth.",
+      "The UI needs touch-first controls."
+    ],
+    "modifiers": [
+      {
+        "request": "friendlier",
+        "toward": "dark-devtool-ui",
+        "how": "Add a proportional UI face, hairlines at 8% white and a 6px radius; keep the mono for data."
+      },
+      {
+        "request": "more raw",
+        "toward": "brutalist-web",
+        "how": "Switch to a white ground, default links and 1px black rules."
+      },
+      {
+        "request": "more retro",
+        "toward": "vaporwave",
+        "how": "Add neon pink and cyan and a perspective grid; keep the mono."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 400,
+      "accent": "case",
+      "display_tracking": "0em",
+      "display_leading": 1.5,
+      "display_case": "uppercase",
+      "body_leading": 1.5,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "pixelarticons",
+        "why": "A pixel family made on a strict square grid that fits a character-cell page."
+      }
+    },
+    "art": {
+      "recipe": "terminal",
+      "pattern": "grid",
+      "seed": 44
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "scanlines",
+      "why": "A terminal is a phosphor screen: scan lines, a green glow and a dark bezel."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#0C0C0C",
+      "--color-surface": "#131313",
+      "--color-text": "#33FF66",
+      "--color-muted": "#6B8F71",
+      "--color-primary": "#33FF66",
+      "--color-accent": "#FFB000",
+      "--color-border": "#33FF66",
+      "--font-sans": "\"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, monospace",
+      "--font-display": "\"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, monospace",
+      "--border-radius": "0px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "steps(1)",
+      "--duration": "0ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#0C0C0C] text-[#33FF66] font-mono text-sm leading-6 antialiased p-4"
+      },
+      {
+        "element": "heading",
+        "classes": "text-base font-bold uppercase leading-6 tracking-normal"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-6 max-w-[100ch]"
+      },
+      {
+        "element": "section",
+        "classes": "border border-[#33FF66] p-4"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-none border border-[#33FF66] bg-transparent px-3 text-sm text-[#33FF66] hover:bg-[#33FF66] hover:text-[#0C0C0C]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs text-[#6B8F71]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {"options": ["#33FF66", "#FFB000"]},
+    "accent_colour": {"options": ["#FFB000", "#33FF66"]},
+    "corner_radius": {"min": 0, "max": 0},
+    "grid_step": {"min": 4, "max": 12},
+    "type_scale_ratio": {"default": 1.333, "min": 1.25, "max": 1.414}
+  },
+  "sources": [
+    {
+      "title": "Example: charm.sh (Bubble Tea and Gum) site (2021–2025)"
+    },
+    {
+      "title": "Example: warp.dev and ghostty.org product pages (2022–2025)"
+    },
+    {
+      "title": "Example: htop.dev, neovim.io and lazygit-style project pages"
+    }
+  ]
+}
