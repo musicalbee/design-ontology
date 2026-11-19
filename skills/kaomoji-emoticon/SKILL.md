@@ -271,6 +271,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more retro**: move toward [`cyberdelia`](../cyberdelia/SKILL.md) (Cyberdelia). Set the page on black with a green mono face and add ANSI colour blocks.
 - If the user asks for **more animated**: move toward [`reaction-gif`](../reaction-gif/SKILL.md) (Reaction GIF). Swap the face for a looped clip of 2 to 4 seconds with a caption line.
 
+- **Came from (go here for a more orthodox version):** [`ansi-bbs-art`](../ansi-bbs-art/SKILL.md)
 - **Led to (go here for a newer version):** [`reaction-gif`](../reaction-gif/SKILL.md), [`unicode-emoji`](../unicode-emoji/SKILL.md)
 - **Kin in another domain:** [`pixel-icon`](../pixel-icon/SKILL.md)
 - **Nearest by vector profile:** [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md)

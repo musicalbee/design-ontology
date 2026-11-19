@@ -209,7 +209,6 @@ flowchart LR
     duet_split_screen["Duet Split-Screen"]
     gan_portrait["GAN Portrait"]
     scrapbook_ui["Scrapbook UI"]
-    weirdcore["Weirdcore"]
   end
   subgraph internet_contemporary_spatial["Contemporary & Spatial · 2019–now"]
     dark_academia["Dark academia"]
@@ -228,6 +227,7 @@ flowchart LR
     photo_dump["Photo Dump"]
     pov_short["POV Short"]
     velocity_edit["Velocity Edit"]
+    weirdcore["Weirdcore"]
     word_caption_clip["Word Caption Clip"]
     claymorphism["Claymorphism"]
     editorial_serif_revival["Editorial Serif Revival"]
@@ -1623,6 +1623,7 @@ flowchart LR
   yuan_ming_blue_and_white --> joseon_moon_jar
   kraak_porcelain --> kakiemon_imari_export
   yuan_ming_blue_and_white --> kakiemon_imari_export
+  ansi_bbs_art --> kaomoji_emoticon
   scrapbook_ui --> kidcore
   y2k_aesthetic --> kidcore
   yuan_ming_blue_and_white --> kraak_porcelain
@@ -2683,7 +2684,6 @@ flowchart LR
   linkStyle 611 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 612 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 613 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 1067 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1068 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1069 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1070 stroke:#E5484D,stroke-width:1.5px
@@ -2914,6 +2914,7 @@ flowchart LR
   linkStyle 1295 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1296 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1297 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1298 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

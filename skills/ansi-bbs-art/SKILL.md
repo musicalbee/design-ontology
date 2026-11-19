@@ -282,7 +282,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more colour**: move toward [`cyberdelia`](../cyberdelia/SKILL.md) (Cyberdelia). Add loud acid colour fields and warped logos; leave the grid.
 - If the user asks for **more web**: move toward [`geocities-homepage`](../geocities-homepage/SKILL.md) (GeoCities Homepage). Move to a free page with tiled backgrounds and pixel GIFs.
 
-- **Led to (go here for a newer version):** [`net-art-browser`](../net-art-browser/SKILL.md)
+- **Led to (go here for a newer version):** [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md), [`net-art-browser`](../net-art-browser/SKILL.md)
 - **Mixes well with:** [`punk-zine`](../punk-zine/SKILL.md)
 - **Kin in another domain:** [`pixel-icon`](../pixel-icon/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-web`](../art-deco-web/SKILL.md), [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md)

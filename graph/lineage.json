@@ -1496,21 +1496,6 @@
       }
     },
     {
-      "id": "weirdcore",
-      "domain": "internet",
-      "name": "Weirdcore",
-      "era": "touchscreen",
-      "start": 2020,
-      "end": null,
-      "vectors": {
-        "ornamentation": 2,
-        "dimensionality": 2,
-        "grid_rigidity": 2,
-        "skeuomorphic_realism": 3,
-        "typographic_expressiveness": 4
-      }
-    },
-    {
       "id": "dark-academia",
       "domain": "internet",
       "name": "Dark academia",
@@ -1748,6 +1733,21 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "weirdcore",
+      "domain": "internet",
+      "name": "Weirdcore",
+      "era": "contemporary-spatial",
+      "start": 2020,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 3,
+        "typographic_expressiveness": 4
       }
     },
     {
@@ -11860,6 +11860,11 @@
     {
       "from": "kakiemon-imari-export",
       "to": "yuan-ming-blue-and-white",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "kaomoji-emoticon",
+      "to": "ansi-bbs-art",
       "type": "EVOLVED_FROM"
     },
     {
@@ -25999,6 +26004,7 @@
     "ansi-bbs-art": {
       "evolved_from": [],
       "evolved_into": [
+        "kaomoji-emoticon",
         "net-art-browser"
       ],
       "rebelled_against": [],
@@ -26030,7 +26036,9 @@
       ]
     },
     "kaomoji-emoticon": {
-      "evolved_from": [],
+      "evolved_from": [
+        "ansi-bbs-art"
+      ],
       "evolved_into": [
         "reaction-gif",
         "unicode-emoji"
@@ -28673,44 +28681,6 @@
         "photomontage"
       ]
     },
-    "weirdcore": {
-      "evolved_from": [
-        "vaporwave"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [
-        "frutiger-aero"
-      ],
-      "provoked": [],
-      "hybridized_with": [
-        "dreamcore",
-        "liminal-spaces",
-        "y2k-aesthetic"
-      ],
-      "echoes": [
-        "camcorder-revival",
-        "low-poly-ps1-revival"
-      ],
-      "subgenre_of": [],
-      "subgenres": [],
-      "nearest_by_vector": [
-        {
-          "id": "glitch-gif",
-          "distance": 1
-        },
-        {
-          "id": "barbiecore",
-          "distance": 1.41
-        },
-        {
-          "id": "grwm-short",
-          "distance": 1.41
-        }
-      ],
-      "techniques": [
-        "lo-fi-found-image"
-      ]
-    },
     "dark-academia": {
       "evolved_from": [
         "victorian-web"
@@ -29309,6 +29279,44 @@
       ],
       "techniques": [
         "speed-ramp"
+      ]
+    },
+    "weirdcore": {
+      "evolved_from": [
+        "vaporwave"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "frutiger-aero"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "dreamcore",
+        "liminal-spaces",
+        "y2k-aesthetic"
+      ],
+      "echoes": [
+        "camcorder-revival",
+        "low-poly-ps1-revival"
+      ],
+      "subgenre_of": [],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "glitch-gif",
+          "distance": 1
+        },
+        {
+          "id": "barbiecore",
+          "distance": 1.41
+        },
+        {
+          "id": "grwm-short",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "lo-fi-found-image"
       ]
     },
     "word-caption-clip": {
