@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emotions across the styles</title>
+<meta name="description" content="The emotions layer of the design ontology: 30 terms on the pleasure, arousal and dominance axes, the styles that carry each term with the kind of evidence, the coverage of each domain, and the light and cue numbers for a 3D scene.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    /* Hive light tokens, as in money.html and people.html. One accent (royal) marks the selected term. */
+    --paper: #fff; --ink: #1F1F45; --muted: #50527A; --faint: #9A9FC0; --line: #DEE3F2; --band: #EFF2FB; --accent: #264FCC; --accent-bg: #E8F2FF;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --paper: #12132B; --ink: #E6E8F7; --muted: #A9AECF; --faint: #6A6F96; --line: #2C2F55; --band: #1C1E3D; --accent: #7FA0FF; --accent-bg: #1F2A55; color-scheme: dark; }
+  html, body { margin: 0; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--paper); color: var(--ink); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
+  h1 { margin: 0; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  h2 { margin: 0 0 4px; font-size: 20px; line-height: 1.2; }
+  .lede, .note { margin: 6px 0 0; max-width: 75ch; color: var(--muted); }
+  .note { font-size: 13px; }
+  section { border-top: 1px solid var(--line); padding-top: 16px; }
+  #pa { max-width: 640px; } #pd { max-width: 340px; }
+  .row > *, section { min-width: 0; }
+  #car { min-width: 560px; } #pa { min-width: 500px; } #cu { min-width: 640px; }
+  .row { display: grid; gap: 16px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 1000px) { .row.pad { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); } .row.detail { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  svg text { font: 12px system-ui, sans-serif; fill: var(--ink); }
+  .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .axis { stroke: var(--faint); stroke-width: .6; fill: none; }
+  .zero { stroke: var(--line); stroke-width: 1; }
+  .term { cursor: pointer; }
+  .term .dot { fill: var(--ink); stroke: var(--ink); stroke-width: 1.2; }
+  .term.culture .dot { fill: var(--paper); }
+  .term .hit { fill: transparent; }
+  .term:hover text { text-decoration: underline; }
+  .term.on .dot { fill: var(--accent); stroke: var(--accent); }
+  .term.on.culture .dot { fill: var(--paper); stroke-width: 2.2; }
+  .term.on text { fill: var(--accent); font-weight: 700; }
+  .term.near text { font-weight: 650; }
+  .lead { stroke: var(--faint); stroke-width: .5; }
+  .scroll { overflow-x: auto; }
+  .carrier { cursor: pointer; }
+  .carrier .hit { fill: transparent; }
+  .carrier:hover .hit, .carrier.on .hit { fill: var(--band); }
+  .carrier .rule { stroke: var(--line); stroke-width: 1; }
+  .k-measured { fill: var(--ink); stroke: var(--ink); }
+  .k-stated { fill: var(--paper); stroke: var(--ink); }
+  .k-stated-half { fill: var(--ink); }
+  .k-inferred { fill: var(--paper); stroke: var(--faint); }
+  .carrier text.dom { fill: var(--muted); font-size: 11px; }
+  .carrier.inferred text.name { fill: var(--muted); }
+  .carrier text.val { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .carrier.on text.name { fill: var(--accent); font-weight: 650; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: 13px; color: var(--muted); margin: 6px 0 8px; }
+  .controls select, .controls button { font: inherit; font-size: 13px; color: var(--ink); background: transparent; border: 0; border-bottom: 1px solid var(--line); padding: 2px 0; cursor: pointer; }
+  aside { font-size: 14px; }
+  aside h3, .sub { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 14px 0 4px; font-weight: 650; }
+  aside p { margin: 4px 0; }
+  aside ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  aside li { border-top: 1px solid var(--line); padding-top: 8px; }
+  .tag { display: inline-block; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; margin-right: 4px; }
+  .src { font-size: 12px; color: var(--muted); }
+  a { color: inherit; }
+  .mx text { font-size: 11px; }
+  .mx .rowlab { cursor: pointer; }
+  .mx .rowlab.on { fill: var(--accent); font-weight: 700; }
+  .mx .cell { stroke: var(--line); stroke-width: .5; }
+  .mx .n { fill: var(--muted); font-size: 10px; font-variant-numeric: tabular-nums; }
+  .mx .n.dark { fill: var(--paper); }
+  .mx .empty { fill: var(--faint); }
+  .mx .colhead { fill: var(--muted); }
+  .mx .band { fill: var(--accent-bg); }
+  .bar { stroke: var(--ink); stroke-width: 5; stroke-linecap: butt; }
+  .bar.cue { stroke: var(--accent); }
+  .bar.weak { stroke-dasharray: 4 3; }
+  .cap { stroke: var(--ink); stroke-width: 1; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Emotions across the styles</h1>
+    <p class="lede">The layer has 30 terms: 21 from the AESTHEMOS scale and 9 culture-bound words. Each term has a point on three axes: pleasure, arousal and dominance. A style carries a term through an edge. Each edge has evidence of one kind: measured (a study with people), stated (an open source says it) or inferred (read from the keywords of the style). A sourced edge ranks above an inferred one.</p>
+  </header>
+
+  <section aria-labelledby="h-map">
+    <h2 id="h-map">1. Where each term sits</h2>
+    <p class="note">Filled dot: an AESTHEMOS term. Open diamond: a culture-bound term. The points are authored estimates on Russell's circumplex, not measured values. Select a term to see its carriers, its coverage and its scene numbers.</p>
+    <div class="row pad">
+      <div class="scroll"><svg id="pa" role="img" aria-label="The 30 terms on the pleasure and arousal axes"></svg></div>
+      <svg id="pd" role="img" aria-label="The 30 terms on the pleasure and dominance axes"></svg>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-car">
+    <h2 id="h-car">2. <span id="termName">—</span>: the styles that carry it</h2>
+    <p class="note" id="termDef"></p>
+    <div class="controls"><span id="carCount"></span><label>Domain <select id="dom"><option value="all">All domains</option></select></label><button id="more" type="button"></button></div>
+    <div class="row detail">
+      <div class="scroll"><svg id="car" role="img" aria-label="Styles ranked by score for the selected term"></svg></div>
+      <aside id="side" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-mx">
+    <h2 id="h-mx">3. Coverage: edges by domain and term</h2>
+    <p class="note">The number is the count of edges. The fill is the share of those edges with a source: an empty square has none, a full fill has all. A dot means that no style in that domain carries the term.</p>
+    <div class="scroll"><svg id="mx" class="mx" role="img" aria-label="Count of edges and sourced share for each domain and term"></svg></div>
+  </section>
+
+  <section aria-labelledby="h-scene">
+    <h2 id="h-scene">4. Scene numbers for <span id="termName2">—</span></h2>
+    <p class="note">Moments that carry the term, with their light on true scales: colour temperature in kelvin, illuminance in lux on a log scale, and sun elevation in degrees. Then the measured cues: a direct cue names the term, and a PAD cue moves an axis in the same direction as the term's point. The arrow shows the direction of the change. A dashed bar is a weak effect.</p>
+    <div class="scroll"><svg id="mo" role="img" aria-label="Light ranges of the moments for the selected term"></svg></div>
+    <h3 class="sub">Cues</h3>
+    <div class="scroll"><svg id="cu" role="img" aria-label="Cue ranges for the selected term"></svg></div>
+  </section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const WEIGHT = { measured: 1, stated: 0.7, inferred: 0.3 };
+let E, terms, byId, styleName = {}, domName = {}, domains = [], selected = null, showAll = false, pickedCarrier = null;
+const evokesCache = {};
+
+// ── 1. PAD map ─────────────────────────────────────────────────────────────
+// A label goes in the first of eight places around its point that hits no other label or point.
+function placeLabels(pts, w, h) {
+  const boxes = pts.map((p) => ({ x: p.x - 5, y: p.y - 5, w: 10, h: 10 }));
+  const hit = (b) => boxes.some((o) => b.x < o.x + o.w && b.x + b.w > o.x && b.y < o.y + o.h && b.y + b.h > o.y) || b.x < 0 || b.x + b.w > w || b.y < 0 || b.y + b.h > h;
+  for (const p of [...pts].sort((a, b) => a.y - b.y)) {
+    const tw = p.label.length * 6.4 + 2, th = 13;
+    const tries = [[8, -6], [-8 - tw, -6], [-tw / 2, -20], [-tw / 2, 8], [8, -18], [8, 6], [-8 - tw, -18], [-8 - tw, 6], [14, -28], [14, 16], [-tw - 14, -28], [-tw - 14, 16]];
+    let pick = null;
+    for (const [dx, dy] of tries) { const b = { x: p.x + dx, y: p.y + dy, w: tw, h: th }; if (!hit(b)) { pick = b; break; } }
+    pick ??= { x: p.x + 8, y: p.y - 6, w: tw, h: th };
+    boxes.push(pick);
+    p.lx = pick.x; p.ly = pick.y + 10; p.lead = Math.hypot(pick.x + tw / 2 - p.x, pick.y + 6 - p.y) > 26;
+  }
+}
+
+function padPlot(svgId, yKey, yName, size) {
+  const W = size, H = size, m = { l: 34, r: 12, t: 12, b: 34 };
+  const sx = (v) => m.l + ((v + 1) / 2) * (W - m.l - m.r), sy = (v) => H - m.b - ((v + 1) / 2) * (H - m.t - m.b);
+  const pts = terms.map((t) => ({ id: t.id, label: t.name, culture: !!t.culture, x: sx(t.pad.p), y: sy(t.pad[yKey]) }));
+  if (size > 400) placeLabels(pts, W, H);
+  let s = `<line class="zero" x1="${sx(-1)}" x2="${sx(1)}" y1="${sy(0)}" y2="${sy(0)}"/><line class="zero" x1="${sx(0)}" x2="${sx(0)}" y1="${sy(-1)}" y2="${sy(1)}"/>`;
+  s += `<line class="axis" x1="${sx(-1)}" x2="${sx(1)}" y1="${H - m.b + 6}" y2="${H - m.b + 6}"/><line class="axis" x1="${m.l - 6}" x2="${m.l - 6}" y1="${sy(-1)}" y2="${sy(1)}"/>`;
+  for (const v of [-1, 0, 1]) s += `<text class="tick" x="${sx(v)}" y="${H - m.b + 19}" text-anchor="middle">${v}</text><text class="tick" x="${m.l - 10}" y="${sy(v) + 4}" text-anchor="end">${v}</text>`;
+  s += `<text class="tick" x="${sx(1)}" y="${H - 4}" text-anchor="end">pleasure →</text><text class="tick" x="${m.l - 26}" y="${sy(1)}" transform="rotate(-90 ${m.l - 26} ${sy(1)})" text-anchor="end">${yName} →</text>`;
+  for (const p of pts) {
+    const mark = p.culture ? `<path class="dot" d="M${p.x} ${p.y - 5} L${p.x + 5} ${p.y} L${p.x} ${p.y + 5} L${p.x - 5} ${p.y} Z"/>` : `<circle class="dot" cx="${p.x}" cy="${p.y}" r="3.6"/>`;
+    const lab = size > 400 ? `${p.lead ? `<line class="lead" x1="${p.x}" y1="${p.y}" x2="${p.lx + 2}" y2="${p.ly - 4}"/>` : ""}<text x="${p.lx}" y="${p.ly}">${esc(p.label)}</text>` : "";
+    s += `<g class="term${p.culture ? " culture" : ""}" data-id="${p.id}" tabindex="0" role="button" aria-label="${esc(p.label)}"><title>${esc(p.label)}</title><circle class="hit" cx="${p.x}" cy="${p.y}" r="9"/>${mark}${lab}</g>`;
+  }
+  const svg = $(svgId);
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = s;
+}
+
+// ── 2. Ranked dot plot ─────────────────────────────────────────────────────
+function mark(kind, x, y, r = 4.5) {
+  if (kind === "measured") return `<circle class="k-measured" cx="${x}" cy="${y}" r="${r}" stroke-width="1.2"/>`;
+  if (kind === "stated") return `<circle class="k-stated" cx="${x}" cy="${y}" r="${r}" stroke-width="1.2"/><path class="k-stated-half" d="M${x} ${y - r} A${r} ${r} 0 0 0 ${x} ${y + r} Z"/>`;
+  return `<circle class="k-inferred" cx="${x}" cy="${y}" r="${r}" stroke-width="1.2"/>`;
+}
+
+function carriers() {
+  const dom = $("dom").value;
+  const all = (E.by_emotion[selected] ?? []).filter((c) => dom === "all" || c.domain === dom);
+  const list = showAll ? all : all.slice(0, 25);
+  const W = 680, rowH = 22, m = { l: 270, r: 60, t: 26 }, H = m.t + list.length * rowH + 10;
+  const sx = (v) => m.l + v * (W - m.l - m.r);
+  let s = `<line class="axis" x1="${sx(0)}" x2="${sx(1)}" y1="14" y2="14"/>`;
+  for (const v of [0, 0.3, 0.7, 1]) s += `<text class="tick" x="${sx(v)}" y="10" text-anchor="middle">${v}</text>`;
+  s += `<text class="tick" x="4" y="10">score = strength × evidence weight</text>`;
+  list.forEach((c, i) => {
+    const y = m.t + i * rowH + rowH / 2;
+    s += `<g class="carrier ${c.evidence}${pickedCarrier === c.id ? " on" : ""}" data-id="${c.id}" data-dom="${c.domain}" tabindex="0" role="button">` +
+      `<title>${esc(styleName[c.id] ?? c.id)}: ${c.evidence}, strength ${c.strength}, score ${c.score}</title>` +
+      `<rect class="hit" x="0" y="${y - rowH / 2}" width="${W}" height="${rowH}"/>` +
+      `<text class="name" x="${m.l - 8}" y="${y + 4}" text-anchor="end">${esc(trim(styleName[c.id] ?? c.id, 25))}</text>` +
+      `<text class="dom" x="4" y="${y + 4}">${esc(domName[c.domain] ?? c.domain)}</text>` +
+      `<line class="rule" x1="${sx(0)}" x2="${sx(c.score)}" y1="${y}" y2="${y}"/>${mark(c.evidence, sx(c.score), y)}` +
+      `<text class="val" x="${sx(c.score) + 10}" y="${y + 4}">${c.score.toFixed(2)}</text></g>`;
+  });
+  if (!list.length) s += `<text class="tick" x="${m.l}" y="${m.t + 14}">No style carries this term in this domain yet.</text>`;
+  const svg = $("car");
+  svg.setAttribute("viewBox", `0 0 ${W} ${Math.max(H, 60)}`);
+  svg.innerHTML = s;
+  const n = all.length, src = all.filter((c) => c.evidence !== "inferred").length;
+  $("carCount").textContent = `${n} styles · ${src} with a source`;
+  $("more").hidden = all.length <= 25;
+  $("more").textContent = showAll ? "Show the top 25" : `Show all ${all.length}`;
+}
+const trim = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
+
+async function evokesFor(domain) {
+  evokesCache[domain] ??= fetch(`../data/evokes/${domain}.json`).then((r) => r.json()).catch(() => ({ edges: {} }));
+  return evokesCache[domain];
+}
+
+async function sideCarrier(id, domain) {
+  const f = await evokesFor(domain);
+  const edge = (f.edges[id] ?? []).find((e) => e.emotion === selected);
+  if (!edge || pickedCarrier !== id) return;
+  const items = [...edge.evidence].sort((x, y) => WEIGHT[y.kind] - WEIGHT[x.kind]).map((x) => x.kind === "inferred"
+    ? `<li><span class="tag">inferred</span><p>Read from the keywords of the style: ${esc(x.basis.map((b) => b.replace(/^keyword:/, "")).join(", "))}.</p></li>`
+    : `<li><span class="tag">${esc(x.kind)}</span><p>${esc(x.claim)}</p><div class="src">${x.source.url ? `<a href="${esc(x.source.url)}" rel="noopener">${esc(x.source.title)}</a>` : esc(x.source.title)}</div></li>`).join("");
+  $("side").innerHTML = `<h2>${esc(styleName[id] ?? id)}</h2><p class="src">${esc(domName[domain])} · ${esc(termName(selected))} · strength ${edge.strength}</p><h3>Evidence</h3><ol>${items}</ol>`;
+}
+
+async function sideTerm() {
+  const t = byId[selected];
+  let def = "", srcs = "";
+  try {
+    const r = await fetch(`../data/emotions/${selected}.json`).then((x) => x.json());
+    def = r.definition; srcs = r.sources.map((s) => (s.url ? `<a href="${esc(s.url)}" rel="noopener">${esc(s.title)}</a>` : esc(s.title))).join(" · ");
+  } catch {}
+  if (t.id !== selected) return;
+  $("termDef").textContent = def;
+  const near = (t.nearest ?? []).map((n) => `<a href="#${n}">${esc(termName(n))}</a>`).join(", ");
+  $("side").innerHTML = `<h2>${esc(t.name)}</h2><p class="src">${t.culture ? `culture term (${esc(t.culture)})` : `AESTHEMOS · ${esc(t.family)}`} · P ${t.pad.p} · A ${t.pad.a} · D ${t.pad.d}</p>` +
+    (near ? `<p>Nearest AESTHEMOS terms: ${near}.</p>` : "") + (t.opposite ? `<p>Opposite: <a href="#${t.opposite}">${esc(termName(t.opposite))}</a>.</p>` : "") +
+    `<h3>Sources</h3><p class="src">${srcs}</p><h3>The marks</h3>` +
+    `<svg viewBox="0 0 300 64" style="max-width:300px">${mark("measured", 8, 10)}<text x="20" y="14">measured: a study with people (weight 1)</text>${mark("stated", 8, 32)}<text x="20" y="36">stated: an open source (weight 0.7)</text>${mark("inferred", 8, 54)}<text x="20" y="58">inferred: from keywords (weight 0.3)</text></svg>` +
+    `<p class="note">Select a style to read its evidence.</p>`;
+}
+const termName = (id) => byId[id]?.name ?? id;
+
+// ── 3. Coverage matrix ─────────────────────────────────────────────────────
+function matrix() {
+  const order = [...terms].sort((a, b) => (a.culture ? 1 : 0) - (b.culture ? 1 : 0) || b.pad.p - a.pad.p);
+  const cell = 30, m = { l: 150, t: 96 }, W = m.l + domains.length * cell + 8, H = m.t + order.length * cell + 4;
+  const count = {};
+  for (const [emo, list] of Object.entries(E.by_emotion)) for (const c of list) {
+    const k = `${emo}|${c.domain}`; count[k] ??= { n: 0, s: 0 }; count[k].n++; if (c.evidence !== "inferred") count[k].s++;
+  }
+  let s = "";
+  domains.forEach((d, j) => { const x = m.l + j * cell + cell / 2; s += `<text class="colhead" x="${x}" y="${m.t - 8}" transform="rotate(-50 ${x} ${m.t - 8})">${esc(d.name)}</text>`; });
+  order.forEach((t, i) => {
+    const y = m.t + i * cell;
+    if (t.id === selected) s += `<rect class="band" x="0" y="${y}" width="${W}" height="${cell}"/>`;
+    if (i > 0 && t.culture && !order[i - 1].culture) s += `<line class="axis" x1="0" x2="${W}" y1="${y}" y2="${y}"/>`;
+    s += `<text class="rowlab${t.id === selected ? " on" : ""}" data-id="${t.id}" x="${m.l - 8}" y="${y + cell / 2 + 4}" text-anchor="end">${esc(t.name)}${t.culture ? " ◇" : ""}</text>`;
+    domains.forEach((d, j) => {
+      const x = m.l + j * cell, c = count[`${t.id}|${d.id}`];
+      if (!c) { s += `<circle class="empty" cx="${x + cell / 2}" cy="${y + cell / 2}" r="1.6"/>`; return; }
+      const share = c.s / c.n;
+      s += `<g><title>${esc(t.name)} · ${esc(d.name)}: ${c.n} edges, ${c.s} with a source</title><rect class="cell" x="${x + 2}" y="${y + 2}" width="${cell - 4}" height="${cell - 4}" fill="var(--ink)" fill-opacity="${share.toFixed(2)}" style="fill-opacity:${share.toFixed(2)}"/>` +
+        `<rect x="${x + 2}" y="${y + 2}" width="${cell - 4}" height="${cell - 4}" fill="none" stroke="var(--line)"/>` +
+        `<text class="n${share > 0.55 ? " dark" : ""}" x="${x + cell / 2}" y="${y + cell / 2 + 4}" text-anchor="middle">${c.n}</text></g>`;
+    });
+  });
+  const svg = $("mx");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.style.minWidth = `${W}px`; svg.style.maxWidth = `${W * 1.15}px`;
+  svg.innerHTML = s;
+}
+
+// ── 4. Moments and cues ────────────────────────────────────────────────────
+function moments() {
+  const list = (E.moments_by_emotion[selected] ?? []).map((x) => ({ ...x, m: E.moments[x.moment] })).filter((x) => x.m);
+  const cols = [
+    { key: "cct", name: "colour temperature, K", lo: 1500, hi: 7000, ticks: [2000, 3000, 4000, 5000, 6500], get: (m) => m.light.cct_k, log: false },
+    { key: "lux", name: "illuminance, lux (log)", lo: 1, hi: 100000, ticks: [1, 10, 100, 1000, 10000, 100000], get: (m) => m.light.lux, log: true },
+    { key: "sun", name: "sun elevation, °", lo: -20, hi: 70, ticks: [-18, 0, 30, 60], get: (m) => m.time.sun_elevation_deg, log: false },
+  ];
+  const rowH = 24, m = { l: 330, t: 40 }, cw = 170, gap = 44, W = m.l + cols.length * (cw + gap), H = m.t + Math.max(list.length, 1) * rowH + 8;
+  const sc = (c, v) => { const f = c.log ? (Math.log10(Math.max(v, c.lo)) - Math.log10(c.lo)) / (Math.log10(c.hi) - Math.log10(c.lo)) : (v - c.lo) / (c.hi - c.lo); return Math.max(0, Math.min(1, f)) * cw; };
+  let s = "";
+  cols.forEach((c, j) => {
+    const x0 = m.l + j * (cw + gap);
+    s += `<text class="tick" x="${x0}" y="12">${c.name}</text><line class="axis" x1="${x0}" x2="${x0 + cw}" y1="${m.t - 10}" y2="${m.t - 10}"/>`;
+    for (const t of c.ticks) s += `<text class="tick" x="${x0 + sc(c, t)}" y="${m.t - 16}" text-anchor="middle">${t >= 1000 ? `${t / 1000}k` : t}</text>`;
+    if (c.key === "sun") s += `<line class="zero" x1="${x0 + sc(c, 0)}" x2="${x0 + sc(c, 0)}" y1="${m.t - 8}" y2="${H}"/>`;
+  });
+  list.sort((a, b) => b.strength - a.strength || a.m.name.localeCompare(b.m.name));
+  list.forEach((x, i) => {
+    const y = m.t + i * rowH + rowH / 2;
+    const film = x.m.scene_ref ? ` (${x.m.scene_ref.year}, min ${x.m.scene_ref.minutes.min}–${x.m.scene_ref.minutes.max})` : "";
+    s += `<g><title>${esc(x.m.name)}${esc(film)} · ${esc(x.kind)} · strength ${x.strength}</title><text x="96" y="${y + 4}">${esc(trim(x.m.name, 36))}</text>` +
+      `<text class="tick" x="0" y="${y + 4}">${esc(x.kind)} ${x.strength}</text>`;
+    cols.forEach((c, j) => {
+      const r = c.get(x.m), x0 = m.l + j * (cw + gap);
+      if (!r) { s += `<text class="tick" x="${x0}" y="${y + 4}">–</text>`; return; }
+      const a = x0 + sc(c, r.min), b = Math.max(x0 + sc(c, r.max), a + 2);
+      s += `<line class="bar" x1="${a}" x2="${b}" y1="${y}" y2="${y}"/>`;
+    });
+    s += "</g>";
+  });
+  if (!list.length) s += `<text class="tick" x="${m.l}" y="${m.t + 14}">No moment carries this term yet.</text>`;
+  const svg = $("mo");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.style.minWidth = `${Math.min(W, 820)}px`;
+  svg.innerHTML = s;
+}
+
+// Numeric units get a true scale; a categorical cue is drawn as from → to text.
+const UNIT = { lux: { lo: 1, hi: 100000, log: true }, K: { lo: 1500, hi: 7000 }, m: { lo: 2, hi: 4 }, dB: { lo: 30, hi: 90 }, "Munsell value": { lo: 0, hi: 10 }, "Munsell chroma": { lo: 0, hi: 14 } };
+function cues() {
+  const t = byId[selected];
+  const rows = [];
+  for (const c of E.cues_by_emotion[selected] ?? []) rows.push({ ...c, via: "direct" });
+  for (const ax of ["p", "a", "d"]) {
+    const v = t.pad[ax];
+    if (Math.abs(v) < 0.3) continue;
+    for (const c of E.cues_by_emotion[`pad:${ax}`] ?? []) if (Math.sign(v) === c.sign && !rows.some((r) => r.cue === c.cue)) rows.push({ ...c, via: `PAD ${ax.toUpperCase()} ${v > 0 ? "up" : "down"}` });
+  }
+  const rowH = 26, m = { l: 260, t: 8 }, cw = 300, W = m.l + cw + 300, H = m.t + Math.max(rows.length, 1) * rowH + 4;
+  let s = "";
+  rows.forEach((c, i) => {
+    const y = m.t + i * rowH + rowH / 2, u = UNIT[c.unit];
+    const num = u && typeof c.range.from === "number" && typeof c.range.to === "number";
+    s += `<g><title>${esc(c.cue)} · ${esc(c.variable)} · effect ${c.sign > 0 ? "+" : "−"} ${esc(c.size)}${c.weak ? " · weak" : ""}</title>` +
+      `<text x="${m.l - 10}" y="${y + 4}" text-anchor="end">${esc(trim(c.cue.replace(/-/g, " "), 36))}</text><text class="tick" x="0" y="${y + 4}">${esc(c.via)}</text>`;
+    if (num) {
+      const f = (v) => m.l + Math.max(0, Math.min(1, u.log ? (Math.log10(v) - Math.log10(u.lo)) / (Math.log10(u.hi) - Math.log10(u.lo)) : (v - u.lo) / (u.hi - u.lo))) * cw;
+      const a = f(c.range.from), b = f(c.range.to), dir = b >= a ? 1 : -1;
+      s += `<line class="axis" x1="${m.l}" x2="${m.l + cw}" y1="${y + 7}" y2="${y + 7}"/><line class="bar cue${c.weak ? " weak" : ""}" x1="${a}" x2="${b}" y1="${y}" y2="${y}"/>` +
+        `<path d="M${b} ${y - 5} l${6 * dir} 5 l${-6 * dir} 5 Z" fill="var(--accent)"/>` +
+        `<text class="tick" x="${m.l + cw + 14}" y="${y + 4}">${c.range.from} → ${c.range.to} ${esc(c.unit)} (axis ${u.lo}–${u.hi}${u.log ? ", log" : ""})</text>`;
+    } else {
+      s += `<text class="tick" x="${m.l}" y="${y + 4}">${esc(c.range.from)} → ${esc(c.range.to)}</text>`;
+    }
+    s += `<text class="tick" x="${W - 4}" y="${y + 4}" text-anchor="end">${c.sign > 0 ? "+" : "−"} ${esc(c.size)}${c.weak ? ", weak" : ""}</text></g>`;
+  });
+  if (!rows.length) s += `<text class="tick" x="${m.l}" y="${m.t + 14}">No cue moves this term or its axes yet.</text>`;
+  const svg = $("cu");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = s;
+}
+
+// ── Selection ──────────────────────────────────────────────────────────────
+function select(id, hash = true) {
+  if (!byId[id]) id = "awe";
+  selected = id; pickedCarrier = null; showAll = false;
+  for (const g of document.querySelectorAll(".term")) {
+    g.classList.toggle("on", g.dataset.id === id);
+    g.classList.toggle("near", (byId[id].nearest ?? []).includes(g.dataset.id));
+  }
+  $("termName").textContent = $("termName2").textContent = byId[id].name;
+  $("termDef").textContent = "";
+  if (hash) history.replaceState(null, "", `#${id}`);
+  carriers(); matrix(); moments(); cues(); sideTerm();
+}
+
+Promise.all(["emotions", "lineage"].map((g) => fetch(`../graph/${g}.json`).then((r) => r.json()))).then(([emo, lineage]) => {
+  E = emo; terms = emo.emotions; byId = Object.fromEntries(terms.map((t) => [t.id, t]));
+  for (const n of lineage.nodes) styleName[n.id] = n.name;
+  domains = lineage.domains.map((d) => ({ id: d.id, name: d.name }));
+  for (const d of domains) domName[d.id] = d.name;
+  $("dom").insertAdjacentHTML("beforeend", domains.map((d) => `<option value="${d.id}">${esc(d.name)}</option>`).join(""));
+  padPlot("pa", "a", "arousal", 620);
+  padPlot("pd", "d", "dominance", 300);
+  select(decodeURIComponent(location.hash.slice(1)) || "awe", false);
+});
+
+const pickTerm = (e) => { const g = e.target.closest(".term, .rowlab"); if (g) select(g.dataset.id); };
+for (const id of ["pa", "pd", "mx"]) $(id).addEventListener("click", pickTerm);
+for (const id of ["pa", "pd"]) $(id).addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pickTerm(e); } });
+const pickCar = (e) => {
+  const g = e.target.closest(".carrier"); if (!g) return;
+  pickedCarrier = g.dataset.id;
+  for (const x of $("car").querySelectorAll(".carrier")) x.classList.toggle("on", x === g);
+  sideCarrier(g.dataset.id, g.dataset.dom);
+};
+$("car").addEventListener("click", pickCar);
+$("car").addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pickCar(e); } });
+$("dom").addEventListener("change", () => { showAll = false; carriers(); });
+$("more").addEventListener("click", () => { showAll = !showAll; carriers(); });
+addEventListener("hashchange", () => { const k = decodeURIComponent(location.hash.slice(1)); if (k !== selected && byId[k]) select(k, false); });
+</script>
+</body>
+</html>
