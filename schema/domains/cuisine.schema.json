@@ -188,6 +188,7 @@
         "primary",
         "secondary",
         "avoid",
+        "in_europe",
         "rule"
       ],
       "properties": {
@@ -220,6 +221,10 @@
             "$ref": "../core.schema.json#/$defs/slug"
           },
           "description": "Ingredient ids that break the style."
+        },
+        "in_europe": {
+          "type": "boolean",
+          "description": "True when the kitchen of the style is in Europe. Then each ingredient of primary and secondary must have reached Europe (the arrival year of the vocabulary) by the start of the style."
         },
         "rule": {
           "$ref": "../core.schema.json#/$defs/sentence"

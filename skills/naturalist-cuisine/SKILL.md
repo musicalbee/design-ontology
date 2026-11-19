@@ -91,6 +91,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 - **Primary:** wild-plants · seasonal-greens · root-vegetables · wild-mushrooms · pulses · berries
 - **Secondary:** lamb · beef · egg · butter · cheese · nuts-seeds · honey · orchard-fruit · vinegar · olive-oil · cocoa · potato
 - **Avoid:** foie-gras · caviar · truffle · soy-lecithin · sodium-alginate
+- **In europe:** yes
 - **Rule:** Take the plants from the plateau and the garden near the kitchen, in the week of the menu; add meat, fish or dairy only as a small part.
 
 ## Technique
