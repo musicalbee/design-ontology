@@ -6,12 +6,13 @@
       "suffix": "no readable text, no signs, no logos, no watermark",
       "set": "subjects",
       "frame": "a photograph of",
-      "frames": 4
+      "frames": 4,
+      "drop": "tripod|reflector|light stand|softbox|gel\\b|\\b\\d+k\\b"
     },
     "film": {
       "subject": "a still frame from a film: two people talk across a kitchen table at night, with a window behind them",
       "suffix": "a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
-      "drop": "caption|intertitle|title|subtitle|on-screen|interface|logo|stamp",
+      "drop": "caption|intertitle|title|subtitle|on-screen|interface|logo|stamp|match cut|jump cuts?|cutaways?|youtube",
       "set": "shots",
       "frame": "a still frame from a film,",
       "frames": 5

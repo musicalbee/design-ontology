@@ -81,7 +81,7 @@
   </div>
 </main>
 <script>
-const PAGES = { design: "index.html", architecture: "architecture.html", interior: "interior.html", photography: "photography.html", film: "film.html", painting: "painting.html" };
+const PAGES = { design: "design.html", architecture: "architecture.html", interior: "interior.html", photography: "photography.html", film: "film.html", painting: "painting.html" };
 const REL = [["evolved_from", "Evolved from"], ["evolved_into", "Evolved into"], ["rebelled_against", "Rebelled against"], ["provoked", "Provoked"], ["hybridized_with", "Mixed with"], ["echoes", "Echoes"]];
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const $ = (id) => document.getElementById(id);
