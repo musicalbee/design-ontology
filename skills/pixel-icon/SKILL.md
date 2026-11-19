@@ -149,7 +149,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more depth**: move toward [`isometric-icon`](../isometric-icon/SKILL.md) (Isometric icon). Keep the hard pixel look; rotate the object to an isometric view with 2:1 pixel diagonals.
 
 - **Led to (go here for a newer version):** [`isometric-icon`](../isometric-icon/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md)
-- **Kin in another domain:** [`pixel-art-web`](../pixel-art-web/SKILL.md)
+- **Kin in another domain:** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Nearest by vector profile:** [`isometric-icon`](../isometric-icon/SKILL.md), [`solid-glyph-icon`](../solid-glyph-icon/SKILL.md), [`material-symbols-icon`](../material-symbols-icon/SKILL.md)
 
 ## Emotional target

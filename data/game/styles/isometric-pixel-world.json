@@ -1,0 +1,281 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "isometric-pixel-world",
+  "domain": "game",
+  "name": "Isometric pixel world",
+  "aliases": [
+    "Isometric pixel art",
+    "2.5D isometric",
+    "Filmation look"
+  ],
+  "era_id": "tile-and-sprite",
+  "time_period": {
+    "start": 1984,
+    "end": 2002,
+    "label": "1984–2002"
+  },
+  "region": "the United Kingdom and Japan, then worldwide",
+  "hardware": [
+    "home-computer",
+    "pc",
+    "snes",
+    "arcade"
+  ],
+  "summary": "The world is seen from above at a fixed angle with 2:1 pixel diagonals. Rooms become boxes cut open on two sides, so a player reads walls, floor and furniture at once.",
+  "philosophy": {
+    "core_thesis": "A fixed 2:1 diagonal gives depth with no perspective, so a room can be read whole like an architect's axonometric drawing.",
+    "design_principles": [
+      "Draw every edge at 2:1 (about 26.6°) or vertical.",
+      "Build floors from diamond tiles 2 times as wide as they are high.",
+      "Cut walls open on the two near sides so the inside shows.",
+      "Light each block from one side: top light, left mid, right dark.",
+      "Keep the same scale in the whole scene; nothing shrinks with distance.",
+      "Sort objects back to front by their floor position."
+    ],
+    "anti_patterns": [
+      "Vanishing points or perspective shrink",
+      "Edges at angles other than 2:1 and vertical",
+      "Walls that hide the player",
+      "Light from different sides on different objects",
+      "Free camera rotation"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 2,
+    "spatial_depth": 3,
+    "stylisation": 4,
+    "lighting_drama": 2,
+    "surface_density": 3
+  },
+  "projection_and_camera": {
+    "projection": "isometric",
+    "camera": "Fixed angle; flips room by room or scrolls diagonally.",
+    "field_of_view": "orthographic, 2:1 dimetric",
+    "framing": "One room or a block of 4 to 9 streets in the frame."
+  },
+  "geometry": {
+    "primitive": "A diamond floor tile of 32×16 or 64×32 px and cube blocks.",
+    "budget": "A room of 8×8 to 16×16 floor tiles.",
+    "edge_rule": "Clean 2:1 pixel stairs on every diagonal.",
+    "proportion": "A character is about 1 tile wide and 1.5 to 2 tiles high."
+  },
+  "surface": {
+    "texture_rule": "Pixel patterns on each face, with 3 values for the 3 visible faces.",
+    "texel_density": "about 32 px for each metre",
+    "filtering": "Nearest neighbour.",
+    "material_model": "Painted, with one value for each face direction."
+  },
+  "palette": {
+    "strategy": "Each material in 3 values for top, left and right faces; limited palettes on early machines, 256 colours later.",
+    "colour_depth": "1 to 8 bits",
+    "on_screen_colours": "2 to 256",
+    "colours": [
+      {
+        "name": "Floor stone",
+        "hex": "#B8A890",
+        "role": "top faces"
+      },
+      {
+        "name": "Wall mid",
+        "hex": "#806850",
+        "role": "left faces"
+      },
+      {
+        "name": "Wall dark",
+        "hex": "#4A3828",
+        "role": "right faces"
+      },
+      {
+        "name": "Grass",
+        "hex": "#58A040",
+        "role": "ground"
+      },
+      {
+        "name": "Water",
+        "hex": "#3870C0",
+        "role": "water"
+      },
+      {
+        "name": "Lamp",
+        "hex": "#F8D070",
+        "role": "accent light"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Fixed face values: one light direction for the whole world.",
+    "shadows": "Painted diagonal shadows on the floor, or none.",
+    "atmosphere": "None, or a dark edge outside the room box.",
+    "time_of_day": "A palette shift of the whole scene."
+  },
+  "world_and_space": {
+    "scale": "A room shows as a whole box; a town shows as a city block.",
+    "interiors": "A cut-open box: back two walls up, near two walls down or gone, furniture on the floor tiles.",
+    "exteriors": "A block of streets and roofs in diamond tiles, like an architect's model.",
+    "threshold": "A door in a back wall leads to the next room box.",
+    "principles": [
+      {
+        "principle": "circulation",
+        "rule": "Keep a 1-tile path from each door to each other door.",
+        "value": "≥ 1 tile clear"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Keep the two near walls low or absent so no object hides the player.",
+        "value": "near walls ≤ 0.25 of height"
+      },
+      {
+        "principle": "scale",
+        "rule": "Keep one scale for every object; a chair is 1 tile.",
+        "value": "1 tile = 1 m"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "A panel at one side or the bottom, 15–25% of the screen.",
+    "type_and_icons": "A pixel font and small icons drawn in the same isometric angle.",
+    "diegesis": "On top, in a frame."
+  },
+  "prompt_primer": {
+    "positive": [
+      "isometric pixel art",
+      "2:1 dimetric projection",
+      "cut-away room box",
+      "diamond floor tiles",
+      "fixed light direction",
+      "three-tone faces",
+      "architectural model view",
+      "1990s computer game",
+      "crisp pixel edges"
+    ],
+    "negative": [
+      "perspective",
+      "vanishing point",
+      "photoreal",
+      "blur",
+      "smooth gradient",
+      "fisheye"
+    ],
+    "canonical_works": [
+      {
+        "work": "Zaxxon",
+        "maker": "Sega",
+        "year": 1982
+      },
+      {
+        "work": "Knight Lore",
+        "maker": "Ultimate Play the Game",
+        "year": 1984
+      },
+      {
+        "work": "SimCity 2000",
+        "maker": "Maxis",
+        "year": 1993
+      },
+      {
+        "work": "Diablo",
+        "maker": "Blizzard North",
+        "year": 1996
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "eight-bit-tile"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "isometric-icon",
+      "architectural-photography"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm control: the viewer sees the whole space at once, like a planner over a model.",
+    "keywords": [
+      "ordered",
+      "legible",
+      "miniature",
+      "calm",
+      "strategic"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "ruler",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "isometric pixel art",
+      "isometric game",
+      "2.5d view",
+      "cut-away room",
+      "dimetric"
+    ],
+    "use_cases": [
+      "floor-plan illustrations",
+      "space-planning visuals",
+      "game maps",
+      "explainer graphics of a building"
+    ],
+    "avoid_when": [
+      "The brief asks for an eye-level, immersive view.",
+      "Scale must change with distance."
+    ],
+    "modifiers": [
+      {
+        "request": "cleaner",
+        "toward": "impossible-isometric-mobile",
+        "how": "Keep the angle; drop the pixels for flat pastel vector faces."
+      },
+      {
+        "request": "more solid",
+        "toward": "fifth-gen-low-poly",
+        "how": "Keep the room box; build it in textured polygons and free the camera."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 240,
+      "min": 192,
+      "max": 600
+    },
+    "colour_depth": {
+      "default": 8,
+      "min": 1,
+      "max": 8
+    },
+    "camera_projection": {
+      "default": "isometric",
+      "options": [
+        "isometric"
+      ]
+    },
+    "shading_steps": {
+      "default": 3,
+      "min": 2,
+      "max": 4
+    },
+    "texel_density": {
+      "default": 32,
+      "min": 16,
+      "max": 64
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Isometric video game graphics",
+      "url": "https://en.wikipedia.org/wiki/Isometric_video_game_graphics"
+    },
+    {
+      "title": "Wikipedia: Knight Lore",
+      "url": "https://en.wikipedia.org/wiki/Knight_Lore"
+    },
+    {
+      "title": "Wikipedia: Zaxxon",
+      "url": "https://en.wikipedia.org/wiki/Zaxxon"
+    }
+  ]
+}

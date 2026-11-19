@@ -1,0 +1,290 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "hd-2d-diorama",
+  "domain": "game",
+  "name": "HD-2D diorama",
+  "aliases": [
+    "HD-2D",
+    "Pixel diorama",
+    "Tilt-shift pixel 3D"
+  ],
+  "era_id": "physically-based-and-indie",
+  "time_period": {
+    "start": 2018,
+    "end": null,
+    "label": "2018–now"
+  },
+  "region": "Japan",
+  "hardware": [
+    "nintendo-switch",
+    "playstation-4",
+    "playstation-5",
+    "pc",
+    "xbox-series"
+  ],
+  "summary": "Pixel-art sprites stand in a 3D world built like a miniature model, seen from a high camera with strong depth of field, bloom and modern light. The world looks like a toy diorama lit at golden hour.",
+  "philosophy": {
+    "core_thesis": "Old pixel sprites inside modern light and depth of field read as a lovingly built miniature.",
+    "design_principles": [
+      "Keep characters as 2D pixel sprites of 32–64 px.",
+      "Build the world in 3D with pixel-art textures on simple geometry.",
+      "Use a high, slightly tilted camera and strong depth of field: sharp middle, blurred top and bottom.",
+      "Light with modern dynamic light: lamps, bloom and soft shadows.",
+      "Add particles: dust, embers, light shafts.",
+      "Grade toward warm golden hours or deep blue nights."
+    ],
+    "anti_patterns": [
+      "A flat 2D view with no depth",
+      "High-poly characters",
+      "Sharp focus across the whole frame",
+      "Flat even light",
+      "Photo textures"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 3,
+    "spatial_depth": 4,
+    "stylisation": 4,
+    "lighting_drama": 4,
+    "surface_density": 4
+  },
+  "projection_and_camera": {
+    "projection": "third-person",
+    "camera": "High fixed or slow-tracking camera, tilted down 30–45°.",
+    "field_of_view": "about 25–40, long lens",
+    "framing": "A miniature view: rooftops and streets in frame, sharp band in the middle."
+  },
+  "geometry": {
+    "primitive": "Pixel sprites on billboards in a simple 3D mesh world.",
+    "budget": "Low-to-mid poly world; 2D sprites of 32–64 px.",
+    "edge_rule": "Pixel edges on sprites; smooth 3D edges blurred by depth of field.",
+    "proportion": "Miniature: chunky buildings and small figures."
+  },
+  "surface": {
+    "texture_rule": "Pixel-art textures on 3D geometry, with modern normal maps on some surfaces.",
+    "texel_density": "about 32–64 px for each metre on pixel faces",
+    "filtering": "Nearest on sprites; smooth on 3D surfaces.",
+    "material_model": "Modern lit materials with pixel-art albedo."
+  },
+  "palette": {
+    "strategy": "Warm, saturated golden light against deep blue shadows; colour comes from the light.",
+    "colour_depth": "24 bits, HDR",
+    "on_screen_colours": "full colour",
+    "colours": [
+      {
+        "name": "Golden hour",
+        "hex": "#F8B860",
+        "role": "key light"
+      },
+      {
+        "name": "Deep blue",
+        "hex": "#1E2A5A",
+        "role": "shadow"
+      },
+      {
+        "name": "Brick",
+        "hex": "#A84A30",
+        "role": "walls"
+      },
+      {
+        "name": "Moss",
+        "hex": "#5A7A3A",
+        "role": "ground"
+      },
+      {
+        "name": "Ember",
+        "hex": "#FF7A30",
+        "role": "lamps"
+      },
+      {
+        "name": "Mist",
+        "hex": "#C8D8E8",
+        "role": "haze"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Real-time dynamic light with bloom and point lights.",
+    "shadows": "Soft dynamic shadows from lamps and the sun.",
+    "atmosphere": "Depth of field, bloom, light shafts, dust and embers.",
+    "time_of_day": "Golden hour, lantern-lit night or a misty dawn."
+  },
+  "world_and_space": {
+    "scale": "Miniature: a street fits in the frame like a model.",
+    "interiors": "Rooms seen from above at an angle, warm lamps, pixel furniture.",
+    "exteriors": "Town squares with fountains, steps and rooftops in a tilt-shift view.",
+    "threshold": "A fade to a room scene.",
+    "principles": [
+      {
+        "principle": "layering-depth",
+        "rule": "Blur the top and bottom bands; keep a sharp middle band of about 30% of the height.",
+        "value": "sharp band ≈ 30%"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 3 layers: golden key, blue ambient, warm lamp points.",
+        "value": "3 layers"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Light the player area with the warmest light.",
+        "value": "1 warm pool"
+      },
+      {
+        "principle": "scale",
+        "rule": "Make buildings chunky and figures small, as in a 1:87 model.",
+        "value": "miniature"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Framed boxes and menus on the sides, 10–20% of the screen.",
+    "type_and_icons": "Classic serif and pixel-inspired fonts.",
+    "diegesis": "On top, in ornate frames."
+  },
+  "prompt_primer": {
+    "positive": [
+      "HD-2D diorama",
+      "pixel art sprites in 3D world",
+      "tilt-shift depth of field",
+      "miniature town",
+      "golden hour lighting",
+      "bloom",
+      "high angle camera",
+      "lantern light",
+      "dust particles",
+      "deep blue shadows"
+    ],
+    "negative": [
+      "flat 2D",
+      "high poly characters",
+      "sharp focus everywhere",
+      "flat lighting",
+      "photoreal people"
+    ],
+    "canonical_works": [
+      {
+        "work": "Octopath Traveler",
+        "maker": "Square Enix and Acquire",
+        "year": 2018
+      },
+      {
+        "work": "Triangle Strategy",
+        "maker": "Square Enix and Artdink",
+        "year": 2022
+      },
+      {
+        "work": "Live A Live remake",
+        "maker": "Square Enix",
+        "year": 2022
+      },
+      {
+        "work": "Dragon Quest III HD-2D Remake",
+        "maker": "Square Enix",
+        "year": 2024
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "sixteen-bit-sprite"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pbr-photoreal"
+    ],
+    "echoes": [
+      "new-topographics",
+      "planimetric-symmetry"
+    ]
+  },
+  "emotion": {
+    "target_response": "Tender nostalgia: the viewer sees a precious miniature world in warm light.",
+    "keywords": [
+      "nostalgic",
+      "warm",
+      "magical",
+      "miniature",
+      "cinematic"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "explorer",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "hd-2d",
+      "octopath style",
+      "pixel diorama",
+      "tilt-shift pixel art",
+      "miniature rpg"
+    ],
+    "use_cases": [
+      "model-like city visuals",
+      "warm marketing scenes",
+      "interior vignettes in miniature",
+      "game environments"
+    ],
+    "avoid_when": [
+      "The brief needs eye-level immersion.",
+      "The client needs a true-to-life image."
+    ],
+    "modifiers": [
+      {
+        "request": "flatter",
+        "toward": "sixteen-bit-sprite",
+        "how": "Drop the 3D and the depth of field; keep the sprites and parallax."
+      },
+      {
+        "request": "more real",
+        "toward": "pbr-photoreal",
+        "how": "Replace the sprites with 3D figures and physical materials."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 1080,
+      "min": 720,
+      "max": 2160
+    },
+    "colour_depth": {
+      "default": 24,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "third-person",
+      "options": [
+        "third-person",
+        "isometric"
+      ]
+    },
+    "shading_steps": {
+      "default": 64,
+      "min": 16,
+      "max": 256
+    },
+    "texel_density": {
+      "default": 48,
+      "min": 32,
+      "max": 64
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: HD-2D",
+      "url": "https://en.wikipedia.org/wiki/HD-2D"
+    },
+    {
+      "title": "Wikipedia: Octopath Traveler",
+      "url": "https://en.wikipedia.org/wiki/Octopath_Traveler"
+    },
+    {
+      "title": "Wikipedia: Tilt–shift photography",
+      "url": "https://en.wikipedia.org/wiki/Tilt–shift_photography"
+    }
+  ]
+}

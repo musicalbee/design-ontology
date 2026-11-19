@@ -1,0 +1,268 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "four-shade-handheld",
+  "domain": "game",
+  "name": "Four-shade handheld",
+  "aliases": [
+    "Game Boy look",
+    "DMG green",
+    "Four-shade monochrome"
+  ],
+  "era_id": "tile-and-sprite",
+  "time_period": {
+    "start": 1989,
+    "end": 1998,
+    "label": "1989–1998"
+  },
+  "region": "Japan, then worldwide",
+  "hardware": [
+    "game-boy"
+  ],
+  "summary": "A 160×144 screen with four shades of one olive-green hue. Every house and room is drawn from 8×8 tiles in light, two mid tones and dark, so form lives only in value and pattern.",
+  "philosophy": {
+    "core_thesis": "Four values of one colour are enough for a world, if the pattern and the outline carry the form.",
+    "design_principles": [
+      "Use exactly 4 shades: lightest for the ground, darkest for outlines.",
+      "Draw at 160×144 pixels on an 8×8 tile grid.",
+      "Separate materials with dither and hatch patterns, not with hue.",
+      "Keep large areas in the lightest shade so the screen stays readable.",
+      "Outline every object in the darkest shade, 1 px.",
+      "Make a character 16×16 px, with a top-down or side view."
+    ],
+    "anti_patterns": [
+      "Any second hue",
+      "Gradients or more than 4 values",
+      "Large dark areas that smear on the slow screen",
+      "Detail smaller than 1 px",
+      "Perspective views"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 1,
+    "spatial_depth": 1,
+    "stylisation": 5,
+    "lighting_drama": 1,
+    "surface_density": 1
+  },
+  "projection_and_camera": {
+    "projection": "top-down",
+    "camera": "Flips screen by screen or scrolls with the player.",
+    "field_of_view": "orthographic",
+    "framing": "20 tiles across and 18 down; the player near the centre."
+  },
+  "geometry": {
+    "primitive": "An 8×8 tile; sprites of 8×8 or 8×16.",
+    "budget": "40 sprites, 10 on one line; 384 tiles in memory.",
+    "edge_rule": "Hard 1 px steps.",
+    "proportion": "A character is 2 tiles high; a house is 4 by 4 tiles."
+  },
+  "surface": {
+    "texture_rule": "Materials are 2-shade patterns: dots for grass, lines for wood, checks for stone.",
+    "texel_density": "about 16 px for each metre",
+    "filtering": "Nearest neighbour.",
+    "material_model": "Painted pattern only."
+  },
+  "palette": {
+    "strategy": "One hue in 4 values, set by the screen, not by the artist.",
+    "colour_depth": "2 bits for each pixel",
+    "on_screen_colours": "4 shades",
+    "colours": [
+      {
+        "name": "Lightest",
+        "hex": "#9BBC0F",
+        "role": "ground"
+      },
+      {
+        "name": "Light",
+        "hex": "#8BAC0F",
+        "role": "fills"
+      },
+      {
+        "name": "Dark",
+        "hex": "#306230",
+        "role": "shadow and pattern"
+      },
+      {
+        "name": "Darkest",
+        "hex": "#0F380F",
+        "role": "outline"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "None; value is painted into the tiles.",
+    "shadows": "A darkest-shade strip under a roof or a tree.",
+    "atmosphere": "The slight blur of the slow liquid-crystal screen.",
+    "time_of_day": "Not shown, or a palette swap toward darker values."
+  },
+  "world_and_space": {
+    "scale": "A room is one screen; a town is 4 to 9 screens.",
+    "interiors": "Top-down rooms with walls as a 1-tile border, a rug and a table as tiles.",
+    "exteriors": "Roofs seen from above, paths of patterned tiles between them.",
+    "threshold": "Step on a door tile; fade to the room screen.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Draw a door 1 tile wide and a character 2 tiles high.",
+        "value": "door = 1 tile"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Keep paths at least 2 tiles wide so the player moves without a stop.",
+        "value": "≥ 2 tiles"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Mark the door with the darkest shade so the eye finds it first.",
+        "value": "1 dark accent per screen"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "A text box on the bottom 4 tile rows, or a 1-row strip.",
+    "type_and_icons": "An 8×8 pixel font; icons as single tiles.",
+    "diegesis": "On top of the world."
+  },
+  "prompt_primer": {
+    "positive": [
+      "Game Boy pixel art",
+      "four shades of olive green",
+      "monochrome green palette",
+      "160x144 resolution",
+      "top-down tile map",
+      "dithered patterns",
+      "1 pixel dark outlines",
+      "handheld LCD look",
+      "8x8 tile grid"
+    ],
+    "negative": [
+      "full colour",
+      "gradient",
+      "3D render",
+      "photoreal",
+      "smooth shading",
+      "blur"
+    ],
+    "canonical_works": [
+      {
+        "work": "Tetris",
+        "maker": "Nintendo",
+        "year": 1989
+      },
+      {
+        "work": "The Legend of Zelda: Link's Awakening",
+        "maker": "Nintendo",
+        "year": 1993
+      },
+      {
+        "work": "Pokémon Red and Blue",
+        "maker": "Game Freak",
+        "year": 1996
+      },
+      {
+        "work": "Super Mario Land",
+        "maker": "Nintendo",
+        "year": 1989
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "eight-bit-tile"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pixel-icon",
+      "terminal-tui-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "A quiet, pocket-sized focus: the viewer leans in to a small green world.",
+    "keywords": [
+      "quiet",
+      "nostalgic",
+      "compact",
+      "humble",
+      "focused"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "game boy",
+      "four shades of green",
+      "dmg palette",
+      "monochrome pixel art",
+      "handheld retro"
+    ],
+    "use_cases": [
+      "one-colour pixel graphics",
+      "screen-printed tiles and textiles",
+      "monochrome wayfinding",
+      "small-screen interfaces"
+    ],
+    "avoid_when": [
+      "The brief needs hue contrast between areas.",
+      "The scene must show depth."
+    ],
+    "modifiers": [
+      {
+        "request": "more colour",
+        "toward": "eight-bit-tile",
+        "how": "Keep the tiles; move to a fixed palette of about 25 colours."
+      },
+      {
+        "request": "more depth",
+        "toward": "isometric-pixel-world",
+        "how": "Keep the small palette; turn the grid 45° into an isometric view."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 144,
+      "min": 144,
+      "max": 144
+    },
+    "colour_depth": {
+      "default": 2,
+      "min": 2,
+      "max": 2
+    },
+    "camera_projection": {
+      "default": "top-down",
+      "options": [
+        "top-down",
+        "side-view"
+      ]
+    },
+    "shading_steps": {
+      "default": 2,
+      "min": 1,
+      "max": 4
+    },
+    "texel_density": {
+      "default": 16,
+      "min": 8,
+      "max": 16
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Game Boy",
+      "url": "https://en.wikipedia.org/wiki/Game_Boy"
+    },
+    {
+      "title": "Wikipedia: Gunpei Yokoi",
+      "url": "https://en.wikipedia.org/wiki/Gunpei_Yokoi"
+    },
+    {
+      "title": "Wikipedia: Pixel art",
+      "url": "https://en.wikipedia.org/wiki/Pixel_art"
+    }
+  ]
+}

@@ -273,7 +273,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Mixes well with:** [`terminal-tui-web`](../terminal-tui-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
-- **Kin in another domain:** [`pixel-icon`](../pixel-icon/SKILL.md)
+- **Kin in another domain:** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`voxel-block-world`](../voxel-block-world/SKILL.md)
 - **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md)
 
 ## Emotional target

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "pre-rendered-background",
+  "name": "Pre-rendered background",
+  "aliases": [
+    "Pre-rendered still",
+    "Pre-rendered scene"
+  ],
+  "kind": "process",
+  "summary": "Render a room or a street offline in 3D software, then show it as a fixed image behind a real-time figure or a cursor.",
+  "how": [
+    "Fix the camera for each view and compose it like a film frame.",
+    "Render the background with offline light: soft shadows and many lamps.",
+    "Paint a depth mask so that the figure can pass behind props.",
+    "Match the figure's light direction to the render."
+  ],
+  "origin": {
+    "domain": "game",
+    "year": 1993,
+    "where": "Spokane, Washington",
+    "note": "Cyan's Myst shows its island as a set of pre-rendered still views.",
+    "styles": [
+      "pre-rendered-backgrounds"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "game",
+      "year": 1996,
+      "via": "Resident Evil sets polygon figures over pre-rendered rooms on the PlayStation.",
+      "styles": [
+        "pre-rendered-backgrounds"
+      ]
+    }
+  ],
+  "styles": [
+    "pre-rendered-backgrounds"
+  ],
+  "principles": [
+    "focal-point"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Pre-rendering",
+      "url": "https://en.wikipedia.org/wiki/Pre-rendering"
+    },
+    {
+      "title": "Wikipedia: Myst",
+      "url": "https://en.wikipedia.org/wiki/Myst"
+    }
+  ]
+}

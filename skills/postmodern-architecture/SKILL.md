@@ -201,7 +201,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Was rejected by:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
+- **Kin in another domain:** [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md)
 - **Nearest by vector profile:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`beaux-arts-architecture`](../beaux-arts-architecture/SKILL.md), [`baroque-architecture`](../baroque-architecture/SKILL.md)
 
 ## Emotional target

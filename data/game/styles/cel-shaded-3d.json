@@ -1,0 +1,287 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "cel-shaded-3d",
+  "domain": "game",
+  "name": "Cel-shaded 3D",
+  "aliases": [
+    "Toon shading",
+    "Cel shading",
+    "Anime 3D"
+  ],
+  "era_id": "programmable-shader",
+  "time_period": {
+    "start": 2000,
+    "end": null,
+    "label": "2000–now"
+  },
+  "region": "Japan, then worldwide",
+  "hardware": [
+    "dreamcast",
+    "gamecube",
+    "playstation-2",
+    "nintendo-switch",
+    "pc",
+    "playstation-4",
+    "playstation-5"
+  ],
+  "summary": "3D models drawn to look like a cartoon or an animation cel: light falls in 2 or 3 flat steps, black outlines trace each shape, and colours stay bright and flat. A full 3D world looks hand drawn.",
+  "philosophy": {
+    "core_thesis": "Real-time 3D does not need to imitate a photograph; it can imitate a drawing and keep its clarity at any angle.",
+    "design_principles": [
+      "Light each surface in 2 or 3 flat value steps with a hard edge between them.",
+      "Draw an outline of 1–4 px around each silhouette and inner crease.",
+      "Use saturated flat base colours; add texture only as painted strokes.",
+      "Keep shapes simple and exaggerated: big heads, chunky buildings.",
+      "Use a bright, clear sky with stylised clouds.",
+      "Keep the outline weight the same at any distance from the camera."
+    ],
+    "anti_patterns": [
+      "Smooth gradient shading",
+      "Photographic textures",
+      "Thin or missing outlines",
+      "Grey, desaturated palettes",
+      "Realistic proportions"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 3,
+    "spatial_depth": 5,
+    "stylisation": 5,
+    "lighting_drama": 2,
+    "surface_density": 2
+  },
+  "projection_and_camera": {
+    "projection": "third-person",
+    "camera": "A free or a following camera in a full 3D world.",
+    "field_of_view": "about 50–70",
+    "framing": "Wide, clear views with the player at a third of the frame."
+  },
+  "geometry": {
+    "primitive": "A polygon mesh with flat normals for clean shading steps.",
+    "budget": "5,000–30,000 triangles for a character.",
+    "edge_rule": "Black or dark-hue ink lines on silhouettes and creases.",
+    "proportion": "Exaggerated: big hands, round shapes, chunky buildings."
+  },
+  "surface": {
+    "texture_rule": "Flat colour fills with a few painted strokes; no photo texture.",
+    "texel_density": "about 64–256 px for each metre",
+    "filtering": "Smooth, with mipmaps.",
+    "material_model": "A step ramp: the light value is mapped to 2 or 3 flat tones."
+  },
+  "palette": {
+    "strategy": "Bright, saturated base colours with a cool shadow tone of the same hue family.",
+    "colour_depth": "24 bits",
+    "on_screen_colours": "full colour, used in flat areas",
+    "colours": [
+      {
+        "name": "Sky blue",
+        "hex": "#5EC8F0",
+        "role": "sky"
+      },
+      {
+        "name": "Grass green",
+        "hex": "#6CC04A",
+        "role": "ground"
+      },
+      {
+        "name": "Roof orange",
+        "hex": "#F07838",
+        "role": "roofs"
+      },
+      {
+        "name": "Cream wall",
+        "hex": "#F5E6C4",
+        "role": "walls"
+      },
+      {
+        "name": "Shadow violet",
+        "hex": "#5A5490",
+        "role": "shadow tone"
+      },
+      {
+        "name": "Ink",
+        "hex": "#1A1A24",
+        "role": "outline"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Per-pixel light quantised into 2 or 3 steps.",
+    "shadows": "Hard-edged cast shadows in one flat tone.",
+    "atmosphere": "Stylised clouds, sparkles and speed lines; little fog.",
+    "time_of_day": "Swaps of the light and shadow tones: warm for dusk, blue for night."
+  },
+  "world_and_space": {
+    "scale": "Slightly enlarged and simplified: wide doors, round buildings.",
+    "interiors": "Simple rooms with a few iconic props, bright walls and clean floors.",
+    "exteriors": "Open squares and streets with bold silhouettes and big trees.",
+    "threshold": "A door opens with no break, or a short fade.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Mark the goal with the highest colour contrast in the frame.",
+        "value": "1 saturated accent"
+      },
+      {
+        "principle": "scale",
+        "rule": "Make doors and props 1.2–1.5 times real scale.",
+        "value": "1.2–1.5×"
+      },
+      {
+        "principle": "lighting-layers",
+        "rule": "Use 2 layers: one sun and one flat ambient tone.",
+        "value": "2 layers"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Bold shapes in the corners, about 5–10% of the screen.",
+    "type_and_icons": "Rounded display fonts and outlined icons that match the world.",
+    "diegesis": "Mostly on top, drawn in the same ink style."
+  },
+  "prompt_primer": {
+    "positive": [
+      "cel-shaded 3D",
+      "toon shading",
+      "bold black outlines",
+      "flat colour shading steps",
+      "anime style 3D world",
+      "bright saturated colours",
+      "hard-edged shadows",
+      "stylised clouds",
+      "cartoon proportions"
+    ],
+    "negative": [
+      "photoreal",
+      "gradient shading",
+      "gritty texture",
+      "desaturated",
+      "realistic proportions",
+      "film grain"
+    ],
+    "canonical_works": [
+      {
+        "work": "Jet Set Radio",
+        "maker": "Smilebit",
+        "year": 2000
+      },
+      {
+        "work": "The Legend of Zelda: The Wind Waker",
+        "maker": "Nintendo",
+        "year": 2002
+      },
+      {
+        "work": "Ōkami",
+        "maker": "Clover Studio",
+        "year": 2006
+      },
+      {
+        "work": "Genshin Impact",
+        "maker": "miHoYo",
+        "year": 2020
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "fifth-gen-low-poly"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pop-art-painting",
+      "ukiyo-e",
+      "flat-design"
+    ]
+  },
+  "emotion": {
+    "target_response": "Joyful clarity: the viewer sees a drawn world that is light, bright and easy to read.",
+    "keywords": [
+      "joyful",
+      "bright",
+      "playful",
+      "clear",
+      "animated"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "hero",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cel shaded",
+      "toon shader",
+      "anime 3d",
+      "cartoon 3d",
+      "wind waker style"
+    ],
+    "use_cases": [
+      "playful brand worlds",
+      "kids' and family spaces",
+      "animated explainers",
+      "stylised visualisation of a concept"
+    ],
+    "avoid_when": [
+      "The brief needs material truth for a client sale.",
+      "The tone must be serious or luxury."
+    ],
+    "modifiers": [
+      {
+        "request": "softer and painted",
+        "toward": "hand-painted-texture",
+        "how": "Drop the outlines; paint light and shade into the textures."
+      },
+      {
+        "request": "flatter",
+        "toward": "impossible-isometric-mobile",
+        "how": "Lock the camera to isometric and remove the outlines for pastel flat faces."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 1080,
+      "min": 480,
+      "max": 2160
+    },
+    "colour_depth": {
+      "default": 24,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "third-person",
+      "options": [
+        "third-person",
+        "first-person",
+        "isometric"
+      ]
+    },
+    "shading_steps": {
+      "default": 2,
+      "min": 2,
+      "max": 3
+    },
+    "texel_density": {
+      "default": 128,
+      "min": 32,
+      "max": 512
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Cel shading",
+      "url": "https://en.wikipedia.org/wiki/Cel_shading"
+    },
+    {
+      "title": "Wikipedia: Jet Set Radio",
+      "url": "https://en.wikipedia.org/wiki/Jet_Set_Radio"
+    },
+    {
+      "title": "Wikipedia: The Legend of Zelda: The Wind Waker",
+      "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "impossible-isometric-mobile",
+  "domain": "game",
+  "name": "Flat geometric isometric",
+  "aliases": [
+    "Impossible isometric",
+    "Pastel geometric 3D",
+    "Low-poly flat mobile"
+  ],
+  "era_id": "physically-based-and-indie",
+  "time_period": {
+    "start": 2014,
+    "end": null,
+    "label": "2014–now"
+  },
+  "region": "the United Kingdom, then worldwide",
+  "hardware": [
+    "mobile",
+    "pc",
+    "nintendo-switch"
+  ],
+  "summary": "Clean geometric architecture in an orthographic isometric view, coloured in flat pastel faces with no texture. Stairs, arches and towers are built like a paper model, and the space can fold into impossible shapes.",
+  "philosophy": {
+    "core_thesis": "Architecture reduced to pure faces and an orthographic view becomes a calm puzzle that a hand can turn.",
+    "design_principles": [
+      "Use an orthographic isometric camera with no perspective.",
+      "Colour each face direction in its own flat pastel tone: top light, sides darker.",
+      "Build with cubes, arches, stairs and columns only; no texture.",
+      "Keep generous empty space around the structure.",
+      "Use a soft gradient sky in one hue as the ground.",
+      "Make the figure tiny and simple against the structure."
+    ],
+    "anti_patterns": [
+      "Textures or noise",
+      "Perspective views",
+      "Cluttered props",
+      "Dark, saturated palettes",
+      "Realistic figures"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 2,
+    "spatial_depth": 3,
+    "stylisation": 5,
+    "lighting_drama": 1,
+    "surface_density": 1
+  },
+  "projection_and_camera": {
+    "projection": "isometric",
+    "camera": "Fixed orthographic; the player rotates the structure, not the camera.",
+    "field_of_view": "orthographic",
+    "framing": "One structure centred in a portrait or a landscape frame with wide margins."
+  },
+  "geometry": {
+    "primitive": "Clean low-poly cubes, arches and stairs.",
+    "budget": "A few thousand triangles for a whole level.",
+    "edge_rule": "Crisp edges with no outlines; faces separate by tone.",
+    "proportion": "A figure is 1/10 to 1/20 of the structure height."
+  },
+  "surface": {
+    "texture_rule": "No texture; flat colour per face.",
+    "texel_density": "none; flat colour",
+    "filtering": "Not used: faces have no texture.",
+    "material_model": "Unlit or a fixed 3-tone face shade."
+  },
+  "palette": {
+    "strategy": "Pastel, harmonious hues; one palette for each level, a gradient sky.",
+    "colour_depth": "24 bits",
+    "on_screen_colours": "8 to 16 flat tones",
+    "colours": [
+      {
+        "name": "Blush pink",
+        "hex": "#F2B8B0",
+        "role": "top faces"
+      },
+      {
+        "name": "Coral",
+        "hex": "#E07A6A",
+        "role": "side faces"
+      },
+      {
+        "name": "Dusty teal",
+        "hex": "#6AA8A8",
+        "role": "structure"
+      },
+      {
+        "name": "Sand",
+        "hex": "#F0DDB8",
+        "role": "light faces"
+      },
+      {
+        "name": "Plum",
+        "hex": "#5A3A5A",
+        "role": "shadow faces"
+      },
+      {
+        "name": "Sky gradient",
+        "hex": "#F8D8C0",
+        "role": "ground"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Fixed tones per face direction; no dynamic light.",
+    "shadows": "None, or flat shapes in a darker tone.",
+    "atmosphere": "A soft gradient sky; a few floating particles.",
+    "time_of_day": "A palette per level: dawn pinks, night blues."
+  },
+  "world_and_space": {
+    "scale": "Monumental: the figure is tiny against towers and stairs.",
+    "interiors": "Courtyards and rooms open to the sky, cut away like a model.",
+    "exteriors": "A single tower or a floating island of stairs and arches.",
+    "threshold": "A door is a dark rectangle; the figure walks in and out with no cut.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Make the figure 1/10 to 1/20 of the structure height.",
+        "value": "1:10–1:20"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Mark the goal with the one saturated tone in the scene.",
+        "value": "1 accent"
+      },
+      {
+        "principle": "sightlines",
+        "rule": "Align paths so the camera sees each step; hide nothing behind a wall.",
+        "value": "0 hidden paths"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Almost none; a small pause icon in a corner.",
+    "type_and_icons": "Thin geometric sans and simple line icons.",
+    "diegesis": "Nearly all in the world: levers and paths are part of the structure."
+  },
+  "prompt_primer": {
+    "positive": [
+      "flat geometric isometric",
+      "pastel colour faces",
+      "orthographic architecture",
+      "minimal low poly",
+      "impossible geometry",
+      "paper model look",
+      "gradient sky",
+      "tiny figure",
+      "clean untextured surfaces"
+    ],
+    "negative": [
+      "texture",
+      "perspective",
+      "photoreal",
+      "clutter",
+      "dark gritty",
+      "outlines"
+    ],
+    "canonical_works": [
+      {
+        "work": "Monument Valley",
+        "maker": "ustwo games",
+        "year": 2014
+      },
+      {
+        "work": "Monument Valley 2",
+        "maker": "ustwo games",
+        "year": 2017
+      },
+      {
+        "work": "Hitman GO",
+        "maker": "Square Enix Montreal",
+        "year": 2014
+      },
+      {
+        "work": "Lara Croft GO",
+        "maker": "Square Enix Montreal",
+        "year": 2015
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "isometric-pixel-world"
+    ],
+    "rebelled_against": [
+      "seventh-gen-desaturated"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "flat-design",
+      "isometric-icon",
+      "postmodern-architecture",
+      "surrealism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Serene wonder: the viewer feels calm, curious and a little dreamy.",
+    "keywords": [
+      "serene",
+      "dreamy",
+      "elegant",
+      "minimal",
+      "curious"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "sage",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "monument valley style",
+      "flat isometric",
+      "pastel geometric",
+      "impossible architecture",
+      "low poly pastel"
+    ],
+    "use_cases": [
+      "architectural concept art",
+      "brand illustrations",
+      "calm interactive installations",
+      "wayfinding art"
+    ],
+    "avoid_when": [
+      "The brief needs real materials or textures.",
+      "The scene needs eye-level immersion."
+    ],
+    "modifiers": [
+      {
+        "request": "more retro",
+        "toward": "isometric-pixel-world",
+        "how": "Keep the angle; redraw in pixel art with 3-tone faces."
+      },
+      {
+        "request": "more depth",
+        "toward": "hd-2d-diorama",
+        "how": "Add depth of field, light and texture as in a miniature."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 1080,
+      "min": 720,
+      "max": 2160
+    },
+    "colour_depth": {
+      "default": 24,
+      "min": 24,
+      "max": 32
+    },
+    "camera_projection": {
+      "default": "isometric",
+      "options": [
+        "isometric"
+      ]
+    },
+    "shading_steps": {
+      "default": 3,
+      "min": 2,
+      "max": 4
+    },
+    "texel_density": {
+      "default": 4,
+      "min": 4,
+      "max": 4,
+      "note": "No texture: the floor of the range."
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Monument Valley (video game)",
+      "url": "https://en.wikipedia.org/wiki/Monument_Valley_(video_game)"
+    },
+    {
+      "title": "Wikipedia: Ustwo",
+      "url": "https://en.wikipedia.org/wiki/Ustwo"
+    },
+    {
+      "title": "Wikipedia: Isometric video game graphics",
+      "url": "https://en.wikipedia.org/wiki/Isometric_video_game_graphics"
+    }
+  ]
+}
