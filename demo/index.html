@@ -186,6 +186,7 @@ const DOMAINS = [
   { id: "typeface", page: "typeface.html", name: "Typefaces", task: "A specimen of each classification, drawn from one open font." },
   { id: "print", page: "print.html", name: "Print", task: "One landscape, pulled as a press proof in each process: inks, screen, register and stock." },
   { id: "fashion", page: "fashion.html", name: "Fashion", task: "One swatch board in each style: its cloths and materials as weave, knit or surface, with the year each one began." },
+  { id: "ceramics", page: "ceramics.html", name: "Ceramics", task: "One board of glaze test tiles in each style: its clay body, glaze and decoration, with the year each one began." },
   { id: "cuisine", page: "cuisine.html", name: "Cuisine", task: "One plate plan in each style: its primary ingredients placed by its composition rule, with the year and the place where each one began." },
 ];
 
@@ -211,7 +212,7 @@ Promise.all([json("../skills/index.json"), ...DOMAINS.map((d) => json(`previews/
   // The styles of a domain that have a preview picture.
   const pool = DOMAINS.map((d, i) => Object.entries(manifests[i]?.images ?? {})
     .filter(([id, r]) => name[id] && r.file)
-    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof" || r.kind === "swatch-board", n: r.frames?.length || 1, d })));
+    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof" || r.kind === "swatch-board" || r.kind === "tile-board", n: r.frames?.length || 1, d })));
 
   const count = (id) => skills.filter((s) => s.domain === id).length;
   $("facts").innerHTML = `<span><b>${skills.length}</b>styles</span><span><b>${DOMAINS.length}</b>domains</span>` +

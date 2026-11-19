@@ -1,0 +1,325 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "zellige",
+  "domain": "ceramics",
+  "name": "Zellige",
+  "aliases": [
+    "Zellij",
+    "Moroccan mosaic tile",
+    "Fez tile mosaic"
+  ],
+  "era_id": "medieval-glaze",
+  "branch": "tiles",
+  "time_period": {
+    "start": 1300,
+    "end": null,
+    "label": "1300–present"
+  },
+  "region": "Fez, Morocco",
+  "summary": "Moroccan tile work in which a potter glazes a square tile in one colour, fires it, and then chisels it by hand into small pieces. A worker sets the pieces face down to make a geometric mosaic.",
+  "philosophy": {
+    "core_thesis": "Hand-cut pieces of one-colour glazed clay make a pattern that is exact in its geometry and alive in its surface.",
+    "design_principles": [
+      "Form a square tile of 10 cm by 10 cm, 12 to 15 mm thick, from local clay, and glaze it in one colour.",
+      "Chisel each fired tile with a sharp hammer into the pieces of the pattern, and cut by eye along a line.",
+      "Set the pieces face down on the drawn pattern, then pour a plaster and cement backing over them.",
+      "Base the geometry on an 8-point or 12-point star, so that every piece fits a known grid.",
+      "Limit the colours to white, green, blue, yellow, black and a warm brown, each from one oxide.",
+      "Keep the joints thin, under 2 mm, and accept a small difference in level between pieces.",
+      "Lay the mosaic as a dado up to a height of about 1.5 m, and finish the wall above it in carved plaster.",
+      "Use plain single-colour field tiles near a pattern, so that the eye has a place to rest."
+    ],
+    "anti_patterns": [
+      "A printed pattern on a flat machine-made tile",
+      "A perfectly even glaze with no change of tone from tile to tile",
+      "Pastel colours that no oxide gives",
+      "Wide grout lines in a contrasting colour",
+      "Large format tiles with a sharp factory edge"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 5,
+    "refinement": 2,
+    "glaze_depth": 3,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "shape": "Plain square or hexagonal field tiles, chiselled mosaic panels with star patterns, fountain basins, and floors and dados in courtyards and madrasas.",
+    "profile": "A flat face with a slight swell: each piece has a lightly irregular surface and a bevelled, hand-cut edge.",
+    "foot_and_rim": "The tile has an unglazed back with a rough, keyed surface for the plaster. Panels end in a frame of carved plaster or cedar.",
+    "proportion": "A field tile is 10 cm square and 12 to 15 mm thick; a mosaic piece is 1 to 8 cm across.",
+    "rules": [
+      "Keep the tile square and thick enough to take the chisel.",
+      "Cut the pieces after the glaze firing, never before.",
+      "Show the slight wave of the glaze surface; do not polish the tile flat."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [
+      "terracotta"
+    ],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "porcelain-stoneware"
+    ],
+    "rule": "Use a local red or buff clay that fires soft at about 950 °C and takes a thick glaze. Keep dense bodies out: they are too hard for hand cutting."
+  },
+  "forming": {
+    "methods": [
+      "digging and weathering the clay",
+      "pressing the tile in a wooden frame",
+      "drying the tile in the sun",
+      "chiselling the fired tile into pieces",
+      "setting the pieces face down in a drawn pattern"
+    ],
+    "joins": "A backing of plaster and cement joins the pieces; a thin lime mortar fills the gaps.",
+    "details": "Chisel burrs on the back, a bevelled edge on the glazed face, small kiln marks, and a slight variation of colour in each batch."
+  },
+  "glaze": {
+    "glazes": [
+      "tin-glaze",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "tile-mosaic",
+      "undecorated"
+    ],
+    "pattern": "Star and polygon patterns in green, blue, yellow, black and white, around a central 8-point star; plain single-colour tiles beside the pattern.",
+    "gloss": "Glossy with a soft, uneven shine, about 60 to 85 GU.",
+    "wear": "The glaze wears at the edges of the pieces and shows a light buff body; old panels turn slightly cloudy."
+  },
+  "palette": {
+    "strategy": "Six glaze colours from metal oxides, set in strong contrast with a white ground.",
+    "colours": [
+      {
+        "name": "Zellige white",
+        "hex": "#F1ECDD",
+        "role": "ground"
+      },
+      {
+        "name": "Fez green",
+        "hex": "#1F6B4E",
+        "role": "field"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#24408E",
+        "role": "field"
+      },
+      {
+        "name": "Saffron yellow",
+        "hex": "#D9A21B",
+        "role": "accent"
+      },
+      {
+        "name": "Manganese brown",
+        "hex": "#5B3A29",
+        "role": "outline"
+      },
+      {
+        "name": "Black",
+        "hex": "#1F1D1D",
+        "role": "line"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A wood or olive-stone kiln, with the tiles stacked on stilts; one firing for the biscuit and one for the glaze.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      900,
+      1000
+    ],
+    "processes": [
+      "a first biscuit firing of the pressed tile",
+      "dipping in tin glaze, one colour for each batch",
+      "a second firing for the glaze",
+      "chiselling the cold tile"
+    ],
+    "scale": "A workshop in Fez makes a few hundred tiles for each firing, and a worker cuts about 1 square metre of mosaic in several days.",
+    "signs": "Three or four small stilt marks on the face or edge, a drip line, and a slight change of colour across one tile."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "wall-tile",
+        "form": "Square tile of 10 cm in plain deep green, with a soft uneven gloss",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "mosaic",
+        "form": "Panel of hand-cut pieces in an 8-point star in green, blue, yellow and white",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "tile-panel",
+        "form": "Dado of about 1.5 m with a band of stars under a carved plaster wall",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "tile-mosaic"
+      },
+      {
+        "object": "floor-tile",
+        "form": "Hexagonal floor tile in a plain single colour for a courtyard",
+        "body": "terracotta",
+        "glaze": "lead-glaze",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Moroccan zellige tile",
+      "hand-chiselled glazed tesserae",
+      "eight-point star mosaic",
+      "slightly uneven glossy glaze",
+      "green blue and white geometry",
+      "thin dark joints",
+      "dado in a courtyard",
+      "architectural photograph, warm side light"
+    ],
+    "negative": [
+      "printed tile",
+      "machine perfect surface",
+      "wide white grout",
+      "pastel palette",
+      "porcelain tile"
+    ],
+    "canonical_works": [
+      {
+        "work": "Zellige dado of the Attarine Madrasa, Fez",
+        "maker": "Marinid craftsmen",
+        "year": 1325
+      },
+      {
+        "work": "Zellige panels of the Bou Inania Madrasa, Fez",
+        "maker": "Marinid craftsmen",
+        "year": 1355
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Moroccan zellige in Fes",
+      "kind": "image",
+      "credit": "Orlysi",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Moroccan_zellige_in_Fes.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Moroccan_zellige_in_Fes.jpg",
+      "maker": "Moroccan craftsmen"
+    },
+    {
+      "title": "Loose zellige tile shapes",
+      "kind": "image",
+      "credit": "Jadcooper",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Zellige_loose_tile_shapes.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Zellige_loose_tile_shapes.jpg",
+      "maker": "Moroccan craftsmen"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "islamic-tile-mosaic"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "hispano-moresque-lustreware"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A warm, ordered calm: the viewer sees thousands of small bright pieces and feels the work of a hand in a precise pattern.",
+    "keywords": [
+      "handmade",
+      "geometric",
+      "warm",
+      "sunlit",
+      "enduring"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "zellige",
+      "zellij",
+      "moroccan tile",
+      "fez tile mosaic",
+      "hand-cut tile mosaic",
+      "moroccan courtyard fountain tile",
+      "glazed clay tile in plain colours"
+    ],
+    "use_cases": [
+      "a kitchen or bathroom wall in plain hand-made tile",
+      "a courtyard or fountain brief in Moroccan style",
+      "a geometric mosaic brief with an 8-point star"
+    ],
+    "avoid_when": [
+      "the brief needs a flat machine tile",
+      "the brief needs painted figures or flowers",
+      "the brief is for a very large format panel"
+    ],
+    "modifiers": [
+      {
+        "request": "Persian, turquoise dome",
+        "toward": "islamic-tile-mosaic",
+        "how": "Change to a stonepaste tile with an alkaline glaze, and set the pieces in a dome pattern with a Kufic band."
+      },
+      {
+        "request": "Spanish, painted",
+        "toward": "azulejo",
+        "how": "Change to a tin-glazed earthenware tile, and paint a whole picture on a flat square instead of cutting pieces."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Zellij",
+      "url": "https://en.wikipedia.org/wiki/Zellij"
+    },
+    {
+      "title": "Wikipedia: Bou Inania Madrasa, Fez",
+      "url": "https://en.wikipedia.org/wiki/Bou_Inania_Madrasa_(Fez)"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.7,
+      "min": 0.1,
+      "max": 0.95,
+      "note": "Plain field tiles keep the low end of the range."
+    },
+    "glaze_gloss": {
+      "default": 70,
+      "min": 50,
+      "max": 85
+    },
+    "wall_thickness": {
+      "default": 13,
+      "min": 10,
+      "max": 16
+    },
+    "hand_mark": {
+      "default": 0.8,
+      "min": 0.6,
+      "max": 1
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

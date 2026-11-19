@@ -13,6 +13,7 @@ import { GROUND_KINDS } from "./ground.js";
 import { RULES, gate, curate, type Rule } from "./curation.js";
 import { checkIndustrialStyle, checkNet, checkVocabulary, loadNetContext, loadNets, type IndustrialStyle } from "./net.js";
 import { checkFashionStyle, checkFashionVocabulary, loadFashionVocabulary, type FashionStyle } from "./fashion.js";
+import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, type CeramicsStyle } from "./ceramics.js";
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
 import { ROOT, loadDomains, loadEras, loadMedia, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
@@ -227,6 +228,21 @@ if (domains.some((d) => d.id === "fashion")) {
     if (!schemaOnly)
       for (const { style } of loadStyleFiles("fashion"))
         for (const e of checkFashionStyle(v, style as unknown as FashionStyle)) errors.push(`data/fashion/styles/${style.id}.json: ${e}`);
+  }
+}
+
+// The ceramics vocabulary: one schema, then each body, glaze, decoration and object id of each ceramics style.
+const validateCeramicsVocabulary = ajv.compile(readJson<object>(join(ROOT, "schema", "ceramics-vocabulary.schema.json")));
+if (domains.some((d) => d.id === "ceramics")) {
+  const raw = readJson<unknown>(join(ROOT, "data", "ceramics", "vocabulary.json"));
+  if (!validateCeramicsVocabulary(raw))
+    for (const e of validateCeramicsVocabulary.errors ?? []) errors.push(`data/ceramics/vocabulary.json: ${e.instancePath || "/"} ${e.message}`);
+  else {
+    const v = loadCeramicsVocabulary();
+    for (const e of checkCeramicsVocabulary(v)) errors.push(`data/ceramics/vocabulary.json: ${e}`);
+    if (!schemaOnly)
+      for (const { style } of loadStyleFiles("ceramics"))
+        for (const e of checkCeramicsStyle(v, style as unknown as CeramicsStyle)) errors.push(`data/ceramics/styles/${style.id}.json: ${e}`);
   }
 }
 

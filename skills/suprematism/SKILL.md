@@ -210,7 +210,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 - **Led to (go here for a newer version):** [`minimalism-painting`](../minimalism-painting/SKILL.md)
-- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md)
+- **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`suprematist-porcelain`](../suprematist-porcelain/SKILL.md)
 - **Nearest by vector profile:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`de-stijl-painting`](../de-stijl-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
 
 ## Emotional target

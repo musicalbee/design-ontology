@@ -1,0 +1,329 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "delft-tiles",
+  "domain": "ceramics",
+  "name": "Delft tiles",
+  "aliases": [
+    "Dutch wall tiles",
+    "Delftse tegels",
+    "Dutch blue and white tiles"
+  ],
+  "era_id": "porcelain-race",
+  "branch": "tiles",
+  "time_period": {
+    "start": 1620,
+    "end": 1800,
+    "label": "1620–1800"
+  },
+  "region": "Delft, Rotterdam and Haarlem, Dutch Republic",
+  "summary": "Small square tin-glazed tiles that Dutch potteries made by the million for walls, kitchens and fireplaces. Each tile holds one small picture in blue or purple and a corner motif, and a set of tiles makes a wall.",
+  "philosophy": {
+    "core_thesis": "A cheap square tile and a quick brush make a clean, washable wall that still holds a small picture in each unit.",
+    "design_principles": [
+      "Keep the tile square, 13 cm by 13 cm, and 5 to 8 mm thick, so that all tiles fit one wall.",
+      "Paint one small subject in the centre: a ship, a child at play, a flower, an animal or a soldier.",
+      "Add a corner motif of 4 parts, the ox head, the spider or the fleur-de-lis, to join four tiles in a pattern.",
+      "Paint in cobalt blue on the raw tin glaze; use manganese purple for a second colour in a few sets.",
+      "Draw the subject with a pricked paper pattern, then fill the shapes with a loose wash.",
+      "Set the tiles in a grid with joints under 2 mm, and add a plinth tile of 13 by 6.5 cm at the floor.",
+      "Use biblical scenes on fireplace walls, and bright flowers on the walls of the kitchen and the dairy.",
+      "Fire each tile in a stack with stilts; accept the small marks of the stilts on the edge."
+    ],
+    "anti_patterns": [
+      "A large single picture that ignores the tile grid",
+      "A translucent porcelain body",
+      "A printed pattern with a uniform line",
+      "A bright polychrome palette in the early work",
+      "A thick tile with a square factory edge"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "hand_mark": 4,
+    "refinement": 2,
+    "glaze_depth": 1,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Square wall tiles, plinth tiles, fireplace tiles, tile tableaux of flower vases and tulips, and small plaques.",
+    "profile": "A flat thin face with a thick glaze that swells slightly at the edge; the tile edge is bevelled and soft.",
+    "foot_and_rim": "The back is rough with a mortar key; the glaze runs over the edge and leaves a thin lip on the face.",
+    "proportion": "A tile is 13 cm square and 5 to 8 mm thick; a fireplace wall uses 100 or more tiles.",
+    "rules": [
+      "Make every tile the same size, so that they exchange.",
+      "Put the subject in a field of about 8 cm, and leave a white margin.",
+      "Place the corner motif in the same colour as the subject."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [],
+    "avoid": [
+      "porcelain",
+      "stoneware",
+      "bone-china"
+    ],
+    "rule": "Use a buff earthenware from mixed local and imported clay. It fires soft at a low heat and takes a thick tin glaze. Keep porcelain out."
+  },
+  "forming": {
+    "methods": [
+      "rolling a slab of clay",
+      "cutting the tile with a wooden template",
+      "drying the tile in a rack",
+      "pricking a paper pattern and pouncing it",
+      "painting on the raw glaze"
+    ],
+    "joins": "Tiles are set in lime mortar on the wall, with a plinth tile at the floor line.",
+    "details": "Pounce dots along the drawn line, three stilt marks on the face, a thin edge lip of glaze and a small mark of the pottery on the back."
+  },
+  "glaze": {
+    "glazes": [
+      "tin-glaze",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "underglaze-cobalt",
+      "underglaze-polychrome"
+    ],
+    "pattern": "One small subject in the centre of each tile in cobalt blue, with an ox head or spider corner motif; some sets use manganese purple.",
+    "gloss": "Soft gloss, about 50 to 75 GU.",
+    "wear": "The thick glaze chips at the corners and shows the buff body; the blue stays fresh and the white turns a little grey."
+  },
+  "palette": {
+    "strategy": "Cobalt blue on a milk-white ground; manganese purple, and later a little yellow and green, as the only extra colours.",
+    "colours": [
+      {
+        "name": "Tin white",
+        "hex": "#F2F0E8",
+        "role": "ground"
+      },
+      {
+        "name": "Delft blue",
+        "hex": "#24459A",
+        "role": "painting"
+      },
+      {
+        "name": "Wash blue",
+        "hex": "#92A9D2",
+        "role": "shading"
+      },
+      {
+        "name": "Manganese purple",
+        "hex": "#5A3A57",
+        "role": "alternative line"
+      },
+      {
+        "name": "Buff body",
+        "hex": "#D9B98C",
+        "role": "chipped edge"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A wood-fired kiln, later a coal-fired kiln, with the tiles in stacks.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      980,
+      1100
+    ],
+    "processes": [
+      "biscuit firing at about 980 °C",
+      "dipping in tin glaze",
+      "painting on the raw glaze",
+      "glaze firing in stacks"
+    ],
+    "scale": "Some 30 potteries in the Delft area made millions of tiles in a year, and painters worked at piece rates.",
+    "signs": "Stilt marks, a thin edge lip of glaze and a slight blur of the blue."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "wall-tile",
+        "form": "Tile of 13 cm with a sailing ship in blue and an ox head corner motif",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "wall-tile",
+        "form": "Tile of 13 cm with a child at play and a spider corner motif",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "fireplace-tile",
+        "form": "Fireplace tile with a biblical scene in a small round field",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "tile-panel",
+        "form": "Tableau of tiles with a vase of tulips in blue and purple",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-polychrome"
+      },
+      {
+        "object": "border-tile",
+        "form": "Plinth tile of 13 by 6.5 cm with a blue scroll",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "17th-century Dutch Delft wall tiles",
+      "blue ship on a white tile",
+      "ox head corner motif",
+      "child at play in blue",
+      "hand-painted cobalt on tin glaze",
+      "grid of 13 cm square tiles",
+      "kitchen wall with blue tiles",
+      "still-life museum photograph, soft north light"
+    ],
+    "negative": [
+      "printed transfer",
+      "translucent porcelain",
+      "bright polychrome",
+      "large single picture",
+      "modern machine tile"
+    ],
+    "canonical_works": [
+      {
+        "work": "Tile tableau of a flower vase for Hampton Court",
+        "maker": "De Grieksche A (Adriaen Kocks)",
+        "year": 1694
+      },
+      {
+        "work": "Tile with a sailing ship",
+        "maker": "Delft potteries",
+        "year": 1650
+      },
+      {
+        "work": "Fireplace tiles with biblical scenes",
+        "maker": "Delft potteries",
+        "year": 1680
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Field of four tiles with a flower vase",
+      "kind": "image",
+      "credit": "Rijksmuseum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Veld_van_vier_tegels_met_bloemvaas,_BK-1955-355-A.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Veld_van_vier_tegels_met_bloemvaas,_BK-1955-355-A.jpg",
+      "maker": "Delft potteries"
+    },
+    {
+      "title": "Tile tableau from the Sommelsdijk orphanage",
+      "kind": "image",
+      "credit": "Rijksmuseum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tegeltableau_afkomstig_uit_het_Weeshuis_te_Sommelsdijk,_BK-NM-4638.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/81/Tegeltableau_afkomstig_uit_het_Weeshuis_te_Sommelsdijk,_BK-NM-4638.jpg",
+      "maker": "Delft potteries"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "istoriato-maiolica",
+      "azulejo",
+      "kraak-porcelain"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A clean, homely calm: the viewer sees many small blue pictures on white and thinks of a Dutch kitchen.",
+    "keywords": [
+      "homely",
+      "clean",
+      "orderly",
+      "playful",
+      "modest"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "delft tiles",
+      "dutch wall tiles",
+      "blue and white dutch tile",
+      "ox head tile",
+      "delftse tegel",
+      "dutch kitchen tile",
+      "tile with ship in blue"
+    ],
+    "use_cases": [
+      "a Dutch kitchen or fireplace wall in blue tile",
+      "a grid of small hand-painted tiles with a motif in each",
+      "a museum label on Dutch tin-glazed tiles"
+    ],
+    "avoid_when": [
+      "the brief needs one large painted picture",
+      "the brief wants a very large format tile",
+      "the brief is for a hard-wearing floor"
+    ],
+    "modifiers": [
+      {
+        "request": "Portuguese, one large picture",
+        "toward": "azulejo",
+        "how": "Paint one scene across a grid of tiles, add a baroque frame and keep the tin glaze."
+      },
+      {
+        "request": "Swedish, white stove",
+        "toward": "scandinavian-tiled-stove",
+        "how": "Use larger tiles with a plain white glaze and a little blue painting, and set them on a stove."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Delftware",
+      "url": "https://en.wikipedia.org/wiki/Delftware"
+    },
+    {
+      "title": "Wikipedia: Tile",
+      "url": "https://en.wikipedia.org/wiki/Tile"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 0.8
+    },
+    "glaze_gloss": {
+      "default": 60,
+      "min": 40,
+      "max": 78
+    },
+    "wall_thickness": {
+      "default": 6.5,
+      "min": 5,
+      "max": 9
+    },
+    "hand_mark": {
+      "default": 0.75,
+      "min": 0.5,
+      "max": 0.9
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

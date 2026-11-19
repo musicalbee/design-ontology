@@ -1,0 +1,552 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/domains/ceramics.schema.json",
+  "title": "Ceramics style",
+  "description": "One ceramics style: the rules of one branch (tableware, teaware, kitchen and storage, vessels, figurative, tiles, architectural or sanitary and technical) in one period. Form, clay bodies, forming, glaze and decoration, palette and firing, with three to six signature pieces. Body, glaze, decoration and object ids come from data/ceramics/vocabulary.json; the validator checks each one. Prompts never name a brand or a product: the names appear only in canonical_works and sources.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "domain",
+    "name",
+    "aliases",
+    "era_id",
+    "branch",
+    "time_period",
+    "region",
+    "summary",
+    "philosophy",
+    "vectors",
+    "form",
+    "bodies",
+    "forming",
+    "glaze",
+    "palette",
+    "firing",
+    "signatures",
+    "prompt_primer",
+    "evidence",
+    "lineage",
+    "emotion",
+    "agent",
+    "sources"
+  ],
+  "$defs": {
+    "hex": {
+      "type": "string",
+      "pattern": "^#[0-9A-F]{6}$"
+    },
+    "branch": {
+      "enum": [
+        "tableware",
+        "teaware",
+        "kitchen-and-storage",
+        "vessels",
+        "figurative",
+        "tiles",
+        "architectural",
+        "sanitary-technical"
+      ]
+    },
+    "time_period": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end",
+        "label"
+      ],
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": -20000,
+          "maximum": 2100,
+          "description": "First year of wide use. A negative year is a year BC. Ceramics starts before 1200, so this domain allows ancient years."
+        },
+        "end": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": -20000,
+          "maximum": 2100,
+          "description": "Last year of the peak. null = still in active use."
+        },
+        "label": {
+          "$ref": "../core.schema.json#/$defs/shortText",
+          "description": "Human label, for example \"c. 700–480 BC\" or \"1950s–1970s\"."
+        }
+      }
+    }
+  },
+  "properties": {
+    "permutations": {
+      "$ref": "../core.schema.json#/$defs/permutations"
+    },
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../core.schema.json#/$defs/slug"
+    },
+    "domain": {
+      "const": "ceramics"
+    },
+    "name": {
+      "$ref": "../core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/shortText"
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "aat": {
+          "type": "string",
+          "pattern": "^3[0-9]{8}$"
+        }
+      },
+      "description": "Open identifiers for the style. Store an id only when the record exists and matches the style."
+    },
+    "era_id": {
+      "$ref": "../core.schema.json#/$defs/slug",
+      "description": "An id from data/fashion/eras/."
+    },
+    "branch": {
+      "$ref": "#/$defs/branch",
+      "description": "The one branch of the style. Its signature pieces are objects of this branch."
+    },
+    "time_period": {
+      "$ref": "#/$defs/time_period"
+    },
+    "region": {
+      "$ref": "../core.schema.json#/$defs/shortText",
+      "description": "Where the style began or is centred."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 320
+    },
+    "philosophy": {
+      "$ref": "../core.schema.json#/$defs/philosophy"
+    },
+    "vectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ornamentation",
+        "hand_mark",
+        "refinement",
+        "glaze_depth",
+        "chromatic_intensity"
+      ],
+      "properties": {
+        "ornamentation": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = a plain surface, 5 = painted, printed, moulded or gilt ornament on every part."
+        },
+        "hand_mark": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = machine-exact and identical, 5 = each piece shows the hand: throwing rings, finger marks, irregular rims."
+        },
+        "refinement": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = coarse, porous, heavy body, 5 = thin, white, dense or translucent body."
+        },
+        "glaze_depth": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = a flat, even glaze or bare clay, 5 = deep, variegated glaze effects: pooling, crackle, ash runs, flambé."
+        },
+        "chromatic_intensity": {
+          "$ref": "../core.schema.json#/$defs/score",
+          "description": "1 = white, earth or one tone, 5 = saturated colour and bold pattern."
+        }
+      }
+    },
+    "form": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shape",
+        "profile",
+        "foot_and_rim",
+        "proportion",
+        "rules"
+      ],
+      "properties": {
+        "shape": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The outline of the piece: the vessel, the figure, the tile or the fitting."
+        },
+        "profile": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The main line of the profile: the belly, the shoulder, the neck, the edge of the tile."
+        },
+        "foot_and_rim": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The foot, the rim, the lip, the spout and the handle, or the edge and back of a tile."
+        },
+        "proportion": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "Ratios with numbers: height to width, wall thickness in mm, rim to foot, tile size in mm."
+        },
+        "rules": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        }
+      }
+    },
+    "bodies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "secondary",
+        "avoid",
+        "rule"
+      ],
+      "properties": {
+        "primary": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Clay body ids from the vocabulary: the main bodies of the style. Put the body that defines the style first."
+        },
+        "secondary": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Body or material ids for small parts, mounts, fittings or a second line of ware."
+        },
+        "avoid": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Body or material ids that break the style."
+        },
+        "rule": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The rule for the body: colour, grain, translucency, density."
+        }
+      }
+    },
+    "forming": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "methods",
+        "joins",
+        "details"
+      ],
+      "properties": {
+        "methods": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          },
+          "description": "Throwing, coiling, slab building, press moulding, slip casting, jiggering, extrusion, 3D print."
+        },
+        "joins": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How handles, spouts, sprigs, lids and parts are joined, or how tiles are set."
+        },
+        "details": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The small marks of the style: the turned foot, the throwing rings, the seal mark, the cut edge."
+        }
+      }
+    },
+    "glaze": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "glazes",
+        "decorations",
+        "pattern",
+        "gloss",
+        "wear"
+      ],
+      "properties": {
+        "glazes": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Glaze and surface ids from the vocabulary: glazes, slips and unglazed surfaces."
+        },
+        "decorations": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/slug"
+          },
+          "description": "Decoration ids from the vocabulary."
+        },
+        "pattern": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The motif, the pattern, the border and how it covers the piece."
+        },
+        "gloss": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The gloss in GU of the main surfaces."
+        },
+        "wear": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "How the surface ages: crazing, wear of gilt, patina, and if the style wants it."
+        }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "strategy",
+        "colours"
+      ],
+      "properties": {
+        "strategy": {
+          "$ref": "../core.schema.json#/$defs/sentence"
+        },
+        "colours": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "hex",
+              "role"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "hex": {
+                "$ref": "#/$defs/hex"
+              },
+              "role": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              }
+            }
+          }
+        }
+      }
+    },
+    "firing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kiln",
+        "atmosphere",
+        "temperature_c",
+        "processes",
+        "scale",
+        "signs"
+      ],
+      "properties": {
+        "kiln": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "The kiln and the fuel: pit, updraught, climbing kiln, bottle oven, tunnel kiln, electric kiln."
+        },
+        "atmosphere": {
+          "enum": [
+            "oxidation",
+            "reduction",
+            "mixed",
+            "salt-or-soda",
+            "wood-ash",
+            "raku"
+          ],
+          "description": "The main kiln atmosphere of the glaze firing."
+        },
+        "temperature_c": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "integer",
+            "minimum": 500,
+            "maximum": 1500
+          },
+          "description": "The range of the main firing in degrees Celsius, low then high."
+        },
+        "processes": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          },
+          "description": "The sequence: bisque, glaze firing, enamel firing, gilding firing."
+        },
+        "scale": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "A single potter, a workshop, a manufactory or an industrial plant, and the size of a run."
+        },
+        "signs": {
+          "$ref": "../core.schema.json#/$defs/sentence",
+          "description": "What shows how the piece was made and fired."
+        }
+      }
+    },
+    "signatures": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pieces"
+      ],
+      "properties": {
+        "pieces": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "object",
+              "form",
+              "body",
+              "glaze",
+              "decoration"
+            ],
+            "properties": {
+              "object": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "An object id of the branch of the style."
+              },
+              "form": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "body": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "A body id of the style (primary or secondary)."
+              },
+              "glaze": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "A glaze id of the style whose bodies include the kind of the body."
+              },
+              "decoration": {
+                "$ref": "../core.schema.json#/$defs/slug",
+                "description": "A decoration id of the style."
+              }
+            }
+          }
+        }
+      }
+    },
+    "prompt_primer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "positive",
+        "negative",
+        "canonical_works"
+      ],
+      "properties": {
+        "positive": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 14,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "negative": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 10,
+          "items": {
+            "$ref": "../core.schema.json#/$defs/shortText"
+          }
+        },
+        "canonical_works": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "work",
+              "maker",
+              "year"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "maker": {
+                "$ref": "../core.schema.json#/$defs/shortText"
+              },
+              "year": {
+                "type": "integer",
+                "minimum": -20000,
+                "maximum": 2100,
+                "description": "A negative year is a year BC."
+              }
+            }
+          },
+          "description": "Reference objects, for study only. Prompts never name them."
+        }
+      },
+      "description": "Vocabulary for an image prompt or a product brief. It describes form, material and finish, never a brand or a product name."
+    },
+    "evidence": {
+      "$ref": "../core.schema.json#/$defs/evidence",
+      "description": "Open-licence or public-domain images of period objects."
+    },
+    "lineage": {
+      "$ref": "../core.schema.json#/$defs/lineage"
+    },
+    "emotion": {
+      "$ref": "../core.schema.json#/$defs/emotion"
+    },
+    "agent": {
+      "$ref": "../core.schema.json#/$defs/agent"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "../core.schema.json#/$defs/sources/items"
+      }
+    }
+  }
+}

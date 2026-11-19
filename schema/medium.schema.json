@@ -20,8 +20,8 @@
       "additionalProperties": false,
       "properties": { "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" } }
     },
-    "founded": { "type": ["integer", "null"], "minimum": 1000, "maximum": 2100, "description": "The first year. Null when no open source gives it. Do not guess a year." },
-    "closed": { "type": ["integer", "null"], "minimum": 1000, "maximum": 2100, "description": "The last year. Null when it is still open, or when no open source gives it." },
+    "founded": { "type": ["integer", "null"], "minimum": -20000, "maximum": 2100, "description": "The first year. Null when no open source gives it. Do not guess a year." },
+    "closed": { "type": ["integer", "null"], "minimum": -20000, "maximum": 2100, "description": "The last year. Null when it is still open, or when no open source gives it." },
     "place": { "$ref": "core.schema.json#/$defs/shortText", "description": "The city, or \"web\" for a platform." },
     "summary": { "$ref": "core.schema.json#/$defs/sentence" },
     "styles": {

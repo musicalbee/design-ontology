@@ -1,0 +1,331 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "glass-ceramic-cookware",
+  "domain": "ceramics",
+  "name": "Glass-ceramic cookware",
+  "aliases": [
+    "Corning Ware",
+    "Pyroceram cookware",
+    "Freezer-to-oven ware"
+  ],
+  "era_id": "modern-ceramics",
+  "branch": "kitchen-and-storage",
+  "time_period": {
+    "start": 1958,
+    "end": 1990,
+    "label": "1958–1990"
+  },
+  "region": "Corning, New York, United States",
+  "summary": "Oven and flame ware made of a white glass-ceramic, a glass that is crystallised by heat. The body takes the gas flame and the freezer, and a blue cornflower decal marks the early range.",
+  "philosophy": {
+    "core_thesis": "A cook wants one pot that goes from the freezer to the flame to the table, so the body is a glass that heat turns into a fine crystal ceramic.",
+    "design_principles": [
+      "Melt a lithium-aluminosilicate glass with a nucleating agent, and form it as glass at about 1500 °C.",
+      "Heat the formed glass to about 750 to 1100 °C in a second step, called ceramming, so that fine crystals grow in it.",
+      "Leave the surface smooth, glossy and white; no separate glaze is added.",
+      "Use a wall 3 to 6 mm thick; keep the thickness even, so that the heat spreads.",
+      "Print a blue cornflower on the side with a decal in a low firing.",
+      "Fit a plastic handle or a glass lid with a rim that sits in the wall.",
+      "Make the shapes plain and round: a casserole, a saucepan, a skillet and a baking dish."
+    ],
+    "anti_patterns": [
+      "A thick, uneven stoneware wall",
+      "A hand-painted pattern",
+      "A deep glossy glaze with pooling",
+      "A red clay body",
+      "A rim that is not reinforced"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "hand_mark": 1,
+    "refinement": 4,
+    "glaze_depth": 1,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Round and oval casseroles, saucepans with handles, skillets, loaf pans and covered baking dishes, made in matched sets.",
+    "profile": "A straight wall that flares a little on a flat base; the lid is a glass dome with a knob.",
+    "foot_and_rim": "A flat base that sits on a gas ring; a thick rolled rim that takes a lid and resists chips.",
+    "proportion": "A 1.5-litre casserole is 20 cm wide and 9 cm high; wall 3 to 6 mm, rim 8 mm.",
+    "rules": [
+      "Keep the wall even, so that the heat spreads and the pot does not crack.",
+      "Print the decal in the middle of the wall, in a band 4 to 6 cm high.",
+      "Match the lid to the pot in size and colour."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "glass-ceramic"
+    ],
+    "secondary": [
+      "glass",
+      "plastic"
+    ],
+    "avoid": [
+      "earthenware",
+      "terracotta",
+      "stoneware"
+    ],
+    "rule": "Use the white glass-ceramic body, a crystal-in-glass material with almost no thermal expansion. Glass is for the lid and plastic for the handle. Porous clay bodies do not give a pan that goes from the freezer to the flame."
+  },
+  "forming": {
+    "methods": [
+      "pressing and blowing the glass in a mould",
+      "ceramming the formed glass in a controlled kiln",
+      "fire-polishing the surface",
+      "applying a decal to the side",
+      "fitting a handle or a lid"
+    ],
+    "joins": "A handle of plastic or metal is bolted through two holes cast in the wall; a glass lid sits on a ledge.",
+    "details": "A mould seam on the base, a fine matte surface on the underside, and a smooth glassy face on the inside."
+  },
+  "glaze": {
+    "glazes": [
+      "bare-clay"
+    ],
+    "decorations": [
+      "decal",
+      "undecorated",
+      "screen-print"
+    ],
+    "pattern": "A blue cornflower in a band on the side, a plain white pot for the clean range, and in later years brown or green floral prints.",
+    "gloss": "A smooth glassy gloss of about 80 to 95 GU; the surface is the body itself, with no added glaze.",
+    "wear": "The decal fades after many washes; the white body stays clean and does not craze."
+  },
+  "palette": {
+    "strategy": "A white body with one blue floral decal; later years use brown, green and orange prints of the same size.",
+    "colours": [
+      {
+        "name": "Ceramic white",
+        "hex": "#F6F5F0",
+        "role": "body"
+      },
+      {
+        "name": "Cornflower blue",
+        "hex": "#2F58A8",
+        "role": "decal flower"
+      },
+      {
+        "name": "Leaf grey-blue",
+        "hex": "#7C97BF",
+        "role": "decal leaf"
+      },
+      {
+        "name": "Handle brown",
+        "hex": "#4B3A2C",
+        "role": "handle"
+      },
+      {
+        "name": "Glass clear",
+        "hex": "#DCE8EA",
+        "role": "lid"
+      },
+      {
+        "name": "Warm grey",
+        "hex": "#C9C6BC",
+        "role": "base"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A tank furnace for the glass and a controlled heat treatment lehr for the ceramming.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      750,
+      1100
+    ],
+    "processes": [
+      "melt the glass at about 1500 °C",
+      "form the shape by pressing in a mould",
+      "hold the glass at about 750 °C so that crystals form",
+      "raise the heat to about 1100 °C to grow the crystals",
+      "fire the decal at a low heat"
+    ],
+    "scale": "A factory line that made several million pieces a year; the pans went from the freezer to a gas flame and back.",
+    "signs": "A mould seam on the base, a smooth glassy surface with no glaze runs, and a decal band."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "casserole",
+        "form": "Round casserole with a glass lid and a blue cornflower band",
+        "body": "glass-ceramic",
+        "glaze": "bare-clay",
+        "decoration": "decal"
+      },
+      {
+        "object": "baking-dish",
+        "form": "Oval covered baking dish in plain white",
+        "body": "glass-ceramic",
+        "glaze": "bare-clay",
+        "decoration": "undecorated"
+      },
+      {
+        "object": "mixing-bowl",
+        "form": "Deep bowl with a side handle and a printed floral band",
+        "body": "glass-ceramic",
+        "glaze": "bare-clay",
+        "decoration": "screen-print"
+      },
+      {
+        "object": "casserole",
+        "form": "Small casserole with two ear handles in plain white",
+        "body": "glass-ceramic",
+        "glaze": "bare-clay",
+        "decoration": "undecorated"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "1958 American glass-ceramic casserole",
+      "white crystalline body",
+      "blue cornflower decal band",
+      "glass lid with a knob",
+      "smooth glossy surface with no glaze runs",
+      "plastic handle",
+      "freezer-to-oven kitchenware",
+      "still-life product photograph, soft light"
+    ],
+    "negative": [
+      "hand-painted brushwork",
+      "stoneware speckle",
+      "red clay",
+      "thick uneven wall",
+      "deep pooled glaze"
+    ],
+    "canonical_works": [
+      {
+        "work": "Corning Ware Blue Cornflower casserole",
+        "maker": "Corning Glass Works",
+        "year": 1958
+      },
+      {
+        "work": "Pyroceram nose cone material",
+        "maker": "Corning Glass Works",
+        "year": 1957
+      },
+      {
+        "work": "Corning Ware saucepan with a plastic handle",
+        "maker": "Corning Glass Works",
+        "year": 1959
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Corningware casserole dishes",
+      "kind": "image",
+      "credit": "Splarka",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Corningware_casserole_dishes.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Corningware_casserole_dishes.jpg/960px-Corningware_casserole_dishes.jpg",
+      "maker": "Corning Glass Works"
+    },
+    {
+      "title": "Corning Ware and Visions Grab-It cookware",
+      "kind": "image",
+      "credit": "Jtfolden",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Corning_Ware_and_Visions_Grab-It_Cookware.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Corning_Ware_and_Visions_Grab-It_Cookware.jpg",
+      "maker": "Corning Glass Works"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "american-stoneware-crock"
+    ],
+    "hybridized_with": [
+      "cornishware"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A clean, hopeful modern ease: the viewer sees a white pot with a blue flower and thinks of a bright kitchen of the 1960s.",
+    "keywords": [
+      "clean",
+      "modern",
+      "practical",
+      "cheerful",
+      "optimistic"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "corning ware",
+      "glass ceramic cookware",
+      "pyroceram",
+      "blue cornflower casserole",
+      "freezer to oven ware",
+      "1960s casserole",
+      "stookey glass ceramic"
+    ],
+    "use_cases": [
+      "a retro kitchen set dressing of 1960",
+      "a museum label on early glass-ceramic ware",
+      "a cookware brief for a white, flameproof casserole"
+    ],
+    "avoid_when": [
+      "the brief needs hand-thrown stoneware",
+      "the brief needs a deep glaze effect",
+      "the brief needs a porous or rustic surface"
+    ],
+    "modifiers": [
+      {
+        "request": "rustic, thick, stoneware",
+        "toward": "american-stoneware-crock",
+        "how": "Change to a thick stoneware wall with a salt glaze and one cobalt brush stroke."
+      },
+      {
+        "request": "blue stripes, English",
+        "toward": "cornishware",
+        "how": "Change to white earthenware and replace the decal with four hand-banded blue stripes."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Glass-ceramic",
+      "url": "https://en.wikipedia.org/wiki/Glass-ceramic"
+    },
+    {
+      "title": "Wikipedia: Corning Ware",
+      "url": "https://en.wikipedia.org/wiki/Corningware"
+    }
+  ],
+  "permutations": {
+    "ornament_level": {
+      "default": 0.25,
+      "min": 0.0,
+      "max": 0.6
+    },
+    "glaze_gloss": {
+      "default": 88,
+      "min": 70,
+      "max": 95
+    },
+    "wall_thickness": {
+      "default": 4,
+      "min": 3,
+      "max": 6,
+      "note": "A glass-ceramic wall is thin and even because the heat must spread."
+    },
+    "hand_mark": {
+      "default": 0.05,
+      "min": 0.0,
+      "max": 0.25
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}

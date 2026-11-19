@@ -1,0 +1,344 @@
+{
+  "$schema": "../../../schema/domains/ceramics.schema.json",
+  "id": "delftware",
+  "domain": "ceramics",
+  "name": "Delftware",
+  "aliases": [
+    "Delft blue",
+    "Dutch tin-glazed earthenware",
+    "Hollandse porselein"
+  ],
+  "era_id": "porcelain-race",
+  "branch": "tableware",
+  "time_period": {
+    "start": 1640,
+    "end": 1780,
+    "label": "1640–1780"
+  },
+  "region": "Delft, Dutch Republic",
+  "summary": "Tin-glazed earthenware that the potters of Delft made after 1640 to copy Chinese blue-and-white porcelain. A thin buff body takes a thick white tin glaze and cobalt painting in one firing.",
+  "philosophy": {
+    "core_thesis": "A cheap local clay looks like Chinese porcelain when a white tin glaze covers it and a fast brush paints it in cobalt blue.",
+    "design_principles": [
+      "Cover the whole buff body with an opaque white tin glaze 0.5 to 1 mm thick.",
+      "Paint the cobalt on the raw, dry glaze in one pass; the glaze takes the stroke at once.",
+      "Divide a plate rim into 6 or 8 panels after Chinese kraak porcelain.",
+      "Put one scene in the well of the plate: a landscape, a flower vase or Chinese figures.",
+      "Give a fine piece a clear lead overglaze, the kwaart, for a higher gloss.",
+      "Fire the glaze at 1000 to 1100 °C in saggars, so that the flame does not touch the glaze.",
+      "Mark the base with the sign of the pottery and the initials of the owner."
+    ],
+    "anti_patterns": [
+      "A translucent vitrified body that shows light through the wall",
+      "Thin even printed lines that repeat with no change of hand",
+      "A brown or red body left bare on the front face",
+      "Bright overglaze colours over the whole surface in the early work"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "hand_mark": 4,
+    "refinement": 3,
+    "glaze_depth": 2,
+    "chromatic_intensity": 2
+  },
+  "form": {
+    "shape": "Flat plates and chargers with a wide rim, lobed dishes, tall vases and tulip vases with spouts, and jugs with a pewter lid.",
+    "profile": "A shallow well that rises to a flat or slightly curved rim; vases have a round belly and a long neck after Chinese models.",
+    "foot_and_rim": "A low foot ring or a flat base with holes for a hanging cord; the rim is plain or lobed, and the edge shows small chips of glaze.",
+    "proportion": "Plate diameter 20 to 35 cm and wall 5 to 8 mm thick, which is thicker than the porcelain that it copies.",
+    "rules": [
+      "Copy the shape of the Chinese model and keep the earthenware wall thicker.",
+      "Throw round ware on the wheel and press lobed dishes in moulds.",
+      "Keep the back of a plate glazed white, often with a thinner lead glaze."
+    ]
+  },
+  "bodies": {
+    "primary": [
+      "earthenware"
+    ],
+    "secondary": [
+      "silver"
+    ],
+    "avoid": [
+      "porcelain",
+      "bone-china",
+      "stoneware"
+    ],
+    "rule": "Mix three local and imported marls into a buff earthenware that fires soft and takes a thick tin glaze. Keep porcelain out: delftware copies it."
+  },
+  "forming": {
+    "methods": [
+      "throwing on the kick wheel",
+      "press moulding in plaster or clay moulds",
+      "turning the foot when leather-hard",
+      "slab-built tiles and plaques"
+    ],
+    "joins": "Handles and spouts are pulled or moulded and luted with slip; metal lids are mounted after the firing.",
+    "details": "Three small marks of the kiln stilts under the rim, a slightly uneven glaze edge, and a pottery mark painted under the base."
+  },
+  "glaze": {
+    "glazes": [
+      "tin-glaze",
+      "lead-glaze"
+    ],
+    "decorations": [
+      "underglaze-cobalt",
+      "overglaze-enamel",
+      "gilding"
+    ],
+    "pattern": "Chinese landscapes, flower vases, birds on branches, Dutch windmills and biblical scenes in cobalt blue on white, in panels after kraak porcelain.",
+    "gloss": "Satin to gloss, about 40 to 70 GU; pieces with a kwaart overglaze are brighter.",
+    "wear": "The tin glaze chips at the rim and shows the buff body under it; the colour of the painting stays fresh."
+  },
+  "palette": {
+    "strategy": "Cobalt blue on a milk-white ground; after 1700 some pieces add manganese purple, iron red and a little gold.",
+    "colours": [
+      {
+        "name": "Tin white",
+        "hex": "#F2F0E8",
+        "role": "ground"
+      },
+      {
+        "name": "Delft blue",
+        "hex": "#1F3F8F",
+        "role": "painting"
+      },
+      {
+        "name": "Pale wash blue",
+        "hex": "#8FA6CF",
+        "role": "shading"
+      },
+      {
+        "name": "Manganese purple",
+        "hex": "#5A3A57",
+        "role": "outline"
+      },
+      {
+        "name": "Buff body",
+        "hex": "#D9B98C",
+        "role": "chipped rim"
+      },
+      {
+        "name": "Iron red",
+        "hex": "#A63A22",
+        "role": "polychrome accent"
+      }
+    ]
+  },
+  "firing": {
+    "kiln": "A wood-fired updraught kiln with saggars; one firing for the biscuit and one for the glaze.",
+    "atmosphere": "oxidation",
+    "temperature_c": [
+      980,
+      1100
+    ],
+    "processes": [
+      "biscuit firing at about 980 °C",
+      "dipping in tin glaze",
+      "painting on the raw glaze",
+      "kwaart overglaze on fine pieces",
+      "glaze firing in saggars"
+    ],
+    "scale": "Some 30 potteries in Delft in the 1660s to 1720s, each with tens of painters on piece work.",
+    "signs": "A pottery mark under the base, stilt marks on the back, and a slight blue blur where the cobalt sank into the glaze."
+  },
+  "signatures": {
+    "pieces": [
+      {
+        "object": "dinner-plate",
+        "form": "Plate with a flat rim in 8 panels and a Chinese landscape in the well",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "serving-platter",
+        "form": "Lobed oval dish pressed in a mould, with a flower vase in the centre",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "bowl",
+        "form": "Deep bowl with Chinese figures in a garden round the outside",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "underglaze-cobalt"
+      },
+      {
+        "object": "side-plate",
+        "form": "Small plate with a polychrome flower basket and a gilt rim",
+        "body": "earthenware",
+        "glaze": "tin-glaze",
+        "decoration": "overglaze-enamel"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "17th-century Dutch tin-glazed earthenware",
+      "cobalt blue on milk-white glaze",
+      "hand-painted Chinese landscape",
+      "kraak panelled rim",
+      "brush strokes with soft blur",
+      "chipped rim showing buff clay",
+      "flower vase and birds motif",
+      "still-life museum photograph, soft north light"
+    ],
+    "negative": [
+      "translucent porcelain",
+      "printed transfer pattern",
+      "modern decal",
+      "bright plastic glaze",
+      "stoneware speckle"
+    ],
+    "canonical_works": [
+      {
+        "work": "Flower pyramid for Queen Mary II at Hampton Court",
+        "maker": "De Grieksche A (Adriaen Kocks)",
+        "year": 1700
+      },
+      {
+        "work": "Tile picture of a flower vase",
+        "maker": "De Grieksche A",
+        "year": 1700
+      },
+      {
+        "work": "Plaque with a Dutch landscape",
+        "maker": "Frederik van Frytom",
+        "year": 1700
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Dish with figures in a landscape MET ES3956.jpg",
+      "kind": "image",
+      "credit": "unknown",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dish_with_figures_in_a_landscape_MET_ES3956.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/00/Dish_with_figures_in_a_landscape_MET_ES3956.jpg",
+      "maker": "Delft pottery"
+    },
+    {
+      "title": "Plate with flowers and insects, BK-1975-43",
+      "kind": "image",
+      "credit": "Rijksmuseum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bord,_blauw_beschilderd_met_bloemen_en_insekten,_BK-1975-43.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bord%2C_blauw_beschilderd_met_bloemen_en_insekten%2C_BK-1975-43.jpg/960px-Bord%2C_blauw_beschilderd_met_bloemen_en_insekten%2C_BK-1975-43.jpg",
+      "maker": "Delft pottery"
+    },
+    {
+      "title": "Plate with a skating man and a sledge, BK-1975-58",
+      "kind": "image",
+      "credit": "Rijksmuseum",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bord_met_in_blauw_voorstelling_van_een_schaatsende_man_die_een_slede_voortduwt,_BK-1975-58.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bord_met_in_blauw_voorstelling_van_een_schaatsende_man_die_een_slede_voortduwt%2C_BK-1975-58.jpg/960px-Bord_met_in_blauw_voorstelling_van_een_schaatsende_man_die_een_slede_voortduwt%2C_BK-1975-58.jpg",
+      "maker": "Delft pottery"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "kraak-porcelain",
+      "istoriato-maiolica"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A quiet, homely calm: the viewer sees a free blue brush on a clean white ground and thinks of a Dutch kitchen or a cabinet of porcelain.",
+    "keywords": [
+      "homely",
+      "fresh",
+      "crafted",
+      "orderly",
+      "exotic"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "delftware",
+      "delft blue",
+      "dutch blue and white",
+      "tin-glazed earthenware",
+      "17th-century dutch pottery",
+      "hollands porselein",
+      "blue and white tiles and plates"
+    ],
+    "use_cases": [
+      "a tableware pattern brief in Dutch blue and white",
+      "a still-life or interior prompt with period plates",
+      "a museum label on Dutch tin-glazed earthenware"
+    ],
+    "avoid_when": [
+      "the brief needs translucent porcelain",
+      "the brief wants an industrial printed pattern",
+      "the brief is for oven or dishwasher ware"
+    ],
+    "modifiers": [
+      {
+        "request": "real porcelain, Chinese",
+        "toward": "kraak-porcelain",
+        "how": "Change the body to porcelain, keep the panelled rim, and fire to about 1300 °C."
+      },
+      {
+        "request": "printed, industrial",
+        "toward": "blue-willow-transferware",
+        "how": "Change to a white earthenware with a clear glaze and print the blue pattern from a copper plate."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Delftware",
+      "url": "https://en.wikipedia.org/wiki/Delftware"
+    },
+    {
+      "title": "Rijksmuseum: Delftware",
+      "url": "https://www.rijksmuseum.nl/en/rijksstudio/works-of-art/delftware"
+    },
+    {
+      "title": "Wikidata Q1184151",
+      "url": "https://www.wikidata.org/wiki/Q1184151"
+    }
+  ],
+  "identity": {
+    "wikidata": "Q1184151"
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.6,
+      "min": 0.3,
+      "max": 0.9
+    },
+    "glaze_gloss": {
+      "default": 55,
+      "min": 35,
+      "max": 80
+    },
+    "wall_thickness": {
+      "default": 6,
+      "min": 4,
+      "max": 10,
+      "note": "Earthenware plates are thicker than the porcelain that they copy."
+    },
+    "hand_mark": {
+      "default": 0.7,
+      "min": 0.4,
+      "max": 0.9
+    },
+    "era_blend": {
+      "default": 0.2,
+      "min": 0,
+      "max": 1
+    }
+  }
+}
