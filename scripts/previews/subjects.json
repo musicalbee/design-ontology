@@ -46,7 +46,24 @@
     "internet": {
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
       "suffix": "one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
-      "drop": "letter|lettering|type|typography|text|word|logo|wordmark|headline|interface|button|grid of|layout|drop cap|panel|divider|border|card|frame|link|ascii|numeral|label|rule|html|page|list|caption|quote|heading|monospace|^none\\b"
+      "drop": "letter|lettering|type|typography|text|word|logo|wordmark|headline|interface|button|grid of|layout|drop cap|panel|divider|border|card|frame|link|ascii|numeral|label|rule|html|page|list|caption|quote|heading|monospace|^none\\b",
+      "screens": {
+        "laptop": {
+          "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+          "suffix": "the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
+          "drop": "logo|wordmark|brand|^none\\b"
+        },
+        "phone": {
+          "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+          "suffix": "the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
+          "drop": "logo|wordmark|brand|^none\\b"
+        },
+        "phone-table": {
+          "subject": "a photograph from above of a phone that lies flat on a wooden table beside one cup of coffee and a few coffee beans, nobody in the picture, the phone screen is large in the frame and shows the app",
+          "suffix": "the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
+          "drop": "logo|wordmark|brand|^none\\b"
+        }
+      }
     },
     "graphic-movement": {
       "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
@@ -312,6 +329,97 @@
     "internet/anonymous-imageboard": {
       "drop": "Imageboard|thumbnails|post number|image thumbnail",
       "scene": "one grainy small photo print of a surprised face lying beside the cup, plain pale green and beige paper"
+    },
+    "internet/grwm-short": {
+      "frame": "phone",
+      "drop": "visual language of"
+    },
+    "internet/tweet-screenshot-meme": {
+      "frame": "phone",
+      "drop": "visual language of"
+    },
+    "internet/chat-sticker-pack": {
+      "frame": "phone"
+    },
+    "internet/photo-dump": {
+      "frame": "phone-table"
+    },
+    "internet/ai-avatar-portrait": {
+      "frame": "phone"
+    },
+    "internet/dual-camera-snapshot": {
+      "frame": "phone"
+    },
+    "internet/unicode-emoji": {
+      "frame": "phone"
+    },
+    "internet/velocity-edit": {
+      "frame": "phone"
+    },
+    "internet/mini-diffusion-meme": {
+      "frame": "phone"
+    },
+    "internet/dark-devtool-ui": {
+      "frame": "laptop"
+    },
+    "internet/japanese-dense-web": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/metro-ui": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/terminal-tui-web": {
+      "frame": "laptop"
+    },
+    "internet/bulletin-board-forum": {
+      "frame": "laptop"
+    },
+    "internet/cinemagraph": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/demotivational-poster": {
+      "frame": "laptop",
+      "drop": "visual language of|title|caption"
+    },
+    "internet/gan-portrait": {
+      "frame": "phone-table",
+      "drop": "skin",
+      "subject": "a photograph from above of a phone that lies flat on an empty wooden table beside one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app"
+    },
+    "internet/geocities-homepage": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/livestream-overlay": {
+      "frame": "laptop"
+    },
+    "internet/myspace-profile": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/net-art-browser": {
+      "frame": "laptop"
+    },
+    "internet/portal-table-layout": {
+      "frame": "laptop"
+    },
+    "internet/reddit-thread": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/usenet-thread": {
+      "frame": "laptop",
+      "drop": "visual language of"
+    },
+    "internet/video-essay": {
+      "frame": "laptop"
+    },
+    "internet/web-2-0-gloss": {
+      "frame": "laptop",
+      "drop": "visual language of"
     }
   }
 }
