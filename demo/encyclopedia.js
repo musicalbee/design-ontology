@@ -341,7 +341,12 @@
           if (G) head = s[G.key];
           return `${h}<button data-go="${esc(s.id)}" aria-pressed="false">${esc(s.name)}</button>`;
         }).join("");
-        return Promise.all(plugins.map((p) => p.load?.(ctx))).then(() => go(location.hash.slice(1)) || show(0));
+        // A style link is `<domain>.html#<id>` (demo/links.json). `?style=<id>` works too, for links where a
+        // hash gets lost; show() then writes the hash, and the query is dropped so the URL stays one form.
+        // Ids are plain kebab-case, so the hash is read raw, as the hashchange handler does: a stray % cannot throw.
+        const q = new URLSearchParams(location.search), want = location.hash.slice(1) || q.get("style");
+        if (q.has("style")) { q.delete("style"); const rest = q.toString(); history.replaceState(null, "", location.pathname + (rest ? `?${rest}` : "") + location.hash); }
+        return Promise.all(plugins.map((p) => p.load?.(ctx))).then(() => go(want) || show(0));
       });
       document.addEventListener("click", (e) => {
         const b = e.target.closest("[data-go]");
