@@ -443,9 +443,15 @@ write("graph/lineage.mmd", mermaid);
 const readme = join(ROOT, "README.md");
 if (existsSync(readme)) {
   const text = readFileSync(readme, "utf8");
-  const next = text.replace(
-    /(<!-- lineage:start -->)[\s\S]*?(<!-- lineage:end -->)/,
-    `$1\n\`\`\`mermaid\n${mermaid}\n\`\`\`\n$2`,
-  );
+  // The headline counts and the badges come from the data, so they cannot go stale.
+  const styled = new Set(styles.map((s) => s.domain)).size;
+  const next = text
+    .replace(
+      /(<!-- lineage:start -->)[\s\S]*?(<!-- lineage:end -->)/,
+      `$1\n\`\`\`mermaid\n${mermaid}\n\`\`\`\n$2`,
+    )
+    .replace(/\*\*[\w ]+ styles in [\w ]+ domains, as data\./, `**${styles.length} styles in ${styled} domains, as data.`)
+    .replace(/badge\/styles-\d+-/, `badge/styles-${styles.length}-`)
+    .replace(/badge\/domains-[^)]*?-111111/, `badge/domains-${styled}-111111`);
   if (next !== text) write("README.md", next);
 }
