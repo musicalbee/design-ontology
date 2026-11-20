@@ -130,7 +130,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** 15th-century woodcut · black-line woodcut · Nuremberg Chronicle illustration · Dürer woodcut · parallel hatching that follows the form · bold black contour · laid rag paper · monochrome relief print
+- **Positive:** 15th-century woodcut · black-line woodcut · town views and biblical scenes · apocalyptic and devotional scenes · parallel hatching that follows the form · bold black contour · laid rag paper · monochrome relief print
 - **Negative:** grey wash · halftone dots · smooth gradient · photographic tone · colour fill · digital vector line
 
 ## Techniques

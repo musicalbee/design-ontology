@@ -129,7 +129,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** Chinese modern woodcut 1930s · black and white knife cut · expressionist heavy black mass · social realist figures · rough white lines · thin paper · Lu Xun era · high contrast
+- **Positive:** Chinese modern woodcut 1930s · black and white knife cut · expressionist heavy black mass · social realist figures · rough white lines · thin paper · workers, refugees and the war of resistance · high contrast
 - **Negative:** colour gradient · halftone · photographic · soft pastel · clean vector
 
 ## Techniques

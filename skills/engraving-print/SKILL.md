@@ -129,7 +129,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** copper engraving · burin line · swelling engraved lines · cross-hatching · Goltzius engraving · plate mark · old master print · black and white intaglio
+- **Positive:** copper engraving · burin line · swelling engraved lines · cross-hatching · muscular mythological figures · plate mark · old master print · black and white intaglio
 - **Negative:** grey wash · halftone · colour · smooth gradient · vector line of one width
 
 ## Techniques

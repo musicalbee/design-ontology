@@ -125,7 +125,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** pochoir fashion plate · Gazette du Bon Ton · George Barbier illustration · Art Deco fashion illustration · flat opaque gouache · thin key line · elongated elegant figure · jade rose and gold
+- **Positive:** pochoir fashion plate · fashion gazette plate · theatre, ballet and myth in evening dress · Art Deco fashion illustration · flat opaque gouache · thin key line · elongated elegant figure · jade rose and gold
 - **Negative:** halftone · gradient · thick comic outline · photograph · 3D render
 
 ## Techniques

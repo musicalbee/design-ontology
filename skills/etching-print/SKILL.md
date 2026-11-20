@@ -128,7 +128,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** etching · Rembrandt etching · free needle line · loose cross-hatching · plate tone · plate mark · warm black ink on cream paper · intaglio print
+- **Positive:** etching · quiet landscape and scenes of daily life · free needle line · loose cross-hatching · plate tone · plate mark · warm black ink on cream paper · intaglio print
 - **Negative:** colour · halftone · smooth digital shading · vector line · flat graphic shapes
 
 ## Techniques

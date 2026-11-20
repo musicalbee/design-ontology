@@ -126,7 +126,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** colour linocut · Grosvenor School print · bold gouge marks · flat overlapping colours · rhythmic curved shapes · Art Deco motion print · Japan paper · hand-rubbed ink
+- **Positive:** colour linocut · speed, sport and machines in motion · bold gouge marks · flat overlapping colours · rhythmic curved shapes · Art Deco motion print · Japan paper · hand-rubbed ink
 - **Negative:** wood grain · halftone dots · photograph · gradient · digital vector
 
 ## Techniques

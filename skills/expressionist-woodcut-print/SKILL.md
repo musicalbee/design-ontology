@@ -125,7 +125,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** German expressionist woodcut · Die Brucke print · jagged gouge marks · flat black mass · visible plank grain · angular figures · hand-rubbed uneven ink · cheap grey paper
+- **Positive:** German expressionist woodcut · tense city street figures and dancers · jagged gouge marks · flat black mass · visible plank grain · angular figures · hand-rubbed uneven ink · cheap grey paper
 - **Negative:** smooth gradient · halftone dots · photograph · fine engraving · digital vector
 
 ## Techniques

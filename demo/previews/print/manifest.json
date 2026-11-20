@@ -22,18 +22,18 @@
     "chromolithograph-poster": {
       "file": "chromolithograph-poster.webp",
       "subject": "a Belle Epoque advertising poster: a woman in a flowing yellow dress dances with her arms raised, a halo of light behind her, a band of bold decorative lettering shapes at the top",
-      "prompt": "a Belle Epoque advertising poster: a woman in a flowing yellow dress dances with her arms raised, a halo of light behind her, a band of bold decorative lettering shapes at the top, Belle Époque poster, Jules Chéret lithograph, colour lithograph poster, crayon grain, spatter texture, dancing woman in motion, hand-drawn title lettering, red yellow and blue inks, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "prompt": "a Belle Epoque advertising poster: a woman in a flowing yellow dress dances with her arms raised, a halo of light behind her, a band of bold decorative lettering shapes at the top, Belle Époque poster, poster for a cabaret, a bicycle or a soap, colour lithograph poster, crayon grain, spatter texture, dancing woman in motion, hand-drawn title lettering, red yellow and blue inks, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 768,
       "height": 1152,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
+        "tries": 1,
         "ok": true,
         "defects": []
       }
@@ -41,26 +41,29 @@
     "engraving-print": {
       "file": "engraving-print.webp",
       "subject": "an allegorical engraving: a winged figure sits in thought on a stone step, chin on one hand, among a compass, a sphere, a ladder and an hourglass, dense crosshatched burin lines",
-      "prompt": "an allegorical engraving: a winged figure sits in thought on a stone step, chin on one hand, among a compass, a sphere, a ladder and an hourglass, dense crosshatched burin lines, copper engraving, burin line, swelling engraved lines, cross-hatching, Goltzius engraving, plate mark, old master print, black and white intaglio, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "prompt": "an allegorical engraving: a winged figure sits in thought on a stone step, chin on one hand, among a compass, a sphere, a ladder and an hourglass, dense crosshatched burin lines, copper engraving, burin line, swelling engraved lines, cross-hatching, muscular mythological figures, plate mark, old master print, black and white intaglio, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
+      "seed": 3955,
       "base_seed": 1955,
       "steps": 9,
       "width": 768,
       "height": 1152,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 2,
+        "tries": 3,
         "ok": true,
-        "defects": []
+        "defects": [
+          "ladder from the prompt is missing (not a fail condition)",
+          "chin hand fingers not clearly countable, but small in frame"
+        ]
       }
     },
     "etching-print": {
       "file": "etching-print.webp",
       "subject": "an etching of a village scene under a great old tree: small figures gather in the distance, a cottage and a road, deep bitten lines and plate tone in the shadows",
-      "prompt": "an etching of a village scene under a great old tree: small figures gather in the distance, a cottage and a road, deep bitten lines and plate tone in the shadows, etching, Rembrandt etching, free needle line, loose cross-hatching, plate tone, plate mark, warm black ink on cream paper, intaglio print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "prompt": "an etching of a village scene under a great old tree: small figures gather in the distance, a cottage and a road, deep bitten lines and plate tone in the shadows, etching, quiet landscape and scenes of daily life, free needle line, loose cross-hatching, plate tone, plate mark, warm black ink on cream paper, intaglio print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -68,7 +71,7 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 1,
@@ -98,7 +101,7 @@
     "pochoir-plate": {
       "file": "pochoir-plate.webp",
       "subject": "an Art Deco fashion plate: one slender woman in an evening gown holds a feather fan, a stylised garden behind her, flat stencilled watercolour washes",
-      "prompt": "an Art Deco fashion plate: one slender woman in an evening gown holds a feather fan, a stylised garden behind her, flat stencilled watercolour washes, pochoir fashion plate, Gazette du Bon Ton, George Barbier illustration, Art Deco fashion illustration, flat opaque gouache, thin key line, elongated elegant figure, jade rose and gold, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "prompt": "an Art Deco fashion plate: one slender woman in an evening gown holds a feather fan, a stylised garden behind her, flat stencilled watercolour washes, pochoir fashion plate, fashion gazette plate, theatre, ballet and myth in evening dress, Art Deco fashion illustration, flat opaque gouache, thin key line, elongated elegant figure, jade rose and gold, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -106,7 +109,7 @@
       "steps": 9,
       "width": 768,
       "height": 1152,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 1,
@@ -116,8 +119,8 @@
     },
     "pop-screen-print": {
       "file": "pop-screen-print.webp",
-      "subject": "a 1930s public works poster for a zoo: one elephant in flat silhouette on bold flat colour fields, a band of blocky lettering shapes at the bottom",
-      "prompt": "a 1930s public works poster for a zoo: one elephant in flat silhouette on bold flat colour fields, a band of blocky lettering shapes at the bottom, pop art screen print, Warhol silkscreen, flat bright colours, off-register black photo layer, hot pink and turquoise, coarse halftone, repeated celebrity portrait, 1960s serigraph, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "subject": "a pop art screen print of one soup can repeated in a grid of nine, each copy in a different flat colour, off-register black outline, no lettering",
+      "prompt": "a pop art screen print of one soup can repeated in a grid of nine, each copy in a different flat colour, off-register black outline, no lettering, pop art screen print, bold flat colour from the mass media, flat bright colours, off-register black photo layer, hot pink and turquoise, coarse halftone, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 4955,
@@ -125,18 +128,20 @@
       "steps": 9,
       "width": 768,
       "height": 1152,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 4,
-        "ok": true,
-        "defects": []
+        "ok": false,
+        "defects": [
+          "readable large lettering on every can (\"SOON\", \"SOEP\", \"SONP\", \"SURCIEZ\") despite the 'no lettering' prompt"
+        ]
       }
     },
     "private-press-book": {
       "file": "private-press-book.webp",
       "subject": "an open book spread on a table: two dense pages of black-letter type in two columns, a woodcut border of vines and leaves around the text, a large decorated initial letter, red ink for the headings",
-      "prompt": "an open book spread on a table: two dense pages of black-letter type in two columns, a woodcut border of vines and leaves around the text, a large decorated initial letter, red ink for the headings, Kelmscott Press page, William Morris book design, dense black text block, woodcut floral border, red and black printing, handmade paper with deckle edges, decorated initial, Arts and Crafts book, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "prompt": "an open book spread on a table: two dense pages of black-letter type in two columns, a woodcut border of vines and leaves around the text, a large decorated initial letter, red ink for the headings, hand-press page of a medieval romance, vine and leaf ornament drawn from nature, dense black text block, woodcut floral border, red and black printing, handmade paper with deckle edges, decorated initial, Arts and Crafts book, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -144,7 +149,7 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 1,
@@ -154,8 +159,8 @@
     },
     "psychedelic-concert-poster": {
       "file": "psychedelic-concert-poster.webp",
-      "subject": "a 1960s concert poster: a woman's face in profile with long hair that flows into swirling hand-drawn lettering shapes, vibrating complementary colours",
-      "prompt": "a 1960s concert poster: a woman's face in profile with long hair that flows into swirling hand-drawn lettering shapes, vibrating complementary colours, 1960s psychedelic concert poster, Fillmore poster, melting hand-drawn lettering, vibrating complementary colours, Art Nouveau revival, flat offset colour, Wes Wilson lettering, orange and violet, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "subject": "a 1960s concert poster: a head in profile with long hair that flows into swirling hand-drawn lettering shapes, vibrating complementary colours",
+      "prompt": "a 1960s concert poster: a head in profile with long hair that flows into swirling hand-drawn lettering shapes, vibrating complementary colours, 1960s psychedelic concert poster, San Francisco dance-hall poster, melting hand-drawn lettering, vibrating complementary colours, Art Nouveau revival, flat offset colour, lettering that swells to fill the shape, orange and violet, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -163,7 +168,7 @@
       "steps": 9,
       "width": 768,
       "height": 1152,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 1,
@@ -192,27 +197,8 @@
     },
     "wood-type-poster": {
       "file": "wood-type-poster.webp",
-      "subject": "a nineteenth-century broadside poster set in wood type: lines of bold letters in many sizes and typefaces, centred, rules and a star ornament between the lines",
-      "prompt": "a nineteenth-century broadside poster set in wood type: lines of bold letters in many sizes and typefaces, centred, rules and a star ornament between the lines, 19th-century wood-type poster, letterpress broadside, stacked centred lines, mixed slab and fat-face type, red and black ink, worn wood type grain, circus bill, buff poster paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
-      "model": "Z-Image-Turbo",
-      "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
-      "steps": 9,
-      "width": 768,
-      "height": 1152,
-      "generated": "2026-11-19",
-      "qa": {
-        "checker": "sonnet",
-        "tries": 2,
-        "ok": true,
-        "defects": []
-      }
-    },
-    "woodcut-relief-print": {
-      "file": "woodcut-relief-print.webp",
-      "subject": "a woodcut of an apocalyptic scene: a rider on a galloping horse above a fallen crowd, sky of gouged parallel lines, bold black cut lines",
-      "prompt": "a woodcut of an apocalyptic scene: a rider on a galloping horse above a fallen crowd, sky of gouged parallel lines, bold black cut lines, 15th-century woodcut, black-line woodcut, Nuremberg Chronicle illustration, Dürer woodcut, parallel hatching that follows the form, bold black contour, laid rag paper, monochrome relief print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "subject": "a printed nineteenth-century wood-type sale bill on a flat sheet of buff paper, five stacked centred lines that read GRAND / PUBLIC SALE / OF / HORSES / AND CATTLE, bold red and black letters in many sizes and typefaces, thin rules and small stars between the lines",
+      "prompt": "a printed nineteenth-century wood-type sale bill on a flat sheet of buff paper, five stacked centred lines that read GRAND / PUBLIC SALE / OF / HORSES / AND CATTLE, bold red and black letters in many sizes and typefaces, thin rules and small stars between the lines, 19th-century wood-type poster, letterpress broadside, stacked centred lines, mixed slab and fat-face type, red and black ink, worn wood type grain, buff poster paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 4955,
@@ -220,10 +206,32 @@
       "steps": 9,
       "width": 768,
       "height": 1152,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 4,
+        "ok": false,
+        "defects": [
+          "misspelled word: 'CATLE' instead of 'CATTLE'",
+          "line structure wrong: 'PUBLIC' and 'SALE' split onto two lines, giving seven lines instead of five"
+        ]
+      }
+    },
+    "woodcut-relief-print": {
+      "file": "woodcut-relief-print.webp",
+      "subject": "a woodcut of an apocalyptic scene: one rider on a galloping horse across an open hill, a walled town far below, sky of gouged parallel lines, bold black cut lines",
+      "prompt": "a woodcut of an apocalyptic scene: one rider on a galloping horse across an open hill, a walled town far below, sky of gouged parallel lines, bold black cut lines, 15th-century woodcut, black-line woodcut, town views and biblical scenes, apocalyptic and devotional scenes, parallel hatching that follows the form, bold black contour, laid rag paper, monochrome relief print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
         "ok": true,
         "defects": []
       }
@@ -240,6 +248,692 @@
       "width": 768,
       "height": 1152,
       "generated": "2026-11-19",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "aquatint-print": {
+      "file": "aquatint-print.webp",
+      "subject": "an aquatint of a dark satire: masked figures and owls in a dark night scene by a ruined wall, soft grain tone in many greys, burnished white lights",
+      "prompt": "an aquatint of a dark satire: masked figures and owls in a dark night scene by a ruined wall, soft grain tone in many greys, burnished white lights, aquatint print, rosin grain tone, soft grey wash, etched line with aquatint, copper plate mark, dark scenes of folly, witches and war, burnished highlights, cream laid paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "banknote-engraving-print": {
+      "file": "banknote-engraving-print.webp",
+      "subject": "a banknote specimen: an engraved allegorical head in profile with a wreath of wheat in an oval vignette, guilloche rosettes and a lathe-work border, large blank cartouches, fine-line green and black inks on cotton paper",
+      "prompt": "a banknote specimen: an engraved allegorical head in profile with a wreath of wheat in an oval vignette, guilloche rosettes and a lathe-work border, large blank cartouches, fine-line green and black inks on cotton paper, steel engraved banknote, guilloche rosette border, intaglio security print, green and black tint, vignette frame, specimen certificate, cotton paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "battala-woodcut": {
+      "file": "battala-woodcut.webp",
+      "subject": "a Bengali bazaar woodcut: the goddess Durga with ten arms rides a lion, bold black outline, flat hand-applied red, ochre and green, thin cream country paper, a strip of Bengali type verse below",
+      "prompt": "a Bengali bazaar woodcut: the goddess Durga with ten arms rides a lion, bold black outline, flat hand-applied red, ochre and green, thin cream country paper, a strip of Bengali type verse below, Battala woodcut, Bengali bazaar print, bold black outline, flat hand-applied red and ochre, thin cream country paper, Calcutta 19th century, Bengali type verse, sacred and satirical scene, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "chiaroscuro-woodcut-print": {
+      "file": "chiaroscuro-woodcut-print.webp",
+      "subject": "a Renaissance chiaroscuro woodcut: a bearded philosopher sits on a rock with a book, deep olive-green tone block, a mid green and white paper highlights, a black key block line",
+      "prompt": "a Renaissance chiaroscuro woodcut: a bearded philosopher sits on a rock with a book, deep olive-green tone block, a mid green and white paper highlights, a black key block line, chiaroscuro woodcut, three-block tone print, flat brown wash steps, cut-away paper white highlights, black key block line, Renaissance relief print, laid paper cream, slight block misregistration, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "chicha-poster": {
+      "file": "chicha-poster.webp",
+      "subject": "a Peruvian street concert poster: big fluorescent pink, green and yellow outlined letter shapes on a black ground, a tight tiled border, flat colour silkscreen, no picture",
+      "prompt": "a Peruvian street concert poster: big fluorescent pink, green and yellow outlined letter shapes on a black ground, a tight tiled border, flat colour silkscreen, no picture, Peruvian chicha poster, fluorescent pink green yellow, big outlined hand-drawn letters, silkscreen concert poster, tiled border pattern, flat colour overprint, Lima street wall, psychedelic Andean cumbia, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "chinese-modern-woodcut": {
+      "file": "chinese-modern-woodcut.webp",
+      "subject": "a Chinese 1930s black-and-white woodcut: a crowd of workers on a dock raise their fists under a dark sky, rough white knife lines, heavy black mass, thin paper",
+      "prompt": "a Chinese 1930s black-and-white woodcut: a crowd of workers on a dock raise their fists under a dark sky, rough white knife lines, heavy black mass, thin paper, Chinese modern woodcut 1930s, black and white knife cut, expressionist heavy black mass, social realist figures, rough white lines, thin paper, workers, refugees and the war of resistance, high contrast, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "collotype-print": {
+      "file": "collotype-print.webp",
+      "subject": "a collotype art plate of a museum still life: a marble bust and a vase on a table, continuous soft tone with fine reticulation grain, warm sepia monotone on matt paper",
+      "prompt": "a collotype art plate of a museum still life: a marble bust and a vase on a table, continuous soft tone with fine reticulation grain, warm sepia monotone on matt paper, collotype print, continuous tone gelatin print, fine reticulation grain, matt paper, early photographic plate, sepia brown monotone, art book reproduction plate, no halftone dots, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "constructivist-photomontage-poster": {
+      "file": "constructivist-photomontage-poster.webp",
+      "subject": "a Soviet propaganda poster: cut-out photographs of many raised hands of workers on a hard red diagonal, a black wedge and a factory chimney, bold sans-serif lettering shapes along the diagonal",
+      "prompt": "a Soviet propaganda poster: cut-out photographs of many raised hands of workers on a hard red diagonal, a black wedge and a factory chimney, bold sans-serif lettering shapes along the diagonal, constructivist poster, photomontage cut-out photographs, red, black and cream palette, diagonal composition, bold sans-serif lettering, coarse halftone, 1930 Soviet lithograph, hard-edged geometric shapes, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 3955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 3,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "cordel-xilogravura": {
+      "file": "cordel-xilogravura.webp",
+      "subject": "a Brazilian chapbook cover woodcut: a cangaceiro bandit in a half-moon leather hat on a horse among cactus, bold black and white gouge lines, a pattern of cut dots in the sky, printed on a yellow paper cover",
+      "prompt": "a Brazilian chapbook cover woodcut: a cangaceiro bandit in a half-moon leather hat on a horse among cactus, bold black and white gouge lines, a pattern of cut dots in the sky, printed on a yellow paper cover, cordel xilogravura woodcut, Northeast Brazil chapbook cover, bold black and white gouge lines, folk hero or bandit scene, coloured paper cover, blocky cut lettering, pattern fill in the background, visible wood grain, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": [
+          "title lettering reads 'CANGACEIO' (misspelled), minor and the prompt allows lettering"
+        ]
+      }
+    },
+    "crayon-lithograph-print": {
+      "file": "crayon-lithograph-print.webp",
+      "subject": "a satirical lithograph from a newspaper: three fat judges in black robes doze on a bench, greasy crayon grain, dense blacks and pale speckled greys, loose expressive drawing",
+      "prompt": "a satirical lithograph from a newspaper: three fat judges in black robes doze on a bench, greasy crayon grain, dense blacks and pale speckled greys, loose expressive drawing, crayon lithograph, caricature of judges, lawyers and politicians, greasy crayon grain, black on newsprint, grained stone speckle, expressive loose drawing, satirical newspaper print, smudged soft edges, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "dong-ho-folk-woodblock": {
+      "file": "dong-ho-folk-woodblock.webp",
+      "subject": "a Vietnamese folk New Year woodblock print: a fat pig with a yin-yang swirl on its side and five piglets, flat opaque red, yellow and green on sparkling shell-powder paper, a coarse black outline",
+      "prompt": "a Vietnamese folk New Year woodblock print: a fat pig with a yin-yang swirl on its side and five piglets, flat opaque red, yellow and green on sparkling shell-powder paper, a coarse black outline, Dong Ho folk woodblock print, flat opaque colour blocks, coarse black outline, sparkling shell-powder paper, carp and pig motifs for Tet, slight colour offset, plant and mineral colour set, hand-lettered caption, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "drypoint-print": {
+      "file": "drypoint-print.webp",
+      "subject": "a drypoint of a crowd at the foot of a hill under a storm sky, the figures cut in deep velvety burr lines, soft fuzzy blacks, plate tone and a plate mark",
+      "prompt": "a drypoint of a crowd at the foot of a hill under a storm sky, the figures cut in deep velvety burr lines, soft fuzzy blacks, plate tone and a plate mark, drypoint print, velvety burr line, scratched copper plate, soft fuzzy black line, biblical crowd scene in deep burr shadow, plate tone, plate mark, cream laid paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "ebru-marbled-paper": {
+      "file": "ebru-marbled-paper.webp",
+      "subject": "a sheet of Turkish marbled paper: combed curls and flowing veins of indigo, vermilion and ochre pigment, three tulip flowers drawn in the floating colour, a soft ivory ground",
+      "prompt": "a sheet of Turkish marbled paper: combed curls and flowing veins of indigo, vermilion and ochre pigment, three tulip flowers drawn in the floating colour, a soft ivory ground, Ottoman ebru marbling, floating pigment veins, combed curl pattern, floral drops on water, unique monotype sheet, indigo and vermilion, ivory sized paper, hand-made paper edge, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "expressionist-woodcut-print": {
+      "file": "expressionist-woodcut-print.webp",
+      "subject": "a German expressionist woodcut: three angular dancers in a city cabaret, jagged gouge marks, flat black mass with the plank grain visible, uneven hand-rubbed ink",
+      "prompt": "a German expressionist woodcut: three angular dancers in a city cabaret, jagged gouge marks, flat black mass with the plank grain visible, uneven hand-rubbed ink, German expressionist woodcut, tense city street figures and dancers, jagged gouge marks, flat black mass, visible plank grain, angular figures, hand-rubbed uneven ink, cheap grey paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "katagami-stencil-print": {
+      "file": "katagami-stencil-print.webp",
+      "subject": "a flat-laid panel of indigo cotton cloth with a stencil-resist repeat pattern of white chrysanthemums and waves, crisp cut edges with fine tie-bar bridges, flat even dye",
+      "prompt": "a flat-laid panel of indigo cotton cloth with a stencil-resist repeat pattern of white chrysanthemums and waves, crisp cut edges with fine tie-bar bridges, flat even dye, katazome stencil dyed pattern, indigo cloth with white resist, crisp stencil edges, repeating floral motif, tie-bar bridges, Ise katagami cut, mingei folk textile, flat dye, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "linocut-print": {
+      "file": "linocut-print.webp",
+      "subject": "a 1930s colour linocut of a cycle race: riders in caps on old bicycles lean into a curve in a bold rhythmic swirl, flat overlapping orange, blue and black, smooth gouge marks with no wood grain, the cut edges visible",
+      "prompt": "a 1930s colour linocut of a cycle race: riders in caps on old bicycles lean into a curve in a bold rhythmic swirl, flat overlapping orange, blue and black, smooth gouge marks with no wood grain, the cut edges visible, colour linocut, speed, sport and machines in motion, bold gouge marks, flat overlapping colours, rhythmic curved shapes, Art Deco motion print, Japan paper, hand-rubbed ink, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "meiji-kosen-ga-print": {
+      "file": "meiji-kosen-ga-print.webp",
+      "subject": "a Meiji-era Japanese woodblock night scene: a steam train on a bridge by a brick street with gas lamps, rays of light from the lamps, small figures in kimono and bowler hats, a hot aniline red sky",
+      "prompt": "a Meiji-era Japanese woodblock night scene: a steam train on a bridge by a brick street with gas lamps, rays of light from the lamps, small figures in kimono and bowler hats, a hot aniline red sky, Meiji woodblock print, aniline red sky, gaslight night scene, kosen-ga light rays, steam train and brick street, bold synthetic red and purple, Western shading in a woodcut, aged washi, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "mir-iskusstva-book-graphics": {
+      "file": "mir-iskusstva-book-graphics.webp",
+      "subject": "a Russian fairy-tale book page: a young hero on a grey wolf rides through a dark birch forest at night, a firebird in a cage, a folk ornament border of flowers and wooden carving round the picture",
+      "prompt": "a Russian fairy-tale book page: a young hero on a grey wolf rides through a dark birch forest at night, a firebird in a cage, a folk ornament border of flowers and wooden carving round the picture, Russian fairy-tale book illustration, firm black pen outline, flat watercolour tints, Russian fairy-tale ornament, folk border pattern, 1900s tale book, chromolithograph colours, stylised wood and fur patterns, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "narbut-ukrainian-graphics": {
+      "file": "narbut-ukrainian-graphics.webp",
+      "subject": "a Ukrainian book title page: a heraldic cartouche with a coat of arms of a Cossack with a musket, Baroque acanthus scrolls, a large hand-drawn ornate capital, dense black pen line on cream",
+      "prompt": "a Ukrainian book title page: a heraldic cartouche with a coat of arms of a Cossack with a musket, Baroque acanthus scrolls, a large hand-drawn ornate capital, dense black pen line on cream, Ukrainian heraldic book graphic, Ukrainian Baroque ornament, fine black pen line, heraldic cartouche, hand-drawn Baroque capitals, 1912 book cover, dense black on cream, imitation of an engraved old book, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "nianhua-new-year-print": {
+      "file": "nianhua-new-year-print.webp",
+      "subject": "a Chinese New Year woodblock print: a chubby smiling child in a red bib holds a big carp in his arms, lotus flowers around him, vermilion, green and yellow flat colour, bold black key line",
+      "prompt": "a Chinese New Year woodblock print: a chubby smiling child in a red bib holds a big carp in his arms, lotus flowers around him, vermilion, green and yellow flat colour, bold black key line, Chinese nianhua New Year print, vermilion and green flat colour, hand-painted faces, door god woodblock, bold black key line, folk auspicious motifs, coarse registration, Yangliuqing style, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "nishiki-e-polychrome-woodblock": {
+      "file": "nishiki-e-polychrome-woodblock.webp",
+      "subject": "a Japanese colour woodblock landscape: a riverside post town with a wooden arched bridge, travellers with packs and straw hats cross it, willow trees, a soft graded blue sky, flat colour blocks",
+      "prompt": "a Japanese colour woodblock landscape: a riverside post town with a wooden arched bridge, travellers with packs and straw hats cross it, willow trees, a soft graded blue sky, flat colour blocks, Japanese nishiki-e woodblock print, flat transparent colour blocks, soft bokashi gradient sky, visible wood grain, crisp sumi key line, washi paper texture, faded beni red and indigo, slight offset of colour registration, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "photogravure-print": {
+      "file": "photogravure-print.webp",
+      "subject": "a photogravure plate of a city street at dusk in mist and rain, a horse cab and lamp posts, deep velvet blacks and soft continuous grey tones, mounted on thin Japan tissue",
+      "prompt": "a photogravure plate of a city street at dusk in mist and rain, a horse cab and lamp posts, deep velvet blacks and soft continuous grey tones, mounted on thin Japan tissue, photogravure, soft-focus city street in mist, continuous tone ink, deep velvet black, pictorialist print, Japan tissue mount, aquatint grain not dots, plate mark, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "posada-broadside": {
+      "file": "posada-broadside.webp",
+      "subject": "a Mexican street broadside: the bust of one skeleton dandy in a wide hat with big flowers, seen from the shoulders up, hard black lines and cross-hatching, grey bars of small type shapes under the picture, cheap pink paper",
+      "prompt": "a Mexican street broadside: the bust of one skeleton dandy in a wide hat with big flowers, seen from the shoulders up, hard black lines and cross-hatching, grey bars of small type shapes under the picture, cheap pink paper, Mexican broadside print, zinc relief etching, black line cross-hatching, cheap coloured newsprint, letterpress type under the image, hard white line on solid black, aged foxed paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "qajar-lithographed-book": {
+      "file": "qajar-lithographed-book.webp",
+      "subject": "an open Persian lithographed book: two pages of nastaliq calligraphy in black inside ruled frames, a small pen-drawn miniature of two horsemen in combat, a red tinted title band",
+      "prompt": "an open Persian lithographed book: two pages of nastaliq calligraphy in black inside ruled frames, a small pen-drawn miniature of two horsemen in combat, a red tinted title band, Persian lithographed book page, nastaliq calligraphy in black, ruled frame border, pen-drawn miniature, stone lithograph grain, off-white laid paper, Qajar-period book, hand-tinted red title, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "ravi-varma-oleograph": {
+      "file": "ravi-varma-oleograph.webp",
+      "subject": "an Indian devotional oleograph: a goddess in a red sari stands on a pink lotus in a lake, four arms, a gold halo, two white elephants behind her, saturated vermilion and ultramarine, a varnished gloss",
+      "prompt": "an Indian devotional oleograph: a goddess in a red sari stands on a pink lotus in a lake, four arms, a gold halo, two white elephants behind her, saturated vermilion and ultramarine, a varnished gloss, Indian oleograph god print, saturated vermilion and ultramarine, glossy varnished lithograph, devotional calendar art, gold ornament and halo, title strip at the foot, smooth painted blend, yellowed shrine print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "rosta-window-stencil-poster": {
+      "file": "rosta-window-stencil-poster.webp",
+      "subject": "one single panel of a Soviet satire window poster: one big worker in a red shirt swings a hammer at a broken chain, a red flag behind him, a plain caption band below, flat stencilled colour with a thick black contour",
+      "prompt": "one single panel of a Soviet satire window poster: one big worker in a red shirt swings a hammer at a broken chain, a red flag behind him, a plain caption band below, flat stencilled colour with a thick black contour, thick black contour, rhymed hand-lettered captions, 1920 Soviet satire cartoon, brush-painted newsprint, red, yellow and black palette, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "russian-lubok-print": {
+      "file": "russian-lubok-print.webp",
+      "subject": "a Russian folk broadsheet of a mouse funeral: a column of mice with sledges and banners carry a big tomcat on a cart, a short caption cartouche above, loose hand colour",
+      "prompt": "a Russian folk broadsheet of a mouse funeral: a column of mice with sledges and banners carry a big tomcat on a cart, a short caption cartouche above, loose hand colour, Russian lubok woodcut, coarse black cut outline, flat hand-coloured vermilion and ochre, colour spilling past the line, naive folk figures, Cyrillic caption cartouche, thin toned paper, 18th-century popular print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "senjafuda-slip": {
+      "file": "senjafuda-slip.webp",
+      "subject": "one single tall narrow Japanese votive name slip on a plain paper ground: a bold black name in brush calligraphy down the middle, an ornamental border, small coloured motifs of a crane, a fan and a wave",
+      "prompt": "one single tall narrow Japanese votive name slip on a plain paper ground: a bold black name in brush calligraphy down the middle, an ornamental border, small coloured motifs of a crane, a fan and a wave, senjafuda pilgrim slip, small woodblock name slip, bold name lettering, ornamental border, vermilion and indigo, pasted on a shrine gate, Edo period ephemera, tiny format, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "shin-hanga-print": {
+      "file": "shin-hanga-print.webp",
+      "subject": "a Japanese woodblock landscape at dusk: a temple gate in falling snow, one small figure under an umbrella, a warm lamp glow in a window, a deep indigo sky that fades to grey",
+      "prompt": "a Japanese woodblock landscape at dusk: a temple gate in falling snow, one small figure under an umbrella, a warm lamp glow in a window, a deep indigo sky that fades to grey, shin-hanga landscape woodblock, soft tonal gradation at dusk, rain and snow atmosphere, many overprinted blocks, indigo night sky and lamp glow, ivory washi, small seals in the margin, calm composition, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "sosaku-hanga-print": {
+      "file": "sosaku-hanga-print.webp",
+      "subject": "a Japanese creative woodblock print: an abstract composition of a mountain, a full moon and a small fishing boat made from flat overlapping shapes, ochre, grey and black, the gouge marks and the wood grain visible in each shape",
+      "prompt": "a Japanese creative woodblock print: an abstract composition of a mountain, a full moon and a small fishing boat made from flat overlapping shapes, ochre, grey and black, the gouge marks and the wood grain visible in each shape, Japanese creative woodblock print, bold gouge marks, abstract shapes, uneven hand-printed ink, visible wood grain, limited palette, pencil signature in the margin, expressive cut line, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "stipple-engraving-print": {
+      "file": "stipple-engraving-print.webp",
+      "subject": "an oval stipple engraving of a young woman with a garland of flowers and a lamb, soft dotted tone for the skin, red-brown sanguine ink, a plate mark on cream paper",
+      "prompt": "an oval stipple engraving of a young woman with a garland of flowers and a lamb, soft dotted tone for the skin, red-brown sanguine ink, a plate mark on cream paper, stipple engraving, dotted tone portrait, sentimental allegory and society beauty, sanguine red-brown ink, crayon manner, soft flesh tones in dots, Georgian oval portrait, plate mark, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 2955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "surimono-print": {
+      "file": "surimono-print.webp",
+      "subject": "a small square Japanese New Year woodblock card: a still life of a lacquer box, a fan and a branch of plum blossom, a column of poem calligraphy beside it, metallic silver and gold dust, blind-embossed folds",
+      "prompt": "a small square Japanese New Year woodblock card: a still life of a lacquer box, a fan and a branch of plum blossom, a column of poem calligraphy beside it, metallic silver and gold dust, blind-embossed folds, Japanese surimono print, embossed paper relief, gold and silver metallic dust, small square woodblock, poem calligraphy beside the image, fine mineral pigment, burnished black, still life of fans and peonies, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "taller-grafica-popular-linocut": {
+      "file": "taller-grafica-popular-linocut.webp",
+      "subject": "a Mexican political linocut: peasants with hats and hoes march across a field under a big sun, bold white gouge lines on solid black, a hand-lettered slogan band at the foot",
+      "prompt": "a Mexican political linocut: peasants with hats and hoes march across a field under a big sun, bold white gouge lines on solid black, a hand-lettered slogan band at the foot, linocut political print, bold gouged white lines on black, Mexican workers and peasants, hand-lettered slogan, high-contrast black and white, cheap off-white paper, burnished impression, 1940s social realist print, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "ten-bamboo-studio-polychrome": {
+      "file": "ten-bamboo-studio-polychrome.webp",
+      "subject": "a Chinese painting-manual album page: one branch of bamboo and a small bird on a rock, soft feathered colour washes, the outline of each leaf raised by blind embossing, much empty pale paper",
+      "prompt": "a Chinese painting-manual album page: one branch of bamboo and a small bird on a rock, soft feathered colour washes, the outline of each leaf raised by blind embossing, much empty pale paper, Ming multi-block colour woodblock, delicate flower and bamboo, blind embossed outline, soft feathered colour, Ming dynasty album page, pale xuan paper, small colour blocks fitted, literati painting manual, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "wood-engraving-print": {
+      "file": "wood-engraving-print.webp",
+      "subject": "a small wood-engraved vignette in the middle of a page: a wading bird by a stream with reeds and a fence, white lines on black, fine parallel tint lines in the sky, much white paper around it",
+      "prompt": "a small wood-engraved vignette in the middle of a page: a wading bird by a stream with reeds and a fence, white lines on black, fine parallel tint lines in the sky, much white paper around it, wood engraving, birds and country life in a small vignette, white-line hatching, Victorian illustrated press, boxwood end-grain cut, black ink on off-white, fine parallel tint lines, tailpiece vignette, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "yuefenpai-calendar-poster": {
+      "file": "yuefenpai-calendar-poster.webp",
+      "subject": "a 1930s Shanghai calendar poster: a young woman in a qipao sits by a window with a vase of flowers, soft rubbed skin tones and watercolour washes, an art deco interior, a band of calendar boxes along the foot",
+      "prompt": "a 1930s Shanghai calendar poster: a young woman in a qipao sits by a window with a vase of flowers, soft rubbed skin tones and watercolour washes, an art deco interior, a band of calendar boxes along the foot, Shanghai yuefenpai calendar poster, 1930s Chinese beauty illustration, soft rub and watercolour skin tone, chromolithograph colour, calendar band at the foot, qipao and art deco interior, advertiser logo, cream paper, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 768,
+      "height": 1152,
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
         "tries": 1,

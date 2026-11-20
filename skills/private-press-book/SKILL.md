@@ -129,7 +129,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** Kelmscott Press page · William Morris book design · dense black text block · woodcut floral border · red and black printing · handmade paper with deckle edges · decorated initial · Arts and Crafts book
+- **Positive:** hand-press page of a medieval romance · vine and leaf ornament drawn from nature · dense black text block · woodcut floral border · red and black printing · handmade paper with deckle edges · decorated initial · Arts and Crafts book
 - **Negative:** photograph · sans-serif · wide word spacing · coated paper · flat digital colour · equal margins
 
 ## Techniques

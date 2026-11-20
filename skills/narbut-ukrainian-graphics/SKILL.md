@@ -132,7 +132,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** Narbut graphic · Ukrainian Baroque ornament · fine black pen line · heraldic cartouche · hand-drawn Baroque capitals · 1912 book cover · dense black on cream · imitation of an engraved old book
+- **Positive:** Ukrainian heraldic book graphic · Ukrainian Baroque ornament · fine black pen line · heraldic cartouche · hand-drawn Baroque capitals · 1912 book cover · dense black on cream · imitation of an engraved old book
 - **Negative:** photorealistic · gradient · 3D render · pastel · clean modern sans-serif
 
 ## Techniques

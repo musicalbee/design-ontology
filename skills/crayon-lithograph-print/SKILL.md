@@ -123,7 +123,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** crayon lithograph · Daumier caricature · greasy crayon grain · black on newsprint · grained stone speckle · expressive loose drawing · satirical newspaper print · smudged soft edges
+- **Positive:** crayon lithograph · caricature of judges, lawyers and politicians · greasy crayon grain · black on newsprint · grained stone speckle · expressive loose drawing · satirical newspaper print · smudged soft edges
 - **Negative:** colour · halftone dots · engraved fine line · photograph · digital
 
 ## Techniques
