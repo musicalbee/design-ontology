@@ -1,8 +1,8 @@
 ---
 name: weirdcore
-description: "Apply the Weirdcore style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: weirdcore, oddcore, strangecore, creepycore, uncanny nostalgia, lo-fi eerie."
+description: "Apply the Weirdcore style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: weirdcore, oddcore, strangecore, creepycore, uncanny nostalgia, lo-fi eerie."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "weirdcore"
   - "oddcore"
@@ -26,7 +26,7 @@ vector_profile:
 
 Low-quality photos of empty places, red warning text, black voids, faceless shapes and old 3D or web fragments. The mood is a strange dream memory. It grew on Tumblr, Reddit and Twitter.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Oddcore, Strangecore, Creepycore
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Oddcore, Strangecore, Creepycore
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Weirdcore, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Weirdcore, you MUST:
 
 1. Use a low-resolution photo (320px to 640px wide) scaled up with no smoothing, with JPEG blocks visible.
 2. Cast the photo with a 10% to 20% colour shift to yellow-green or magenta.

@@ -1,0 +1,335 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "reddit-thread",
+  "domain": "internet",
+  "name": "Reddit Thread",
+  "aliases": [
+    "Comment thread",
+    "Upvote thread",
+    "Subreddit"
+  ],
+  "branch": "forums-imageboards",
+  "era_id": "web-2-social",
+  "time_period": {
+    "start": 2005,
+    "end": null,
+    "label": "2005–"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile"
+  ],
+  "summary": "A link or a text post in a topic group, with a score that the crowd votes up or down, and nested comments sorted by votes, each level marked by a thin line at the left.",
+  "philosophy": {
+    "core_thesis": "The crowd ranks every post and every reply; the best answer floats to the top.",
+    "design_principles": [
+      "Put a vote column at the left of each post: an up arrow, the score and a down arrow.",
+      "Nest the comments as a tree; indent each level by 16px to 24px and draw a thin line at the left of each level.",
+      "Sort the comments by score by default, and let the reader collapse a branch with one click.",
+      "Show the group name (r/name), the user name (u/name) and the age of the post in small muted text above the title.",
+      "Colour an up vote orange and a down vote blue-violet.",
+      "Keep the page dense: titles of 16px to 18px and comments of 14px."
+    ],
+    "anti_patterns": [
+      "Linear replies with no tree",
+      "Posts with no score",
+      "Large decorative images in a comment",
+      "Long gaps between comments",
+      "One author voice with no crowd"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 2,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 1,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A main column of 640px to 740px for the post and comments, and a side column of 310px for the group rules.",
+    "whitespace_ratio": "15% to 25% of the page stays empty; comments have 8px gaps.",
+    "alignment_rules": "Everything aligns left; nested comments step right by one indent for each level.",
+    "container_geometry": "Post cards with a 4px to 16px radius; comments sit on the page with no box, only the thread line."
+  },
+  "typography": {
+    "classifications": [
+      "neo-grotesque sans",
+      "humanist sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "IBM Plex Sans",
+        "body": "Noto Sans",
+        "note": "IBM Plex Sans was the Reddit face from 2018; Noto Sans is a near open text face."
+      },
+      {
+        "display": "Arimo",
+        "body": "Arimo",
+        "note": "The old Reddit look in an Arial-like face."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.25; body 1.5.",
+    "hierarchy_rules": [
+      "Use 12px for metadata, 14px for comments and 18px for the post title.",
+      "Set user names in bold and the group name in the link colour.",
+      "Set the score in bold between the arrows."
+    ]
+  },
+  "color": {
+    "palette_structure": "A white or pale grey page with orange for up votes and the brand; 4 to 5 colours.",
+    "palette": [
+      {
+        "name": "Page Grey",
+        "hex": "#DAE0E6",
+        "role": "background"
+      },
+      {
+        "name": "Card White",
+        "hex": "#FFFFFF",
+        "role": "panel"
+      },
+      {
+        "name": "Text Ink",
+        "hex": "#1A1A1B",
+        "role": "text"
+      },
+      {
+        "name": "Meta Grey",
+        "hex": "#7C7C7C",
+        "role": "muted"
+      },
+      {
+        "name": "Upvote Orange",
+        "hex": "#FF4500",
+        "role": "accent"
+      },
+      {
+        "name": "Downvote Violet",
+        "hex": "#7193FF",
+        "role": "secondary"
+      },
+      {
+        "name": "Link Blue",
+        "hex": "#0079D3",
+        "role": "link"
+      }
+    ],
+    "contrast_rules": "Ink on white is 17:1; meta grey on white is 4.2:1 and stays for 12px metadata only; the link blue on white is 4.6:1.",
+    "surface_treatment": "Flat white cards on a pale grey page.",
+    "light_and_shadow": "No shadow, or a 1px border on the cards."
+  },
+  "materiality": {
+    "surface_simulation": "A flat web app: white cards and thin lines.",
+    "border_rules": "1px borders (#CCCCCC) on cards; 2px thread lines (#EDEFF1) at the left of the comments.",
+    "blur_and_elevation": "No blur; the cards have no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Outline icons of 16px to 20px: up and down arrows, a speech bubble, a share arrow and an award.",
+    "illustration": "The group icon and banner, and the posted images or links.",
+    "decorative_elements": [
+      "vote arrows",
+      "score",
+      "thread line",
+      "group flair",
+      "awards",
+      "collapse toggle"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "A vote arrow fills with colour at once and the score changes by one; a branch collapses with no animation.",
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "duration_ms": 100,
+    "hover_and_active": "An arrow tints on hover; the active vote stays orange or violet."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "rage-comic"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The reader feels the crowd's judgement and the pull of the next reply.",
+    "keywords": [
+      "crowd-ranked",
+      "threaded",
+      "witty",
+      "dense",
+      "argumentative",
+      "communal"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "sage",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "reddit",
+      "subreddit",
+      "upvote",
+      "comment thread",
+      "nested comments",
+      "karma",
+      "ama"
+    ],
+    "use_cases": [
+      "community Q&A pages",
+      "product feedback boards",
+      "discussion sections under articles",
+      "parody posts"
+    ],
+    "avoid_when": [
+      "The page has one author and no replies.",
+      "The brand needs a calm premium tone.",
+      "The talk is live chat."
+    ],
+    "modifiers": [
+      {
+        "request": "more anonymous",
+        "toward": "anonymous-imageboard",
+        "how": "Remove the scores and the user names; start each thread with an image."
+      },
+      {
+        "request": "older",
+        "toward": "bulletin-board-forum",
+        "how": "Put the replies in a flat table with a user column."
+      },
+      {
+        "request": "live chat",
+        "toward": "discord-server",
+        "how": "Replace the tree with a channel of messages in time order."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.25,
+      "display_case": "none",
+      "body_leading": 1.5,
+      "body_size": "14px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "ph-bold",
+        "why": "Bold outline arrows and bubbles match the vote and comment icons."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "none",
+      "seed": 2005
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "raw",
+      "why": "A plain grey page under white cards, with nothing behind the content."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#DAE0E6",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1A1A1B",
+      "--color-muted": "#7C7C7C",
+      "--color-primary": "#0079D3",
+      "--color-accent": "#FF4500",
+      "--color-border": "#CCCCCC",
+      "--font-sans": "\"Noto Sans\", Arial, sans-serif",
+      "--font-display": "\"IBM Plex Sans\", Arial, sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.2, 0, 0, 1)",
+      "--duration": "100ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#DAE0E6] text-[#1A1A1B] font-sans px-2 md:px-6"
+      },
+      {
+        "element": "heading",
+        "classes": "text-lg font-bold leading-tight"
+      },
+      {
+        "element": "body",
+        "classes": "text-sm leading-[1.5] max-w-[740px]"
+      },
+      {
+        "element": "section",
+        "classes": "rounded bg-white border border-[#CCCCCC] p-3"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-full bg-[#0079D3] px-4 py-1 text-sm font-bold text-white hover:bg-[#1484D6]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs text-[#7C7C7C]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#0079D3",
+        "#1A1A1B",
+        "#46D160"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#FF4500",
+        "#FF8717",
+        "#7193FF"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 16
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 12
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.333,
+      "default": 1.2
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Reddit",
+      "url": "https://en.wikipedia.org/wiki/Reddit"
+    },
+    {
+      "title": "Wikipedia: Steve Huffman",
+      "url": "https://en.wikipedia.org/wiki/Steve_Huffman"
+    }
+  ]
+}

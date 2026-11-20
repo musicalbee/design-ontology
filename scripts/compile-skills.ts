@@ -471,6 +471,8 @@ write(
         id: s.id,
         name: s.name,
         domain: s.domain,
+        // The family of the domain (domains/<domain>.json `family`), when it has one.
+        ...(domains.find((d) => d.id === s.domain)?.family ? { family: domains.find((d) => d.id === s.domain)!.family } : {}),
         // A branch inside the domain (fashion, ceramics, internet …), when the domain has branches.
         ...((s as { branch?: string }).branch ? { branch: (s as { branch?: string }).branch } : {}),
         era: s.era_id,

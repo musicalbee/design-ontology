@@ -12,7 +12,8 @@
 (() => {
   const base = new URL(".", document.currentScript?.src || location.href);
   const url = (p) => new URL(p, base).href;
-  const json = (p) => fetch(url(p)).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  // One network fetch per file for the page (shared with kit.js); each script parses its own copy.
+  const json = (p) => (window.doFetch ??= (u) => ((window.doFetchCache ??= new Map()).get(u) ?? window.doFetchCache.set(u, fetch(u).then((r) => (r.ok ? r.text() : null)).catch(() => null)).get(u)))(url(p)).then((t) => (t ? JSON.parse(t) : null)).catch(() => null);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const ROLE = { "key-figure": "Key figure", founder: "Founder", forerunner: "Forerunner", populariser: "Populariser",
     "trend-setter": "Trend-setter", artisan: "Artisan", rebel: "Rebel", patron: "Patron" };
@@ -122,8 +123,11 @@
       .map((s) => `<span class="r">${esc(ROLE[s.role] ?? s.role)} · ${esc(node[s.style].name)}</span>`).join("");
     const meta = [years(p), (p.nationality || []).join(", ")].filter(Boolean).join(" · ");
     const ms = (p.milestones || []).slice(0, 2).map((m) => `<li><b>${esc(m.year)}</b>${esc(m.event)}</li>`).join("");
-    return `<b>${esc(p.name)}</b>${meta ? `<div class="m">${esc(meta)}</div>` : ""}<div>${roles}</div>${p.bio ? `<p>${esc(p.bio)}</p>` : ""}` +
-      (ms ? `<ul>${ms}</ul>` : "") + (via ? `<div class="via">${esc(via)}</div>` : "");
+    // The portrait at full width (the zoom), and the orgs of the person when orgs.js has the names.
+    const pic = p.photo?.url ? `<img class="pic" src="${esc(p.photo.url)}" alt="" referrerpolicy="no-referrer" data-nozoom="1">` : "";
+    const orgs = (p.orgs || []).map((o) => window.Orgs?.org(o.org)?.name).filter(Boolean).slice(0, 3);
+    return `${pic}<b>${esc(p.name)}</b>${meta ? `<div class="m">${esc(meta)}</div>` : ""}<div>${roles}</div>${p.bio ? `<p>${esc(p.bio)}</p>` : ""}` +
+      (ms ? `<ul>${ms}</ul>` : "") + (orgs.length ? `<div class="via">${esc(orgs.join(" · "))}</div>` : "") + (via ? `<div class="via">${esc(via)}</div>` : "");
   }
 
   // One floating tip for the page, on hover and on keyboard focus.
@@ -131,10 +135,11 @@
   tipEl.className = "fx-tip";
   tipEl.setAttribute("role", "tooltip");
   tipEl.id = "fx-tip";
-  let tipFor = null;
+  let tipFor = null, mx = 0;
   const place = (el) => {
     const r = el.getBoundingClientRect(), w = tipEl.offsetWidth, h = tipEl.offsetHeight;
-    let left = Math.min(innerWidth - w - 8, Math.max(8, r.left + r.width / 2 - w / 2));
+    const cx = r.width > 360 && mx ? mx : r.left + r.width / 2; // a wide target (a time-line row): at the pointer
+    let left = Math.min(innerWidth - w - 8, Math.max(8, cx - w / 2));
     let top = r.bottom + 10;
     if (top + h > innerHeight - 8) top = Math.max(8, r.top - h - 10);
     tipEl.style.left = `${left}px`;
@@ -147,11 +152,12 @@
     tipEl.innerHTML = tip(el.dataset.person, el.dataset.style, el.dataset.via);
     el.setAttribute("aria-describedby", "fx-tip");
     place(el);
+    tipEl.querySelector("img")?.addEventListener("load", () => tipFor === el && place(el), { once: true });
     tipEl.classList.add("on");
   };
   const hideTip = () => { if (tipFor) tipFor.removeAttribute("aria-describedby"); tipFor = null; tipEl.classList.remove("on"); };
-  document.addEventListener("mouseover", (e) => { const a = e.target.closest?.("[data-person]"); a ? showTip(a) : tipFor && !tipFor.matches(":focus") && hideTip(); });
-  document.addEventListener("focusin", (e) => { const a = e.target.closest?.("[data-person]"); a ? showTip(a) : hideTip(); });
+  document.addEventListener("mouseover", (e) => { mx = e.clientX; const a = e.target.closest?.("[data-person]"); a ? showTip(a) : tipFor && !tipFor.matches(":focus") && hideTip(); });
+  document.addEventListener("focusin", (e) => { mx = 0; const a = e.target.closest?.("[data-person]"); a ? showTip(a) : hideTip(); });
   addEventListener("keydown", (e) => { if (e.key === "Escape" && tipFor) hideTip(); });
   addEventListener("scroll", hideTip, { passive: true });
 

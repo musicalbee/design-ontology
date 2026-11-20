@@ -1,8 +1,8 @@
 ---
 name: bento-grid-ui
-description: "Apply the Bento Grid UI style (2022–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: bento, bento grid, bento box layout, card grid, feature grid, modular cards."
+description: "Apply the Bento Grid UI style (2022–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: bento, bento grid, bento box layout, card grid, feature grid, modular cards."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "bento"
   - "bento grid"
@@ -27,7 +27,7 @@ vector_profile:
 
 A rectangular grid of rounded cells of mixed spans, each holding one idea, with equal small gaps between them. Apple feature pages made it the default product layout from 2022.
 
-**Period:** 2022–present · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Bento Layout, Bento Box Grid, Modular Card Grid
+**Period:** 2022–present · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Bento Layout, Bento Box Grid, Modular Card Grid
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Bento Grid UI, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Bento Grid UI, you MUST:
 
 1. Divide the page into a 4-column or 12-column grid and let each cell span 1, 2 or 3 columns and 1 or 2 rows.
 2. Keep one uniform gap of 12px to 16px between all cells, and never mix gap sizes.
@@ -251,7 +251,7 @@ A drawing with three axes at equal angles and one scale, with no vanishing point
 
 ### Modular grid (process)
 
-A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: internet, Zurich, c. 1958.
+A page or screen divided into equal columns and rows; each element fits a cell or a block of cells, so that the whole layout repeats one measure. Origin: graphic movements, Zurich, c. 1958.
 
 - Divide the page into 4 to 12 equal columns with a gutter of 1/10 to 1/5 of a column width.
 - Cut the page into rows of the same module height; align each image and text block to the lines.
@@ -285,8 +285,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **bolder**: move toward [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md) (Neo-Brutalism UI). Add a 3px black border and a 4px 4px 0 0 #000000 shadow, and fill cells with loud flat hues; keep the grid and the 16px gap.
 - If the user asks for **flatter**: move toward [`flat-design`](../flat-design/SKILL.md) (Flat Design). Remove the shadows and borders, and use solid cell fills with no photography; keep the 24px radius and the gap.
 
-- **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
+- **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
+- **Kin in another domain:** [`swiss-international`](../swiss-international/SKILL.md)
 - **Nearest by vector profile:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`duet-split-screen`](../duet-split-screen/SKILL.md), [`video-essay`](../video-essay/SKILL.md)
 
 ## Emotional target

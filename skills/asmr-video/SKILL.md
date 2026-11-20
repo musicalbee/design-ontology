@@ -1,8 +1,8 @@
 ---
 name: asmr-video
-description: "Apply the ASMR Video style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: asmr, whisper, tingles, sleep video, relaxing video, tapping sounds."
+description: "Apply the ASMR Video style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: asmr, whisper, tingles, sleep video, relaxing video, tapping sounds."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "asmr"
   - "whisper"
@@ -25,7 +25,7 @@ vector_profile:
 
 A soft, close picture with a mic near the subject. Slow hands tap, brush and whisper. The look is dim, warm and quiet, with almost no text, because sound carries the work.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** ASMR, Whisper video, Tingles video
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** ASMR, Whisper video, Tingles video
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in ASMR Video, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in ASMR Video, you MUST:
 
 1. Light the scene at 2700K to 3200K with one soft lamp and keep highlights under 85% white.
 2. Place the subject within 30cm of the lens and keep the background out of focus at f/2 or wider.

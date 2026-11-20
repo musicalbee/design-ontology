@@ -10,10 +10,11 @@
 <script src="nav.js"></script>
 <script src="meter.js"></script>
 <script src="evidence.js"></script>
+<script src="encyclopedia.js"></script>
 <script src="gallery.js"></script>
 <script>
 // The fabric time line is the other view of this domain: every cloth, with the styles that use it.
-document.querySelector("main header").insertAdjacentHTML("beforeend", '<p class="meta"><a href="fabrics.html">History of fabrics: every cloth and material on one time line</a></p>');
+Encyclopedia.page({ domain: "fashion", plugins: [Gallery], links: [["fabrics.html", "History of fabrics: every cloth and material on one time line"]] });
 </script>
 </body>
 </html>

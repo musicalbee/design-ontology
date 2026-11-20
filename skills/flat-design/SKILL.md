@@ -1,8 +1,8 @@
 ---
 name: flat-design
-description: "Apply the Flat Design style (2012–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: flat design, flat ui, flat style, no gradients, no shadows, solid colours."
+description: "Apply the Flat Design style (2012–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: flat design, flat ui, flat style, no gradients, no shadows, solid colours."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "flat design"
   - "flat ui"
@@ -29,7 +29,7 @@ vector_profile:
 
 Interfaces of solid colour fields, simple geometric shapes, bold sans-serif type and no gradients or shadows. It followed Microsoft Metro in 2010 and Windows 8 in 2012, and became the default after iOS 7 in 2013.
 
-**Period:** 2012–present · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Flat UI, Flat 2.0, Metro-inspired flat
+**Period:** 2012–present · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Flat UI, Flat 2.0, Metro-inspired flat
 
 ## When to load this skill
 
@@ -44,7 +44,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Flat Design, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Flat Design, you MUST:
 
 1. Fill every surface with one solid colour and use no gradient, texture or shadow.
 2. Build the palette from 4 to 6 saturated colours, such as turquoise, emerald, amethyst, carrot and alizarin, plus one neutral.
@@ -276,7 +276,13 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Adobe** (company, San Jose, 1982–now), made the style. A software company that makes Spectrum, the design system behind its products and experiences.
+- **Ant Group** (company, Hangzhou, 2014–now), made the style. Chinese financial services company and Alibaba affiliate. Its Ant User-Experience Design Team made Ant Design.
 - **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+- **Atlassian** (company, Sydney, 2002–now), made the style. Australian software company that Mike Cannon-Brookes and Scott Farquhar founded. It makes the Atlassian Design System.
+- **Salesforce** (company, San Francisco, 1999–now), made the style. US software company. Its UX team made the Lightning Design System, a CSS framework for Salesforce apps.
+- **SAP** (company, Walldorf, 1972–now), made the style. German software company, founded by five former IBM engineers. It makes SAP Fiori, the design system for its business software.
+- **Shopify** (company, Ottawa, 2006–now), made the style. Canadian e-commerce company. It makes the Polaris design system for its admin and for partner apps.
 - **Smashing Magazine** (magazine, web, 2006–now), published the style. An online magazine for web designers and developers. Its tutorials and free icon sets spread the glossy Web 2.0 look and then the flat look.
 
 ## Permutations
@@ -300,12 +306,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more human**: move toward [`corporate-memphis`](../corporate-memphis/SKILL.md) (Corporate Memphis). Add flat illustrated people with exaggerated proportions and a 4-hue palette; keep the solid fills and the layout.
 - If the user asks for **more grid and type**: move toward [`swiss-international`](../swiss-international/SKILL.md) (Swiss International Style). Reduce the palette to black, white and one accent; set text flush left on a 12-column grid with a single typeface.
 
-- **Came from (go here for a more orthodox version):** [`swiss-international`](../swiss-international/SKILL.md)
 - **Led to (go here for a newer version):** [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`flat-lay-feed`](../flat-lay-feed/SKILL.md), [`material-design`](../material-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`skeuomorphism`](../skeuomorphism/SKILL.md)
 - **Was rejected by:** [`anti-design`](../anti-design/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`conceptual-sketch-ui`](../conceptual-sketch-ui/SKILL.md), [`cottagecore`](../cottagecore/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`dark-academia`](../dark-academia/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`luxury-typography-web`](../luxury-typography-web/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md), [`surrealism-web`](../surrealism-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`wabi-sabi-web`](../wabi-sabi-web/SKILL.md)
-- **Mixes well with:** [`metro-ui`](../metro-ui/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md)
-- **Kin in another domain:** [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`flat-icon`](../flat-icon/SKILL.md), [`flat-logo`](../flat-logo/SKILL.md), [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`smartwatch`](../smartwatch/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
+- **Mixes well with:** [`metro-ui`](../metro-ui/SKILL.md)
+- **Kin in another domain:** [`cel-shaded-3d`](../cel-shaded-3d/SKILL.md), [`flat-icon`](../flat-icon/SKILL.md), [`flat-logo`](../flat-logo/SKILL.md), [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`minimalist-interior`](../minimalist-interior/SKILL.md), [`rams-functionalism-ui`](../rams-functionalism-ui/SKILL.md), [`smartwatch`](../smartwatch/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Nearest by vector profile:** [`minimalism-web`](../minimalism-web/SKILL.md), [`ai-chat-ui`](../ai-chat-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md)
 
 ## Emotional target

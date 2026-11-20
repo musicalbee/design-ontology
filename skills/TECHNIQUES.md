@@ -112,8 +112,8 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 1918 | — | Berlin: Raoul Hausmann and Hannah Höch of Berlin Dada cut press photographs and paste them into one sheet. | |
-| 1 | Internet | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
+| Origin | Graphic movements | 1918 | — | Berlin: Raoul Hausmann and Hannah Höch of Berlin Dada cut press photographs and paste them into one sheet. | |
+| 1 | Graphic movements | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 2 | Film & Video | 1925 | +7 years | Sergei Eisenstein carries the collision of fragments into the cut of Strike and Battleship Potemkin. | [`soviet-montage`](./soviet-montage/SKILL.md) |
 | 3 | Internet | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
 | 4 | Internet | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
@@ -459,10 +459,10 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | 1915 | — | Petrograd: Kazimir Malevich shows tilted, floating shapes in Suprematist paintings at the exhibition 0.10. | |
-| 1 | Internet | 1919 | +4 years | El Lissitzky draws Beat the Whites with the Red Wedge: a red wedge cuts into a white circle. | [`constructivism-web`](./constructivism-web/SKILL.md) |
-| 2 | Internet | c. 1924 | +9 years | Aleksandr Rodchenko sets the lines of his posters, such as the Books ad, on strong diagonals. | [`constructivism-web`](./constructivism-web/SKILL.md) |
+| 1 | Graphic movements | 1919 | +4 years | El Lissitzky draws Beat the Whites with the Red Wedge: a red wedge cuts into a white circle. | [`constructivism-web`](./constructivism-web/SKILL.md) |
+| 2 | Graphic movements | c. 1924 | +9 years | Aleksandr Rodchenko sets the lines of his posters, such as the Books ad, on strong diagonals. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 3 | Film & Video | c. 1925 | +10 years | Sergei Eisenstein stages frames of Battleship Potemkin along strong diagonals. | [`soviet-montage`](./soviet-montage/SKILL.md) |
-| 4 | Internet | c. 1928 | +13 years | Jan Tschichold teaches the asymmetric, diagonal page in Die neue Typographie. | [`swiss-international`](./swiss-international/SKILL.md) |
+| 4 | Graphic movements | c. 1928 | +13 years | Jan Tschichold teaches the asymmetric, diagonal page in Die neue Typographie. | [`swiss-international`](./swiss-international/SKILL.md) |
 
 Used by: [`suprematism`](./suprematism/SKILL.md), [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`swiss-international`](./swiss-international/SKILL.md).
 
@@ -480,7 +480,7 @@ A large first letter that drops down 2 or more lines of text and marks the start
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Typeface | 1457 | — | Mainz, Germany: The Mainz Psalter of Fust and Schöffer prints large decorated initials in red and blue. | |
-| 1 | Internet | c. 1880 | +423 years | Victorian books and magazines open chapters with engraved, ornamented initials. | [`victorian-web`](./victorian-web/SKILL.md) |
+| 1 | Graphic movements | c. 1880 | +423 years | Victorian books and magazines open chapters with engraved, ornamented initials. | [`victorian-web`](./victorian-web/SKILL.md) |
 | 2 | Internet | c. 2021 | +564 years | Editorial sites open long articles with a large serif initial over 3 to 4 lines. | [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md) |
 
 Used by: [`victorian-web`](./victorian-web/SKILL.md), [`editorial-serif-revival`](./editorial-serif-revival/SKILL.md).
@@ -632,7 +632,7 @@ A plane divided by black horizontal and vertical bars into white fields and a fe
 |---|---|---|---|---|---|
 | Origin | Painting | 1917 | — | Leiden, Netherlands: Theo van Doesburg starts the magazine De Stijl; Piet Mondrian publishes his ideas on the new plastic in painting there. | |
 | 1 | Architecture | 1924 | +7 years | Gerrit Rietveld builds the Schröder House in Utrecht from planes and bars in white, grey and primary colours. |  |
-| 2 | Internet | c. 2015 | +98 years | Web pages split the screen with black rules into white and primary-colour fields. | [`de-stijl-web`](./de-stijl-web/SKILL.md) |
+| 2 | Graphic movements | c. 2015 | +98 years | Web pages split the screen with black rules into white and primary-colour fields. | [`de-stijl-web`](./de-stijl-web/SKILL.md) |
 
 Used by: [`de-stijl-painting`](./de-stijl-painting/SKILL.md), [`de-stijl-web`](./de-stijl-web/SKILL.md).
 
@@ -666,10 +666,10 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | 1915 | — | Petrograd, Russia: Kazimir Malevich shows the Black Square and other pure shapes at the 0,10 exhibition. | |
-| 1 | Internet | 1923 | +8 years | Wassily Kandinsky asks Bauhaus students to match the circle, the square and the triangle to blue, red and yellow. | [`bauhaus`](./bauhaus/SKILL.md) |
+| 1 | Graphic movements | 1923 | +8 years | Wassily Kandinsky asks Bauhaus students to match the circle, the square and the triangle to blue, red and yellow. | [`bauhaus`](./bauhaus/SKILL.md) |
 | 2 | Ceramics | 1923 | +8 years | Malevich and his pupils build a teapot and cups from blocks and cylinders at the State Porcelain Factory. | [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md) |
 | 3 | Ceramics | c. 1930 | +15 years | Designers at the Berlin and Halle porcelain works build services from the circle, the cylinder and the flat disc. | [`bauhaus-modern-tableware`](./bauhaus-modern-tableware/SKILL.md) |
-| 4 | Internet | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
+| 4 | Graphic movements | 1961 | +46 years | Yusaku Kamekura puts one red circle over gold type on the poster for the Tokyo 1964 Olympic Games. | [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md) |
 | 5 | Internet | 1981 | +66 years | Memphis Milano sets circles, triangles and squiggles on furniture and prints in loud colour. | [`memphis-design`](./memphis-design/SKILL.md) |
 
 Used by: [`suprematism`](./suprematism/SKILL.md), [`bauhaus`](./bauhaus/SKILL.md), [`japanese-graphic-modernism`](./japanese-graphic-modernism/SKILL.md), [`memphis-design`](./memphis-design/SKILL.md), [`bauhaus-modern-tableware`](./bauhaus-modern-tableware/SKILL.md), [`suprematist-porcelain`](./suprematist-porcelain/SKILL.md).
@@ -707,7 +707,7 @@ A form shown as one solid shape with no inner line, read only from its outer edg
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Painting | c. 700 BCE | — | Corinth: Greek vase painters fill figures with black slip and scratch the detail. | |
-| 1 | Internet | c. 1759 | +2459 years | Cut black paper profiles become a fashion in France and take the name of the minister Etienne de Silhouette. |  |
+| 1 | Graphic movements | c. 1759 | +2459 years | Cut black paper profiles become a fashion in France and take the name of the minister Etienne de Silhouette. |  |
 | 2 | Film & Video | 1926 | +2626 years | Lotte Reiniger shows The Adventures of Prince Achmed, a feature film of cut paper silhouettes. |  |
 | 3 | Icons | 1972 | +2672 years | Otl Aicher draws the Munich Olympic pictograms as white-on-colour figure silhouettes. |  |
 | 4 | Icons | 2012 | +2712 years | Font Awesome 1.0 gives the web a free set of solid glyphs in an icon font. | [`solid-glyph-icon`](./solid-glyph-icon/SKILL.md), [`flat-icon`](./flat-icon/SKILL.md) |
@@ -786,7 +786,7 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 | 3 | Ceramics | c. 1929 | +4 years | Clarice Cliff paints rays and bands of flat colour on Bizarre ware. | [`art-deco-tableware`](./art-deco-tableware/SKILL.md) |
 | 4 | Interior | c. 1935 | +10 years | Hollywood decorators hang sunburst mirrors and starburst lights in the homes and sets of film stars. | [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md) |
 | 5 | Interior | 1949 | +24 years | George Nelson Associates design ray-form wall clocks for Howard Miller; the starburst mirror follows in the 1950s. | [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md) |
-| 6 | Internet | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
+| 6 | Graphic movements | c. 1957 | +32 years | Space Age signs, packaging and posters use starbursts as a sign of the future. | [`space-age`](./space-age/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md) |
 | 7 | Interior | c. 2015 | +90 years | Neo-deco rooms bring back the fan and the sunburst in brass and glass. | [`neo-deco-interior`](./neo-deco-interior/SKILL.md) |
 
 Used by: [`art-deco-architecture`](./art-deco-architecture/SKILL.md), [`art-deco-interior`](./art-deco-interior/SKILL.md), [`mid-century-modern-interior`](./mid-century-modern-interior/SKILL.md), [`space-age`](./space-age/SKILL.md), [`art-deco-web`](./art-deco-web/SKILL.md), [`neo-deco-interior`](./neo-deco-interior/SKILL.md), [`hollywood-regency-interior`](./hollywood-regency-interior/SKILL.md), [`mid-century-modern`](./mid-century-modern/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md), [`art-deco-tableware`](./art-deco-tableware/SKILL.md).
@@ -858,14 +858,14 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 |---|---|---|---|---|---|
 | Origin | Architecture | c. 1893 | — | Brussels: Victor Horta uses curved iron stems on the stair and the ceiling of the Hotel Tassel. | |
 | 1 | Interior | 1893 | +0 years | Victor Horta carries the iron whiplash line into the stair, the floor mosaic and the wall paint of the Hotel Tassel in Brussels. | [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md) |
-| 2 | Internet | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
+| 2 | Graphic movements | c. 1894 | +1 years | Hermann Obrist shows the Cyclamen wall hanging, an embroidery of one long curved stem. |  |
 | 3 | Ceramics | c. 1895 | +2 years | Tile makers press the S-curve of the plant stem in low relief on hearth tiles and friezes. | [`art-nouveau-tiles`](./art-nouveau-tiles/SKILL.md) |
 | 4 | Logo | c. 1896 | +3 years | Jugend and Pan magazines print initials and vignettes in interlaced curved lines. | [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md) |
 | 5 | Industrial design | c. 1898 | +5 years | Hector Guimard casts the whiplash line into the railings, handles and stoves of the Castel Béranger. | [`art-nouveau-object`](./art-nouveau-object/SKILL.md) |
 | 6 | Typeface | 1900 | +7 years | Otto Eckmann draws the Eckmann-Schrift with brush-like curved strokes. |  |
 | 7 | Architecture | 1900 | +7 years | Hector Guimard designs the iron entrances of the Paris Metro with plant-like curves. | [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md) |
 | 8 | Ceramics | 1900 | +7 years | Rozenburg of The Hague shows eggshell porcelain with whiplash curves at the Exposition Universelle in Paris, and French potters show flambé vases with plant forms. | [`art-nouveau-ceramics`](./art-nouveau-ceramics/SKILL.md) |
-| 9 | Internet | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
+| 9 | Graphic movements | 1966 | +73 years | San Francisco concert posters of 1966 to 1968 copy Art Nouveau lettering and whiplash curves. | [`psychedelic`](./psychedelic/SKILL.md) |
 
 Used by: [`art-nouveau-architecture`](./art-nouveau-architecture/SKILL.md), [`art-nouveau-monogram`](./art-nouveau-monogram/SKILL.md), [`art-nouveau-interior`](./art-nouveau-interior/SKILL.md), [`psychedelic`](./psychedelic/SKILL.md), [`art-nouveau-object`](./art-nouveau-object/SKILL.md), [`art-nouveau-ceramics`](./art-nouveau-ceramics/SKILL.md), [`art-nouveau-tiles`](./art-nouveau-tiles/SKILL.md).
 
@@ -1235,7 +1235,7 @@ Light as a line of coloured gas, with a soft halo that spills onto the dark grou
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 1912 | — | Paris: Georges Claude shows his neon tube at the Paris Motor Show in 1910, and a Paris hairdresser installs a neon sign in 1912. | |
+| Origin | Graphic movements | 1912 | — | Paris: Georges Claude shows his neon tube at the Paris Motor Show in 1910, and a Paris hairdresser installs a neon sign in 1912. | |
 | 1 | Architecture | 1972 | +60 years | Venturi, Scott Brown and Izenour study the neon signs of the Las Vegas Strip in Learning from Las Vegas. | [`postmodern-architecture`](./postmodern-architecture/SKILL.md) |
 | 2 | Film & Video | 1982 | +70 years | Ridley Scott fills the wet night streets of Blade Runner with neon signs. | [`neon-noir`](./neon-noir/SKILL.md) |
 | 3 | Internet | c. 2010 | +98 years | Web designers fake neon with layered text-shadow and box-shadow glows once browsers support CSS3. | [`cyberpunk-web`](./cyberpunk-web/SKILL.md), [`synthwave-web`](./synthwave-web/SKILL.md) |
@@ -1775,7 +1775,7 @@ Letters and marks drawn on a fixed grid of squares and circles, so that each gly
 |---|---|---|---|---|---|
 | Origin | Typeface | 1525 | — | Nuremberg: Albrecht Duerer publishes letters built with ruler and compass on a square grid in Underweysung der Messung. | |
 | 1 | Typeface | 1692 | +167 years | The committee of the Academie des Sciences draws the Romain du roi on a grid of 2304 small squares. |  |
-| 2 | Internet | 1925 | +400 years | Herbert Bayer draws the Universal alphabet at the Bauhaus with a compass and a ruler. | [`bauhaus`](./bauhaus/SKILL.md) |
+| 2 | Graphic movements | 1925 | +400 years | Herbert Bayer draws the Universal alphabet at the Bauhaus with a compass and a ruler. | [`bauhaus`](./bauhaus/SKILL.md) |
 | 3 | Typeface | 1927 | +402 years | Paul Renner draws Futura from the circle, the square and the triangle. | [`geometric-sans`](./geometric-sans/SKILL.md) |
 | 4 | Icons | 1972 | +447 years | Otl Aicher builds the pictograms of the Munich Olympics on a grid with angles of 45° and 90° only. | [`outline-icon`](./outline-icon/SKILL.md) |
 | 5 | Logo | 2012 | +487 years | The Twitter bird is drawn from overlapping circles with set radii. | [`geometric-symbol`](./geometric-symbol/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`flat-logo`](./flat-logo/SKILL.md) |
@@ -1897,6 +1897,28 @@ Used by: [`victorian-encaustic-tiles`](./victorian-encaustic-tiles/SKILL.md), [`
 - Keep the size of each tile within 0.5 mm.
 
 Sources: [Wikipedia: Tile](https://en.wikipedia.org/wiki/Tile); [Wikipedia: Minton tiles](https://en.wikipedia.org/wiki/Minton_%26_Co.).
+
+### Electroplating
+
+An electric current puts a thin layer of one metal on a part of another metal. Silver, gold, nickel and chromium plate give a cheap base metal a precious or hard surface.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1840 | — | Birmingham, United Kingdom: George and Henry Elkington patent cyanide silver plating; Luigi Brugnatelli gilded silver by electrolysis in 1805. | |
+| 1 | Industrial design | 1840 | +0 years | Elkington silver plate replaces Sheffield plate on factory-made tableware. | [`victorian-manufacture`](./victorian-manufacture/SKILL.md) |
+| 2 | Fashion | c. 1924 | +84 years | Gilt and chrome plate give cast base-metal jewels the look of gold and platinum. | [`costume-jewellery`](./costume-jewellery/SKILL.md) |
+| 3 | Fashion | c. 1925 | +85 years | Nickel and chrome plate cover the lamps, the radiator and the bumpers of the car. | [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md) |
+| 4 | Industrial design | 1925 | +85 years | Nickel-plated brass and chrome-plated steel become the metal of the modern lamp and chair. | [`art-deco-product`](./art-deco-product/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md) |
+| 5 | Industrial design | c. 1950 | +110 years | Silver plate and chrome stay on Nordic tableware and lamps next to stainless steel. | [`scandinavian-modern-product`](./scandinavian-modern-product/SKILL.md) |
+
+Used by: [`victorian-manufacture`](./victorian-manufacture/SKILL.md), [`costume-jewellery`](./costume-jewellery/SKILL.md), [`vintage-coachbuilt-car`](./vintage-coachbuilt-car/SKILL.md), [`art-deco-product`](./art-deco-product/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md), [`scandinavian-modern-product`](./scandinavian-modern-product/SKILL.md).
+
+- Clean and degrease the base part, then put it in a bath of a salt of the coating metal.
+- Connect the part to the negative pole and a bar of the coating metal to the positive pole.
+- Pass a direct current until the layer is 0.5 to 25 µm thick.
+- Put a copper or nickel under-layer on steel and zinc before a bright top layer.
+
+Sources: [Wikipedia: Electroplating](https://en.wikipedia.org/wiki/Electroplating); [Wikipedia: Elkington & Co.](https://en.wikipedia.org/wiki/Elkington_%26_Co.).
 
 ### Etching
 
@@ -2215,7 +2237,7 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
+| Origin | Print | 1879 | — | New York: Benjamin Day patents a mechanical tint of dots for printers; photographic halftone screens follow in the 1880s. | |
 | 1 | Photography | 1880 | +1 years | The Daily Graphic of New York prints a photograph as a halftone. |  |
 | 2 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
 | 3 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
@@ -2499,10 +2521,10 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
+| Origin | Print | c. 1796 | — | Munich: Alois Senefelder invents lithography in Bavaria. | |
 | 1 | Print | 1866 | +70 years | Jules Chéret prints his first colour posters on his own presses in Paris, with one stone for each ink. | [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md) |
 | 2 | Painting | 1879 | +83 years | Odilon Redon publishes the lithographs of Dans le rêve, black dream visions. | [`symbolism-painting`](./symbolism-painting/SKILL.md) |
-| 3 | Internet | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
+| 3 | Graphic movements | 1891 | +95 years | Henri de Toulouse-Lautrec prints the poster Moulin Rouge: La Goulue in colour lithography. | [`art-nouveau-web`](./art-nouveau-web/SKILL.md) |
 | 4 | Painting | 1895 | +99 years | Edvard Munch prints The Scream as a lithograph. | [`expressionism-painting`](./expressionism-painting/SKILL.md) |
 | 5 | Print | 1966 | +170 years | San Francisco poster artists have their dance posters printed by offset lithography, the planographic process on a rotary press. | [`psychedelic-concert-poster`](./psychedelic-concert-poster/SKILL.md) |
 
@@ -2689,13 +2711,13 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
+| Origin | Graphic movements | c. 1958 | — | Zurich: Josef Mueller-Brockmann and the journal Neue Grafik (1958) spread the modular grid for posters and print. | |
 | 1 | Industrial design | 1960 | +2 years | Dieter Rams builds the 606 shelving system on a grid of rails that a user extends at will. | [`ulm-braun-functionalism`](./ulm-braun-functionalism/SKILL.md) |
 | 2 | Logo | c. 1962 | +4 years | Otl Aicher builds the corporate design of Lufthansa on a fixed grid of marks, type and colour. | [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md) |
-| 3 | Internet | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
+| 3 | Graphic movements | 1970 | +12 years | Unimark issues the New York City Transit Graphics Standards Manual, with sign grids for the whole system. | [`swiss-international`](./swiss-international/SKILL.md) |
 | 4 | Internet | 2010 | +52 years | Windows Phone 7 builds its start screen from square and wide live tiles on one grid. | [`metro-ui`](./metro-ui/SKILL.md) |
 | 5 | Internet | 2012 | +54 years | Bootstrap 2.0 ships a 12 column fluid grid for web pages. | [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md) |
-| 6 | Internet | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
+| 6 | Graphic movements | c. 2012 | +54 years | Interfaces that follow the Braun products of Dieter Rams put each control in one cell of a strict grid. | [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md) |
 
 Used by: [`swiss-international`](./swiss-international/SKILL.md), [`swiss-modernist-mark`](./swiss-modernist-mark/SKILL.md), [`bento-grid-ui`](./bento-grid-ui/SKILL.md), [`minimalism-web`](./minimalism-web/SKILL.md), [`metro-ui`](./metro-ui/SKILL.md), [`rams-functionalism-ui`](./rams-functionalism-ui/SKILL.md), [`ulm-braun-functionalism`](./ulm-braun-functionalism/SKILL.md).
 
@@ -2943,7 +2965,7 @@ Render a room or a street offline in 3D software, then show it as a fixed image 
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Video game | 1993 | — | Spokane, Washington: Cyan's Myst shows its island as a set of pre-rendered still views. | |
+| Origin | Video game | 1993 | — | Spokane, Washington (the Cyan studio in 1993): Cyan's Myst shows its island as a set of pre-rendered still views. | |
 | 1 | Video game | 1996 | +3 years | Resident Evil sets polygon figures over pre-rendered rooms on the PlayStation. | [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md) |
 
 Used by: [`pre-rendered-backgrounds`](./pre-rendered-backgrounds/SKILL.md).
@@ -3127,7 +3149,7 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 | Origin | Print | 1907 | — | Manchester: Samuel Simon patents the use of silk as a screen for stencil printing; sign and textile printers take it up. | |
 | 1 | Print | 1962 | +55 years | Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
 | 2 | Painting | 1962 | +55 years | Warhol and Rauschenberg pull photo screens onto painted canvas. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
-| 3 | Internet | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
+| 3 | Graphic movements | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
 | 4 | Fashion | 1976 | +69 years | The King's Road shop screen prints slogans and images on plain cotton T-shirts for the London punk scene. | [`punk-fashion`](./punk-fashion/SKILL.md) |
 | 5 | Fashion | 1980 | +73 years | Surf and skate labels screen print a name or a mark on the chest of a plain T-shirt and sell it in small runs. | [`streetwear`](./streetwear/SKILL.md) |
 | 6 | Ceramics | 1981 | +74 years | Memphis designers put bold stripes, dots and speckles on ceramic vessels by screen print and decal, and fire the pattern on the glaze. | [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md) |
@@ -3411,6 +3433,23 @@ Used by: [`jasperware-neoclassical`](./jasperware-neoclassical/SKILL.md).
 
 Sources: [Wikipedia: Sprigging](https://en.wikipedia.org/wiki/Sprigging); [Wikipedia: Jasperware](https://en.wikipedia.org/wiki/Jasperware).
 
+### Thread bumping
+
+A new reply moves its thread to the top of the board; a thread with no new replies falls down and, on an imageboard, is deleted.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 1999 | — | Japan: On 2channel a reply bumps its thread up; a poster can choose sage to reply with no bump. | |
+| 1 | Internet | 2003 | +4 years | 4chan bumps a thread on each reply and deletes the old threads at the bottom of the board. | [`anonymous-imageboard`](./anonymous-imageboard/SKILL.md) |
+
+Used by: [`anonymous-imageboard`](./anonymous-imageboard/SKILL.md).
+
+- Sort the threads by the time of the last reply.
+- Let a poster reply without a bump (sage on Japanese boards).
+- Delete the last thread when a new thread starts on a full board.
+
+Sources: [Wikipedia: Imageboard](https://en.wikipedia.org/wiki/Imageboard); [Wikipedia: 2channel](https://en.wikipedia.org/wiki/2channel).
+
 ### Three-point lighting
 
 A key light, a fill light and a back light on one subject, so that the face is modelled and stands out from the ground.
@@ -3609,6 +3648,29 @@ Used by: [`country-sporting-tweed`](./country-sporting-tweed/SKILL.md), [`nordic
 
 Sources: [Wikipedia: Waxed cotton](https://en.wikipedia.org/wiki/Waxed_cotton); [Wikipedia: Oilskin](https://en.wikipedia.org/wiki/Oilskin).
 
+### Welding
+
+Two parts of metal or thermoplastic are joined: heat melts the edges, and the melt sets into one piece. The seam can show, or be ground away.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1881 | — | Paris, France: Auguste de Méritens joins lead plates with a carbon arc; oxy-acetylene gas welding follows in 1903. | |
+| 1 | Fashion | c. 1935 | +54 years | Car bodies change from wood frames to all-steel welded shells and roofs. | [`streamline-car`](./streamline-car/SKILL.md) |
+| 2 | Industrial design | c. 1945 | +64 years | Welded steel rod makes light bases and frames for chairs and tables. | [`mid-century-modern-product`](./mid-century-modern-product/SKILL.md), [`industrial-utility-product`](./industrial-utility-product/SKILL.md) |
+| 3 | Fashion | 1964 | +83 years | High-frequency welding joins the seams of PVC and vinyl clothes. | [`mod-and-mini`](./mod-and-mini/SKILL.md), [`space-age-couture`](./space-age-couture/SKILL.md) |
+| 4 | Fashion | c. 1965 | +84 years | Jewellers leave the weld and the hammer mark in view on silver and gold. | [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md) |
+| 5 | Interior | c. 1975 | +94 years | Loft furniture shows its welds and bolts as a sign of the factory. | [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md) |
+| 6 | Fashion | 1983 | +102 years | Ultrasonic welding seals the quartz module into the plastic watch case. | [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md) |
+
+Used by: [`streamline-car`](./streamline-car/SKILL.md), [`mid-century-modern-product`](./mid-century-modern-product/SKILL.md), [`industrial-utility-product`](./industrial-utility-product/SKILL.md), [`mod-and-mini`](./mod-and-mini/SKILL.md), [`space-age-couture`](./space-age-couture/SKILL.md), [`brutalist-jewellery`](./brutalist-jewellery/SKILL.md), [`industrial-loft-interior`](./industrial-loft-interior/SKILL.md), [`swiss-plastic-pop-watch`](./swiss-plastic-pop-watch/SKILL.md).
+
+- Clean the joint to bare metal and fit the parts with a gap of 0 to 3 mm.
+- Melt the edges with an electric arc or a gas flame, and add filler rod of the same metal.
+- Keep the bead even, with a width of 1 to 2 times the thickness of the sheet.
+- Grind the bead flush for a hidden joint, or leave the bead raw for a visible joint.
+
+Sources: [Wikipedia: Welding](https://en.wikipedia.org/wiki/Welding); [Wikipedia: Plastic welding](https://en.wikipedia.org/wiki/Plastic_welding).
+
 ### Wire work
 
 Actors hang on thin steel wires, so that they fly, leap and turn in a fight faster and higher than a body can.
@@ -3652,7 +3714,7 @@ A print from a block of wood with the white parts cut away; the result is flat c
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
+| Origin | Print | 868 | — | Dunhuang: The Diamond Sutra, printed in China in 868, is the oldest dated printed book made from woodblocks. | |
 | 1 | Print | 1493 | +625 years | Michael Wolgemut and Wilhelm Pleydenwurff design the 1,809 woodcuts of the Nuremberg Chronicle, which Anton Koberger prints with the text. | [`woodcut-relief-print`](./woodcut-relief-print/SKILL.md) |
 | 2 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
 | 3 | Print | 1891 | +1023 years | William Morris draws woodcut borders and initials for the Kelmscott Press, cut by William Harcourt Hooper and others. | [`private-press-book`](./private-press-book/SKILL.md) |
@@ -3713,7 +3775,7 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Photography | 1879 | — | United States: Abner Peeler patents a paint distributor; the airbrush of Charles Burdick (1893) goes into photo studios for retouch. | |
-| 1 | Internet | c. 1930 | +51 years | Streamline posters and car advertisements use airbrushed gradients and chrome. |  |
+| 1 | Graphic movements | c. 1930 | +51 years | Streamline posters and car advertisements use airbrushed gradients and chrome. |  |
 | 2 | Painting | c. 1968 | +89 years | Illustrators airbrush surreal chrome, lightning and X-ray cut-aways for album covers and magazines. | [`airbrush-surrealism`](./airbrush-surrealism/SKILL.md), [`photorealism`](./photorealism/SKILL.md) |
 | 3 | Internet | 1990 | +111 years | Photoshop 1.0 ships with an airbrush tool, and the soft spray becomes digital. | [`cyberdelia`](./cyberdelia/SKILL.md) |
 | 4 | Internet | 2001 | +122 years | Mac OS X 10.0 ships the Aqua interface, with gel buttons and scroll bars in soft gradients and one white highlight. | [`apple-aqua`](./apple-aqua/SKILL.md) |
@@ -4477,6 +4539,23 @@ Used by: [`liquid-glass-ui`](./liquid-glass-ui/SKILL.md).
 
 Sources: W3C, Filter Effects Module Level 2: backdrop-filter.
 
+### BBCode markup
+
+A light markup for forum posts: the poster writes tags in square brackets, and the board changes them into safe HTML.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1998 | — | web: BBCode was first introduced in 1998 as a markup for message boards. | |
+| 1 | Internet | c. 2014 | +16 years | phpBB 3.1 has a completely rewritten BBCode system for the posts on its boards. | [`bulletin-board-forum`](./bulletin-board-forum/SKILL.md) |
+
+Used by: [`bulletin-board-forum`](./bulletin-board-forum/SKILL.md).
+
+- Write the format in square-bracket tags, for example [b]bold[/b] or [quote]...[/quote].
+- Let the board change each tag into HTML and remove raw HTML from the post.
+- Show a quote of the earlier post in a box with the name of its poster.
+
+Sources: [Wikipedia: BBCode](https://en.wikipedia.org/wiki/BBCode); [Wikipedia: phpBB](https://en.wikipedia.org/wiki/PhpBB).
+
 ### Binaural recording
 
 A recording with two mics set at ear distance, so that a sound seems to move around the head of the listener.
@@ -4564,6 +4643,23 @@ Used by: [`cel-shaded-3d`](./cel-shaded-3d/SKILL.md).
 - Keep base colours flat; carry the shape with the bands and the lines.
 
 Sources: [Wikipedia: Cel shading](https://en.wikipedia.org/wiki/Cel_shading); [Wikipedia: Jet Set Radio](https://en.wikipedia.org/wiki/Jet_Set_Radio).
+
+### Chat channel
+
+A named room for live text chat: everyone in the room sees each message at once, in time order.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1988 | — | Oulu, Finland: Jarkko Oikarinen writes Internet Relay Chat, with rooms called channels that start with #. | |
+| 1 | Internet | 2015 | +27 years | Discord puts # text channels and voice channels in a server for each community. | [`discord-server`](./discord-server/SKILL.md) |
+
+Used by: [`discord-server`](./discord-server/SKILL.md).
+
+- Name the room with a # at the start.
+- Show the messages in time order, the newest at the bottom.
+- List the people who are in the room.
+
+Sources: [Wikipedia: Internet Relay Chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat); [Wikipedia: Discord](https://en.wikipedia.org/wiki/Discord).
 
 ### Chronograph complication
 
@@ -4904,6 +5000,23 @@ Used by: [`pbr-photoreal`](./pbr-photoreal/SKILL.md).
 
 Sources: [Wikipedia: Physically based rendering](https://en.wikipedia.org/wiki/Physically_based_rendering); [Karis, Real Shading in Unreal Engine 4, SIGGRAPH 2013](https://blog.selfshadow.com/publications/s2013-shading-course/).
 
+### Post voting
+
+Readers vote a post up or down, and the score sets the order in which the posts show.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 2004 | — | web: Digg, launched in 2004, lets its users vote links up (digging) or down (burying). This record dates the technique from Digg. | |
+| 1 | Internet | 2005 | +1 years | Reddit adds up and down votes on each post and on each comment. | [`reddit-thread`](./reddit-thread/SKILL.md) |
+
+Used by: [`reddit-thread`](./reddit-thread/SKILL.md).
+
+- Put an up and a down control beside each post.
+- Show the net score between the two controls.
+- Sort the list by the score, or by the score and the age.
+
+Sources: [Wikipedia: Digg](https://en.wikipedia.org/wiki/Digg); [Wikipedia: Reddit](https://en.wikipedia.org/wiki/Reddit).
+
 ### Profile CSS injection
 
 A user pastes CSS or HTML into a profile field, and the page takes the new style.
@@ -5064,6 +5177,23 @@ Used by: [`porcelain-insulator`](./porcelain-insulator/SKILL.md).
 - Test each disc with high voltage before use.
 
 Sources: [Wikipedia: Insulator (electricity)](https://en.wikipedia.org/wiki/Insulator_(electricity)).
+
+### Threaded discussion
+
+Replies are stored as a tree: each reply points to the post that it answers, so a reader can follow one branch of a talk.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | 1980 | — | Durham, North Carolina: Usenet links each reply to its parent, and newsreaders show the replies as a tree. | |
+| 1 | Internet | 2005 | +25 years | Reddit groups the comments on each post as a thread. | [`reddit-thread`](./reddit-thread/SKILL.md) |
+
+Used by: [`usenet-thread`](./usenet-thread/SKILL.md), [`reddit-thread`](./reddit-thread/SKILL.md).
+
+- Give each post an id and give each reply the id of its parent.
+- Show the tree with one indent for each level.
+- Quote or link the parent post in each reply.
+
+Sources: [Wikipedia: Thread (online communication)](https://en.wikipedia.org/wiki/Thread_(online_communication)); [Wikipedia: Usenet](https://en.wikipedia.org/wiki/Usenet).
 
 ### Tiled stove
 

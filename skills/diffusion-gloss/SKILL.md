@@ -1,8 +1,8 @@
 ---
 name: diffusion-gloss
-description: "Apply the Diffusion Gloss style (2022–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: midjourney look, ai render, hyperreal, stable diffusion, cinematic ai image, prompt art."
+description: "Apply the Diffusion Gloss style (2022–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: midjourney look, ai render, hyperreal, stable diffusion, cinematic ai image, prompt art."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "midjourney look"
   - "ai render"
@@ -24,7 +24,7 @@ vector_profile:
 
 A smooth, over-detailed image with a perfect rim light, a teal and amber grade and a soft bokeh ground. It became the default look of text-to-image models from 2022.
 
-**Period:** 2022–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** AI hyperreal render, Midjourney look, Prompt-core gloss
+**Period:** 2022–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** AI hyperreal render, Midjourney look, Prompt-core gloss
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Diffusion Gloss, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Diffusion Gloss, you MUST:
 
 1. Light the subject with a rim light of 2px to 6px width in amber (#F0A04B) against a teal haze (#1F8A99).
 2. Smooth skin and surfaces to a pore size of under 1px, and add fine detail of 1px to 2px on hair, fabric and metal.

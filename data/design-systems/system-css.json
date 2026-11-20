@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "system-css",
+  "name": "system.css",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2022,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://sakofchit.github.io/system.css/",
+  "tokens": {
+    "color": {
+      "on-surface": "#000000",
+      "bg": "#ffffff"
+    },
+    "type": {
+      "families": [
+        "Chicago",
+        "Geneva",
+        "Monaco"
+      ]
+    }
+  },
+  "principles": [
+    "Based on System 6, the last monochrome version"
+  ],
+  "styles": [
+    {
+      "style": "pixel-art-web",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "system.css 0.1.11 dist/system.css",
+      "url": "https://cdn.jsdelivr.net/npm/@sakun/system.css@0.1.11/dist/system.css"
+    },
+    {
+      "title": "system.css README: interfaces that resemble Apple System 6",
+      "url": "https://github.com/sakofchit/system.css"
+    }
+  ]
+}

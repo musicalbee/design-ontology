@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/cue.schema.json",
+  "title": "Cue",
+  "description": "A measured link from one physical variable of a space or scene to an emotion or a PAD axis. A cue gives a direction and a range in units, so that a 3D scene agent can set the variable. Only a study with participants is a source for a cue.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "variable",
+    "direction",
+    "effects",
+    "evidence_kind",
+    "claim",
+    "study",
+    "caveat",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "core.schema.json#/$defs/slug"
+    },
+    "name": {
+      "$ref": "core.schema.json#/$defs/shortText"
+    },
+    "variable": {
+      "enum": [
+        "ceiling-height",
+        "curvature",
+        "colour-temperature",
+        "illuminance",
+        "saturation",
+        "brightness",
+        "view-to-nature",
+        "enclosure",
+        "prospect-refuge",
+        "texture",
+        "natural-material",
+        "fractal-dimension",
+        "sound-level",
+        "sound-source",
+        "window-size",
+        "daylight",
+        "hue"
+      ],
+      "description": "The physical variable that the scene sets."
+    },
+    "direction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "change",
+        "unit",
+        "range"
+      ],
+      "properties": {
+        "change": {
+          "enum": [
+            "higher",
+            "lower",
+            "more",
+            "less",
+            "warmer",
+            "cooler",
+            "more-curved",
+            "present",
+            "within-band"
+          ],
+          "description": "The change of the variable that causes the effects."
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "description": "m, lux, K, dB(A), % of wall area, fractal dimension D, Munsell value, or a named scale."
+        },
+        "range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "from",
+            "to"
+          ],
+          "description": "The values that the study compared or the band that it found. from is the low or the start value, to is the high or the end value.",
+          "properties": {
+            "from": {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            "to": {
+              "type": [
+                "number",
+                "string"
+              ]
+            }
+          }
+        },
+        "note": {
+          "$ref": "core.schema.json#/$defs/sentence"
+        }
+      }
+    },
+    "effects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "target",
+          "sign",
+          "size"
+        ],
+        "properties": {
+          "target": {
+            "type": "string",
+            "pattern": "^([a-z0-9]+(-[a-z0-9]+)*|pad:[pad])$",
+            "description": "An emotion id from data/emotions/, or a PAD axis: pad:p, pad:a, pad:d."
+          },
+          "sign": {
+            "enum": [
+              1,
+              -1
+            ],
+            "description": "1: the change raises the target. -1: the change lowers it."
+          },
+          "size": {
+            "enum": [
+              "small",
+              "medium",
+              "large",
+              "not-reported"
+            ],
+            "description": "Our label for the effect size. If the study reports Cohen's d, use Cohen 1988: small from 0.2, medium from 0.5, large from 0.8. Otherwise the label is our reading of the reported figures. not-reported: the source gives no figure."
+          }
+        }
+      }
+    },
+    "evidence_kind": {
+      "const": "measured"
+    },
+    "claim": {
+      "$ref": "core.schema.json#/$defs/sentence",
+      "description": "What the study found, in our own words."
+    },
+    "study": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "participants",
+        "setting"
+      ],
+      "properties": {
+        "participants": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "The number of participants, or null if the source does not state it."
+        },
+        "setting": {
+          "enum": [
+            "lab",
+            "field",
+            "virtual",
+            "survey",
+            "retrospective",
+            "meta-analysis"
+          ]
+        }
+      }
+    },
+    "caveat": {
+      "$ref": "core.schema.json#/$defs/sentence",
+      "description": "The limits: sample, culture, lab or field, replications."
+    },
+    "weak": {
+      "type": "boolean",
+      "description": "true: treat the cue as a heuristic, not as a result."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "url"
+        ],
+        "properties": {
+          "title": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          }
+        }
+      }
+    }
+  }
+}

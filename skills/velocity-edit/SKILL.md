@@ -1,8 +1,8 @@
 ---
 name: velocity-edit
-description: "Apply the Velocity Edit style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: velocity edit, speed ramp, capcut edit, edit template, slow motion edit, beat edit."
+description: "Apply the Velocity Edit style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: velocity edit, speed ramp, capcut edit, edit template, slow motion edit, beat edit."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "velocity edit"
   - "speed ramp"
@@ -25,7 +25,7 @@ vector_profile:
 
 A short vertical montage with speed ramps: the clip slows to slow motion, then jumps to fast play on the beat, with glow, zoom shake and a colour grade. Editors make it with the velocity tool of CapCut.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Velocity edit, Speed-ramp edit, CapCut velocity
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Velocity edit, Speed-ramp edit, CapCut velocity
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Velocity Edit, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Velocity Edit, you MUST:
 
 1. Ramp the speed between 20% and 400%; slow to 20% to 30% on the accent beat and jump to 300% on the off-beat.
 2. Cut every 0.3 s to 1.2 s on the beat of a 120 BPM to 140 BPM track.
@@ -271,7 +271,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`photo-carousel-slideshow`](../photo-carousel-slideshow/SKILL.md)
 - **Mixes well with:** [`duet-split-screen`](../duet-split-screen/SKILL.md)
 - **Kin in another domain:** [`music-video`](../music-video/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md)
+- **Nearest by vector profile:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`discord-server`](../discord-server/SKILL.md), [`corporate-memphis`](../corporate-memphis/SKILL.md)
 
 ## Emotional target
 

@@ -1,8 +1,8 @@
 ---
 name: net-art-browser
-description: "Apply the Net Art Browser style (1994–2001) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: net art, net.art, default html, browser art, raw html, view source."
+description: "Apply the Net Art Browser style (1994–2001) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: net art, net.art, default html, browser art, raw html, view source."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "net art"
   - "net.art"
@@ -26,7 +26,7 @@ vector_profile:
 
 Art made inside the browser from raw HTML: default grey ground, blue links, Times text, broken frames and visible code. The net.art artists of the 1990s used the window as the canvas.
 
-**Period:** 1994–2001 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Browser art, net.art, Default HTML art
+**Period:** 1994–2001 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Browser art, net.art, Default HTML art
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Net Art Browser, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Net Art Browser, you MUST:
 
 1. Keep the browser defaults: Times text at 16px, blue links (#0000EE), visited links (#551A8B) and a margin of 8px.
 2. Choose one ground: white (#FFFFFF), default grey (#C0C0C0) or black with green text (#00FF00).

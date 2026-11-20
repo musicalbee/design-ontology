@@ -1,8 +1,8 @@
 ---
 name: web-2-0-gloss
-description: "Apply the Web 2.0 Gloss style (2004–2010) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: web 2.0, glossy button, beta badge, reflection logo, aqua gradient, 2005 start-up."
+description: "Apply the Web 2.0 Gloss style (2004–2010) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: web 2.0, glossy button, beta badge, reflection logo, aqua gradient, 2005 start-up."
 domain: internet
-era: postmodern-early-digital
+era: web-2-social
 triggers:
   - "web 2.0"
   - "glossy button"
@@ -26,7 +26,7 @@ vector_profile:
 
 Glossy rounded buttons, vertical gradients, reflections under logos, big friendly type, star badges and a 'beta' tag on a clean white page. Social and tool start-ups used it after 2004.
 
-**Period:** 2004–2010 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Web 2.0 style, Glossy buttons, Beta badge style
+**Period:** 2004–2010 · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Web 2.0 style, Glossy buttons, Beta badge style
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Web 2.0 Gloss, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Web 2.0 Gloss, you MUST:
 
 1. Fill buttons with a vertical 2-stop gradient, for example #5B9BD5 to #2F6DB5, with a white 1px inner highlight at the top.
 2. Set a gloss on the top half: a white overlay at 35% to 50% opacity that ends at 50% of the button height.

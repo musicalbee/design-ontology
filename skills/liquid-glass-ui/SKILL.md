@@ -1,8 +1,8 @@
 ---
 name: liquid-glass-ui
-description: "Apply the Liquid Glass style (2025–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: liquid glass, ios 26, apple glass, refractive, frosted glass new, floating toolbar."
+description: "Apply the Liquid Glass style (2025–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: liquid glass, ios 26, apple glass, refractive, frosted glass new, floating toolbar."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "liquid glass"
   - "ios 26"
@@ -26,7 +26,7 @@ vector_profile:
 
 Clear, curved glass that bends the content behind it, with specular edges, tint that adapts to the ground and floating controls. Apple introduced it in 2025 and it goes beyond frosted glass.
 
-**Period:** 2025–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Apple Liquid Glass, Refractive glass UI, iOS 26 design
+**Period:** 2025–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Apple Liquid Glass, Refractive glass UI, iOS 26 design
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Liquid Glass, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Liquid Glass, you MUST:
 
 1. Make a glass layer with backdrop blur of 16px to 40px, saturation of 160% to 200% and a tint of white or ground colour at 8% to 20% opacity.
 2. Draw a specular edge: a 1px inner border of white at 40% to 60% on the top and left, and white at 10% on the bottom and right.
@@ -253,6 +253,7 @@ A translucent layer that blurs what is behind it, so that a panel reads as frost
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+- **Apple** (company, Cupertino, 1976–now), made the style. US technology company known for consumer electronics, software and online services. It made the Aqua, iOS and Liquid Glass interface designs.
 
 ## Permutations
 

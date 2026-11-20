@@ -1,8 +1,8 @@
 ---
 name: corporate-memphis
-description: "Apply the Corporate Memphis style (2017–2022) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: corporate memphis, alegria, flat people, big tech illustration, tiny heads long arms, saas illustration."
+description: "Apply the Corporate Memphis style (2017–2022) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: corporate memphis, alegria, flat people, big tech illustration, tiny heads long arms, saas illustration."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "corporate memphis"
   - "alegria"
@@ -27,7 +27,7 @@ vector_profile:
 
 Flat vector illustrations of people with oversized limbs and tiny heads, drawn in a bright palette of 4 to 6 hues with no outlines. Facebook's Alegria system set it in 2017, and many software firms copied it.
 
-**Period:** 2017–2022 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Alegria, Big Tech Art, Flat Vector People, Globohomo
+**Period:** 2017–2022 · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Alegria, Big Tech Art, Flat Vector People, Globohomo
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Corporate Memphis, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Corporate Memphis, you MUST:
 
 1. Draw people with limbs 1.5 to 3 times longer than natural, hands and heads reduced to 10 to 15% of body height, and torsos of simple curved shapes.
 2. Fill shapes with flat colour and use no outline, no gradient and no shading; add one 10% darker tone for a fold only when needed.
@@ -289,7 +289,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md), [`liminal-spaces`](../liminal-spaces/SKILL.md), [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md)
 - **Mixes well with:** [`blob-world`](../blob-world/SKILL.md), [`claymorphism`](../claymorphism/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md)
 - **Kin in another domain:** [`risograph-print`](../risograph-print/SKILL.md)
-- **Nearest by vector profile:** [`rage-comic`](../rage-comic/SKILL.md), [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
+- **Nearest by vector profile:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`rage-comic`](../rage-comic/SKILL.md), [`reddit-thread`](../reddit-thread/SKILL.md)
 
 ## Emotional target
 

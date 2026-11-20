@@ -1,8 +1,8 @@
 ---
 name: mini-diffusion-meme
-description: "Apply the Mini-Diffusion Meme style (2022–2023) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: dall-e mini, craiyon, 3x3 grid, ai meme, smudged ai images, prompt meme."
+description: "Apply the Mini-Diffusion Meme style (2022–2023) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: dall-e mini, craiyon, 3x3 grid, ai meme, smudged ai images, prompt meme."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "dall-e mini"
   - "craiyon"
@@ -24,7 +24,7 @@ vector_profile:
 
 A 3x3 grid of small, smudged images that answer a silly text prompt, with warped faces and soft shapes. It went viral in 2022 from a free, low-resolution image model.
 
-**Period:** 2022–2023 · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** DALL-E mini meme, Craiyon grid, Smudge grid
+**Period:** 2022–2023 · **Era:** Short video and AI · **Domain:** Internet · **Also called:** DALL-E mini meme, Craiyon grid, Smudge grid
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Mini-Diffusion Meme, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Mini-Diffusion Meme, you MUST:
 
 1. Arrange 9 images in a 3x3 grid of 256px tiles with a 4px gap and no gutter.
 2. Let each tile show a blur of 1px to 2px and a visible JPEG block pattern at 8px blocks.

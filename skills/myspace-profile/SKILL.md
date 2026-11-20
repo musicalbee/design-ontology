@@ -1,8 +1,8 @@
 ---
 name: myspace-profile
-description: "Apply the Myspace Profile style (2003–2010) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: myspace, top 8, profile page, custom css profile, glitter text, 2000s social profile."
+description: "Apply the Myspace Profile style (2003–2010) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: myspace, top 8, profile page, custom css profile, glitter text, 2000s social profile."
 domain: internet
-era: postmodern-early-digital
+era: web-1
 triggers:
   - "myspace"
   - "top 8"
@@ -26,7 +26,7 @@ vector_profile:
 
 A user profile page that the owner restyled with pasted CSS: a wallpaper, glitter text, a music player, a Top 8 friends grid and a mirror-selfie photo. Myspace made the page a personal stage.
 
-**Period:** 2003–2010 · **Era:** Postmodern & Early Digital · **Domain:** Internet · **Also called:** Social profile page, Custom CSS profile, Top 8 profile
+**Period:** 2003–2010 · **Era:** Web 1.0 · **Domain:** Internet · **Also called:** Social profile page, Custom CSS profile, Top 8 profile
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Myspace Profile, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Myspace Profile, you MUST:
 
 1. Replace the page ground with a full-bleed wallpaper: a band photo, a pattern or a gradient, fixed at the viewport.
 2. Make boxes semi-transparent: black at 70% opacity with a 1px border in a bright accent such as #FF3399.
@@ -289,7 +289,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`portal-table-layout`](../portal-table-layout/SKILL.md)
 - **Mixes well with:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Kin in another domain:** [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md)
+- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
 
 ## Emotional target
 

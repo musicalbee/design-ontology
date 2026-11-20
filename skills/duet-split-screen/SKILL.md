@@ -1,8 +1,8 @@
 ---
 name: duet-split-screen
-description: "Apply the Duet Split-Screen style (2018–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: duet, split screen, stitch, react video, side by side video, reaction duet."
+description: "Apply the Duet Split-Screen style (2018–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: duet, split screen, stitch, react video, side by side video, reaction duet."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "duet"
   - "split screen"
@@ -24,7 +24,7 @@ vector_profile:
 
 Two video panels side by side in one vertical frame: the source clip on one half and a new reaction or performance on the other. TikTok added the Duet tool in 2018.
 
-**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Duet video, Side-by-side reaction, Stitch and duet
+**Period:** 2018–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Duet video, Side-by-side reaction, Stitch and duet
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Duet Split-Screen, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Duet Split-Screen, you MUST:
 
 1. Split the 1080 x 1920 px frame into two panels of 540 x 960 px at the centre, or into two halves of 1080 x 960 px.
 2. Keep a 4 px gap in the page colour between the two panels.

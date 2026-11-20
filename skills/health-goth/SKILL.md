@@ -1,8 +1,8 @@
 ---
 name: health-goth
-description: "Apply the Health Goth style (2013–2016) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: health goth, healthgoth, gym goth, black sportswear, 3D render blade, dark athletic."
+description: "Apply the Health Goth style (2013–2016) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: health goth, healthgoth, gym goth, black sportswear, 3D render blade, dark athletic."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "health goth"
   - "healthgoth"
@@ -25,7 +25,7 @@ vector_profile:
 
 Black, white and silver, 3D-rendered blades and mesh forms, sportswear and gym signs, with a cold, clean look. It grew from a 2013 online group that mixed goth, sport and net art.
 
-**Period:** 2013–2016 · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Healthgoth, Health goth
+**Period:** 2013–2016 · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Healthgoth, Health goth
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Health Goth, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Health Goth, you MUST:
 
 1. Set the ground at #0A0A0C and use white (#F4F4F5) as the main ink.
 2. Render one 3D form (a blade, a mesh or a chrome ring) at 40% to 60% of the frame, with no people.

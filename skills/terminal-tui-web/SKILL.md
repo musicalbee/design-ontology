@@ -1,8 +1,8 @@
 ---
 name: terminal-tui-web
-description: "Apply the Terminal / TUI Web style (2017–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: terminal, tui, command line, cli aesthetic, monospace ui, hacker style."
+description: "Apply the Terminal / TUI Web style (2017–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: terminal, tui, command line, cli aesthetic, monospace ui, hacker style."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "terminal"
   - "tui"
@@ -27,7 +27,7 @@ vector_profile:
 
 A monospace grid, box-drawing borders, a dark or phosphor ground and keyboard hints. It borrows from command-line tools and text user interfaces to make web pages that feel like a terminal.
 
-**Period:** 2017–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Terminal UI, TUI aesthetic, Console web
+**Period:** 2017–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Terminal UI, TUI aesthetic, Console web
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Terminal / TUI Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Terminal / TUI Web, you MUST:
 
 1. Set every character on a fixed grid: one monospace at 14px to 16px, character width 8px to 10px, line height 20px to 24px.
 2. Align all blocks to whole characters and whole lines; widths are multiples of 1 ch and heights multiples of 1 line.
@@ -278,7 +278,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`material-design`](../material-design/SKILL.md)
 - **Mixes well with:** [`brutalist-web`](../brutalist-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Kin in another domain:** [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`monospace`](../monospace/SKILL.md)
-- **Nearest by vector profile:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md)
+- **Nearest by vector profile:** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`kaomoji-emoticon`](../kaomoji-emoticon/SKILL.md)
 
 ## Emotional target
 

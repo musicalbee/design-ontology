@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "chat-channel",
+  "name": "Chat channel",
+  "aliases": [
+    "IRC channel",
+    "Text channel"
+  ],
+  "kind": "technology",
+  "summary": "A named room for live text chat: everyone in the room sees each message at once, in time order.",
+  "how": [
+    "Name the room with a # at the start.",
+    "Show the messages in time order, the newest at the bottom.",
+    "List the people who are in the room."
+  ],
+  "origin": {
+    "domain": "internet",
+    "year": 1988,
+    "where": "Oulu, Finland",
+    "note": "Jarkko Oikarinen writes Internet Relay Chat, with rooms called channels that start with #."
+  },
+  "adoptions": [
+    {
+      "domain": "internet",
+      "year": 2015,
+      "via": "Discord puts # text channels and voice channels in a server for each community.",
+      "styles": [
+        "discord-server"
+      ]
+    }
+  ],
+  "styles": [
+    "discord-server"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Internet Relay Chat",
+      "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat"
+    },
+    {
+      "title": "Wikipedia: Discord",
+      "url": "https://en.wikipedia.org/wiki/Discord"
+    }
+  ]
+}

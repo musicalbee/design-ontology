@@ -1,8 +1,8 @@
 ---
 name: video-essay
-description: "Apply the Video Essay style (2014–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: video essay, analysis video, commentary, long-form, documentary style, explainer essay."
+description: "Apply the Video Essay style (2014–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: video essay, analysis video, commentary, long-form, documentary style, explainer essay."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "video essay"
   - "analysis video"
@@ -25,7 +25,7 @@ vector_profile:
 
 A voice reads an argument over film clips, stills, quotes and maps. Clean type, a steady grid, slow zooms and a muted grade give the frame the calm of a printed essay.
 
-**Period:** 2014–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Essay video, Long-form commentary, Analysis video
+**Period:** 2014–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Essay video, Long-form commentary, Analysis video
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Video Essay, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Video Essay, you MUST:
 
 1. Show one piece of evidence in each shot and hold it for 4s to 10s.
 2. Set the clip in a frame at 80% to 90% of the width with a 24px black margin.
@@ -279,7 +279,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`clickbait-thumbnail`](../clickbait-thumbnail/SKILL.md)
 - **Kin in another domain:** [`creator-vlog`](../creator-vlog/SKILL.md), [`documentary-verite`](../documentary-verite/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus`](../bauhaus/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`clean-girl`](../clean-girl/SKILL.md)
+- **Nearest by vector profile:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`clean-girl`](../clean-girl/SKILL.md), [`unicode-emoji`](../unicode-emoji/SKILL.md)
 
 ## Emotional target
 

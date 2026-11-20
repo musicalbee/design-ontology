@@ -37,16 +37,18 @@ export function workflow(vars: Record<string, string | number>) {
 
 // The words that a prompt with people, hands or long thin objects gets. The scan found most glitches where
 // hands touch hands or objects, where two bodies overlap, and on guns, bars, poles and cutlery.
-const PEOPLE = /\b(people|person|man|men|woman|women|girl|boy|child|children|couple|family|crowd|actor|dancers?|fighters?|workers?|figure|hands?|fingers?|faces?|portrait|bride|athlete|runner|singer|model)\b/i;
+const PEOPLE = /\b(people|person|man|men|woman|women|girl|boy|child|children|couple|family|crowd|actor|dancers?|fighters?|workers?|figure|hands?|fingers?|faces?|portrait|bride|athlete|runner|singer|(fashion|runway|life|artist's) models?)\b/i;
 const LONG = /\b(gun|revolver|pistol|rifle|sword|knife|bar|pole|stick|rail|cane|umbrella|chopsticks|fork|spoon|bat|cue|guitar|trombone|ladder)\b/i;
-// A negated mention ("no people", "no person in the frame") is not a person. Remove it before the test, or an
+// A negated mention ("no people", "no person in the frame") is not a person, and the hands of a watch or an
+// open-face case are not a person's hands or face. A craft word (hand-thrown, hand-painted) is
+// not a hand either. Remove it before the test, or an
 // empty room gets the anatomy words and the model draws hands into it.
-const NEGATED = /\b(no|without)\s+(\w+\s+){0,2}?(people|persons?|figures?|humans?|faces?|hands?)\b|\bnobody\b|\bno one\b/gi;
+const NOT_A_PERSON = /\b(no|without|not a single|empty of|free of)\s+(\w+\s+){0,2}?(people|persons?|figures?|humans?|faces?|hands?|man|men|woman|women|child|children|crowds?)\b|\bnobody\b|\bno one\b|\b(spade|blued|hour|minute|second|clock|watch|dauphine|baton|sword|leaf)\s+hands\b|\b(open|watch|clock|dial|cliff|rock|type|brick|stone|coal|window|wall|north|south|east|west)[- ]faces?\b|\bhand-[a-z]+/gi;
 export function guard(prompt: string) {
   // A frame of a set came back as a triptych or a collage in the scan; ask for one picture each time. The words
   // are positive: at cfg 1 there is no negative prompt, and "no panels" put the word "panels" in the prompt.
   const add: string[] = ["one single continuous full-frame image"];
-  if (PEOPLE.test(prompt.replace(NEGATED, ""))) add.push("natural human anatomy, five fingers on each hand, hands apart and clearly separate, each person a separate whole body, clear faces");
+  if (PEOPLE.test(prompt.replace(NOT_A_PERSON, ""))) add.push("natural human anatomy, five fingers on each hand, hands apart and clearly separate, each person a separate whole body, clear faces");
   if (LONG.test(prompt)) add.push("every object at its true real-world size and length");
   return `${prompt}, ${add.join(", ")}`;
 }
@@ -89,8 +91,9 @@ async function once(prompt: string, out: string, size: { width: number; height: 
 // Render one prompt to a WebP file. Returns the record for a manifest.
 // The base seed is fixed (SEED, or SEED + n for the frames of a set), so a render can be made again. When the
 // vision check finds a glitch, the next try uses the base seed + 1000 × try. "base_seed" keeps the base, so
-// the renderer can see that a record is up to date.
-export async function renderWebp(prompt: string, out: string, size: { width: number; height: number }, prefix: string, seed = SEED) {
+// the renderer can see that a record is up to date. With "expect", the check also fails a render whose
+// subject or colour is not the expected one.
+export async function renderWebp(prompt: string, out: string, size: { width: number; height: number }, prefix: string, seed = SEED, expect?: string) {
   const text = guard(prompt);
   // When no try passes, the try with the fewest defects stays, and its record says ok: false.
   let best: { tmp: string; seed: number; qa?: any } | undefined;
@@ -98,7 +101,7 @@ export async function renderWebp(prompt: string, out: string, size: { width: num
     const s = seed + 1000 * k;
     const tmp = await once(text, out.replace(/\.webp$/, `.try${k}.webp`), size, `${prefix}-${k}`, s);
     if (!QA) { best = { tmp, seed: s }; break; }
-    const v = await inspect(tmp, prompt);
+    const v = await inspect(tmp, prompt, expect);
     const qa = { checker: v.checker, tries: k + 1, ok: v.ok, defects: v.defects };
     if (!best || v.ok || v.defects.length < best.qa.defects.length) { if (best) execFileSync("rm", ["-f", best.tmp]); best = { tmp, seed: s, qa }; }
     else execFileSync("rm", ["-f", tmp]);

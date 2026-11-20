@@ -1,8 +1,8 @@
 ---
 name: dark-devtool-ui
-description: "Apply the Dark-Mode Developer Tool style (2016–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: dark mode, developer tool, dev tool, linear style, command palette, vercel style."
+description: "Apply the Dark-Mode Developer Tool style (2016–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: dark mode, developer tool, dev tool, linear style, command palette, vercel style."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "dark mode"
   - "developer tool"
@@ -27,7 +27,7 @@ vector_profile:
 
 Near-black surfaces, 1px hairline borders, one saturated accent, a monospace for data and keyboard hints on every action. It came from code editors and terminals and now defines software for engineers.
 
-**Period:** 2016–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Dev-tool dark UI, Linear style, Code-editor UI
+**Period:** 2016–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Dev-tool dark UI, Linear style, Code-editor UI
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Dark-Mode Developer Tool, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Dark-Mode Developer Tool, you MUST:
 
 1. Use a near-black ground (#0B0B0E) and 2 or 3 surface steps of 4% to 8% lightness each; no pure black and no pure white.
 2. Draw every border as a 1px hairline in white at 8% to 12% opacity; panels have a radius of 6px to 8px.

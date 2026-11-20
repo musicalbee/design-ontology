@@ -166,6 +166,15 @@ A woven or knit cloth that is coated with plasticised PVC, so that it is shiny, 
 - Heat the coated cloth so that the layer fuses and sets with a smooth, shiny face.
 - Cut and weld or tape the seams so that they keep out the water.
 
+### Welding (process)
+
+Two parts of metal or thermoplastic are joined: heat melts the edges, and the melt sets into one piece. The seam can show, or be ground away. Origin: industrial design, Paris, France, 1881.
+
+- Clean the joint to bare metal and fit the parts with a gap of 0 to 3 mm.
+- Melt the edges with an electric arc or a gas flame, and add filler rod of the same metal.
+- Keep the bead even, with a width of 1 to 2 times the thickness of the sheet.
+- Grind the bead flush for a hidden joint, or leave the bead raw for a visible joint.
+
 ## Organisations
 
 The groups, studios, companies, schools, channels and backers that carried this style.

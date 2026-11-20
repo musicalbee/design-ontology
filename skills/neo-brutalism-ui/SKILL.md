@@ -1,8 +1,8 @@
 ---
 name: neo-brutalism-ui
-description: "Apply the Neo-Brutalism UI style (2020–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: neo-brutalism, neubrutalism, neobrutalist, brutalist ui, thick black borders, hard shadow."
+description: "Apply the Neo-Brutalism UI style (2020–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: neo-brutalism, neubrutalism, neobrutalist, brutalist ui, thick black borders, hard shadow."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "neo-brutalism"
   - "neubrutalism"
@@ -28,7 +28,7 @@ vector_profile:
 
 Flat, loud colour fields with thick black borders and hard, unblurred offset shadows. It grew from product sites such as Gumroad and from Figma community kits as a deliberate reply to corporate softness.
 
-**Period:** 2020–present · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Neubrutalism, Neobrutalism, Brutalist Web UI
+**Period:** 2020–present · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Neubrutalism, Neobrutalism, Brutalist Web UI
 
 ## When to load this skill
 
@@ -43,7 +43,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Neo-Brutalism UI, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Neo-Brutalism UI, you MUST:
 
 1. Draw a solid #000000 border of 2px to 4px around every card, button, input and image.
 2. Cast one hard shadow with zero blur, offset 4px 4px, for example 4px 4px 0 0 #000000, on every raised element.
@@ -286,7 +286,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`material-design`](../material-design/SKILL.md)
 - **Mixes well with:** [`anti-design`](../anti-design/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`word-caption-clip`](../word-caption-clip/SKILL.md)
 - **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
-- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
+- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
 
 ## Emotional target
 

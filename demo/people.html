@@ -64,6 +64,7 @@
   aside ol.ms-list b { font-variant-numeric: tabular-nums; font-weight: 600; }
   aside figure { margin: 8px 0 4px; }
   aside figure img { display: block; width: 100%; max-width: 220px; height: auto; border-radius: 4px; background: var(--band); }
+  aside figure.emblem img { max-width: 96px; background: #fff; border: 1px solid var(--line); padding: 6px; }
   aside figcaption { font-size: 11px; color: var(--muted); margin-top: 4px; }
   aside a { color: inherit; }
   .role { color: var(--muted); font-size: 12px; }
@@ -102,7 +103,10 @@ const x = (y) => { y = Math.min(y, Y_MAX); return y < Y_MIN ? ancient(y) : y < B
 const yr = (y) => (y == null ? "" : y < 0 ? `${-y} BC` : String(y));
 const tickLabel = yr;
 const ROW = 22, LANE_HEAD = 26;
-let P, S, styleById, domainOf = {}, selected = null, domain = "all";
+let P, S, OG = {}, styleById, domainOf = {}, selected = null, domain = "all";
+const OROLE = { founder: "founder", owner: "owner", leader: "leader", designer: "designer", staff: "staff", teacher: "teacher", student: "student",
+  member: "member", author: "author", exhibitor: "exhibitor", patron: "patron", client: "client", user: "user", ran: "ran it" };
+const span2 = (a, b) => a == null ? "" : `${a}${b != null ? "–" + b : "–"}`;
 
 function rows() {
   const order = S.domains.map((d) => d.id).concat("unplaced");
@@ -135,7 +139,7 @@ function draw() {
     top += LANE_HEAD;
     for (const p of g.people) {
       const y = top + ROW / 2, s = span(p);
-      let r = `<g class="row" data-id="${esc(p.id)}" tabindex="0" role="button" aria-label="${esc(p.name)}">`;
+      let r = `<g class="row" data-id="${esc(p.id)}" data-person="${esc(p.id)}" tabindex="0" role="button" aria-label="${esc(p.name)}">`;
       r += `<rect class="hit" x="0" y="${top}" width="${width}" height="${ROW}"/>`;
       r += `<g class="bands">`;
       for (const st of p.styles) {
@@ -196,14 +200,19 @@ function panel(id) {
   const photo = p.photo
     ? `<figure><img src="${esc(p.photo.url)}" alt="Portrait of ${esc(p.name)}" loading="lazy"><figcaption>${esc(p.photo.credit)} · <a href="${esc(p.photo.page)}">${esc(p.photo.licence)}</a>, via Wikimedia Commons</figcaption></figure>`
     : "";
-  $("panel").innerHTML = `${photo}<h2>${esc(p.name)}</h2><p class="meta">${yrs}${p.nationality.length ? " · " + esc(p.nationality.join(", ")) : ""}</p><p>${esc(p.bio)}</p>` +
+  const e = p.emblem;
+  const emblem = e ? `<figure class="emblem"><img src="${esc(e.url)}" alt="${esc(e.kind)} of ${esc(p.name)}" loading="lazy"><figcaption>${esc(e.kind)}: ${esc(e.credit)} · <a href="${esc(e.page)}">${esc(e.licence)}</a>${e.trademark ? " · trademark" : ""}, via Wikimedia Commons</figcaption></figure>` : "";
+  const orgs = (p.orgs || []).filter((o) => OG[o.org]);
+  $("panel").innerHTML = `${photo}${emblem}<h2>${esc(p.name)}</h2><p class="meta">${yrs}${p.nationality.length ? " · " + esc(p.nationality.join(", ")) : ""}</p><p>${esc(p.bio)}</p>` +
     (p.styles.length ? `<h3>Styles</h3><ul>${p.styles.map((s) => { const sn = styleById[s.style]; return `<li><a href="graph.html#${esc(s.style)}">${esc(sn?.name ?? s.style)}</a> <span class="role">${esc(ROLE[s.role])}${sn ? ` · ${sn.start}–${sn.end ?? "now"}` : ""}</span></li>`; }).join("")}</ul>` : "") +
+    (orgs.length ? `<h3>Organisations</h3><ul>${orgs.map((o) => `<li><a href="orgs.html#${esc(o.org)}" data-org="${esc(o.org)}">${esc(OG[o.org].name)}</a> <span class="role">${esc(OROLE[o.role] ?? o.role)}${o.from != null ? " · " + span2(o.from, o.to) : ""}${o.source?.url ? ` · <a href="${esc(o.source.url)}">source</a>` : ""}</span></li>`).join("")}</ul>` : "") +
     (p.milestones.length ? `<h3>Milestones</h3><ol class="ms-list">${p.milestones.map((m) => `<li><b>${yr(m.year)}</b><span>${esc(m.event)}${m.posthumous ? ' <span class="role">after death</span>' : ""}</span></li>`).join("")}</ol>` : "") +
     (p.wikidata ? `<h3>Open data</h3><ul><li><a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}">Wikidata ${esc(p.wikidata)}</a></li></ul>` : "");
 }
 
-Promise.all([fetch("../graph/people.json").then((r) => r.json()), fetch("../graph/lineage.json").then((r) => r.json())]).then(([people, lineage]) => {
+Promise.all(["people", "lineage", "orgs"].map((f) => fetch(`../graph/${f}.json`).then((r) => r.json()))).then(([people, lineage, orgs]) => {
   P = people; S = lineage;
+  for (const o of orgs.orgs) OG[o.id] = o;
   styleById = Object.fromEntries(S.nodes.map((n) => [n.id, n]));
   for (const p of P.people) domainOf[p.id] = p.domain;
   $("domains").innerHTML = [["all", "All"], ...S.domains.map((d) => [d.id, d.name])]

@@ -11,7 +11,7 @@
 // - "shots" (film): a showreel, one frame for each shot in shot_primer.shot_list, with its size, lens and length.
 // The frames go to demo/previews/<domain>/<id>/<n>.webp; the first frame is also the "file" of the style.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, relative, resolve } from "node:path";
 import { preflight, renderWebp, SEED } from "./previews/comfy.js";
 
 const SIZES = { landscape: { width: 1152, height: 768 }, portrait: { width: 768, height: 1152 } };
@@ -24,18 +24,25 @@ const force = args.includes("--force");
 const dry = args.includes("--dry-run");
 // --redo <file.json>: a list of {path} records (a drift scan). Only the listed images render again, with the
 // current model, the guard words and the vision check. The other images stay as they are.
-const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => x.path) : []);
-if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet");
+// The paths are made relative to the repo, so "./demo/..." and an absolute path match too.
+const redo = new Set<string>(opt("redo") ? JSON.parse(readFileSync(opt("redo")!, "utf8")).map((x: any) => relative(process.cwd(), resolve(x.path))) : []);
+if (!domain) throw new Error("Give --domain photography|film|painting|interior|architecture|logo|icon|internet|graphic-movement|ceramics|fashion|cuisine");
 
-type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string };
+type Override = { subject?: string; size?: keyof typeof SIZES; drop?: string; scene?: string; frame?: string };
+type Screen = { subject: string; suffix: string; drop?: string };
 const subjects = JSON.parse(readFileSync("scripts/previews/subjects.json", "utf8")) as {
-  domains: Record<string, { subject: string; suffix?: string; drop?: string; source?: string; set?: "subjects" | "shots"; frame?: string; frames?: number }>;
+  domains: Record<string, { subject: string; suffix?: string; drop?: string; source?: string; set?: "subjects" | "shots"; frame?: string; frames?: number; screens?: Record<string, Screen> }>;
   styles?: Record<string, Override>;
 };
 const dom = subjects.domains[domain];
 if (!dom) throw new Error(`No subject for domain ${domain} in scripts/previews/subjects.json`);
-const drop = dom.drop ? new RegExp(dom.drop, "i") : null;
 const override = (s: any): Override => subjects.styles?.[`${domain}/${s.id}`] ?? {};
+// A phenomenon that is an interface (a forum, a feed, a terminal) has no subject without its screen. A style override
+// "frame" names a screen of the domain: a photograph of a laptop or a phone that shows the interface, with the screen
+// text soft and unreadable. The screen gives the subject, the suffix and the drop list in place of the domain's.
+const screenOf = (s: any): Screen | undefined => { const f = override(s).frame; if (!f) return; const x = dom.screens?.[f];
+  if (!x) throw new Error(`No screen "${f}" in domains.${domain}.screens`); return x; };
+const suffixFor = (s: any): string[] => { const x = screenOf(s)?.suffix ?? dom.suffix; return x ? [x] : []; };
 const outDir = join("demo/previews", domain);
 mkdirSync(outDir, { recursive: true });
 const manifestPath = join(outDir, "manifest.json");
@@ -59,12 +66,13 @@ const designWords = (s: any): string[] => s.ornamentation_details ? [
 ].filter(Boolean).map((w: string) => w.replace(/\.$/, "")) : [];
 const positive = (s: any): string[] =>
   s.prompt_primer?.positive ?? s.primer?.positive ?? (s.implementation?.image_prompt ? [s.implementation.image_prompt] : designWords(s));
-const subjectFor = (s: any) => override(s).subject ?? dom.subject;
+const subjectFor = (s: any) => override(s).subject ?? screenOf(s)?.subject ?? dom.subject;
 const sizeFor = (s: any) => SIZES[override(s).size ?? "landscape"];
 // A style override can also drop primer words that only that style has (a frame motif, a shaped canvas).
-const keep = (s: any) => { const own = override(s).drop ? new RegExp(override(s).drop!, "i") : null; return (w: string) => !drop?.test(w) && !own?.test(w); };
+const keep = (s: any) => { const d = screenOf(s) ? screenOf(s)!.drop : dom.drop, drop = d ? new RegExp(d, "i") : null;
+  const own = override(s).drop ? new RegExp(override(s).drop!, "i") : null; return (w: string) => !drop?.test(w) && !own?.test(w); };
 const promptFor = (s: any) =>
-  [subjectFor(s), ...positive(s).filter(keep(s)), ...(dom.suffix ? [dom.suffix] : [])].join(", ");
+  [subjectFor(s) + scene(s), ...positive(s).filter(keep(s)), ...suffixFor(s)].join(", ");
 
 // The frames of a set domain. A shot that needs readable text (a card, a phone screen) is left out.
 type Frame = { label: string; prompt: string; size?: string; lens?: string; movement?: string; seconds?: number };
@@ -81,10 +89,11 @@ const fit = (subject: string) => (w: string) => PERSON.test(subject) || !BODY.te
 const OTHER_SHOT = /\b((extreme |medium |wide |long |full |whole-body |establishing |insert |two[- ])shots?|close-ups?|cuts?|montage|split screen|sequence|\d+\s*planes)\b/i;
 // A shot label such as "payoff" or "whip transition" names a beat, not a scene. With no scene the model drew an
 // empty sky or a fist on green. A style override "scene" gives each frame of that style the place and the people.
-const scene = (s: any) => override(s).scene ? `, ${override(s).scene}` : "";
+// In a single-picture domain, "scene" follows the subject of the style.
+const scene = (s: any) => { const x = override(s).scene; return x ? `, ${x}` : ""; };
 const frames = (s: any): Frame[] => {
   // The suffix is not filtered: "interface" in it holds "face".
-  const tail = positive(s).filter(keep(s)), end = dom.suffix ? [dom.suffix] : [];
+  const tail = positive(s).filter(keep(s)), end = suffixFor(s);
   if (dom.set === "subjects") return (s.subject_and_staging?.subjects ?? []).slice(0, dom.frames ?? 4)
     .map((x: string) => ({ label: x, prompt: [`${dom.frame} ${x}`, ...tail.filter(fit(x)), ...end].join(", ") }));
   if (dom.set === "shots") return (s.shot_primer?.shot_list ?? []).filter((x: any) => x.size !== "card" && !TEXTY.test(x.shot)).slice(0, dom.frames ?? 5)
@@ -120,6 +129,8 @@ async function render(s: any) {
 }
 
 const redone = (s: any) => [...redo].some((p) => p === join(outDir, `${s.id}.webp`) || p.startsWith(join(outDir, s.id) + "/"));
+if (redo.size && ![...redo].some((p) => p.startsWith(outDir + "/")))
+  console.warn(`--redo: none of the ${redo.size} paths is under ${outDir}/, so nothing renders again for this domain`);
 const todo = styles.filter((s) => force || redone(s) || !manifest.images[s.id] || sigOf(manifest.images[s.id]) !== sig(s));
 if (dry) { for (const s of todo) console.log(`${s.id}: ${sig(s).split(" | ").join("\n  ")}`); process.exit(0); }
 if (todo.length) await preflight();

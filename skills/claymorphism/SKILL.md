@@ -1,8 +1,8 @@
 ---
 name: claymorphism
-description: "Apply the Claymorphism style (2021–2023) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: claymorphism, clay, 3d clay, soft 3d, inflated, puffy."
+description: "Apply the Claymorphism style (2021–2023) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: claymorphism, clay, 3d clay, soft 3d, inflated, puffy."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "claymorphism"
   - "clay"
@@ -26,7 +26,7 @@ vector_profile:
 
 Puffy, rounded 3D shapes in soft pastel colour with double inner shadows and a soft outer shadow, like modelling clay. It followed neumorphism and flat illustration and turns the interface into toys.
 
-**Period:** 2021–2023 · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Clay UI, 3D clay style, Soft 3D UI
+**Period:** 2021–2023 · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Clay UI, 3D clay style, Soft 3D UI
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Claymorphism, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Claymorphism, you MUST:
 
 1. Give containers a radius of 24px to 40px and buttons a radius of 999px.
 2. Build depth with 3 shadows: an outer soft shadow (0 16px 32px at 20%), an inner light highlight (inset 8px 8px 16px white at 60%) and an inner dark one (inset -8px -8px 16px at 12%).

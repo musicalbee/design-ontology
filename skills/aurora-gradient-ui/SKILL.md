@@ -1,8 +1,8 @@
 ---
 name: aurora-gradient-ui
-description: "Apply the Aurora Gradient UI style (2018–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: aurora gradient, mesh gradient, gradient background, stripe style, ai landing page, glow."
+description: "Apply the Aurora Gradient UI style (2018–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: aurora gradient, mesh gradient, gradient background, stripe style, ai landing page, glow."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "aurora gradient"
   - "mesh gradient"
@@ -26,7 +26,7 @@ vector_profile:
 
 Soft, blurred mesh gradients in 3 to 5 hues behind clean sans-serif type, with glowing edges and grain. It came from fintech and AI product pages and replaced the flat hero.
 
-**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Mesh gradient UI, Gradient glow web, Aurora background
+**Period:** 2018–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Mesh gradient UI, Gradient glow web, Aurora background
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Aurora Gradient UI, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Aurora Gradient UI, you MUST:
 
 1. Build the hero ground from 3 to 5 radial colour blobs of 400px to 900px, blurred by 80px to 160px, on a base of #0A0A14 or white.
 2. Pick hues that sit within 90° to 150° on the colour wheel and keep saturation of 60% to 90%.
@@ -278,7 +278,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Led to (go here for a newer version):** [`ethereal-web`](../ethereal-web/SKILL.md)
 - **Mixes well with:** [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md)
-- **Nearest by vector profile:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`glassmorphism`](../glassmorphism/SKILL.md), [`material-design`](../material-design/SKILL.md)
+- **Nearest by vector profile:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`bulletin-board-forum`](../bulletin-board-forum/SKILL.md), [`discord-server`](../discord-server/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "moving-into-a-new-home",
+  "name": "Moving into a new home",
+  "kind": "life-event",
+  "description": "Boxes stand in empty rooms, the first meal is on the floor, and friends come to warm the house.",
+  "emotions": [
+    {
+      "emotion": "joy",
+      "strength": 1
+    },
+    {
+      "emotion": "interest",
+      "strength": 0.7
+    },
+    {
+      "emotion": "vitality",
+      "strength": 0.6
+    },
+    {
+      "emotion": "uneasiness",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 2700,
+      "max": 6000
+    },
+    "lux": {
+      "min": 100,
+      "max": 1000
+    },
+    "direction": "mixed",
+    "quality": "mixed",
+    "sources": [
+      "sky",
+      "lamp"
+    ]
+  },
+  "weather": [
+    "indoors"
+  ],
+  "sound": [
+    "echo in empty rooms",
+    "tape on boxes",
+    "friends"
+  ],
+  "scent": [
+    "fresh paint",
+    "cardboard"
+  ],
+  "people": {
+    "min": 2,
+    "max": 12,
+    "activity": "carry boxes, eat together"
+  },
+  "carriers": {
+    "styles": [],
+    "things": [
+      "boxes",
+      "bare walls",
+      "first chair",
+      "plant as a gift"
+    ]
+  },
+  "cues": [
+    "ceiling-height-freedom",
+    "daylight-windows-wellbeing"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Housewarming party: guests once brought firewood to warm the new home",
+      "url": "https://en.wikipedia.org/wiki/Housewarming_party"
+    }
+  ]
+}

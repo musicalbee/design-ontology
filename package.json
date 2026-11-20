@@ -1,6 +1,6 @@
 {
   "name": "design-ontology",
-  "version": "0.1.81",
+  "version": "0.1.102",
   "description": "A machine-readable ontology of design styles that compiles into agent skills.",
   "private": true,
   "type": "module",
@@ -23,13 +23,16 @@
     "specimens": "tsx scripts/render-type-specimens.ts",
     "permute": "tsx scripts/permute.ts",
     "net": "tsx scripts/net.ts",
+    "emotions:infer": "tsx scripts/emotions.ts --infer",
     "lockups": "tsx scripts/render-logo-lockups.ts",
     "elevations": "tsx scripts/trace-elevations.ts",
     "proofs": "tsx scripts/render-print-proofs.ts",
     "test": "tsx --test scripts/net.test.ts",
     "swatches": "tsx scripts/render-fashion-swatches.ts",
     "tiles": "tsx scripts/render-ceramics-tiles.ts",
-    "plates": "tsx scripts/render-cuisine-plates.ts"
+    "plates": "tsx scripts/render-cuisine-plates.ts",
+    "material-photos": "tsx scripts/render-material-photos.ts",
+    "material-photos:check": "tsx scripts/check-material-photos.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",

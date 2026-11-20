@@ -1,8 +1,8 @@
 ---
 name: wojak-feels
-description: "Apply the Wojak and feels style (2010–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: wojak, feels guy, npc meme, doomer, bloomer, soyjak."
+description: "Apply the Wojak and feels style (2010–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: wojak, feels guy, npc meme, doomer, bloomer, soyjak."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "wojak"
   - "feels guy"
@@ -26,7 +26,7 @@ vector_profile:
 
 A bald, line-drawn face in grey and cream with an exact emotion, set in a flat panel with a caption. It started on imageboards around 2010 and now stands for many roles. This entry covers its neutral drawing form only.
 
-**Period:** 2010–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Wojak, Feels guy, Doomer-bloomer family
+**Period:** 2010–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Wojak, Feels guy, Doomer-bloomer family
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Wojak and feels, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Wojak and feels, you MUST:
 
 1. Draw the face as a bald outline of 2px black on a flat cream (#F5E6D3) fill, with 5 to 8 facial lines.
 2. Show one emotion in each panel through the brows, the mouth and a few tear or sweat marks.

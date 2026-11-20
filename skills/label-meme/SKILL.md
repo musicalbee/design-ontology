@@ -1,8 +1,8 @@
 ---
 name: label-meme
-description: "Apply the Label meme style (2017–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: label meme, labelled meme, distracted boyfriend, caption the image, stock photo meme, role labels."
+description: "Apply the Label meme style (2017–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: label meme, labelled meme, distracted boyfriend, caption the image, stock photo meme, role labels."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "label meme"
   - "labelled meme"
@@ -25,7 +25,7 @@ vector_profile:
 
 A known photo or still where each person or object carries a small text label that gives it a role. The reader maps the roles and finds the joke. The form took off in 2017 with stock photos and cartoon stills.
 
-**Period:** 2017–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Labelled stock photo, Caption-the-image meme
+**Period:** 2017–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Labelled stock photo, Caption-the-image meme
 
 ## When to load this skill
 
@@ -39,7 +39,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Label meme, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Label meme, you MUST:
 
 1. Keep the source picture whole and uncropped; use a 4:3 or 3:2 frame.
 2. Add 2 to 4 labels in white or black boxes of 4px padding with a 2px radius.

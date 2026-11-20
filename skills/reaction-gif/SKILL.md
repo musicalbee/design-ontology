@@ -1,8 +1,8 @@
 ---
 name: reaction-gif
-description: "Apply the Reaction GIF style (2009–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: reaction gif, gif reply, giphy, looped clip, meme gif, animated gif."
+description: "Apply the Reaction GIF style (2009–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: reaction gif, gif reply, giphy, looped clip, meme gif, animated gif."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "reaction gif"
   - "gif reply"
@@ -25,7 +25,7 @@ vector_profile:
 
 A short looped clip from a film, a show or a sport, sent in place of a sentence. The frame is small, grainy and often carries a one-line caption in heavy white capitals.
 
-**Period:** 2009–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Reaction clip, Captioned GIF loop, Giphy loop
+**Period:** 2009–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Reaction clip, Captioned GIF loop, Giphy loop
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Reaction GIF, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Reaction GIF, you MUST:
 
 1. Loop a clip of 1 to 4 seconds at 10 to 15 fps with a seamless cut from the last frame to the first.
 2. Export the frame at 480px wide or less in 256 colours, and let dithering and grain stay visible.

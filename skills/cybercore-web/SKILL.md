@@ -1,8 +1,8 @@
 ---
 name: cybercore-web
-description: "Apply the Cybercore Web style (2020–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: cybercore, cyber, hud, glitch, techwear, acid green."
+description: "Apply the Cybercore Web style (2020–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: cybercore, cyber, hud, glitch, techwear, acid green."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "cybercore"
   - "cyber"
@@ -26,7 +26,7 @@ vector_profile:
 
 Black grounds, acid-green or cyan accents, chrome, angular cuts, HUD frames, small caps data labels and glitch. It mixes 1990s cyber fiction with techwear, and it feels like a machine interface.
 
-**Period:** 2020–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Cybercore, Cyber Y2K, Techwear web
+**Period:** 2020–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Cybercore, Cyber Y2K, Techwear web
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Cybercore Web, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Cybercore Web, you MUST:
 
 1. Set the ground at #05070A and use 1 acid accent (#C6FF00 or #00F0FF) on no more than 10% of the surface.
 2. Cut corners at 45° with a clip-path of 8px to 16px on cards and buttons; set radius to 0px elsewhere.
@@ -281,7 +281,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`cyberpunk-web`](../cyberpunk-web/SKILL.md), [`synthwave-web`](../synthwave-web/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
-- **Nearest by vector profile:** [`art-deco-web`](../art-deco-web/SKILL.md), [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md)
+- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 
 ## Emotional target
 

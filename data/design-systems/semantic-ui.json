@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "semantic-ui",
+  "name": "Semantic UI",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2013,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://semantic-ui.com/",
+  "tokens": {
+    "color": {
+      "primary": "#2185d0",
+      "danger": "#db2828",
+      "warning": "#fbbd08",
+      "success": "#21ba45",
+      "info": "#00b5ad",
+      "on-surface": "#1b1c1d",
+      "muted": "#767676"
+    },
+    "type": {
+      "families": [
+        "Lato",
+        "Helvetica Neue",
+        "Arial",
+        "Helvetica"
+      ],
+      "scale": [
+        14
+      ]
+    },
+    "radius": [
+      4
+    ],
+    "motion": {
+      "duration_ms": 100,
+      "easing": "ease"
+    }
+  },
+  "principles": [
+    "A UI framework designed for theming"
+  ],
+  "styles": [
+    {
+      "style": "flat-design",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Semantic UI 2.5.0 src/themes/default/globals/site.variables",
+      "url": "https://cdn.jsdelivr.net/gh/Semantic-Org/Semantic-UI@2.5.0/src/themes/default/globals/site.variables"
+    },
+    {
+      "title": "Semantic-UI README",
+      "url": "https://github.com/Semantic-Org/Semantic-UI"
+    }
+  ]
+}

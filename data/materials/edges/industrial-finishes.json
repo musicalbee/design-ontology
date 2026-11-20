@@ -1,0 +1,495 @@
+{
+  "$schema": "../../../schema/material-edges.schema.json",
+  "group": "industrial.finishes",
+  "summary": "The edges of the finishes in the industrial vocabulary: the metal, wood, stone, glass or plastic that each finish changes.",
+  "edges": [
+    {
+      "process": "industrial.finishes:polished",
+      "acts_on": [
+        "stainless-steel",
+        "brass",
+        "marble",
+        "granite"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Polishing",
+          "url": "https://en.wikipedia.org/wiki/Polishing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:brushed",
+      "acts_on": [
+        "stainless-steel",
+        "aluminium"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Brushed metal",
+          "url": "https://en.wikipedia.org/wiki/Brushed_metal"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:satin",
+      "acts_on": [
+        "brass",
+        "stainless-steel"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Brushed metal",
+          "url": "https://en.wikipedia.org/wiki/Brushed_metal"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:unlacquered",
+      "acts_on": [
+        "solid-brass",
+        "copper"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Patina",
+          "url": "https://en.wikipedia.org/wiki/Patina"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:patinated",
+      "acts_on": [
+        "bronze",
+        "copper",
+        "brass"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Patina",
+          "url": "https://en.wikipedia.org/wiki/Patina"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:blackened",
+      "acts_on": [
+        "steel",
+        "cast-iron",
+        "brass"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Black oxide",
+          "url": "https://en.wikipedia.org/wiki/Black_oxide"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:matte-powder-coat",
+      "acts_on": [
+        "mild-steel",
+        "aluminium"
+      ],
+      "adds": [
+        "powder-coat"
+      ],
+      "with": [
+        "oven"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Powder coating",
+          "url": "https://en.wikipedia.org/wiki/Powder_coating"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:gloss-enamel",
+      "acts_on": [
+        "steel"
+      ],
+      "adds": [
+        "enamel-paint"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Enamel paint",
+          "url": "https://en.wikipedia.org/wiki/Enamel_paint"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:vitreous-glaze",
+      "acts_on": [
+        "vitreous-china"
+      ],
+      "adds": [
+        "sanitary-glaze"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:matte-glaze",
+      "acts_on": [
+        "stoneware"
+      ],
+      "adds": [
+        "matte-glaze"
+      ],
+      "with": [
+        "kiln"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Ceramic glaze",
+          "url": "https://en.wikipedia.org/wiki/Ceramic_glaze"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:unglazed",
+      "acts_on": [
+        "terracotta",
+        "porcelain-stoneware"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Terracotta",
+          "url": "https://en.wikipedia.org/wiki/Terracotta"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:honed",
+      "acts_on": [
+        "marble",
+        "limestone",
+        "granite",
+        "travertine"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Honing (metalworking)",
+          "url": "https://en.wikipedia.org/wiki/Honing_(metalworking)"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:lacquered",
+      "acts_on": [
+        "wood",
+        "brass"
+      ],
+      "adds": [
+        "lacquer"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Lacquer",
+          "url": "https://en.wikipedia.org/wiki/Lacquer"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:french-polished",
+      "acts_on": [
+        "mahogany",
+        "walnut"
+      ],
+      "adds": [
+        "shellac"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: French polish",
+          "url": "https://en.wikipedia.org/wiki/French_polish"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:oiled",
+      "acts_on": [
+        "oak",
+        "teak"
+      ],
+      "adds": [
+        "linseed-oil"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Wood finishing",
+          "url": "https://en.wikipedia.org/wiki/Wood_finishing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:waxed",
+      "acts_on": [
+        "oak",
+        "pine"
+      ],
+      "adds": [
+        "beeswax"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Wax",
+          "url": "https://en.wikipedia.org/wiki/Wax"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:soaped",
+      "acts_on": [
+        "oak",
+        "beech"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Wood finishing",
+          "url": "https://en.wikipedia.org/wiki/Wood_finishing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:limed",
+      "acts_on": [
+        "oak",
+        "ash"
+      ],
+      "adds": [
+        "quicklime"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Wood finishing",
+          "url": "https://en.wikipedia.org/wiki/Wood_finishing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:ebonised",
+      "acts_on": [
+        "beech",
+        "maple"
+      ],
+      "adds": [
+        "iron",
+        "vinegar"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Ebonising",
+          "url": "https://en.wikipedia.org/wiki/Ebonising"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:painted-matte",
+      "acts_on": [
+        "wood",
+        "mdf"
+      ],
+      "adds": [
+        "paint"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Paint sheen",
+          "url": "https://en.wikipedia.org/wiki/Paint_sheen"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:painted-eggshell",
+      "acts_on": [
+        "mdf",
+        "wood"
+      ],
+      "adds": [
+        "paint"
+      ],
+      "with": [
+        "brush"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Paint sheen",
+          "url": "https://en.wikipedia.org/wiki/Paint_sheen"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:gilded",
+      "acts_on": [
+        "wood"
+      ],
+      "adds": [
+        "gesso",
+        "gold-leaf"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Gilding",
+          "url": "https://en.wikipedia.org/wiki/Gilding"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:clear-gloss",
+      "acts_on": [
+        "wood"
+      ],
+      "adds": [
+        "lacquer"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Lacquer",
+          "url": "https://en.wikipedia.org/wiki/Lacquer"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:acid-etched",
+      "acts_on": [
+        "glass"
+      ],
+      "makes": [
+        "frosted-glass"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Glass etching",
+          "url": "https://en.wikipedia.org/wiki/Glass_etching"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:silvered",
+      "acts_on": [
+        "glass"
+      ],
+      "adds": [
+        "silver"
+      ],
+      "makes": [
+        "mirror-glass"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Silvering",
+          "url": "https://en.wikipedia.org/wiki/Silvering"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:moulded-gloss",
+      "acts_on": [
+        "abs-plastic",
+        "polycarbonate"
+      ],
+      "with": [
+        "injection-moulding-machine"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Injection moulding",
+          "url": "https://en.wikipedia.org/wiki/Injection_moulding"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:moulded-matte",
+      "acts_on": [
+        "abs-plastic",
+        "polycarbonate"
+      ],
+      "with": [
+        "injection-moulding-machine"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Injection moulding",
+          "url": "https://en.wikipedia.org/wiki/Injection_moulding"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:piece-dyed",
+      "acts_on": [
+        "wool",
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Dyeing",
+          "url": "https://en.wikipedia.org/wiki/Dyeing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:printed",
+      "acts_on": [
+        "cotton",
+        "linen-cloth"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Printing",
+          "url": "https://en.wikipedia.org/wiki/Printing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:lustre-pile",
+      "acts_on": [
+        "velvet",
+        "velour"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pile (textile)",
+          "url": "https://en.wikipedia.org/wiki/Pile_(textile)"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:washed",
+      "acts_on": [
+        "linen-cloth",
+        "cotton"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Stone washing",
+          "url": "https://en.wikipedia.org/wiki/Stone_washing"
+        }
+      ]
+    },
+    {
+      "process": "industrial.finishes:aniline",
+      "acts_on": [
+        "leather"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Aniline leather",
+          "url": "https://en.wikipedia.org/wiki/Aniline_leather"
+        }
+      ]
+    }
+  ]
+}

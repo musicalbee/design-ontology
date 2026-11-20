@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "morning-coffee-by-the-window",
+  "name": "Morning coffee by the window",
+  "kind": "daily",
+  "description": "One person holds a cup of coffee at a window and watches the day start outside.",
+  "emotions": [
+    {
+      "emotion": "relaxation",
+      "strength": 1
+    },
+    {
+      "emotion": "vitality",
+      "strength": 0.5
+    },
+    {
+      "emotion": "interest",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "morning",
+      "dawn"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": {
+      "min": 0,
+      "max": 20
+    }
+  },
+  "light": {
+    "cct_k": {
+      "min": 3500,
+      "max": 6000
+    },
+    "lux": {
+      "min": 400,
+      "max": 10000
+    },
+    "direction": "low-side",
+    "quality": "soft",
+    "sources": [
+      "sun",
+      "sky"
+    ]
+  },
+  "weather": [
+    "clear",
+    "partly-cloudy",
+    "overcast"
+  ],
+  "sound": [
+    "kettle",
+    "birds",
+    "radio low"
+  ],
+  "scent": [
+    "coffee",
+    "toast"
+  ],
+  "people": {
+    "min": 1,
+    "max": 1,
+    "activity": "stand or sit at the window with a cup"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "japandi-interior"
+    ],
+    "things": [
+      "window seat",
+      "ceramic mug",
+      "plants on the sill"
+    ]
+  },
+  "cues": [
+    "window-view-trees-recovery",
+    "nature-view-home-wellbeing",
+    "daylight-windows-wellbeing"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Lux: table of typical illuminance from moonlight to direct sun",
+      "url": "https://en.wikipedia.org/wiki/Lux"
+    },
+    {
+      "title": "Wikipedia, Fika (Sweden): the coffee pause as a daily social habit",
+      "url": "https://en.wikipedia.org/wiki/Fika_(Sweden)"
+    }
+  ]
+}

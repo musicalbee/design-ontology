@@ -13,7 +13,7 @@ You are in `design-ontology`: design styles as data, compiled into agent skills.
 ## To change the repository
 
 - The source of truth is `data/<domain>/styles/*.json`, `data/<domain>/eras/*.json`, `data/principles/*.json`, `data/techniques/*.json` and `domains/*.json`.
-- The people layer is `data/people/*.json` (schema `schema/person.schema.json`). Do not guess a year: use null. Link portraits on Wikimedia Commons only. Write the bio and the milestones in your own words. Each style needs at least one person: a new style comes with its person in the same pull request, or the build fails.
+- The people layer is `data/people/*.json` (schema `schema/person.schema.json`). Do not guess a year: use null. Link portraits on Wikimedia Commons only. Write the bio and the milestones in your own words. Each link in `orgs` and each `emblem` needs a source; emblems come from Wikimedia Commons with a free licence only. Each style needs at least one person: a new style comes with its person in the same pull request, or the build fails.
 - Do not edit `skills/`, `graph/` or the lineage block in `README.md` by hand. They are generated.
 - After each change to the data, run `npm run build`. It must report 0 errors.
 - Before you commit, run `npm run typecheck` if you changed a script.

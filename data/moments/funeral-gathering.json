@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "funeral-gathering",
+  "name": "Funeral and the gathering after",
+  "kind": "life-event",
+  "description": "People in dark clothes sit in a church or hall, then share coffee and memories of the dead.",
+  "emotions": [
+    {
+      "emotion": "sadness",
+      "strength": 1
+    },
+    {
+      "emotion": "being-moved",
+      "strength": 0.9
+    },
+    {
+      "emotion": "mono-no-aware",
+      "strength": 0.6
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "midday",
+      "afternoon"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 3000,
+      "max": 6500
+    },
+    "lux": {
+      "min": 100,
+      "max": 500
+    },
+    "direction": "high-side",
+    "quality": "soft",
+    "sources": [
+      "sky",
+      "candle"
+    ]
+  },
+  "weather": [
+    "overcast",
+    "indoors"
+  ],
+  "sound": [
+    "organ",
+    "hymn",
+    "low voices"
+  ],
+  "scent": [
+    "lilies",
+    "coffee"
+  ],
+  "people": {
+    "min": 10,
+    "max": null,
+    "activity": "listen, sing, then talk over coffee"
+  },
+  "carriers": {
+    "styles": [
+      "nordic-modernism-architecture",
+      "gothic-architecture"
+    ],
+    "things": [
+      "coffin",
+      "flowers",
+      "candles",
+      "pews"
+    ]
+  },
+  "cues": [
+    "ceiling-height-freedom"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Funeral: a ceremony to mourn, to honour a life and to support the bereaved",
+      "url": "https://en.wikipedia.org/wiki/Funeral"
+    }
+  ]
+}

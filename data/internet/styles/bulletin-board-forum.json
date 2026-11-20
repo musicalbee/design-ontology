@@ -1,0 +1,335 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "bulletin-board-forum",
+  "domain": "internet",
+  "name": "Bulletin Board Forum",
+  "aliases": [
+    "phpBB forum",
+    "Web forum",
+    "Message board"
+  ],
+  "branch": "forums-imageboards",
+  "era_id": "web-1",
+  "time_period": {
+    "start": 1996,
+    "end": 2012,
+    "label": "c. 1996–2012"
+  },
+  "primary_mediums": [
+    "web"
+  ],
+  "summary": "A web forum in tables: a list of boards in categories, topics with reply and view counts, and posts with a user column that shows an avatar, a rank, a post count and a signature.",
+  "philosophy": {
+    "core_thesis": "A forum is a club with rooms; each member carries a visible rank, a picture and a signature from post to post.",
+    "design_principles": [
+      "Show the index as a table of boards in categories, with columns for topics, posts and the last post.",
+      "Put each post in a two-column table row: the user column of 150px to 180px at the left, the post at the right.",
+      "Show in the user column an avatar of 80px to 100px, a rank title, a row of rank pips, the join date and the post count.",
+      "Put a signature under each post after a short rule, with an image banner of at most 468px by 60px.",
+      "Use a header band with the forum logo, and a breadcrumb line: Index > Board > Topic.",
+      "Mark a pinned topic with a pin icon and a locked topic with a lock icon in the topic list."
+    ],
+    "anti_patterns": [
+      "Endless scroll with no page numbers",
+      "Posts with no author identity",
+      "Large hero images",
+      "Flat single-colour lists with no table rules",
+      "Hidden reply counts"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 2,
+    "grid_rigidity": 4,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "Tables of fixed columns: a board list of 4 to 5 columns and a post table of 2 columns (user, post).",
+    "whitespace_ratio": "10% to 20% of the page stays empty; the cell padding is 4px to 6px.",
+    "alignment_rules": "Text aligns left in the cells; counts align centre; the page is a column of 90% width or 960px.",
+    "container_geometry": "Rectangles with a 0px to 4px radius; table cells with 1px rules; category bars with a gradient header."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "system sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Arimo",
+        "body": "Arimo",
+        "note": "Arimo is an open look-alike of Arial and Helvetica, the usual forum faces."
+      },
+      {
+        "display": "Open Sans",
+        "body": "Noto Sans",
+        "note": "A later forum theme with a softer sans."
+      }
+    ],
+    "tracking": "Display 0em; body 0em.",
+    "leading": "Display 1.2; body 1.45.",
+    "hierarchy_rules": [
+      "Use sizes 11px, 12px and 13px for the tables and 18px for the topic title.",
+      "Set board names and usernames in bold link colour.",
+      "Set counts and dates in the small muted size."
+    ]
+  },
+  "color": {
+    "palette_structure": "A pale page with blue header bands and alternate row tints; 5 to 6 colours.",
+    "palette": [
+      {
+        "name": "Page Grey",
+        "hex": "#E8ECF1",
+        "role": "background"
+      },
+      {
+        "name": "Row White",
+        "hex": "#FFFFFF",
+        "role": "panel"
+      },
+      {
+        "name": "Row Tint",
+        "hex": "#EEF3F8",
+        "role": "panel"
+      },
+      {
+        "name": "Text Ink",
+        "hex": "#1E2933",
+        "role": "text"
+      },
+      {
+        "name": "Forum Blue",
+        "hex": "#105289",
+        "role": "link"
+      },
+      {
+        "name": "Header Blue",
+        "hex": "#2A6496",
+        "role": "heading"
+      },
+      {
+        "name": "Rank Orange",
+        "hex": "#E86A10",
+        "role": "accent"
+      }
+    ],
+    "contrast_rules": "Ink on white is 15:1; the forum blue on white is 8:1; white on the header blue is 6:1.",
+    "surface_treatment": "Flat table cells and a vertical gradient on the category bars.",
+    "light_and_shadow": "No shadow on cells; a 1px light top edge on buttons."
+  },
+  "materiality": {
+    "surface_simulation": "A web table: ruled cells, tinted rows and small image buttons.",
+    "border_rules": "1px rules in pale blue grey (#C7D2DD) on all cells.",
+    "blur_and_elevation": "No blur and no elevation."
+  },
+  "ornamentation_details": {
+    "iconography": "Small topic icons of 16px to 27px: a folder for a board, a pin, a lock and a 'new posts' dot.",
+    "illustration": "Avatars of 80px to 100px, rank pip images and signature banners.",
+    "decorative_elements": [
+      "rank pips",
+      "avatar",
+      "signature banner",
+      "breadcrumb",
+      "category bar",
+      "quote box"
+    ]
+  },
+  "motion": {
+    "native": false,
+    "transition_physics": "Each click loads a new page; there is no animation except animated GIF avatars.",
+    "easing": "cubic-bezier(0, 0, 1, 1)",
+    "duration_ms": 0,
+    "hover_and_active": "A link underlines on hover; a table row may tint on hover."
+  },
+  "lineage": {
+    "evolved_from": [
+      "usenet-thread"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "portal-table-layout"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The reader feels at home in a club of regulars with ranks, in-jokes and long threads.",
+    "keywords": [
+      "communal",
+      "ranked",
+      "nostalgic",
+      "tabular",
+      "chatty",
+      "loyal"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "phpbb",
+      "vbulletin",
+      "web forum",
+      "message board",
+      "post count",
+      "forum signature",
+      "board index"
+    ],
+    "use_cases": [
+      "community and fan sites",
+      "support forums",
+      "game and hobby clubs",
+      "retro community themes"
+    ],
+    "avoid_when": [
+      "The product needs a modern mobile-first flow.",
+      "The brand needs a premium tone.",
+      "The talk is real-time chat."
+    ],
+    "modifiers": [
+      {
+        "request": "more anonymous",
+        "toward": "anonymous-imageboard",
+        "how": "Remove the user column and avatars; put an image at the start of each post."
+      },
+      {
+        "request": "more modern",
+        "toward": "reddit-thread",
+        "how": "Replace the tables with nested comments and a vote column."
+      },
+      {
+        "request": "more personal",
+        "toward": "myspace-profile",
+        "how": "Move the user column to a profile page with a top friends grid."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 700,
+      "subhead_weight": 700,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "weight",
+      "display_tracking": "0em",
+      "display_leading": 1.2,
+      "display_case": "none",
+      "body_leading": 1.45,
+      "body_size": "13px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "butt",
+      "linejoin": "miter",
+      "container": "none",
+      "pack": {
+        "id": "fluent-filled",
+        "why": "Small filled icons match the folder, pin and lock icons of a topic list."
+      }
+    },
+    "art": {
+      "recipe": "corporate",
+      "pattern": "grid",
+      "seed": 2000
+    },
+    "layout": {
+      "hero": "stacked",
+      "align": "left",
+      "density": "compact",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "rules",
+      "why": "A forum is ruled tables: thin lines between the rows."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#E8ECF1",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#1E2933",
+      "--color-muted": "#5C6B7A",
+      "--color-primary": "#105289",
+      "--color-accent": "#E86A10",
+      "--color-border": "#C7D2DD",
+      "--font-sans": "\"Arimo\", Arial, Helvetica, sans-serif",
+      "--font-display": "\"Arimo\", Arial, Helvetica, sans-serif",
+      "--border-radius": "4px",
+      "--border-width": "1px",
+      "--shadow-elevation": "none",
+      "--backdrop-filter": "none",
+      "--space-unit": "6px",
+      "--ease": "cubic-bezier(0, 0, 1, 1)",
+      "--duration": "0ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#E8ECF1] text-[#1E2933] font-sans px-2 md:px-6"
+      },
+      {
+        "element": "heading",
+        "classes": "text-lg font-bold text-[#105289]"
+      },
+      {
+        "element": "body",
+        "classes": "text-[13px] leading-[1.45] max-w-[960px] mx-auto"
+      },
+      {
+        "element": "section",
+        "classes": "rounded border border-[#C7D2DD] bg-white"
+      },
+      {
+        "element": "button",
+        "classes": "rounded border border-[#C7D2DD] bg-[#EEF3F8] px-3 py-1 text-xs font-bold text-[#105289] hover:bg-white"
+      },
+      {
+        "element": "label",
+        "classes": "text-[11px] text-[#5C6B7A]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#105289",
+        "#2A6496",
+        "#3B5998"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#E86A10",
+        "#C0392B",
+        "#2E8B57"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 8
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 10
+    },
+    "type_scale_ratio": {
+      "min": 1.125,
+      "max": 1.333,
+      "default": 1.2
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Internet forum",
+      "url": "https://en.wikipedia.org/wiki/Internet_forum"
+    },
+    {
+      "title": "Wikipedia: phpBB",
+      "url": "https://en.wikipedia.org/wiki/PhpBB"
+    }
+  ]
+}

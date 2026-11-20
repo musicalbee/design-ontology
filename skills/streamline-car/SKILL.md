@@ -173,6 +173,15 @@ A press forms a flat steel sheet into a body panel in one stroke. The panels are
 - Close the press so that the sheet takes the shape of the die.
 - Weld the panels into one shell and grind the seams smooth.
 
+### Welding (process)
+
+Two parts of metal or thermoplastic are joined: heat melts the edges, and the melt sets into one piece. The seam can show, or be ground away. Origin: industrial design, Paris, France, 1881.
+
+- Clean the joint to bare metal and fit the parts with a gap of 0 to 3 mm.
+- Melt the edges with an electric arc or a gas flame, and add filler rod of the same metal.
+- Keep the bead even, with a width of 1 to 2 times the thickness of the sheet.
+- Grind the bead flush for a hidden joint, or leave the bead raw for a visible joint.
+
 ### Wind-tunnel testing (tool)
 
 A model or a car stands in a tunnel with a strong air flow. The test shows how the body pushes the air and how much drag it makes. Origin: fashion, London, United Kingdom, 1871.

@@ -1,8 +1,8 @@
 ---
 name: scrapbook-ui
-description: "Apply the Scrapbook UI style (2018–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: scrapbook, collage, paper collage, tape, polaroid, journal."
+description: "Apply the Scrapbook UI style (2018–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: scrapbook, collage, paper collage, tape, polaroid, journal."
 domain: internet
-era: touchscreen
+era: feed-mobile
 triggers:
   - "scrapbook"
   - "collage"
@@ -26,7 +26,7 @@ vector_profile:
 
 Cut-out photos, tape, stickers, torn paper, handwritten notes and slight tilts on a paper ground. It makes a page feel like a handmade album and a personal object.
 
-**Period:** 2018–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Collage web, Paper collage UI, Craft collage
+**Period:** 2018–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Collage web, Paper collage UI, Craft collage
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Scrapbook UI, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Scrapbook UI, you MUST:
 
 1. Tilt each card, photo and sticker by -4° to +4° and never place two neighbours at the same angle.
 2. Put a strip of tape (80px by 24px, yellow or white at 70% opacity, rotated 5° to 15°) on the top corner of photos.
@@ -239,7 +239,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Photomontage (montage)
 
-Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: internet, Berlin, 1918.
+Fragments of photographs, cut and joined on one sheet, so that the joins make a statement that no single photograph makes. Origin: graphic movements, Berlin, 1918.
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.

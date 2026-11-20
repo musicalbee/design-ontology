@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "sunday-family-dinner",
+  "name": "Sunday dinner at a long table",
+  "kind": "ritual",
+  "description": "Three generations sit at one long table with a roast, and the meal goes on for hours.",
+  "emotions": [
+    {
+      "emotion": "joy",
+      "strength": 1
+    },
+    {
+      "emotion": "koselig",
+      "strength": 0.8
+    },
+    {
+      "emotion": "nostalgia",
+      "strength": 0.5
+    },
+    {
+      "emotion": "being-moved",
+      "strength": 0.3
+    }
+  ],
+  "time": {
+    "of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 2400,
+      "max": 3500
+    },
+    "lux": {
+      "min": 50,
+      "max": 300
+    },
+    "direction": "top",
+    "quality": "soft",
+    "sources": [
+      "lamp",
+      "candle",
+      "sky"
+    ]
+  },
+  "weather": [
+    "indoors"
+  ],
+  "sound": [
+    "cutlery",
+    "many voices",
+    "laughter"
+  ],
+  "scent": [
+    "roast",
+    "gravy",
+    "coffee"
+  ],
+  "people": {
+    "min": 6,
+    "max": 14,
+    "activity": "eat and talk at one table"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior",
+      "arts-and-crafts-interior",
+      "shaker-interior"
+    ],
+    "things": [
+      "long table",
+      "tablecloth",
+      "serving dishes",
+      "pendant lamp"
+    ]
+  },
+  "cues": [
+    "warm-dim-light-positive-affect",
+    "curved-furniture-pleasure"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Sunday roast: a family meal that started in Britain in the late 1700s",
+      "url": "https://en.wikipedia.org/wiki/Sunday_roast"
+    }
+  ]
+}

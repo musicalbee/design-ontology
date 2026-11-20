@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "foundation",
+  "name": "Foundation",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2011,
+    "circa": true
+  },
+  "licence": "MIT (see repository licence file)",
+  "url": "https://get.foundation/",
+  "tokens": {
+    "color": {
+      "primary": "#1779ba",
+      "secondary": "#767676",
+      "success": "#3adb76",
+      "warning": "#ffae00",
+      "danger": "#cc4b37",
+      "bg": "#fefefe",
+      "on-surface": "#0a0a0a",
+      "border": "#cacaca"
+    },
+    "type": {
+      "families": [
+        "Helvetica Neue",
+        "Helvetica",
+        "Roboto",
+        "Arial"
+      ]
+    },
+    "radius": [
+      0
+    ]
+  },
+  "styles": [
+    {
+      "style": "minimalism-web",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Foundation for Sites 6.8.1 scss/settings/_settings.scss",
+      "url": "https://cdn.jsdelivr.net/gh/foundation/foundation-sites@6.8.1/scss/settings/_settings.scss"
+    },
+    {
+      "title": "foundation-sites repository",
+      "url": "https://github.com/foundation/foundation-sites"
+    }
+  ]
+}

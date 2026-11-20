@@ -1,0 +1,173 @@
+/* The demo kit: one set of parts for every demo page (kit.js draws them, nav.js loads both files).
+   Tokens first, then the parts: the style preview, the chips of the five kinds of thing (style, person,
+   org, material, process), the tip, the select, the table, and the dense patterns for travel through
+   the ontology (time line, echoes, graph cloud, paths).
+   The tokens are the same as the top bar and the encyclopedia: a pale ground, navy ink, one royal accent. */
+:root {
+  --k-bg: #f6f7fb; --k-card: #fff; --k-sunk: #eff2fb; --k-ink: #1b1c33; --k-muted: #474a68; --k-faint: #6b6e8c;
+  --k-line: #dfe3ef; --k-line-strong: #b9bfd6; --k-accent: #264fcc; --k-focus: #2589ff;
+  --k-radius: 10px; --k-radius-sm: 6px; --k-shadow: 0 10px 30px rgb(20 24 60 / .16), 0 1px 3px rgb(20 24 60 / .1);
+  --k-font: "Onest", "Helvetica Neue", Arial, sans-serif; --k-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  /* One colour for each kind of thing, so that a chip says what it is before you read it. */
+  --k-style: #264fcc; --k-person: #b0437a; --k-org: #2f7d6d; --k-material: #a0612a; --k-process: #6b4fc4;
+  /* One colour for each kind of edge between styles. */
+  --k-e-evolved: #264fcc; --k-e-rebelled: #c2412d; --k-e-hybrid: #8a6d1d; --k-e-echoes: #2f7d6d; --k-e-sub: #7a7e9c;
+}
+
+/* ── Style preview: always a 3:2 frame. A photograph fills it; a board sits whole on a plain ground. ── */
+.k-pv { position: relative; display: block; margin: 0; aspect-ratio: 3 / 2; overflow: hidden; border-radius: var(--k-radius-sm);
+  background: var(--k-sunk); flex: none; }
+.k-pv img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; display: block; }
+.k-pv[data-fit="contain"] { background: #fff; box-shadow: inset 0 0 0 1px var(--k-line); }
+.k-pv[data-fit="contain"] img { object-fit: contain; padding: 4%; }
+.k-pv.xs { width: 36px; border-radius: 4px; }
+.k-pv.sm { width: 72px; }
+.k-pv.md { width: 180px; }
+.k-pv.lg { width: 100%; }
+.k-pv:not(:has(img))::after { content: ""; position: absolute; inset: 30%; border-radius: 50%; background: var(--k-line); }
+
+/* ── Chips: one shape for the five kinds. The media on the left says the kind: a 3:2 preview for a style,
+   a round portrait for a person, a square emblem for an org, a round swatch for a material, a square
+   photo for a process. ── */
+.k-chip { --c: var(--k-style); display: inline-flex; align-items: center; gap: 7px; max-width: 100%; min-height: 28px; padding: 3px 10px 3px 3px;
+  border: 1px solid var(--k-line); border-radius: 999px; background: var(--k-card); color: var(--k-ink); text-decoration: none;
+  font: 500 13px/1.25 var(--k-font); vertical-align: middle; transition: border-color .12s ease, box-shadow .12s ease; }
+.k-chip:hover { border-color: var(--c); box-shadow: 0 0 0 1px var(--c); }
+.k-chip:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 1px; }
+.k-chip > span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.k-chip small { color: var(--k-faint); font-weight: 400; margin-left: 2px; }
+.k-chip .k-m { width: 22px; height: 22px; flex: none; border-radius: 50%; overflow: hidden; display: grid; place-items: center;
+  background: var(--k-sunk); color: var(--c); font: 700 10px/1 var(--k-font); }
+.k-chip .k-m img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.k-chip .k-pv { width: 33px; border-radius: 999px 4px 4px 999px; }
+.k-chip[data-k="style"] { --c: var(--k-style); padding-left: 3px; }
+.k-chip[data-k="person"] { --c: var(--k-person); }
+.k-chip[data-k="person"] .k-m img { object-position: 50% 25%; }
+.k-chip[data-k="org"] { --c: var(--k-org); }
+.k-chip[data-k="org"] .k-m { border-radius: 5px; background: #fff; box-shadow: inset 0 0 0 1px var(--k-line); }
+.k-chip[data-k="org"] .k-m img { object-fit: contain; padding: 2px; }
+.k-chip[data-k="material"] { --c: var(--k-material); }
+.k-chip[data-k="process"] { --c: var(--k-process); }
+.k-chip[data-k="process"] .k-m { border-radius: 5px; }
+.k-chip.ghost { opacity: .6; }
+.k-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* A kind label: the small coloured word before a list of chips. */
+.k-kind { --c: var(--k-style); display: inline-flex; align-items: center; gap: 6px; font: 650 11px/1 var(--k-font); letter-spacing: .06em;
+  text-transform: uppercase; color: var(--k-muted); }
+.k-kind::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--c); }
+.k-kind[data-k="person"] { --c: var(--k-person); } .k-kind[data-k="org"] { --c: var(--k-org); }
+.k-kind[data-k="material"] { --c: var(--k-material); } .k-kind[data-k="process"] { --c: var(--k-process); }
+
+/* ── Tip: one floating card for every kind of thing, on hover or focus of any link to it.
+   The look is the canon tip of the people and the orgs (.fx-tip in faces.js): navy, white text. ── */
+.k-tip { position: fixed; z-index: 1600; width: min(300px, calc(100vw - 16px)); padding: 12px 14px; border-radius: 12px; pointer-events: none;
+  background: #1F1F45; color: #F2F3FA; font: 12.5px/1.45 var(--k-font); box-shadow: 0 18px 44px rgb(31 31 69 / .3);
+  opacity: 0; transform: translateY(4px); transition: opacity .12s ease, transform .12s ease; }
+.k-tip[data-on] { opacity: 1; transform: none; }
+.k-tip .k-pv, .k-tip .k-pic { width: 100%; margin: 0 0 10px; }
+.k-tip .k-pv { background: rgb(255 255 255 / .08); }
+.k-tip .k-pv[data-fit="contain"] { background: #fff; box-shadow: none; }
+.k-tip .k-pic { aspect-ratio: 3 / 2; border-radius: 8px; overflow: hidden; background: rgb(255 255 255 / .08); }
+.k-tip .k-pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.k-tip .k-pic.sw { aspect-ratio: 5 / 1; }
+.k-tip .k-kind { color: #B9BCDA; margin-bottom: 4px; }
+.k-tip b.k-t { display: block; font-size: 14px; color: #fff; }
+.k-tip .k-meta { color: #B9BCDA; margin: 1px 0 6px; }
+.k-tip p { margin: 0 0 6px; }
+.k-tip .k-rel { display: flex; flex-wrap: wrap; gap: 4px; }
+.k-tip .k-rel span { padding: 1px 7px; border-radius: 999px; background: rgb(255 255 255 / .12); font-size: 11.5px; }
+@media (hover: none) { .k-tip { display: none; } }
+@media (prefers-reduced-motion: reduce) { .k-tip { transition: none; } }
+
+/* ── Select: as wide as its chosen option, never wider than its box. ── */
+select.k-select, .k-scope select { field-sizing: content; min-width: 0; max-width: 100%; font: 500 14px/1.2 var(--k-font); color: var(--k-ink);
+  padding: 6px 30px 6px 12px; border: 1px solid var(--k-line); border-radius: 999px; background: var(--k-card)
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23474a68' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 12px center;
+  appearance: none; -webkit-appearance: none; cursor: pointer; text-overflow: ellipsis; }
+select.k-select:hover { border-color: var(--k-line-strong); }
+select.k-select:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 1px; }
+
+/* ── Table: a sticky head, sort on each column head, a filter box and a count. ── */
+.k-tbl { display: grid; gap: 10px; font: 14px/1.4 var(--k-font); color: var(--k-ink); min-width: 0; }
+.k-tbl-bar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.k-tbl-bar input[type="search"] { font: inherit; padding: 6px 12px; border: 1px solid var(--k-line); border-radius: 999px; background: var(--k-card);
+  min-width: 0; width: min(100%, 280px); }
+.k-tbl-bar input[type="search"]:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 1px; }
+.k-tbl-count { margin-left: auto; color: var(--k-faint); font-size: 13px; font-variant-numeric: tabular-nums; }
+.k-tbl-wrap { overflow: auto; max-height: var(--k-tbl-h, 70vh); border: 1px solid var(--k-line); border-radius: var(--k-radius); background: var(--k-card); }
+.k-tbl table { border-collapse: separate; border-spacing: 0; width: 100%; }
+.k-tbl th, .k-tbl td { padding: 7px 12px; text-align: left; vertical-align: middle; border-bottom: 1px solid var(--k-line); }
+.k-tbl tr:last-child td { border-bottom: 0; }
+.k-tbl th { position: sticky; top: 0; z-index: 1; background: var(--k-sunk); font: 650 12px/1.2 var(--k-font); color: var(--k-muted); white-space: nowrap; }
+.k-tbl th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+.k-tbl th button::after { content: "↕"; opacity: .35; font-size: 11px; }
+.k-tbl th[aria-sort="ascending"] button::after { content: "↑"; opacity: 1; color: var(--k-accent); }
+.k-tbl th[aria-sort="descending"] button::after { content: "↓"; opacity: 1; color: var(--k-accent); }
+.k-tbl th button:focus-visible { outline: 2px solid var(--k-focus); outline-offset: 2px; border-radius: 3px; }
+.k-tbl td.num, .k-tbl th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.k-tbl tbody tr:hover td { background: #fafbfe; }
+.k-tbl-empty { padding: 20px; color: var(--k-faint); }
+.k-tbl .k-bar { display: inline-block; height: 6px; border-radius: 3px; background: var(--k-accent); opacity: .7; vertical-align: middle; }
+
+/* ── Segmented filter: a row of toggle buttons for a facet (domain, kind, class). ── */
+.k-seg { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.k-seg button { font: 500 13px/1 var(--k-font); padding: 6px 11px; border-radius: 999px; border: 1px solid var(--k-line); background: var(--k-card);
+  color: var(--k-muted); cursor: pointer; }
+.k-seg button[aria-pressed="true"] { background: var(--k-ink); border-color: var(--k-ink); color: #fff; }
+
+/* ── Time line: one lane for each row, a bar for each period, a dot for each event. ── */
+.k-tl { --k-tl-label: 160px; position: relative; font: 12px/1.3 var(--k-font); color: var(--k-ink); min-width: 0; }
+.k-tl-axis { position: relative; height: 22px; margin-left: var(--k-tl-label); border-bottom: 1px solid var(--k-line-strong); }
+.k-tl-axis span { position: absolute; bottom: 4px; transform: translateX(-50%); color: var(--k-faint); font-variant-numeric: tabular-nums; }
+.k-tl-row { display: grid; grid-template-columns: var(--k-tl-label) 1fr; align-items: center; min-height: 26px; border-bottom: 1px solid #eef0f6; }
+.k-tl-row > a, .k-tl-row > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 8px; color: var(--k-ink); text-decoration: none; }
+.k-tl-row > a:hover { color: var(--k-accent); }
+.k-tl-lane { position: relative; height: 26px; }
+.k-tl-bar { position: absolute; top: 8px; height: 10px; border-radius: 5px; background: var(--c, var(--k-style)); opacity: .75; min-width: 4px; }
+.k-tl-bar.open { background: linear-gradient(90deg, var(--c, var(--k-style)) 70%, transparent); }
+.k-tl-dot { position: absolute; top: 8px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--k-card); border: 2px solid var(--c, var(--k-style)); }
+.k-tl-now { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1px dashed var(--k-line-strong); }
+
+/* ── Echoes: a style in the middle, its kin in other domains around it, one column for each domain. ── */
+.k-echo { display: grid; gap: 14px; grid-template-columns: minmax(0, 240px) minmax(0, 1fr); align-items: start; font: 13px/1.4 var(--k-font); }
+@media (max-width: 720px) { .k-echo { grid-template-columns: minmax(0, 1fr); } }
+.k-echo-core { display: grid; gap: 6px; color: var(--k-ink); text-decoration: none; }
+.k-echo-core b { font-size: 15px; }
+.k-echo-cols { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr)); }
+.k-echo-col h4 { margin: 0 0 6px; font: 650 11px/1 var(--k-font); letter-spacing: .06em; text-transform: uppercase; color: var(--k-muted); }
+.k-echo-col a { display: grid; gap: 4px; margin-bottom: 10px; color: var(--k-ink); text-decoration: none; }
+.k-echo-col a:hover span { color: var(--k-accent); }
+.k-echo-col small { color: var(--k-faint); }
+
+/* ── Graph cloud: the neighbourhood of one node, ring by ring. ── */
+.k-cloud { position: relative; width: 100%; aspect-ratio: 1; max-width: 720px; font: 11px/1.2 var(--k-font); }
+.k-cloud svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.k-cloud .ring { fill: none; stroke: var(--k-line); stroke-dasharray: 2 4; }
+.k-cloud .edge { stroke-width: 1.2; opacity: .45; fill: none; }
+.k-cloud .node { position: absolute; transform: translate(-50%, -50%); display: grid; justify-items: center; gap: 2px; width: 84px; text-align: center;
+  color: var(--k-ink); text-decoration: none; }
+.k-cloud .node .k-pv { width: 64px; border-radius: 5px; box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--k-line); }
+.k-cloud .node.h2 .k-pv { width: 44px; }
+.k-cloud .node.h2 span { font-size: 10px; color: var(--k-muted); }
+.k-cloud .node.core { width: 140px; z-index: 2; }
+.k-cloud .node.core .k-pv { width: 120px; box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--k-accent); }
+.k-cloud .node.core span { font-weight: 650; font-size: 13px; }
+.k-cloud .node span { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.k-cloud .node:hover .k-pv, .k-cloud .node:focus-visible .k-pv { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--k-accent); }
+.k-cloud[data-hover] .node:not([data-lit]) { opacity: .25; }
+.k-cloud[data-hover] .edge:not([data-lit]) { opacity: .06; }
+.k-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 12px/1 var(--k-font); color: var(--k-muted); }
+.k-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.k-legend i { width: 16px; height: 3px; border-radius: 2px; background: var(--c); }
+
+/* ── Paths: the shortest routes from one thing to another, hop by hop, across all kinds of thing. ── */
+.k-paths { display: grid; gap: 8px; font: 13px/1.4 var(--k-font); }
+.k-path { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 4px; padding: 8px 10px; border: 1px solid var(--k-line); border-radius: var(--k-radius);
+  background: var(--k-card); }
+.k-path .hop { color: var(--k-faint); font-size: 11px; display: inline-flex; align-items: center; gap: 4px; padding: 0 2px; white-space: nowrap; }
+.k-path .hop::before { content: ""; width: 14px; height: 1px; background: var(--k-line-strong); }
+.k-path .hop::after { content: "→"; color: var(--k-line-strong); }
+.k-path-n { color: var(--k-faint); font-size: 12px; }
+.k-paths-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.k-paths-form input { font: inherit; padding: 6px 12px; border: 1px solid var(--k-line); border-radius: 999px; width: min(100%, 240px); }

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/tools.schema.json",
+  "title": "Tools",
+  "description": "The tools and the equipment that the process to material edges name in `with` (data/materials/tools.json).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tools"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "tools": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "summary", "sources"],
+        "properties": {
+          "id": { "$ref": "core.schema.json#/$defs/slug" },
+          "name": { "$ref": "core.schema.json#/$defs/shortText" },
+          "summary": { "$ref": "core.schema.json#/$defs/sentence" },
+          "identity": { "type": "object", "additionalProperties": false, "properties": { "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" } } },
+          "sources": { "allOf": [{ "$ref": "core.schema.json#/$defs/sources" }, { "type": "array", "minItems": 1 }] }
+        }
+      }
+    }
+  }
+}

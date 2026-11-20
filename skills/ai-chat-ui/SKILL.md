@@ -1,8 +1,8 @@
 ---
 name: ai-chat-ui
-description: "Apply the AI Chat Interface style (2022–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: chat ui, chatbot, ai assistant, llm interface, prompt box, chatgpt style."
+description: "Apply the AI Chat Interface style (2022–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: chat ui, chatbot, ai assistant, llm interface, prompt box, chatgpt style."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "chat ui"
   - "chatbot"
@@ -26,7 +26,7 @@ vector_profile:
 
 A single centred column, one large input at the bottom, streaming text, suggestion chips and almost no chrome. It came with ChatGPT in 2022 and makes language the main control.
 
-**Period:** 2022–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Conversational UI, LLM chat UI, Prompt-first UI
+**Period:** 2022–now · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Conversational UI, LLM chat UI, Prompt-first UI
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in AI Chat Interface, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in AI Chat Interface, you MUST:
 
 1. Centre one column of 680px to 768px; use a measure of 60 to 75 characters and 16px to 17px text with a leading of 1.6.
 2. Dock a single input at the bottom: height 56px to 120px that grows to 200px, radius 16px to 28px, with a send button of 32px to 40px inside it.
@@ -252,7 +252,7 @@ Text that appears word by word as the system writes it, so the reader can read t
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **ChatGPT** (platform, web, 2022–now), launched the style. A chat assistant from OpenAI. Its single column of messages and its prompt box became the default look of an AI chat interface.
-- **Microsoft** (company, Redmond, ?–now), funded the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019.
+- **Microsoft** (company, Redmond, 1975–now), funded the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019. Its design teams made the Metro and Fluent design systems.
 - **OpenAI** (company, San Francisco, ?–now), made the style. US AI company. It released ChatGPT in November 2022. Microsoft is its main investor, with more than 13 billion dollars.
 
 ## Permutations
@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`diffusion-gloss`](../diffusion-gloss/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
-- **Nearest by vector profile:** [`brutalist-web`](../brutalist-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md), [`minimalism-web`](../minimalism-web/SKILL.md)
+- **Nearest by vector profile:** [`anonymous-imageboard`](../anonymous-imageboard/SKILL.md), [`brutalist-web`](../brutalist-web/SKILL.md), [`flat-design`](../flat-design/SKILL.md)
 
 ## Emotional target
 

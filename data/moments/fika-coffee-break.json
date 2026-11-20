@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schema/moment.schema.json",
+  "id": "fika-coffee-break",
+  "name": "Fika: the coffee break",
+  "kind": "ritual",
+  "description": "Colleagues stop work for coffee and a cinnamon bun, and talk about things that are not work.",
+  "emotions": [
+    {
+      "emotion": "relaxation",
+      "strength": 1
+    },
+    {
+      "emotion": "joy",
+      "strength": 0.6
+    },
+    {
+      "emotion": "koselig",
+      "strength": 0.5
+    }
+  ],
+  "time": {
+    "of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "season": [
+      "any"
+    ],
+    "sun_elevation_deg": null
+  },
+  "light": {
+    "cct_k": {
+      "min": 3000,
+      "max": 5000
+    },
+    "lux": {
+      "min": 200,
+      "max": 750
+    },
+    "direction": "mixed",
+    "quality": "soft",
+    "sources": [
+      "lamp",
+      "sky"
+    ]
+  },
+  "weather": [
+    "indoors"
+  ],
+  "sound": [
+    "coffee machine",
+    "low talk"
+  ],
+  "scent": [
+    "coffee",
+    "cardamom",
+    "cinnamon"
+  ],
+  "people": {
+    "min": 2,
+    "max": 10,
+    "activity": "drink coffee and eat a bun together"
+  },
+  "carriers": {
+    "styles": [
+      "scandinavian-interior"
+    ],
+    "things": [
+      "coffee cups",
+      "cinnamon buns",
+      "shared table"
+    ]
+  },
+  "cues": [
+    "moderate-noise-creativity"
+  ],
+  "scene_ref": null,
+  "sources": [
+    {
+      "title": "Wikipedia, Fika (Sweden): a fixed social pause for coffee and a bun",
+      "url": "https://en.wikipedia.org/wiki/Fika_(Sweden)"
+    }
+  ]
+}

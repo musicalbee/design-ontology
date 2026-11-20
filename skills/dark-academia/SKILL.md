@@ -1,8 +1,8 @@
 ---
 name: dark-academia
-description: "Apply the Dark academia style (2019–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: dark academia, gothic campus, old library, tweed, candlelight, the secret history."
+description: "Apply the Dark academia style (2019–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: dark academia, gothic campus, old library, tweed, candlelight, the secret history."
 domain: internet
-era: contemporary-spatial
+era: feed-mobile
 triggers:
   - "dark academia"
   - "gothic campus"
@@ -26,7 +26,7 @@ vector_profile:
 
 Old libraries, candlelight, tweed, leather books, Latin and brown-green gloom in a romantic dream of a classical college. It spread on Tumblr and TikTok after 2019 and takes much from The Secret History.
 
-**Period:** 2019–now · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Dark academia aesthetic, Gothic campus
+**Period:** 2019–now · **Era:** The feed and the phone · **Domain:** Internet · **Also called:** Dark academia aesthetic, Gothic campus
 
 ## When to load this skill
 
@@ -41,7 +41,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Dark academia, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Dark academia, you MUST:
 
 1. Set the ground in dark brown (#1E1712) or deep green (#16241C), never in pure black.
 2. Use aged paper (#E9DCC0) for text areas and brass (#B08D57) for rules and highlights.
@@ -275,10 +275,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more modern**: move toward [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md) (Editorial Serif Revival). Switch to a white ground and black serif headings with large margins.
 - If the user asks for **more gothic**: move toward [`victorian-web`](../victorian-web/SKILL.md) (Victorian Web). Add ornate borders, dense engraved panels and a blackletter initial.
 
-- **Came from (go here for a more orthodox version):** [`victorian-web`](../victorian-web/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`cottagecore`](../cottagecore/SKILL.md)
-- **Kin in another domain:** [`gothic-architecture`](../gothic-architecture/SKILL.md), [`ivy-style`](../ivy-style/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
+- **Kin in another domain:** [`gothic-architecture`](../gothic-architecture/SKILL.md), [`ivy-style`](../ivy-style/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
 - **Nearest by vector profile:** [`barbiecore`](../barbiecore/SKILL.md), [`cottagecore`](../cottagecore/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
 
 ## Emotional target

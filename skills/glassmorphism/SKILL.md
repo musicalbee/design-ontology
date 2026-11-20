@@ -1,8 +1,8 @@
 ---
 name: glassmorphism
-description: "Apply the Glassmorphism style (2020–present) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: glassmorphism, frosted glass, glass ui, translucent panels, backdrop blur, blurred background card."
+description: "Apply the Glassmorphism style (2020–present) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: glassmorphism, frosted glass, glass ui, translucent panels, backdrop blur, blurred background card."
 domain: internet
-era: contemporary-spatial
+era: short-video-ai
 triggers:
   - "glassmorphism"
   - "frosted glass"
@@ -27,7 +27,7 @@ vector_profile:
 
 Translucent panels that blur the colourful shapes behind them, edged with a thin light border. It spread after macOS Big Sur in 2020 and revives the glass of Frutiger Aero with real backdrop blur.
 
-**Period:** 2020–present · **Era:** Contemporary & Spatial · **Domain:** Internet · **Also called:** Frosted Glass UI, Glass UI
+**Period:** 2020–present · **Era:** Short video and AI · **Domain:** Internet · **Also called:** Frosted Glass UI, Glass UI
 
 ## When to load this skill
 
@@ -42,7 +42,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Glassmorphism, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Glassmorphism, you MUST:
 
 1. Place panels over a vivid background of gradients or blurred shapes, because blur needs colour behind it to be visible.
 2. Fill each panel with rgba(255, 255, 255, 0.15) to 0.25 and apply backdrop-filter: blur(16px to 24px) saturate(160%).
@@ -281,7 +281,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
 - **Led to (go here for a newer version):** [`ethereal-web`](../ethereal-web/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
 - **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`material-design`](../material-design/SKILL.md)
+- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`discord-server`](../discord-server/SKILL.md)
 
 ## Emotional target
 

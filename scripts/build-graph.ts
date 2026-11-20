@@ -4,7 +4,9 @@
  */
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import { ROOT, loadAll, loadFunding, loadOrgs, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
+import { EVIDENCE_WEIGHT, loadCues, loadEmotions, loadEvokes, loadMoments } from "./emotions.js";
+import { loadLayer, styleLinks } from "./materials.js";
+import { ROOT, loadAll, loadDesignSystems, loadFunding, loadOrgs, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
 
 type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES" | "SUBGENRE_OF";
 interface Edge { from: string; to: string; type: EdgeType }
@@ -126,8 +128,29 @@ const graph = {
 write("graph/lineage.json", JSON.stringify(graph, null, 2));
 console.log(`graph/lineage.json · ${graph.nodes.length} nodes · ${edgeList.length} edges · ${techniques.length} techniques`);
 
+// ── People and organisations: one list of links between the two layers ──────
+// A link comes from either side: an org lists the person in people or members, or the person lists the org in orgs
+// (with its own source). The person side wins when both name the same pair, because it carries the role and the years.
+type Link = { person: string; org: string; role: string; from: number | null; to: number | null; source: { title: string; url?: string } | null };
+const peopleFiles = loadPeople();
+const orgFiles = loadOrgs();
+const linkMap = new Map<string, Link>();
+for (const { person: p } of peopleFiles)
+  for (const l of p.orgs ?? []) linkMap.set(`${p.id}|${l.org}`, { person: p.id, org: l.org, role: l.role, from: l.from ?? null, to: l.to ?? null, source: l.source });
+for (const { org: o } of orgFiles) {
+  for (const m of o.members ?? [])
+    if (!linkMap.has(`${m.person}|${o.id}`)) linkMap.set(`${m.person}|${o.id}`, { person: m.person, org: o.id, role: m.role, from: m.from ?? null, to: m.to ?? null, source: null });
+  for (const p of o.people ?? [])
+    if (!linkMap.has(`${p}|${o.id}`)) linkMap.set(`${p}|${o.id}`, { person: p, org: o.id, role: "ran", from: null, to: null, source: null });
+}
+const links = [...linkMap.values()];
+const linksOf = (key: "person" | "org", id: string) =>
+  links.filter((l) => l[key] === id).sort((a, b) => (a.from ?? 9999) - (b.from ?? 9999) || a.org.localeCompare(b.org) || a.person.localeCompare(b.person));
+const emblemOut = (e?: { kind: string; url: string; page: string; licence: string; credit: string; trademark?: true }) =>
+  e ? { kind: e.kind, url: e.url, page: e.page, licence: e.licence, credit: e.credit, trademark: e.trademark ?? false } : null;
+
 // ── People: each life next to the spans of the styles it touched ────────────
-const people = loadPeople()
+const people = peopleFiles
   .map(({ person: p }) => {
     // A posthumous milestone (a dig, a museum sale) is not a year of the life, so it does not set the active span.
     const years = p.milestones.filter((m) => !m.posthumous).map((m) => m.year);
@@ -143,8 +166,10 @@ const people = loadPeople()
       nationality: p.nationality ?? [],
       bio: p.bio,
       photo: p.photo ? { url: p.photo.url, page: p.photo.page, licence: p.photo.licence, credit: p.photo.credit } : null,
+      emblem: emblemOut(p.emblem),
       wikidata: p.identity?.wikidata ?? null,
       styles: p.styles,
+      orgs: linksOf("person", p.id).map(({ org, role, from, to, source }) => ({ org, role, from, to, source })),
       milestones: [...p.milestones].sort((a, b) => a.year - b.year),
     };
   })
@@ -159,7 +184,7 @@ write(
 console.log(`graph/people.json · ${people.length} people · ${Object.values(byStyle).filter((v) => !v.length).length} styles with no person`);
 
 // ── Organisations: groups, channels and backers, with their styles, members and relations ──
-const orgs = loadOrgs()
+const orgs = orgFiles
   .map(({ org: o }) => ({
     id: o.id,
     name: o.name,
@@ -172,6 +197,9 @@ const orgs = loadOrgs()
     styles: o.styles,
     people: o.people ?? [],
     members: o.members ?? [],
+    // Each person tied to the org, from both sides, with the role.
+    affiliates: linksOf("org", o.id).map(({ person, role, from, to, source }) => ({ person, role, from, to, source })),
+    emblem: emblemOut(o.emblem),
     statement: o.statement ?? null,
     moves: [...(o.moves ?? [])].sort((a, b) => a.year - b.year),
     relations: o.relations ?? {},
@@ -181,10 +209,7 @@ const orgsByStyle: Record<string, { org: string; part: string }[]> = {};
 for (const s of styles) orgsByStyle[s.id] = [];
 for (const o of orgs) for (const s of o.styles) orgsByStyle[s.style]?.push({ org: o.id, part: s.part });
 const orgsByPerson: Record<string, { org: string; role: string }[]> = {};
-for (const o of orgs) {
-  for (const m of o.members) (orgsByPerson[m.person] ??= []).push({ org: o.id, role: m.role });
-  for (const p of o.people) if (!o.members.some((m) => m.person === p)) (orgsByPerson[p] ??= []).push({ org: o.id, role: "ran" });
-}
+for (const l of links) (orgsByPerson[l.person] ??= []).push({ org: l.org, role: l.role });
 // Relations between organisations. rival_of is symmetric and is stored once.
 const orgEdges = new Map<string, { from: string; to: string; type: string }>();
 for (const o of orgs)
@@ -215,6 +240,37 @@ write(
   ),
 );
 console.log(`graph/orgs.json · ${orgs.length} orgs · ${orgEdges.size} relations · ${Object.values(orgsByStyle).filter((v) => !v.length).length} styles with no org`);
+
+// ── Design systems: real systems, manuals and kits, with the styles they embody ──
+const dsFiles = loadDesignSystems();
+const designSystems = dsFiles
+  .map(({ ds: { $schema: _s, ...ds } }) => ({ ...ds, people: ds.people ?? [], versions: ds.versions ?? [], components: ds.components ?? [], principles: ds.principles ?? [], tokens: ds.tokens ?? {} }))
+  .sort((a, b) => a.first_release.year - b.first_release.year || a.id.localeCompare(b.id));
+const dsByStyle: Record<string, { ds: string; relation: string }[]> = {};
+for (const s of styles) dsByStyle[s.id] = [];
+for (const d of designSystems) for (const s of d.styles) dsByStyle[s.style]?.push({ ds: d.id, relation: s.relation });
+const dsByOwner: Record<string, string[]> = {};
+for (const d of designSystems) if (d.owner) (dsByOwner[d.owner] ??= []).push(d.id);
+write(
+  "graph/design-systems.json",
+  JSON.stringify(
+    {
+      $comment: "Generated by scripts/build-graph.ts from data/design-systems/. Do not edit by hand.",
+      relation_types: {
+        embodies: "The system is a clear instance of the style.",
+        defined: "The system set the style.",
+        "derived-from": "The system took the style from an earlier one.",
+        inspired: "The system borrows some traits of the style.",
+      },
+      design_systems: designSystems,
+      by_style: dsByStyle,
+      by_owner: dsByOwner,
+    },
+    null,
+    2,
+  ),
+);
+console.log(`graph/design-systems.json · ${designSystems.length} design systems · ${Object.values(dsByStyle).filter((v) => v.length).length} styles covered`);
 
 // ── Money: who paid whom, when, for what ──────────────────────────────────────
 // Each flow is an edge from a backer (a person or an organisation) to a style, a person or an
@@ -252,6 +308,110 @@ write(
   ),
 );
 console.log(`graph/money.json · ${flows.length} flows · ${Object.keys(moneyByBacker).length} backers · ${Object.values(moneyByStyle).filter((v) => v.length).length} styles with money`);
+
+// ── The emotions layer: terms with PAD points, and carriers ranked for each emotion ──
+const emotions = loadEmotions().map(({ emotion: e }) => ({ id: e.id, name: e.name, family: e.family, culture: e.culture, pad: { p: e.pad.p, a: e.pad.a, d: e.pad.d }, nearest: e.nearest, opposite: e.opposite }));
+type Carried = { carrier: string; id: string; domain: string | null; strength: number; evidence: string; score: number };
+const byEmotion: Record<string, Carried[]> = Object.fromEntries(emotions.map((e) => [e.id, []]));
+const evokesByStyle: Record<string, { emotion: string; strength: number; evidence: string }[]> = {};
+for (const { evokes: f } of loadEvokes())
+  for (const [id, list] of Object.entries(f.edges))
+    for (const e of list) {
+      // The best evidence of an edge sets its kind and its weight.
+      const best = (["measured", "stated", "inferred"] as const).find((k) => e.evidence.some((x) => x.kind === k))!;
+      const score = Math.round(e.strength * EVIDENCE_WEIGHT[best] * 100) / 100;
+      byEmotion[e.emotion]?.push({ carrier: f.carrier, id, domain: f.domain, strength: e.strength, evidence: best, score });
+      if (f.carrier === "style") (evokesByStyle[id] ??= []).push({ emotion: e.emotion, strength: e.strength, evidence: best });
+    }
+for (const list of Object.values(byEmotion)) list.sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+// Cues by emotion: a cue that names an emotion lists under it. A cue on a PAD axis lists under pad:p, pad:a or pad:d.
+type CueRef = { cue: string; variable: string; change: string; unit: string; range: { from: number | string; to: number | string }; sign: 1 | -1; size: string; weak: boolean };
+const cues = loadCues().map(({ cue }) => cue);
+const cuesByEmotion: Record<string, CueRef[]> = {};
+for (const c of cues)
+  for (const e of c.effects)
+    (cuesByEmotion[e.target] ??= []).push({ cue: c.id, variable: c.variable, change: c.direction.change, unit: c.direction.unit, range: c.direction.range, sign: e.sign, size: e.size, weak: c.weak ?? false });
+for (const list of Object.values(cuesByEmotion)) list.sort((a, b) => Number(a.weak) - Number(b.weak) || a.cue.localeCompare(b.cue));
+// Moments by emotion, strongest first.
+const moments = loadMoments().map(({ moment }) => moment);
+const momentsByEmotion: Record<string, { moment: string; kind: string; strength: number }[]> = {};
+for (const m of moments) for (const e of m.emotions) (momentsByEmotion[e.emotion] ??= []).push({ moment: m.id, kind: m.kind, strength: e.strength });
+for (const list of Object.values(momentsByEmotion)) list.sort((a, b) => b.strength - a.strength || a.moment.localeCompare(b.moment));
+const momentIndex = Object.fromEntries(
+  moments.map((m) => [m.id, { name: m.name, kind: m.kind, emotions: m.emotions, time: m.time, light: m.light, weather: m.weather, people: m.people, carriers: m.carriers, cues: m.cues, scene_ref: m.scene_ref }]),
+);
+write(
+  "graph/emotions.json",
+  JSON.stringify(
+    {
+      $comment: "Generated by scripts/build-graph.ts from data/emotions/, data/evokes/, data/cues/ and data/moments/. Do not edit by hand. score = strength × evidence weight (measured 1, stated 0.7, inferred 0.3).",
+      emotions,
+      by_emotion: byEmotion,
+      by_style: evokesByStyle,
+      cues_by_emotion: Object.fromEntries(Object.entries(cuesByEmotion).sort(([a], [b]) => a.localeCompare(b))),
+      moments_by_emotion: Object.fromEntries(Object.entries(momentsByEmotion).sort(([a], [b]) => a.localeCompare(b))),
+      moments: momentIndex,
+    },
+    null,
+    2,
+  ),
+);
+console.log(`graph/emotions.json · ${emotions.length} emotions · ${Object.values(byEmotion).reduce((n, l) => n + l.length, 0)} edges · ${styles.filter((s) => !evokesByStyle[s.id]).length} styles with no emotion · ${cues.length} cues · ${moments.length} moments`);
+
+
+// ── The material layer: nodes, process edges, tools, and the derived links to styles ──────────────────────────────
+const M = loadLayer();
+if (M.byId.size) {
+  const { links, processes, unmatched } = styleLinks(M);
+  const photo = (id: string) => (existsSync(join(ROOT, "demo", "materials", "photos", `${id}.webp`)) ? `materials/photos/${id}.webp` : null);
+  const procNames = new Map<string, string>();
+  const procNotes = new Map<string, string>();
+  for (const t of techniques) procNames.set(`technique:${t.id}`, t.name);
+  for (const { technique: t } of loadTechniques()) if (t.summary) procNotes.set(`technique:${t.id}`, t.summary);
+  for (const d of ["cuisine.methods", "ceramics.decorations", "fashion.finishes", "industrial.finishes"]) {
+    const [domain, list] = d.split(".");
+    const v = JSON.parse(readFileSync(join(ROOT, "data", domain, "vocabulary.json"), "utf8")) as Record<string, { id: string; name: string; note?: string }[]>;
+    for (const e of v[list] ?? []) { procNames.set(`${d}:${e.id}`, e.name); if (e.note) procNotes.set(`${d}:${e.id}`, e.note); }
+  }
+  write(
+    "graph/materials.json",
+    JSON.stringify(
+      {
+        classes: M.classes.map(({ data: c }) => ({ id: c.class, name: c.name, summary: c.summary, families: c.families })),
+        materials: [...M.byId.values()].map((m) => ({ ...m, photo: photo(m.id) })),
+        tools: [...M.tools.values()],
+        processes: M.edges.map(({ edge }) => ({ ...edge, name: procNames.get(edge.process) ?? edge.process, ...(procNotes.has(edge.process) ? { note: procNotes.get(edge.process) } : {}) })),
+        styles: Object.fromEntries(styles.map((s) => [s.id, { name: s.name, domain: s.domain }])),
+        style_materials: links,
+        style_processes: processes.filter((p) => procNames.has(p.process)),
+        unmatched,
+      },
+      null,
+      1,
+    ),
+  );
+  console.log(`graph/materials.json · ${M.byId.size} materials · ${M.edges.length} processes · ${links.length} style links · ${unmatched.length} free-text strings with no material`);
+}
+
+// ── The kit index: one card for each style, for the demo kit (demo/kit.js) ──────────────────────────────
+// The kit draws every style preview in the same 3:2 frame. A photograph fills the frame ("cover"); a board,
+// a type specimen, a press proof or a logo lockup sits whole on a plain ground ("contain").
+{
+  const BOARD = new Set(["specimen", "press-proof", "swatch-board", "tile-board", "lockup"]);
+  const out: Record<string, { name: string; domain: string; period: string; thesis: string; src?: string; fit?: "cover" | "contain" }> = {};
+  for (const s of styles) {
+    out[s.id] = { name: s.name, domain: s.domain, period: s.time_period.label, thesis: s.philosophy.core_thesis };
+    const file = join(ROOT, "demo", "previews", s.domain, "manifest.json");
+    if (!existsSync(file)) continue;
+    const m = JSON.parse(readFileSync(file, "utf8")) as { images?: Record<string, any>; proofs?: Record<string, any> };
+    const r = m.images?.[s.id] ?? m.proofs?.[s.id];
+    if (!r?.file) continue;
+    const kind = r.kind ?? (m.images?.[s.id] ? (String(r.file).startsWith("lockup/") ? "lockup" : null) : "press-proof");
+    Object.assign(out[s.id], { src: `previews/${s.domain}/${r.file}`, fit: BOARD.has(kind) ? "contain" : "cover" });
+  }
+  write("graph/kit.json", JSON.stringify({ $comment: "The card of each style for the demo kit: name, domain, period, thesis, and one preview (a path under demo/) with its fit in a 3:2 frame. Built by scripts/build-graph.ts.", styles: out }, null, 1));
+  console.log(`graph/kit.json · ${styles.length} styles · ${Object.values(out).filter((c) => c.src).length} with a preview`);
+}
 
 // ── Mermaid picture of the lineage, for people ──────────────────────────────
 // Hybrid edges are left out of the picture: they are many, and they hide the two edges that carry the history.

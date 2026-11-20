@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/emotion.schema.json",
+  "title": "Emotion",
+  "description": "One term of the emotions layer. Core terms are the 21 subscales of AESTHEMOS (Schindler et al. 2017). Culture terms are words of one language that other languages lack; each maps to its nearest core terms. Every term has a point in PAD space (Mehrabian & Russell 1974) so that an agent can interpolate between moods.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "aliases",
+    "model",
+    "family",
+    "pad",
+    "culture",
+    "nearest",
+    "opposite",
+    "definition",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "core.schema.json#/$defs/slug"
+    },
+    "name": {
+      "$ref": "core.schema.json#/$defs/shortText"
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "Words from other models and lexicons. Prefix a term from a named model: plutchik:, desmet:, gems:.",
+      "items": {
+        "$ref": "core.schema.json#/$defs/shortText"
+      }
+    },
+    "model": {
+      "enum": [
+        "aesthemos",
+        "culture"
+      ]
+    },
+    "family": {
+      "enum": [
+        "prototypical",
+        "epistemic",
+        "pleasing",
+        "negative",
+        "culture"
+      ],
+      "description": "The AESTHEMOS group. Culture terms use culture."
+    },
+    "pad": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "p",
+        "a",
+        "d",
+        "source"
+      ],
+      "description": "Pleasure, arousal and dominance from -1 to 1.",
+      "properties": {
+        "p": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "a": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "d": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "source": {
+          "$ref": "core.schema.json#/$defs/sentence",
+          "description": "Where the numbers come from, with the word that was looked up."
+        }
+      }
+    },
+    "culture": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$",
+      "description": "null for a core term; a BCP 47 language tag for a culture term."
+    },
+    "nearest": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "core.schema.json#/$defs/slug"
+      },
+      "description": "For a culture term: the core terms that come nearest. Empty for a core term."
+    },
+    "opposite": {
+      "oneOf": [
+        {
+          "$ref": "core.schema.json#/$defs/slug"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "definition": {
+      "$ref": "core.schema.json#/$defs/sentence"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title"
+        ],
+        "properties": {
+          "title": {
+            "$ref": "core.schema.json#/$defs/sentence"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          }
+        }
+      }
+    }
+  }
+}

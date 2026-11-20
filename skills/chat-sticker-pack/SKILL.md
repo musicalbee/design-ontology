@@ -1,8 +1,8 @@
 ---
 name: chat-sticker-pack
-description: "Apply the Chat Sticker Pack style (2011–now) when generating web pages, apps, memes, short video frames and other images of internet culture. Load when the user asks for: sticker pack, chat sticker, line stickers, telegram stickers, whatsapp stickers, mascot sticker."
+description: "Apply the Chat Sticker Pack style (2011–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: sticker pack, chat sticker, line stickers, telegram stickers, whatsapp stickers, mascot sticker."
 domain: internet
-era: touchscreen
+era: web-2-social
 triggers:
   - "sticker pack"
   - "chat sticker"
@@ -25,7 +25,7 @@ vector_profile:
 
 A set of 8 to 40 drawn characters with a pose, a big face and one short word, sent in a chat as a picture. The LINE messenger made the form common in Asia from 2011.
 
-**Period:** 2011–now · **Era:** Touchscreen · **Domain:** Internet · **Also called:** Messenger stickers, LINE stickers, Sticker set
+**Period:** 2011–now · **Era:** Web 2.0 and the social web · **Domain:** Internet · **Also called:** Messenger stickers, LINE stickers, Sticker set
 
 ## When to load this skill
 
@@ -40,7 +40,7 @@ Do not use it when:
 
 ## System directives
 
-When generating web pages, apps, memes, short video frames and other images of internet culture in Chat Sticker Pack, you MUST:
+When generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture in Chat Sticker Pack, you MUST:
 
 1. Draw one character in a set of 8, 16, 24 or 40 poses on a square of 370px by 320px or less.
 2. Outline each pose with a 6px to 8px white border, and add a 3px dark line around the figure.
@@ -276,9 +276,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more animated**: move toward [`reaction-gif`](../reaction-gif/SKILL.md) (Reaction GIF). Use a loop of 12 to 24 frames and set the word in white capitals with a 2px black outline.
 
 - **Came from (go here for a more orthodox version):** [`unicode-emoji`](../unicode-emoji/SKILL.md)
-- **Mixes well with:** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md)
+- **Mixes well with:** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`discord-server`](../discord-server/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md)
 - **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md)
-- **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`constructivism-web`](../constructivism-web/SKILL.md)
+- **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
 
 ## Emotional target
 

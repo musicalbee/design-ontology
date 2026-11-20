@@ -11,6 +11,8 @@ export interface Domain {
   /** Old ids of this domain; loaders map them to `id`. */
   former_ids?: string[];
   order: number;
+  /** The family of related domains; the nav groups by it. */
+  family?: "graphic" | "internet";
   name: string;
   schema: string;
   task: string;
@@ -159,8 +161,32 @@ export interface Person {
   styles: { style: string; role: PersonRole }[];
   milestones: { year: number; event: string; style?: string; posthumous?: boolean }[];
   photo: { file: string; url: string; page?: string; licence: string; licence_url?: string; credit: string } | null;
+  orgs?: PersonOrg[];
+  emblem?: Emblem;
   sources: { title: string; url?: string }[];
   found_in?: string[];
+}
+
+/** One link from a person to an organisation in data/orgs/, with its own source. */
+export interface PersonOrg {
+  org: string;
+  role: "founder" | "owner" | "leader" | "designer" | "staff" | "teacher" | "student" | "member" | "author" | "exhibitor" | "patron" | "client" | "user";
+  from?: number | null;
+  to?: number | null;
+  source: { title: string; url?: string };
+}
+
+/** A logo, a coat of arms, a monogram, a seal or a mark on Wikimedia Commons, with the record that ties it to the entity. */
+export interface Emblem {
+  kind: "logo" | "coat-of-arms" | "monogram" | "seal" | "mark" | "symbol";
+  file: string;
+  url: string;
+  page: string;
+  licence: string;
+  licence_url?: string;
+  credit: string;
+  trademark?: true;
+  source: { title: string; url: string };
 }
 
 export type PersonRole = "founder" | "key-figure" | "forerunner" | "populariser" | "trend-setter" | "rebel" | "patron" | "artisan";
@@ -194,6 +220,7 @@ export interface Org {
   statement?: { text: string; title?: string; year?: number; url?: string };
   moves?: { year: number; kind: string; text: string; source: { title: string; url?: string } }[];
   relations?: { split_from?: string[]; successor_of?: string[]; rival_of?: string[]; member_of?: string[] };
+  emblem?: Emblem;
   sources: { title: string; url?: string }[];
 }
 
@@ -205,6 +232,38 @@ export function loadOrgs(): { file: string; slug: string; org: Org }[] {
     slug: f.replace(/\.json$/, ""),
     org: readJson<Org>(join(dir, f)),
   }));
+}
+
+/** A real design system, brand manual or UI kit, linked to the styles it embodies. */
+export interface DesignSystem {
+  $schema?: string;
+  id: string;
+  name: string;
+  kind: "design-system" | "brand-manual" | "ui-kit";
+  owner: string | null;
+  people?: string[];
+  first_release: { year: number; circa?: boolean };
+  versions?: { name: string; year: number }[];
+  licence: string;
+  url: string;
+  tokens?: {
+    color?: Record<string, string>;
+    type?: { families?: string[]; scale?: number[] };
+    space?: number[];
+    radius?: number[];
+    shadow?: string[];
+    motion?: { duration_ms?: number; easing?: string };
+  };
+  components?: string[];
+  principles?: string[];
+  styles: { style: string; relation: "embodies" | "defined" | "derived-from" | "inspired" }[];
+  sources: { title: string; url?: string }[];
+}
+
+export function loadDesignSystems(): { file: string; slug: string; ds: DesignSystem }[] {
+  const dir = join(ROOT, "data", "design-systems");
+  if (!existsSync(dir)) return [];
+  return jsonFiles(dir).map((f) => ({ file: join("data", "design-systems", f), slug: f.replace(/\.json$/, ""), ds: readJson<DesignSystem>(join(dir, f)) }));
 }
 
 /** One flow of money or paid support: who paid whom, when, for what, and the source. */
