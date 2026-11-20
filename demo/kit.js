@@ -35,7 +35,7 @@
     },
   };
   function load(...names) {
-    return Promise.all(names.map((n) => loading[n] ??= fetch(url(FILES[n])).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+    return Promise.all(names.map((n) => loading[n] ??= (window.doFetch ??= (u) => ((window.doFetchCache ??= new Map()).get(u) ?? window.doFetchCache.set(u, fetch(u).then((r) => (r.ok ? r.text() : null)).catch(() => null)).get(u)))(url(FILES[n])).then((t) => (t ? JSON.parse(t) : null)).catch(() => null)
       .then((d) => { if (d) { D[`$${n}`] = d; index[n](d); } return d; }))).then(() => D);
   }
   const has = (n) => !!D[`$${n}`];
@@ -226,7 +226,7 @@
     }
   }
   let pend = false;
-  new MutationObserver(() => { if (pend) return; pend = true; requestAnimationFrame(() => { pend = false; upgrade(); }); })
+  new MutationObserver(() => { if (pend) return; pend = true; setTimeout(() => { pend = false; upgrade(); }, 0); }) // a timer, not rAF: rAF stops in a background tab
     .observe(document.documentElement, { childList: true, subtree: true });
   document.readyState === "loading" ? addEventListener("DOMContentLoaded", () => upgrade()) : upgrade();
 
@@ -271,44 +271,67 @@
   }
 
   // Sort and filter on a <table> that a page already has. Numbers sort as numbers.
+  // Rows, numeric columns and head buttons are read live: a page can refill the tbody
+  // (or the whole table) after the kit wrapped it, and sort and filter then act on the new rows.
   function sortable(tbl, { search = true } = {}) {
-    if (tbl.dataset.kSort) return;
+    if (tbl.dataset.kSort) return heads(tbl);
     tbl.dataset.kSort = "1";
-    const head = tbl.tHead?.rows[0] || tbl.rows[0];
-    const body = tbl.tBodies[0];
-    if (!head || !body) return;
-    const rows = [...body.rows];
+    if (!tbl.tBodies[0] || !(tbl.tHead?.rows[0] || tbl.rows[0])) return;
     const num = (s) => { const n = parseFloat(String(s).replace(/[\s,]/g, "").replace(/[–—−]/, "-")); return Number.isFinite(n) ? n : null; };
-    const cells = [...head.cells];
-    const isNum = cells.map((_, i) => rows.filter((r) => r.cells[i]?.textContent.trim()).every((r) => num(r.cells[i].textContent) != null));
-    let by = -1, dir = 1;
+    const rows = () => [...(tbl.tBodies[0]?.rows ?? [])];
+    const isNum = (i) => { const rs = rows().filter((r) => r.cells[i]?.textContent.trim()); return rs.length > 0 && rs.every((r) => num(r.cells[i].dataset.sort ?? r.cells[i].textContent) != null); };
+    let by = -1, dir = 1, q = "";
     const wrap = document.createElement("div");
     wrap.className = "k-tbl";
     tbl.before(wrap);
+    const filter = () => {
+      if (!search) return;
+      const rs = rows();
+      let n = 0;
+      for (const r of rs) { const on = !q || r.textContent.toLowerCase().includes(q); r.hidden = !on; n += on; }
+      const count = wrap.querySelector(".k-tbl-count"), input = wrap.querySelector("input");
+      count.textContent = n === rs.length ? `${rs.length} rows` : `${n} of ${rs.length}`;
+      input.placeholder = `Filter ${rs.length} rows`;
+    };
     if (search) {
-      wrap.insertAdjacentHTML("beforeend", `<div class="k-tbl-bar"><input type="search" placeholder="Filter ${rows.length} rows" aria-label="Filter the rows"><span class="k-tbl-count" aria-live="polite">${rows.length} rows</span></div>`);
-      const count = wrap.querySelector(".k-tbl-count");
-      wrap.querySelector("input").addEventListener("input", (e) => {
-        const q = e.target.value.trim().toLowerCase();
-        let n = 0;
-        for (const r of rows) { const on = !q || r.textContent.toLowerCase().includes(q); r.hidden = !on; n += on; }
-        count.textContent = n === rows.length ? `${rows.length} rows` : `${n} of ${rows.length}`;
-      });
+      wrap.insertAdjacentHTML("beforeend", `<div class="k-tbl-bar"><input type="search" aria-label="Filter the rows"><span class="k-tbl-count" aria-live="polite"></span></div>`);
+      wrap.querySelector("input").addEventListener("input", (e) => { q = e.target.value.trim().toLowerCase(); filter(); });
+      filter();
     }
     wrap.append(tbl);
-    cells.forEach((th, i) => {
-      if (!th.textContent.trim()) return;
-      th.innerHTML = `<button type="button">${th.innerHTML}</button>`;
-      th.querySelector("button").addEventListener("click", () => {
-        dir = i === by ? -dir : isNum[i] ? -1 : 1;
-        by = i;
-        for (const c of cells) c.removeAttribute("aria-sort");
-        th.setAttribute("aria-sort", dir > 0 ? "ascending" : "descending");
-        const key = (r) => { const t = r.cells[i]?.dataset.sort ?? r.cells[i]?.textContent.trim() ?? ""; return isNum[i] ? num(t) : t.toLowerCase(); };
-        rows.sort((a, b) => { const x = key(a), y = key(b); return x === y ? 0 : x == null || x === "" ? 1 : y == null || y === "" ? -1 : dir * (isNum[i] ? x - y : String(x).localeCompare(String(y))); });
-        body.append(...rows);
-      });
+    heads(tbl);
+    tbl.addEventListener("click", (e) => {
+      const btn = e.target.closest("th > button[data-k-col]");
+      if (!btn || !tbl.contains(btn)) return;
+      const th = btn.parentElement, i = th.cellIndex, numeric = isNum(i);
+      dir = i === by ? -dir : numeric ? -1 : 1;
+      by = i;
+      for (const c of th.parentElement.cells) c.removeAttribute("aria-sort");
+      th.setAttribute("aria-sort", dir > 0 ? "ascending" : "descending");
+      const key = (r) => { const t = r.cells[i]?.dataset.sort ?? r.cells[i]?.textContent.trim() ?? ""; return numeric ? num(t) : t.toLowerCase(); };
+      const body = tbl.tBodies[0];
+      const sorted = rows().sort((a, b) => { const x = key(a), y = key(b); return x === y ? 0 : x == null || x === "" ? 1 : y == null || y === "" ? -1 : dir * (numeric ? x - y : String(x).localeCompare(String(y))); });
+      body.append(...sorted);
+      watch.takeRecords(); // the sort moved rows; that is not a refill
     });
+    // A refill drops the old sort mark and keeps the filter.
+    const watch = new MutationObserver((ms) => {
+      if (!ms.some((m) => [...m.addedNodes].some((n) => n.nodeName === "TR" || n.nodeName === "TBODY" || n.nodeName === "THEAD"))) return;
+      by = -1;
+      for (const c of (tbl.tHead?.rows[0] || tbl.rows[0])?.cells ?? []) c.removeAttribute("aria-sort");
+      heads(tbl);
+      filter();
+      watch.takeRecords();
+    });
+    watch.observe(tbl, { childList: true, subtree: true });
+  }
+  // Puts a sort button in each named head cell that has none (again after a page rewrites the head).
+  function heads(tbl) {
+    const head = tbl.tHead?.rows[0] || tbl.rows[0];
+    for (const th of head?.cells ?? []) {
+      if (!th.textContent.trim() || th.querySelector(":scope > button[data-k-col]")) continue;
+      th.innerHTML = `<button type="button" data-k-col>${th.innerHTML}</button>`;
+    }
   }
 
   // ── Time line ──

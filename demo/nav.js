@@ -130,6 +130,13 @@
   const EMBED = new URLSearchParams(location.search).has("embed");
   // A page that calls the kit waits for it: window.kitReady.then((Kit) => …).
   window.kitReady ??= new Promise((r) => (window.Kit ? r(window.Kit) : document.addEventListener("kit:ready", () => r(window.Kit), { once: true })));
+  // A page icon, so that the browser does not ask the server for /favicon.ico (a 404).
+  if (!document.querySelector('link[rel~="icon"]')) {
+    const ic = document.createElement("link");
+    ic.rel = "icon";
+    ic.href = "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#264fcc"/></svg>');
+    document.head.append(ic);
+  }
   // kit.css and kit.js: the demo kit (the style preview, the chips, the tip, the select, the table, the dense patterns).
   if (!document.querySelector('link[href$="kit.css"]')) {
     const k = document.createElement("link");
