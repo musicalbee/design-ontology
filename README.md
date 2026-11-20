@@ -3134,7 +3134,7 @@ A contribution is one JSON file. The build does the rest.
 
 The validator checks more than the schema. It refuses a lineage edge that points at nothing, a style that descends from a later style, an id that exists in two domains and a font pairing field that is empty. The full rules are in [CONTRIBUTING.md](CONTRIBUTING.md). An agent that contributes reads [AGENTS.md](AGENTS.md).
 
-**Wanted:** brutalist web (the 2014 kind), Apple Aqua, Metro, dark-mode developer tool, claymorphism, editorial serif revival, anti-design. In architecture: almost everything.
+**Wanted:** the open issues with the label [`good first issue`](https://github.com/musicalbee/design-ontology/labels/good%20first%20issue). Each one names a style that the ontology does not have yet.
 
 ## How it is built
 
