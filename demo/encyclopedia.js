@@ -343,8 +343,9 @@
         }).join("");
         // A style link is `<domain>.html#<id>` (demo/links.json). `?style=<id>` works too, for links where a
         // hash gets lost; show() then writes the hash, and the query is dropped so the URL stays one form.
-        const q = new URLSearchParams(location.search), want = decodeURIComponent(location.hash.slice(1)) || q.get("style");
-        if (q.has("style")) { q.delete("style"); history.replaceState(null, "", location.pathname + (q.size ? `?${q}` : "") + location.hash); }
+        // Ids are plain kebab-case, so the hash is read raw, as the hashchange handler does: a stray % cannot throw.
+        const q = new URLSearchParams(location.search), want = location.hash.slice(1) || q.get("style");
+        if (q.has("style")) { q.delete("style"); const rest = q.toString(); history.replaceState(null, "", location.pathname + (rest ? `?${rest}` : "") + location.hash); }
         return Promise.all(plugins.map((p) => p.load?.(ctx))).then(() => go(want) || show(0));
       });
       document.addEventListener("click", (e) => {
