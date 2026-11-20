@@ -20,7 +20,7 @@
     ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
   const DOMAINS = [...FAMILIES.flatMap(([, ds]) => ds), ...OTHER];
-  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["materials.html", "Materials"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"], ["kit.html", "Kit"]];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["materials.html", "Materials"], ["people.html", "People"], ["systems.html", "Systems"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"], ["kit.html", "Kit"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
   const file = location.pathname.split("/").pop() || "index.html";
@@ -126,6 +126,7 @@
   style.textContent = css;
   document.head.append(style);
   // zoom.js: the image lens. faces.js: the people of each style. orgs.js: the organisations of each style.
+  // ds-row.js: the design systems of each style.
   // ?embed: the page is inside a frame of another demo page, which has the chrome. Keep the elements, hide them.
   const EMBED = new URLSearchParams(location.search).has("embed");
   // A page that calls the kit waits for it: window.kitReady.then((Kit) => …).
@@ -144,7 +145,7 @@
     k.href = new URL("kit.css", document.currentScript?.src || location.href).href;
     document.head.append(k);
   }
-  for (const f of EMBED ? ["kit.js", "zoom.js"] : ["kit.js", "zoom.js", "faces.js", "orgs.js"]) {
+  for (const f of EMBED ? ["kit.js", "zoom.js"] : ["kit.js", "zoom.js", "faces.js", "orgs.js", "ds-row.js"]) {
     if (document.querySelector(`script[src$="${f}"]`)) continue;
     const s = document.createElement("script");
     s.src = new URL(f, document.currentScript?.src || location.href).href;

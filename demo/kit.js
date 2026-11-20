@@ -3,8 +3,8 @@
 // window.Kit gives:
 //   data    Kit.load("kit", "lineage", "people", "orgs", "materials") → Promise of the graph files (each file loads once).
 //   preview Kit.preview(styleId, { size: "xs"|"sm"|"md"|"lg" }) → a 3:2 frame. A photograph fills it, a board sits whole.
-//   chips   Kit.style(id) Kit.person(id) Kit.org(id) Kit.material(id) Kit.process(key) → one chip for each kind of thing.
-//   tip     one floating tip for styles, materials and processes. It finds each link by its href, so a page needs no edit.
+//   chips   Kit.style(id) Kit.person(id) Kit.org(id) Kit.material(id) Kit.process(key) Kit.system(id) → one chip for each kind of thing.
+//   tip     one floating tip for styles, materials, processes and design systems. It finds each link by its href, so a page needs no edit.
 //           People and orgs keep their own tips (faces.js, orgs.js); the kit marks plain links to them so that those tips find them.
 //   select  each <select> gets the kit look and is as wide as its chosen option.
 //   table   Kit.table(el, { columns, rows, search, facet }) and Kit.sortable(tableEl): sort on each column head, a filter box, a count.
@@ -18,7 +18,7 @@
   const clip = (s, n) => { s = String(s ?? ""); return s.length > n ? `${s.slice(0, n - 1).replace(/\s+\S*$/, "")}…` : s; };
 
   // ── Data. Each file loads once, when a part first needs it. ──
-  const FILES = { kit: "../graph/kit.json", lineage: "../graph/lineage.json", people: "../graph/people.json", orgs: "../graph/orgs.json", materials: "../graph/materials.json" };
+  const FILES = { kit: "../graph/kit.json", lineage: "../graph/lineage.json", people: "../graph/people.json", orgs: "../graph/orgs.json", materials: "../graph/materials.json", systems: "../graph/design-systems.json" };
   const D = {}, loading = {};
   const index = {
     kit: (d) => { D.style = d.styles; },
@@ -33,6 +33,7 @@
       for (const l of d.style_materials) (D.matStyles[l.material] ??= []).push(l);
       for (const l of d.style_processes) (D.procStyles[l.process] ??= []).push(l.style);
     },
+    systems: (d) => { D.system = Object.fromEntries(d.design_systems.map((x) => [x.id, x])); D.sysByStyle = d.by_style || {}; },
   };
   function load(...names) {
     return Promise.all(names.map((n) => loading[n] ??= (window.doFetch ??= (u) => ((window.doFetchCache ??= new Map()).get(u) ?? window.doFetchCache.set(u, fetch(u).then((r) => (r.ok ? r.text() : null)).catch(() => null)).get(u)))(url(FILES[n])).then((t) => (t ? JSON.parse(t) : null)).catch(() => null)
@@ -59,7 +60,12 @@
     org: (id) => url(`orgs.html#${encodeURIComponent(id)}`),
     material: (id) => url(`materials.html#m=${encodeURIComponent(id)}`),
     process: (key) => url(`materials.html#p=${key}`),
+    system: (id) => url(`systems.html#${encodeURIComponent(id)}`),
   };
+  const SYS_KIND = { "design-system": "Design system", "brand-manual": "Brand manual", "ui-kit": "UI kit" };
+  const REL = { embodies: "embodies", defined: "defined", "derived-from": "derived from", inspired: "inspired by" };
+  // The colour tokens of a system as a list of [name, hex]: only the values that a swatch can show.
+  const sysColours = (x) => Object.entries(x?.tokens?.color || {}).filter(([, v]) => typeof v === "string" && /^(#|rgb|hsl)/i.test(v.trim()));
 
   // ── Preview of a style ──
   function preview(id, opts = {}) {
@@ -103,6 +109,13 @@
       return `<a class="k-chip" data-k="process" href="${href.process(key)}" data-k-tip="process:${esc(key)}">${media(null, (PROC_GROUP[g] ?? g)[0].toUpperCase())}<span>${esc(p.name)}${note(o)}</span></a>`;
     },
   };
+  chip.system = (id, o = {}) => {
+    const x = D.system?.[id];
+    if (!x) return `<span class="k-chip ghost" data-k="system"><span>${esc(id)}</span></span>`;
+    const cs = sysColours(x).slice(0, 4);
+    const m = cs.length ? `<span class="k-m k-sw4" aria-hidden="true">${cs.map(([, v]) => `<i style="background:${esc(v)}"></i>`).join("")}</span>` : media(null, initials(x.name));
+    return `<a class="k-chip" data-k="system" href="${href.system(id)}" data-k-tip="system:${esc(id)}">${m}<span>${esc(x.name)}${note(o)}</span></a>`;
+  };
   const chipOf = (t, id, o) => (chip[t] ? chip[t](id, o) : "");
 
   // ── Tip: styles, materials and processes. ──
@@ -114,8 +127,23 @@
     style(id) {
       const s = D.style?.[id];
       if (!s) return "";
+      const sys = (D.sysByStyle?.[id] || []).filter((l) => D.system?.[l.ds]);
       return `${preview(id)}<div class="k-kind" data-k="style">Style · ${esc(domainName(s.domain))}</div><b class="k-t">${esc(s.name)}</b>` +
-        `${s.period ? `<div class="k-meta">${esc(s.period)}</div>` : ""}${s.thesis ? `<p>${esc(clip(s.thesis, 220))}</p>` : ""}`;
+        `${s.period ? `<div class="k-meta">${esc(s.period)}</div>` : ""}${s.thesis ? `<p>${esc(clip(s.thesis, 220))}</p>` : ""}` +
+        (sys.length ? `<div class="k-meta">In ${sys.length} design system${sys.length === 1 ? "" : "s"}</div><div class="k-rel">${sys.slice(0, 4).map((l) => `<span>${esc(D.system[l.ds].name)}</span>`).join("")}${sys.length > 4 ? `<span>+${sys.length - 4}</span>` : ""}</div>` : "");
+    },
+    system(id) {
+      const x = D.system?.[id];
+      if (!x) return "";
+      const cs = sysColours(x).slice(0, 8);
+      const yrs = x.first_release?.year ? `${x.first_release.circa ? "c. " : ""}${x.first_release.year}` : "";
+      const owner = x.owner ? D.org?.[x.owner]?.name ?? x.owner : "";
+      const st = (x.styles || []).filter((l) => D.style?.[l.style]);
+      return (cs.length ? `<div class="k-pic sw k-sws">${cs.map(([, v]) => `<i style="background:${esc(v)}"></i>`).join("")}</div>` : "") +
+        `<div class="k-kind" data-k="system">${esc(SYS_KIND[x.kind] ?? x.kind)}</div><b class="k-t">${esc(x.name)}</b>` +
+        `${yrs || owner ? `<div class="k-meta">${esc([yrs, owner].filter(Boolean).join(" · "))}</div>` : ""}` +
+        `${x.principles?.length ? `<p>${esc(clip(x.principles[0], 200))}</p>` : ""}` +
+        (st.length ? `<div class="k-meta">Styles</div><div class="k-rel">${st.slice(0, 4).map((l) => `<span>${esc(REL[l.relation] ?? l.relation)} · ${esc(D.style[l.style].name)}</span>`).join("")}</div>` : "");
     },
     material(id) {
       const m = D.material?.[id];
@@ -141,7 +169,7 @@
         (styles.length ? `<div class="k-meta">Used by ${styles.length} style${styles.length === 1 ? "" : "s"}</div>` : "");
     },
   };
-  const NEED = { style: ["kit"], material: ["kit", "materials"], process: ["kit", "materials"] };
+  const NEED = { style: ["kit", "systems"], material: ["kit", "materials"], process: ["kit", "materials"], system: ["kit", "systems", "orgs"] };
 
   // Which thing a link names: its data-k-tip, else its href. Links in the top bar and in the tips have no tip.
   const HERE = location.pathname.split("/").pop() || "index.html";
@@ -156,6 +184,7 @@
     const dir = u.pathname.slice(0, u.pathname.lastIndexOf("/") + 1);
     if (u.origin !== location.origin || dir !== BASE.pathname || u.hash.length < 2) return null;
     const page = u.pathname.slice(dir.length) || HERE, hash = decodeURIComponent(u.hash.slice(1));
+    if (page === "systems.html") return ["system", hash];
     if (page === "materials.html") return hash.startsWith("m=") ? ["material", hash.slice(2)] : hash.startsWith("p=") ? ["process", hash.slice(2)] : null;
     const dom = page.replace(/\.html$/, "");
     if (!D.style) return ["style?", hash, dom];
@@ -557,7 +586,7 @@
 
   window.Kit = {
     load, data: D, esc, url, href, preview, chip: chipOf,
-    style: chip.style, person: chip.person, org: chip.org, material: chip.material, process: chip.process,
+    style: chip.style, person: chip.person, org: chip.org, material: chip.material, process: chip.process, system: chip.system, SYS_KIND, REL, sysColours,
     table, sortable, seg, timeline, echoes, cloud, legend, paths, pathFinder, route, upgrade, domainName, EDGE, styleTable, hoodTimeline,
   };
   document.dispatchEvent(new CustomEvent("kit:ready"));

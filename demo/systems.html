@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design systems, brand manuals and UI kits</title>
+<meta name="description" content="The design-system layer of the ontology: the platform design systems, the brand manuals and the community UI kits, each with its tokens, components, principles, owner, people, styles and sources.">
+<link rel="stylesheet" href="kit.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--k-bg); color: var(--k-ink); font: 15px/1.5 var(--k-font); }
+  main { max-width: 1400px; margin: 0 auto; padding: 24px 16px 80px; display: grid; gap: 18px; }
+  header h1 { margin: 0 0 6px; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--k-muted); max-width: 75ch; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; font-size: 13px; color: var(--k-muted); }
+  .controls label { display: inline-flex; gap: 8px; align-items: center; }
+  .controls input[type="search"] { font: inherit; font-size: 14px; color: var(--k-ink); height: 34px; padding: 0 12px; border-radius: 999px;
+    border: 1px solid var(--k-line-strong); background: var(--k-card); min-width: min(260px, 100%); }
+  .controls input[type="search"]:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 1px; }
+  .count { font-variant-numeric: tabular-nums; }
+  .layout { display: grid; gap: 20px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 1000px) { .layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); } }
+  .groups { display: grid; gap: 22px; min-width: 0; }
+  .group h2 { margin: 0 0 8px; font-size: 13px; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; color: var(--k-muted);
+    display: flex; gap: 8px; align-items: baseline; }
+  .group h2 small { font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--k-faint); }
+  .group[hidden] { display: none; }
+  .cards { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
+  .sys { all: unset; box-sizing: border-box; display: grid; gap: 6px; padding: 10px 12px; border-radius: var(--k-radius); cursor: pointer;
+    background: var(--k-card); border: 1px solid var(--k-line); min-width: 0; }
+  .sys:hover { border-color: var(--k-line-strong); }
+  .sys:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 1px; }
+  .sys[aria-current="true"] { border-color: var(--k-accent); box-shadow: 0 0 0 1px var(--k-accent); }
+  .sys b { font-weight: 600; font-size: 14px; line-height: 1.25; }
+  .sys .m { font-size: 12px; color: var(--k-faint); }
+  .strip { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--k-sunk); box-shadow: inset 0 0 0 1px rgb(0 0 0 / .08); }
+  .strip i { mix-blend-mode: multiply; }
+  .strip i { flex: 1; }
+  .strip.none { background: repeating-linear-gradient(135deg, var(--k-sunk) 0 6px, transparent 6px 12px); }
+  .empty { color: var(--k-muted); }
+
+  .detail { background: var(--k-card); border: 1px solid var(--k-line); border-radius: 14px; padding: 20px; min-width: 0; }
+  @media (min-width: 1000px) { .detail { position: sticky; top: 68px; max-height: calc(100vh - 80px); overflow-y: auto; } }
+  .detail h2 { margin: 4px 0 2px; font-size: 24px; line-height: 1.2; }
+  .detail .meta { color: var(--k-muted); font-size: 13px; }
+  .detail .meta a { color: var(--k-accent); }
+  .detail h3 { margin: 18px 0 8px; font-size: 11px; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; color: var(--k-muted); }
+  .swatches { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .swatches div { display: grid; grid-template-columns: 30px 1fr; gap: 8px; align-items: center; font-size: 12px; min-width: 0; }
+  .swatches i { width: 30px; height: 30px; border-radius: 6px; background: var(--c); box-shadow: inset 0 0 0 1px rgb(0 0 0 / .1); }
+  .swatches span { overflow-wrap: anywhere; }
+  .swatches code { display: block; font: 11px var(--k-mono); color: var(--k-faint); }
+  .type { display: grid; gap: 6px; }
+  .type div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 6px 10px; border-radius: 8px; background: var(--k-sunk); }
+  .type span { font-size: 20px; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .type code { font: 11px var(--k-mono); color: var(--k-faint); }
+  .scale { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; font: 11px var(--k-mono); color: var(--k-faint); }
+  .scale figure { margin: 0; display: grid; gap: 4px; justify-items: center; }
+  .scale .r { width: 40px; height: 40px; background: var(--k-sunk); border: 1px solid var(--k-line-strong); }
+  .scale .sp { background: var(--k-accent); opacity: .5; height: 10px; }
+  .scale .sh { width: 48px; height: 32px; margin: 8px; background: var(--k-card); border-radius: 4px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tags span { padding: 2px 10px; border-radius: 999px; background: var(--k-sunk); font-size: 13px; }
+  ul.principles { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+  ul.versions { margin: 0; padding: 0; list-style: none; display: grid; gap: 2px; font-size: 13px; }
+  ul.versions b { display: inline-block; min-width: 46px; font-variant-numeric: tabular-nums; }
+  .styles { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); }
+  .styles a { display: grid; gap: 4px; color: var(--k-ink); text-decoration: none; font-size: 13px; }
+  .styles a:hover b { color: var(--k-accent); }
+  .styles small { color: var(--k-faint); }
+  ul.sources { margin: 0; padding-left: 18px; font-size: 13px; display: grid; gap: 2px; }
+  ul.sources a { color: var(--k-accent); overflow-wrap: anywhere; }
+  .none { color: var(--k-faint); font-size: 13px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Design systems</h1>
+    <p>The systems that turn a style into rules a team can follow. Platform design systems set the parts of an operating system or a product family. Brand manuals set the look of one organisation. UI kits are community libraries that put a look into code. Pick a record to see its tokens, its parts, its principles, who made it, the styles it carries and the sources.</p>
+  </header>
+
+  <div class="controls">
+    <div id="seg" role="group" aria-label="Group"></div>
+    <input type="search" id="q" placeholder="Filter by name, owner, component or style" aria-label="Filter the systems">
+    <label>Sort <select id="sort">
+      <option value="year">Year of first release</option>
+      <option value="name">Name</option>
+      <option value="owner">Owner</option>
+    </select></label>
+    <span class="count" id="count" aria-live="polite"></span>
+  </div>
+
+  <div class="layout">
+    <div class="groups" id="groups"></div>
+    <article class="detail" id="detail" aria-live="polite"></article>
+  </div>
+</main>
+<script>
+(async () => {
+  const Kit = await window.kitReady;
+  const D = await Kit.load("kit", "lineage", "people", "orgs", "systems");
+  const esc = Kit.esc, $ = (s) => document.querySelector(s);
+  if (!D.$systems) { $("#groups").innerHTML = `<p class="empty">The file graph/design-systems.json did not load.</p>`; return; }
+
+  const GROUPS = [["design-system", "Design systems", "Platform and product systems"], ["brand-manual", "Brand manuals", "The look of one organisation"], ["ui-kit", "UI kits", "Community libraries in code"]];
+  const ALL = D.$systems.design_systems;
+  const ownerName = (x) => (x.owner ? D.org[x.owner]?.name ?? x.owner : "");
+  const year = (x) => x.first_release?.year ?? null;
+  const yearText = (x) => (year(x) == null ? "" : `${x.first_release.circa ? "c. " : ""}${year(x)}`);
+  // The text that the filter looks in: the name, the kind, the owner, the people, the components and the styles.
+  const hay = Object.fromEntries(ALL.map((x) => [x.id, [x.name, Kit.SYS_KIND[x.kind], ownerName(x), yearText(x), x.licence,
+    ...(x.people || []).map((p) => D.person[p]?.name ?? p), ...(x.components || []), ...(x.tokens?.type?.families || []),
+    ...(x.styles || []).map((l) => D.style[l.style]?.name ?? l.style)].join(" ").toLowerCase()]));
+
+  let group = "", q = "", sort = "year", cur = null;
+  const SORT = {
+    year: (a, b) => (year(a) ?? 1e9) - (year(b) ?? 1e9) || a.name.localeCompare(b.name),
+    name: (a, b) => a.name.localeCompare(b.name),
+    owner: (a, b) => (!ownerName(a) - !ownerName(b)) || ownerName(a).localeCompare(ownerName(b)) || a.name.localeCompare(b.name),
+  };
+  const strip = (x) => { const cs = Kit.sysColours(x); return cs.length ? `<span class="strip" aria-hidden="true">${cs.map(([, v]) => `<i style="background:${esc(v)}"></i>`).join("")}</span>` : `<span class="strip none" aria-hidden="true"></span>`; };
+  const card = (x) => `<button type="button" class="sys" data-id="${esc(x.id)}" aria-current="${x.id === cur}">${strip(x)}<b>${esc(x.name)}</b>` +
+    `<span class="m">${esc([yearText(x), ownerName(x)].filter(Boolean).join(" · ") || "—")}</span></button>`;
+
+  function list() {
+    const seen = ALL.filter((x) => (!group || x.kind === group) && (!q || hay[x.id].includes(q))).sort(SORT[sort]);
+    $("#groups").innerHTML = GROUPS.map(([k, name, sub]) => {
+      const xs = seen.filter((x) => x.kind === k);
+      const off = (group && group !== k) || !xs.length;
+      return `<section class="group" data-k="${k}"${off ? " hidden" : ""}><h2>${esc(name)} <small>${xs.length} · ${esc(sub)}</small></h2><div class="cards">${xs.map(card).join("")}</div></section>`;
+    }).join("") + (seen.length ? "" : `<p class="empty">No system matches “${esc(q)}”.</p>`);
+    $("#count").textContent = seen.length === ALL.length ? `${ALL.length} systems` : `${seen.length} of ${ALL.length}`;
+  }
+
+  // Each kind of token gets its own view: swatches for colour, specimens for type, boxes for radius, bars for space.
+  const px = (v) => (typeof v === "number" ? `${v}px` : String(v));
+  function tokens(x) {
+    const t = x.tokens || {}, out = [];
+    const cs = Kit.sysColours(x);
+    if (cs.length) out.push(`<h3>Colour</h3><div class="swatches">${cs.map(([k, v]) => `<div><i style="--c:${esc(v)}"></i><span>${esc(k)}<code>${esc(v)}</code></span></div>`).join("")}</div>`);
+    if (t.type?.families?.length) out.push(`<h3>Type</h3><div class="type">${t.type.families.map((f) => `<div><span style="font-family:'${esc(f.replace(/'/g, ""))}', var(--k-font)">${esc(f)}</span><code>family</code></div>`).join("")}</div>`);
+    const rad = Array.isArray(t.radius) ? t.radius : t.radius != null && typeof t.radius === "object" ? Object.values(t.radius) : t.radius != null ? [t.radius] : [];
+    if (rad.length) out.push(`<h3>Radius</h3><div class="scale">${rad.map((r) => `<figure><span class="r" style="border-radius:${esc(px(r))}"></span>${esc(px(r))}</figure>`).join("")}</div>`);
+    const sp = Array.isArray(t.space) ? t.space : t.space && typeof t.space === "object" ? Object.values(t.space) : [];
+    if (sp.length) out.push(`<h3>Space</h3><div class="scale">${sp.map((s) => `<figure><span class="sp" style="width:${typeof s === "number" ? Math.min(s, 120) : 8}px"></span>${esc(px(s))}</figure>`).join("")}</div>`);
+    const sh = Array.isArray(t.shadow) ? t.shadow : t.shadow && typeof t.shadow === "object" ? Object.values(t.shadow) : [];
+    if (sh.length) out.push(`<h3>Shadow</h3><div class="scale">${sh.map((s) => `<figure><span class="sh" style="box-shadow:${esc(s)}"></span></figure>`).join("")}</div>`);
+    const mo = t.motion ? (Array.isArray(t.motion) ? t.motion : [t.motion]) : [];
+    const moText = (m) => (m && typeof m === "object" ? [m.duration_ms != null ? `${m.duration_ms} ms` : "", m.easing ?? ""].filter(Boolean).join(" · ") || JSON.stringify(m) : String(m));
+    if (mo.length) out.push(`<h3>Motion</h3><div class="tags">${mo.map((m) => `<span>${esc(moText(m))}</span>`).join("")}</div>`);
+    return out.join("");
+  }
+
+  function detail(id) {
+    const x = D.system[id];
+    if (!x) { $("#detail").innerHTML = `<p class="none">Pick a system on the left.</p>`; return; }
+    const meta = [yearText(x), x.licence].filter(Boolean).map(esc).join(" · ") + (x.url ? ` · <a href="${esc(x.url)}" rel="noopener">${esc(new URL(x.url).hostname.replace(/^www\./, ""))}</a>` : "");
+    const who = (x.owner ? Kit.org(x.owner) : "") + (x.people || []).map((p) => Kit.person(p)).join("");
+    const styles = (x.styles || []).map((l) => {
+      const s = D.style[l.style];
+      if (!s) return `<span class="none">${esc(l.style)}</span>`;
+      return `<a href="${Kit.href.style(l.style)}" data-k-tip="style:${esc(l.style)}">${Kit.preview(l.style, { size: "lg" })}<b>${esc(s.name)}</b><small>${esc(Kit.REL[l.relation] ?? l.relation)} · ${esc(Kit.domainName(s.domain))}</small></a>`;
+    }).join("");
+    const vers = (x.versions || []).filter((v) => v && (v.name || v.year));
+    $("#detail").innerHTML = `<div class="k-kind" data-k="system">${esc(Kit.SYS_KIND[x.kind] ?? x.kind)}</div><h2>${esc(x.name)}</h2><div class="meta">${meta}</div>` +
+      (tokens(x) || `<h3>Tokens</h3><p class="none">No token on record for this system.</p>`) +
+      `<h3>Components</h3>${x.components?.length ? `<div class="tags">${x.components.map((c) => `<span>${esc(c)}</span>`).join("")}</div>` : `<p class="none">No component on record.</p>`}` +
+      (x.principles?.length ? `<h3>Principles</h3><ul class="principles">${x.principles.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>` : "") +
+      `<h3>Owner and people</h3>${who ? `<div class="k-chips">${who}</div>` : `<p class="none">A community project: no owner or person on record.</p>`}` +
+      (vers.length ? `<h3>Versions</h3><ul class="versions">${vers.map((v) => `<li><b>${esc(v.year ?? "")}</b>${esc(v.name ?? "")}</li>`).join("")}</ul>` : "") +
+      `<h3>Styles</h3>${styles ? `<div class="styles">${styles}</div>` : `<p class="none">No style on record.</p>`}` +
+      `<h3>Sources</h3>${x.sources?.length ? `<ul class="sources">${x.sources.map((s) => `<li><a href="${esc(s.url)}" rel="noopener">${esc(s.title || s.url)}</a></li>`).join("")}</ul>` : `<p class="none">No source on record.</p>`}`;
+    $("#detail").scrollTop = 0;
+  }
+
+  function pick(id, push = true) {
+    if (!D.system[id]) id = null;
+    cur = id;
+    for (const b of document.querySelectorAll(".sys")) b.setAttribute("aria-current", String(b.dataset.id === id));
+    detail(id);
+    if (push && id) history.replaceState(null, "", `#${encodeURIComponent(id)}`);
+  }
+
+  Kit.seg($("#seg"), [["", "All"], ...GROUPS.map(([k, n]) => [k, n])], { value: "", onChange: (v) => { group = v; list(); } });
+  $("#q").addEventListener("input", (e) => { q = e.target.value.trim().toLowerCase(); list(); });
+  $("#sort").addEventListener("change", (e) => { sort = e.target.value; list(); });
+  $("#groups").addEventListener("click", (e) => { const b = e.target.closest(".sys"); if (b) pick(b.dataset.id); });
+  addEventListener("hashchange", () => { pick(decodeURIComponent(location.hash.slice(1)), false); document.querySelector(`.sys[data-id="${CSS.escape(cur ?? "")}"]`)?.scrollIntoView({ block: "nearest" }); });
+
+  list();
+  const start = decodeURIComponent(location.hash.slice(1));
+  pick(D.system[start] ? start : ALL.slice().sort(SORT.year)[0].id, false);
+  if (D.system[start]) document.querySelector(`.sys[data-id="${CSS.escape(start)}"]`)?.scrollIntoView({ block: "center" });
+})();
+</script>
+</body>
+</html>
