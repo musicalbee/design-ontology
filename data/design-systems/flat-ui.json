@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "flat-ui",
+  "name": "Flat UI (Designmodo)",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2013,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://designmodo.github.io/Flat-UI/",
+  "tokens": {
+    "color": {
+      "primary": "#34495e",
+      "accent": "#1abc9c",
+      "success": "#2ecc71",
+      "warning": "#f1c40f",
+      "danger": "#e74c3c",
+      "info": "#3498db",
+      "bg": "#ecf0f1",
+      "muted": "#95a5a6"
+    },
+    "type": {
+      "families": [
+        "Lato",
+        "Helvetica",
+        "Arial"
+      ],
+      "scale": [
+        18
+      ]
+    },
+    "radius": [
+      3,
+      4,
+      6
+    ]
+  },
+  "principles": [
+    "Redesign Bootstrap components to look flat in every pixel"
+  ],
+  "styles": [
+    {
+      "style": "flat-design",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Flat UI 2.3.0 less/variables.less",
+      "url": "https://cdn.jsdelivr.net/gh/designmodo/Flat-UI@2.3.0/less/variables.less"
+    },
+    {
+      "title": "Flat-UI README: \"flat in every pixel\"",
+      "url": "https://github.com/designmodo/Flat-UI"
+    }
+  ]
+}

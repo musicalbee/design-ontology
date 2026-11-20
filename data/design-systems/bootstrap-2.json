@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "bootstrap-2",
+  "name": "Bootstrap 2",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2011,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://getbootstrap.com/",
+  "tokens": {
+    "color": {
+      "primary": "#0088cc",
+      "info": "#049cdb",
+      "success": "#46a546",
+      "warning": "#f89406",
+      "danger": "#9d261d",
+      "on-surface": "#333333",
+      "muted": "#999999"
+    },
+    "type": {
+      "families": [
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial"
+      ],
+      "scale": [
+        14
+      ]
+    },
+    "radius": [
+      3,
+      4,
+      6
+    ]
+  },
+  "styles": [
+    {
+      "style": "skeuomorphism",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bootstrap 2.3.2 less/variables.less",
+      "url": "https://cdn.jsdelivr.net/gh/twbs/bootstrap@v2.3.2/less/variables.less"
+    },
+    {
+      "title": "Bootstrap 3 release post: v3 \"gone flat\" (contrast with v2)",
+      "url": "https://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/"
+    },
+    {
+      "title": "twbs/bootstrap repository",
+      "url": "https://github.com/twbs/bootstrap"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "tailwind-css",
+  "name": "Tailwind CSS",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2017,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://tailwindcss.com/",
+  "tokens": {
+    "type": {
+      "scale": [
+        14,
+        16,
+        20
+      ]
+    },
+    "space": [
+      4
+    ],
+    "radius": [
+      4,
+      6,
+      8
+    ],
+    "shadow": [
+      "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+      "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+    ],
+    "motion": {
+      "duration_ms": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+    }
+  },
+  "principles": [
+    "Utility classes in place of authored CSS"
+  ],
+  "styles": [
+    {
+      "style": "minimalism-web",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "tailwindcss 4.3.5 theme.css",
+      "url": "https://cdn.jsdelivr.net/npm/tailwindcss@4.3.5/theme.css"
+    },
+    {
+      "title": "tailwindcss repository",
+      "url": "https://github.com/tailwindlabs/tailwindcss"
+    }
+  ]
+}

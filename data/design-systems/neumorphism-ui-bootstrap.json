@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "neumorphism-ui-bootstrap",
+  "name": "Neumorphism UI (Themesberg)",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2020,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://demo.themesberg.com/neumorphism-ui/",
+  "tokens": {
+    "color": {
+      "bg": "#e6e7ee",
+      "secondary": "#2d4cc8",
+      "on-surface": "#44476a",
+      "muted": "#66799e"
+    },
+    "radius": [
+      8.8,
+      15.2
+    ],
+    "shadow": [
+      "6px 6px 12px #b8b9be, -6px -6px 12px #ffffff",
+      "3px 3px 6px #b8b9be, -3px -3px 6px #ffffff"
+    ]
+  },
+  "styles": [
+    {
+      "style": "neumorphism",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "neumorphism-ui-bootstrap src/scss/neumorphism/_variables.scss",
+      "url": "https://github.com/themesberg/neumorphism-ui-bootstrap/blob/HEAD/src/scss/neumorphism/_variables.scss"
+    },
+    {
+      "title": "Neumorphism UI README",
+      "url": "https://github.com/themesberg/neumorphism-ui-bootstrap"
+    }
+  ]
+}

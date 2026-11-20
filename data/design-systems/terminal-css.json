@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "terminal-css",
+  "name": "Terminal.css",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2019,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://terminalcss.xyz/",
+  "tokens": {
+    "color": {
+      "bg": "#ffffff",
+      "on-surface": "#151515",
+      "primary": "#1a95e0",
+      "secondary": "#727578",
+      "danger": "#d20962"
+    },
+    "type": {
+      "families": [
+        "Menlo",
+        "Monaco",
+        "Lucida Console",
+        "Liberation Mono",
+        "DejaVu Sans Mono"
+      ],
+      "scale": [
+        15
+      ]
+    },
+    "space": [
+      10
+    ]
+  },
+  "styles": [
+    {
+      "style": "terminal-tui-web",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "terminal.css npm package dist/terminal.css",
+      "url": "https://cdn.jsdelivr.net/npm/terminal.css/dist/terminal.css"
+    },
+    {
+      "title": "Terminal.css README: minimal CSS framework for terminal lovers",
+      "url": "https://github.com/Gioni06/terminal.css"
+    }
+  ]
+}
