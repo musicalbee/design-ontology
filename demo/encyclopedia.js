@@ -103,7 +103,13 @@
     };
     const ro = new ResizeObserver((es) => { for (const e of es) span(e.target); });
     const watch = (g) => { for (const c of g.children) { ro.observe(c); span(c); } };
-    const mo = new MutationObserver((ms) => { for (const m of ms) if (m.target.hasAttribute?.("data-pack")) watch(m.target); });
+    // A card that leaves the grid (an innerHTML replace on each style change) leaves the observer too.
+    const mo = new MutationObserver((ms) => {
+      for (const m of ms) {
+        for (const c of m.removedNodes) if (c.nodeType === 1) ro.unobserve(c);
+        for (const c of m.addedNodes) if (c.nodeType === 1) { ro.observe(c); span(c); }
+      }
+    });
     for (const g of root.querySelectorAll("[data-pack]")) { watch(g); mo.observe(g, { childList: true }); }
   }
 
