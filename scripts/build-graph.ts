@@ -6,7 +6,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { EVIDENCE_WEIGHT, loadCues, loadEmotions, loadEvokes, loadMoments } from "./emotions.js";
 import { loadLayer, styleLinks } from "./materials.js";
-import { ROOT, loadAll, loadDesignSystems, loadFunding, loadOrgs, loadPeople, loadTechniques, nearest, write, type Style } from "./lib.js";
+import { ROOT, loadAll, loadDesignSystems, loadDomains, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadTechniques, nearest, write, type Style } from "./lib.js";
 
 type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES" | "SUBGENRE_OF";
 interface Edge { from: string; to: string; type: EdgeType }
@@ -443,9 +443,32 @@ write("graph/lineage.mmd", mermaid);
 const readme = join(ROOT, "README.md");
 if (existsSync(readme)) {
   const text = readFileSync(readme, "utf8");
-  const next = text.replace(
-    /(<!-- lineage:start -->)[\s\S]*?(<!-- lineage:end -->)/,
-    `$1\n\`\`\`mermaid\n${mermaid}\n\`\`\`\n$2`,
-  );
+  // Each number in the README comes from the data, so it cannot go stale.
+  // A pattern that finds nothing stops the build: a lost marker must not leave an old number.
+  const must = (s: string, re: RegExp, to: string): string => {
+    if (!re.test(s)) throw new Error(`README.md: pattern not found: ${re}`);
+    return s.replace(re, to);
+  };
+  const perDomain = new Map<string, number>();
+  for (const s of styles) perDomain.set(s.domain, (perDomain.get(s.domain) ?? 0) + 1);
+  const rows = loadDomains()
+    .filter((d) => perDomain.has(d.id))
+    .map((d) => {
+      const demo = existsSync(join(ROOT, "demo", `${d.id}.html`)) ? `[${d.id}.html](demo/${d.id}.html)` : "";
+      return `| ${d.name} | ${perDomain.get(d.id)} | ${demo} |`;
+    });
+  const table = ["| Domain | Styles | Demo |", "|---|--:|---|", ...rows].join("\n");
+  const counts: Record<string, number> = {
+    styles: styles.length,
+    domains: perDomain.size,
+    principles: loadPrinciples().length,
+    techniques: techniques.length,
+  };
+  let next = must(text, /(<!-- lineage:start -->)[\s\S]*?(<!-- lineage:end -->)/, `$1\n\`\`\`mermaid\n${mermaid}\n\`\`\`\n$2`);
+  next = must(next, /(<!-- domains:start -->)[\s\S]*?(<!-- domains:end -->)/, `$1\n${table}\n$2`);
+  for (const [key, n] of Object.entries(counts))
+    next = must(next, new RegExp(`(<!-- n:${key} -->)\\d+(<!-- /n -->)`, "g"), `$1${n}$2`);
+  next = must(next, /badge\/styles-\d+-/, `badge/styles-${styles.length}-`);
+  next = must(next, /badge\/domains-[^)]*?-111111/, `badge/domains-${perDomain.size}-111111`);
   if (next !== text) write("README.md", next);
 }
