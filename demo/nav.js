@@ -20,7 +20,7 @@
     ["fashion.html", "Fashion"], ["ceramics.html", "Ceramics"], ["cuisine.html", "Cuisine"], ["game.html", "Video games"],
   ];
   const DOMAINS = [...FAMILIES.flatMap(([, ds]) => ds), ...OTHER];
-  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["materials.html", "Materials"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"]];
+  const ACROSS = [["graph.html", "Lineage"], ["techniques.html", "Techniques"], ["materials.html", "Materials"], ["people.html", "People"], ["orgs.html", "Orgs"], ["money.html", "Money"], ["emotions.html", "Emotions"], ["kit.html", "Kit"]];
   // A sub-page marks its parent domain as current: the moodboards are part of Interior.
   const PARENT = { "moodboard.html": "interior.html", "objects.html": "interior.html", "fabrics.html": "fashion.html", "glazes.html": "ceramics.html" };
   const file = location.pathname.split("/").pop() || "index.html";
@@ -59,7 +59,7 @@
   .do-btn[aria-expanded="true"] .do-n { color: rgb(255 255 255 / .8); }
   .do-step { width: 36px; padding: 0; justify-content: center; font-size: 18px; line-height: 1; }
   .do-styles[hidden], .do-step[hidden] { display: none; }
-  .do-links { display: flex; align-items: center; gap: 2px; margin-left: auto; }
+  .do-links { display: flex; align-items: center; gap: 2px; margin-left: auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
   .do-dom { position: relative; flex: none; }
   .do-dom > .do-btn { padding: 0 12px 0 14px; }
   .do-dom > .do-btn[aria-expanded="true"] { background: var(--hv-subtle); color: var(--hv-heading); border-color: var(--hv-line-strong); }
@@ -128,7 +128,23 @@
   // zoom.js: the image lens. faces.js: the people of each style. orgs.js: the organisations of each style.
   // ?embed: the page is inside a frame of another demo page, which has the chrome. Keep the elements, hide them.
   const EMBED = new URLSearchParams(location.search).has("embed");
-  for (const f of EMBED ? ["zoom.js"] : ["zoom.js", "faces.js", "orgs.js"]) {
+  // A page that calls the kit waits for it: window.kitReady.then((Kit) => …).
+  window.kitReady ??= new Promise((r) => (window.Kit ? r(window.Kit) : document.addEventListener("kit:ready", () => r(window.Kit), { once: true })));
+  // A page icon, so that the browser does not ask the server for /favicon.ico (a 404).
+  if (!document.querySelector('link[rel~="icon"]')) {
+    const ic = document.createElement("link");
+    ic.rel = "icon";
+    ic.href = "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#264fcc"/></svg>');
+    document.head.append(ic);
+  }
+  // kit.css and kit.js: the demo kit (the style preview, the chips, the tip, the select, the table, the dense patterns).
+  if (!document.querySelector('link[href$="kit.css"]')) {
+    const k = document.createElement("link");
+    k.rel = "stylesheet";
+    k.href = new URL("kit.css", document.currentScript?.src || location.href).href;
+    document.head.append(k);
+  }
+  for (const f of EMBED ? ["kit.js", "zoom.js"] : ["kit.js", "zoom.js", "faces.js", "orgs.js"]) {
     if (document.querySelector(`script[src$="${f}"]`)) continue;
     const s = document.createElement("script");
     s.src = new URL(f, document.currentScript?.src || location.href).href;

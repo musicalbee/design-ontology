@@ -12,7 +12,8 @@
 (() => {
   const base = new URL(".", document.currentScript?.src || location.href);
   const url = (p) => new URL(p, base).href;
-  const json = (p) => fetch(url(p)).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  // One network fetch per file for the page (shared with kit.js); each script parses its own copy.
+  const json = (p) => (window.doFetch ??= (u) => ((window.doFetchCache ??= new Map()).get(u) ?? window.doFetchCache.set(u, fetch(u).then((r) => (r.ok ? r.text() : null)).catch(() => null)).get(u)))(url(p)).then((t) => (t ? JSON.parse(t) : null)).catch(() => null);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const ROLE = { "key-figure": "Key figure", founder: "Founder", forerunner: "Forerunner", populariser: "Populariser",
     "trend-setter": "Trend-setter", artisan: "Artisan", rebel: "Rebel", patron: "Patron" };

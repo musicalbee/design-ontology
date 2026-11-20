@@ -365,11 +365,13 @@ if (M.byId.size) {
   const { links, processes, unmatched } = styleLinks(M);
   const photo = (id: string) => (existsSync(join(ROOT, "demo", "materials", "photos", `${id}.webp`)) ? `materials/photos/${id}.webp` : null);
   const procNames = new Map<string, string>();
+  const procNotes = new Map<string, string>();
   for (const t of techniques) procNames.set(`technique:${t.id}`, t.name);
+  for (const { technique: t } of loadTechniques()) if (t.summary) procNotes.set(`technique:${t.id}`, t.summary);
   for (const d of ["cuisine.methods", "ceramics.decorations", "fashion.finishes", "industrial.finishes"]) {
     const [domain, list] = d.split(".");
-    const v = JSON.parse(readFileSync(join(ROOT, "data", domain, "vocabulary.json"), "utf8")) as Record<string, { id: string; name: string }[]>;
-    for (const e of v[list] ?? []) procNames.set(`${d}:${e.id}`, e.name);
+    const v = JSON.parse(readFileSync(join(ROOT, "data", domain, "vocabulary.json"), "utf8")) as Record<string, { id: string; name: string; note?: string }[]>;
+    for (const e of v[list] ?? []) { procNames.set(`${d}:${e.id}`, e.name); if (e.note) procNotes.set(`${d}:${e.id}`, e.note); }
   }
   write(
     "graph/materials.json",
@@ -378,7 +380,7 @@ if (M.byId.size) {
         classes: M.classes.map(({ data: c }) => ({ id: c.class, name: c.name, summary: c.summary, families: c.families })),
         materials: [...M.byId.values()].map((m) => ({ ...m, photo: photo(m.id) })),
         tools: [...M.tools.values()],
-        processes: M.edges.map(({ edge }) => ({ ...edge, name: procNames.get(edge.process) ?? edge.process })),
+        processes: M.edges.map(({ edge }) => ({ ...edge, name: procNames.get(edge.process) ?? edge.process, ...(procNotes.has(edge.process) ? { note: procNotes.get(edge.process) } : {}) })),
         styles: Object.fromEntries(styles.map((s) => [s.id, { name: s.name, domain: s.domain }])),
         style_materials: links,
         style_processes: processes.filter((p) => procNames.has(p.process)),
@@ -389,6 +391,26 @@ if (M.byId.size) {
     ),
   );
   console.log(`graph/materials.json · ${M.byId.size} materials · ${M.edges.length} processes · ${links.length} style links · ${unmatched.length} free-text strings with no material`);
+}
+
+// ── The kit index: one card for each style, for the demo kit (demo/kit.js) ──────────────────────────────
+// The kit draws every style preview in the same 3:2 frame. A photograph fills the frame ("cover"); a board,
+// a type specimen, a press proof or a logo lockup sits whole on a plain ground ("contain").
+{
+  const BOARD = new Set(["specimen", "press-proof", "swatch-board", "tile-board", "lockup"]);
+  const out: Record<string, { name: string; domain: string; period: string; thesis: string; src?: string; fit?: "cover" | "contain" }> = {};
+  for (const s of styles) {
+    out[s.id] = { name: s.name, domain: s.domain, period: s.time_period.label, thesis: s.philosophy.core_thesis };
+    const file = join(ROOT, "demo", "previews", s.domain, "manifest.json");
+    if (!existsSync(file)) continue;
+    const m = JSON.parse(readFileSync(file, "utf8")) as { images?: Record<string, any>; proofs?: Record<string, any> };
+    const r = m.images?.[s.id] ?? m.proofs?.[s.id];
+    if (!r?.file) continue;
+    const kind = r.kind ?? (m.images?.[s.id] ? (String(r.file).startsWith("lockup/") ? "lockup" : null) : "press-proof");
+    Object.assign(out[s.id], { src: `previews/${s.domain}/${r.file}`, fit: BOARD.has(kind) ? "contain" : "cover" });
+  }
+  write("graph/kit.json", JSON.stringify({ $comment: "The card of each style for the demo kit: name, domain, period, thesis, and one preview (a path under demo/) with its fit in a 3:2 frame. Built by scripts/build-graph.ts.", styles: out }, null, 1));
+  console.log(`graph/kit.json · ${styles.length} styles · ${Object.values(out).filter((c) => c.src).length} with a preview`);
 }
 
 // ── Mermaid picture of the lineage, for people ──────────────────────────────
