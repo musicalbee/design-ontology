@@ -3290,17 +3290,16 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
 | Origin | Print | 1907 | — | Manchester: Samuel Simon patents the use of silk as a screen for stencil printing; sign and textile printers take it up. | |
-| 1 | Print | 1960 | +53 years | ICAIC and OSPAAAL make flat-colour posters in Havana; ICAIC prints many of them by hand-pulled silkscreen. | [`cuban-solidarity-silkscreen-poster`](./cuban-solidarity-silkscreen-poster/SKILL.md) |
-| 2 | Print | 1962 | +55 years | Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
-| 3 | Painting | 1962 | +55 years | Warhol and Rauschenberg pull photo screens onto painted canvas. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
-| 4 | Graphic movements | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
-| 5 | Fashion | 1976 | +69 years | The King's Road shop screen prints slogans and images on plain cotton T-shirts for the London punk scene. | [`punk-fashion`](./punk-fashion/SKILL.md) |
-| 6 | Fashion | 1980 | +73 years | Surf and skate labels screen print a name or a mark on the chest of a plain T-shirt and sell it in small runs. | [`streetwear`](./streetwear/SKILL.md) |
-| 7 | Ceramics | 1981 | +74 years | Memphis designers put bold stripes, dots and speckles on ceramic vessels by screen print and decal, and fire the pattern on the glaze. | [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md) |
-| 8 | Print | 1983 | +76 years | The Lima artist Monky begins to screen print his chicha posters with Juan Tenicela. | [`chicha-poster`](./chicha-poster/SKILL.md) |
-| 9 | Fashion | 1985 | +78 years | Dapper Dan prints luxury logos on leather with a silk-screen press and makes jackets and bags of it. | [`logomania`](./logomania/SKILL.md) |
+| 1 | Print | 1962 | +55 years | Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
+| 2 | Painting | 1962 | +55 years | Warhol and Rauschenberg pull photo screens onto painted canvas. | [`pop-art-painting`](./pop-art-painting/SKILL.md) |
+| 3 | Graphic movements | c. 1965 | +58 years | Poster studios screen print posters in flat, bright colours for clubs and protests. | [`pop-art-web`](./pop-art-web/SKILL.md) |
+| 4 | Fashion | 1976 | +69 years | The King's Road shop screen prints slogans and images on plain cotton T-shirts for the London punk scene. | [`punk-fashion`](./punk-fashion/SKILL.md) |
+| 5 | Fashion | 1980 | +73 years | Surf and skate labels screen print a name or a mark on the chest of a plain T-shirt and sell it in small runs. | [`streetwear`](./streetwear/SKILL.md) |
+| 6 | Ceramics | 1981 | +74 years | Memphis designers put bold stripes, dots and speckles on ceramic vessels by screen print and decal, and fire the pattern on the glaze. | [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md) |
+| 7 | Print | 1983 | +76 years | The Lima artist Monky begins to screen print his chicha posters with Juan Tenicela. | [`chicha-poster`](./chicha-poster/SKILL.md) |
+| 8 | Fashion | 1985 | +78 years | Dapper Dan prints luxury logos on leather with a silk-screen press and makes jackets and bags of it. | [`logomania`](./logomania/SKILL.md) |
 
-Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-fashion`](./punk-fashion/SKILL.md), [`streetwear`](./streetwear/SKILL.md), [`logomania`](./logomania/SKILL.md), [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md), [`cuban-solidarity-silkscreen-poster`](./cuban-solidarity-silkscreen-poster/SKILL.md), [`chicha-poster`](./chicha-poster/SKILL.md).
+Used by: [`pop-screen-print`](./pop-screen-print/SKILL.md), [`pop-art-painting`](./pop-art-painting/SKILL.md), [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-fashion`](./punk-fashion/SKILL.md), [`streetwear`](./streetwear/SKILL.md), [`logomania`](./logomania/SKILL.md), [`memphis-postmodern-ceramics`](./memphis-postmodern-ceramics/SKILL.md), [`chicha-poster`](./chicha-poster/SKILL.md).
 
 - Stretch a silk or polyester mesh of 40–120 threads a centimetre on a frame.
 - Make the stencil by hand cut film or by a photo emulsion exposed through a film positive.
@@ -3584,8 +3583,9 @@ A way to make tone in an intaglio plate with dots of many sizes. The prints look
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Print | 1756 | — | Paris: Gilles Demarteau used chasing tools and wheels to shade the lines in his chalk-manner prints. | |
-| 1 | Print | 1789 | +33 years | Francesco Bartolozzi engraves portraits in stipple, and some in colour, for the London market. | [`stipple-engraving-print`](./stipple-engraving-print/SKILL.md) |
+| Origin | Print | 1509 | — | Venice: Giulio Campagnola made tone with dots of the burin in place of lines. | |
+| 1 | Print | 1774 | +265 years | Francesco Bartolozzi and William Wynne Ryland make stipple engravings in red and black for the London market. | [`stipple-engraving-print`](./stipple-engraving-print/SKILL.md) |
+| 2 | Print | 1789 | +280 years | Francesco Bartolozzi engraves portraits in stipple, and some in colour, for the London market. | [`stipple-engraving-print`](./stipple-engraving-print/SKILL.md) |
 
 Used by: [`stipple-engraving-print`](./stipple-engraving-print/SKILL.md).
 
@@ -3905,7 +3905,7 @@ A print from a block of wood with the white parts cut away; the result is flat c
 | 6 | Painting | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks. | [`ukiyo-e`](./ukiyo-e/SKILL.md) |
 | 7 | Print | 1765 | +897 years | Suzuki Harunobu and his printers make the full-colour nishiki-e print in Edo, with one block for each colour and a kento register. | [`nishiki-e-polychrome-woodblock`](./nishiki-e-polychrome-woodblock/SKILL.md) |
 | 8 | Print | 1790 | +922 years | Poetry clubs in Edo pay for surimono, small prints on thick paper with embossing and metal dust. | [`surimono-print`](./surimono-print/SKILL.md) |
-| 9 | Print | 1799 | +931 years | Collectors in Edo hold exchange meetings for senjafuda, small name slips printed from woodblocks. | [`senjafuda-slip`](./senjafuda-slip/SKILL.md) |
+| 9 | Print | 1799 | +931 years | The oldest invitation to a senjafuda exchange meeting that survives is from 1799. The slips are printed from woodblocks. | [`senjafuda-slip`](./senjafuda-slip/SKILL.md) |
 | 10 | Print | 1816 | +948 years | Bengali craftsmen cut woodblock pictures for books and sheets printed in the Battala quarter of Calcutta. | [`battala-woodcut`](./battala-woodcut/SKILL.md) |
 | 11 | Print | 1868 | +1000 years | Meiji printers use imported aniline dye on woodblocks, and Kobayashi Kiyochika adds light and shadow in his kosen-ga. | [`meiji-kosen-ga-print`](./meiji-kosen-ga-print/SKILL.md) |
 | 12 | Print | 1891 | +1023 years | William Morris draws woodcut borders and initials for the Kelmscott Press, cut by William Harcourt Hooper and others. | [`private-press-book`](./private-press-book/SKILL.md) |

@@ -181,8 +181,8 @@ Calm and wonder: the viewer sees a surface that moved like water and then stoppe
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Diwan of Mehmed Raghib Pasha, on coloured and marbled paper](https://commons.wikimedia.org/wiki/File:Mehmed_Raghib_Pasa_(1699-1763);_Diwan,_Ottoman_Turkey,_1717.jpg) (Unknown Ottoman scribe, 1717): image, Public domain. Christies.com via Wikimedia Commons
-- [Ebru (Water Marbling) Art](https://commons.wikimedia.org/wiki/File:Ebru_(Water_Marbling)_Art.jpg) (Metasqaure10, 2022): image, CC0. Metasqaure10, Wikimedia Commons (a modern work)
+- [Diwan of Mehmed Raghib Pasha, a manuscript with marbled paper](https://commons.wikimedia.org/wiki/File:Mehmed_Raghib_Pasa_(1699-1763);_Diwan,_Ottoman_Turkey,_1717.jpg) (unknown, 1717): image, Public domain. Christies.com via Wikimedia Commons
+- [Ebru (Water Marbling) Art](https://commons.wikimedia.org/wiki/File:Ebru_(Water_Marbling)_Art.jpg) (Metasqaure10, 2025): image, CC0. Metasqaure10, Wikimedia Commons (a modern work)
 - [Ebru Sanatı Resim Art](https://commons.wikimedia.org/wiki/File:Ebru_Sanat%C4%B1_Resim_Art.jpg) (Brcan, 2020): image, CC0. Brcan, Wikimedia Commons (a modern work)
 
 ## Sources

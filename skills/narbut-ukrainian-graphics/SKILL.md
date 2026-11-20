@@ -1,6 +1,6 @@
 ---
 name: narbut-ukrainian-graphics
-description: "Apply the Narbut Ukrainian Baroque graphics style (1910–1930) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: narbut, ukrainian baroque, ukrainian book cover, heraldic pen drawing, baroque lettering, ukrainian heraldry."
+description: "Apply the Narbut Ukrainian Baroque graphics style (1910–1920) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: narbut, ukrainian baroque, ukrainian book cover, heraldic pen drawing, baroque lettering, ukrainian heraldry."
 domain: print
 era: industrial-press
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 A black pen drawing with Baroque capitals and heraldry, printed from zinc line blocks, sometimes with one or two flat tints. The dense ornament and the hand lettering imitate old engraved Ukrainian books.
 
-**Period:** 1910–1930 · **Era:** Industrial press · **Domain:** Print · **Also called:** Narbut style, Ukrainian Baroque graphics, Графіка Нарбута, Українська книжкова графіка
+**Period:** 1910–1920 · **Era:** Industrial press · **Domain:** Print · **Also called:** Narbut style, Ukrainian Baroque graphics, Графіка Нарбута, Українська книжкова графіка
 
 ## When to load this skill
 

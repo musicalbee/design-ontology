@@ -174,7 +174,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md), [`russian-lubok-print`](../russian-lubok-print/SKILL.md)
 - **Led to (go here for a newer version):** [`narbut-ukrainian-graphics`](../narbut-ukrainian-graphics/SKILL.md)
 - **Kin in another domain:** [`art-nouveau-object`](../art-nouveau-object/SKILL.md)
-- **Nearest by vector profile:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`senjafuda-slip`](../senjafuda-slip/SKILL.md), [`cuban-solidarity-silkscreen-poster`](../cuban-solidarity-silkscreen-poster/SKILL.md)
+- **Nearest by vector profile:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`senjafuda-slip`](../senjafuda-slip/SKILL.md), [`battala-woodcut`](../battala-woodcut/SKILL.md)
 
 ## Emotional target
 

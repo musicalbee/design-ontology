@@ -181,7 +181,7 @@ A warm, modern glamour: the viewer sees a young woman of the new Shanghai, soft,
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Advertisement poster for a cigarette company, Shanghai](https://commons.wikimedia.org/wiki/File:Shanghai-girls-chinese-posters.jpg) (East Asian Cigarette Company (advertiser)): image, Public domain. Wikimedia Commons. The Commons record gives the advertiser and the date 1930; the artist and the date are not checked.
+- [Advertisement poster for a cigarette company, Shanghai](https://commons.wikimedia.org/wiki/File:Shanghai-girls-chinese-posters.jpg) (East Asian Cigarette Company (advertiser)): image, Public domain. Wikimedia Commons. Commons dates it 1930, before 1931, so the poster is in the public domain in the US. The artist is not known.
 
 ## Sources
 

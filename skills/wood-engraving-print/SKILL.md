@@ -184,8 +184,8 @@ Exact, nineteenth-century trust: the viewer reads a news picture or a natural-hi
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Woodcock (reproduced Bewick engraving)](https://commons.wikimedia.org/wiki/File:Brief_History_of_Wood-engraving_Bewick_Woodcock.png) (Thomas Bewick, 1797): image, Public domain. Wikimedia Commons
-- [(Horses) Waiting for Death](https://commons.wikimedia.org/wiki/File:Thomas_Bewick_-_(Horses)_Waiting_for_Death_-_B1985.36.269_-_Yale_Center_for_British_Art.jpg) (Thomas Bewick, 1828): image, CC0. Yale Center for British Art, via Wikimedia Commons
+- [Woodcock, from Bewick's History of British Birds: Water Birds](https://commons.wikimedia.org/wiki/File:Brief_History_of_Wood-engraving_Bewick_Woodcock.png) (Thomas Bewick, 1804): image, Public domain. Wikimedia Commons
+- [(Horses) Waiting for Death](https://commons.wikimedia.org/wiki/File:Thomas_Bewick_-_(Horses)_Waiting_for_Death_-_B1985.36.269_-_Yale_Center_for_British_Art.jpg) (Thomas Bewick, 1832): image, CC0. Yale Center for British Art, via Wikimedia Commons
 
 ## Sources
 

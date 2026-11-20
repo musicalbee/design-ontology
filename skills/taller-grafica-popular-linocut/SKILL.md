@@ -179,8 +179,8 @@ Solidarity and anger: the viewer feels a strong, plain and human call to act.
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Corrido de Diego Rivera](https://commons.wikimedia.org/wiki/File:Corrido_de_Diego_Rivera.tif) (Celia Calderón de la Barca (TGP member), 1956): image, CC0. Celia Calderón de la Barca, Wikimedia Commons
-- [Flyer on profiteers who exploit farmworkers (ladder of profiteers)](https://commons.wikimedia.org/wiki/File:Flyer_relating_to_profiteers_who_exploit_rural_farmworkers_and_take_advantage_of_the_government,_depicting_a_ladder_on_which_sit_profiteers_MET_DP874531.jpg) (Taller de Gráfica Popular (attributed), 1940): image, CC0. The Metropolitan Museum of Art via Wikimedia Commons
+- [Broadsheet: the ballad of Mr Grasshopper at communion](https://commons.wikimedia.org/wiki/File:Broadsheet_with_the_ballad_of_Mr_Grasshopper_(a_middleman)_who_is_shown_receiving_communion;_a_metaphor_for_peasant_suffering_under_corrupt_landowners_MET_DP874534.jpg) (Taller de Gráfica Popular, after Leopoldo Méndez): image, CC0. The Metropolitan Museum of Art (46.46.459) via Wikimedia Commons. Photo-relief and letterpress on green paper, c.1940.
+- [Flyer on profiteers who exploit farmworkers (ladder of profiteers)](https://commons.wikimedia.org/wiki/File:Flyer_relating_to_profiteers_who_exploit_rural_farmworkers_and_take_advantage_of_the_government,_depicting_a_ladder_on_which_sit_profiteers_MET_DP874531.jpg) (Taller de Gráfica Popular (attributed)): image, CC0. The Metropolitan Museum of Art via Wikimedia Commons. Photo-relief and letterpress, c.1936–1945.
 
 ## Sources
 

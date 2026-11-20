@@ -183,7 +183,7 @@ Each item below has an open licence or is in the public domain, so you may show 
 
 - [Dawn at Kanda Shrine](https://commons.wikimedia.org/wiki/File:Dawn_at_Kanda_Shrine_by_Kobayashi_Kiyochika,_1882,_woodblock_print,_Honolulu_Museum_of_Art.jpg) (Kobayashi Kiyochika, 1882): image, Public domain. Wikimedia Commons (Honolulu Museum of Art)
 - [Night Stalls at Asakusa](https://commons.wikimedia.org/wiki/File:Night_Stalls_at_Asakusa_by_Kobayashi_Kiyochika,_1881,_woodblock_print,_Honolulu_Museum_of_Art.jpg) (Kobayashi Kiyochika, 1881): image, Public domain. Wikimedia Commons (Honolulu Museum of Art)
-- [Tokyo kaika meisho](https://commons.wikimedia.org/wiki/File:T%C5%8Dky%C5%8D_kaika_meish%C5%8D.jpg) (Utagawa Hiroshige III (attributed), 1876): image, Public domain. Wikimedia Commons (public domain)
+- [Tokyo kaika meisho](https://commons.wikimedia.org/wiki/File:T%C5%8Dky%C5%8D_kaika_meish%C5%8D.jpg) (Nikutei Karyō (presumed Kobayashi Kiyochika) and Kawanabe Kyōsai, 1875): image, Public domain. Wikimedia Commons (public domain). Published in 1875 (Meiji 8).
 
 ## Sources
 

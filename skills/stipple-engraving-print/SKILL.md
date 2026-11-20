@@ -1,6 +1,6 @@
 ---
 name: stipple-engraving-print
-description: "Apply the Stipple (crayon-manner) engraving style (1756–1840) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: stipple engraving, dot manner print, crayon manner engraving, bartolozzi print, sanguine print, georgian portrait print."
+description: "Apply the Stipple (crayon-manner) engraving style (c.1770–1840) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: stipple engraving, dot manner print, crayon manner engraving, bartolozzi print, sanguine print, georgian portrait print."
 domain: print
 era: hand-press
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 The plate is built up from etched and engraved dots and short flicks, so tone has no hatching. The print shows soft skin and flesh with pale dotted shading, and publishers often printed in red-brown (sanguine).
 
-**Period:** 1756–1840 · **Era:** Hand press · **Domain:** Print · **Also called:** gravure au pointille (French), Punktiermanier (German)
+**Period:** c.1770–1840 · **Era:** Hand press · **Domain:** Print · **Also called:** gravure au pointille (French), Punktiermanier (German)
 
 ## When to load this skill
 
@@ -133,7 +133,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Stipple engraving (process, invented here)
 
-A way to make tone in an intaglio plate with dots of many sizes. The prints look like chalk drawings. Origin: print, Paris, 1756.
+A way to make tone in an intaglio plate with dots of many sizes. The prints look like chalk drawings. Origin: print, Venice, 1509.
 
 - Mark the plate with dots, made with an etching needle, a burin or a roulette tool.
 - Make dots close and large for the dark areas, and small and wide apart for the light.
@@ -179,7 +179,7 @@ Gentle, polished charm: the viewer sees smooth skin and soft drapery, like a cha
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Francis Willis, stipple engraving](https://commons.wikimedia.org/wiki/File:Francis_Willis._Stipple_engraving_by_F._Bartolozzi,_1789,_af_Wellcome_L0008194.jpg) (Francesco Bartolozzi, 1789): image, CC BY 4.0. Wellcome Collection, via Wikimedia Commons
-- [Jupiter (Zeus), sanguine stipple engraving](https://commons.wikimedia.org/wiki/File:Jupiter_(Zeus)._Sanguine_stipple_engraving_by_F._Bartolozzi_Wellcome_V0035805.jpg) (Francesco Bartolozzi, 1790): image, CC BY 4.0. Wellcome Collection, via Wikimedia Commons
+- [Jupiter (Zeus), sanguine stipple engraving after G. Hussey](https://commons.wikimedia.org/wiki/File:Jupiter_(Zeus)._Sanguine_stipple_engraving_by_F._Bartolozzi_Wellcome_V0035805.jpg) (Francesco Bartolozzi, 1774): image, CC BY 4.0. Wellcome Collection, via Wikimedia Commons
 
 ## Sources
 

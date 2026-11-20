@@ -169,7 +169,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more folk**: move toward [`russian-lubok-print`](../russian-lubok-print/SKILL.md) (Russian lubok folk print). Keep the coarse outline and flat colour; drop the strip layout and put the hand colour loosely over a black key line.
 
 - **Came from (go here for a more orthodox version):** [`russian-lubok-print`](../russian-lubok-print/SKILL.md)
-- **Mixes well with:** [`constructivist-photomontage-poster`](../constructivist-photomontage-poster/SKILL.md)
+- **Led to (go here for a newer version):** [`constructivist-photomontage-poster`](../constructivist-photomontage-poster/SKILL.md)
 - **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md)
 - **Nearest by vector profile:** [`nianhua-new-year-print`](../nianhua-new-year-print/SKILL.md), [`chicha-poster`](../chicha-poster/SKILL.md), [`dong-ho-folk-woodblock`](../dong-ho-folk-woodblock/SKILL.md)
 

@@ -183,8 +183,8 @@ Warmth and devotion: the viewer sees a bright shrine picture, rich and a little 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Tirumala Tirupati Mahakshetram, print from the Ravi Varma Press](https://commons.wikimedia.org/wiki/File:%22Tirumala_Tirupati_Mahakshetram,%22_a_religious_print_about_the_site_from_the_Ravi_Varma_Press,_c.1910%27s.jpg) (Ravi Varma Press, 1910): image, Public domain. Wikimedia Commons
-- [Ravi Varma Press Kali](https://commons.wikimedia.org/wiki/File:Ravi_Varma_Press_Kali.jpg) (Ravi Varma Press, 1910): image, Public domain. Wikimedia Commons
-- [Vintage Bhim oleograph litho, Ravi Varma Press](https://commons.wikimedia.org/wiki/File:Vintage_Bhim_oleograph_litho_Ravi_Varma_Press_B.jpg) (Ravi Varma Press, 1910): image, Public domain. Wikimedia Commons
+- [Ravi Varma Press Kali](https://commons.wikimedia.org/wiki/File:Ravi_Varma_Press_Kali.jpg) (Anant Shivaji Desai (Ravi Varma Press print)): image, Public domain. Wikimedia Commons. Dated before 1945.
+- [Vintage Bhim oleograph litho, Ravi Varma Press](https://commons.wikimedia.org/wiki/File:Vintage_Bhim_oleograph_litho_Ravi_Varma_Press_B.jpg) (Ravi Varma Press): image, Public domain. Wikimedia Commons. The date is not known.
 
 ## Sources
 

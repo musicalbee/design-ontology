@@ -183,7 +183,6 @@ The force of one hand: the viewer feels that a person cut this block, and that t
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Mother and Child](https://commons.wikimedia.org/wiki/File:Mother_and_Child_by_Onchi_K%C5%8Dshir%C5%8D,_1915,_woodblock_print,_Honolulu_Museum_of_Art.jpg) (Onchi Koshiro, 1915): image, Public domain. Wikimedia Commons (Honolulu Museum of Art)
-- [Lyric No. 12, Uncertain Hope](https://commons.wikimedia.org/wiki/File:Onchi_Koshiro_-_%27Lyric_No._12,_Uncertain_Hope,_1951,_woodblock_print,_HMA.jpg) (Onchi Koshiro, 1951): image, Public domain. Wikimedia Commons (Honolulu Museum of Art)
 - [Fisherman](https://clevelandart.org/art/1960.122) (Yamamoto Kanae, 1906): image, CC0. Cleveland Museum of Art Open Access
 
 ## Sources

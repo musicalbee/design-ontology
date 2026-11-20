@@ -182,11 +182,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more hand-made**: move toward [`rosta-window-stencil-poster`](../rosta-window-stencil-poster/SKILL.md) (ROSTA Window stencil poster). Replace the photographs with a painted figure in a thick black contour; keep the red, the black and the heavy caption.
 - If the user asks for **more printed texture**: move toward [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md) (Ben-Day comic print). Change the photographic halftone for coarse flat dot tints; keep the flat red and black.
 
-- **Came from (go here for a more orthodox version):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
-- **Led to (go here for a newer version):** [`cuban-solidarity-silkscreen-poster`](../cuban-solidarity-silkscreen-poster/SKILL.md)
-- **Mixes well with:** [`rosta-window-stencil-poster`](../rosta-window-stencil-poster/SKILL.md)
+- **Came from (go here for a more orthodox version):** [`rosta-window-stencil-poster`](../rosta-window-stencil-poster/SKILL.md)
 - **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md)
-- **Nearest by vector profile:** [`risograph-print`](../risograph-print/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`cuban-solidarity-silkscreen-poster`](../cuban-solidarity-silkscreen-poster/SKILL.md)
+- **Nearest by vector profile:** [`risograph-print`](../risograph-print/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`chiaroscuro-woodcut-print`](../chiaroscuro-woodcut-print/SKILL.md)
 
 ## Emotional target
 

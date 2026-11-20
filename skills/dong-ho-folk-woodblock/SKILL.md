@@ -1,6 +1,6 @@
 ---
 name: dong-ho-folk-woodblock
-description: "Apply the Dong Ho folk woodblock painting style (c.1600–1950s) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: dong ho painting, vietnamese folk woodblock, tranh dong ho, tet new year print vietnam, shell powder paper print, folk woodblock carp."
+description: "Apply the Dong Ho folk woodblock painting style (c.1600 (date not certain)–1950s) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: dong ho painting, vietnamese folk woodblock, tranh dong ho, tet new year print vietnam, shell powder paper print, folk woodblock carp."
 domain: print
 era: hand-press
 triggers:
@@ -25,7 +25,7 @@ vector_profile:
 
 Villagers print a black outline block, then add flat colour blocks one by one on do paper that carries a coat of scallop-shell powder. The colours come from plants and minerals, so they are bright and flat.
 
-**Period:** c.1600–1950s · **Era:** Hand press · **Domain:** Print · **Also called:** Tranh Đông Hồ, Tranh khắc gỗ dân gian Đông Hồ, Dong Ho painting
+**Period:** c.1600 (date not certain)–1950s · **Era:** Hand press · **Domain:** Print · **Also called:** Tranh Đông Hồ, Tranh khắc gỗ dân gian Đông Hồ, Dong Ho painting
 
 ## When to load this skill
 

@@ -178,7 +178,7 @@ Respect for a learned book: the viewer sees a quiet, dense page made by a traine
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Rare complete Shahnama lithograph book for Muhammad Ali Shah Qajar, 1901](https://commons.wikimedia.org/wiki/File:A_rare_complete_Shahnama_lithograph_book_comissioned_for_Muhammad_Ali_Shah_Qajar,_dated_1901.jpg) (Unknown printer, 1901): image, Public domain. Plakasauctions.com via Wikimedia Commons
+- [Shahnama, a complete lithographed book, dated 1901](https://commons.wikimedia.org/wiki/File:A_rare_complete_Shahnama_lithograph_book_comissioned_for_Muhammad_Ali_Shah_Qajar,_dated_1901.jpg) (Muhammad Hussein (scribe); Hussain Ali and Muhammad Kazim (pictures), 1901): image, Public domain. Plakasauctions.com via Wikimedia Commons. 1901 is in the reign of Muzaffar al-Din Shah.
 
 ## Sources
 

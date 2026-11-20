@@ -180,7 +180,6 @@ Fast, modern energy: the viewer sees bold curved shapes, in speed and in a crowd
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Tube Train](https://commons.wikimedia.org/wiki/File:Cyril_Power_-_Tube_Train_-_circa_1934.jpg) (Cyril Power, 1934): image, Public domain. Wikimedia Commons
 - [Carnival (linocut shown in Flight's 1934 handbook)](https://commons.wikimedia.org/wiki/File:Carnival_1930_Frank-Weitzel_Flight-Lino-Cutting.jpg) (Frank Weitzel, 1930): image, Public domain. Wikimedia Commons
 - [Hotel Cecil](https://commons.wikimedia.org/wiki/File:Hotel-Cecil_1930_Frank-Weitzel.jpg) (Frank Weitzel, 1930): image, Public domain. Wikimedia Commons
 

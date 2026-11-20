@@ -182,8 +182,7 @@ A hush: the viewer feels the weather and the hour in a place that is old and cal
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Evening on the Chikugo River](https://clevelandart.org/art/1930.95) (Yoshida Hiroshi, 1927): image, CC0. Cleveland Museum of Art Open Access
-- [Ioridani Mountain Pass](https://commons.wikimedia.org/wiki/File:Hasui_Kawase,_Ioridani_Mountain_Pass,_1923.jpg) (Kawase Hasui, 1923): image, Public domain. Wikimedia Commons (public domain, published in 1923)
-- [Cryptomeria Avenue](https://clevelandart.org/art/2016.80) (Yoshida Hiroshi, 1937): image, CC0. Cleveland Museum of Art Open Access
+- [Cryptomeria Avenue](https://clevelandart.org/art/2016.80) (Yoshida Hiroshi, 1937): image, CC0. Cleveland Museum of Art Open Access. The museum dates it after 1937.
 
 ## Sources
 

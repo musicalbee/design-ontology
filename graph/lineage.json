@@ -4372,21 +4372,6 @@
       }
     },
     {
-      "id": "stipple-engraving-print",
-      "domain": "print",
-      "name": "Stipple (crayon-manner) engraving",
-      "era": "hand-press",
-      "start": 1756,
-      "end": 1840,
-      "vectors": {
-        "tone_method": 4,
-        "ink_layering": 1,
-        "registration_play": 1,
-        "surface_relief": 2,
-        "hand_trace": 4
-      }
-    },
-    {
       "id": "nishiki-e-polychrome-woodblock",
       "domain": "print",
       "name": "Nishiki-e multi-block colour woodblock print",
@@ -4414,6 +4399,21 @@
         "registration_play": 1,
         "surface_relief": 3,
         "hand_trace": 3
+      }
+    },
+    {
+      "id": "stipple-engraving-print",
+      "domain": "print",
+      "name": "Stipple (crayon-manner) engraving",
+      "era": "hand-press",
+      "start": 1770,
+      "end": 1840,
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
       }
     },
     {
@@ -4752,7 +4752,7 @@
       "name": "Narbut Ukrainian Baroque graphics",
       "era": "industrial-press",
       "start": 1910,
-      "end": 1930,
+      "end": 1920,
       "vectors": {
         "tone_method": 1,
         "ink_layering": 1,
@@ -4852,21 +4852,6 @@
       }
     },
     {
-      "id": "cuban-solidarity-silkscreen-poster",
-      "domain": "print",
-      "name": "Cuban solidarity silkscreen poster",
-      "era": "studio-press",
-      "start": 1960,
-      "end": 1990,
-      "vectors": {
-        "tone_method": 1,
-        "ink_layering": 2,
-        "registration_play": 3,
-        "surface_relief": 1,
-        "hand_trace": 3
-      }
-    },
-    {
       "id": "pop-screen-print",
       "domain": "print",
       "name": "Pop screen print",
@@ -4916,7 +4901,7 @@
       "domain": "print",
       "name": "Chicha poster",
       "era": "studio-press",
-      "start": 1978,
+      "start": 1980,
       "end": null,
       "vectors": {
         "tone_method": 1,
@@ -11965,7 +11950,7 @@
     },
     {
       "from": "constructivist-photomontage-poster",
-      "to": "chromolithograph-poster",
+      "to": "rosta-window-stencil-poster",
       "type": "EVOLVED_FROM"
     },
     {
@@ -12031,11 +12016,6 @@
     {
       "from": "critical-regionalism-architecture",
       "to": "nordic-modernism-architecture",
-      "type": "EVOLVED_FROM"
-    },
-    {
-      "from": "cuban-solidarity-silkscreen-poster",
-      "to": "constructivist-photomontage-poster",
       "type": "EVOLVED_FROM"
     },
     {
@@ -14249,11 +14229,6 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
-      "from": "constructivist-photomontage-poster",
-      "to": "rosta-window-stencil-poster",
-      "type": "HYBRIDIZED_WITH"
-    },
-    {
       "from": "contemporary-craft-product",
       "to": "scandinavian-modern-product",
       "type": "HYBRIDIZED_WITH"
@@ -14301,11 +14276,6 @@
     {
       "from": "crinoline-and-bustle-dress",
       "to": "straight-front-corset",
-      "type": "HYBRIDIZED_WITH"
-    },
-    {
-      "from": "cuban-solidarity-silkscreen-poster",
-      "to": "pop-screen-print",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -24110,15 +24080,6 @@
       "adoptions": [
         {
           "domain": "print",
-          "year": 1960,
-          "circa": false,
-          "lag_years": 53,
-          "styles": [
-            "cuban-solidarity-silkscreen-poster"
-          ]
-        },
-        {
-          "domain": "print",
           "year": 1962,
           "circa": false,
           "lag_years": 55,
@@ -24198,7 +24159,6 @@
         "streetwear",
         "logomania",
         "memphis-postmodern-ceramics",
-        "cuban-solidarity-silkscreen-poster",
         "chicha-poster"
       ]
     },
@@ -25164,15 +25124,24 @@
       "kind": "process",
       "origin": {
         "domain": "print",
-        "year": 1756,
+        "year": 1509,
         "circa": false
       },
       "adoptions": [
         {
           "domain": "print",
+          "year": 1774,
+          "circa": false,
+          "lag_years": 265,
+          "styles": [
+            "stipple-engraving-print"
+          ]
+        },
+        {
+          "domain": "print",
           "year": 1789,
           "circa": false,
-          "lag_years": 33,
+          "lag_years": 280,
           "styles": [
             "stipple-engraving-print"
           ]
@@ -37409,36 +37378,6 @@
         "woodcut"
       ]
     },
-    "stipple-engraving-print": {
-      "evolved_from": [
-        "engraving-print",
-        "etching-print"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [],
-      "echoes": [],
-      "subgenre_of": [],
-      "subgenres": [],
-      "nearest_by_vector": [
-        {
-          "id": "wood-engraving-print",
-          "distance": 1
-        },
-        {
-          "id": "crayon-lithograph-print",
-          "distance": 1.41
-        },
-        {
-          "id": "aquatint-print",
-          "distance": 1.73
-        }
-      ],
-      "techniques": [
-        "stipple-engraving"
-      ]
-    },
     "nishiki-e-polychrome-woodblock": {
       "evolved_from": [
         "woodcut-relief-print"
@@ -37508,6 +37447,36 @@
       ],
       "techniques": [
         "aquatint"
+      ]
+    },
+    "stipple-engraving-print": {
+      "evolved_from": [
+        "engraving-print",
+        "etching-print"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "wood-engraving-print",
+          "distance": 1
+        },
+        {
+          "id": "crayon-lithograph-print",
+          "distance": 1.41
+        },
+        {
+          "id": "aquatint-print",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "stipple-engraving"
       ]
     },
     "surimono-print": {
@@ -37708,15 +37677,15 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
-          "id": "cuban-solidarity-silkscreen-poster",
-          "distance": 1
-        },
-        {
           "id": "battala-woodcut",
           "distance": 1.41
         },
         {
           "id": "dong-ho-folk-woodblock",
+          "distance": 1.41
+        },
+        {
+          "id": "senjafuda-slip",
           "distance": 1.41
         }
       ],
@@ -37785,7 +37754,6 @@
       "evolved_from": [],
       "evolved_into": [
         "ben-day-comic-print",
-        "constructivist-photomontage-poster",
         "mir-iskusstva-book-graphics",
         "psychedelic-concert-poster",
         "ravi-varma-oleograph",
@@ -38045,8 +38013,8 @@
           "distance": 1
         },
         {
-          "id": "cuban-solidarity-silkscreen-poster",
-          "distance": 1.41
+          "id": "battala-woodcut",
+          "distance": 1.73
         }
       ],
       "techniques": [
@@ -38276,12 +38244,12 @@
       "evolved_from": [
         "russian-lubok-print"
       ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
+      "evolved_into": [
         "constructivist-photomontage-poster"
       ],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
       "echoes": [
         "constructivism-web"
       ],
@@ -38307,16 +38275,12 @@
     },
     "constructivist-photomontage-poster": {
       "evolved_from": [
-        "chromolithograph-poster"
-      ],
-      "evolved_into": [
-        "cuban-solidarity-silkscreen-poster"
-      ],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
         "rosta-window-stencil-poster"
       ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
       "echoes": [
         "constructivism-web"
       ],
@@ -38332,8 +38296,8 @@
           "distance": 2.24
         },
         {
-          "id": "cuban-solidarity-silkscreen-poster",
-          "distance": 2.24
+          "id": "chiaroscuro-woodcut-print",
+          "distance": 2.45
         }
       ],
       "techniques": [
@@ -38431,37 +38395,6 @@
         "linocut"
       ]
     },
-    "cuban-solidarity-silkscreen-poster": {
-      "evolved_from": [
-        "constructivist-photomontage-poster"
-      ],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "pop-screen-print"
-      ],
-      "echoes": [],
-      "subgenre_of": [],
-      "subgenres": [],
-      "nearest_by_vector": [
-        {
-          "id": "wood-type-poster",
-          "distance": 1
-        },
-        {
-          "id": "mir-iskusstva-book-graphics",
-          "distance": 1.41
-        },
-        {
-          "id": "nianhua-new-year-print",
-          "distance": 1.41
-        }
-      ],
-      "techniques": [
-        "screen-printing"
-      ]
-    },
     "pop-screen-print": {
       "evolved_from": [
         "ben-day-comic-print"
@@ -38472,7 +38405,6 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
-        "cuban-solidarity-silkscreen-poster",
         "psychedelic-concert-poster",
         "risograph-print"
       ],

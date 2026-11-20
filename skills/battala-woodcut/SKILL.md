@@ -180,7 +180,7 @@ Warm, plain humour and faith: the viewer sees a lively bazaar sheet.
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Battala Jagannath](https://commons.wikimedia.org/wiki/File:BattalaJagannath.jpg) (unknown Battala printer, 1860): image, Public domain. Victoria and Albert Museum via Wikimedia Commons
+- [Durga slays Mahishasura, Battala woodcut](https://commons.wikimedia.org/wiki/File:BattalaJagannath.jpg) (unknown Battala printer, 1860): image, Public domain. Victoria and Albert Museum (O102043) via Wikimedia Commons. The Commons file name says Jagannath; the print shows Durga.
 
 ## Sources
 

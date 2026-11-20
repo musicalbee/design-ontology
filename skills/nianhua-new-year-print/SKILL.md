@@ -183,7 +183,6 @@ Each item below has an open licence or is in the public domain, so you may show 
 
 - [Nianhua woodblock prints: door gods and deities](https://commons.wikimedia.org/wiki/File:One_hundred_thirty-five_woodblock_prints_including_New_Year%27s_pictures_(nianhua),_door_gods,_historical_figures_and_Taoist_deities_MET_DP-17327-122.jpg) (Various): image, CC0. Wikimedia Commons (The Metropolitan Museum of Art, Open Access)
 - [The Spirit of the Doors, colour woodblock nianhua](https://commons.wikimedia.org/wiki/File:1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg) (Unknown maker, 1900): image, Public domain. Wikimedia Commons (public domain, a scan; the date is c.1900)
-- [Dancing beauty with a swallow, Mianzhu nianhua](https://commons.wikimedia.org/wiki/File:Mianzhu_Dancing_beauty_with_a_swallow.jpg) (Anonymous (Mianzhu), 1930): image, Public domain. Wikimedia Commons (public domain; the date is 1930–1932)
 
 ## Sources
 

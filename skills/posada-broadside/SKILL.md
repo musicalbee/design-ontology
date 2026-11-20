@@ -187,7 +187,7 @@ A dry laugh at death and power: the viewer reads a street sheet with a sharp jok
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Calavera oaxaqueña, broadsheet](https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Guadalupe_Posada,_Calavera_oaxaque%C3%B1a,_broadsheet,_1903.jpg) (José Guadalupe Posada, 1903): image, Public domain. Wikimedia Commons
-- [El corrido de la muerte](https://commons.wikimedia.org/wiki/File:El_corrido_de_la_muerte_LCCN99615845.jpg) (José Guadalupe Posada for Antonio Vanegas Arroyo, 1900): image, Public domain. Library of Congress via Wikimedia Commons
+- [El corrido de la muerte](https://commons.wikimedia.org/wiki/File:El_corrido_de_la_muerte_LCCN99615845.jpg) (José Guadalupe Posada for Antonio Vanegas Arroyo, 1900): image, Public domain. Library of Congress via Wikimedia Commons. The library dates it 1890–1909.
 - [La Calavera Catrina](https://commons.wikimedia.org/wiki/File:La_Calavera_Catrina_J_Guadalupe_Posada.jpg) (José Guadalupe Posada, 1913): image, Public domain. Wikimedia Commons
 
 ## Sources

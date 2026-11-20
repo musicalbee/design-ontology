@@ -27693,7 +27693,7 @@
       "domain": "print",
       "family": "graphic",
       "era": "hand-press",
-      "period": "c.1600–1950s",
+      "period": "c.1600 (date not certain)–1950s",
       "thesis": "A village can print a whole folk art from plant and mineral colour, one flat block at a time, on paper that shines with ground shell.",
       "summary": "Villagers print a black outline block, then add flat colour blocks one by one on do paper that carries a coat of scallop-shell powder. The colours come from plants and minerals, so they are bright and flat.",
       "path": "skills/dong-ho-folk-woodblock/SKILL.md",
@@ -28201,94 +28201,6 @@
       }
     },
     {
-      "id": "stipple-engraving-print",
-      "name": "Stipple (crayon-manner) engraving",
-      "domain": "print",
-      "family": "graphic",
-      "era": "hand-press",
-      "period": "1756–1840",
-      "thesis": "A plate built from dots and short flicks, with no hatching, gives flesh and drapery a soft tone that imitates a chalk drawing.",
-      "summary": "The plate is built up from etched and engraved dots and short flicks, so tone has no hatching. The print shows soft skin and flesh with pale dotted shading, and publishers often printed in red-brown (sanguine).",
-      "path": "skills/stipple-engraving-print/SKILL.md",
-      "tokens": null,
-      "pack": null,
-      "visual": null,
-      "triggers": [
-        "stipple engraving",
-        "dot manner print",
-        "crayon manner engraving",
-        "bartolozzi print",
-        "sanguine print",
-        "georgian portrait print",
-        "oval stipple portrait",
-        "punktiermanier"
-      ],
-      "use_cases": [
-        "portrait and decorative prints with a period look",
-        "heritage packaging and labels",
-        "book plates and frontispieces",
-        "stationery with a soft vignette"
-      ],
-      "emotion": [
-        "gentle",
-        "polished",
-        "soft",
-        "georgian",
-        "delicate"
-      ],
-      "archetypes": [
-        "lover",
-        "innocent",
-        "caregiver"
-      ],
-      "vectors": {
-        "tone_method": 4,
-        "ink_layering": 1,
-        "registration_play": 1,
-        "surface_relief": 2,
-        "hand_trace": 4
-      },
-      "techniques": [
-        "stipple-engraving"
-      ],
-      "orgs": [
-        "royal-academy-of-arts"
-      ],
-      "permutations": {
-        "key_ink": {
-          "default": "#8A4B3A",
-          "options": [
-            "#8A4B3A",
-            "#2D2926",
-            "#5B3A2A"
-          ]
-        },
-        "paper_colour": {
-          "default": "#E6DBC0",
-          "options": [
-            "#E6DBC0",
-            "#EEE5CE",
-            "#DACCA9"
-          ]
-        },
-        "ink_count": {
-          "default": 1,
-          "min": 1,
-          "max": 3
-        },
-        "screen_ruling": {
-          "default": 90,
-          "min": 60,
-          "max": 120
-        },
-        "misregistration": {
-          "default": 0,
-          "min": 0,
-          "max": 0.5
-        }
-      }
-    },
-    {
       "id": "nishiki-e-polychrome-woodblock",
       "name": "Nishiki-e multi-block colour woodblock print",
       "domain": "print",
@@ -28455,6 +28367,94 @@
           "default": 120,
           "min": 80,
           "max": 160
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "id": "stipple-engraving-print",
+      "name": "Stipple (crayon-manner) engraving",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1770–1840",
+      "thesis": "A plate built from dots and short flicks, with no hatching, gives flesh and drapery a soft tone that imitates a chalk drawing.",
+      "summary": "The plate is built up from etched and engraved dots and short flicks, so tone has no hatching. The print shows soft skin and flesh with pale dotted shading, and publishers often printed in red-brown (sanguine).",
+      "path": "skills/stipple-engraving-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "stipple engraving",
+        "dot manner print",
+        "crayon manner engraving",
+        "bartolozzi print",
+        "sanguine print",
+        "georgian portrait print",
+        "oval stipple portrait",
+        "punktiermanier"
+      ],
+      "use_cases": [
+        "portrait and decorative prints with a period look",
+        "heritage packaging and labels",
+        "book plates and frontispieces",
+        "stationery with a soft vignette"
+      ],
+      "emotion": [
+        "gentle",
+        "polished",
+        "soft",
+        "georgian",
+        "delicate"
+      ],
+      "archetypes": [
+        "lover",
+        "innocent",
+        "caregiver"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "stipple-engraving"
+      ],
+      "orgs": [
+        "royal-academy-of-arts"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#8A4B3A",
+          "options": [
+            "#8A4B3A",
+            "#2D2926",
+            "#5B3A2A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E6DBC0",
+          "options": [
+            "#E6DBC0",
+            "#EEE5CE",
+            "#DACCA9"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 90,
+          "min": 60,
+          "max": 120
         },
         "misregistration": {
           "default": 0,
@@ -30375,7 +30375,7 @@
       "domain": "print",
       "family": "graphic",
       "era": "industrial-press",
-      "period": "1910–1930",
+      "period": "1910–1920",
       "thesis": "A dense black pen line and Baroque lettering can make a modern cover that looks like a page from an old Ukrainian book.",
       "summary": "A black pen drawing with Baroque capitals and heraldry, printed from zinc line blocks, sometimes with one or two flat tints. The dense ornament and the hand lettering imitate old engraved Ukrainian books.",
       "path": "skills/narbut-ukrainian-graphics/SKILL.md",
@@ -30980,94 +30980,6 @@
       }
     },
     {
-      "id": "cuban-solidarity-silkscreen-poster",
-      "name": "Cuban solidarity silkscreen poster",
-      "domain": "print",
-      "family": "graphic",
-      "era": "studio-press",
-      "period": "1960–1990",
-      "thesis": "Two to four flat inks and one strong shape can carry a political or film message to a street in any language.",
-      "summary": "A poster in flat colour and a bold shape. ICAIC printed film posters by hand-pulled silkscreen in short runs. OSPAAAL printed solidarity posters by offset and folded them into the Tricontinental magazine.",
-      "path": "skills/cuban-solidarity-silkscreen-poster/SKILL.md",
-      "tokens": null,
-      "pack": null,
-      "visual": null,
-      "triggers": [
-        "cuban poster",
-        "ospaaal",
-        "icaic poster",
-        "solidarity poster",
-        "tricontinental",
-        "cartel cubano",
-        "revolutionary poster",
-        "flat silkscreen poster"
-      ],
-      "use_cases": [
-        "film festival posters",
-        "campaign and protest posters",
-        "cultural event announcements",
-        "album covers"
-      ],
-      "emotion": [
-        "bold",
-        "militant",
-        "optimistic",
-        "graphic",
-        "direct"
-      ],
-      "archetypes": [
-        "hero",
-        "outlaw",
-        "creator"
-      ],
-      "vectors": {
-        "tone_method": 1,
-        "ink_layering": 2,
-        "registration_play": 3,
-        "surface_relief": 1,
-        "hand_trace": 3
-      },
-      "techniques": [
-        "screen-printing"
-      ],
-      "orgs": [
-        "icaic",
-        "ospaaal"
-      ],
-      "permutations": {
-        "key_ink": {
-          "default": "#1A1A1A",
-          "options": [
-            "#1A1A1A",
-            "#101820"
-          ]
-        },
-        "paper_colour": {
-          "default": "#F1ECDD",
-          "options": [
-            "#F1ECDD",
-            "#FFFFFF",
-            "#EFE3C8"
-          ]
-        },
-        "ink_count": {
-          "default": 3,
-          "min": 2,
-          "max": 5
-        },
-        "screen_ruling": {
-          "default": 0,
-          "min": 0,
-          "max": 0
-        },
-        "misregistration": {
-          "default": 1,
-          "min": 0,
-          "max": 2
-        }
-      }
-    },
-    {
       "id": "pop-screen-print",
       "name": "Pop screen print",
       "domain": "print",
@@ -31331,7 +31243,7 @@
       "domain": "print",
       "family": "graphic",
       "era": "studio-press",
-      "period": "1978–present",
+      "period": "1980s–present",
       "thesis": "A fluorescent poster with big hand-drawn letters can call a crowd to a street concert at a very low cost.",
       "summary": "A concert poster in fluorescent ink for chicha music. The maker draws big outlined letters and a tight border by hand, and prints in 2–5 loud flat colours on cheap paper.",
       "path": "skills/chicha-poster/SKILL.md",
@@ -59207,15 +59119,6 @@
       "adoptions": [
         {
           "domain": "print",
-          "year": 1960,
-          "via": "ICAIC and OSPAAAL make flat-colour posters in Havana; ICAIC prints many of them by hand-pulled silkscreen.",
-          "styles": [
-            "cuban-solidarity-silkscreen-poster"
-          ],
-          "lag_years": 53
-        },
-        {
-          "domain": "print",
           "year": 1962,
           "via": "Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour.",
           "styles": [
@@ -59296,7 +59199,6 @@
         "streetwear",
         "logomania",
         "memphis-postmodern-ceramics",
-        "cuban-solidarity-silkscreen-poster",
         "chicha-poster"
       ]
     },
@@ -60346,9 +60248,9 @@
       "kind": "process",
       "origin": {
         "domain": "print",
-        "year": 1756,
-        "where": "Paris",
-        "note": "Gilles Demarteau used chasing tools and wheels to shade the lines in his chalk-manner prints.",
+        "year": 1509,
+        "where": "Venice",
+        "note": "Giulio Campagnola made tone with dots of the burin in place of lines.",
         "styles": [
           "stipple-engraving-print"
         ]
@@ -60356,12 +60258,21 @@
       "adoptions": [
         {
           "domain": "print",
+          "year": 1774,
+          "via": "Francesco Bartolozzi and William Wynne Ryland make stipple engravings in red and black for the London market.",
+          "styles": [
+            "stipple-engraving-print"
+          ],
+          "lag_years": 265
+        },
+        {
+          "domain": "print",
           "year": 1789,
           "via": "Francesco Bartolozzi engraves portraits in stipple, and some in colour, for the London market.",
           "styles": [
             "stipple-engraving-print"
           ],
-          "lag_years": 33
+          "lag_years": 280
         }
       ],
       "styles": [
@@ -62173,7 +62084,7 @@
         {
           "domain": "print",
           "year": 1799,
-          "via": "Collectors in Edo hold exchange meetings for senjafuda, small name slips printed from woodblocks.",
+          "via": "The oldest invitation to a senjafuda exchange meeting that survives is from 1799. The slips are printed from woodblocks.",
           "styles": [
             "senjafuda-slip"
           ],

@@ -179,7 +179,7 @@ Calm, learned warmth: the viewer sees a wash drawing of a classical scene, in a 
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Archimedes, chiaroscuro woodcut](https://commons.wikimedia.org/wiki/File:Ugo_da_Carpi_%E2%80%94_Archimedes.jpg) (Ugo da Carpi, 1516): image, Public domain. Wikimedia Commons
+- [Archimedes (?), chiaroscuro woodcut](https://commons.wikimedia.org/wiki/File:Ugo_da_Carpi_%E2%80%94_Archimedes.jpg) (Ugo da Carpi, 1518): image, Public domain. Wikimedia Commons. Dated c.1518–1520.
 - [St John the Baptist Preaching in the Desert (after Raphael)](https://commons.wikimedia.org/wiki/File:St_John_the_Baptist_Preaching_in_the_Desert_-_chiaroscuro_woodcut_by_Ugo_da_Carpi_after_Raphael_c.1517_-_Museum_of_Fine_Arts_Budapest_Hungary.jpg) (Ugo da Carpi, 1517): image, Public domain. Museum of Fine Arts Budapest, via Wikimedia Commons
 - [Diogenes, chiaroscuro woodcut](https://commons.wikimedia.org/wiki/File:Ugo_da_Carpi_-_Diogenes_-_1923.1052_-_Cleveland_Museum_of_Art.tif) (Ugo da Carpi, 1527): image, CC0. Cleveland Museum of Art Open Access, via Wikimedia Commons
 

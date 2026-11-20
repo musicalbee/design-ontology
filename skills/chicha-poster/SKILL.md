@@ -1,6 +1,6 @@
 ---
 name: chicha-poster
-description: "Apply the Chicha poster style (1978–present) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: chicha poster, peruvian poster, cartel chicha, fluorescent concert poster, cumbia poster, lima street poster."
+description: "Apply the Chicha poster style (1980s–present) when specifying, prompting or art-directing a printed piece or its look on screen: a poster, a plate, a book page, a zine, a label or a print-look illustration. Load when the user asks for: chicha poster, peruvian poster, cartel chicha, fluorescent concert poster, cumbia poster, lima street poster."
 domain: print
 era: studio-press
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 A concert poster in fluorescent ink for chicha music. The maker draws big outlined letters and a tight border by hand, and prints in 2–5 loud flat colours on cheap paper.
 
-**Period:** 1978–present · **Era:** Studio press · **Domain:** Print · **Also called:** Cartel chicha, Peruvian chicha poster, Fluorescent concert poster
+**Period:** 1980s–present · **Era:** Studio press · **Domain:** Print · **Also called:** Cartel chicha, Peruvian chicha poster, Fluorescent concert poster
 
 ## When to load this skill
 
@@ -166,7 +166,7 @@ Each knob varies the style inside a range where it stays itself. Keep each value
 
 When the user asks for a variation, do not improvise. Blend toward the neighbour named here, and load its skill.
 
-- If the user asks for **more political and strict**: move toward [`cuban-solidarity-silkscreen-poster`](../cuban-solidarity-silkscreen-poster/SKILL.md) (Cuban solidarity silkscreen poster). Cut the palette to red, black and yellow and use one large bold shape.
+- If the user asks for **more political and strict**: move toward [`constructivist-photomontage-poster`](../constructivist-photomontage-poster/SKILL.md) (Constructivist photomontage poster). Cut the palette to red and black and use one large diagonal shape.
 - If the user asks for **more 1960s psychedelic**: move toward [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md) (Psychedelic concert poster). Use vibrating colour pairs and flowing, interlocked letters on a swirl ground.
 
 - **Came from (go here for a more orthodox version):** [`pop-screen-print`](../pop-screen-print/SKILL.md)

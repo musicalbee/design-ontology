@@ -179,7 +179,7 @@ Hushed, artful reverence: the viewer sees a photograph that has the depth and we
 
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
-- [Girl, Camera Work plate, October 1905](https://commons.wikimedia.org/wiki/File:Girl_by_Alfred_Stieglitz,_Camera_Work,_October_1905,_12-15_(5711529088).jpg) (Alfred Stieglitz, 1905): image, Public domain. Museum of Photographic Arts, via Wikimedia Commons
+- [Girl, Camera Work plate, October 1905](https://commons.wikimedia.org/wiki/File:Girl_by_Alfred_Stieglitz,_Camera_Work,_October_1905,_12-15_(5711529088).jpg) (Alfred Stieglitz, 1905): image, Public domain. Museum of Photographic Arts via Wikimedia Commons. Published in Camera Work in 1905, so it is in the public domain in the US.
 - [Winter, Fifth Avenue, Camera Work plate (negative 1892)](https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_Camera_Work-_Winter_-_Fifth_Avenue_-_1995.199.12.b_-_Cleveland_Museum_of_Art.jpg) (Alfred Stieglitz, 1892): image, Public domain. Cleveland Museum of Art, via Wikimedia Commons
 - [The Terminal, Camera Work plate (negative 1892)](https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_Camera_Work-_The_Terminal_-_1995.199.36.o_-_Cleveland_Museum_of_Art.tif) (Alfred Stieglitz, 1892): image, Public domain. Cleveland Museum of Art, via Wikimedia Commons
 

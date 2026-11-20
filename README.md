@@ -486,9 +486,9 @@ flowchart LR
     ten_bamboo_studio_polychrome["Ten Bamboo Studio polychrome block print"]
     mezzotint_print["Mezzotint"]
     russian_lubok_print["Russian lubok folk print"]
-    stipple_engraving_print["Stipple (crayon-manner) engraving"]
     nishiki_e_polychrome_woodblock["Nishiki-e multi-block colour woodblock print"]
     aquatint_print["Aquatint"]
+    stipple_engraving_print["Stipple (crayon-manner) engraving"]
     surimono_print["Surimono privately published print"]
     wood_engraving_print["End-grain wood engraving"]
     senjafuda_slip["Senjafuda pilgrim name slip"]
@@ -522,7 +522,6 @@ flowchart LR
     taller_grafica_popular_linocut["Taller de Gráfica Popular linocut"]
   end
   subgraph print_studio_press["Print · Studio press · 1945–1995"]
-    cuban_solidarity_silkscreen_poster["Cuban solidarity silkscreen poster"]
     pop_screen_print["Pop screen print"]
     psychedelic_concert_poster["Psychedelic concert poster"]
     xerox_zine["Xerox zine"]
@@ -1561,7 +1560,7 @@ flowchart LR
   vsco_preset_look --> cohesive_feed_grid
   abstract_expressionism --> colour_field_painting
   victorian_sanitary_ware --> coloured_bathroom_suite
-  chromolithograph_poster --> constructivist_photomontage_poster
+  rosta_window_stencil_poster --> constructivist_photomontage_poster
   arts_and_crafts_object --> contemporary_craft_product
   japanese_modern_craft_product --> contemporary_craft_product
   woodcut_relief_print --> cordel_xilogravura
@@ -1575,7 +1574,6 @@ flowchart LR
   english_slipware --> creamware_neoclassical
   empire_line_dress --> crinoline_and_bustle_dress
   nordic_modernism_architecture --> critical_regionalism_architecture
-  constructivist_photomontage_poster --> cuban_solidarity_silkscreen_poster
   grande_cuisine --> cuisine_classique
   renaissance_banquet --> cuisine_francoise
   nouvelle_cuisine --> cuisine_minceur
@@ -2821,6 +2819,7 @@ flowchart LR
   linkStyle 647 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 648 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 649 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 1126 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1127 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1128 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1129 stroke:#E5484D,stroke-width:1.5px
@@ -3047,7 +3046,6 @@ flowchart LR
   linkStyle 1350 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1351 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1352 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1353 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 

@@ -182,8 +182,8 @@ The pleasure of a private gift: the viewer feels that the maker and the patron a
 Each item below has an open licence or is in the public domain, so you may show it as a reference.
 
 - [Agate (Meno seki), surimono](https://commons.wikimedia.org/wiki/File:Agate_(Men%C5%8D_seki)_._Surimono_by_Katsushika_Hokusai_(CBL_J_2174).jpg) (Katsushika Hokusai, 1822): image, Public domain. Wikimedia Commons (Chester Beatty Library)
-- [Five cranes on a spit of sand, surimono](https://commons.wikimedia.org/wiki/File:Five_cranes_on_a_spit_of_sand._Surimono_by_Kubo_Shunman_(CBL_J_2284).jpg) (Kubo Shunman, 1800): image, Public domain. Wikimedia Commons (Chester Beatty Library)
-- [Basket of Peonies](https://clevelandart.org/art/1943.5) (Katsushika Hokusai, 1810): image, CC0. Cleveland Museum of Art Open Access
+- [Five cranes on a spit of sand, surimono](https://commons.wikimedia.org/wiki/File:Five_cranes_on_a_spit_of_sand._Surimono_by_Kubo_Shunman_(CBL_J_2284).jpg) (Kubo Shunman, 1816): image, Public domain. Wikimedia Commons (Chester Beatty Library, CBL J 2284). The library dates it probably 1816.
+- [Basket of Peonies](https://clevelandart.org/art/1943.5) (Katsushika Hokusai, 1810): image, CC0. Cleveland Museum of Art Open Access. The museum dates it 1810 or 1814.
 
 ## Sources
 
