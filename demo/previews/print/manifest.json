@@ -119,11 +119,11 @@
     },
     "pop-screen-print": {
       "file": "pop-screen-print.webp",
-      "subject": "a pop art screen print of one soup can repeated in a grid of nine, each copy in a different flat colour, off-register black outline, no lettering",
-      "prompt": "a pop art screen print of one soup can repeated in a grid of nine, each copy in a different flat colour, off-register black outline, no lettering, pop art screen print, bold flat colour from the mass media, flat bright colours, off-register black photo layer, hot pink and turquoise, coarse halftone, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
+      "subject": "a pop art screen print of one pair of sunglasses repeated in a grid of six, each copy on a different flat colour field, off-register black outline",
+      "prompt": "a pop art screen print of one pair of sunglasses repeated in a grid of six, each copy on a different flat colour field, off-register black outline, pop art screen print, bold flat colour from the mass media, flat bright colours, off-register black photo layer, hot pink and turquoise, coarse halftone, a flat scan of the whole printed sheet with its paper edges in frame, the true texture of ink on paper",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 768,
@@ -131,11 +131,9 @@
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable large lettering on every can (\"SOON\", \"SOEP\", \"SONP\", \"SURCIEZ\") despite the 'no lettering' prompt"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "private-press-book": {
