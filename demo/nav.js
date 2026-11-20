@@ -39,7 +39,7 @@
     --hv-ease: cubic-bezier(.16, 1, .3, 1);
     font: 14.4px/1.3 "Onest", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; text-transform: none; color: var(--hv-ink); }
   .do-bar { position: sticky; top: 0; z-index: 1000; display: flex; align-items: center; gap: 8px; height: 56px; padding: 0 16px;
-    background: rgb(248 249 253 / .92); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    background: #F8F9FD;
     border-bottom: 1px solid var(--hv-line); }
   .do-bar *, .do-drawer * { box-sizing: border-box; font: inherit; }
   .do-brand { font-weight: 700; white-space: nowrap; color: var(--hv-heading); text-decoration: none; padding: 0 8px 0 2px; letter-spacing: -.01em; }
@@ -115,13 +115,35 @@
     .do-bar.do-bare .do-links.do-more-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); }
     .do-bar.do-bare .do-links.do-more-l { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 32px), transparent); }
     .do-bar.do-bare .do-links.do-more-l.do-more-r { -webkit-mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent); } }
-  @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }`;
+  @media (prefers-reduced-motion: reduce) { .do-drawer, .do-drawer.open, .do-btn { transition: none; } }
+  /* An image that is not decoded yet shows a shimmer in its box, then fades in (see the image watch below). */
+  @keyframes do-shine { to { background-position: -200% 0; } }
+  img[data-wait] { color: transparent; background: linear-gradient(90deg, #eceef5 30%, #f8f9fd 50%, #eceef5 70%) 0 0 / 200% 100%; animation: do-shine 1.3s linear infinite; }
+  img.do-in { animation: do-in .35s ease-out; }
+  @keyframes do-in { from { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { img[data-wait], img.do-in { animation: none; } }`;
   if (!document.querySelector('link[href*="family=Onest"]')) {
     const font = document.createElement("link");
     font.rel = "stylesheet";
     font.href = "https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700&display=swap";
     document.head.append(font);
   }
+  // Image watch: every image on the page that is not decoded yet gets data-wait (a shimmer) until it loads or fails.
+  const wait = (img) => {
+    if (img.complete || img.dataset.wait != null) return;
+    img.dataset.wait = "";
+    const done = () => { delete img.dataset.wait; img.classList.add("do-in"); };
+    img.addEventListener("load", done, { once: true });
+    img.addEventListener("error", () => delete img.dataset.wait, { once: true });
+  };
+  new MutationObserver((ms) => {
+    for (const m of ms) for (const n of m.addedNodes) {
+      if (n.nodeType !== 1) continue;
+      if (n.tagName === "IMG") wait(n);
+      else if (n.firstElementChild) for (const i of n.getElementsByTagName("img")) wait(i);
+    }
+  }).observe(document.documentElement, { childList: true, subtree: true });
+  for (const i of document.images) wait(i);
   const style = document.createElement("style");
   style.textContent = css;
   document.head.append(style);
