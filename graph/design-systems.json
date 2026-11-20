@@ -8,7 +8,832 @@
   },
   "design_systems": [
     {
-      "$schema": "../../schema/design-system.schema.json",
+      "id": "apple-aqua",
+      "name": "Aqua",
+      "kind": "design-system",
+      "owner": "apple",
+      "people": [],
+      "first_release": {
+        "year": 2000
+      },
+      "versions": [
+        {
+          "name": "Mac OS X 10.0",
+          "year": 2001
+        }
+      ],
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Aqua_(user_interface)",
+      "principles": [
+        "The look follows a water theme with droplet-like controls.",
+        "Controls use gel and glass effects with reflection and translucency.",
+        "Blue, white and gray are the main colours.",
+        "Animation, such as the Dock bounce and the Genie effect, gives feedback."
+      ],
+      "styles": [
+        {
+          "style": "apple-aqua",
+          "relation": "defined"
+        },
+        {
+          "style": "skeuomorphism",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Aqua (user interface)",
+          "url": "https://en.wikipedia.org/wiki/Aqua_(user_interface)"
+        }
+      ],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "microsoft-metro",
+      "name": "Metro (Microsoft Design Language)",
+      "kind": "design-system",
+      "owner": "microsoft",
+      "first_release": {
+        "year": 2010
+      },
+      "versions": [
+        {
+          "name": "Windows Phone 7 launch",
+          "year": 2010
+        }
+      ],
+      "licence": "Not stated in the sources used",
+      "url": "https://en.wikipedia.org/wiki/Metro_(design_language)",
+      "tokens": {
+        "type": {
+          "families": [
+            "Segoe",
+            "Segoe WP",
+            "Segoe UI"
+          ]
+        }
+      },
+      "components": [
+        "Live tile",
+        "Panorama",
+        "Carousel view",
+        "Hub",
+        "Date picker",
+        "Toggle",
+        "Switch"
+      ],
+      "principles": [
+        "Content comes before chrome. The interface has little decoration.",
+        "Large type and simple geometric icons carry the design.",
+        "Tiles stand for single units of information.",
+        "Public transport signs were one inspiration.",
+        "Motion gives natural feedback and a sense of depth."
+      ],
+      "styles": [
+        {
+          "style": "metro-ui",
+          "relation": "defined"
+        },
+        {
+          "style": "flat-design",
+          "relation": "derived-from"
+        },
+        {
+          "style": "swiss-international",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Metro (design language)",
+          "url": "https://en.wikipedia.org/wiki/Metro_(design_language)"
+        }
+      ],
+      "people": []
+    },
+    {
+      "id": "apple-ios-6",
+      "name": "iOS 6 interface",
+      "kind": "design-system",
+      "owner": "apple",
+      "people": [
+        "scott-forstall"
+      ],
+      "first_release": {
+        "year": 2012
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/IOS_6",
+      "principles": [
+        "It was the last major iOS release with a skeuomorphic design."
+      ],
+      "styles": [
+        {
+          "style": "skeuomorphism",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: iOS 6",
+          "url": "https://en.wikipedia.org/wiki/IOS_6"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "atlassian-design-system",
+      "name": "Atlassian Design System",
+      "kind": "design-system",
+      "owner": "atlassian",
+      "first_release": {
+        "year": 2012
+      },
+      "versions": [
+        {
+          "name": "Atlassian Design Guidelines (ADG)",
+          "year": 2012
+        },
+        {
+          "name": "ADG 3",
+          "year": 2016
+        }
+      ],
+      "licence": "Not stated in the sources used",
+      "url": "https://atlassian.design/",
+      "tokens": {
+        "type": {
+          "families": [
+            "Atlassian Sans",
+            "Atlassian Mono",
+            "Charlie Sans"
+          ],
+          "scale": [
+            12,
+            14,
+            16,
+            20,
+            24,
+            28,
+            32
+          ]
+        }
+      },
+      "components": [
+        "Button",
+        "Checkbox",
+        "Dropdown menu",
+        "Form",
+        "Modal dialog",
+        "Banner",
+        "Flag",
+        "Lozenge",
+        "Badge",
+        "Tag",
+        "Tabs",
+        "Breadcrumbs",
+        "Dynamic table",
+        "Tooltip",
+        "Drawer"
+      ],
+      "principles": [
+        "One design language makes every app feel the same and known.",
+        "Design tokens name colour, type and elevation by role."
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Atlassian Design System",
+          "url": "https://atlassian.design/"
+        },
+        {
+          "title": "Atlassian Design System: components",
+          "url": "https://atlassian.design/components"
+        },
+        {
+          "title": "Atlassian Design System: typography",
+          "url": "https://atlassian.design/foundations/typography"
+        },
+        {
+          "title": "Medium: Designing Atlassian",
+          "url": "https://medium.com/designing-atlassian/our-new-home-for-atlassian-design-system-7ec766cf36cd"
+        }
+      ],
+      "people": []
+    },
+    {
+      "id": "apple-ios-7",
+      "name": "iOS 7 interface",
+      "kind": "design-system",
+      "owner": "apple",
+      "people": [
+        "jony-ive"
+      ],
+      "first_release": {
+        "year": 2013
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/IOS_7",
+      "principles": [
+        "Apple described the icons as sharper and flatter, and the fonts as slimmer.",
+        "The design moved away from skeuomorphism.",
+        "A team under Jony Ive, then head of design, made the look."
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        },
+        {
+          "style": "skeuomorphism",
+          "relation": "derived-from"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: iOS 7",
+          "url": "https://en.wikipedia.org/wiki/IOS_7"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "sap-fiori",
+      "name": "SAP Fiori",
+      "kind": "design-system",
+      "owner": "sap",
+      "first_release": {
+        "year": 2013
+      },
+      "versions": [
+        {
+          "name": "Fiori 2.0",
+          "year": 2016
+        }
+      ],
+      "licence": "Not stated in the sources used",
+      "url": "https://www.sap.com/design-system/fiori-design-web/",
+      "principles": [
+        "Mobile first, aimed at the most frequent use cases."
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SAP Fiori design system",
+          "url": "https://www.sap.com/design-system/fiori-design-web/v1-96/discover/sap-design-system/sap-fiori"
+        }
+      ],
+      "people": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "material-1",
+      "name": "Material Design",
+      "kind": "design-system",
+      "owner": "google",
+      "people": [
+        "matias-duarte"
+      ],
+      "first_release": {
+        "year": 2014
+      },
+      "licence": "Apache-2.0 (Android and iOS code), BSD-3-Clause (Flutter), MIT (Web); guidelines proprietary to Google",
+      "url": "https://m3.material.io/",
+      "principles": [
+        "The interface uses a paper and ink metaphor: surfaces and layers that behave like physical material.",
+        "Interaction ideas come from skeuomorphism, but are applied in a more advanced way."
+      ],
+      "styles": [
+        {
+          "style": "material-design",
+          "relation": "defined"
+        },
+        {
+          "style": "skeuomorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Material Design",
+          "url": "https://en.wikipedia.org/wiki/Material_Design"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "ant-design",
+      "name": "Ant Design",
+      "kind": "design-system",
+      "owner": "ant-group",
+      "first_release": {
+        "year": 2015,
+        "circa": true
+      },
+      "licence": "Not stated in the sources used",
+      "url": "https://ant.design/",
+      "components": [
+        "Button",
+        "DatePicker"
+      ],
+      "principles": [
+        "Natural",
+        "Certain",
+        "Meaningful",
+        "Growing"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ant Design: Introduce",
+          "url": "https://ant.design/docs/spec/introduce"
+        },
+        {
+          "title": "GitHub: ant-design/ant-design",
+          "url": "https://github.com/ant-design/ant-design"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "tokens": {}
+    },
+    {
+      "id": "github-primer",
+      "name": "Primer",
+      "kind": "design-system",
+      "owner": "github",
+      "first_release": {
+        "year": 2015,
+        "circa": true
+      },
+      "licence": "MIT (code)",
+      "url": "https://primer.style/",
+      "components": [
+        "Primer Product UI",
+        "Primer Brand UI",
+        "Primitives",
+        "Octicons"
+      ],
+      "styles": [
+        {
+          "style": "dark-devtool-ui",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Primer",
+          "url": "https://primer.style/"
+        },
+        {
+          "title": "GitHub: primer/css (created 2015, MIT)",
+          "url": "https://github.com/primer/css"
+        },
+        {
+          "title": "GitHub: primer/primitives",
+          "url": "https://github.com/primer/primitives"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "id": "ibm-carbon",
+      "name": "Carbon Design System",
+      "kind": "design-system",
+      "owner": "ibm",
+      "first_release": {
+        "year": 2015
+      },
+      "versions": [
+        {
+          "name": "Carbon 10.31.0",
+          "year": 2021
+        }
+      ],
+      "licence": "Apache-2.0",
+      "url": "https://carbondesignsystem.com/",
+      "tokens": {
+        "type": {
+          "families": [
+            "IBM Plex"
+          ]
+        },
+        "space": [
+          8,
+          16,
+          24,
+          32,
+          48,
+          64,
+          80
+        ]
+      },
+      "components": [
+        "Accordion",
+        "Breadcrumb",
+        "Button",
+        "Checkbox",
+        "Data table",
+        "Date picker",
+        "Dropdown",
+        "Modal",
+        "Notification",
+        "Pagination",
+        "Tabs",
+        "Tag",
+        "Tile",
+        "Toggle",
+        "UI shell header"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Carbon Design System",
+          "url": "https://carbondesignsystem.com/"
+        },
+        {
+          "title": "Wikipedia: Carbon Design System",
+          "url": "https://en.wikipedia.org/wiki/Carbon_Design_System"
+        },
+        {
+          "title": "GitHub: carbon-design-system/carbon",
+          "url": "https://github.com/carbon-design-system/carbon"
+        },
+        {
+          "title": "Carbon: 2x grid",
+          "url": "https://carbondesignsystem.com/elements/2x-grid/overview/"
+        }
+      ],
+      "people": [],
+      "principles": []
+    },
+    {
+      "id": "salesforce-lightning",
+      "name": "Salesforce Lightning Design System",
+      "kind": "design-system",
+      "owner": "salesforce",
+      "first_release": {
+        "year": 2015
+      },
+      "licence": "BSD-3-Clause (code); CC BY-ND 4.0 (icons and images)",
+      "url": "https://www.lightningdesignsystem.com/",
+      "principles": [
+        "Clarity",
+        "Efficiency",
+        "Consistency",
+        "Beauty"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "GitHub: salesforce-ux/design-system",
+          "url": "https://github.com/salesforce-ux/design-system"
+        },
+        {
+          "title": "Salesforce press release, 2015-08-25",
+          "url": "https://www.salesforce.com/news/press-releases/2015/08/25/experience-the-future-of-crm-today-welcome-to-salesforce-lightning/"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "us-web-design-system",
+      "name": "U.S. Web Design System",
+      "kind": "design-system",
+      "owner": "gsa-technology-transformation-services",
+      "first_release": {
+        "year": 2015
+      },
+      "versions": [
+        {
+          "name": "USWDS 2.0",
+          "year": 2019
+        },
+        {
+          "name": "USWDS 3.0",
+          "year": 2022
+        }
+      ],
+      "licence": "Not stated in the sources used",
+      "url": "https://designsystem.digital.gov/",
+      "components": [
+        "Accordion",
+        "Alert",
+        "Banner",
+        "Breadcrumb",
+        "Button",
+        "Card",
+        "Modal",
+        "Table",
+        "Tag",
+        "Tooltip"
+      ],
+      "principles": [
+        "Help government teams align, design and keep their sites and services up to date.",
+        "Make digital services familiar and easy to use."
+      ],
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "USWDS",
+          "url": "https://designsystem.digital.gov/"
+        },
+        {
+          "title": "USWDS: About",
+          "url": "https://designsystem.digital.gov/about/"
+        },
+        {
+          "title": "Wikipedia: U.S. Web Design System",
+          "url": "https://en.wikipedia.org/wiki/U.S._Web_Design_System"
+        }
+      ],
+      "people": [],
+      "tokens": {}
+    },
+    {
+      "id": "microsoft-fluent-1",
+      "name": "Fluent Design System",
+      "kind": "design-system",
+      "owner": "microsoft",
+      "first_release": {
+        "year": 2017
+      },
+      "licence": "MIT (code); fonts and icons under a separate assets licence",
+      "url": "https://github.com/microsoft/fluentui",
+      "tokens": {
+        "type": {
+          "families": [
+            "Segoe UI Variable"
+          ]
+        }
+      },
+      "components": [
+        "Reveal highlight",
+        "Reveal focus",
+        "Acrylic",
+        "Mica",
+        "Smoke",
+        "Connected animation",
+        "Parallax",
+        "Press feedback"
+      ],
+      "principles": [
+        "Light",
+        "Depth",
+        "Motion",
+        "Material",
+        "Scale"
+      ],
+      "styles": [
+        {
+          "style": "glassmorphism",
+          "relation": "inspired"
+        },
+        {
+          "style": "metro-ui",
+          "relation": "derived-from"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Fluent Design System",
+          "url": "https://en.wikipedia.org/wiki/Fluent_Design_System"
+        },
+        {
+          "title": "GitHub: microsoft/fluentui",
+          "url": "https://github.com/microsoft/fluentui"
+        }
+      ],
+      "people": [],
+      "versions": []
+    },
+    {
+      "id": "shopify-polaris",
+      "name": "Polaris",
+      "kind": "design-system",
+      "owner": "shopify",
+      "first_release": {
+        "year": 2017
+      },
+      "licence": "Custom licence based on MIT; use limited to apps that work with Shopify",
+      "url": "https://shopify.dev/docs/api/polaris",
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "GitHub: Shopify/polaris",
+          "url": "https://github.com/Shopify/polaris"
+        },
+        {
+          "title": "Shopify Partners blog, 28 April 2017",
+          "url": "https://www.shopify.com/au/partners/blog/how-to-get-the-most-out-of-polaris-shopify-s-new-design-system"
+        },
+        {
+          "title": "Shopify: Polaris",
+          "url": "https://shopify.dev/docs/api/polaris"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "components": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "id": "adobe-spectrum",
+      "name": "Spectrum",
+      "kind": "design-system",
+      "owner": "adobe",
+      "first_release": {
+        "year": 2018,
+        "circa": true
+      },
+      "licence": "Apache-2.0 (Spectrum CSS code)",
+      "url": "https://spectrum.adobe.com/",
+      "components": [
+        "Button"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Spectrum",
+          "url": "https://spectrum.adobe.com/"
+        },
+        {
+          "title": "GitHub: adobe/spectrum-css",
+          "url": "https://github.com/adobe/spectrum-css"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "id": "govuk-design-system",
+      "name": "GOV.UK Design System",
+      "kind": "design-system",
+      "owner": "government-digital-service",
+      "first_release": {
+        "year": 2018
+      },
+      "licence": "MIT (code); Open Government Licence v3.0 (documentation)",
+      "url": "https://design-system.service.gov.uk/",
+      "components": [
+        "Character count"
+      ],
+      "principles": [
+        "Teams follow the Government Design Principles and the GOV.UK Service Manual.",
+        "Reusable components for forms, navigation, panels and tables."
+      ],
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "GOV.UK Design System",
+          "url": "https://design-system.service.gov.uk/"
+        },
+        {
+          "title": "GitHub: alphagov/govuk-frontend",
+          "url": "https://github.com/alphagov/govuk-frontend"
+        },
+        {
+          "title": "Wikipedia: GOV.UK",
+          "url": "https://en.wikipedia.org/wiki/GOV.UK"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "tokens": {}
+    },
+    {
+      "id": "material-2",
+      "name": "Material Design 2",
+      "kind": "design-system",
+      "owner": "google",
+      "first_release": {
+        "year": 2018
+      },
+      "versions": [
+        {
+          "name": "Material Theming",
+          "year": 2018
+        }
+      ],
+      "licence": "Apache-2.0 (Android and iOS code), BSD-3-Clause (Flutter), MIT (Web); guidelines proprietary to Google",
+      "url": "https://m3.material.io/",
+      "principles": [
+        "The 2018 revision lets a product customise the components to match its own brand."
+      ],
+      "styles": [
+        {
+          "style": "material-design",
+          "relation": "derived-from"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Material Design",
+          "url": "https://en.wikipedia.org/wiki/Material_Design"
+        }
+      ],
+      "people": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "uber-base",
+      "name": "Base",
+      "kind": "design-system",
+      "owner": "uber",
+      "first_release": {
+        "year": 2018,
+        "circa": true
+      },
+      "licence": "MIT (Base Web code)",
+      "url": "https://base.uber.com/",
+      "principles": [
+        "The system is made of modern, responsive, living components."
+      ],
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Base Web README",
+          "url": "https://github.com/uber/baseweb"
+        },
+        {
+          "title": "Base design system",
+          "url": "https://base.uber.com/"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
       "id": "material-3",
       "name": "Material Design 3",
       "kind": "design-system",
@@ -62,6 +887,101 @@
       ],
       "components": [],
       "principles": []
+    },
+    {
+      "id": "microsoft-fluent-2",
+      "name": "Fluent 2",
+      "kind": "design-system",
+      "owner": "microsoft",
+      "first_release": {
+        "year": 2023
+      },
+      "licence": "MIT (Fluent UI code); fonts and icons under a separate assets licence",
+      "url": "https://fluent2.microsoft.design/",
+      "principles": [
+        "One Microsoft look across products, services and communities.",
+        "A token system helps handoff from design to code.",
+        "Corners are standard across components.",
+        "The colour system is more unified than in the first Fluent."
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fluent 2 Design System",
+          "url": "https://fluent2.microsoft.design/"
+        },
+        {
+          "title": "Fluent 2: What is new",
+          "url": "https://fluent2.microsoft.design/get-started/whatisnew"
+        },
+        {
+          "title": "SD Times: Microsoft releases Fluent 2",
+          "url": "https://sdtimes.com/msft/microsoft-releases-fluent-2-to-enable-more-creativity-in-design/"
+        },
+        {
+          "title": "GitHub: microsoft/fluentui",
+          "url": "https://github.com/microsoft/fluentui"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "components": [],
+      "tokens": {}
+    },
+    {
+      "id": "apple-liquid-glass",
+      "name": "Liquid Glass",
+      "kind": "design-system",
+      "owner": "apple",
+      "people": [],
+      "first_release": {
+        "year": 2025
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Liquid_Glass",
+      "components": [
+        "Sliders",
+        "Toggles",
+        "Alerts",
+        "Panels",
+        "Sidebars",
+        "Dock",
+        "Notifications",
+        "Control Center",
+        "Toolbars",
+        "Tab bars",
+        "Text selection tooltips",
+        "App icons"
+      ],
+      "principles": [
+        "A translucent glass-like material refracts and reflects the content behind it.",
+        "Elements adapt to light or dark backgrounds to keep text and icons legible.",
+        "Motion is fluid and reacts to device movement on iOS and iPadOS.",
+        "Toolbars split into bubbles by context. App icons use layers."
+      ],
+      "styles": [
+        {
+          "style": "liquid-glass-ui",
+          "relation": "defined"
+        },
+        {
+          "style": "glassmorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Liquid Glass",
+          "url": "https://en.wikipedia.org/wiki/Liquid_Glass"
+        }
+      ],
+      "versions": [],
+      "tokens": {}
     }
   ],
   "by_style": {
@@ -80,7 +1000,12 @@
     "y2k-aesthetic": [],
     "flash-intro-site": [],
     "japanese-dense-web": [],
-    "apple-aqua": [],
+    "apple-aqua": [
+      {
+        "ds": "apple-aqua",
+        "relation": "defined"
+      }
+    ],
     "anonymous-imageboard": [],
     "myspace-profile": [],
     "demotivational-poster": [],
@@ -89,14 +1014,40 @@
     "reddit-thread": [],
     "impact-image-macro": [],
     "unboxing-video": [],
-    "skeuomorphism": [],
+    "skeuomorphism": [
+      {
+        "ds": "apple-aqua",
+        "relation": "embodies"
+      },
+      {
+        "ds": "apple-ios-6",
+        "relation": "embodies"
+      },
+      {
+        "ds": "apple-ios-7",
+        "relation": "derived-from"
+      },
+      {
+        "ds": "material-1",
+        "relation": "inspired"
+      }
+    ],
     "rage-comic": [],
     "reaction-gif": [],
     "asmr-video": [],
     "glitch-gif": [],
     "instagram-vintage-filter": [],
     "lets-play-facecam": [],
-    "metro-ui": [],
+    "metro-ui": [
+      {
+        "ds": "microsoft-metro",
+        "relation": "defined"
+      },
+      {
+        "ds": "microsoft-fluent-1",
+        "relation": "derived-from"
+      }
+    ],
     "pixel-art-web": [],
     "unicode-emoji": [],
     "wojak-feels": [],
@@ -106,8 +1057,62 @@
     "seapunk": [],
     "bohemian-web": [],
     "clickbait-thumbnail": [],
-    "flat-design": [],
-    "minimalism-web": [],
+    "flat-design": [
+      {
+        "ds": "microsoft-metro",
+        "relation": "derived-from"
+      },
+      {
+        "ds": "atlassian-design-system",
+        "relation": "inspired"
+      },
+      {
+        "ds": "apple-ios-7",
+        "relation": "embodies"
+      },
+      {
+        "ds": "sap-fiori",
+        "relation": "inspired"
+      },
+      {
+        "ds": "ant-design",
+        "relation": "inspired"
+      },
+      {
+        "ds": "ibm-carbon",
+        "relation": "inspired"
+      },
+      {
+        "ds": "salesforce-lightning",
+        "relation": "embodies"
+      },
+      {
+        "ds": "shopify-polaris",
+        "relation": "inspired"
+      },
+      {
+        "ds": "adobe-spectrum",
+        "relation": "inspired"
+      },
+      {
+        "ds": "microsoft-fluent-2",
+        "relation": "inspired"
+      }
+    ],
+    "minimalism-web": [
+      {
+        "ds": "us-web-design-system",
+        "relation": "inspired"
+      },
+      {
+        "ds": "govuk-design-system",
+        "relation": "inspired"
+      },
+      {
+        "ds": "uber-base",
+        "relation": "inspired"
+      }
+    ],
     "tumblr-soft-grunge": [],
     "vaporwave": [],
     "cyberpunk-web": [],
@@ -119,6 +1124,14 @@
     "flat-lay-feed": [],
     "luxury-typography-web": [],
     "material-design": [
+      {
+        "ds": "material-1",
+        "relation": "defined"
+      },
+      {
+        "ds": "material-2",
+        "relation": "derived-from"
+      },
       {
         "ds": "material-3",
         "relation": "embodies"
@@ -134,7 +1147,12 @@
     "wabi-sabi-web": [],
     "anti-design": [],
     "cohesive-feed-grid": [],
-    "dark-devtool-ui": [],
+    "dark-devtool-ui": [
+      {
+        "ds": "github-primer",
+        "relation": "embodies"
+      }
+    ],
     "lip-sync-dance-short": [],
     "surreal-meme": [],
     "surrealism-web": [],
@@ -159,7 +1177,16 @@
     "liminal-spaces": [],
     "neumorphism": [],
     "cybercore-web": [],
-    "glassmorphism": [],
+    "glassmorphism": [
+      {
+        "ds": "microsoft-fluent-1",
+        "relation": "inspired"
+      },
+      {
+        "ds": "apple-liquid-glass",
+        "relation": "inspired"
+      }
+    ],
     "goblincore": [],
     "green-screen-short": [],
     "neo-brutalism-ui": [],
@@ -182,7 +1209,12 @@
     "photo-carousel-slideshow": [],
     "spatial-visionos": [],
     "ai-slop": [],
-    "liquid-glass-ui": [],
+    "liquid-glass-ui": [
+      {
+        "ds": "apple-liquid-glass",
+        "relation": "defined"
+      }
+    ],
     "gothic-architecture": [],
     "renaissance-architecture": [],
     "baroque-architecture": [],
@@ -357,7 +1389,12 @@
     "constructivism-web": [],
     "art-deco-web": [],
     "mid-century-modern": [],
-    "swiss-international": [],
+    "swiss-international": [
+      {
+        "ds": "microsoft-metro",
+        "relation": "inspired"
+      }
+    ],
     "japanese-graphic-modernism": [],
     "rams-functionalism-ui": [],
     "pop-art-web": [],
@@ -572,8 +1609,54 @@
     "plant-based-fine-dining": []
   },
   "by_owner": {
+    "apple": [
+      "apple-aqua",
+      "apple-ios-6",
+      "apple-ios-7",
+      "apple-liquid-glass"
+    ],
+    "microsoft": [
+      "microsoft-metro",
+      "microsoft-fluent-1",
+      "microsoft-fluent-2"
+    ],
+    "atlassian": [
+      "atlassian-design-system"
+    ],
+    "sap": [
+      "sap-fiori"
+    ],
     "google": [
+      "material-1",
+      "material-2",
       "material-3"
+    ],
+    "ant-group": [
+      "ant-design"
+    ],
+    "github": [
+      "github-primer"
+    ],
+    "ibm": [
+      "ibm-carbon"
+    ],
+    "salesforce": [
+      "salesforce-lightning"
+    ],
+    "gsa-technology-transformation-services": [
+      "us-web-design-system"
+    ],
+    "shopify": [
+      "shopify-polaris"
+    ],
+    "adobe": [
+      "adobe-spectrum"
+    ],
+    "government-digital-service": [
+      "govuk-design-system"
+    ],
+    "uber": [
+      "uber-base"
     ]
   }
 }

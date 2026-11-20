@@ -1,0 +1,63 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "microsoft-metro",
+  "name": "Metro (Microsoft Design Language)",
+  "kind": "design-system",
+  "owner": "microsoft",
+  "first_release": {
+    "year": 2010
+  },
+  "versions": [
+    {
+      "name": "Windows Phone 7 launch",
+      "year": 2010
+    }
+  ],
+  "licence": "Not stated in the sources used",
+  "url": "https://en.wikipedia.org/wiki/Metro_(design_language)",
+  "tokens": {
+    "type": {
+      "families": [
+        "Segoe",
+        "Segoe WP",
+        "Segoe UI"
+      ]
+    }
+  },
+  "components": [
+    "Live tile",
+    "Panorama",
+    "Carousel view",
+    "Hub",
+    "Date picker",
+    "Toggle",
+    "Switch"
+  ],
+  "principles": [
+    "Content comes before chrome. The interface has little decoration.",
+    "Large type and simple geometric icons carry the design.",
+    "Tiles stand for single units of information.",
+    "Public transport signs were one inspiration.",
+    "Motion gives natural feedback and a sense of depth."
+  ],
+  "styles": [
+    {
+      "style": "metro-ui",
+      "relation": "defined"
+    },
+    {
+      "style": "flat-design",
+      "relation": "derived-from"
+    },
+    {
+      "style": "swiss-international",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Metro (design language)",
+      "url": "https://en.wikipedia.org/wiki/Metro_(design_language)"
+    }
+  ]
+}

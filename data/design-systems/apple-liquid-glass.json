@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "apple-liquid-glass",
+  "name": "Liquid Glass",
+  "kind": "design-system",
+  "owner": "apple",
+  "people": [],
+  "first_release": { "year": 2025 },
+  "licence": "proprietary",
+  "url": "https://en.wikipedia.org/wiki/Liquid_Glass",
+  "components": ["Sliders", "Toggles", "Alerts", "Panels", "Sidebars", "Dock", "Notifications", "Control Center", "Toolbars", "Tab bars", "Text selection tooltips", "App icons"],
+  "principles": [
+    "A translucent glass-like material refracts and reflects the content behind it.",
+    "Elements adapt to light or dark backgrounds to keep text and icons legible.",
+    "Motion is fluid and reacts to device movement on iOS and iPadOS.",
+    "Toolbars split into bubbles by context. App icons use layers."
+  ],
+  "styles": [
+    { "style": "liquid-glass-ui", "relation": "defined" },
+    { "style": "glassmorphism", "relation": "inspired" }
+  ],
+  "sources": [{ "title": "Wikipedia: Liquid Glass", "url": "https://en.wikipedia.org/wiki/Liquid_Glass" }]
+}

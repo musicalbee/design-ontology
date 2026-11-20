@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "microsoft-fluent-1",
+  "name": "Fluent Design System",
+  "kind": "design-system",
+  "owner": "microsoft",
+  "first_release": {
+    "year": 2017
+  },
+  "licence": "MIT (code); fonts and icons under a separate assets licence",
+  "url": "https://github.com/microsoft/fluentui",
+  "tokens": {
+    "type": {
+      "families": [
+        "Segoe UI Variable"
+      ]
+    }
+  },
+  "components": [
+    "Reveal highlight",
+    "Reveal focus",
+    "Acrylic",
+    "Mica",
+    "Smoke",
+    "Connected animation",
+    "Parallax",
+    "Press feedback"
+  ],
+  "principles": [
+    "Light",
+    "Depth",
+    "Motion",
+    "Material",
+    "Scale"
+  ],
+  "styles": [
+    {
+      "style": "glassmorphism",
+      "relation": "inspired"
+    },
+    {
+      "style": "metro-ui",
+      "relation": "derived-from"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Fluent Design System",
+      "url": "https://en.wikipedia.org/wiki/Fluent_Design_System"
+    },
+    {
+      "title": "GitHub: microsoft/fluentui",
+      "url": "https://github.com/microsoft/fluentui"
+    }
+  ]
+}

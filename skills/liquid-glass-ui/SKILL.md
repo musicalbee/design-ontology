@@ -253,6 +253,7 @@ A translucent layer that blurs what is behind it, so that a panel reads as frost
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
+- **Apple** (company, Cupertino, 1976–now), made the style. US technology company known for consumer electronics, software and online services. It made the Aqua, iOS and Liquid Glass interface designs.
 
 ## Permutations
 
