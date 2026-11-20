@@ -25,6 +25,9 @@
   .row { display: grid; grid-template-columns: 96px 1fr; gap: 4px 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
   @media (min-width: 860px) { .row { grid-template-columns: 110px minmax(0, 1fr) minmax(0, 340px); } }
   .yr { font-variant-numeric: tabular-nums; font-weight: 650; }
+  .ph { width: 96px; aspect-ratio: 1; border-radius: 8px; background: #F7F7F9; overflow: hidden; margin-top: 6px; }
+  @media (min-width: 860px) { .ph { width: 110px; } }
+  .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .yr small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
   .what b { font-size: 16px; }
   .what .k { font-size: 12px; color: var(--muted); }
@@ -102,12 +105,17 @@ function draw() {
   $("out").innerHTML = groups.filter(([, g]) => g.length).map(([name, g]) => `<section><h2>${esc(name)}</h2>${g.map(row).join("")}</section>`).join("");
 }
 
-function row({ e, label, detail, users }) {
+function row({ k, e, label, detail, users }) {
   const o = e.origin;
+  // The picture: the library photo of the material, or for a finish the photo of its process.
+  const proc = `fashion.finishes:${e.id}`;
+  const src = k === "finishes" ? `materials/processes/${proc.replace(":", "--")}.webp` : `materials/photos/${e.id}.webp`;
+  const href = k === "finishes" ? `materials.html#p=${proc}` : `materials.html#m=${e.id}`;
   const first = users.length ? users[0].s.time_period.start : null;
   const lag = o && first != null ? `First in a style: ${first}${first >= o.year ? ` (lag ${first - o.year} years)` : ""}` : "";
   return `<div class="row" id="${esc(e.id)}">
-    <div class="yr">${o ? `${o.circa ? "c. " : ""}${esc(year(o))}` : "—"}<small>${esc(label)}</small></div>
+    <div class="yr">${o ? `${o.circa ? "c. " : ""}${esc(year(o))}` : "—"}<small>${esc(label)}</small>
+      <a class="ph" href="${esc(href)}"><img loading="lazy" src="${esc(src)}" alt="${esc(e.name)}" onerror="this.parentNode.remove()"></a></div>
     <div class="what"><b>${esc(e.name)}</b> <span class="k">${esc(detail || "")}</span>
       <p>${esc([o?.place, o?.by].filter(Boolean).join(" · "))}${o?.place || o?.by ? ". " : ""}${esc(e.note || "")}</p></div>
     <div class="use">${lag ? `<span class="first">${esc(lag)}</span>` : ""}${users.length ? users.map((u) =>
