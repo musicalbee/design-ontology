@@ -90,7 +90,7 @@
       ],
       "styles": [
         {
-          "style": "garalde-old-style",
+          "style": "humanist-sans",
           "relation": "embodies"
         },
         {
@@ -121,12 +121,8 @@
       "name": "Olivetti corporate identity",
       "kind": "brand-manual",
       "owner": null,
-      "people": [
-        "ettore-sottsass"
-      ],
       "first_release": {
-        "year": 1950,
-        "circa": true
+        "year": 1950
       },
       "licence": "proprietary",
       "url": "https://en.wikipedia.org/wiki/Olivetti",
@@ -149,12 +145,9 @@
         {
           "title": "Wikipedia: Olivetti",
           "url": "https://en.wikipedia.org/wiki/Olivetti"
-        },
-        {
-          "title": "Wikipedia: Ettore Sottsass",
-          "url": "https://en.wikipedia.org/wiki/Ettore_Sottsass"
         }
       ],
+      "people": [],
       "versions": [],
       "principles": [],
       "tokens": {}
@@ -266,13 +259,6 @@
       ],
       "licence": "proprietary",
       "url": "https://en.wikipedia.org/wiki/IBM",
-      "tokens": {
-        "type": {
-          "families": [
-            "City Medium"
-          ]
-        }
-      },
       "components": [
         "logo",
         "products",
@@ -303,7 +289,8 @@
           "url": "https://en.wikipedia.org/wiki/IBM"
         }
       ],
-      "principles": []
+      "principles": [],
+      "tokens": {}
     },
     {
       "$schema": "../../schema/design-system.schema.json",
@@ -585,19 +572,12 @@
       "first_release": {
         "year": 1970
       },
-      "versions": [
-        {
-          "name": "Reissue by Standards Manual",
-          "year": 2012
-        }
-      ],
       "licence": "proprietary",
       "url": "https://standardsmanual.com/products/nyctagsm",
       "tokens": {
         "type": {
           "families": [
-            "Standard Medium",
-            "Helvetica Medium"
+            "Helvetica"
           ]
         }
       },
@@ -627,6 +607,7 @@
         }
       ],
       "people": [],
+      "versions": [],
       "principles": []
     },
     {
@@ -705,7 +686,7 @@
       "styles": [
         {
           "style": "swiss-modernist-mark",
-          "relation": "defined"
+          "relation": "embodies"
         },
         {
           "style": "swiss-international",
@@ -778,21 +759,8 @@
       "first_release": {
         "year": 2014
       },
-      "versions": [
-        {
-          "name": "Cereal typeface",
-          "year": 2018
-        }
-      ],
       "licence": "proprietary",
       "url": "https://en.wikipedia.org/wiki/Airbnb",
-      "tokens": {
-        "type": {
-          "families": [
-            "Airbnb Cereal"
-          ]
-        }
-      },
       "components": [
         "Bélo symbol",
         "wordmark"
@@ -814,7 +782,9 @@
         }
       ],
       "people": [],
-      "principles": []
+      "versions": [],
+      "principles": [],
+      "tokens": {}
     },
     {
       "$schema": "../../schema/design-system.schema.json",
@@ -828,12 +798,6 @@
       "licence": "proprietary",
       "url": "https://design.google/library/evolving-google-identity/",
       "tokens": {
-        "color": {
-          "blue": "#4285F4",
-          "red": "#EA4335",
-          "yellow": "#FBBC05",
-          "green": "#34A853"
-        },
         "type": {
           "families": [
             "Product Sans"
@@ -884,16 +848,6 @@
       },
       "licence": "proprietary",
       "url": "https://en.wikipedia.org/wiki/Spotify",
-      "tokens": {
-        "color": {
-          "primary": "#1DB954"
-        },
-        "type": {
-          "families": [
-            "Circular"
-          ]
-        }
-      },
       "components": [
         "logo",
         "duotone imagery"
@@ -916,7 +870,8 @@
       ],
       "people": [],
       "versions": [],
-      "principles": []
+      "principles": [],
+      "tokens": {}
     },
     {
       "$schema": "../../schema/design-system.schema.json",
@@ -929,17 +884,6 @@
       },
       "licence": "proprietary",
       "url": "https://en.wikipedia.org/wiki/Mailchimp",
-      "tokens": {
-        "color": {
-          "primary": "#FFE01B"
-        },
-        "type": {
-          "families": [
-            "Cooper Light",
-            "Graphik"
-          ]
-        }
-      },
       "components": [
         "logo",
         "illustration",
@@ -963,7 +907,8 @@
       ],
       "people": [],
       "versions": [],
-      "principles": []
+      "principles": [],
+      "tokens": {}
     },
     {
       "$schema": "../../schema/design-system.schema.json",
@@ -1287,7 +1232,7 @@
       },
       {
         "ds": "nasa-graphics-standards-manual",
-        "relation": "defined"
+        "relation": "embodies"
       }
     ],
     "geometric-symbol": [
@@ -1333,12 +1278,7 @@
     "duotone-icon": [],
     "clay-3d-icon": [],
     "blackletter": [],
-    "garalde-old-style": [
-      {
-        "ds": "penguin-books-design",
-        "relation": "embodies"
-      }
-    ],
+    "garalde-old-style": [],
     "formal-script": [],
     "transitional-serif": [],
     "didone-serif": [],
@@ -1355,6 +1295,10 @@
       {
         "ds": "london-underground-identity",
         "relation": "defined"
+      },
+      {
+        "ds": "penguin-books-design",
+        "relation": "embodies"
       }
     ],
     "geometric-sans": [
