@@ -18,7 +18,7 @@ a { color: var(--enc-accent); text-underline-offset: .18em; }
 code { font: .86em/1.4 var(--enc-mono); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 
-.enc { max-width: 1840px; margin: 0 auto; padding: 0 var(--enc-gutter) 80px; display: grid; gap: 28px; }
+.enc { max-width: 2400px; margin: 0 auto; padding: 0 var(--enc-gutter) 80px; display: grid; gap: 28px; }
 .enc > * { min-width: 0; }
 
 /* Header */
@@ -34,7 +34,7 @@ code { font: .86em/1.4 var(--enc-mono); }
 
 /* Section tabs: they stay under the top bar and mark the section in view. */
 .enc-tabs { position: sticky; top: 56px; z-index: 50; margin: 0 calc(var(--enc-gutter) * -1); padding: 0 var(--enc-gutter);
-  background: rgb(246 247 251 / .94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--enc-line); }
+  background: var(--enc-bg); border-bottom: 1px solid var(--enc-line); }
 .enc-tabs-row { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; height: var(--enc-tabs); align-items: stretch; }
 .enc-tabs-row::-webkit-scrollbar { display: none; }
 .enc-tabs button { all: unset; box-sizing: border-box; cursor: pointer; white-space: nowrap; padding: 0 14px; display: flex; align-items: center;
@@ -54,6 +54,9 @@ code { font: .86em/1.4 var(--enc-mono); }
 @media (min-width: 760px) { .enc-grid > .wide { grid-column: span 2; } }
 @media (min-width: 1500px) { .enc-grid > .wider { grid-column: span 3; } }
 .enc-grid > .full { grid-column: 1 / -1; }
+/* A packed grid (encyclopedia.js pack()): 4px rows, each card spans the rows of its height, so the columns fill with no holes. */
+.enc-grid[data-pack] { grid-auto-rows: 4px; row-gap: 0; }
+@media (min-width: 2000px) { .enc-grid { grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); } }
 .enc-empty { color: var(--enc-faint); font-size: 15px; margin: 0; }
 
 /* Hero: the preview on the left, the summary card on the right. */
@@ -95,10 +98,14 @@ a.enc-tag:hover { border-color: var(--enc-line-strong); }
 .enc-body thead th, .enc-table thead th { border-top: 0; font-size: 13px; color: var(--enc-muted); font-weight: 600; white-space: nowrap; }
 .enc-body tr > :first-child, .enc-table tr > :first-child { padding-left: 0; }
 .enc-sw { display: inline-block; width: 14px; height: 14px; border-radius: 4px; border: 1px solid rgb(0 0 0 / .14); vertical-align: -2px; margin-right: 6px; }
-.enc-swatches { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
-.enc-swatch { display: grid; grid-template-columns: 40px 1fr; gap: 10px; align-items: center; font-size: 14px; line-height: 1.35; }
-.enc-swatch i { width: 40px; height: 40px; border-radius: 8px; border: 1px solid rgb(0 0 0 / .12); }
-.enc-swatch small { display: block; color: var(--enc-muted); font-size: 12.5px; }
+/* A palette is a row of tiles: the colour on top, the name, hex and role under it. */
+.enc-swatches { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
+.enc-swatch { display: grid; grid-template-rows: 56px auto; gap: 6px; font-size: 13.5px; line-height: 1.3; min-width: 0; }
+.enc-swatch i { width: 100%; height: 56px; border-radius: 8px; border: 1px solid rgb(0 0 0 / .12); }
+.enc-swatch span { min-width: 0; overflow-wrap: anywhere; }
+.enc-swatch small { display: block; color: var(--enc-muted); font-size: 12px; }
+.enc-body .kv:has(> dd > .enc-swatches) { grid-column: 1 / -1; }
+.enc-body dd:has(> .enc-swatches) { max-width: none; }
 
 /* Style vectors */
 .enc-vec { font-size: 15px; --color-primary: var(--enc-style); }
@@ -146,3 +153,18 @@ a.enc-tag:hover { border-color: var(--enc-line-strong); }
 .enc-frame iframe { display: block; width: 100%; height: min(85vh, 980px); border: 0; }
 .enc-note { margin: 10px 0 0; font-size: 14px; color: var(--enc-muted); }
 .enc-note a, .enc-sec > header a { color: var(--enc-accent); }
+
+/* Loading: skeletons until the first record arrives, and a dim page while the next style loads. nav.js puts a shimmer
+   under each image until it decodes. */
+@keyframes enc-shine { to { background-position: -200% 0; } }
+.enc-skel, .enc[data-loading] #h-name, .enc[data-loading] #h-thesis, .enc[data-loading] .enc-preview:empty, .enc[data-loading] .enc-glance:empty {
+  background: linear-gradient(90deg, var(--enc-sunk) 30%, #f9faff 50%, var(--enc-sunk) 70%) 0 0 / 200% 100%; animation: enc-shine 1.3s linear infinite; }
+.enc-skel { min-height: 180px; display: grid; gap: 12px; align-content: start; border-color: transparent; }
+.enc-skel i { display: block; height: 12px; border-radius: 6px; background: rgb(255 255 255 / .7); }
+.enc-skel i:first-child { width: 40%; height: 16px; }
+.enc-skel i:last-child { width: 70%; }
+.enc[data-loading] #h-name { color: transparent; width: min(60%, 520px); border-radius: 10px; }
+.enc[data-loading] #h-thesis { min-height: 2.9em; width: min(80%, 62ch); border-radius: 8px; }
+.enc[data-loading] .enc-preview:empty { aspect-ratio: 3 / 2; border-color: transparent; }
+.enc[data-loading] .enc-glance:empty { min-height: 420px; border-color: transparent; }
+.enc[data-busy] .enc-sec:not(.enc-hero), .enc[data-busy] .enc-head { opacity: .55; transition: opacity .15s .1s; }

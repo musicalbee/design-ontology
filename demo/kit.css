@@ -125,16 +125,44 @@ select.k-select:focus-visible { outline: 3px solid var(--k-focus); outline-offse
 
 /* ── Time line: one lane for each row, a bar for each period, a dot for each event. ── */
 .k-tl { --k-tl-label: 160px; position: relative; font: 12px/1.3 var(--k-font); color: var(--k-ink); min-width: 0; }
+.k-tl-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 8px; }
+.k-tl-tools button, .k-cloud-bar button { font: 500 12px/1 var(--k-font); min-width: 28px; padding: 6px 9px; border-radius: 6px; border: 1px solid var(--k-line);
+  background: var(--k-card); color: var(--k-ink); cursor: pointer; }
+.k-tl-tools button:hover, .k-cloud-bar button:hover:not(:disabled) { border-color: var(--k-accent); color: var(--k-accent); }
+.k-tl-span { font-variant-numeric: tabular-nums; font-weight: 600; }
+.k-tl-hint { margin-left: auto; color: var(--k-faint); }
+.k-tl-body { position: relative; overflow: hidden; touch-action: pan-y; cursor: grab; user-select: none; }
+.k-tl-body.drag { cursor: grabbing; }
 .k-tl-axis { position: relative; height: 22px; margin-left: var(--k-tl-label); border-bottom: 1px solid var(--k-line-strong); }
-.k-tl-axis span { position: absolute; bottom: 4px; transform: translateX(-50%); color: var(--k-faint); font-variant-numeric: tabular-nums; }
+.k-tl-axis span { position: absolute; bottom: 4px; transform: translateX(-50%); color: var(--k-faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .k-tl-row { display: grid; grid-template-columns: var(--k-tl-label) 1fr; align-items: center; min-height: 26px; border-bottom: 1px solid #eef0f6; }
-.k-tl-row > a, .k-tl-row > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 8px; color: var(--k-ink); text-decoration: none; }
-.k-tl-row > a:hover { color: var(--k-accent); }
-.k-tl-lane { position: relative; height: 26px; }
-.k-tl-bar { position: absolute; top: 8px; height: 10px; border-radius: 5px; background: var(--c, var(--k-style)); opacity: .75; min-width: 4px; }
+.k-tl-row.sub { min-height: 22px; background: color-mix(in srgb, var(--k-line) 22%, transparent); }
+.k-tl-name { display: flex; align-items: center; gap: 4px; min-width: 0; padding-right: 8px; }
+.k-tl-row.sub .k-tl-name { padding-left: 34px; font-size: 11px; }
+.k-tl-name a, .k-tl-name > span:not(.k-tl-tog) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--k-ink); text-decoration: none; }
+.k-tl-name a:hover { color: var(--k-accent); }
+.k-tl-tog { flex: none; width: 30px; padding: 2px 0; font: 500 10px/1 var(--k-font); color: var(--k-muted); background: none; border: 0; border-radius: 4px; cursor: pointer; text-align: left; }
+button.k-tl-tog:hover { color: var(--k-accent); }
+.k-tl-lane { position: relative; height: 26px; overflow: hidden; }
+.k-tl-row.sub .k-tl-lane { height: 22px; }
+.k-tl-bar, .k-tl-life { position: absolute; top: 8px; height: 10px; border-radius: 5px; background: var(--c, var(--k-style)); opacity: .75; min-width: 4px; cursor: zoom-in; }
+.k-tl-bar:hover, .k-tl-life:hover { opacity: 1; }
 .k-tl-bar.open { background: linear-gradient(90deg, var(--c, var(--k-style)) 70%, transparent); }
-.k-tl-dot { position: absolute; top: 8px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--k-card); border: 2px solid var(--c, var(--k-style)); }
-.k-tl-now { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1px dashed var(--k-line-strong); }
+.k-tl-life { top: 9px; height: 4px; opacity: .4; }
+.k-tl-dot { position: absolute; top: 6px; width: 14px; height: 14px; margin-left: -7px; padding: 0; border-radius: 50%; background: var(--k-card);
+  border: 2px solid var(--c, var(--k-style)); cursor: pointer; z-index: 1; transition: transform .12s; }
+.k-tl-row.sub .k-tl-dot { top: 4px; width: 12px; height: 12px; margin-left: -6px; }
+.k-tl-dot:hover, .k-tl-dot:focus-visible { transform: scale(1.35); }
+.k-tl-dot.on { background: var(--k-accent); border-color: var(--k-accent); transform: scale(1.35); }
+.k-tl-now { position: absolute; top: 22px; bottom: 0; width: 0; border-left: 1px dashed var(--k-line-strong); pointer-events: none; }
+.k-tl-card { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: start; margin-top: 10px; padding: 10px 12px;
+  border: 1px solid var(--k-line); border-left: 3px solid var(--k-accent); border-radius: 8px; background: var(--k-card); font-size: 13px; }
+.k-tl-card[hidden] { display: none; }
+.k-tl-card p { margin: 6px 0 2px; }
+.k-tl-card small { color: var(--k-muted); }
+.k-tl-when { font: 650 15px/1.2 var(--k-font); font-variant-numeric: tabular-nums; }
+.k-tl-x { border: 0; background: none; font-size: 18px; line-height: 1; color: var(--k-muted); cursor: pointer; }
+@media (max-width: 640px) { .k-tl { --k-tl-label: 110px !important; } .k-tl-hint { display: none; } }
 
 /* ── Echoes: a style in the middle, its kin in other domains around it, one column for each domain. ── */
 .k-echo { display: grid; gap: 14px; grid-template-columns: minmax(0, 240px) minmax(0, 1fr); align-items: start; font: 13px/1.4 var(--k-font); }
@@ -164,6 +192,17 @@ select.k-select:focus-visible { outline: 3px solid var(--k-focus); outline-offse
 .k-cloud .node:hover .k-pv, .k-cloud .node:focus-visible .k-pv { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--k-accent); }
 .k-cloud[data-hover] .node:not([data-lit]) { opacity: .25; }
 .k-cloud[data-hover] .edge:not([data-lit]) { opacity: .06; }
+.k-cloud-wrap { display: grid; gap: 8px; }
+.k-cloud-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font: 12px/1.3 var(--k-font); color: var(--k-muted); }
+.k-cloud-bar button:disabled { opacity: .4; cursor: default; }
+.k-cloud-at b { color: var(--k-ink); }
+.k-cloud-open { color: var(--k-accent); text-decoration: none; }
+.k-cloud-hops { margin-left: auto; display: inline-flex; gap: 4px; }
+.k-cloud-hops button[aria-pressed="true"] { background: var(--k-ink); border-color: var(--k-ink); color: #fff; }
+.k-cloud-in { justify-self: center; transition: opacity .2s; }
+.k-cloud-in.busy { opacity: .5; }
+.k-cloud-hint { margin: 0; font: 12px/1.3 var(--k-font); color: var(--k-faint); }
+.k-cloud .node { transition: left .35s ease, top .35s ease, opacity .2s; }
 .k-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 12px/1 var(--k-font); color: var(--k-muted); }
 .k-legend span { display: inline-flex; align-items: center; gap: 6px; }
 .k-legend i { width: 16px; height: 3px; border-radius: 2px; background: var(--c); }

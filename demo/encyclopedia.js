@@ -83,8 +83,29 @@
 
   const card = (title, body, cls = "") => body ? `<article class="enc-card ${cls}">${title ? `<h3>${esc(title)}</h3>` : ""}<div class="enc-body">${body}</div></article>` : "";
   // A card spans two columns when its content is long or a wide table.
-  const size = (v) => { const n = JSON.stringify(v ?? "").length; return n > 2200 ? "wide wider" : n > 900 ? "wide" : ""; };
-  const section = (id, title, lede) => `<section class="enc-sec" id="sec-${id}" data-sec="${id}" aria-labelledby="h-${id}"><header><h2 id="h-${id}">${esc(title)}</h2>${lede ? `<p>${lede}</p>` : ""}</header><div class="enc-grid" id="enc-${id}"></div></section>`;
+  const size = (v) => {
+    const n = JSON.stringify(v ?? "").length, table = Array.isArray(v) && v.some((x) => x && typeof x === "object" && !("hex" in x) && !("principle" in x));
+    return n > 2200 ? "wide wider" : n > 900 || table ? "wide" : "";
+  };
+  // A palette of four colours or more takes a full row, so its swatches sit side by side.
+  const hexes = (v) => (Array.isArray(v) ? v : v && typeof v === "object" ? Object.values(v).flat() : []).filter((x) => x && typeof x.hex === "string").length;
+  const skel = (n = 3) => Array.from({ length: n }, (_, k) => `<div class="enc-card enc-skel${k === 0 ? " wide" : ""}" aria-hidden="true"><i></i><i></i><i></i></div>`).join("");
+  const section = (id, title, lede) => `<section class="enc-sec" id="sec-${id}" data-sec="${id}" aria-labelledby="h-${id}"><header><h2 id="h-${id}">${esc(title)}</h2>${lede ? `<p>${lede}</p>` : ""}</header><div class="enc-grid" id="enc-${id}" data-pack>${skel()}</div></section>`;
+
+  // Masonry: each card of a packed grid spans as many 4px rows as its height needs, so short cards fill the holes
+  // beside long ones. A ResizeObserver keeps the spans true when an image, a font or a plug-in changes a card.
+  function pack(root) {
+    if (!window.ResizeObserver) return;
+    const span = (el) => {
+      if (!el.parentElement?.hasAttribute("data-pack") || el.offsetParent === null) return;
+      const h = el.getBoundingClientRect().height;
+      el.style.gridRowEnd = `span ${Math.max(1, Math.ceil((h + 16) / 4))}`;
+    };
+    const ro = new ResizeObserver((es) => { for (const e of es) span(e.target); });
+    const watch = (g) => { for (const c of g.children) { ro.observe(c); span(c); } };
+    const mo = new MutationObserver((ms) => { for (const m of ms) if (m.target.hasAttribute?.("data-pack")) watch(m.target); });
+    for (const g of root.querySelectorAll("[data-pack]")) { watch(g); mo.observe(g, { childList: true }); }
+  }
 
   function page(opt) {
     const ID = opt.domain, plugins = opt.plugins || [];
@@ -93,6 +114,8 @@
     const main = document.createElement("main");
     main.className = "enc";
     main.id = "stage";
+    main.dataset.loading = "";
+    main.setAttribute("aria-busy", "true");
     const tabs = [["preview", "Overview"], ...at("top").map((p) => [p.id, p.label]), ["structure", "Structure"], ["vectors", "Style vectors"], ["primer", "Prompt primer"],
       ["peculiar", "Peculiarities"], ...at("end").map((p) => [p.id, p.label]), ["travel", "Travel"], ["lineage", "Lineage and sources"]];
     main.innerHTML = `
@@ -119,6 +142,7 @@
       <footer class="enc-foot"><a id="enc-data">Style record (JSON)</a><a id="enc-skill">Skill file (SKILL.md)</a></footer>`;
     const mount = () => {
       document.body.append(main);
+      pack(main);
       at("header").forEach((p) => $("enc-headx").insertAdjacentHTML("beforeend", `<div id="enc-p-${p.id}"></div>`));
       start();
     };
@@ -168,7 +192,7 @@
 
     function structure(s) {
       const facets = (domain.facets || []).filter((f) => !NOT_STRUCTURE.has(f.key) && s[f.key] != null);
-      $("enc-structure").innerHTML = facets.map((f) => card(f.title, view(s[f.key], f.key), size(s[f.key]))).join("") || `<p class="enc-empty">This record has no facets yet.</p>`;
+      $("enc-structure").innerHTML = facets.map((f) => card(f.title, view(s[f.key], f.key), hexes(s[f.key]) >= 4 ? "full" : size(s[f.key]))).join("") || `<p class="enc-empty">This record has no facets yet.</p>`;
     }
 
     function vectors(s) {
@@ -255,7 +279,7 @@
         const q = (k) => el.querySelector(`[data-k="${k}"]`);
         Kit.echoes(q("echoes"), s.id);
         q("legend").innerHTML = Kit.legend();
-        Kit.cloud(q("cloud"), s.id, { hops: 2 });
+        Kit.cloud(q("cloud"), s.id, { hops: 2, onCentre: (t) => Kit.hoodTimeline(q("tl"), t) });
         Kit.pathFinder(q("paths"), { from: `s:${s.id}` });
         Kit.hoodTimeline(q("tl"), s.id);
       });
@@ -264,8 +288,11 @@
     function show(n) {
       i = (n + styles.length) % styles.length;
       const meta = styles[i];
+      if (!("loading" in main.dataset)) main.dataset.busy = "";
       (cache[meta.id] ??= json(`../data/${ID}/styles/${meta.id}.json`)).then((s) => {
         if (!s || styles[i].id !== s.id) return;
+        delete main.dataset.loading; delete main.dataset.busy;
+        main.removeAttribute("aria-busy");
         const found = walk(s);
         main.style.setProperty("--enc-style", vivid(found.hex.map((c) => c.hex)) || "#264fcc");
         $("enc-domain").textContent = `${domain.name} styles`;
@@ -282,6 +309,10 @@
         $("enc-skill").href = `../skills/${s.id}/SKILL.md`;
         document.title = `${s.name}: ${domain.name} styles`;
         mark();
+        // Fetch the records of the next and the last style when the page is idle, so that ← and → are at once.
+        (window.requestIdleCallback || setTimeout)(() => {
+          for (const d of [1, -1]) { const m = styles[(i + d + styles.length) % styles.length]; cache[m.id] ??= json(`../data/${ID}/styles/${m.id}.json`); }
+        });
       });
       for (const b of $("chips").querySelectorAll("[data-go]")) b.setAttribute("aria-pressed", b.dataset.go === meta.id);
       $("chips").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest" });

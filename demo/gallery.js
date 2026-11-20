@@ -92,7 +92,7 @@ window.Gallery = (() => {
     box.classList.toggle("tall", !!p && !p.frames && p.height > p.width);
     if (p?.frames) (p.kind === "reel" ? showreel : board)(box, cap, s, p);
     else if (p) {
-      box.innerHTML = `<img src="previews/${DOMAIN}/${esc(p.file)}" alt="${esc(`${s.name}: ${p.subject ?? "generated preview"}`)}">`;
+      box.innerHTML = `<img src="previews/${DOMAIN}/${esc(p.file)}" fetchpriority="high" decoding="async" alt="${esc(`${s.name}: ${p.subject ?? "generated preview"}`)}">`;
       cap.textContent = CAPTION[p.kind]?.(p) ?? `Generated preview, not a real work. ${credit(p)}${p.subject ? ` Subject: ${p.subject}.` : ""}${p.wordmark ? ` Wordmark "${p.wordmark.brand}"${p.wordmark.fictional ? " (a fictional brand)" : ""} set in ${p.wordmark.font} by ${p.wordmark.maker} (${p.wordmark.licence}).` : ""}`;
       if (proofs[s.id] && previews[s.id]) {
         cap.insertAdjacentHTML("beforeend", ` <button type="button" class="g-swap">${asProof ? "Show the generated print" : "Show the press proof"}</button>`);
