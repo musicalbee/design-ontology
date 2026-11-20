@@ -1,0 +1,254 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "linocut-print",
+  "domain": "print",
+  "name": "Expressive linocut",
+  "aliases": [
+    "Linolschnitt (German)",
+    "linogravure (French)"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1925,
+    "end": 1970,
+    "label": "1925–1970"
+  },
+  "region": "London, Germany, Paris",
+  "summary": "A sheet of linoleum is cut with a V-gouge and printed by hand, so the cut has smooth curves and no grain. Flat opaque colour layers overlap in bold rhythmic shapes, as in the Grosvenor School prints of 1929-1938.",
+  "philosophy": {
+    "core_thesis": "Linoleum has no grain, so a gouge cuts a smooth curve, and flat opaque colour layers can carry rhythm and speed.",
+    "design_principles": [
+      "Cut each colour on its own linoleum block with V and U gouges; the cut makes a smooth curve.",
+      "Keep each shape bold: a cut line of 1–3 mm, and a white gap of at least 1 mm.",
+      "Print the colours in opaque inks, from light to dark, with 0.5–1.5 mm of offset.",
+      "Build speed and rhythm with curved shapes that repeat across the sheet.",
+      "Print by hand with a spoon, or on a hand press, on thin Japan paper.",
+      "Number the edition under 100, and sign it in pencil."
+    ],
+    "anti_patterns": [
+      "Wood grain in the print",
+      "Halftone dots or gradients",
+      "Fine hatching that needs a burin",
+      "Exact register of all layers",
+      "A digital vector edge"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 4,
+    "registration_play": 3,
+    "surface_relief": 3,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Battleship linoleum on a wood block, one block for each colour",
+    "press": "Hand-rubbed with spoon, or hand press",
+    "image_making": "V and U gouges cut linoleum; separate blocks for colours",
+    "edition": "Under 100, numbered"
+  },
+  "inks": {
+    "strategy": "A black key ink and three to five opaque colour inks, each from its own block, printed from light to dark.",
+    "ink_count_min": 1,
+    "ink_count_max": 6,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black key",
+        "hex": "#1D1B1A",
+        "role": "key block"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#C8402C",
+        "role": "colour block"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#2E5FA3",
+        "role": "colour block"
+      },
+      {
+        "name": "Yellow ochre",
+        "hex": "#D5A63A",
+        "role": "colour block"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each tone as a flat block of ink; mix a new tone by overlap of two opaque layers, with no screen."
+  },
+  "registration": {
+    "tolerance_mm": 1.0,
+    "rule": "Blocks are registered by hand with a frame or pins; a shift of 0.5–1.5 mm and some ink squash at the borders are part of the look."
+  },
+  "substrate": {
+    "stock": "Thin Japan or mulberry paper, white to cream.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 90,
+    "ground": "#EDE6D3",
+    "finish": "Thin and smooth, with a slight fibre; it takes hand rubbing."
+  },
+  "surface": {
+    "impression": "A shallow bite from hand rubbing; the flat shapes show a slight relief on the back.",
+    "sheen": "Matt, with a slight shine in the thick ink.",
+    "texture": "Smooth gouge curves, even flat colour with small voids, and no wood grain."
+  },
+  "artefacts": {
+    "marks": [
+      "smooth curved gouge strokes",
+      "no wood grain",
+      "uneven roller edges",
+      "ink squash at block border",
+      "offset layers"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "colour linocut",
+      "Grosvenor School print",
+      "bold gouge marks",
+      "flat overlapping colours",
+      "rhythmic curved shapes",
+      "Art Deco motion print",
+      "Japan paper",
+      "hand-rubbed ink"
+    ],
+    "negative": [
+      "wood grain",
+      "halftone dots",
+      "photograph",
+      "gradient",
+      "digital vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Carnival (linocut shown in Flight's 1934 handbook)",
+      "kind": "image",
+      "maker": "Frank Weitzel",
+      "year": 1930,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Carnival_1930_Frank-Weitzel_Flight-Lino-Cutting.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Carnival_1930_Frank-Weitzel_Flight-Lino-Cutting.jpg/960px-Carnival_1930_Frank-Weitzel_Flight-Lino-Cutting.jpg"
+    },
+    {
+      "title": "Hotel Cecil",
+      "kind": "image",
+      "maker": "Frank Weitzel",
+      "year": 1930,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel-Cecil_1930_Frank-Weitzel.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Hotel-Cecil_1930_Frank-Weitzel.jpg/960px-Hotel-Cecil_1930_Frank-Weitzel.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print",
+      "expressionist-woodcut-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Fast, modern energy: the viewer sees bold curved shapes, in speed and in a crowd.",
+    "keywords": [
+      "rhythmic",
+      "modern",
+      "bold",
+      "energetic",
+      "graphic"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer",
+      "hero"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "linocut",
+      "lino print",
+      "grosvenor school print",
+      "claude flight linocut",
+      "colour linocut",
+      "art deco motion print",
+      "hand-cut lino",
+      "sybil andrews"
+    ],
+    "use_cases": [
+      "posters and event prints",
+      "book covers and editorial illustration",
+      "transport and sports branding with a hand-made look",
+      "limited-edition art prints"
+    ],
+    "avoid_when": [
+      "The image needs fine detail or a smooth tone.",
+      "The design needs exact register of small text."
+    ],
+    "modifiers": [
+      {
+        "request": "rougher",
+        "toward": "expressionist-woodcut-print",
+        "how": "Change to a plank with grain and cut jagged gouge strokes; print with an uneven ink film."
+      },
+      {
+        "request": "finer",
+        "toward": "wood-engraving-print",
+        "how": "Change to boxwood and a burin, cut white lines and print in one black ink."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1D1B1A",
+      "options": [
+        "#1D1B1A",
+        "#26211D",
+        "#14213D"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EDE6D3",
+      "options": [
+        "#EDE6D3",
+        "#F5EFE0",
+        "#E0D8C0"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 1,
+      "max": 6
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Linocut",
+      "url": "https://en.wikipedia.org/wiki/Linocut"
+    },
+    {
+      "title": "Wikipedia: Grosvenor School of Modern Art",
+      "url": "https://en.wikipedia.org/wiki/Grosvenor_School_of_Modern_Art"
+    },
+    {
+      "title": "Wikipedia: Claude Flight",
+      "url": "https://en.wikipedia.org/wiki/Claude_Flight"
+    }
+  ]
+}

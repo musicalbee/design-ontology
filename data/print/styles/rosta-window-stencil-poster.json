@@ -1,0 +1,270 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "rosta-window-stencil-poster",
+  "domain": "print",
+  "name": "ROSTA Window stencil poster",
+  "aliases": [
+    "ROSTA Windows",
+    "Okna ROSTA",
+    "Окна РОСТА",
+    "TASS Windows",
+    "Окна ТАСС"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1919,
+    "end": 1945,
+    "label": "1919–1922; TASS Windows 1941–1945"
+  },
+  "region": "Moscow, Russia",
+  "summary": "A strip of cartoon panels with short rhymed captions, cut as paper stencils and painted by hand, then copied for shop windows. The flat colour, thick black contour and fast brush work follow from the speed of the news.",
+  "philosophy": {
+    "core_thesis": "A news poster that artists can paint in one night must use few flat colours, a heavy contour and a rhyme that a passer-by reads in seconds.",
+    "design_principles": [
+      "Split each message into 4–12 panels in one strip; give each panel one figure and one short line of verse.",
+      "Draw a heavy black contour of 3–6 mm round each figure; it holds the shape when a stencil shifts.",
+      "Use 3–5 flat opaque colours: red, yellow ochre, blue and black. Do not blend them.",
+      "Cut one paper stencil for each colour and keep the bridges that hold the islands in place.",
+      "Letter the caption by hand, in capitals, in the same black as the contour.",
+      "Make the enemy small, ugly and clear; make the worker large, in red.",
+      "Paint on cheap wrapping paper or newsprint, and leave the brush edges and drips."
+    ],
+    "anti_patterns": [
+      "Halftone photographs and fine tone",
+      "A smooth gradient or a soft shadow",
+      "A clean, machine-perfect vector edge",
+      "Small text that a passer-by cannot read at 5 m",
+      "A glossy or coated sheet"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 4,
+    "surface_relief": 1,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "Paper or card stencils, one for each colour, cut by hand from a drawn master.",
+    "press": "None. A brush or a spray puts the paint through each stencil by hand.",
+    "image_making": "An artist draws the master strip. A team cuts the stencils and paints the sheets panel by panel.",
+    "edition": "Dozens to a few hundred sheets for each window; no two painted sheets match."
+  },
+  "inks": {
+    "strategy": "Opaque poster paint through stencils, one flat colour at a time, with the black contour last.",
+    "ink_count_min": 3,
+    "ink_count_max": 6,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#1A1A1A",
+        "role": "the contour and the caption"
+      },
+      {
+        "name": "Red",
+        "hex": "#C62D28",
+        "role": "the flag, the worker and the accent"
+      },
+      {
+        "name": "Yellow ochre",
+        "hex": "#D8A93B",
+        "role": "flat fill"
+      },
+      {
+        "name": "Blue",
+        "hex": "#3E5C8A",
+        "role": "flat fill"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make no tone. Fill each area with one flat colour, and use the bare paper for light."
+  },
+  "registration": {
+    "tolerance_mm": 2,
+    "rule": "A stencil shifts 1–3 mm on the sheet. The heavy contour hides the gap, and the bare paper shows at some edges."
+  },
+  "substrate": {
+    "stock": "Cheap wrapping paper or newsprint, grey-brown, glued in strips if the window is wide.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 90,
+    "ground": "#CDBFA2",
+    "finish": "Uncoated, with a rough tooth that takes thick paint."
+  },
+  "surface": {
+    "impression": "No bite; the paint dries on the surface of the sheet.",
+    "sheen": "Matt, with a slight gloss where the paint is thick.",
+    "texture": "Brush marks, paint drips, stencil bridges and a cockle in the thin sheet."
+  },
+  "artefacts": {
+    "marks": [
+      "stencil bridges",
+      "brush edges and drips",
+      "hand-lettered rhyme captions",
+      "strip layout of 4–12 panels",
+      "colour that stops short of the contour",
+      "cockled newsprint"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "ROSTA window poster",
+      "stencilled flat colour panels",
+      "thick black contour",
+      "rhymed hand-lettered captions",
+      "1920 Soviet satire cartoon",
+      "brush-painted newsprint",
+      "strip of comic panels",
+      "red, yellow and black palette"
+    ],
+    "negative": [
+      "halftone photo",
+      "gradient",
+      "3D render",
+      "glossy finish",
+      "clean modern vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Okna ROSTA (ROSTA Window), Mayakovsky",
+      "kind": "image",
+      "maker": "Vladimir Mayakovsky",
+      "year": 1921,
+      "credit": "Wikimedia Commons (public domain, Vladimir Mayakovsky)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9._%D0%9E%D0%9A%D0%9D%D0%90_%D0%A0%D0%9E%D0%A1%D0%A2%D0%90.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9._%D0%9E%D0%9A%D0%9D%D0%90_%D0%A0%D0%9E%D0%A1%D0%A2%D0%90.jpg/960px-%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9._%D0%9E%D0%9A%D0%9D%D0%90_%D0%A0%D0%9E%D0%A1%D0%A2%D0%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Okna ROSTA, No. 835: farming programme",
+      "kind": "image",
+      "maker": "Vladimir Mayakovsky",
+      "year": 1921,
+      "credit": "Wikimedia Commons (public domain, Vladimir Mayakovsky)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1921._%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%A1.%D0%A5..jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/1921._%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%A1.%D0%A5..jpg/960px-1921._%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%A1.%D0%A5..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Satire Window of ROSTA",
+      "kind": "image",
+      "maker": "Ivan Malyutin",
+      "year": 1920,
+      "credit": "Wikimedia Commons (public domain, Ivan Malyutin)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1920._%D0%98%D0%B2%D0%B0%D0%BD_%D0%9C%D0%B0%D0%BB%D1%8E%D1%82%D0%B8%D0%BD._%D0%9E%D0%BA%D0%BD%D0%B0_%D1%81%D0%B0%D1%82%D0%B8%D1%80%D1%8B_%D0%A0%D0%9E%D0%A1%D0%A2%D0%90.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/76/1920._%D0%98%D0%B2%D0%B0%D0%BD_%D0%9C%D0%B0%D0%BB%D1%8E%D1%82%D0%B8%D0%BD._%D0%9E%D0%BA%D0%BD%D0%B0_%D1%81%D0%B0%D1%82%D0%B8%D1%80%D1%8B_%D0%A0%D0%9E%D0%A1%D0%A2%D0%90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "russian-lubok-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "constructivism-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Quick, loud wit: the viewer reads a street cartoon with a verse, painted by hand that week, and feels that the news is urgent.",
+    "keywords": [
+      "urgent",
+      "satirical",
+      "bold",
+      "agitational",
+      "hand-painted"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "hero",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "rosta window",
+      "okna rosta",
+      "mayakovsky poster",
+      "soviet satire poster",
+      "stencilled comic strip",
+      "agitprop cartoon",
+      "tass window",
+      "russian revolution poster"
+    ],
+    "use_cases": [
+      "satirical news posters",
+      "campaign and protest posters",
+      "comic-strip explainers with verse captions",
+      "shop-window displays"
+    ],
+    "avoid_when": [
+      "The message needs a photograph or fine detail.",
+      "The tone must be calm, neutral or premium."
+    ],
+    "modifiers": [
+      {
+        "request": "more photographic",
+        "toward": "constructivist-photomontage-poster",
+        "how": "Keep the red and black blocks and the heavy lettering; add cut-out halftone photographs on a diagonal layout."
+      },
+      {
+        "request": "more folk",
+        "toward": "russian-lubok-print",
+        "how": "Keep the coarse outline and flat colour; drop the strip layout and put the hand colour loosely over a black key line."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1A1A1A",
+      "options": [
+        "#1A1A1A",
+        "#2B2118"
+      ]
+    },
+    "paper_colour": {
+      "default": "#CDBFA2",
+      "options": [
+        "#CDBFA2",
+        "#D8CDB4",
+        "#BFB297"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 3,
+      "max": 6
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "The style makes no tone; the screen stays at zero."
+    },
+    "misregistration": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    }
+  },
+  "sources": [
+    {
+      "title": "ROSTA Windows (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/ROSTA_Windows"
+    },
+    {
+      "title": "Окна сатиры РОСТА (ru.wikipedia)",
+      "url": "https://ru.wikipedia.org/wiki/Окна_сатиры_РОСТА"
+    },
+    {
+      "title": "Commons search: Окна РОСТА",
+      "url": "https://commons.wikimedia.org/w/index.php?search=Окна+РОСТА&ns6=1"
+    }
+  ]
+}

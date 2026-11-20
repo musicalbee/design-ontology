@@ -1,0 +1,239 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "drypoint-print",
+  "domain": "print",
+  "name": "Drypoint",
+  "aliases": [
+    "pointe seche (French)",
+    "Kaltnadelradierung (German)"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1480,
+    "end": 1950,
+    "label": "1480–1950"
+  },
+  "region": "Netherlands, Germany, Paris, London",
+  "summary": "A steel or diamond needle scratches the plate and pushes up a burr of metal along each furrow. The burr holds ink and prints as a soft velvety black line that wears down after a few dozen impressions.",
+  "philosophy": {
+    "core_thesis": "A needle that scratches bare copper throws up a burr. The burr prints as a soft black line that no acid and no burin can make.",
+    "design_principles": [
+      "Draw straight on the bare plate with a hard needle; no ground and no acid.",
+      "Keep the burr: do not scrape it off, because it holds the ink and makes the velvet edge.",
+      "Draw the darkest areas with dense, near-parallel lines, and keep the light areas open.",
+      "Wipe the plate with a thin film of ink left in the field, for a plate tone.",
+      "Expect the line to thin after 20–50 impressions, and number the edition on that count.",
+      "Combine with etching only when a firm line is also needed; keep the burr lines for the shadows."
+    ],
+    "anti_patterns": [
+      "A clean, hard line of even width",
+      "Halftone dots or a smooth gradient",
+      "Bright colour",
+      "Large flat solid areas",
+      "A long edition with no loss of the burr"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 3,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "Copper or zinc plate, no acid",
+    "press": "Rolling-press with damp paper",
+    "image_making": "Needle scratched directly; burr kept on the plate",
+    "edition": "20-50 good impressions before the burr flattens"
+  },
+  "inks": {
+    "strategy": "One intaglio ink, black or brown-black, wiped by hand with a film of tone left in the field.",
+    "ink_count_min": 1,
+    "ink_count_max": 1,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Intaglio black",
+        "hex": "#25211E",
+        "role": "plate ink"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 30,
+    "angles": [
+      40
+    ],
+    "rule": "Make the tone with open lines, 20–40 lines an inch, that thicken into velvet black where the burr is rich."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints the whole image; a colour print needs a plate for each ink."
+  },
+  "substrate": {
+    "stock": "Dampened laid or Japan paper, warm cream.",
+    "weight_gsm_min": 130,
+    "weight_gsm_max": 200,
+    "ground": "#E1D3B1",
+    "finish": "Soft and absorbent, with a surface that takes the burr."
+  },
+  "surface": {
+    "impression": "A plate mark of 3–6 mm; the inked burr stands as a raised, velvet line on the sheet.",
+    "sheen": "Matt and velvety in the lines; the plate tone gives a slight sheen.",
+    "texture": "Blurred line edges, and a soft tone round the line where the burr held the ink."
+  },
+  "artefacts": {
+    "marks": [
+      "velvety burr line with blurred edge",
+      "plate mark",
+      "retroussage plate tone",
+      "furrow lines that thin over an edition"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "drypoint print",
+      "velvety burr line",
+      "scratched copper plate",
+      "soft fuzzy black line",
+      "Rembrandt Three Crosses",
+      "plate tone",
+      "plate mark",
+      "cream laid paper"
+    ],
+    "negative": [
+      "clean vector line",
+      "halftone dots",
+      "colour",
+      "photograph",
+      "woodcut"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Christ Crucified Between the Two Thieves (The Three Crosses)",
+      "kind": "image",
+      "maker": "Rembrandt",
+      "year": 1653,
+      "credit": "The Met Open Access, via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Christ_Crucified_Between_the_Two_Thieves_(The_Three_Crosses)_MET_DP815616.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Christ_Crucified_Between_the_Two_Thieves_%28The_Three_Crosses%29_MET_DP815616.jpg/960px-Christ_Crucified_Between_the_Two_Thieves_%28The_Three_Crosses%29_MET_DP815616.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "The Three Crosses (third state)",
+      "kind": "image",
+      "maker": "Rembrandt",
+      "year": 1653,
+      "credit": "Web Gallery of Art, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_The_Three_Crosses_(third_state)_-_WGA19085.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Rembrandt_-_The_Three_Crosses_%28third_state%29_-_WGA19085.jpg/960px-Rembrandt_-_The_Three_Crosses_%28third_state%29_-_WGA19085.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "engraving-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "etching-print"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Intimate, quiet intensity: the viewer sees a drawing that was scratched, with a warm and deep black.",
+    "keywords": [
+      "intimate",
+      "velvet",
+      "deep",
+      "quiet",
+      "personal"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "drypoint",
+      "burr line print",
+      "scratched copper plate",
+      "rembrandt three crosses",
+      "velvet black line",
+      "cassatt drypoint",
+      "needle on copper",
+      "soft intaglio line"
+    ],
+    "use_cases": [
+      "fine art editions and portraits",
+      "small illustrated books",
+      "stationery and invitations with a hand-made look",
+      "album artwork"
+    ],
+    "avoid_when": [
+      "The design needs a large edition with exact repeats.",
+      "The line must stay hard and even."
+    ],
+    "modifiers": [
+      {
+        "request": "crisper",
+        "toward": "etching-print",
+        "how": "Etch the line in acid, so that it holds for a long edition; keep a few burr lines for the dark areas."
+      },
+      {
+        "request": "more tone",
+        "toward": "aquatint-print",
+        "how": "Add a rosin grain under the line and bite it in steps."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#25211E",
+      "options": [
+        "#25211E",
+        "#3A2F26",
+        "#1A2330"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E1D3B1",
+      "options": [
+        "#E1D3B1",
+        "#E9DFC6",
+        "#D3C39E"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 30,
+      "min": 20,
+      "max": 50
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Drypoint",
+      "url": "https://en.wikipedia.org/wiki/Drypoint"
+    },
+    {
+      "title": "Wikipedia: Mary Cassatt",
+      "url": "https://en.wikipedia.org/wiki/Mary_Cassatt"
+    }
+  ]
+}

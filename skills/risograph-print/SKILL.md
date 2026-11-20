@@ -169,7 +169,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`xerox-zine`](../xerox-zine/SKILL.md)
 - **Mixes well with:** [`pop-screen-print`](../pop-screen-print/SKILL.md)
 - **Kin in another domain:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`duotone-icon`](../duotone-icon/SKILL.md), [`editorial-serif-revival`](../editorial-serif-revival/SKILL.md)
-- **Nearest by vector profile:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
+- **Nearest by vector profile:** [`constructivist-photomontage-poster`](../constructivist-photomontage-poster/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md)
 
 ## Emotional target
 

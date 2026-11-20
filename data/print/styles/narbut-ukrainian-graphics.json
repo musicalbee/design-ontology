@@ -1,0 +1,263 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "narbut-ukrainian-graphics",
+  "domain": "print",
+  "name": "Narbut Ukrainian Baroque graphics",
+  "aliases": [
+    "Narbut style",
+    "Ukrainian Baroque graphics",
+    "Графіка Нарбута",
+    "Українська книжкова графіка"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1910,
+    "end": 1920,
+    "label": "1910–1920"
+  },
+  "region": "St Petersburg and Kyiv",
+  "summary": "A black pen drawing with Baroque capitals and heraldry, printed from zinc line blocks, sometimes with one or two flat tints. The dense ornament and the hand lettering imitate old engraved Ukrainian books.",
+  "philosophy": {
+    "core_thesis": "A dense black pen line and Baroque lettering can make a modern cover that looks like a page from an old Ukrainian book.",
+    "design_principles": [
+      "Draw every form with a fine pen line of 0.15–0.3 mm at print size, and fill the darks with solid black.",
+      "Set the title in hand-drawn Baroque capitals; give each letter a swelling stem and a curled foot.",
+      "Put the title, the arms or the main figure in a cartouche of scrolls, leaves and ribbons.",
+      "Use heraldic forms (shield, crown, helm, mantling) as the main motif of a cover or a page.",
+      "Balance black and white: let heavy black fills sit beside open areas of bare paper.",
+      "Use one flat red or ochre tint as the only colour, and put it on the title or the shield.",
+      "Print the pen line from a zinc line block so that the fine hairlines stay sharp."
+    ],
+    "anti_patterns": [
+      "A soft, tonal drawing and a gradient",
+      "A clean modern sans-serif title",
+      "Pastel colours and loose watercolour",
+      "A thick, blunt outline with no fine detail",
+      "A page with no ornament and no lettering of its own"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A zinc line block etched from a photograph of the pen drawing, and a flat block for each tint.",
+    "press": "A letterpress machine, which prints the line block with the type of the book.",
+    "image_making": "The artist draws in black ink on white card, larger than the print. A camera reduces it to a zinc plate, and acid etches the plate to leave the lines standing.",
+    "edition": "Small to medium runs of books, journals and state papers; the copies match."
+  },
+  "inks": {
+    "strategy": "Dense black for the line and the fills, with at most one or two flat tints for the accent.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#1B1917",
+        "role": "the line, the lettering and the dense fills"
+      },
+      {
+        "name": "Red",
+        "hex": "#A83B2B",
+        "role": "accent for the title or the shield"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#C79A45",
+        "role": "flat tint behind the ornament"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 100,
+    "angles": [
+      45
+    ],
+    "rule": "Make the tone with fine pen hatching, about 100 lines an inch at print size, and with solid black fills."
+  },
+  "registration": {
+    "tolerance_mm": 0.5,
+    "rule": "The tint block registers to the key block within 0.5 mm. A one-ink cover has no register at all."
+  },
+  "substrate": {
+    "stock": "A book paper, cream, with a smooth surface that holds the hairlines.",
+    "weight_gsm_min": 80,
+    "weight_gsm_max": 140,
+    "ground": "#E8DDC0",
+    "finish": "Smooth, matt, with a light tooth; cream or a little warm."
+  },
+  "surface": {
+    "impression": "A slight bite from the line block; the fine lines show on the back of the sheet.",
+    "sheen": "Matt black with a slight shine in the solid fills.",
+    "texture": "Sharp hairlines, dense black solids and a faint squash of ink at the line edges."
+  },
+  "artefacts": {
+    "marks": [
+      "fine ornamental pen line",
+      "heraldic cartouches",
+      "hand-drawn Baroque capitals",
+      "dense black fills",
+      "ink squash at hairline edges",
+      "slight bite of the line block"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Narbut graphic",
+      "Ukrainian Baroque ornament",
+      "fine black pen line",
+      "heraldic cartouche",
+      "hand-drawn Baroque capitals",
+      "1912 book cover",
+      "dense black on cream",
+      "imitation of an engraved old book"
+    ],
+    "negative": [
+      "photorealistic",
+      "gradient",
+      "3D render",
+      "pastel",
+      "clean modern sans-serif"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Cover of The Nightingale",
+      "kind": "image",
+      "maker": "Heorhiy Narbut",
+      "year": 1912,
+      "credit": "Wikimedia Commons (public domain, Heorhiy Narbut)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Narbut_cover_Nightingale.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Narbut_cover_Nightingale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Mice and cat",
+      "kind": "image",
+      "maker": "Heorhiy Narbut",
+      "year": 1910,
+      "credit": "Wikimedia Commons (public domain, Heorhiy Narbut)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Narbut_Mice_and_cat.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Narbut_Mice_and_cat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Arms of the hetmans of Little Russia",
+      "kind": "image",
+      "maker": "Heorhiy Narbut",
+      "year": 1915,
+      "credit": "Wikimedia Commons (public domain, Heorhiy Narbut)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Narbut_Arms_of_hetmen_Little_Russia.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Narbut_Arms_of_hetmen_Little_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "engraving-print",
+      "mir-iskusstva-book-graphics"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "baroque-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Grave, proud craft: the viewer sees a national book of old weight, drawn with a very fine and very dense hand.",
+    "keywords": [
+      "heraldic",
+      "ornate",
+      "dense",
+      "national",
+      "scholarly"
+    ],
+    "brand_archetypes": [
+      "ruler",
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "narbut",
+      "ukrainian baroque",
+      "ukrainian book cover",
+      "heraldic pen drawing",
+      "baroque lettering",
+      "ukrainian heraldry",
+      "zinc line block",
+      "old ukrainian book"
+    ],
+    "use_cases": [
+      "book and journal covers",
+      "heraldic marks and certificates",
+      "banknote and stamp art",
+      "heritage and cultural-institution branding"
+    ],
+    "avoid_when": [
+      "The design needs a plain, modern or minimal look.",
+      "The picture needs soft tone or photographic colour."
+    ],
+    "modifiers": [
+      {
+        "request": "lighter and more playful",
+        "toward": "mir-iskusstva-book-graphics",
+        "how": "Open the black fills, use an even outline and add 3–4 flat watercolour tints and a folk border."
+      },
+      {
+        "request": "finer and more silver",
+        "toward": "engraving-print",
+        "how": "Change the zinc pen line for a copper plate: swelling lines at 100–120 to an inch and a plate mark."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1B1917",
+      "options": [
+        "#1B1917",
+        "#2A2018"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E8DDC0",
+      "options": [
+        "#E8DDC0",
+        "#F0E6CC",
+        "#DFD3B6"
+      ]
+    },
+    "ink_count": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 100,
+      "min": 60,
+      "max": 130
+    },
+    "misregistration": {
+      "default": 0.5,
+      "min": 0,
+      "max": 1
+    }
+  },
+  "sources": [
+    {
+      "title": "Heorhii Narbut (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Heorhii_Narbut"
+    },
+    {
+      "title": "Narbut, Heorhii (Encyclopedia of Ukraine)",
+      "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CN%5CA%5CNarbutHeorhii.htm"
+    }
+  ]
+}

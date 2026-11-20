@@ -4,11 +4,11 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**500 styles in 16 domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**<!-- n:styles -->536<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
-![styles](https://img.shields.io/badge/styles-500-111111)
+![styles](https://img.shields.io/badge/styles-536-111111)
 ![domains](https://img.shields.io/badge/domains-16-111111)
 ![code](https://img.shields.io/badge/code-MIT-111111)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
@@ -476,20 +476,56 @@ flowchart LR
   subgraph print_hand_press["Print · Hand press · 1400–1800"]
     woodcut_relief_print["Woodcut relief print"]
     engraving_print["Copper engraving"]
+    drypoint_print["Drypoint"]
+    ebru_marbled_paper["Ottoman ebru marbled paper"]
+    chiaroscuro_woodcut_print["Chiaroscuro woodcut"]
     etching_print["Etching"]
+    dong_ho_folk_woodblock["Dong Ho folk woodblock painting"]
+    katagami_stencil_print["Katazome and Ise katagami stencil print"]
+    nianhua_new_year_print["Chinese nianhua New Year woodblock print"]
+    ten_bamboo_studio_polychrome["Ten Bamboo Studio polychrome block print"]
     mezzotint_print["Mezzotint"]
+    russian_lubok_print["Russian lubok folk print"]
+    nishiki_e_polychrome_woodblock["Nishiki-e multi-block colour woodblock print"]
+    aquatint_print["Aquatint"]
+    stipple_engraving_print["Stipple (crayon-manner) engraving"]
+    surimono_print["Surimono privately published print"]
+    wood_engraving_print["End-grain wood engraving"]
+    senjafuda_slip["Senjafuda pilgrim name slip"]
   end
   subgraph print_industrial_press["Print · Industrial press · 1800–1945"]
+    battala_woodcut["Battala woodcut"]
+    banknote_engraving_print["Steel-engraved banknote and stamp"]
+    crayon_lithograph_print["Crayon lithograph"]
     wood_type_poster["Wood-type poster"]
+    qajar_lithographed_book["Qajar lithographed book"]
+    collotype_print["Collotype"]
     chromolithograph_poster["Chromolithograph poster"]
+    meiji_kosen_ga_print["Meiji kosen-ga and aniline-red woodblock print"]
+    photogravure_print["Photogravure"]
+    posada_broadside["Posada broadside"]
     private_press_book["Private-press book"]
+    ravi_varma_oleograph["Ravi Varma oleograph"]
     ben_day_comic_print["Ben-Day comic print"]
+    mir_iskusstva_book_graphics["Mir iskusstva book graphics"]
+    cordel_xilogravura["Cordel xilogravura"]
+    yuefenpai_calendar_poster["Shanghai yuefenpai calendar poster"]
+    sosaku_hanga_print["Sosaku-hanga creative print"]
+    expressionist_woodcut_print["Die Brucke woodcut"]
     pochoir_plate["Pochoir plate"]
+    narbut_ukrainian_graphics["Narbut Ukrainian Baroque graphics"]
+    shin_hanga_print["Shin-hanga new print"]
+    rosta_window_stencil_poster["ROSTA Window stencil poster"]
+    constructivist_photomontage_poster["Constructivist photomontage poster"]
+    linocut_print["Expressive linocut"]
+    chinese_modern_woodcut["Chinese modern woodcut"]
+    taller_grafica_popular_linocut["Taller de Gráfica Popular linocut"]
   end
   subgraph print_studio_press["Print · Studio press · 1945–1995"]
     pop_screen_print["Pop screen print"]
     psychedelic_concert_poster["Psychedelic concert poster"]
     xerox_zine["Xerox zine"]
+    chicha_poster["Chicha poster"]
   end
   subgraph print_digital_press["Print · Digital press · 1995–"]
     risograph_print["Risograph print"]
@@ -877,6 +913,7 @@ flowchart LR
   art_nouveau_monogram <-. echoes .-> art_nouveau_web
   art_nouveau_object <-. echoes .-> art_nouveau_tiles
   art_nouveau_object <-. echoes .-> art_nouveau_web
+  art_nouveau_object <-. echoes .-> mir_iskusstva_book_graphics
   art_nouveau_web <-. echoes .-> bohemian_web
   art_nouveau_web <-. echoes .-> chromolithograph_poster
   art_nouveau_web <-. echoes .-> psychedelic_concert_poster
@@ -909,6 +946,7 @@ flowchart LR
   baroque_painting <-. echoes .-> german_expressionist_cinema
   baroque_painting <-. echoes .-> meissen_baroque_porcelain
   baroque_painting <-. echoes .-> mezzotint_print
+  baroque_painting <-. echoes .-> narbut_ukrainian_graphics
   bauhaus <-. echoes .-> bauhaus_architecture
   bauhaus <-. echoes .-> bauhaus_interior
   bauhaus <-. echoes .-> bauhaus_modern_tableware
@@ -992,9 +1030,11 @@ flowchart LR
   clickbait_thumbnail <-. echoes .-> vertical_short_form
   coloured_bathroom_suite <-. echoes .-> streamline_moderne_product
   conceptual_sketch_ui <-. echoes .-> swiss_international
+  constructivism_web <-. echoes .-> constructivist_photomontage_poster
   constructivism_web <-. echoes .-> cubism_painting
   constructivism_web <-. echoes .-> futurism_painting
   constructivism_web <-. echoes .-> grotesque_sans
+  constructivism_web <-. echoes .-> rosta_window_stencil_poster
   constructivism_web <-. echoes .-> soviet_montage
   constructivism_web <-. echoes .-> suprematism
   constructivism_web <-. echoes .-> suprematist_porcelain
@@ -1086,7 +1126,9 @@ flowchart LR
   english_bespoke_tailoring <-. echoes .-> georgian_neoclassical_manufacture
   engraving_print <-. echoes .-> victorian_trademark
   etching_print <-. echoes .-> realism_painting
+  expressionism_painting <-. echoes .-> expressionist_woodcut_print
   expressionism_painting <-. echoes .-> german_expressionist_cinema
+  expressionism_painting <-. echoes .-> sosaku_hanga_print
   expressionist_architecture <-. echoes .-> german_expressionist_cinema
   fashion_editorial <-. echoes .-> grunge_editorial
   fashion_editorial <-. echoes .-> new_look
@@ -1233,6 +1275,7 @@ flowchart LR
   japanese_modern_craft_product <-. echoes .-> washlet_toilet
   jasperware_neoclassical <-. echoes .-> neoclassical_architecture
   kaomoji_emoticon <-. echoes .-> pixel_icon
+  katagami_stencil_print <-. echoes .-> mingei_folk_craft
   kidcore <-. echoes .-> memphis_interior
   kidcore <-. echoes .-> memphis_product
   kidcore <-. echoes .-> pop_art_web
@@ -1280,6 +1323,7 @@ flowchart LR
   mid_century_modern_product <-. echoes .-> organic_modern_tableware
   mid_century_modern_product <-. echoes .-> racing_chronograph
   mid_century_modern_product <-. echoes .-> scandinavian_modern_tableware
+  mingei_folk_craft <-. echoes .-> russian_lubok_print
   minimal_wordmark <-. echoes .-> minimalist_interior
   minimal_wordmark <-. echoes .-> rams_functionalism_ui
   minimalism_painting <-. echoes .-> minimalist_fashion
@@ -1313,6 +1357,7 @@ flowchart LR
   new_topographics <-. echoes .-> photorealism
   new_topographics <-. echoes .-> planimetric_symmetry
   new_topographics <-. echoes .-> slow_cinema
+  nishiki_e_polychrome_woodblock <-. echoes .-> ukiyo_e
   nordic_functional_outdoor <-. echoes .-> scandinavian_modern_product
   nordic_modernism_architecture <-. echoes .-> scandinavian_interior
   nordic_modernism_architecture <-. echoes .-> scandinavian_modern_product
@@ -1331,6 +1376,7 @@ flowchart LR
   pbr_photoreal <-. echoes .-> photorealism
   photo_carousel_slideshow <-. echoes .-> vertical_short_form
   photo_dump <-. echoes .-> y2k_digicam
+  photogravure_print <-. echoes .-> pictorialism
   pictorialism <-. echoes .-> victorian_interior
   pixel_art_web <-. echoes .-> pixel_icon
   pixel_art_web <-. echoes .-> sixteen_bit_sprite
@@ -1437,6 +1483,7 @@ flowchart LR
   joseon_buncheong --> anglo_oriental_studio_pottery
   longquan_celadon --> anglo_oriental_studio_pottery
   y2k_aesthetic --> apple_aqua
+  etching_print --> aquatint_print
   new_objectivity --> architectural_photography
   straight_photography --> architectural_photography
   art_nouveau_architecture --> art_deco_architecture
@@ -1469,9 +1516,11 @@ flowchart LR
   hispano_moresque_lustreware --> azulejo
   islamic_tile_mosaic --> azulejo
   istoriato_maiolica --> azulejo
+  engraving_print --> banknote_engraving_print
   y2k_aesthetic --> barbiecore
   renaissance_architecture --> baroque_architecture
   renaissance_painting --> baroque_painting
+  woodcut_relief_print --> battala_woodcut
   creamware_neoclassical --> bauhaus_modern_tableware
   arts_and_crafts_object --> bauhaus_product
   industrial_utility_product --> bauhaus_product
@@ -1494,7 +1543,11 @@ flowchart LR
   fifth_gen_low_poly --> cel_shaded_3d
   unicode_emoji --> chat_sticker_pack
   scandinavian_modern_tableware --> chef_studio_tableware
+  woodcut_relief_print --> chiaroscuro_woodcut_print
   victorian_architectural_terracotta --> chicago_school_terracotta
+  pop_screen_print --> chicha_poster
+  expressionist_woodcut_print --> chinese_modern_woodcut
+  woodcut_relief_print --> chinese_modern_woodcut
   reaction_gif --> cinemagraph
   new_colour --> cinematic_teal_orange
   german_expressionist_cinema --> classical_hollywood
@@ -1507,8 +1560,10 @@ flowchart LR
   vsco_preset_look --> cohesive_feed_grid
   abstract_expressionism --> colour_field_painting
   victorian_sanitary_ware --> coloured_bathroom_suite
+  rosta_window_stencil_poster --> constructivist_photomontage_poster
   arts_and_crafts_object --> contemporary_craft_product
   japanese_modern_craft_product --> contemporary_craft_product
+  woodcut_relief_print --> cordel_xilogravura
   mocha_banded_ware --> cornishware
   flat_design --> corporate_memphis
   memphis_design --> corporate_memphis
@@ -1541,8 +1596,10 @@ flowchart LR
   pilot_and_field_watch --> dive_watch
   straight_photography --> documentary_photography
   soviet_montage --> documentary_verite
+  woodcut_relief_print --> dong_ho_folk_woodblock
   memphis_interior --> dopamine_decor
   vaporwave --> dreamcore
+  engraving_print --> drypoint_print
   photo_dump --> dual_camera_snapshot
   new_objectivity --> duesseldorf_school
   new_topographics --> duesseldorf_school
@@ -1558,6 +1615,7 @@ flowchart LR
   glassmorphism --> ethereal_web
   post_impressionism --> expressionism_painting
   art_nouveau_architecture --> expressionist_architecture
+  woodcut_relief_print --> expressionist_woodcut_print
   kakiemon_imari_export --> famille_rose_qing
   yuan_ming_blue_and_white --> famille_rose_qing
   pictorialism --> fashion_editorial
@@ -1660,6 +1718,8 @@ flowchart LR
   victorian_encaustic_tiles --> large_format_porcelain_tiles
   unboxing_video --> lets_play_facecam
   vaporwave --> liminal_spaces
+  expressionist_woodcut_print --> linocut_print
+  woodcut_relief_print --> linocut_print
   glassmorphism --> liquid_glass_ui
   spatial_visionos --> liquid_glass_ui
   tang_sancai_figures --> liuli_glazed_roof
@@ -1671,6 +1731,7 @@ flowchart LR
   flat_design --> material_design
   flat_icon --> material_symbols_icon
   solid_glyph_icon --> material_symbols_icon
+  nishiki_e_polychrome_woodblock --> meiji_kosen_ga_print
   kraak_porcelain --> meissen_baroque_porcelain
   art_deco_tableware --> memphis_postmodern_ceramics
   space_age_pop_product --> memphis_product
@@ -1691,6 +1752,8 @@ flowchart LR
   bias_cut_glamour --> minimalist_fashion
   bauhaus_interior --> minimalist_interior
   jian_tenmoku_ware --> mino_tea_ceramics
+  chromolithograph_poster --> mir_iskusstva_book_graphics
+  russian_lubok_print --> mir_iskusstva_book_graphics
   english_slipware --> mocha_banded_ware
   english_bespoke_tailoring --> mod_and_mini
   ivy_style --> mod_and_mini
@@ -1701,6 +1764,8 @@ flowchart LR
   dogme_95 --> mumblecore
   italian_gran_turismo --> muscle_and_pony_car
   geocities_homepage --> myspace_profile
+  engraving_print --> narbut_ukrainian_graphics
+  mir_iskusstva_book_graphics --> narbut_ukrainian_graphics
   nouvelle_cuisine --> naturalist_cuisine
   flat_design --> neo_brutalism_ui
   art_deco_interior --> neo_deco_interior
@@ -1714,6 +1779,8 @@ flowchart LR
   naturalist_cuisine --> new_nordic
   straight_photography --> new_objectivity
   straight_photography --> new_topographics
+  woodcut_relief_print --> nianhua_new_year_print
+  woodcut_relief_print --> nishiki_e_polychrome_woodblock
   early_mountaineering --> nordic_functional_outdoor
   international_style_architecture --> nordic_modernism_architecture
   minimalism_web --> normcore
@@ -1736,6 +1803,7 @@ flowchart LR
   dogme_95 --> phone_cinema
   mumblecore --> phone_cinema
   grwm_short --> photo_carousel_slideshow
+  aquatint_print --> photogravure_print
   pop_art_painting --> photorealism
   early_wristwatch --> pilot_and_field_watch
   y2k_aesthetic --> pixel_art_web
@@ -1744,6 +1812,8 @@ flowchart LR
   mid_century_modern --> pop_art_web
   ben_day_comic_print --> pop_screen_print
   meissen_baroque_porcelain --> porcelain_insulator
+  engraving_print --> posada_broadside
+  woodcut_relief_print --> posada_broadside
   impressionism --> post_impressionism
   english_bespoke_tailoring --> power_dressing
   sixteen_bit_sprite --> pre_rendered_backgrounds
@@ -1757,6 +1827,7 @@ flowchart LR
   impact_image_macro --> rage_comic
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
+  chromolithograph_poster --> ravi_varma_oleograph
   kaomoji_emoticon --> reaction_gif
   creamware_neoclassical --> regency_gilded_bone_china
   sevres_rococo_porcelain --> regency_gilded_bone_china
@@ -1767,6 +1838,8 @@ flowchart LR
   baroque_painting --> rococo_painting
   meissen_baroque_porcelain --> rococo_porcelain_figures
   greek_red_figure --> roman_terra_sigillata
+  russian_lubok_print --> rosta_window_stencil_poster
+  woodcut_relief_print --> russian_lubok_print
   shaker_interior --> scandinavian_interior
   new_objectivity --> scandinavian_interior_photography
   arts_and_crafts_object --> scandinavian_modern_product
@@ -1777,10 +1850,12 @@ flowchart LR
   corporate_memphis --> scrapbook_ui
   punk_zine --> scrapbook_ui
   y2k_aesthetic --> seapunk
+  nishiki_e_polychrome_woodblock --> senjafuda_slip
   fifth_gen_low_poly --> seventh_gen_desaturated
   meissen_baroque_porcelain --> sevres_rococo_porcelain
   nylon_foundation_garments --> shapewear_and_seamless
   soft_natural_lingerie --> shapewear_and_seamless
+  nishiki_e_polychrome_woodblock --> shin_hanga_print
   eight_bit_tile --> sixteen_bit_sprite
   pixel_icon --> skeuomorphic_icon
   didone_serif --> slab_serif
@@ -1790,6 +1865,7 @@ flowchart LR
   performance_running_shoe --> sneaker_culture
   flat_icon --> solid_glyph_icon
   pixel_icon --> solid_glyph_icon
+  woodcut_relief_print --> sosaku_hanga_print
   mid_century_modern --> space_age
   mod_and_mini --> space_age_couture
   mid_century_modern_product --> space_age_pop_product
@@ -1800,6 +1876,8 @@ flowchart LR
   english_bespoke_tailoring --> stealth_luxury_accessory
   minimalist_fashion --> stealth_luxury_accessory
   art_deco_dance_shoe --> stiletto_heel
+  engraving_print --> stipple_engraving_print
+  etching_print --> stipple_engraving_print
   victorian_corsetry --> straight_front_corset
   art_deco_product --> streamline_moderne_product
   straight_photography --> street_photography
@@ -1809,15 +1887,19 @@ flowchart LR
   ulm_braun_functionalism --> super_normal_product
   cubism_painting --> suprematism
   futurism_painting --> suprematism
+  nishiki_e_polychrome_woodblock --> surimono_print
   vaporwave --> surrealism_web
   bauhaus --> swiss_international
   electronic_and_digital_watch --> swiss_plastic_pop_watch
   vaporwave --> synthwave_web
   y2k_aesthetic --> synthwave_web
   streamline_car --> tailfin_era_car
+  posada_broadside --> taller_grafica_popular_linocut
+  woodcut_relief_print --> taller_grafica_popular_linocut
   qin_terracotta_warriors --> tang_sancai_figures
   nordic_functional_outdoor --> technical_shell_alpinism
   technical_shell_alpinism --> techwear
+  woodcut_relief_print --> ten_bamboo_studio_polychrome
   art_deco_faience_facade --> terracotta_rainscreen
   victorian_architectural_terracotta --> terracotta_rainscreen
   garalde_old_style --> transitional_serif
@@ -1853,10 +1935,12 @@ flowchart LR
   vaporwave --> weirdcore
   organic_modern_tableware --> west_german_fat_lava
   rage_comic --> wojak_feels
+  woodcut_relief_print --> wood_engraving_print
   woodcut_relief_print --> wood_type_poster
   clickbait_thumbnail --> word_caption_clip
   new_colour --> y2k_digicam
   ding_white_ware --> yuan_ming_blue_and_white
+  chromolithograph_poster --> yuefenpai_calendar_poster
   islamic_tile_mosaic --> zellige
   abstract_expressionism -. rejects .-> de_stijl_painting
   abstract_expressionist_ceramics -. rejects .-> anglo_oriental_studio_pottery
@@ -1900,6 +1984,7 @@ flowchart LR
   constructivism_web -. rejects .-> art_nouveau_web
   costume_jewellery -. rejects .-> garland_style_jewellery
   cottagecore -. rejects .-> flat_design
+  crayon_lithograph_print -. rejects .-> engraving_print
   creamware_neoclassical -. rejects .-> delftware
   critical_regionalism_architecture -. rejects .-> international_style_architecture
   critical_regionalism_architecture -. rejects .-> postmodern_architecture
@@ -2046,6 +2131,7 @@ flowchart LR
   slow_cinema -. rejects .-> classical_hollywood
   sneaker_culture -. rejects .-> english_welted_dress_shoe
   soft_natural_lingerie -. rejects .-> nylon_foundation_garments
+  sosaku_hanga_print -. rejects .-> nishiki_e_polychrome_woodblock
   space_age_couture -. rejects .-> new_look
   space_age_pop_product -. rejects .-> scandinavian_modern_product
   spaghetti_western -. rejects .-> classical_hollywood
@@ -2723,54 +2809,16 @@ flowchart LR
   linkStyle 637 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 638 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 639 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 1078 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1079 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1080 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1081 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1082 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1083 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1084 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1085 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1086 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1087 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1088 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1089 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1090 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1091 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1092 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1093 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1094 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1095 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1096 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1097 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1098 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1099 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1100 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1101 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1102 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1103 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1104 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1105 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1106 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1107 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1108 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1109 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1110 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1111 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1112 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1113 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1114 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1115 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1116 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1117 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1118 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1119 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1120 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1121 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1122 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1123 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1124 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1125 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 640 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 641 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 642 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 643 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 644 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 645 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 646 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 647 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 648 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 649 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1126 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1127 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1128 stroke:#E5484D,stroke-width:1.5px
@@ -2948,6 +2996,56 @@ flowchart LR
   linkStyle 1300 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1301 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1302 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1303 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1304 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1305 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1306 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1307 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1308 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1309 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1310 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1311 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1312 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1313 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1314 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1315 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1316 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1317 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1318 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1319 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1320 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1321 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1322 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1323 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1324 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1325 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1326 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1327 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1328 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1329 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1330 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1331 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1332 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1333 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1334 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1335 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1336 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1337 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1338 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1339 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1340 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1341 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1342 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1343 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1344 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1345 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1346 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1347 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1348 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1349 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1350 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1351 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1352 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -2987,19 +3085,28 @@ Other commands: `list`, `show <id>`, `near <id>`, `match "<free text>"`.
 
 The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and one schema ([`schema/domains/`](schema/domains/)). It brings its own vector axes and its own facets, and it shares identity, philosophy, lineage, emotion and agent routing with every other domain. The compiler reads the manifest, so a new domain needs no new code.
 
-| Domain | Styles | Implementation layer | Demo |
-|---|--:|---|---|
-| Internet | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/internet.html) |
-| Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
-| Interior | 19 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
-| Photography | 19 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
-| Film and video | 24 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
-| Painting | 25 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
-| Logo | 8 | grid, stroke contrast, colour count, minimum size, clear space and one-colour reversal | [gallery](demo/logo.html) |
-| Icons | 9 | grid, stroke, corner and fill numbers, and an icon-set brief | [sheet](demo/icon.html) |
-| Typefaces | 8 | type numbers (x-height, contrast, stress, terminals) and font pairings | [specimens](demo/typeface.html) |
+<!-- domains:start -->
+| Domain | Styles | Demo |
+|---|--:|---|
+| Internet | 113 | [internet.html](demo/internet.html) |
+| Architecture | 23 | [architecture.html](demo/architecture.html) |
+| Interior | 19 | [interior.html](demo/interior.html) |
+| Photography | 19 | [photography.html](demo/photography.html) |
+| Film & Video | 24 | [film.html](demo/film.html) |
+| Painting | 25 | [painting.html](demo/painting.html) |
+| Logo | 8 | [logo.html](demo/logo.html) |
+| Icons | 9 | [icon.html](demo/icon.html) |
+| Typeface | 12 | [typeface.html](demo/typeface.html) |
+| Video game | 15 | [game.html](demo/game.html) |
+| Print | 49 | [print.html](demo/print.html) |
+| Graphic movements | 13 | [graphic-movement.html](demo/graphic-movement.html) |
+| Industrial design | 17 | [industrial.html](demo/industrial.html) |
+| Fashion | 84 | [fashion.html](demo/fashion.html) |
+| Ceramics | 89 | [ceramics.html](demo/ceramics.html) |
+| Cuisine | 17 | [cuisine.html](demo/cuisine.html) |
+<!-- domains:end -->
 
-**Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
+**Composition principles** are shared. [`data/principles/`](data/principles/) holds <!-- n:principles -->21<!-- /n --> records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 
 Domains connect. An `echoes` edge joins kin across domains: Brutalism ↔ Neo-Brutalism UI, International Style ↔ Swiss International Style, Dogme 95 ↔ Brutalism. Ask for a website that feels like the Barbican, and the graph has an answer.
 
@@ -3007,7 +3114,7 @@ Next domains under discussion: type design, motion, sound.
 
 ## Techniques that cross domains
 
-A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds 52 records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->290<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
 
 Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 
@@ -3041,7 +3148,7 @@ data/<domain>/styles/*.json     the source of truth, one file for each style
 
 - **Deterministic.** The same data gives the same bytes. A husky pre-commit hook moves the package version one patch step and builds the generated files, so each commit is prebuilt. CI only checks that a generated file does not differ from the commit.
 - **Generated files are in the repository** on purpose, so that a raw URL is all an agent needs.
-- **No runtime.** The output is Markdown, CSS and JSON. The scripts are about 1,300 lines of TypeScript with two dependencies, `ajv` and `handlebars`.
+- **No runtime.** The output is Markdown, CSS and JSON. The scripts are TypeScript with two dependencies, `ajv` and `handlebars`.
 
 ## Principles
 

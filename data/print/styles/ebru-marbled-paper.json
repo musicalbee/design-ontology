@@ -1,0 +1,267 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "ebru-marbled-paper",
+  "domain": "print",
+  "name": "Ottoman ebru marbled paper",
+  "aliases": [
+    "Ebru",
+    "Ebrû",
+    "Turkish marbling",
+    "Water marbling"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1500,
+    "end": 1900,
+    "label": "c.1500–1900"
+  },
+  "region": "Istanbul and Ottoman lands",
+  "summary": "Pigment floats on a thick bath of water. The marbler combs it into a pattern and lays a sheet on it for one monotype. Each sheet is unique, with flowing veins, combed curls and floral drops.",
+  "philosophy": {
+    "core_thesis": "A pattern that the water and the comb make together, and that no plate can repeat, gives a sheet of paper a living surface.",
+    "design_principles": [
+      "Make each sheet as one pull: float the colours, comb them, then lay the paper on them.",
+      "Use 2–8 mineral and plant pigments, and float each one on the bath with a brush.",
+      "Draw with a stylus, a comb and a fan; keep the veins in smooth flowing curves.",
+      "Let a drop spread to a ring and add a smaller drop inside it, for a flower.",
+      "Use a ground of indigo, red or black and leave the veins in ochre, white and red.",
+      "Cut or frame the sheet as a border, an endpaper or a calligraphy margin.",
+      "Accept uneven colour density and a soft blur at the edge of each vein."
+    ],
+    "anti_patterns": [
+      "A repeating tile or a mirrored pattern",
+      "A crisp vector outline",
+      "A halftone dot or a photographic tone",
+      "Plate mark or relief in the paper",
+      "A uniform flat colour with no veins"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 3,
+    "registration_play": 1,
+    "surface_relief": 1,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "A bath of thick water (size) that carries floating pigment. Ink floats and transfers flat, so the process is closest to planographic.",
+    "press": "No press: the marbler lays a paper on the bath by hand, and the pigment transfers in one touch.",
+    "image_making": "The marbler drops pigment on the size, then shapes it with a stylus, a comb or a fan.",
+    "edition": "One sheet for each pull; no two sheets are the same."
+  },
+  "inks": {
+    "strategy": "Several pigments that float on the size and do not mix; the ground and the drops come from the order of the drops.",
+    "ink_count_min": 2,
+    "ink_count_max": 8,
+    "overprint": "mixed",
+    "colours": [
+      {
+        "name": "Indigo blue",
+        "hex": "#2F4F86",
+        "role": "ground and veins"
+      },
+      {
+        "name": "Mineral red",
+        "hex": "#A33A2A",
+        "role": "drops"
+      },
+      {
+        "name": "Ochre yellow",
+        "hex": "#D9A83A",
+        "role": "drops and veins"
+      },
+      {
+        "name": "Black",
+        "hex": "#1D1B19",
+        "role": "fine veining"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 0,
+    "rule": "There is no screen; make a tone with the density of floating pigment and with the spacing of the comb teeth, 2–5 mm apart."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One pull makes the whole sheet, so there is no register; a second pull for a frame can sit 1–2 mm off."
+  },
+  "substrate": {
+    "stock": "A hand-made paper with a smooth, polished face (aharlı), treated with alum so that the pigment takes.",
+    "weight_gsm_min": 60,
+    "weight_gsm_max": 120,
+    "ground": "#EADFC4",
+    "finish": "Burnished and sized, ivory, with a smooth face."
+  },
+  "surface": {
+    "impression": "No bite and no plate mark; the pigment lies as a thin film on the face.",
+    "sheen": "Matt, with a soft shine where the pigment is thick.",
+    "texture": "Smooth flowing veins with fine soft edges and small rings of colour."
+  },
+  "artefacts": {
+    "marks": [
+      "comb veins",
+      "drop rings",
+      "edge blooms",
+      "no plate mark",
+      "uneven colour density",
+      "paper fibre that shows through thin colour"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Ottoman ebru marbling",
+      "floating pigment veins",
+      "combed curl pattern",
+      "floral drops on water",
+      "unique monotype sheet",
+      "indigo and vermilion",
+      "ivory sized paper",
+      "hand-made paper edge"
+    ],
+    "negative": [
+      "halftone",
+      "vector art",
+      "crisp outline",
+      "photograph",
+      "repeating tile"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Diwan of Mehmed Raghib Pasha, a manuscript with marbled paper",
+      "kind": "image",
+      "maker": "unknown",
+      "year": 1717,
+      "credit": "Christies.com via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mehmed_Raghib_Pasa_(1699-1763);_Diwan,_Ottoman_Turkey,_1717.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mehmed_Raghib_Pasa_%281699-1763%29%3B_Diwan%2C_Ottoman_Turkey%2C_1717.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Ebru (Water Marbling) Art",
+      "kind": "image",
+      "maker": "Metasqaure10",
+      "year": 2025,
+      "credit": "Metasqaure10, Wikimedia Commons (a modern work)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Ebru_(Water_Marbling)_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ebru_%28Water_Marbling%29_Art.jpg/960px-Ebru_%28Water_Marbling%29_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Ebru Sanatı Resim Art",
+      "kind": "image",
+      "maker": "Brcan",
+      "year": 2020,
+      "credit": "Brcan, Wikimedia Commons (a modern work)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Ebru_Sanat%C4%B1_Resim_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ebru_Sanat%C4%B1_Resim_Art.jpg/960px-Ebru_Sanat%C4%B1_Resim_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "root": "Ebru comes from Persian and Central Asian marbling and from the Ottoman book arts; the data has no earlier print style of this kind."
+  },
+  "emotion": {
+    "target_response": "Calm and wonder: the viewer sees a surface that moved like water and then stopped.",
+    "keywords": [
+      "fluid",
+      "contemplative",
+      "organic",
+      "ornate",
+      "unique"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "magician",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ebru",
+      "turkish marbling",
+      "marbled paper",
+      "water marbling",
+      "marbled endpaper",
+      "ottoman paper art",
+      "floating pigment pattern",
+      "marbled margin"
+    ],
+    "use_cases": [
+      "book endpapers and covers",
+      "stationery and packaging",
+      "backgrounds for calligraphy",
+      "textile and wallpaper patterns"
+    ],
+    "avoid_when": [
+      "The image needs a precise repeat or a hard edge.",
+      "The design needs a figure or a readable scene."
+    ],
+    "modifiers": [
+      {
+        "request": "more controlled",
+        "toward": "chromolithograph-poster",
+        "how": "Replace the flowing veins with a drawn pattern on stone in 4–6 flat colours."
+      },
+      {
+        "request": "more graphic",
+        "toward": "woodcut-relief-print",
+        "how": "Cut the pattern in wood and print in one black ink."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2F4F86",
+      "options": [
+        "#2F4F86",
+        "#A33A2A",
+        "#1D1B19"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EADFC4",
+      "options": [
+        "#EADFC4",
+        "#F4ECD8"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 2,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  },
+  "sources": [
+    {
+      "title": "Paper marbling (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Paper_marbling"
+    },
+    {
+      "title": "Necmeddin Okyay (Wikidata Q30611121)",
+      "url": "https://www.wikidata.org/wiki/Q30611121"
+    },
+    {
+      "title": "Commons category: Ebru",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ebru"
+    }
+  ]
+}

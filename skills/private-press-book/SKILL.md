@@ -183,7 +183,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Kin in another domain:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`blackletter`](../blackletter/SKILL.md), [`garalde-old-style`](../garalde-old-style/SKILL.md)
-- **Nearest by vector profile:** [`engraving-print`](../engraving-print/SKILL.md), [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md), [`etching-print`](../etching-print/SKILL.md)
+- **Nearest by vector profile:** [`banknote-engraving-print`](../banknote-engraving-print/SKILL.md), [`engraving-print`](../engraving-print/SKILL.md), [`ten-bamboo-studio-polychrome`](../ten-bamboo-studio-polychrome/SKILL.md)
 
 ## Emotional target
 

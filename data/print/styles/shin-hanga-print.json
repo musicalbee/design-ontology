@@ -1,0 +1,259 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "shin-hanga-print",
+  "domain": "print",
+  "name": "Shin-hanga new print",
+  "aliases": [
+    "Shin-hanga",
+    "新版画",
+    "Shinsaku-hanga",
+    "New print revival"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1915,
+    "end": 1942,
+    "label": "1915–1942"
+  },
+  "region": "Tokyo, Japan",
+  "summary": "The publisher Watanabe Shozaburo revived the ukiyo-e split of designer, carver and printer for foreign buyers. The prints show Western light and atmosphere, with many tonal blocks for rain, snow and dusk.",
+  "philosophy": {
+    "core_thesis": "The old Edo craft of block and baren can serve a new subject, a landscape with weather and light, when a publisher keeps the three trades apart.",
+    "design_principles": [
+      "Choose a quiet place, a river, a temple, a snow road, and one moment of light such as rain, dusk or a lamp.",
+      "Build the sky and the water from 3–6 blue and grey blocks, each wiped to a soft gradation.",
+      "Use 8–12 colour blocks for one print, and let some prints reach 30 blocks.",
+      "Print a lamp or a window in a warm orange against a cool blue ground, and keep it small.",
+      "Add rubbed texture with a baren on a dry, thick sheet (suji-zuri and goma-zuri) for snow, bark and fabric.",
+      "Keep the key line thin and brown or grey, not a hard black outline.",
+      "Add the artist seal and the publisher seal in the margin."
+    ],
+    "anti_patterns": [
+      "A flat, bold outline in the Edo manner",
+      "Halftone dots or a photographic realism",
+      "A neon or saturated colour set",
+      "A crowded, comic composition",
+      "A sky of one flat tint"
+    ]
+  },
+  "vectors": {
+    "tone_method": 4,
+    "ink_layering": 4,
+    "registration_play": 1,
+    "surface_relief": 2,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Cherry-wood blocks, 8–12 for a normal print and up to 30 for a rich one, with kento register notches.",
+    "press": "No press. A printer rubs the back of the sheet with a baren by hand.",
+    "image_making": "The publisher directs. A designer paints the picture, a carver cuts the blocks, and a printer sets the colour.",
+    "edition": "Limited runs, with later numbered editions and reprints."
+  },
+  "inks": {
+    "strategy": "Water-based pigment, many thin overprinted tones. Bokashi wiping makes the soft sky and water.",
+    "ink_count_min": 8,
+    "ink_count_max": 12,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Sumi black",
+        "hex": "#25242A",
+        "role": "key block"
+      },
+      {
+        "name": "Night indigo",
+        "hex": "#27375E",
+        "role": "sky and water"
+      },
+      {
+        "name": "Warm grey",
+        "hex": "#8E8A82",
+        "role": "snow and rain"
+      },
+      {
+        "name": "Lamp orange",
+        "hex": "#E0883E",
+        "role": "window glow"
+      },
+      {
+        "name": "Pale rose",
+        "hex": "#E7B9A5",
+        "role": "dusk"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with 3–6 overprinted flat blocks and a wiped gradation of 20–60 mm. The style has no screen."
+  },
+  "registration": {
+    "tolerance_mm": 0.2,
+    "rule": "Keep each colour within 0.2 mm of the key line. The tight register is part of the revival."
+  },
+  "substrate": {
+    "stock": "Heavy hand-made washi with a smooth face.",
+    "weight_gsm_min": 80,
+    "weight_gsm_max": 130,
+    "ground": "#F0E7D2",
+    "finish": "Smooth and slightly sized, so the many layers do not cockle."
+  },
+  "surface": {
+    "impression": "Light to medium. The baren leaves a soft rub, and a dry rub adds a grain texture to snow.",
+    "sheen": "Matt, with a mica shine in some prints.",
+    "texture": "Soft, wiped gradations, a fine grain in the rubbed areas, and the fibres of thick washi."
+  },
+  "artefacts": {
+    "marks": [
+      "soft wiped gradations",
+      "mica shine in some prints",
+      "publisher seal and artist seal in the margin",
+      "dry baren grain in snow and rain",
+      "limited-edition numbering in later work"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "shin-hanga landscape woodblock",
+      "soft tonal gradation at dusk",
+      "rain and snow atmosphere",
+      "many overprinted blocks",
+      "indigo night sky and lamp glow",
+      "ivory washi",
+      "small seals in the margin",
+      "calm composition"
+    ],
+    "negative": [
+      "flat bold outline",
+      "halftone dots",
+      "photo realism",
+      "neon",
+      "comic"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Evening on the Chikugo River",
+      "kind": "image",
+      "maker": "Yoshida Hiroshi",
+      "year": 1927,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1930.95",
+      "file": "https://openaccess-cdn.clevelandart.org/1930.95/1930.95_web.jpg"
+    },
+    {
+      "title": "Cryptomeria Avenue",
+      "kind": "image",
+      "maker": "Yoshida Hiroshi",
+      "year": 1937,
+      "credit": "Cleveland Museum of Art Open Access. The museum dates it after 1937.",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/2016.80",
+      "file": "https://openaccess-cdn.clevelandart.org/2016.80/2016.80_web.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nishiki-e-polychrome-woodblock"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A hush: the viewer feels the weather and the hour in a place that is old and calm, as in a memory.",
+    "keywords": [
+      "serene",
+      "nostalgic",
+      "atmospheric",
+      "quiet",
+      "soft"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "shin-hanga",
+      "new print japanese",
+      "hasui style",
+      "japanese landscape print rain",
+      "watanabe woodblock",
+      "moonlit japanese print",
+      "snow scene woodblock"
+    ],
+    "use_cases": [
+      "travel posters and guides",
+      "calm editorial covers",
+      "tea, sake and craft packs",
+      "hotel and wellness art"
+    ],
+    "avoid_when": [
+      "The brief needs a bold graphic outline or a loud palette.",
+      "The picture is a portrait or a close-up of a face."
+    ],
+    "modifiers": [
+      {
+        "request": "more Edo and flat",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Reduce the blocks to 4–6 flat colours, thicken the key line and keep only the sky gradation."
+      },
+      {
+        "request": "more personal and rough",
+        "toward": "sosaku-hanga-print",
+        "how": "Let one hand cut the blocks, show the gouge marks and use 3–5 bold colours."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#25242A",
+      "options": [
+        "#25242A",
+        "#3A3228",
+        "#2B2B3A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F0E7D2",
+      "options": [
+        "#F0E7D2",
+        "#F4ECDA",
+        "#E8DFC6"
+      ]
+    },
+    "ink_count": {
+      "default": 10,
+      "min": 8,
+      "max": 12
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.2,
+      "min": 0,
+      "max": 0.6
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Shin-hanga",
+      "url": "https://en.wikipedia.org/wiki/Shin-hanga"
+    },
+    {
+      "title": "Wikipedia: Watanabe Shōzaburō",
+      "url": "https://en.wikipedia.org/wiki/Watanabe_Shōzaburō"
+    },
+    {
+      "title": "Cleveland Museum of Art Open Access API",
+      "url": "https://openaccess-api.clevelandart.org/"
+    }
+  ]
+}

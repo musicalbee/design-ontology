@@ -1,0 +1,262 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "katagami-stencil-print",
+  "domain": "print",
+  "name": "Katazome and Ise katagami stencil print",
+  "aliases": [
+    "Katazome",
+    "型染",
+    "Ise katagami",
+    "伊勢型紙",
+    "Japanese paper stencil dyeing"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1600,
+    "end": 1960,
+    "label": "c.1600–1960s"
+  },
+  "region": "Ise (Mie) and Kyoto, Japan",
+  "summary": "A stencil is cut in layers of mulberry paper, and rice-paste resist is spread through it onto cloth. The cloth is then dyed. The result is a repeat pattern with sharp white edges and flat colour.",
+  "philosophy": {
+    "core_thesis": "A pattern cut once in paper can be printed a thousand times as a sharp white shape on dyed cloth, if the stencil holds its islands with thin bridges.",
+    "design_principles": [
+      "Cut the pattern in 2–3 layers of washi that are pasted with persimmon tannin (kakishibu), so the stencil stays stiff and wet-proof.",
+      "Keep each cut line 0.1–0.5 mm wide, and keep at least 0.5 mm of paper between two cuts.",
+      "Hold each free island of paper with a thin bridge, a tie bar, or with a net of silk thread between the layers.",
+      "Spread the rice-paste resist through the stencil in one pass of a spatula, and let it dry before you dye.",
+      "Dye the cloth after the resist dries. The resist stays white, and the dye fills the rest as a flat colour.",
+      "Repeat the pattern on the cloth, and join each repeat so the seam does not show.",
+      "Choose a small, fine motif: a wave, a plant, a crest, a bird. Allow a pictorial scene only in mingei work."
+    ],
+    "anti_patterns": [
+      "A soft gradient or a tonal shade",
+      "Halftone dots or a photograph",
+      "A woodgrain texture or a thick outline",
+      "A pattern whose islands float with no bridge",
+      "A three-dimensional effect"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 1,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "A stencil (katagami) of 2–3 layers of mulberry washi, pasted with persimmon tannin and cut with fine knives. A net of silk thread can hold the islands.",
+    "press": "No press. A worker spreads rice-paste resist through the stencil with a spatula, then brushes or dips the cloth in dye.",
+    "image_making": "A cutter, a specialist of Shiroko and Jike in Ise, cuts the pattern. A dyer uses the stencil many times.",
+    "edition": "Many metres of repeat pattern. The same stencil serves for years."
+  },
+  "inks": {
+    "strategy": "Plant dye on cloth: indigo for the ground, with persimmon brown and madder red as accents. The resist leaves the pattern in the cloth colour.",
+    "ink_count_min": 1,
+    "ink_count_max": 6,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Indigo",
+        "hex": "#264A70",
+        "role": "ground"
+      },
+      {
+        "name": "Resist white",
+        "hex": "#F0EAD8",
+        "role": "pattern"
+      },
+      {
+        "name": "Persimmon brown",
+        "hex": "#8A5A3A",
+        "role": "accent"
+      },
+      {
+        "name": "Madder red",
+        "hex": "#B33F3A",
+        "role": "accent"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each area a flat dye or a flat resist white. The pattern shows a tone only by the density of its small cuts."
+  },
+  "registration": {
+    "tolerance_mm": 0.3,
+    "rule": "Fit each repeat of the stencil to the last one within 0.3 mm, with the pins or the marks on the cloth."
+  },
+  "substrate": {
+    "stock": "Cotton or silk cloth, undyed before the dye bath.",
+    "weight_gsm_min": 80,
+    "weight_gsm_max": 200,
+    "ground": "#EFE9D8",
+    "finish": "Plain weave, washed free of size, so the dye takes evenly."
+  },
+  "surface": {
+    "impression": "None. The paste leaves a thin skin that the wash removes.",
+    "sheen": "Matt, with the soft shine of silk or the dry look of cotton.",
+    "texture": "Sharp white edges on a flat dye, a visible weave of the cloth, and a fine repeat."
+  },
+  "artefacts": {
+    "marks": [
+      "sharp resist-white edges",
+      "bridges and tie bars in the stencil",
+      "repeat seam",
+      "fibre and weave of the cloth",
+      "slight leak of dye at a thin cut"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "katazome stencil dyed pattern",
+      "indigo cloth with white resist",
+      "crisp stencil edges",
+      "repeating floral motif",
+      "tie-bar bridges",
+      "Ise katagami cut",
+      "mingei folk textile",
+      "flat dye"
+    ],
+    "negative": [
+      "gradient",
+      "halftone",
+      "photograph",
+      "woodgrain",
+      "3D"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Ise katagami stencil sheet 1 (a stencil, not a dyed print)",
+      "kind": "image",
+      "maker": "Unknown maker",
+      "credit": "Wikimedia Commons (public domain; late 19th century to c.1940)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ise_Katagami_(%E4%BC%8A%E5%8B%A2%E5%9E%8B%E7%B4%99)_1.png",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ise_Katagami_%28%E4%BC%8A%E5%8B%A2%E5%9E%8B%E7%B4%99%29_1.png/960px-Ise_Katagami_%28%E4%BC%8A%E5%8B%A2%E5%9E%8B%E7%B4%99%29_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Ise katagami stencil sheet 2 (a stencil, not a dyed print)",
+      "kind": "image",
+      "maker": "Unknown maker",
+      "credit": "Wikimedia Commons (public domain; late 19th century to c.1940)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ise_Katagami_(%E4%BC%8A%E5%8B%A2%E5%9E%8B%E7%B4%99)_2.png",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ise_Katagami_%28%E4%BC%8A%E5%8B%A2%E5%9E%8B%E7%B4%99%29_2.png/960px-Ise_Katagami_%28%E4%BC%8A%E5%8B%A2%E5%9E%8B%E7%B4%99%29_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Katagami stencil with a floral ornament (a stencil, not a dyed print)",
+      "kind": "image",
+      "maker": "Unknown maker",
+      "credit": "Wikimedia Commons (public domain; late 19th century)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Japanese_Katagami_Stencil_Floral_Ornament.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Japanese_Katagami_Stencil_Floral_Ornament.jpg/960px-Japanese_Katagami_Stencil_Floral_Ornament.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "mingei-folk-craft"
+    ]
+  },
+  "emotion": {
+    "target_response": "Clear, quiet order: the viewer feels a fine pattern that stays sharp, and a craft that repeats with calm care.",
+    "keywords": [
+      "precise",
+      "repetitive",
+      "crafted",
+      "calm",
+      "graphic"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "katazome",
+      "ise katagami",
+      "japanese stencil pattern",
+      "indigo resist pattern",
+      "mingei textile print",
+      "japanese paper stencil",
+      "white resist on indigo"
+    ],
+    "use_cases": [
+      "textile and wrapping paper patterns",
+      "pack and label backgrounds",
+      "craft and tea brand identity",
+      "wall and screen repeat patterns"
+    ],
+    "avoid_when": [
+      "The picture needs gradation, a photograph or a painted tone.",
+      "The brief needs a rough, hand-cut block look."
+    ],
+    "modifiers": [
+      {
+        "request": "more colourful and layered",
+        "toward": "pochoir-plate",
+        "how": "Use one stencil for each colour on paper, apply gouache with a dabbing brush, and add a printed key line."
+      },
+      {
+        "request": "more pictorial and folk",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Replace the repeat by a single scene, print on washi, and use wiped colour with a sumi key line."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#264A70",
+      "options": [
+        "#264A70",
+        "#1F3F66",
+        "#2A3A5A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EFE9D8",
+      "options": [
+        "#EFE9D8",
+        "#F2EDDF",
+        "#E8E0CB"
+      ]
+    },
+    "ink_count": {
+      "default": 2,
+      "min": 1,
+      "max": 6
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.3,
+      "min": 0,
+      "max": 0.8
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Katazome",
+      "url": "https://en.wikipedia.org/wiki/Katazome"
+    },
+    {
+      "title": "Wikipedia: Ise-katagami",
+      "url": "https://en.wikipedia.org/wiki/Ise-katagami"
+    },
+    {
+      "title": "Wikimedia Commons: Category Katagami",
+      "url": "https://commons.wikimedia.org/wiki/Category:Katagami"
+    }
+  ]
+}

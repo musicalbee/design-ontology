@@ -1,0 +1,255 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "chiaroscuro-woodcut-print",
+  "domain": "print",
+  "name": "Chiaroscuro woodcut",
+  "aliases": [
+    "clair-obscur",
+    "xilografia a più legni (Italian)",
+    "Helldunkelholzschnitt (German)"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1508,
+    "end": 1620,
+    "label": "1508–c.1620"
+  },
+  "region": "Augsburg, Venice, Rome, Antwerp",
+  "summary": "A line block carries the drawing and one to three tone blocks are printed over it in flat washes of one hue. The flat steps from paper white to dark ground imitate a brush-and-wash drawing heightened with white.",
+  "philosophy": {
+    "core_thesis": "Flat tone blocks printed in steps over a line block imitate a brush-and-wash drawing heightened with white, with no hatching.",
+    "design_principles": [
+      "Cut a key block for the contour and the deepest shadow, and print it in black or dark brown.",
+      "Cut one to three tone blocks, and print each as a flat wash of one hue at 20–60 % of the key density.",
+      "Cut the highlights out of each tone block, so that the bare paper shows as white.",
+      "Keep each tone edge hard; step from one wash to the next and do not blend.",
+      "Print all tone blocks in one hue family, so that the picture reads as one drawing.",
+      "Allow 0.5–1.5 mm of key-block offset against the tone blocks."
+    ],
+    "anti_patterns": [
+      "A smooth gradient or a soft wash edge",
+      "Halftone dots or a photographic tone",
+      "White highlights added with opaque white ink",
+      "Hatching that fills the tone areas",
+      "Tone blocks in unrelated hues"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 3,
+    "registration_play": 3,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Plank woodblocks (pear, cherry), one key block and one to three tone blocks",
+    "press": "Hand press, rubbed or screw press",
+    "image_making": "Key block cut with knife in line; tone blocks gouged so that highlights are cut away and paper shows through",
+    "edition": "Dozens to low hundreds; blocks recut or re-inked in later states"
+  },
+  "inks": {
+    "strategy": "A dark key ink and one to three transparent tints of one hue, each printed from its own block.",
+    "ink_count_min": 2,
+    "ink_count_max": 4,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Black key line",
+        "hex": "#1E1A17",
+        "role": "outline and shadow"
+      },
+      {
+        "name": "Olive-grey tone",
+        "hex": "#7E7A62",
+        "role": "mid-tone wash"
+      },
+      {
+        "name": "Warm brown tone",
+        "hex": "#8A6B4A",
+        "role": "ground tone"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each tone as a flat wash from one block; stack two or three blocks to get four to five tone steps, with no screen."
+  },
+  "registration": {
+    "tolerance_mm": 1.0,
+    "rule": "Each block is printed by hand against pin or register marks; the key block can sit 0.5–1.5 mm off the tone blocks."
+  },
+  "substrate": {
+    "stock": "Hand-made laid paper, cream to ivory, with chain lines.",
+    "weight_gsm_min": 80,
+    "weight_gsm_max": 120,
+    "ground": "#E6D9B8",
+    "finish": "Laid, lightly sized, with a soft tooth that takes a thin wash of ink."
+  },
+  "surface": {
+    "impression": "A light bite from the hand press; the blocks show as a faint relief on the back.",
+    "sheen": "Matt, with a slight shine where the ink is thick.",
+    "texture": "Flat washes with hard edges, and the grain of the wood in the larger tone areas."
+  },
+  "artefacts": {
+    "marks": [
+      "flat tone steps with hard edges",
+      "cut-away white highlights",
+      "slight key-block offset",
+      "hand-rubbed ink density",
+      "laid lines"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "chiaroscuro woodcut",
+      "three-block tone print",
+      "flat brown wash steps",
+      "cut-away paper white highlights",
+      "black key block line",
+      "Renaissance relief print",
+      "laid paper cream",
+      "slight block misregistration"
+    ],
+    "negative": [
+      "photograph",
+      "smooth gradient",
+      "halftone dots",
+      "digital vector",
+      "glossy"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Archimedes (?), chiaroscuro woodcut",
+      "kind": "image",
+      "maker": "Ugo da Carpi",
+      "year": 1518,
+      "credit": "Wikimedia Commons. Dated c.1518–1520.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ugo_da_Carpi_%E2%80%94_Archimedes.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ugo_da_Carpi_%E2%80%94_Archimedes.jpg/960px-Ugo_da_Carpi_%E2%80%94_Archimedes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "St John the Baptist Preaching in the Desert (after Raphael)",
+      "kind": "image",
+      "maker": "Ugo da Carpi",
+      "year": 1517,
+      "credit": "Museum of Fine Arts Budapest, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:St_John_the_Baptist_Preaching_in_the_Desert_-_chiaroscuro_woodcut_by_Ugo_da_Carpi_after_Raphael_c.1517_-_Museum_of_Fine_Arts_Budapest_Hungary.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/St_John_the_Baptist_Preaching_in_the_Desert_-_chiaroscuro_woodcut_by_Ugo_da_Carpi_after_Raphael_c.1517_-_Museum_of_Fine_Arts_Budapest_Hungary.jpg/960px-St_John_the_Baptist_Preaching_in_the_Desert_-_chiaroscuro_woodcut_by_Ugo_da_Carpi_after_Raphael_c.1517_-_Museum_of_Fine_Arts_Budapest_Hungary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Diogenes, chiaroscuro woodcut",
+      "kind": "image",
+      "maker": "Ugo da Carpi",
+      "year": 1527,
+      "credit": "Cleveland Museum of Art Open Access, via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Ugo_da_Carpi_-_Diogenes_-_1923.1052_-_Cleveland_Museum_of_Art.tif",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Ugo_da_Carpi_-_Diogenes_-_1923.1052_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-Ugo_da_Carpi_-_Diogenes_-_1923.1052_-_Cleveland_Museum_of_Art.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Calm, learned warmth: the viewer sees a wash drawing of a classical scene, in a few quiet steps of one colour.",
+    "keywords": [
+      "classical",
+      "warm",
+      "painterly",
+      "quiet",
+      "learned"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "chiaroscuro woodcut",
+      "clair-obscur print",
+      "tone block print",
+      "renaissance woodcut with wash",
+      "three block woodcut",
+      "ugo da carpi",
+      "brown wash print",
+      "raphael print"
+    ],
+    "use_cases": [
+      "art book plates",
+      "museum and print-room editions",
+      "classical or historical illustration",
+      "wine and spirits labels with a heritage look"
+    ],
+    "avoid_when": [
+      "The image needs a full range of colours.",
+      "The design needs exact register of fine text."
+    ],
+    "modifiers": [
+      {
+        "request": "more graphic",
+        "toward": "woodcut-relief-print",
+        "how": "Drop the tone blocks, keep the key block and hatch the shadows with black lines."
+      },
+      {
+        "request": "more painterly",
+        "toward": "mezzotint-print",
+        "how": "Replace the stepped tones with a smooth rocked-plate tone in one dark ink."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1E1A17",
+      "options": [
+        "#1E1A17",
+        "#2A1F17",
+        "#3A2A1E"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E6D9B8",
+      "options": [
+        "#E6D9B8",
+        "#EADFC4",
+        "#DDCFAA"
+      ]
+    },
+    "ink_count": {
+      "default": 3,
+      "min": 2,
+      "max": 4
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Chiaroscuro woodcut",
+      "url": "https://en.wikipedia.org/wiki/Chiaroscuro_woodcut"
+    },
+    {
+      "title": "Wikipedia: Ugo da Carpi",
+      "url": "https://en.wikipedia.org/wiki/Ugo_da_Carpi"
+    }
+  ]
+}
