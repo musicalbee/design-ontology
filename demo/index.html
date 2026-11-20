@@ -252,6 +252,14 @@
     </div>
   </section>
 
+  <section class="domains" id="all" aria-labelledby="t-head">
+    <div class="wrap">
+      <div class="head"><div><h2 id="t-head">All styles</h2>
+        <p>Every style in one table. Sort on a column head, filter by any word, or narrow to one domain.</p></div></div>
+      <div id="all-styles"></div>
+    </div>
+  </section>
+
   <section class="across" aria-labelledby="a-head">
     <div class="wrap">
       <div class="head"><div><h2 id="a-head">Across the domains</h2>
@@ -264,6 +272,7 @@
     </div>
   </section>
 </main>
+<script>window.kitReady.then((Kit) => Kit.styleTable(document.getElementById("all-styles")));</script>
 <footer>
   <div class="wrap">
     <p>The preview pictures are generated with an open image model (FLUX.2 [klein] 4B, Apache-2.0). They show what a style looks like. They are not real works, real places or real brands. Type specimens are drawn from open fonts, and print proofs are drawn by code from the rules of each process.</p>
@@ -315,7 +324,7 @@ Promise.all([indexP, ...DOMAINS.map((d) => json(`previews/${d.id}/manifest.json`
   // The styles of a domain that have a preview picture.
   const pool = DOMAINS.map((d, i) => Object.entries({ ...manifests[i]?.proofs, ...manifests[i]?.images })
     .filter(([id, r]) => name[id] && r.file)
-    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: r.kind === "specimen" || r.kind === "press-proof" || r.kind === "swatch-board" || r.kind === "tile-board", n: r.frames?.length || 1, d })));
+    .map(([id, r]) => ({ id, name: name[id], src: `previews/${d.id}/${r.file}`, fit: ["specimen", "press-proof", "swatch-board", "tile-board", "lockup"].includes(r.kind ?? (String(r.file).startsWith("lockup/") ? "lockup" : "")), n: r.frames?.length || 1, d })));
 
   const count = (id) => skills.filter((s) => s.domain === id).length;
   $("facts").innerHTML = `<span><b>${skills.length}</b>styles</span><span><b>${DOMAINS.length}</b>domains</span>` +

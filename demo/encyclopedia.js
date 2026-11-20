@@ -94,7 +94,7 @@
     main.className = "enc";
     main.id = "stage";
     const tabs = [["preview", "Overview"], ...at("top").map((p) => [p.id, p.label]), ["structure", "Structure"], ["vectors", "Style vectors"], ["primer", "Prompt primer"],
-      ["peculiar", "Peculiarities"], ...at("end").map((p) => [p.id, p.label]), ["lineage", "Lineage and sources"]];
+      ["peculiar", "Peculiarities"], ...at("end").map((p) => [p.id, p.label]), ["travel", "Travel"], ["lineage", "Lineage and sources"]];
     main.innerHTML = `
       <header class="enc-head">
         <div class="enc-kicker"><span id="enc-domain"></span><span id="enc-n"></span></div>
@@ -114,6 +114,7 @@
       ${section("primer", "Prompt primer", "The words for an image model or a brief, the words to keep out, and the canonical works.")}
       ${section("peculiar", "Peculiarities", "What makes the style itself: the rules it keeps, what it refuses, when not to use it, and how to move it.")}
       ${at("end").map((p) => `<section class="enc-sec" id="sec-${p.id}" data-sec="${p.id}" aria-labelledby="h-${p.id}"><header><h2 id="h-${p.id}">${esc(p.label)}</h2>${p.lede ? `<p>${p.lede}</p>` : ""}</header><div id="enc-p-${p.id}"></div></section>`).join("")}
+      ${section("travel", "Travel", "Move from this style to its kin: the echoes in other domains, the neighbourhood two edges deep, the neighbourhood on a time line, and the paths to any other thing in the ontology.")}
       ${section("lineage", "Lineage and sources", "Where the style comes from, what it borrows, and the sources of the record.")}
       <footer class="enc-foot"><a id="enc-data">Style record (JSON)</a><a id="enc-skill">Skill file (SKILL.md)</a></footer>`;
     const mount = () => {
@@ -242,6 +243,24 @@
       $("enc-lineage").innerHTML = out.join("") || `<p class="enc-empty">No lineage edges or sources.</p>`;
     }
 
+    // Travel: the dense patterns of the demo kit (kit.js), drawn for the style on the page.
+    function travel(s) {
+      const el = $("enc-travel");
+      el.innerHTML = card("Echoes in other domains", `<div data-k="echoes"></div>`, "full") +
+        card("Neighbourhood", `<div data-k="legend"></div><div data-k="cloud" style="margin:12px auto 0"></div>`, "wide") +
+        card("Paths", `<p class="enc-cap" style="margin:0 0 10px">From this style to any style, person, org, material or process.</p><div data-k="paths"></div>`, "") +
+        card("The neighbourhood on a time line", `<div data-k="tl"></div>`, "full");
+      window.kitReady?.then((Kit) => {
+        if (styles[i]?.id !== s.id) return;
+        const q = (k) => el.querySelector(`[data-k="${k}"]`);
+        Kit.echoes(q("echoes"), s.id);
+        q("legend").innerHTML = Kit.legend();
+        Kit.cloud(q("cloud"), s.id, { hops: 2 });
+        Kit.pathFinder(q("paths"), { from: `s:${s.id}` });
+        Kit.hoodTimeline(q("tl"), s.id);
+      });
+    }
+
     function show(n) {
       i = (n + styles.length) % styles.length;
       const meta = styles[i];
@@ -254,7 +273,7 @@
         $("h-name").textContent = s.name;
         $("enc-meta").textContent = [s.time_period?.label, (s.aliases || []).join(", ")].filter(Boolean).join(" · ");
         $("h-thesis").textContent = s.philosophy?.core_thesis || s.summary || "";
-        glance(s, found); structure(s); vectors(s); primer(s); peculiar(s); lineage(s, found);
+        glance(s, found); structure(s); vectors(s); primer(s); peculiar(s); lineage(s, found); travel(s);
         for (const p of plugins) {
           const el = p.at === "preview" ? $("enc-preview") : $(`enc-p-${p.id}`);
           if (el) p.render(el, s, ctx);

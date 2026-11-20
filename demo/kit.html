@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo kit</title>
+<meta name="description" content="The one set of parts that every demo page uses: the style preview, the chips of the five kinds of thing, the canon tip, the select, the table, and the dense patterns for travel through the ontology.">
+<link rel="stylesheet" href="kit.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--k-bg); color: var(--k-ink); font: 15px/1.5 var(--k-font); }
+  main { max-width: 1180px; margin: 0 auto; padding: 32px 16px 80px; display: grid; gap: 40px; }
+  header h1 { margin: 0 0 6px; font-size: clamp(28px, 4vw, 40px); line-height: 1.1; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--k-muted); max-width: 70ch; }
+  section { display: grid; gap: 14px; min-width: 0; }
+  section > h2 { margin: 0; font-size: 20px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+  section > h2 code { font: 500 12px var(--k-mono); color: var(--k-faint); }
+  section > p { margin: 0; color: var(--k-muted); max-width: 75ch; }
+  .card { background: var(--k-card); border: 1px solid var(--k-line); border-radius: 14px; padding: 18px; min-width: 0; }
+  .row { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+  .grid figure { margin: 0; display: grid; gap: 6px; }
+  .grid figcaption { font-size: 13px; color: var(--k-muted); }
+  .tokens { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .tokens div { display: grid; grid-template-columns: 28px 1fr; gap: 8px; align-items: center; font-size: 12px; }
+  .tokens i { width: 28px; height: 28px; border-radius: 6px; background: var(--c); box-shadow: inset 0 0 0 1px rgb(0 0 0 / .08); }
+  .tokens code { font: 11px var(--k-mono); color: var(--k-faint); display: block; }
+  .prose a { color: var(--k-accent); }
+  .two { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); align-items: start; }
+  .k-chips + .k-kind { margin-top: 12px; }
+  label.inline { display: inline-flex; gap: 8px; align-items: center; color: var(--k-muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<script src="nav.js"></script>
+<main>
+  <header>
+    <h1>Demo kit</h1>
+    <p>One set of parts for every page of the demo. A page gets the tip, the select and the person and org links with no edit, because <code>nav.js</code> loads the kit. The other parts are calls on <code>window.Kit</code>.</p>
+  </header>
+
+  <section aria-labelledby="h-tokens">
+    <h2 id="h-tokens">Tokens <code>kit.css :root</code></h2>
+    <p>The ground, the ink and one accent are the same as the top bar. Each kind of thing has its own colour, and so does each kind of edge between styles.</p>
+    <div class="card tokens" id="g-tokens"></div>
+  </section>
+
+  <section aria-labelledby="h-preview">
+    <h2 id="h-preview">Style preview <code>Kit.preview(id, { size })</code></h2>
+    <p>Each preview is a 3:2 frame. A photograph fills the frame. A board (a specimen, a press proof, a swatch board, a logo lockup) sits whole on white, so that no part of it is cut. <code>graph/kit.json</code> gives the file and the fit for each of the 500 styles.</p>
+    <div class="card grid" id="g-previews"></div>
+    <div class="card row" id="g-sizes"></div>
+  </section>
+
+  <section aria-labelledby="h-chips">
+    <h2 id="h-chips">Chips <code>Kit.style · person · org · material · process</code></h2>
+    <p>One shape for the five kinds of thing. The media on the left says the kind: a preview for a style, a portrait for a person, an emblem for an org, a photo or a swatch for a material, a letter for a process. Hover or focus a chip to see its tip.</p>
+    <div class="card" id="g-chips"></div>
+  </section>
+
+  <section aria-labelledby="h-tip">
+    <h2 id="h-tip">Canon tip <code>automatic</code></h2>
+    <p>The kit reads the href of each link on the page. A link to a style page, to a material or to a process gets the tip. A link to a person or an org gets the tip of <code>faces.js</code> or <code>orgs.js</code>. These are plain links, with no attribute:</p>
+    <div class="card prose" id="g-plain"></div>
+  </section>
+
+  <section aria-labelledby="h-select">
+    <h2 id="h-select">Select <code>automatic</code></h2>
+    <p>Each <code>&lt;select&gt;</code> is as wide as its chosen option. Pick a long option to see the box grow.</p>
+    <div class="card row">
+      <label class="inline">Domain <select id="g-sel-dom"></select></label>
+      <label class="inline">Sort <select><option>Name</option><option>Start year, oldest first</option><option>Number of echoes in other domains</option></select></label>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-table">
+    <h2 id="h-table">Table <code>Kit.table(el, { columns, rows, facet })</code></h2>
+    <p>Sort on each column head (a second click turns the order). The filter box looks in each column, and the facet narrows to one domain. A page table that is plain HTML gets the same with <code>Kit.sortable(table)</code>.</p>
+    <div id="g-table"></div>
+  </section>
+
+  <section aria-labelledby="h-tl">
+    <h2 id="h-tl">Time line <code>Kit.timeline(el, items)</code></h2>
+    <p>One lane for each style, a bar for its period, a dot for each milestone of its people. Here: Bauhaus and every style one hop away from it.</p>
+    <div class="card" id="g-tl"></div>
+  </section>
+
+  <section aria-labelledby="h-echo">
+    <h2 id="h-echo">Echoes <code>Kit.echoes(el, id)</code></h2>
+    <p>Kin across domains: the styles that share a look with this one, one column for each domain.</p>
+    <div class="card"><label class="inline">Style <select id="g-echo-pick"></select></label><div id="g-echo" style="margin-top:14px"></div></div>
+  </section>
+
+  <section aria-labelledby="h-cloud">
+    <h2 id="h-cloud">Graph cloud <code>Kit.cloud(el, id, { hops })</code></h2>
+    <p>The neighbourhood of one style, ring by ring. The first ring is one hop away, the second ring two hops. Hover a node to light its edges. Click a node to go to its page.</p>
+    <div class="card"><div class="row" style="justify-content:space-between"><label class="inline">Centre <select id="g-cloud-pick"></select></label><span id="g-legend"></span></div><div id="g-cloud" style="margin:12px auto 0"></div></div>
+  </section>
+
+  <section aria-labelledby="h-paths">
+    <h2 id="h-paths">Multi-hop paths <code>Kit.paths(el, from, to) · Kit.pathFinder(el)</code></h2>
+    <p>The shortest routes between two things over the whole ontology: styles, people, orgs, materials and processes. Each hop says what the edge is.</p>
+    <div class="card" id="g-paths"></div>
+  </section>
+</main>
+<script src="kit.js"></script>
+<script>
+(async () => {
+  const D = await Kit.load("kit", "lineage", "people", "orgs", "materials");
+  const $ = (s) => document.querySelector(s), esc = Kit.esc;
+
+  // Tokens: read from :root, so the page shows what the file says.
+  const css = getComputedStyle(document.documentElement);
+  const TOK = ["bg", "card", "sunk", "ink", "muted", "faint", "line", "line-strong", "accent", "focus", "style", "person", "org", "material", "process", "e-evolved", "e-rebelled", "e-hybrid", "e-echoes", "e-sub"];
+  $("#g-tokens").innerHTML = TOK.map((t) => `<div><i style="--c:var(--k-${t})"></i><span>${t}<code>${css.getPropertyValue(`--k-${t}`).trim()}</code></span></div>`).join("");
+
+  // Previews: photographs and boards side by side, the boards first, so the one frame shows.
+  const ids = Object.keys(D.style);
+  const boards = ids.filter((i) => D.style[i].fit === "contain");
+  const pick = [boards[0], "bauhaus", boards[3], "memphis-design", boards[8], "art-nouveau-architecture", boards[14], "swiss-international"].filter((i) => D.style[i]);
+  $("#g-previews").innerHTML = pick.map((i) => `<figure><a href="${Kit.href.style(i)}">${Kit.preview(i, { size: "lg" })}</a><figcaption>${esc(D.style[i].name)} · ${D.style[i].fit}</figcaption></figure>`).join("");
+  $("#g-sizes").innerHTML = ["xs", "sm", "md"].map((s) => `<figure style="margin:0;display:grid;gap:4px">${Kit.preview("bauhaus", { size: s })}<code style="font-size:11px">${s}</code></figure>`).join("");
+
+  // Chips of each kind.
+  const people = ["walter-gropius", "ettore-sottsass", "william-morris", "leonardo-da-vinci"];
+  const orgs = ["bauhaus-school", "memphis-group", "ecole-des-beaux-arts", "brooks-brothers"];
+  const mats = ["seaweed", "agar", ...D.$materials.materials.filter((m) => m.photo && D.matStyles[m.id]?.length > 6).slice(0, 4).map((m) => m.id)];
+  const procs = D.$materials.processes.filter((p) => (D.procStyles[p.process] || []).length > 3).slice(0, 5).map((p) => p.process);
+  const row = (k, list, f) => `<div class="k-kind" data-k="${k}">${k}</div><div class="k-chips" style="margin-top:6px">${list.map((x) => f(x)).join("")}</div>`;
+  $("#g-chips").innerHTML = row("style", ["bauhaus", "memphis-design", "swiss-international", boards[1]], Kit.style) +
+    row("person", people, (id) => Kit.person(id, { style: "bauhaus" })) + row("org", orgs, Kit.org) + row("material", mats, Kit.material) + row("process", procs, Kit.process);
+
+  // Plain links.
+  const m0 = mats[2], p0 = procs[0];
+  $("#g-plain").innerHTML = `<p style="margin:0">The <a href="graphic-movement.html#bauhaus">Bauhaus</a> took the grid from <a href="graphic-movement.html#swiss-international">Swiss International</a>'s neighbours. Its school was <a href="orgs.html#bauhaus-school">the Bauhaus</a>, founded by <a href="people.html#walter-gropius">Walter Gropius</a>. ` +
+    `Materials and processes get the same tip: <a href="materials.html#m=${m0}">${esc(D.material[m0].name)}</a>, <a href="materials.html#p=${p0}">${esc(D.process[p0].name)}</a>.</p>`;
+  // The domain of Bauhaus may differ from the guess above; fix the href from the data so the link is true.
+  for (const a of $("#g-plain").querySelectorAll('a[href^="graphic-movement.html#"]')) { const id = a.getAttribute("href").split("#")[1]; if (D.style[id]) a.setAttribute("href", `${D.style[id].domain}.html#${id}`); }
+
+  // Selects.
+  const doms = D.$lineage.domains;
+  $("#g-sel-dom").innerHTML = `<option value="">All</option>` + doms.map((d) => `<option>${esc(d.name)}</option>`).join("");
+  const opts = (sel, list, v) => { sel.innerHTML = list.map((i) => `<option value="${i}"${i === v ? " selected" : ""}>${esc(D.style[i].name)}</option>`).join(""); };
+
+  // Table of all styles.
+  const adj = D.$lineage.adjacency;
+  Kit.styleTable($("#g-table"), { height: "460px" });
+
+  // Time line: Bauhaus and its first ring.
+  Kit.hoodTimeline($("#g-tl"), "bauhaus");
+
+  // Echoes and cloud, each with a select of the styles that have the most echoes.
+  const rich = ids.filter((i) => (adj[i]?.echoes || []).length >= 4).sort((a, b) => D.style[a].name.localeCompare(D.style[b].name));
+  opts($("#g-echo-pick"), rich, "bauhaus");
+  opts($("#g-cloud-pick"), ids.slice().sort((a, b) => D.style[a].name.localeCompare(D.style[b].name)), "bauhaus");
+  const echo = () => Kit.echoes($("#g-echo"), $("#g-echo-pick").value);
+  const cl = () => Kit.cloud($("#g-cloud"), $("#g-cloud-pick").value, { hops: 2 });
+  $("#g-echo-pick").addEventListener("change", echo);
+  $("#g-cloud-pick").addEventListener("change", cl);
+  echo(); cl();
+  $("#g-legend").innerHTML = Kit.legend();
+
+  // Paths.
+  Kit.pathFinder($("#g-paths"), { from: "p:walter-gropius", to: "s:memphis-design" });
+})();
+</script>
+</body>
+</html>
