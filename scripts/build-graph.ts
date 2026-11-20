@@ -6,6 +6,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { EVIDENCE_WEIGHT, loadCues, loadEmotions, loadEvokes, loadMoments } from "./emotions.js";
 import { loadLayer, styleLinks } from "./materials.js";
+import { processFile } from "./material-photo-text.js";
 import { ROOT, loadAll, loadDesignSystems, loadDomains, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadTechniques, nearest, write, type Style } from "./lib.js";
 
 type EdgeType = "EVOLVED_FROM" | "REBELLED_AGAINST" | "HYBRIDIZED_WITH" | "ECHOES" | "SUBGENRE_OF";
@@ -364,6 +365,7 @@ const M = loadLayer();
 if (M.byId.size) {
   const { links, processes, unmatched } = styleLinks(M);
   const photo = (id: string) => (existsSync(join(ROOT, "demo", "materials", "photos", `${id}.webp`)) ? `materials/photos/${id}.webp` : null);
+  const procPhoto = (key: string) => (existsSync(join(ROOT, "demo", "materials", "processes", processFile(key))) ? `materials/processes/${processFile(key)}` : null);
   const procNames = new Map<string, string>();
   const procNotes = new Map<string, string>();
   for (const t of techniques) procNames.set(`technique:${t.id}`, t.name);
@@ -380,7 +382,7 @@ if (M.byId.size) {
         classes: M.classes.map(({ data: c }) => ({ id: c.class, name: c.name, summary: c.summary, families: c.families })),
         materials: [...M.byId.values()].map((m) => ({ ...m, photo: photo(m.id) })),
         tools: [...M.tools.values()],
-        processes: M.edges.map(({ edge }) => ({ ...edge, name: procNames.get(edge.process) ?? edge.process, ...(procNotes.has(edge.process) ? { note: procNotes.get(edge.process) } : {}) })),
+        processes: M.edges.map(({ edge }) => ({ ...edge, name: procNames.get(edge.process) ?? edge.process, photo: procPhoto(edge.process), ...(procNotes.has(edge.process) ? { note: procNotes.get(edge.process) } : {}) })),
         styles: Object.fromEntries(styles.map((s) => [s.id, { name: s.name, domain: s.domain }])),
         style_materials: links,
         style_processes: processes.filter((p) => procNames.has(p.process)),

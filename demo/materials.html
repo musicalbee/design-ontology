@@ -202,6 +202,7 @@ function showProcess(key) {
   $("#detail").innerHTML = `
     <h2>${esc(p.name)}</h2>
     <div class="meta">${esc(GROUPS[group])}${group === "technique" ? ` · <a href="techniques.html#${id}">on the time line</a>` : ""}</div>
+    ${p.photo ? `<div class="hero"><img src="${p.photo}" alt="${esc(p.name)}, photograph of the process" onerror="this.parentNode.remove()"></div>` : ""}
     ${p.note ? `<p>${esc(p.note)}</p>` : ""}
     ${row("Acts on", p.acts_on)}${row("Adds", p.adds)}${row("Makes", p.makes)}
     ${tools.length ? `<h3>Tools</h3>${tools.map((t) => `<p><b>${esc(t.name)}</b>: ${esc(t.summary)}</p>`).join("")}` : ""}

@@ -6,3 +6,6 @@ export const photoPrompt = (subject: string) =>
 
 export const photoExpect = (m: Material) =>
   `${m.name}, shown as ${m.photo ?? m.name.toLowerCase()}${m.summary ? `. ${m.summary}` : ""}`;
+
+// The file name of the photo of a process: "cuisine.methods:grilling" → "cuisine.methods--grilling.webp".
+export const processFile = (key: string) => `${key.replace(":", "--")}.webp`;
