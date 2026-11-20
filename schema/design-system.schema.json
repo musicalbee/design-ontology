@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-ontology.dev/schema/design-system.schema.json",
+  "title": "Design system",
+  "description": "One real design system, brand manual or UI kit, linked to the styles that it embodies. Record only what a source states. Leave a field out when no source gives it. Do not guess. Do not copy logos or brand artwork: facts and tokens only.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "kind", "owner", "first_release", "licence", "url", "styles", "sources"],
+  "$defs": {
+    "hex": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$" },
+    "px": { "type": "number", "minimum": 0, "maximum": 4096 },
+    "pxList": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/px" } },
+    "year": { "type": "integer", "minimum": 1900, "maximum": 2100 }
+  },
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "$ref": "core.schema.json#/$defs/slug" },
+    "name": { "$ref": "core.schema.json#/$defs/shortText" },
+    "kind": {
+      "enum": ["design-system", "brand-manual", "ui-kit"],
+      "description": "design-system: a maintained system of tokens, components and rules (Material, Carbon). brand-manual: the identity rules of one brand. ui-kit: a community or vendor kit of components in one style."
+    },
+    "owner": {
+      "oneOf": [{ "$ref": "core.schema.json#/$defs/slug" }, { "type": "null" }],
+      "description": "An org id from data/orgs/. Null when no organisation owns it."
+    },
+    "people": {
+      "$ref": "core.schema.json#/$defs/refList",
+      "description": "Person ids from data/people/ that a source names as authors or leads."
+    },
+    "first_release": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["year"],
+      "properties": {
+        "year": { "$ref": "#/$defs/year" },
+        "circa": { "type": "boolean", "description": "True when the source gives the year only about." }
+      }
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "year"],
+        "properties": { "name": { "$ref": "core.schema.json#/$defs/shortText" }, "year": { "$ref": "#/$defs/year" } }
+      }
+    },
+    "licence": { "type": "string", "minLength": 2, "maxLength": 120, "description": "The licence of the system itself, as the source states it. Use \"proprietary\" when the source says so." },
+    "url": { "type": "string", "pattern": "^https://" },
+    "tokens": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Values that a source states. Colour roles are free names in kebab-case. Common roles: primary, on-primary, secondary, accent, bg, surface, on-surface, border, muted, success, warning, danger, info.",
+      "properties": {
+        "color": {
+          "type": "object",
+          "propertyNames": { "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "additionalProperties": { "$ref": "#/$defs/hex" }
+        },
+        "type": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "families": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 80 } },
+            "scale": { "$ref": "#/$defs/pxList" }
+          }
+        },
+        "space": { "$ref": "#/$defs/pxList" },
+        "radius": { "$ref": "#/$defs/pxList" },
+        "shadow": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+        "motion": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "duration_ms": { "type": "number", "minimum": 0, "maximum": 10000 },
+            "easing": { "type": "string", "minLength": 1, "maxLength": 120 }
+          }
+        }
+      }
+    },
+    "components": { "type": "array", "uniqueItems": true, "items": { "$ref": "core.schema.json#/$defs/shortText" } },
+    "principles": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 3, "maxLength": 200 } },
+    "styles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["style", "relation"],
+        "properties": {
+          "style": { "$ref": "core.schema.json#/$defs/slug" },
+          "relation": {
+            "enum": ["embodies", "defined", "derived-from", "inspired"],
+            "description": "embodies: the system is a clear instance of the style. defined: the system set the style (it is the origin). derived-from: the system took the style from an earlier one. inspired: the system borrows some traits of the style."
+          }
+        }
+      }
+    },
+    "sources": { "$ref": "core.schema.json#/$defs/sources" }
+  }
+}

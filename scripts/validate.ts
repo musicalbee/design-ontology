@@ -18,7 +18,7 @@ import { checkCeramicsStyle, checkCeramicsVocabulary, loadCeramicsVocabulary, ty
 import { checkCuisineStyle, checkCuisineVocabulary, loadCuisineVocabulary, type CuisineStyle } from "./cuisine.js";
 import { loadCues, loadEmotions, loadEvokes, loadKeywordMap, loadMoments } from "./emotions.js";
 import { checkLayer, loadEdgeFiles, loadLayer, loadMaterialClasses } from "./materials.js";
-import { ROOT, loadDomains, loadEras, loadFunding, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
+import { ROOT, loadDomains, loadEras, loadFunding, loadDesignSystems, loadOrgs, loadPeople, loadPrinciples, loadStyleFiles, loadTechniques, principleRefs, readJson, type Style } from "./lib.js";
 
 const schemaOnly = process.argv.includes("--schema-only");
 const errors: string[] = [];
@@ -348,6 +348,24 @@ for (const { file, slug, org: m } of orgs) {
 }
 
 
+// The design-systems layer: real design systems, brand manuals and UI kits, linked to styles, orgs and people.
+const validateDs = ajv.compile(readJson<object>(join(ROOT, "schema", "design-system.schema.json")));
+const designSystems = loadDesignSystems();
+for (const { file, slug, ds } of designSystems) {
+  if (!validateDs(ds)) {
+    for (const e of validateDs.errors ?? []) errors.push(`${file}: ${e.instancePath || "/"} ${e.message}`);
+    continue;
+  }
+  if (ds.id !== slug) errors.push(`${file}: id "${ds.id}" is not equal to the file name`);
+  if (ds.owner !== null && !orgIds.has(ds.owner)) errors.push(`${file}: owner "${ds.owner}" is not in data/orgs/`);
+  for (const p of ds.people ?? []) if (!personIds.has(p)) errors.push(`${file}: person "${p}" is not in data/people/`);
+  if (new Set(ds.styles.map((s) => s.style)).size !== ds.styles.length) errors.push(`${file}: a style is listed more than once`);
+  for (const s of ds.styles) if (!schemaOnly && !byId.has(s.style)) errors.push(`${file}: style "${s.style}" does not exist`);
+  for (const v of ds.versions ?? []) if (v.year < ds.first_release.year) errors.push(`${file}: version "${v.name}" (${v.year}) is before first_release (${ds.first_release.year})`);
+  if (!ds.sources.some((x) => x.url)) errors.push(`${file}: no source has a url`);
+}
+
+
 // The emotions layer: terms (AESTHEMOS + culture words) and evokes edges with evidence.
 const validateEmotion = ajv.compile(readJson<object>(join(ROOT, "schema", "emotion.schema.json")));
 const validateEvokes = ajv.compile(readJson<object>(join(ROOT, "schema", "evokes.schema.json")));
@@ -506,6 +524,6 @@ for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(
   `${count} styles in ${domains.length} domains · ${principles.length} principles · ${techniques.length} techniques · ${people.length} people · ${errors.length} errors · ${warnings.length} warnings` +
-    ` · ${materialLayer.byId.size} materials · ${materialLayer.edges.length} process edges · ${orgs.length} orgs · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced) · ${cues.length} cues · ${moments.length} moments` + curation + (schemaOnly ? " · schema only" : ""),
+    ` · ${materialLayer.byId.size} materials · ${materialLayer.edges.length} process edges · ${orgs.length} orgs · ${designSystems.length} design systems · ${funding.length} funding flows · ${nets.length} object nets · ${emotions.length} emotions · ${evokesEdges} evokes edges (${evokesSourced} sourced) · ${cues.length} cues · ${moments.length} moments` + curation + (schemaOnly ? " · schema only" : ""),
 );
 process.exit(errors.length ? 1 : 0);
