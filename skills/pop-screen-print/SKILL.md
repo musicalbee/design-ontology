@@ -184,9 +184,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **softer and transparent**: move toward [`risograph-print`](../risograph-print/SKILL.md) (Risograph print). Print 2–3 transparent riso inks with a grain screen; let them mix where they overlap.
 
 - **Came from (go here for a more orthodox version):** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md)
-- **Mixes well with:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md)
+- **Led to (go here for a newer version):** [`chicha-poster`](../chicha-poster/SKILL.md)
+- **Mixes well with:** [`cuban-solidarity-silkscreen-poster`](../cuban-solidarity-silkscreen-poster/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md)
 - **Kin in another domain:** [`logomania`](../logomania/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md)
-- **Nearest by vector profile:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`risograph-print`](../risograph-print/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
+- **Nearest by vector profile:** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`linocut-print`](../linocut-print/SKILL.md), [`chiaroscuro-woodcut-print`](../chiaroscuro-woodcut-print/SKILL.md)
 
 ## Emotional target
 

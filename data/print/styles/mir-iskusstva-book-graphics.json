@@ -1,0 +1,276 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "mir-iskusstva-book-graphics",
+  "domain": "print",
+  "name": "Mir iskusstva book graphics",
+  "aliases": [
+    "Bilibin style",
+    "World of Art book graphics",
+    "Графика Билибина",
+    "Мир искусства"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1899,
+    "end": 1930,
+    "label": "1899–1930"
+  },
+  "region": "St Petersburg, Russia",
+  "summary": "A firm, even black pen outline, in the manner of a woodcut, is filled with flat watercolour tints. The key line and the tints print in separate runs. Folk ornament frames each page.",
+  "philosophy": {
+    "core_thesis": "A single firm line and flat tints, set inside an ornamental frame, make a fairy-tale page that reads as a unit with its border and letters.",
+    "design_principles": [
+      "Draw the outline with a pen in one even weight of about 0.4–0.6 mm at print size; do not swell or taper it.",
+      "Fill each area with one flat tint, with no shading; use 3–6 tints from a set of vermilion, Prussian blue, ochre and green.",
+      "Treat wood, fur, cloth and water as repeated patterns of short strokes inside the contour.",
+      "Frame each picture with a border of folk ornament, and draw the title letters by hand to match.",
+      "Draw the picture, the border and the text block as one page.",
+      "Print the black line as the key and the tints as separate runs; keep the register within 0.5 mm.",
+      "Use a smooth cream paper that shows the flat colour without a texture."
+    ],
+    "anti_patterns": [
+      "Shaded or modelled forms and a gradient",
+      "A sketchy, loose line of changing weight",
+      "A picture with no border and no hand lettering",
+      "Photographic realism",
+      "A bright white or coated glossy sheet"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "A zinc plate or a stone for the black key line, and a stone for each tint.",
+    "press": "A flatbed lithographic press at a state printing works, with one run for each colour.",
+    "image_making": "The artist draws the outline in ink and paints a colour guide in watercolour. A craftsman separates the tints and draws each one on its own stone.",
+    "edition": "Thousands of copies of a tale book; the copies match."
+  },
+  "inks": {
+    "strategy": "Black key line plus a set of flat, transparent tints that overprint where two meet.",
+    "ink_count_min": 3,
+    "ink_count_max": 6,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#1D1B1A",
+        "role": "the contour, the pattern strokes and the letters"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#BF3B27",
+        "role": "flat tint for cloth and accents"
+      },
+      {
+        "name": "Prussian blue",
+        "hex": "#2F4B73",
+        "role": "flat tint for sky, water and cloth"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#CFA14A",
+        "role": "flat tint for gold and wood"
+      },
+      {
+        "name": "Green",
+        "hex": "#4F7B54",
+        "role": "flat tint for plants and cloth"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make no tone. Fill each area with one flat tint inside the line, and use the bare paper for light."
+  },
+  "registration": {
+    "tolerance_mm": 0.6,
+    "trap_mm": 0.3,
+    "rule": "The tints register to the key line within 0.5 mm. Print each tint under the line, or let it overlap the line by 0.3 mm."
+  },
+  "substrate": {
+    "stock": "A smooth book paper, cream, with a hard surface for fine lines.",
+    "weight_gsm_min": 90,
+    "weight_gsm_max": 150,
+    "ground": "#EADFC4",
+    "finish": "Smooth and matt or with a light coat; the paper yellows at the edge."
+  },
+  "surface": {
+    "impression": "No bite; a thin, flat film of ink on the surface.",
+    "sheen": "Matt to satin; the black is dense and the tints are soft.",
+    "texture": "Clean, even lines and flat tints with a slight grain from the stone."
+  },
+  "artefacts": {
+    "marks": [
+      "even unmodulated outline",
+      "flat tints inside contours",
+      "ornamental borders in folk style",
+      "hand-drawn Cyrillic title lettering",
+      "small tint gaps at line edges",
+      "tint overlap that makes a third colour"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Bilibin book illustration",
+      "firm black pen outline",
+      "flat watercolour tints",
+      "Russian fairy-tale ornament",
+      "folk border pattern",
+      "1900s tale book",
+      "chromolithograph colours",
+      "stylised wood and fur patterns"
+    ],
+    "negative": [
+      "photorealistic",
+      "gradient shading",
+      "3D render",
+      "modern vector",
+      "sketchy loose line"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Illustration for the book Under the Arches",
+      "kind": "image",
+      "maker": "Ivan Bilibin",
+      "year": 1907,
+      "credit": "Wikimedia Commons (public domain, Ivan Bilibin)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_Bilibin_-_illustration-for-the-book-under-the-arches-19071.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ivan_Bilibin_-_illustration-for-the-book-under-the-arches-19071.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Illustration for the magazine Bogey",
+      "kind": "image",
+      "maker": "Ivan Bilibin",
+      "year": 1905,
+      "credit": "Wikimedia Commons (public domain, Ivan Bilibin)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_Bilibin_-_illustration-for-the-magazine-bogey-19051.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ivan_Bilibin_-_illustration-for-the-magazine-bogey-19051.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Illustration for the epic Volga",
+      "kind": "image",
+      "maker": "Ivan Bilibin",
+      "year": 1904,
+      "credit": "Wikimedia Commons (public domain, Ivan Bilibin)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_Bilibin_-_illustration-for-the-epic-volga-19041.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ivan_Bilibin_-_illustration-for-the-epic-volga-19041.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "russian-lubok-print",
+      "chromolithograph-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "art-nouveau-object"
+    ]
+  },
+  "emotion": {
+    "target_response": "Ordered wonder: the viewer enters a fairy tale that is drawn with care, framed like an icon and calm in its colour.",
+    "keywords": [
+      "folkloric",
+      "ornamental",
+      "storybook",
+      "ordered",
+      "nostalgic"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "bilibin",
+      "russian fairy tale illustration",
+      "mir iskusstva",
+      "world of art",
+      "folk ornament border",
+      "tale book illustration",
+      "pen outline with flat colour",
+      "slavic folk illustration"
+    ],
+    "use_cases": [
+      "children's and fairy-tale books",
+      "theatre and opera programmes",
+      "food and craft packaging",
+      "heritage and folk-art branding"
+    ],
+    "avoid_when": [
+      "The picture needs depth, shading or a modern look.",
+      "The line must be loose, rough or hand-sketched."
+    ],
+    "modifiers": [
+      {
+        "request": "rougher and more folk",
+        "toward": "russian-lubok-print",
+        "how": "Cut the outline in thick wood lines, let the hand colour shift from the line, and drop the ornamental border."
+      },
+      {
+        "request": "darker and more heraldic",
+        "toward": "narbut-ukrainian-graphics",
+        "how": "Use dense black fills and Baroque capitals; keep one flat red or ochre tint."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1D1B1A",
+      "options": [
+        "#1D1B1A",
+        "#2A2018"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EADFC4",
+      "options": [
+        "#EADFC4",
+        "#F2E8D0",
+        "#E2D6BA"
+      ]
+    },
+    "ink_count": {
+      "default": 5,
+      "min": 3,
+      "max": 6
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0,
+      "note": "The style makes no tone; the screen stays at zero."
+    },
+    "misregistration": {
+      "default": 0.6,
+      "min": 0.2,
+      "max": 1
+    }
+  },
+  "sources": [
+    {
+      "title": "Ivan Bilibin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ivan_Bilibin"
+    },
+    {
+      "title": "Билибин, Иван Яковлевич (ru.wikipedia)",
+      "url": "https://ru.wikipedia.org/wiki/Билибин,_Иван_Яковлевич"
+    },
+    {
+      "title": "Mir iskusstva (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mir_iskusstva"
+    }
+  ]
+}

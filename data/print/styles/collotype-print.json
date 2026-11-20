@@ -1,0 +1,239 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "collotype-print",
+  "domain": "print",
+  "name": "Collotype",
+  "aliases": [
+    "Lichtdruck (German)",
+    "phototypie (French)",
+    "Albertype"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1855,
+    "end": 1960,
+    "label": "1855–1960"
+  },
+  "region": "Paris, Munich, London",
+  "summary": "A glass or metal plate is coated with light-hardened gelatin, which swells with water to take ink in proportion to tone. The print has continuous tone with only a fine reticulation, and is often a warm brown or black on matt paper.",
+  "philosophy": {
+    "core_thesis": "A light-hardened gelatin film that takes ink in proportion to tone prints a photograph with true continuous tone and no dot screen.",
+    "design_principles": [
+      "Expose a gelatin film under a negative, so that the hardened parts take ink and the soft parts take water.",
+      "Print the film on a flat-bed press, damped and rolled up with ink before each sheet.",
+      "Show the tone as a fine, random reticulation grain, finer than a halftone dot.",
+      "Print in a brown-black or black monotone on matt paper; use more plates for a colour print.",
+      "Keep the edition under 2,000 sheets; the gelatin wears and the black weakens.",
+      "Print the picture with no plate mark and a clean margin."
+    ],
+    "anti_patterns": [
+      "A regular halftone dot",
+      "Glossy coated paper",
+      "Saturated process colour",
+      "A hard vector edge",
+      "A plate mark or an emboss"
+    ]
+  },
+  "vectors": {
+    "tone_method": 5,
+    "ink_layering": 2,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 1
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "Gelatin-coated glass or zinc plate",
+    "press": "Flat-bed lithographic or special collotype press",
+    "image_making": "Gelatin exposed under a negative; wet; rolled up with ink",
+    "edition": "Under 2,000 (the gelatin wears)"
+  },
+  "inks": {
+    "strategy": "One black or brown-black ink; a colour print adds up to three transparent inks, each from its own gelatin plate.",
+    "ink_count_min": 1,
+    "ink_count_max": 4,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Collotype black",
+        "hex": "#2B2724",
+        "role": "key ink"
+      },
+      {
+        "name": "Brown-black",
+        "hex": "#4A3A2D",
+        "role": "alternate monotone"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 200,
+    "rule": "Make the tone from the natural reticulation of the gelatin, which is finer than a 200 lines an inch screen."
+  },
+  "registration": {
+    "tolerance_mm": 0.3,
+    "rule": "Plates for a colour print register within 0.3 mm; a single-ink print needs no register."
+  },
+  "substrate": {
+    "stock": "Matt coated or uncoated art paper, cream.",
+    "weight_gsm_min": 100,
+    "weight_gsm_max": 170,
+    "ground": "#E5DDC8",
+    "finish": "Matt, with an even surface that takes a thin ink film."
+  },
+  "surface": {
+    "impression": "None; the ink lies flat on the sheet.",
+    "sheen": "Matt, a little weak in the black.",
+    "texture": "A fine, irregular reticulation grain, and soft, continuous mid-tones."
+  },
+  "artefacts": {
+    "marks": [
+      "fine irregular reticulation grain",
+      "soft continuous mid-tones",
+      "no plate mark",
+      "slightly weak black"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "collotype print",
+      "continuous tone gelatin print",
+      "fine reticulation grain",
+      "matt paper",
+      "early photographic plate",
+      "sepia brown monotone",
+      "Muybridge plate",
+      "no halftone dots"
+    ],
+    "negative": [
+      "halftone dots",
+      "glossy",
+      "saturated colour",
+      "vector",
+      "woodcut"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Cockatoo flying, Animal Locomotion plate 758",
+      "kind": "image",
+      "maker": "Eadweard Muybridge",
+      "year": 1887,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Eadweard_Muybridge,_Cockatoo_flying,_1887,_Collotype_process,_Animal_Locomotion_collection,_plate_758.gif",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/31/Eadweard_Muybridge%2C_Cockatoo_flying%2C_1887%2C_Collotype_process%2C_Animal_Locomotion_collection%2C_plate_758.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "A naked man walking, collotype after Muybridge",
+      "kind": "image",
+      "maker": "Eadweard Muybridge",
+      "year": 1887,
+      "credit": "Wellcome Collection, via Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:A_naked_man_walking._Collotype_after_Muybridge,_1887._Wellcome_L0075728.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/A_naked_man_walking._Collotype_after_Muybridge%2C_1887._Wellcome_L0075728.jpg/960px-A_naked_man_walking._Collotype_after_Muybridge%2C_1887._Wellcome_L0075728.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "chromolithograph-poster"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Quiet, scientific detail: the viewer sees a photograph as a record, in warm and soft tone.",
+    "keywords": [
+      "continuous",
+      "archival",
+      "soft",
+      "scientific",
+      "matt"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "collotype",
+      "lichtdruck",
+      "albertype",
+      "gelatin plate print",
+      "continuous tone print",
+      "muybridge plate",
+      "reticulation grain",
+      "phototypie"
+    ],
+    "use_cases": [
+      "archive and museum catalogues",
+      "scientific and travel books",
+      "limited-edition photographic portfolios",
+      "period postcards and plates"
+    ],
+    "avoid_when": [
+      "The design needs a high-contrast digital photo.",
+      "The image needs bright colour."
+    ],
+    "modifiers": [
+      {
+        "request": "richer black",
+        "toward": "photogravure-print",
+        "how": "Print the photograph from an etched copper plate with an aquatint grain, and add a plate mark."
+      },
+      {
+        "request": "more colour",
+        "toward": "chromolithograph-poster",
+        "how": "Move to several lithographic stones with flat colour and a key plate."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2B2724",
+      "options": [
+        "#2B2724",
+        "#4A3A2D",
+        "#1F2A36"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E5DDC8",
+      "options": [
+        "#E5DDC8",
+        "#EDE6D2",
+        "#D9CFB4"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 4
+    },
+    "screen_ruling": {
+      "default": 200,
+      "min": 150,
+      "max": 280
+    },
+    "misregistration": {
+      "default": 0.3,
+      "min": 0,
+      "max": 0.6
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Collotype",
+      "url": "https://en.wikipedia.org/wiki/Collotype"
+    },
+    {
+      "title": "Wikipedia: Eadweard Muybridge",
+      "url": "https://en.wikipedia.org/wiki/Eadweard_Muybridge"
+    }
+  ]
+}

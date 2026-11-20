@@ -1,0 +1,265 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "surimono-print",
+  "domain": "print",
+  "name": "Surimono privately published print",
+  "aliases": [
+    "Surimono",
+    "摺物",
+    "Kyoka surimono",
+    "Poem-greeting print"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1790,
+    "end": 1840,
+    "label": "1790s–1830s"
+  },
+  "region": "Edo and Osaka, Japan",
+  "summary": "Poetry clubs paid for small woodblock prints as New Year cards and as notices of events. The patrons paid, so the printers used costly pigment, metal dust, embossing and burnish on thick paper.",
+  "philosophy": {
+    "core_thesis": "A print made for a closed circle of friends, not for the market, can spend its whole cost on material and on fine cut.",
+    "design_principles": [
+      "Print a small sheet, square or oblong, about 130–210 mm on a side.",
+      "Write the verse in calligraphy beside the image, and let it share the space with the picture.",
+      "Choose a still life of fans, shells, fruit or flowers that carries a pun or a seasonal sign for the poem.",
+      "Sprinkle gold or silver dust, or print mica, on 5–20 percent of the picture, for light and water.",
+      "Press a bare block (karazuri) into the sheet to raise a feather, a petal or a pattern.",
+      "Burnish the black areas with a baren until they shine.",
+      "Cut each outline finer than a commercial print, and print each colour with care."
+    ],
+    "anti_patterns": [
+      "A large poster format",
+      "Cheap, bright colour with no metal or emboss",
+      "A heavy outline in the manner of a comic",
+      "A halftone dot or a photograph",
+      "Flat matt colour with no raised or shining surface"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 4,
+    "registration_play": 1,
+    "surface_relief": 3,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Cherry-wood blocks with a very fine cut, one for each colour, and bare blocks for embossing.",
+    "press": "No press. A printer rubs the back of a thick sheet with a baren, and burnishes some areas.",
+    "image_making": "The poets supply the verse. An artist such as Hokusai, Shunman or Gakutei draws the picture, and the club pays the carver and the printer.",
+    "edition": "Small private runs, often fewer than 100 sheets."
+  },
+  "inks": {
+    "strategy": "Water-based pigment in 4–12 passes. Metal dust and shell white go on in a binder, and the black is burnished.",
+    "ink_count_min": 4,
+    "ink_count_max": 12,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Indigo",
+        "hex": "#2F4A7C",
+        "role": "ground and key tones"
+      },
+      {
+        "name": "Mineral green",
+        "hex": "#5F8A6B",
+        "role": "foliage"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#D4553C",
+        "role": "accent"
+      },
+      {
+        "name": "Gold dust",
+        "hex": "#C9A24A",
+        "role": "metallic highlights"
+      },
+      {
+        "name": "Silver or mica",
+        "hex": "#C8CCD0",
+        "role": "water and moon"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with a flat field, a wiped gradation or a metal dust. The style has no hatching and no dot."
+  },
+  "registration": {
+    "tolerance_mm": 0.3,
+    "rule": "The edges are tight: keep each colour within 0.3 mm of the key line, because the patrons pay for that care."
+  },
+  "substrate": {
+    "stock": "Thick, high-grade washi (hosho), often with a smooth, close surface.",
+    "weight_gsm_min": 90,
+    "weight_gsm_max": 160,
+    "ground": "#F2E9D3",
+    "finish": "Smooth, with a faint shine where the printer burnishes."
+  },
+  "surface": {
+    "impression": "Deep. The bare blocks raise the paper by 0.2–0.5 mm in feathers, petals and patterns.",
+    "sheen": "Metal dust glitters, burnished black shines, and the rest is matt.",
+    "texture": "Fine, dense and smooth, with a raised line that the light shows."
+  },
+  "artefacts": {
+    "marks": [
+      "embossing (karazuri)",
+      "metal dust and shell white (gofun)",
+      "burnished black areas",
+      "calligraphy verse beside the image",
+      "small square or oblong format"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Japanese surimono print",
+      "embossed paper relief",
+      "gold and silver metallic dust",
+      "small square woodblock",
+      "poem calligraphy beside the image",
+      "fine mineral pigment",
+      "burnished black",
+      "still life of fans and peonies"
+    ],
+    "negative": [
+      "bold cheap colour",
+      "halftone",
+      "photograph",
+      "comic outline",
+      "plain matt flat fill"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Agate (Meno seki), surimono",
+      "kind": "image",
+      "maker": "Katsushika Hokusai",
+      "year": 1822,
+      "credit": "Wikimedia Commons (Chester Beatty Library)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Agate_(Men%C5%8D_seki)_._Surimono_by_Katsushika_Hokusai_(CBL_J_2174).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Agate_%28Men%C5%8D_seki%29_._Surimono_by_Katsushika_Hokusai_%28CBL_J_2174%29.jpg/960px-Agate_%28Men%C5%8D_seki%29_._Surimono_by_Katsushika_Hokusai_%28CBL_J_2174%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Five cranes on a spit of sand, surimono",
+      "kind": "image",
+      "maker": "Kubo Shunman",
+      "year": 1800,
+      "credit": "Wikimedia Commons (Chester Beatty Library)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Five_cranes_on_a_spit_of_sand._Surimono_by_Kubo_Shunman_(CBL_J_2284).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Five_cranes_on_a_spit_of_sand._Surimono_by_Kubo_Shunman_%28CBL_J_2284%29.jpg/960px-Five_cranes_on_a_spit_of_sand._Surimono_by_Kubo_Shunman_%28CBL_J_2284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Basket of Peonies",
+      "kind": "image",
+      "maker": "Katsushika Hokusai",
+      "year": 1810,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1943.5",
+      "file": "https://openaccess-cdn.clevelandart.org/1943.5/1943.5_web.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nishiki-e-polychrome-woodblock"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "The pleasure of a private gift: the viewer feels that the maker and the patron are friends, and that a small, fine thing is for the few.",
+    "keywords": [
+      "refined",
+      "witty",
+      "luxurious",
+      "intimate",
+      "precise"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "surimono",
+      "japanese new year card print",
+      "kyoka print",
+      "embossed japanese print",
+      "gold dust woodblock",
+      "poem greeting print",
+      "hokusai surimono"
+    ],
+    "use_cases": [
+      "luxury invitations and gift cards",
+      "premium tea and sake packs",
+      "small editions for a private club",
+      "editorial images on Japanese poetry"
+    ],
+    "avoid_when": [
+      "The piece must be large, cheap and loud.",
+      "The picture needs a photographic tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more public and commercial",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Enlarge the sheet to a standard print, remove the metal dust and the emboss, and use flat colour with bokashi."
+      },
+      {
+        "request": "more modern",
+        "toward": "shin-hanga-print",
+        "how": "Keep the fine cut. Replace the verse and the still life with a landscape in tonal blocks."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2F4A7C",
+      "options": [
+        "#2F4A7C",
+        "#2B2B2E",
+        "#4A3F6B"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F2E9D3",
+      "options": [
+        "#F2E9D3",
+        "#F5EEDD",
+        "#EDE1C6"
+      ]
+    },
+    "ink_count": {
+      "default": 7,
+      "min": 4,
+      "max": 12
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.3,
+      "min": 0,
+      "max": 0.8
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Surimono",
+      "url": "https://en.wikipedia.org/wiki/Surimono"
+    },
+    {
+      "title": "Wikimedia Commons: Category Surimono",
+      "url": "https://commons.wikimedia.org/wiki/Category:Surimono"
+    }
+  ]
+}

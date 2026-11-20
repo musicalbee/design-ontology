@@ -1,0 +1,233 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "cordel-xilogravura",
+  "domain": "print",
+  "name": "Cordel xilogravura",
+  "aliases": [
+    "Cordel woodcut",
+    "Xilogravura de cordel",
+    "Literatura de cordel cover"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1900,
+    "end": null,
+    "label": "c.1900–present"
+  },
+  "region": "Northeast Brazil",
+  "summary": "A woodcut for the cover of a cordel chapbook, a cheap booklet of verse that hangs from a string. The cutter works in a soft wood, with bold white lines, flat shapes and one black ink.",
+  "philosophy": {
+    "core_thesis": "One woodcut on a cheap cover can tell the whole story of a verse in a single bold picture.",
+    "design_principles": [
+      "Cut the block in a soft wood with a knife and a gouge.",
+      "Make a strong, simple scene: a hero, an animal, a saint or a bandit, drawn full-face or in profile.",
+      "Use a thick black mass with white outline and a repeat pattern in the background.",
+      "Cut the title into the block, in simple blocky letters, or set it in type.",
+      "Print in black on a coloured paper cover; the paper gives the second colour.",
+      "Keep the picture to a small size, about A6 to A5.",
+      "Leave the wood grain and the knife marks in view."
+    ],
+    "anti_patterns": [
+      "Fine, shaded engraving",
+      "Halftone or photographic cover",
+      "Glossy paper",
+      "Many colours with an even blend",
+      "A thin, precise vector line"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 1,
+    "registration_play": 2,
+    "surface_relief": 2,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A soft wood block, such as umburana or imbuia, cut with a knife and a gouge.",
+    "press": "Hand rubbing with a spoon, or a small letterpress.",
+    "image_making": "The cutter draws the scene on the block, then cuts away the white areas.",
+    "edition": "Hundreds to thousands of covers from one block."
+  },
+  "inks": {
+    "strategy": "One black ink on a coloured paper cover; the paper stands for the second ink.",
+    "ink_count_min": 1,
+    "ink_count_max": 2,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#1D1B19",
+        "role": "the picture"
+      },
+      {
+        "name": "Cover paper red",
+        "hex": "#D9534F",
+        "role": "the coloured cover stock, a stand-in for a second ink"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with the width and the spacing of knife lines and with repeat marks, 0.4–1.5 mm apart; do not use a screen."
+  },
+  "registration": {
+    "tolerance_mm": 1,
+    "rule": "One block prints the picture; a second block, if used, can sit 1 mm off."
+  },
+  "substrate": {
+    "stock": "A cheap newsprint for the pages and a thicker coloured paper for the cover.",
+    "weight_gsm_min": 45,
+    "weight_gsm_max": 120,
+    "ground": "#EAE0C8",
+    "finish": "Uncoated and matt, with a rough tooth."
+  },
+  "surface": {
+    "impression": "A light bite with a clear edge on the black areas.",
+    "sheen": "Matt black ink.",
+    "texture": "Solid black with a mottled grain, white knife lines and repeat patterns."
+  },
+  "artefacts": {
+    "marks": [
+      "gouge marks",
+      "wood grain",
+      "white outline",
+      "bold flat shapes",
+      "repeat dot and line patterns",
+      "coloured paper cover"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "cordel xilogravura woodcut",
+      "Northeast Brazil chapbook cover",
+      "bold black and white gouge lines",
+      "folk hero or bandit scene",
+      "coloured paper cover",
+      "blocky cut lettering",
+      "pattern fill in the background",
+      "visible wood grain"
+    ],
+    "negative": [
+      "halftone",
+      "glossy",
+      "photograph",
+      "smooth gradient",
+      "fine shading"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Xilogravura Lucélia Borges",
+      "kind": "image",
+      "maker": "Lucélia Borges",
+      "year": 2018,
+      "credit": "Lucélia Borges, Wikimedia Commons (a modern work)",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Xilogravura_Luc%C3%A9lia_Borges.webp",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Xilogravura_Luc%C3%A9lia_Borges.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Storytelling warmth: the viewer feels a lively voice from a market square.",
+    "keywords": [
+      "folk",
+      "narrative",
+      "earthy",
+      "playful",
+      "rooted"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cordel",
+      "xilogravura",
+      "brazilian woodcut",
+      "literatura de cordel",
+      "northeast brazil print",
+      "chapbook cover woodcut",
+      "folk woodcut brazil",
+      "sertao woodcut"
+    ],
+    "use_cases": [
+      "book and music covers",
+      "street food and beer labels",
+      "event posters for Brazilian culture",
+      "editorial images for folk tales"
+    ],
+    "avoid_when": [
+      "The subject needs tonal depth or a likeness.",
+      "The tone must be luxury or technical."
+    ],
+    "modifiers": [
+      {
+        "request": "more political",
+        "toward": "taller-grafica-popular-linocut",
+        "how": "Use larger black masses, a hand-lettered slogan and a heroic group figure."
+      },
+      {
+        "request": "more medieval",
+        "toward": "woodcut-relief-print",
+        "how": "Cut thin, parallel shading lines and print on laid paper."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1D1B19",
+      "options": [
+        "#1D1B19",
+        "#2A1E16"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EAE0C8",
+      "options": [
+        "#EAE0C8",
+        "#E6B8A8",
+        "#CFE0B8",
+        "#F1E3A8"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    }
+  },
+  "sources": [
+    {
+      "title": "Literatura de cordel (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Literatura_de_cordel"
+    },
+    {
+      "title": "José Francisco Borges (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/J._Borges"
+    }
+  ]
+}

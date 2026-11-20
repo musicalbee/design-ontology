@@ -17861,7 +17861,8 @@
         "proximity": 2
       },
       "techniques": [
-        "optical-mixing"
+        "optical-mixing",
+        "photogravure"
       ],
       "orgs": [
         "camera-work"
@@ -27339,6 +27340,268 @@
       }
     },
     {
+      "id": "drypoint-print",
+      "name": "Drypoint",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1480–1950",
+      "thesis": "A needle that scratches bare copper throws up a burr. The burr prints as a soft black line that no acid and no burin can make.",
+      "summary": "A steel or diamond needle scratches the plate and pushes up a burr of metal along each furrow. The burr holds ink and prints as a soft velvety black line that wears down after a few dozen impressions.",
+      "path": "skills/drypoint-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "drypoint",
+        "burr line print",
+        "scratched copper plate",
+        "rembrandt three crosses",
+        "velvet black line",
+        "cassatt drypoint",
+        "needle on copper",
+        "soft intaglio line"
+      ],
+      "use_cases": [
+        "fine art editions and portraits",
+        "small illustrated books",
+        "stationery and invitations with a hand-made look",
+        "album artwork"
+      ],
+      "emotion": [
+        "intimate",
+        "velvet",
+        "deep",
+        "quiet",
+        "personal"
+      ],
+      "archetypes": [
+        "sage",
+        "lover",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "drypoint"
+      ],
+      "orgs": [
+        "royal-society-of-painter-printmakers"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#25211E",
+          "options": [
+            "#25211E",
+            "#3A2F26",
+            "#1A2330"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E1D3B1",
+          "options": [
+            "#E1D3B1",
+            "#E9DFC6",
+            "#D3C39E"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 30,
+          "min": 20,
+          "max": 50
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "id": "ebru-marbled-paper",
+      "name": "Ottoman ebru marbled paper",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1500–1900",
+      "thesis": "A pattern that the water and the comb make together, and that no plate can repeat, gives a sheet of paper a living surface.",
+      "summary": "Pigment floats on a thick bath of water. The marbler combs it into a pattern and lays a sheet on it for one monotype. Each sheet is unique, with flowing veins, combed curls and floral drops.",
+      "path": "skills/ebru-marbled-paper/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "ebru",
+        "turkish marbling",
+        "marbled paper",
+        "water marbling",
+        "marbled endpaper",
+        "ottoman paper art",
+        "floating pigment pattern",
+        "marbled margin"
+      ],
+      "use_cases": [
+        "book endpapers and covers",
+        "stationery and packaging",
+        "backgrounds for calligraphy",
+        "textile and wallpaper patterns"
+      ],
+      "emotion": [
+        "fluid",
+        "contemplative",
+        "organic",
+        "ornate",
+        "unique"
+      ],
+      "archetypes": [
+        "sage",
+        "magician",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 3,
+        "registration_play": 1,
+        "surface_relief": 1,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "paper-marbling"
+      ],
+      "orgs": [
+        "istanbul-academy-fine-arts"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2F4F86",
+          "options": [
+            "#2F4F86",
+            "#A33A2A",
+            "#1D1B19"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EADFC4",
+          "options": [
+            "#EADFC4",
+            "#F4ECD8"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 2,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "id": "chiaroscuro-woodcut-print",
+      "name": "Chiaroscuro woodcut",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1508–c.1620",
+      "thesis": "Flat tone blocks printed in steps over a line block imitate a brush-and-wash drawing heightened with white, with no hatching.",
+      "summary": "A line block carries the drawing and one to three tone blocks are printed over it in flat washes of one hue. The flat steps from paper white to dark ground imitate a brush-and-wash drawing heightened with white.",
+      "path": "skills/chiaroscuro-woodcut-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "chiaroscuro woodcut",
+        "clair-obscur print",
+        "tone block print",
+        "renaissance woodcut with wash",
+        "three block woodcut",
+        "ugo da carpi",
+        "brown wash print",
+        "raphael print"
+      ],
+      "use_cases": [
+        "art book plates",
+        "museum and print-room editions",
+        "classical or historical illustration",
+        "wine and spirits labels with a heritage look"
+      ],
+      "emotion": [
+        "classical",
+        "warm",
+        "painterly",
+        "quiet",
+        "learned"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 3,
+        "registration_play": 3,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "court-of-maximilian-i"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1E1A17",
+          "options": [
+            "#1E1A17",
+            "#2A1F17",
+            "#3A2A1E"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E6D9B8",
+          "options": [
+            "#E6D9B8",
+            "#EADFC4",
+            "#DDCFAA"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 2,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0.5,
+          "max": 1.5
+        }
+      }
+    },
+    {
       "id": "etching-print",
       "name": "Etching",
       "domain": "print",
@@ -27425,6 +27688,350 @@
       }
     },
     {
+      "id": "dong-ho-folk-woodblock",
+      "name": "Dong Ho folk woodblock painting",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1600–1950s",
+      "thesis": "A village can print a whole folk art from plant and mineral colour, one flat block at a time, on paper that shines with ground shell.",
+      "summary": "Villagers print a black outline block, then add flat colour blocks one by one on do paper that carries a coat of scallop-shell powder. The colours come from plants and minerals, so they are bright and flat.",
+      "path": "skills/dong-ho-folk-woodblock/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "dong ho painting",
+        "vietnamese folk woodblock",
+        "tranh dong ho",
+        "tet new year print vietnam",
+        "shell powder paper print",
+        "folk woodblock carp",
+        "vietnamese folk art print"
+      ],
+      "use_cases": [
+        "New Year cards and gifts",
+        "packs for Vietnamese food and craft",
+        "folk-art posters",
+        "school and museum material"
+      ],
+      "emotion": [
+        "folk",
+        "festive",
+        "naive",
+        "warm",
+        "humorous"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 4,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "dong-ho-village-workshops"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#262626",
+          "options": [
+            "#262626",
+            "#2E2A26",
+            "#3A2E26"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F1ECE0",
+          "options": [
+            "#F1ECE0",
+            "#EFE9DA",
+            "#F4F0E6"
+          ]
+        },
+        "ink_count": {
+          "default": 5,
+          "min": 4,
+          "max": 5
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 3
+        }
+      }
+    },
+    {
+      "id": "katagami-stencil-print",
+      "name": "Katazome and Ise katagami stencil print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1600–1960s",
+      "thesis": "A pattern cut once in paper can be printed a thousand times as a sharp white shape on dyed cloth, if the stencil holds its islands with thin bridges.",
+      "summary": "A stencil is cut in layers of mulberry paper, and rice-paste resist is spread through it onto cloth. The cloth is then dyed. The result is a repeat pattern with sharp white edges and flat colour.",
+      "path": "skills/katagami-stencil-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "katazome",
+        "ise katagami",
+        "japanese stencil pattern",
+        "indigo resist pattern",
+        "mingei textile print",
+        "japanese paper stencil",
+        "white resist on indigo"
+      ],
+      "use_cases": [
+        "textile and wrapping paper patterns",
+        "pack and label backgrounds",
+        "craft and tea brand identity",
+        "wall and screen repeat patterns"
+      ],
+      "emotion": [
+        "precise",
+        "repetitive",
+        "crafted",
+        "calm",
+        "graphic"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 1,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "katagami-stencil"
+      ],
+      "orgs": [
+        "ise-katagami-cutters"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#264A70",
+          "options": [
+            "#264A70",
+            "#1F3F66",
+            "#2A3A5A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EFE9D8",
+          "options": [
+            "#EFE9D8",
+            "#F2EDDF",
+            "#E8E0CB"
+          ]
+        },
+        "ink_count": {
+          "default": 2,
+          "min": 1,
+          "max": 6
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.3,
+          "min": 0,
+          "max": 0.8
+        }
+      }
+    },
+    {
+      "id": "nianhua-new-year-print",
+      "name": "Chinese nianhua New Year woodblock print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1600–1950s",
+      "thesis": "A New Year picture works as a charm for the house, so it must be bright, full of good signs and cheap enough for every door.",
+      "summary": "Workshops print a key-block outline and fill it with colour blocks, and often add hand-painted colour. Yangliuqing sheets end with hand colour and painted faces. Other towns print bold and flat.",
+      "path": "skills/nianhua-new-year-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "nianhua",
+        "chinese new year print",
+        "yangliuqing",
+        "door god woodblock",
+        "taohuawu print",
+        "chinese folk woodblock",
+        "lunar new year folk art"
+      ],
+      "use_cases": [
+        "Lunar New Year cards, packs and posters",
+        "packs for Chinese food and tea",
+        "folk-art editorial images",
+        "festival and shop windows"
+      ],
+      "emotion": [
+        "festive",
+        "auspicious",
+        "bold",
+        "folk",
+        "joyful"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 4,
+        "surface_relief": 1,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "yangliuqing-nianhua-workshops"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#202020",
+          "options": [
+            "#202020",
+            "#2A2420",
+            "#3A2A24"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EFE2C0",
+          "options": [
+            "#EFE2C0",
+            "#F3E8CC",
+            "#E8D9B4"
+          ]
+        },
+        "ink_count": {
+          "default": 5,
+          "min": 3,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 3
+        }
+      }
+    },
+    {
+      "id": "ten-bamboo-studio-polychrome",
+      "name": "Ten Bamboo Studio polychrome block print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1619–1644",
+      "thesis": "A page of a painting manual can carry the soft colour of a scroll when the printer splits the picture into small blocks that fit like a jigsaw.",
+      "summary": "Hu Zhengyan's workshop cut many small blocks for one picture (douban) and printed them in turn on one sheet. Dry blocks pressed the paper (gonghua) and raised the outline of a petal or a cloud.",
+      "path": "skills/ten-bamboo-studio-polychrome/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "ten bamboo studio",
+        "shizhuzhai",
+        "chinese colour woodblock album",
+        "gonghua embossing",
+        "ming dynasty flower print",
+        "chinese painting manual print",
+        "douban printing"
+      ],
+      "use_cases": [
+        "tea and stationery packs",
+        "botanical and flower editions",
+        "book and album covers",
+        "gift cards with a blind emboss"
+      ],
+      "emotion": [
+        "delicate",
+        "literati",
+        "soft",
+        "refined",
+        "botanical"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 3,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "ten-bamboo-studio"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2A2A2A",
+          "options": [
+            "#2A2A2A",
+            "#3A3A3A",
+            "#4A3A30"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EFE4C9",
+          "options": [
+            "#EFE4C9",
+            "#F3EBD6",
+            "#E8DBBC"
+          ]
+        },
+        "ink_count": {
+          "default": 8,
+          "min": 6,
+          "max": 12
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.4,
+          "min": 0,
+          "max": 0.8
+        }
+      }
+    },
+    {
       "id": "mezzotint-print",
       "name": "Mezzotint",
       "domain": "print",
@@ -27498,6 +28105,878 @@
           "default": 120,
           "min": 90,
           "max": 160
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "id": "russian-lubok-print",
+      "name": "Russian lubok folk print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "c.1660–1900",
+      "thesis": "A coarse black key line and a few loose hand colours are enough to tell a story that anyone can read at a glance.",
+      "summary": "A cheap sheet cut in wood or engraved in copper, printed in black on thin paper and then coloured by hand. Pedlars sold it by the thousand. The line is coarse and the colour is flat and loose, because speed and price mattered most.",
+      "path": "skills/russian-lubok-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "lubok",
+        "russian folk print",
+        "russian woodcut",
+        "narodnaya kartinka",
+        "hand-coloured woodcut",
+        "folk broadside",
+        "pedlar's print",
+        "cyrillic folk print"
+      ],
+      "use_cases": [
+        "folk-tale and satire illustration",
+        "craft beer and food labels",
+        "theatre and puppet-show posters",
+        "editorial images on Russian history"
+      ],
+      "emotion": [
+        "naive",
+        "folk",
+        "bold",
+        "humorous",
+        "hand-made"
+      ],
+      "archetypes": [
+        "jester",
+        "everyman"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 5,
+        "surface_relief": 2,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "line-engraving",
+        "woodcut"
+      ],
+      "orgs": [
+        "sytin-publishing-house"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1E1A17",
+          "options": [
+            "#1E1A17",
+            "#2A1E16"
+          ]
+        },
+        "paper_colour": {
+          "default": "#D8CDB4",
+          "options": [
+            "#D8CDB4",
+            "#E3D8BE",
+            "#CFC3A8"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 1,
+          "max": 5
+        },
+        "screen_ruling": {
+          "default": 20,
+          "min": 0,
+          "max": 30
+        },
+        "misregistration": {
+          "default": 3,
+          "min": 1,
+          "max": 4
+        }
+      }
+    },
+    {
+      "id": "stipple-engraving-print",
+      "name": "Stipple (crayon-manner) engraving",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1756–1840",
+      "thesis": "A plate built from dots and short flicks, with no hatching, gives flesh and drapery a soft tone that imitates a chalk drawing.",
+      "summary": "The plate is built up from etched and engraved dots and short flicks, so tone has no hatching. The print shows soft skin and flesh with pale dotted shading, and publishers often printed in red-brown (sanguine).",
+      "path": "skills/stipple-engraving-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "stipple engraving",
+        "dot manner print",
+        "crayon manner engraving",
+        "bartolozzi print",
+        "sanguine print",
+        "georgian portrait print",
+        "oval stipple portrait",
+        "punktiermanier"
+      ],
+      "use_cases": [
+        "portrait and decorative prints with a period look",
+        "heritage packaging and labels",
+        "book plates and frontispieces",
+        "stationery with a soft vignette"
+      ],
+      "emotion": [
+        "gentle",
+        "polished",
+        "soft",
+        "georgian",
+        "delicate"
+      ],
+      "archetypes": [
+        "lover",
+        "innocent",
+        "caregiver"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "stipple-engraving"
+      ],
+      "orgs": [
+        "royal-academy-of-arts"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#8A4B3A",
+          "options": [
+            "#8A4B3A",
+            "#2D2926",
+            "#5B3A2A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E6DBC0",
+          "options": [
+            "#E6DBC0",
+            "#EEE5CE",
+            "#DACCA9"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 90,
+          "min": 60,
+          "max": 120
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "id": "nishiki-e-polychrome-woodblock",
+      "name": "Nishiki-e multi-block colour woodblock print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1765–1900s",
+      "thesis": "A set of wood blocks, one for each colour, can make a full-colour picture when a printer rubs thin water-based colour into damp paper and keeps each block in register by hand.",
+      "summary": "A drawing is pasted on a cherry plank and cut by a carver. A printer rubs water-based pigment from one block for each colour onto damp washi with a baren. The colours are flat and soft, and the wood grain shows.",
+      "path": "skills/nishiki-e-polychrome-woodblock/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "nishiki-e",
+        "ukiyo-e print",
+        "japanese woodblock print",
+        "edo woodblock",
+        "hokusai style print",
+        "hiroshige style",
+        "bokashi gradient",
+        "washi woodblock"
+      ],
+      "use_cases": [
+        "tea, sake and stationery labels",
+        "editorial images on Japan",
+        "travel posters",
+        "packs for craft goods"
+      ],
+      "emotion": [
+        "serene",
+        "flat",
+        "delicate",
+        "seasonal",
+        "crafted"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 3,
+        "registration_play": 2,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "tsutaya-juzaburo"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2B2B2E",
+          "options": [
+            "#2B2B2E",
+            "#1E1E24",
+            "#3A3228"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EFE3C8",
+          "options": [
+            "#EFE3C8",
+            "#F2E9D3",
+            "#E6D8B8"
+          ]
+        },
+        "ink_count": {
+          "default": 6,
+          "min": 3,
+          "max": 12
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.5,
+          "min": 0,
+          "max": 1.5
+        }
+      }
+    },
+    {
+      "id": "aquatint-print",
+      "name": "Aquatint",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1768–1900",
+      "thesis": "A bitten grain of rosin gives a copper plate the soft tone of a wash. An etched line can then sit on a brush-like ground.",
+      "summary": "Rosin dust is melted onto a copper plate, and acid bites round each grain. The print has a soft tone like a wash. The artist controls the tone with varnish and a burnisher, so the print has a grey speckled grain.",
+      "path": "skills/aquatint-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "aquatint",
+        "rosin grain print",
+        "goya style print",
+        "wash tone etching",
+        "grey wash print",
+        "caprichos print",
+        "soft grain intaglio",
+        "copper plate tone"
+      ],
+      "use_cases": [
+        "satirical or dark editorial illustration",
+        "topographic and architectural plates",
+        "fine art editions",
+        "album and book covers with a night mood"
+      ],
+      "emotion": [
+        "sombre",
+        "soft",
+        "dramatic",
+        "atmospheric",
+        "grainy"
+      ],
+      "archetypes": [
+        "sage",
+        "outlaw",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 2,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "aquatint"
+      ],
+      "orgs": [
+        "real-calcografia-nacional"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2A2622",
+          "options": [
+            "#2A2622",
+            "#5B4636",
+            "#1F2A36"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E4D8BC",
+          "options": [
+            "#E4D8BC",
+            "#EBE2CC",
+            "#D9CAA6"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 120,
+          "min": 80,
+          "max": 160
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "id": "surimono-print",
+      "name": "Surimono privately published print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1790s–1830s",
+      "thesis": "A print made for a closed circle of friends, not for the market, can spend its whole cost on material and on fine cut.",
+      "summary": "Poetry clubs paid for small woodblock prints as New Year cards and as notices of events. The patrons paid, so the printers used costly pigment, metal dust, embossing and burnish on thick paper.",
+      "path": "skills/surimono-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "surimono",
+        "japanese new year card print",
+        "kyoka print",
+        "embossed japanese print",
+        "gold dust woodblock",
+        "poem greeting print",
+        "hokusai surimono"
+      ],
+      "use_cases": [
+        "luxury invitations and gift cards",
+        "premium tea and sake packs",
+        "small editions for a private club",
+        "editorial images on Japanese poetry"
+      ],
+      "emotion": [
+        "refined",
+        "witty",
+        "luxurious",
+        "intimate",
+        "precise"
+      ],
+      "archetypes": [
+        "lover",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 4,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "kyoka-poetry-societies"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2F4A7C",
+          "options": [
+            "#2F4A7C",
+            "#2B2B2E",
+            "#4A3F6B"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F2E9D3",
+          "options": [
+            "#F2E9D3",
+            "#F5EEDD",
+            "#EDE1C6"
+          ]
+        },
+        "ink_count": {
+          "default": 7,
+          "min": 4,
+          "max": 12
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.3,
+          "min": 0,
+          "max": 0.8
+        }
+      }
+    },
+    {
+      "id": "wood-engraving-print",
+      "name": "End-grain wood engraving",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1790–1950",
+      "thesis": "A burin on the end grain of boxwood cuts white lines in a black block, so that fine tone and exact detail print with type.",
+      "summary": "A burin cuts lines into a boxwood end-grain block, which is inked on the surface and printed with type. The cut becomes a white line on black, and fine parallel hatching gives the grey tones of Victorian magazines.",
+      "path": "skills/wood-engraving-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "wood engraving",
+        "white line engraving",
+        "bewick style",
+        "victorian illustration",
+        "boxwood engraving",
+        "tailpiece vignette",
+        "illustrated london news style",
+        "end grain print"
+      ],
+      "use_cases": [
+        "book illustration and vignettes",
+        "magazine and newspaper features with a period look",
+        "natural-history plates",
+        "heritage labels and packaging"
+      ],
+      "emotion": [
+        "exact",
+        "victorian",
+        "fine",
+        "engraved",
+        "documentary"
+      ],
+      "archetypes": [
+        "sage",
+        "explorer",
+        "everyman"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "wood-engraving"
+      ],
+      "orgs": [
+        "dalziel-brothers"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1C1B1A",
+          "options": [
+            "#1C1B1A",
+            "#2B2A28",
+            "#1B2433"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E7DEC8",
+          "options": [
+            "#E7DEC8",
+            "#F0E9D6",
+            "#D8CFB4"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 100,
+          "min": 60,
+          "max": 140
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0.3
+        }
+      }
+    },
+    {
+      "id": "senjafuda-slip",
+      "name": "Senjafuda pilgrim name slip",
+      "domain": "print",
+      "family": "graphic",
+      "era": "hand-press",
+      "period": "1799–1950s",
+      "thesis": "A name on a slip of paper can be a prayer, a signature and a small piece of art at the same time.",
+      "summary": "Pilgrims pasted small woodblock name slips on shrine gates. Collectors later swapped decorated slips in clubs, and artists such as Hiroshige designed slips in many colours. Each slip is 58 mm by 173 mm.",
+      "path": "skills/senjafuda-slip/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "senjafuda",
+        "japanese pilgrim slip",
+        "shrine name sticker",
+        "nosatsu",
+        "japanese name label print",
+        "edo ephemera",
+        "woodblock name card"
+      ],
+      "use_cases": [
+        "stickers and labels",
+        "business and name cards",
+        "small collectible sets",
+        "packs with a hand-made look"
+      ],
+      "emotion": [
+        "ornamental",
+        "tiny",
+        "devout",
+        "playful",
+        "collectible"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 2,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "senjafuda-exchange-clubs"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#232323",
+          "options": [
+            "#232323",
+            "#2B2B2E",
+            "#3A2A24"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EEE4CC",
+          "options": [
+            "#EEE4CC",
+            "#F2EAD6",
+            "#E8DCBF"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 2,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.4,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "id": "battala-woodcut",
+      "name": "Battala woodcut",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "c.1816–c.1900",
+      "thesis": "A cheap wood block with a bold line can put a sacred or comic story in the hands of a bazaar crowd.",
+      "summary": "A cheap woodcut sheet from the Battala bazaar quarter of Calcutta. Local craftsmen cut a bold black outline, often to copy a painted original, and printed it with type on thin country paper.",
+      "path": "skills/battala-woodcut/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "battala woodcut",
+        "bengali woodcut",
+        "calcutta bazaar print",
+        "bengal folk print",
+        "indian woodcut god",
+        "19th century bengali print",
+        "kolkata folk art",
+        "hand-coloured woodcut"
+      ],
+      "use_cases": [
+        "book and album covers with a Bengali theme",
+        "festival and food packaging",
+        "editorial images for South Asian history",
+        "folk-style posters"
+      ],
+      "emotion": [
+        "folk",
+        "devotional",
+        "satirical",
+        "earthy",
+        "lively"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 1,
+        "registration_play": 3,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "battala-printers"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1F1A16",
+          "options": [
+            "#1F1A16",
+            "#2A1E16"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E6D9B8",
+          "options": [
+            "#E6D9B8",
+            "#EFE4C8",
+            "#DCCBA0"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 2.5
+        }
+      }
+    },
+    {
+      "id": "banknote-engraving-print",
+      "name": "Steel-engraved banknote and stamp",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1819–1990",
+      "thesis": "Fine engraved line and machine-turned rosettes on steel are hard to copy. The print is then the proof that a note or a stamp is real.",
+      "summary": "Hardened steel plates carry portraits, vignettes and geometric rosettes, printed from a transfer press. Dense fine lines and machine-turned patterns are hard to copy. The print has a tight frame of line work in green or black, with a coloured tint.",
+      "path": "skills/banknote-engraving-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "banknote engraving",
+        "steel engraved certificate",
+        "guilloche border",
+        "intaglio security print",
+        "stamp engraving",
+        "stock certificate",
+        "engraved vignette",
+        "treasury note"
+      ],
+      "use_cases": [
+        "certificates, diplomas and share documents",
+        "stamps and commemorative notes",
+        "bank and fintech brand marks with a heritage look",
+        "limited-edition ticket and voucher design"
+      ],
+      "emotion": [
+        "official",
+        "exact",
+        "trustworthy",
+        "dense",
+        "formal"
+      ],
+      "archetypes": [
+        "ruler",
+        "sage"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 3,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 2
+      },
+      "techniques": [
+        "line-engraving"
+      ],
+      "orgs": [
+        "bureau-of-engraving-and-printing",
+        "perkins-bacon"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#222420",
+          "options": [
+            "#222420",
+            "#4F7A4A",
+            "#2D5D8C"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E5DDC3",
+          "options": [
+            "#E5DDC3",
+            "#EDE6D0",
+            "#D9D1B5"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 2,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 180,
+          "min": 150,
+          "max": 240
+        },
+        "misregistration": {
+          "default": 0.3,
+          "min": 0,
+          "max": 0.6
+        }
+      }
+    },
+    {
+      "id": "crayon-lithograph-print",
+      "name": "Crayon lithograph",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1820–1900",
+      "thesis": "A greasy crayon on a grained stone keeps the pressure of the hand, so that a drawing prints as drawn, with no engraver between.",
+      "summary": "The artist draws with greasy crayon directly on a grained limestone, and the grain catches the crayon as speckled black. The print keeps the drawing's pressure, from pale grain to dense black, with no engraved line.",
+      "path": "skills/crayon-lithograph-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "crayon lithograph",
+        "lithographic crayon drawing",
+        "daumier style",
+        "satirical lithograph",
+        "stone lithograph",
+        "caricature print",
+        "le charivari style",
+        "grained stone print"
+      ],
+      "use_cases": [
+        "satirical and editorial illustration",
+        "political posters with a drawn look",
+        "book and music-sheet covers",
+        "theatre and cabaret prints"
+      ],
+      "emotion": [
+        "satirical",
+        "immediate",
+        "expressive",
+        "grainy",
+        "urbane"
+      ],
+      "archetypes": [
+        "jester",
+        "outlaw",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 1,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "orgs": [
+        "le-charivari"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#201E1C",
+          "options": [
+            "#201E1C",
+            "#2B2622",
+            "#1A2230"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E4D9C0",
+          "options": [
+            "#E4D9C0",
+            "#ECE3CE",
+            "#D6CBAF"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 1
+        },
+        "screen_ruling": {
+          "default": 80,
+          "min": 50,
+          "max": 120
         },
         "misregistration": {
           "default": 0,
@@ -27594,6 +29073,179 @@
       }
     },
     {
+      "id": "qajar-lithographed-book",
+      "name": "Qajar lithographed book",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1832–c.1925",
+      "thesis": "A printed book can keep the hand of the scribe and the page of the manuscript, and still be cheap to copy.",
+      "summary": "A book printed from stone. A scribe wrote each page in nastaliq with greasy ink, and the press copied the page as it was. The book looks like a manuscript, with a frame of ruled lines and small painted pictures.",
+      "path": "skills/qajar-lithographed-book/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "persian lithograph",
+        "qajar book",
+        "nastaliq print",
+        "sangi book",
+        "tabriz lithograph",
+        "shahnameh lithograph",
+        "iranian lithographed page",
+        "persian manuscript print"
+      ],
+      "use_cases": [
+        "book covers for Persian literature",
+        "poetry and literature festival graphics",
+        "title pages and chapter openers",
+        "heritage stationery"
+      ],
+      "emotion": [
+        "calligraphic",
+        "scholarly",
+        "intimate",
+        "dense",
+        "traditional"
+      ],
+      "archetypes": [
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 1,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "orgs": [
+        "dar-al-fonun"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1F1B18",
+          "options": [
+            "#1F1B18",
+            "#2B2420"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E8DDC0",
+          "options": [
+            "#E8DDC0",
+            "#F0E8D0",
+            "#E2D4B0"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": "collotype-print",
+      "name": "Collotype",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1855–1960",
+      "thesis": "A light-hardened gelatin film that takes ink in proportion to tone prints a photograph with true continuous tone and no dot screen.",
+      "summary": "A glass or metal plate is coated with light-hardened gelatin, which swells with water to take ink in proportion to tone. The print has continuous tone with only a fine reticulation, and is often a warm brown or black on matt paper.",
+      "path": "skills/collotype-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "collotype",
+        "lichtdruck",
+        "albertype",
+        "gelatin plate print",
+        "continuous tone print",
+        "muybridge plate",
+        "reticulation grain",
+        "phototypie"
+      ],
+      "use_cases": [
+        "archive and museum catalogues",
+        "scientific and travel books",
+        "limited-edition photographic portfolios",
+        "period postcards and plates"
+      ],
+      "emotion": [
+        "continuous",
+        "archival",
+        "soft",
+        "scientific",
+        "matt"
+      ],
+      "archetypes": [
+        "sage",
+        "explorer"
+      ],
+      "vectors": {
+        "tone_method": 5,
+        "ink_layering": 2,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 1
+      },
+      "techniques": [
+        "collotype"
+      ],
+      "orgs": [
+        "university-of-pennsylvania"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2B2724",
+          "options": [
+            "#2B2724",
+            "#4A3A2D",
+            "#1F2A36"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E5DDC8",
+          "options": [
+            "#E5DDC8",
+            "#EDE6D2",
+            "#D9CFB4"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 200,
+          "min": 150,
+          "max": 280
+        },
+        "misregistration": {
+          "default": 0.3,
+          "min": 0,
+          "max": 0.6
+        }
+      }
+    },
+    {
       "id": "chromolithograph-poster",
       "name": "Chromolithograph poster",
       "domain": "print",
@@ -27676,6 +29328,267 @@
           "default": 0.6,
           "min": 0,
           "max": 1.2
+        }
+      }
+    },
+    {
+      "id": "meiji-kosen-ga-print",
+      "name": "Meiji kosen-ga and aniline-red woodblock print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1868–1912",
+      "thesis": "A woodblock print can show the new Japan, with its trains, brick streets and gas light, if it takes the hard colour and the deep shadow of the West.",
+      "summary": "Early Meiji prints used imported synthetic (aniline) dye in hot reds and purples. Kiyochika's kosen-ga later added Western light and shadow to night scenes of gas lamps, trains and ships.",
+      "path": "skills/meiji-kosen-ga-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "kosen-ga",
+        "meiji woodblock",
+        "kiyochika style",
+        "aniline red print",
+        "kaika-e",
+        "japanese gaslight print",
+        "meiji tokyo night print"
+      ],
+      "use_cases": [
+        "posters on Meiji and railway history",
+        "game and film art for a modernising Japan",
+        "editorial images on 19th-century Tokyo",
+        "record sleeves with a hot, night palette"
+      ],
+      "emotion": [
+        "modern",
+        "garish",
+        "nocturnal",
+        "urban",
+        "theatrical"
+      ],
+      "archetypes": [
+        "explorer",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 3,
+        "registration_play": 2,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "matsuki-heikichi-daikokuya"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#26242A",
+          "options": [
+            "#26242A",
+            "#2A3B64",
+            "#3A2E3A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E6D8B8",
+          "options": [
+            "#E6D8B8",
+            "#EAD9B5",
+            "#DDCDA8"
+          ]
+        },
+        "ink_count": {
+          "default": 6,
+          "min": 4,
+          "max": 10
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.7,
+          "min": 0.2,
+          "max": 1.5
+        }
+      }
+    },
+    {
+      "id": "photogravure-print",
+      "name": "Photogravure",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1878–1930",
+      "thesis": "A photograph etched into copper through an aquatint grain prints as continuous tone in a deep ink. The photograph then reads as an original print.",
+      "summary": "A carbon-tissue positive is transferred to a copper plate, which is etched through a dusted aquatint grain. The plate prints continuous photographic tone as deep, rich ink on thin tissue, with no visible screen.",
+      "path": "skills/photogravure-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "photogravure",
+        "camera work plate",
+        "stieglitz print",
+        "pictorialist print",
+        "continuous tone intaglio",
+        "japan tissue photograph",
+        "velvet black photograph",
+        "heliogravure"
+      ],
+      "use_cases": [
+        "photography portfolios and monographs",
+        "fine art catalogues",
+        "limited-edition photo prints",
+        "archive and museum reproductions"
+      ],
+      "emotion": [
+        "hushed",
+        "artful",
+        "velvet",
+        "reverent",
+        "tonal"
+      ],
+      "archetypes": [
+        "sage",
+        "lover",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 5,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 3,
+        "hand_trace": 2
+      },
+      "techniques": [
+        "photogravure"
+      ],
+      "orgs": [
+        "camera-work"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2B2724",
+          "options": [
+            "#2B2724",
+            "#3A2F26",
+            "#1F2A36"
+          ]
+        },
+        "paper_colour": {
+          "default": "#DDD1B6",
+          "options": [
+            "#DDD1B6",
+            "#E6DCC4",
+            "#D2C5A6"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 150,
+          "min": 100,
+          "max": 220
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 0.3
+        }
+      }
+    },
+    {
+      "id": "posada-broadside",
+      "name": "Posada broadside",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "c.1880–1920",
+      "thesis": "A flat black picture cut in metal, with a hard white line and set type under it, can tell a news story or a joke to a reader who has little money and little time.",
+      "summary": "A cheap sheet that carries a hard black picture and set type. José Guadalupe Posada cut or etched the picture in a metal plate for the press of Antonio Vanegas Arroyo, and the sheet sold in the street.",
+      "path": "skills/posada-broadside/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "posada",
+        "calavera print",
+        "day of the dead broadside",
+        "mexican broadside",
+        "catrina engraving",
+        "hoja volante",
+        "zinc etching skeleton",
+        "vanegas arroyo"
+      ],
+      "use_cases": [
+        "Day of the Dead posters",
+        "satirical editorial images",
+        "labels for mezcal and craft beer",
+        "book covers for Latin American history"
+      ],
+      "emotion": [
+        "satirical",
+        "macabre",
+        "popular",
+        "raw",
+        "witty"
+      ],
+      "archetypes": [
+        "jester",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 2,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "letterpress"
+      ],
+      "orgs": [
+        "imprenta-vanegas-arroyo"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1C1A18",
+          "options": [
+            "#1C1A18",
+            "#2A1E16"
+          ]
+        },
+        "paper_colour": {
+          "default": "#D9C7A3",
+          "options": [
+            "#D9C7A3",
+            "#E8B7C0",
+            "#C9D9A8",
+            "#F1E3A8"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 45,
+          "min": 30,
+          "max": 70
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 2.5
         }
       }
     },
@@ -27766,6 +29679,92 @@
       }
     },
     {
+      "id": "ravi-varma-oleograph",
+      "name": "Ravi Varma oleograph",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "c.1894–1960",
+      "thesis": "A lithograph in many colours can copy the smooth oil painting of a god and put it in every home for a few annas.",
+      "summary": "A god picture printed by stone lithography in many colours, for the home shrine and the shop wall. The oil-like gloss, the saturated colour and the smooth blend copy the paintings of Raja Ravi Varma.",
+      "path": "skills/ravi-varma-oleograph/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "oleograph",
+        "indian calendar art",
+        "bazaar god poster",
+        "ravi varma print",
+        "hindu deity print",
+        "shrine picture",
+        "vintage indian lithograph",
+        "devotional chromolithograph"
+      ],
+      "use_cases": [
+        "packaging for tea and sweets",
+        "festival posters",
+        "heritage book covers",
+        "retro Indian shop signage"
+      ],
+      "emotion": [
+        "devotional",
+        "glossy",
+        "saturated",
+        "nostalgic",
+        "ornate"
+      ],
+      "archetypes": [
+        "caregiver",
+        "ruler",
+        "innocent"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 5,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "orgs": [
+        "ravi-varma-press"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2A1E1A",
+          "options": [
+            "#2A1E1A",
+            "#1B1B3A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EFE4C8",
+          "options": [
+            "#EFE4C8",
+            "#F6EEDA"
+          ]
+        },
+        "ink_count": {
+          "default": 8,
+          "min": 6,
+          "max": 12
+        },
+        "screen_ruling": {
+          "default": 100,
+          "min": 60,
+          "max": 140
+        },
+        "misregistration": {
+          "default": 0.4,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
       "id": "ben-day-comic-print",
       "name": "Ben-Day comic print",
       "domain": "print",
@@ -27850,6 +29849,443 @@
       }
     },
     {
+      "id": "mir-iskusstva-book-graphics",
+      "name": "Mir iskusstva book graphics",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1899–1930",
+      "thesis": "A single firm line and flat tints, set inside an ornamental frame, make a fairy-tale page that reads as a unit with its border and letters.",
+      "summary": "A firm, even black pen outline, in the manner of a woodcut, is filled with flat watercolour tints. The key line and the tints print in separate runs. Folk ornament frames each page.",
+      "path": "skills/mir-iskusstva-book-graphics/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "bilibin",
+        "russian fairy tale illustration",
+        "mir iskusstva",
+        "world of art",
+        "folk ornament border",
+        "tale book illustration",
+        "pen outline with flat colour",
+        "slavic folk illustration"
+      ],
+      "use_cases": [
+        "children's and fairy-tale books",
+        "theatre and opera programmes",
+        "food and craft packaging",
+        "heritage and folk-art branding"
+      ],
+      "emotion": [
+        "folkloric",
+        "ornamental",
+        "storybook",
+        "ordered",
+        "nostalgic"
+      ],
+      "archetypes": [
+        "innocent",
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "orgs": [
+        "expedition-for-state-papers",
+        "mir-iskusstva"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1D1B1A",
+          "options": [
+            "#1D1B1A",
+            "#2A2018"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EADFC4",
+          "options": [
+            "#EADFC4",
+            "#F2E8D0",
+            "#E2D6BA"
+          ]
+        },
+        "ink_count": {
+          "default": 5,
+          "min": 3,
+          "max": 6
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0,
+          "note": "The style makes no tone; the screen stays at zero."
+        },
+        "misregistration": {
+          "default": 0.6,
+          "min": 0.2,
+          "max": 1
+        }
+      }
+    },
+    {
+      "id": "cordel-xilogravura",
+      "name": "Cordel xilogravura",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "c.1900–present",
+      "thesis": "One woodcut on a cheap cover can tell the whole story of a verse in a single bold picture.",
+      "summary": "A woodcut for the cover of a cordel chapbook, a cheap booklet of verse that hangs from a string. The cutter works in a soft wood, with bold white lines, flat shapes and one black ink.",
+      "path": "skills/cordel-xilogravura/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "cordel",
+        "xilogravura",
+        "brazilian woodcut",
+        "literatura de cordel",
+        "northeast brazil print",
+        "chapbook cover woodcut",
+        "folk woodcut brazil",
+        "sertao woodcut"
+      ],
+      "use_cases": [
+        "book and music covers",
+        "street food and beer labels",
+        "event posters for Brazilian culture",
+        "editorial images for folk tales"
+      ],
+      "emotion": [
+        "folk",
+        "narrative",
+        "earthy",
+        "playful",
+        "rooted"
+      ],
+      "archetypes": [
+        "everyman",
+        "jester",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 2,
+        "surface_relief": 2,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "lira-nordestina"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1D1B19",
+          "options": [
+            "#1D1B19",
+            "#2A1E16"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EAE0C8",
+          "options": [
+            "#EAE0C8",
+            "#E6B8A8",
+            "#CFE0B8",
+            "#F1E3A8"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": "yuefenpai-calendar-poster",
+      "name": "Shanghai yuefenpai calendar poster",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1900–1949",
+      "thesis": "A calendar that a shop gives away can sell a product through the face of a modern woman, in smooth, warm colour that a lithograph can copy.",
+      "summary": "Artists drew a beauty in rubbed charcoal and tinted it with watercolour. Printers copied the result by chromolithography for tobacco, medicine and cloth advertisers. A calendar band runs along the foot.",
+      "path": "skills/yuefenpai-calendar-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "yuefenpai",
+        "shanghai calendar poster",
+        "1930s shanghai advertisement",
+        "chinese beauty poster",
+        "old shanghai pin-up",
+        "rub charcoal watercolour poster",
+        "qipao poster"
+      ],
+      "use_cases": [
+        "retro posters and packs for Shanghai themes",
+        "cafe and bar interiors",
+        "film and game art for 1930s Shanghai",
+        "magazine editorials on advertising history"
+      ],
+      "emotion": [
+        "glamorous",
+        "modern",
+        "soft",
+        "commercial",
+        "nostalgic"
+      ],
+      "archetypes": [
+        "lover",
+        "magician"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 4,
+        "registration_play": 2,
+        "surface_relief": 1,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "lithography"
+      ],
+      "orgs": [
+        "zhiying-studio"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#2A2622",
+          "options": [
+            "#2A2622",
+            "#3A2A26",
+            "#2A2A2E"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F1E6CB",
+          "options": [
+            "#F1E6CB",
+            "#F5ECD6",
+            "#EBDDBC"
+          ]
+        },
+        "ink_count": {
+          "default": 6,
+          "min": 4,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 100,
+          "min": 70,
+          "max": 133
+        },
+        "misregistration": {
+          "default": 0.4,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "id": "sosaku-hanga-print",
+      "name": "Sosaku-hanga creative print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1904–1970",
+      "thesis": "A print is art when one person makes the whole of it, from the drawing to the last rub of the baren.",
+      "summary": "The artist draws, cuts and prints the block alone, and so rejects the three trades of the ukiyo-e shop. The result is a bold cut, an individual block, abstract shape and visible tool marks.",
+      "path": "skills/sosaku-hanga-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "sosaku-hanga",
+        "creative print japan",
+        "onchi koshiro",
+        "modern japanese woodblock",
+        "abstract woodblock print",
+        "hand-cut japanese print",
+        "gouge marks print"
+      ],
+      "use_cases": [
+        "album and book covers",
+        "gallery posters",
+        "editorial art with a personal voice",
+        "limited-edition art prints"
+      ],
+      "emotion": [
+        "raw",
+        "personal",
+        "bold",
+        "modern",
+        "expressive"
+      ],
+      "archetypes": [
+        "creator",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 2,
+        "registration_play": 3,
+        "surface_relief": 2,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "nihon-sosaku-hanga-kyokai"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1E1E22",
+          "options": [
+            "#1E1E22",
+            "#2B2B2E",
+            "#3A2E26"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EDE3CC",
+          "options": [
+            "#EDE3CC",
+            "#F1E9D6",
+            "#E4D9BF"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 1,
+          "max": 8
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0.3,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": "expressionist-woodcut-print",
+      "name": "Die Brucke woodcut",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1905–1930",
+      "thesis": "A plank cut with a few hard strokes and printed by hand keeps the cut and the grain. The print shows a raw inner state, not a clean picture.",
+      "summary": "Planks are cut with a few bold gouge strokes, and the grain and the cut marks stay visible. The artists often hand-print on cheap paper with a spoon or a press. The ink is uneven, with flat black masses and sharp angular white.",
+      "path": "skills/expressionist-woodcut-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "expressionist woodcut",
+        "die brucke print",
+        "kirchner woodcut",
+        "german expressionist print",
+        "jagged woodcut",
+        "plank grain print",
+        "angular woodcut figure",
+        "brucke programme"
+      ],
+      "use_cases": [
+        "exhibition and event posters",
+        "album and zine covers",
+        "editorial illustration with a raw edge",
+        "theatre and festival identity"
+      ],
+      "emotion": [
+        "raw",
+        "angular",
+        "urgent",
+        "tense",
+        "primitive"
+      ],
+      "archetypes": [
+        "outlaw",
+        "creator",
+        "explorer"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 2,
+        "registration_play": 4,
+        "surface_relief": 4,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "die-brucke"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1B1917",
+          "options": [
+            "#1B1917",
+            "#2A1D14",
+            "#14213D"
+          ]
+        },
+        "paper_colour": {
+          "default": "#D9CDAF",
+          "options": [
+            "#D9CDAF",
+            "#E2D8BD",
+            "#CBBF9F"
+          ]
+        },
+        "ink_count": {
+          "default": 2,
+          "min": 1,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        }
+      }
+    },
+    {
       "id": "pochoir-plate",
       "name": "Pochoir plate",
       "domain": "print",
@@ -27930,6 +30366,704 @@
           "default": 0.4,
           "min": 0,
           "max": 0.8
+        }
+      }
+    },
+    {
+      "id": "narbut-ukrainian-graphics",
+      "name": "Narbut Ukrainian Baroque graphics",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1910–1930",
+      "thesis": "A dense black pen line and Baroque lettering can make a modern cover that looks like a page from an old Ukrainian book.",
+      "summary": "A black pen drawing with Baroque capitals and heraldry, printed from zinc line blocks, sometimes with one or two flat tints. The dense ornament and the hand lettering imitate old engraved Ukrainian books.",
+      "path": "skills/narbut-ukrainian-graphics/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "narbut",
+        "ukrainian baroque",
+        "ukrainian book cover",
+        "heraldic pen drawing",
+        "baroque lettering",
+        "ukrainian heraldry",
+        "zinc line block",
+        "old ukrainian book"
+      ],
+      "use_cases": [
+        "book and journal covers",
+        "heraldic marks and certificates",
+        "banknote and stamp art",
+        "heritage and cultural-institution branding"
+      ],
+      "emotion": [
+        "heraldic",
+        "ornate",
+        "dense",
+        "national",
+        "scholarly"
+      ],
+      "archetypes": [
+        "ruler",
+        "sage",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "line-engraving"
+      ],
+      "orgs": [
+        "ukrainian-academy-of-arts"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1B1917",
+          "options": [
+            "#1B1917",
+            "#2A2018"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E8DDC0",
+          "options": [
+            "#E8DDC0",
+            "#F0E6CC",
+            "#DFD3B6"
+          ]
+        },
+        "ink_count": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 100,
+          "min": 60,
+          "max": 130
+        },
+        "misregistration": {
+          "default": 0.5,
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "id": "shin-hanga-print",
+      "name": "Shin-hanga new print",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1915–1942",
+      "thesis": "The old Edo craft of block and baren can serve a new subject, a landscape with weather and light, when a publisher keeps the three trades apart.",
+      "summary": "The publisher Watanabe Shozaburo revived the ukiyo-e split of designer, carver and printer for foreign buyers. The prints show Western light and atmosphere, with many tonal blocks for rain, snow and dusk.",
+      "path": "skills/shin-hanga-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "shin-hanga",
+        "new print japanese",
+        "hasui style",
+        "japanese landscape print rain",
+        "watanabe woodblock",
+        "moonlit japanese print",
+        "snow scene woodblock"
+      ],
+      "use_cases": [
+        "travel posters and guides",
+        "calm editorial covers",
+        "tea, sake and craft packs",
+        "hotel and wellness art"
+      ],
+      "emotion": [
+        "serene",
+        "nostalgic",
+        "atmospheric",
+        "quiet",
+        "soft"
+      ],
+      "archetypes": [
+        "sage",
+        "innocent"
+      ],
+      "vectors": {
+        "tone_method": 4,
+        "ink_layering": 4,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "watanabe-woodblock-print-shop"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#25242A",
+          "options": [
+            "#25242A",
+            "#3A3228",
+            "#2B2B3A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F0E7D2",
+          "options": [
+            "#F0E7D2",
+            "#F4ECDA",
+            "#E8DFC6"
+          ]
+        },
+        "ink_count": {
+          "default": 10,
+          "min": 8,
+          "max": 12
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 0.2,
+          "min": 0,
+          "max": 0.6
+        }
+      }
+    },
+    {
+      "id": "rosta-window-stencil-poster",
+      "name": "ROSTA Window stencil poster",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1919–1922; TASS Windows 1941–1945",
+      "thesis": "A news poster that artists can paint in one night must use few flat colours, a heavy contour and a rhyme that a passer-by reads in seconds.",
+      "summary": "A strip of cartoon panels with short rhymed captions, cut as paper stencils and painted by hand, then copied for shop windows. The flat colour, thick black contour and fast brush work follow from the speed of the news.",
+      "path": "skills/rosta-window-stencil-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "rosta window",
+        "okna rosta",
+        "mayakovsky poster",
+        "soviet satire poster",
+        "stencilled comic strip",
+        "agitprop cartoon",
+        "tass window",
+        "russian revolution poster"
+      ],
+      "use_cases": [
+        "satirical news posters",
+        "campaign and protest posters",
+        "comic-strip explainers with verse captions",
+        "shop-window displays"
+      ],
+      "emotion": [
+        "urgent",
+        "satirical",
+        "bold",
+        "agitational",
+        "hand-painted"
+      ],
+      "archetypes": [
+        "outlaw",
+        "hero",
+        "jester"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 4,
+        "surface_relief": 1,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "pochoir"
+      ],
+      "orgs": [
+        "rosta-news-agency"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1A1A1A",
+          "options": [
+            "#1A1A1A",
+            "#2B2118"
+          ]
+        },
+        "paper_colour": {
+          "default": "#CDBFA2",
+          "options": [
+            "#CDBFA2",
+            "#D8CDB4",
+            "#BFB297"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 3,
+          "max": 6
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0,
+          "note": "The style makes no tone; the screen stays at zero."
+        },
+        "misregistration": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        }
+      }
+    },
+    {
+      "id": "constructivist-photomontage-poster",
+      "name": "Constructivist photomontage poster",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1923–1938",
+      "thesis": "A poster made of real photographs, set on strong diagonals and printed in a few hard colours, speaks as a fact and not as a picture.",
+      "summary": "Cut-out photographs are pasted with drawn shapes and big type, then copied by photo-lithography or by halftone blocks in two to four flat inks. The diagonals, the red and black blocks and the sans-serif capitals come from the montage and the spot colour.",
+      "path": "skills/constructivist-photomontage-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "constructivist poster",
+        "photomontage poster",
+        "soviet poster",
+        "klucis",
+        "rodchenko poster",
+        "red and black poster",
+        "diagonal poster layout",
+        "agitprop poster"
+      ],
+      "use_cases": [
+        "campaign and protest posters",
+        "event and exhibition posters",
+        "book and magazine covers",
+        "film posters"
+      ],
+      "emotion": [
+        "forceful",
+        "modern",
+        "agitational",
+        "geometric",
+        "dynamic"
+      ],
+      "archetypes": [
+        "hero",
+        "ruler",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 3,
+        "ink_layering": 2,
+        "registration_play": 3,
+        "surface_relief": 1,
+        "hand_trace": 2
+      },
+      "techniques": [
+        "halftone",
+        "photomontage"
+      ],
+      "orgs": [
+        "lef-journal"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#161616",
+          "options": [
+            "#161616",
+            "#1F1B18"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E6DCC3",
+          "options": [
+            "#E6DCC3",
+            "#EFE6D2",
+            "#DCD2BA"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 2,
+          "max": 4
+        },
+        "screen_ruling": {
+          "default": 65,
+          "min": 45,
+          "max": 85
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": "linocut-print",
+      "name": "Expressive linocut",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1925–1970",
+      "thesis": "Linoleum has no grain, so a gouge cuts a smooth curve, and flat opaque colour layers can carry rhythm and speed.",
+      "summary": "A sheet of linoleum is cut with a V-gouge and printed by hand, so the cut has smooth curves and no grain. Flat opaque colour layers overlap in bold rhythmic shapes, as in the Grosvenor School prints of 1929-1938.",
+      "path": "skills/linocut-print/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "linocut",
+        "lino print",
+        "grosvenor school print",
+        "claude flight linocut",
+        "colour linocut",
+        "art deco motion print",
+        "hand-cut lino",
+        "sybil andrews"
+      ],
+      "use_cases": [
+        "posters and event prints",
+        "book covers and editorial illustration",
+        "transport and sports branding with a hand-made look",
+        "limited-edition art prints"
+      ],
+      "emotion": [
+        "rhythmic",
+        "modern",
+        "bold",
+        "energetic",
+        "graphic"
+      ],
+      "archetypes": [
+        "creator",
+        "explorer",
+        "hero"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 4,
+        "registration_play": 3,
+        "surface_relief": 3,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "linocut"
+      ],
+      "orgs": [
+        "grosvenor-school-of-modern-art"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1D1B1A",
+          "options": [
+            "#1D1B1A",
+            "#26211D",
+            "#14213D"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EDE6D3",
+          "options": [
+            "#EDE6D3",
+            "#F5EFE0",
+            "#E0D8C0"
+          ]
+        },
+        "ink_count": {
+          "default": 4,
+          "min": 1,
+          "max": 6
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0.5,
+          "max": 1.5
+        }
+      }
+    },
+    {
+      "id": "chinese-modern-woodcut",
+      "name": "Chinese modern woodcut",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1931–1960",
+      "thesis": "A cheap block of wood and one knife can give a poor and angry public a picture of its own life and its own fight.",
+      "summary": "In 1931 Lu Xun urged young artists to learn the European expressionist woodcut of Kollwitz and Masereel. They cut black-and-white prints on cheap wood and printed many on thin paper, bold and rough.",
+      "path": "skills/chinese-modern-woodcut/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "chinese modern woodcut",
+        "new woodcut movement",
+        "lu xun woodcut",
+        "1930s chinese protest print",
+        "black and white knife cut",
+        "yan'an woodcut",
+        "social realist woodcut"
+      ],
+      "use_cases": [
+        "posters and covers on social themes",
+        "editorial images on history and labour",
+        "album and zine covers",
+        "campaign material"
+      ],
+      "emotion": [
+        "urgent",
+        "militant",
+        "stark",
+        "solidary",
+        "raw"
+      ],
+      "archetypes": [
+        "hero",
+        "outlaw"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 1,
+        "surface_relief": 2,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "woodcut"
+      ],
+      "orgs": [
+        "lu-xun-academy-of-arts"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1C1C1C",
+          "options": [
+            "#1C1C1C",
+            "#2A2A2A",
+            "#2A1C1C"
+          ]
+        },
+        "paper_colour": {
+          "default": "#E9E0C8",
+          "options": [
+            "#E9E0C8",
+            "#EFE8D4",
+            "#E2D8BC"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 2
+        },
+        "screen_ruling": {
+          "default": 30,
+          "min": 15,
+          "max": 50
+        },
+        "misregistration": {
+          "default": 0,
+          "min": 0,
+          "max": 1.5
+        }
+      }
+    },
+    {
+      "id": "taller-grafica-popular-linocut",
+      "name": "Taller de Gráfica Popular linocut",
+      "domain": "print",
+      "family": "graphic",
+      "era": "industrial-press",
+      "period": "1937–c.1970",
+      "thesis": "A print that a collective cuts quickly in cheap material can serve a political cause and reach a wide public.",
+      "summary": "A black-and-white print cut in linoleum or wood. The Taller de Gráfica Popular made leaflets, posters and portfolios for workers, unions and the state, in large black masses and white gouge lines.",
+      "path": "skills/taller-grafica-popular-linocut/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "taller de grafica popular",
+        "tgp print",
+        "mexican linocut",
+        "leopoldo mendez",
+        "social realist woodcut",
+        "political linocut",
+        "protest print",
+        "labour poster linocut"
+      ],
+      "use_cases": [
+        "protest and campaign posters",
+        "union and community publications",
+        "book covers on social history",
+        "event posters for cultural groups"
+      ],
+      "emotion": [
+        "militant",
+        "solidarity",
+        "raw",
+        "monumental",
+        "humane"
+      ],
+      "archetypes": [
+        "hero",
+        "outlaw",
+        "everyman"
+      ],
+      "vectors": {
+        "tone_method": 2,
+        "ink_layering": 1,
+        "registration_play": 3,
+        "surface_relief": 2,
+        "hand_trace": 5
+      },
+      "techniques": [
+        "linocut"
+      ],
+      "orgs": [
+        "taller-de-grafica-popular"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1B1917",
+          "options": [
+            "#1B1917",
+            "#2A1E16"
+          ]
+        },
+        "paper_colour": {
+          "default": "#EDE6D3",
+          "options": [
+            "#EDE6D3",
+            "#F3EFE2",
+            "#E6D9B8"
+          ]
+        },
+        "ink_count": {
+          "default": 1,
+          "min": 1,
+          "max": 3
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": "cuban-solidarity-silkscreen-poster",
+      "name": "Cuban solidarity silkscreen poster",
+      "domain": "print",
+      "family": "graphic",
+      "era": "studio-press",
+      "period": "1960–1990",
+      "thesis": "Two to four flat inks and one strong shape can carry a political or film message to a street in any language.",
+      "summary": "A poster in flat colour and a bold shape. ICAIC printed film posters by hand-pulled silkscreen in short runs. OSPAAAL printed solidarity posters by offset and folded them into the Tricontinental magazine.",
+      "path": "skills/cuban-solidarity-silkscreen-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "cuban poster",
+        "ospaaal",
+        "icaic poster",
+        "solidarity poster",
+        "tricontinental",
+        "cartel cubano",
+        "revolutionary poster",
+        "flat silkscreen poster"
+      ],
+      "use_cases": [
+        "film festival posters",
+        "campaign and protest posters",
+        "cultural event announcements",
+        "album covers"
+      ],
+      "emotion": [
+        "bold",
+        "militant",
+        "optimistic",
+        "graphic",
+        "direct"
+      ],
+      "archetypes": [
+        "hero",
+        "outlaw",
+        "creator"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 2,
+        "registration_play": 3,
+        "surface_relief": 1,
+        "hand_trace": 3
+      },
+      "techniques": [
+        "screen-printing"
+      ],
+      "orgs": [
+        "icaic",
+        "ospaaal"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#1A1A1A",
+          "options": [
+            "#1A1A1A",
+            "#101820"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F1ECDD",
+          "options": [
+            "#F1ECDD",
+            "#FFFFFF",
+            "#EFE3C8"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 2,
+          "max": 5
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1,
+          "min": 0,
+          "max": 2
         }
       }
     },
@@ -28188,6 +31322,93 @@
           "default": 0,
           "min": 0,
           "max": 0
+        }
+      }
+    },
+    {
+      "id": "chicha-poster",
+      "name": "Chicha poster",
+      "domain": "print",
+      "family": "graphic",
+      "era": "studio-press",
+      "period": "1978–present",
+      "thesis": "A fluorescent poster with big hand-drawn letters can call a crowd to a street concert at a very low cost.",
+      "summary": "A concert poster in fluorescent ink for chicha music. The maker draws big outlined letters and a tight border by hand, and prints in 2–5 loud flat colours on cheap paper.",
+      "path": "skills/chicha-poster/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "chicha poster",
+        "peruvian poster",
+        "cartel chicha",
+        "fluorescent concert poster",
+        "cumbia poster",
+        "lima street poster",
+        "neon silkscreen",
+        "andean psychedelic"
+      ],
+      "use_cases": [
+        "music festival and club posters",
+        "album covers for cumbia and psychedelic music",
+        "street food and drink branding",
+        "event invitations"
+      ],
+      "emotion": [
+        "fluorescent",
+        "festive",
+        "psychedelic",
+        "loud",
+        "popular"
+      ],
+      "archetypes": [
+        "jester",
+        "outlaw",
+        "everyman"
+      ],
+      "vectors": {
+        "tone_method": 1,
+        "ink_layering": 3,
+        "registration_play": 4,
+        "surface_relief": 1,
+        "hand_trace": 4
+      },
+      "techniques": [
+        "screen-printing"
+      ],
+      "orgs": [
+        "smithsonian-folklife-festival"
+      ],
+      "permutations": {
+        "key_ink": {
+          "default": "#111111",
+          "options": [
+            "#111111",
+            "#2A0A3A"
+          ]
+        },
+        "paper_colour": {
+          "default": "#F4F0E4",
+          "options": [
+            "#F4F0E4",
+            "#FFFFFF",
+            "#FFF7A8"
+          ]
+        },
+        "ink_count": {
+          "default": 3,
+          "min": 2,
+          "max": 5
+        },
+        "screen_ruling": {
+          "default": 0,
+          "min": 0,
+          "max": 0
+        },
+        "misregistration": {
+          "default": 1.5,
+          "min": 0.5,
+          "max": 3
         }
       }
     },
@@ -47748,6 +50969,34 @@
       ]
     },
     {
+      "id": "aquatint",
+      "name": "Aquatint",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1768,
+        "where": "Paris",
+        "note": "Jean-Baptiste Le Prince made aquatints in 1768 to 1769; other makers also claim the invention.",
+        "styles": [
+          "aquatint-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1799,
+          "via": "Francisco Goya publishes Los Caprichos with etched line and deep aquatint tones.",
+          "styles": [
+            "aquatint-print"
+          ],
+          "lag_years": 31
+        }
+      ],
+      "styles": [
+        "aquatint-print"
+      ]
+    },
+    {
       "id": "arch",
       "name": "Arch",
       "kind": "motif",
@@ -49384,6 +52633,43 @@
       ]
     },
     {
+      "id": "collotype",
+      "name": "Collotype",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1855,
+        "where": "Paris",
+        "note": "Alphonse Poitevin invented and patented the process in 1855.",
+        "styles": [
+          "collotype-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1868,
+          "via": "Joseph Albert and Jakub Husník make a gelatin plate on glass, and Albert builds the first mechanised collotype press.",
+          "styles": [
+            "collotype-print"
+          ],
+          "lag_years": 13
+        },
+        {
+          "domain": "print",
+          "year": 1887,
+          "via": "Eadweard Muybridge publishes Animal Locomotion with 781 plates printed as collotypes.",
+          "styles": [
+            "collotype-print"
+          ],
+          "lag_years": 32
+        }
+      ],
+      "styles": [
+        "collotype-print"
+      ]
+    },
+    {
       "id": "coloured-gel-lighting",
       "name": "Coloured gel lighting",
       "kind": "process",
@@ -50179,6 +53465,44 @@
       "styles": [
         "victorian-web",
         "editorial-serif-revival"
+      ]
+    },
+    {
+      "id": "drypoint",
+      "name": "Drypoint",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1480,
+        "circa": true,
+        "where": "Southern Germany",
+        "note": "The Housebook Master, a south German artist, seems to have invented it; all his prints are in drypoint.",
+        "styles": [
+          "drypoint-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1653,
+          "via": "Rembrandt prints The Three Crosses in heavy drypoint, with a thick burr in the dark areas.",
+          "styles": [
+            "drypoint-print"
+          ],
+          "lag_years": 173
+        },
+        {
+          "domain": "print",
+          "year": 1891,
+          "via": "Mary Cassatt shows colour prints in Paris that she makes with drypoint and aquatint.",
+          "styles": [
+            "drypoint-print"
+          ],
+          "lag_years": 411
+        }
+      ],
+      "styles": [
+        "drypoint-print"
       ]
     },
     {
@@ -51572,6 +54896,16 @@
           "lag_years": 1
         },
         {
+          "domain": "print",
+          "year": 1924,
+          "circa": true,
+          "via": "State printers in Moscow copy the pasted montages through a coarse screen, so that photographs print in 2–4 flat inks.",
+          "styles": [
+            "constructivist-photomontage-poster"
+          ],
+          "lag_years": 45
+        },
+        {
           "domain": "painting",
           "year": 1961,
           "via": "Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey.",
@@ -51610,7 +54944,8 @@
         "pop-art-web",
         "punk-zine",
         "duotone-icon",
-        "pop-screen-print"
+        "pop-screen-print",
+        "constructivist-photomontage-poster"
       ]
     },
     {
@@ -52331,6 +55666,36 @@
       ]
     },
     {
+      "id": "katagami-stencil",
+      "name": "Katagami stencil",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1600,
+        "circa": true,
+        "where": "Ise (Suzuka, Mie), Japan",
+        "note": "The stencil craft grew in Ise in the Edo period. The date is the start of that period and not a firm record of a first stencil.",
+        "styles": [
+          "katagami-stencil-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1600,
+          "circa": true,
+          "via": "The cutters of Shiroko and Jike in Ise supply stencils to the dyers of Japan for repeat patterns on cloth.",
+          "styles": [
+            "katagami-stencil-print"
+          ],
+          "lag_years": 0
+        }
+      ],
+      "styles": [
+        "katagami-stencil-print"
+      ]
+    },
+    {
       "id": "ken-burns-effect",
       "name": "Ken Burns effect",
       "kind": "animation",
@@ -52691,6 +56056,15 @@
         },
         {
           "domain": "print",
+          "year": 1890,
+          "via": "The press of Antonio Vanegas Arroyo prints the metal-plate pictures of José Guadalupe Posada with set type on one sheet (about 1890).",
+          "styles": [
+            "posada-broadside"
+          ],
+          "lag_years": 436
+        },
+        {
+          "domain": "print",
           "year": 1891,
           "via": "William Morris returns to the hand press, handmade paper and a heavy cast type at the Kelmscott Press.",
           "styles": [
@@ -52713,7 +56087,8 @@
         "blackletter",
         "wood-type-poster",
         "private-press-book",
-        "ben-day-comic-print"
+        "ben-day-comic-print",
+        "posada-broadside"
       ]
     },
     {
@@ -52848,6 +56223,16 @@
           "lag_years": 40
         },
         {
+          "domain": "print",
+          "year": 1670,
+          "circa": true,
+          "via": "Print shops in Moscow and Kyiv engrave picture sheets on copper plates; the sheets are coloured by hand and sold as lubok.",
+          "styles": [
+            "russian-lubok-print"
+          ],
+          "lag_years": 240
+        },
+        {
           "domain": "typeface",
           "year": 1741,
           "via": "George Bickham engraves the copperplate hands of The Universal Penman (1741) on copper.",
@@ -52885,6 +56270,15 @@
           "lag_years": 380
         },
         {
+          "domain": "print",
+          "year": 1819,
+          "via": "Jacob Perkins moves to London and engraves bank notes on hardened steel plates.",
+          "styles": [
+            "banknote-engraving-print"
+          ],
+          "lag_years": 389
+        },
+        {
           "domain": "logo",
           "year": 1875,
           "via": "The UK Trade Marks Registration Act starts a register, and firms file engraved vignettes, banners and shaded figures.",
@@ -52892,6 +56286,15 @@
             "victorian-trademark"
           ],
           "lag_years": 445
+        },
+        {
+          "domain": "print",
+          "year": 1910,
+          "via": "Narbut draws pen lines in the manner of Baroque engraved books, and a zinc line block prints them.",
+          "styles": [
+            "narbut-ukrainian-graphics"
+          ],
+          "lag_years": 480
         }
       ],
       "styles": [
@@ -52900,7 +56303,10 @@
         "victorian-trademark",
         "formal-script",
         "fat-face-display",
-        "engraving-print"
+        "engraving-print",
+        "russian-lubok-print",
+        "narbut-ukrainian-graphics",
+        "banknote-engraving-print"
       ]
     },
     {
@@ -52929,6 +56335,45 @@
       ]
     },
     {
+      "id": "linocut",
+      "name": "Linocut",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1905,
+        "circa": true,
+        "where": "Dresden",
+        "note": "Artists of Die Brücke cut linoleum from about 1905. Vojtěch Preissig also made linoleum prints in 1911, in New York.",
+        "styles": [
+          "linocut-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1929,
+          "via": "Claude Flight and his group hold the first exhibition of British linocuts at the Redfern Gallery in London.",
+          "styles": [
+            "linocut-print"
+          ],
+          "lag_years": 24
+        },
+        {
+          "domain": "print",
+          "year": 1937,
+          "via": "The Taller de Gráfica Popular opens in Mexico City and makes political prints from linoleum and wood blocks.",
+          "styles": [
+            "taller-grafica-popular-linocut"
+          ],
+          "lag_years": 32
+        }
+      ],
+      "styles": [
+        "linocut-print",
+        "taller-grafica-popular-linocut"
+      ]
+    },
+    {
       "id": "lithography",
       "name": "Lithography",
       "kind": "process",
@@ -52940,6 +56385,24 @@
         "note": "Alois Senefelder invents lithography in Bavaria."
       },
       "adoptions": [
+        {
+          "domain": "print",
+          "year": 1832,
+          "via": "A press in Tabriz prints the first lithographed Qur'an (AH 1248), and Iranian presses then print books from scribe-written stones.",
+          "styles": [
+            "qajar-lithographed-book"
+          ],
+          "lag_years": 36
+        },
+        {
+          "domain": "print",
+          "year": 1832,
+          "via": "Honoré Daumier draws crayon lithographs for Le Charivari in Paris.",
+          "styles": [
+            "crayon-lithograph-print"
+          ],
+          "lag_years": 36
+        },
         {
           "domain": "print",
           "year": 1866,
@@ -52968,6 +56431,15 @@
           "lag_years": 95
         },
         {
+          "domain": "print",
+          "year": 1894,
+          "via": "Raja Ravi Varma founds the Ravi Varma Press and prints oleographs of his paintings from limestone and metal plates.",
+          "styles": [
+            "ravi-varma-oleograph"
+          ],
+          "lag_years": 98
+        },
+        {
           "domain": "painting",
           "year": 1895,
           "via": "Edvard Munch prints The Scream as a lithograph.",
@@ -52975,6 +56447,25 @@
             "expressionism-painting"
           ],
           "lag_years": 99
+        },
+        {
+          "domain": "print",
+          "year": 1899,
+          "via": "The state printing works in St Petersburg prints Bilibin's fairy-tale books, with the tints drawn on separate stones.",
+          "styles": [
+            "mir-iskusstva-book-graphics"
+          ],
+          "lag_years": 103
+        },
+        {
+          "domain": "print",
+          "year": 1910,
+          "circa": true,
+          "via": "Shanghai advertisers have yuefenpai calendar posters printed by chromolithography from rubbed charcoal and watercolour originals.",
+          "styles": [
+            "yuefenpai-calendar-poster"
+          ],
+          "lag_years": 114
         },
         {
           "domain": "print",
@@ -52991,7 +56482,12 @@
         "art-nouveau-web",
         "expressionism-painting",
         "chromolithograph-poster",
-        "psychedelic-concert-poster"
+        "psychedelic-concert-poster",
+        "yuefenpai-calendar-poster",
+        "qajar-lithographed-book",
+        "ravi-varma-oleograph",
+        "mir-iskusstva-book-graphics",
+        "crayon-lithograph-print"
       ]
     },
     {
@@ -54171,6 +57667,35 @@
       ]
     },
     {
+      "id": "paper-marbling",
+      "name": "Paper marbling",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1539,
+        "circa": true,
+        "where": "Istanbul, Ottoman lands",
+        "note": "Ottoman marbled paper appears in the margins of a Hâlnâma manuscript of 1539–40. Older Persian or Central Asian sheets are possible.",
+        "styles": [
+          "ebru-marbled-paper"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1539,
+          "via": "Ottoman scribes and binders use marbled paper in the margins and the covers of manuscripts, and the craft grows into the art of ebru.",
+          "styles": [
+            "ebru-marbled-paper"
+          ],
+          "lag_years": 0
+        }
+      ],
+      "styles": [
+        "ebru-marbled-paper"
+      ]
+    },
+    {
       "id": "parametric-modelling",
       "name": "Parametric modelling",
       "kind": "technology",
@@ -54322,6 +57847,44 @@
       ]
     },
     {
+      "id": "photogravure",
+      "name": "Photogravure",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1852,
+        "where": "England",
+        "note": "Henry Fox Talbot patented his photographic engraving in 1852.",
+        "styles": [
+          "photogravure-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1878,
+          "via": "Karel Klíč makes the mature Talbot-Klič process, which stays in use.",
+          "styles": [
+            "photogravure-print"
+          ],
+          "lag_years": 26
+        },
+        {
+          "domain": "photography",
+          "year": 1903,
+          "via": "Alfred Stieglitz prints the plates of Camera Work as photogravures.",
+          "styles": [
+            "pictorialism"
+          ],
+          "lag_years": 51
+        }
+      ],
+      "styles": [
+        "photogravure-print",
+        "pictorialism"
+      ]
+    },
+    {
       "id": "photomontage",
       "name": "Photomontage",
       "kind": "montage",
@@ -54338,6 +57901,16 @@
           "via": "Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books.",
           "styles": [
             "constructivism-web"
+          ],
+          "lag_years": 6
+        },
+        {
+          "domain": "print",
+          "year": 1924,
+          "circa": true,
+          "via": "Klucis and Rodchenko paste cut photographs and drawn shapes into posters, covers and book jackets in Moscow.",
+          "styles": [
+            "constructivist-photomontage-poster"
           ],
           "lag_years": 6
         },
@@ -54418,7 +57991,8 @@
         "surrealism-web",
         "anti-design",
         "scrapbook-ui",
-        "seapunk"
+        "seapunk",
+        "constructivist-photomontage-poster"
       ]
     },
     {
@@ -54757,10 +58331,20 @@
             "pochoir-plate"
           ],
           "lag_years": 4
+        },
+        {
+          "domain": "print",
+          "year": 1919,
+          "via": "Artists of ROSTA paint news strips through paper stencils, one stencil for each colour, for the shop windows of Moscow.",
+          "styles": [
+            "rosta-window-stencil-poster"
+          ],
+          "lag_years": 11
         }
       ],
       "styles": [
-        "pochoir-plate"
+        "pochoir-plate",
+        "rosta-window-stencil-poster"
       ]
     },
     {
@@ -55623,6 +59207,15 @@
       "adoptions": [
         {
           "domain": "print",
+          "year": 1960,
+          "via": "ICAIC and OSPAAAL make flat-colour posters in Havana; ICAIC prints many of them by hand-pulled silkscreen.",
+          "styles": [
+            "cuban-solidarity-silkscreen-poster"
+          ],
+          "lag_years": 53
+        },
+        {
+          "domain": "print",
           "year": 1962,
           "via": "Andy Warhol starts to make photographic silkscreens in his studio and prints portraits in flat, loud colour.",
           "styles": [
@@ -55677,6 +59270,15 @@
           "lag_years": 74
         },
         {
+          "domain": "print",
+          "year": 1983,
+          "via": "The Lima artist Monky begins to screen print his chicha posters with Juan Tenicela.",
+          "styles": [
+            "chicha-poster"
+          ],
+          "lag_years": 76
+        },
+        {
           "domain": "fashion",
           "year": 1985,
           "via": "Dapper Dan prints luxury logos on leather with a silk-screen press and makes jackets and bags of it.",
@@ -55693,7 +59295,9 @@
         "punk-fashion",
         "streetwear",
         "logomania",
-        "memphis-postmodern-ceramics"
+        "memphis-postmodern-ceramics",
+        "cuban-solidarity-silkscreen-poster",
+        "chicha-poster"
       ]
     },
     {
@@ -56734,6 +60338,34 @@
       ],
       "styles": [
         "kidcore"
+      ]
+    },
+    {
+      "id": "stipple-engraving",
+      "name": "Stipple engraving",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1756,
+        "where": "Paris",
+        "note": "Gilles Demarteau used chasing tools and wheels to shade the lines in his chalk-manner prints.",
+        "styles": [
+          "stipple-engraving-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1789,
+          "via": "Francesco Bartolozzi engraves portraits in stipple, and some in colour, for the London market.",
+          "styles": [
+            "stipple-engraving-print"
+          ],
+          "lag_years": 33
+        }
+      ],
+      "styles": [
+        "stipple-engraving-print"
       ]
     },
     {
@@ -58356,6 +61988,44 @@
       ]
     },
     {
+      "id": "wood-engraving",
+      "name": "Wood engraving",
+      "kind": "process",
+      "origin": {
+        "domain": "print",
+        "year": 1790,
+        "circa": true,
+        "where": "Newcastle upon Tyne",
+        "note": "Thomas Bewick developed the technique at the end of the 18th century.",
+        "styles": [
+          "wood-engraving-print"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1797,
+          "via": "Thomas Bewick publishes the first volume of A History of British Birds, with wood engravings in the text.",
+          "styles": [
+            "wood-engraving-print"
+          ],
+          "lag_years": 7
+        },
+        {
+          "domain": "print",
+          "year": 1839,
+          "via": "The Dalziel Brothers start a London firm that cuts blocks for the illustrated press.",
+          "styles": [
+            "wood-engraving-print"
+          ],
+          "lag_years": 49
+        }
+      ],
+      "styles": [
+        "wood-engraving-print"
+      ]
+    },
+    {
       "id": "wood-type",
       "name": "Wood type",
       "kind": "process",
@@ -58435,6 +62105,45 @@
           "lag_years": 625
         },
         {
+          "domain": "print",
+          "year": 1508,
+          "via": "Lucas Cranach the Elder and Hans Burgkmair print woodcuts from a line block and tone blocks; Ugo da Carpi follows in Italy.",
+          "styles": [
+            "chiaroscuro-woodcut-print"
+          ],
+          "lag_years": 640
+        },
+        {
+          "domain": "print",
+          "year": 1600,
+          "circa": true,
+          "via": "Workshops in Dong Ho and Yangliuqing print an outline block and flat colour blocks for New Year pictures.",
+          "styles": [
+            "dong-ho-folk-woodblock",
+            "nianhua-new-year-print"
+          ],
+          "lag_years": 732
+        },
+        {
+          "domain": "print",
+          "year": 1633,
+          "via": "Hu Zhengyan's Ten Bamboo Studio in Nanjing publishes its Manual of Painting and Calligraphy. The studio fits many small pearwood blocks into one picture and presses dry blocks for raised lines.",
+          "styles": [
+            "ten-bamboo-studio-polychrome"
+          ],
+          "lag_years": 765
+        },
+        {
+          "domain": "print",
+          "year": 1660,
+          "circa": true,
+          "via": "Print shops in Moscow and Kyiv cut cheap picture sheets on wood, and hand colourists paint them for sale by pedlars.",
+          "styles": [
+            "russian-lubok-print"
+          ],
+          "lag_years": 792
+        },
+        {
           "domain": "painting",
           "year": 1765,
           "via": "Suzuki Harunobu and his printers make the full-colour nishiki-e print on many blocks.",
@@ -58442,6 +62151,51 @@
             "ukiyo-e"
           ],
           "lag_years": 897
+        },
+        {
+          "domain": "print",
+          "year": 1765,
+          "via": "Suzuki Harunobu and his printers make the full-colour nishiki-e print in Edo, with one block for each colour and a kento register.",
+          "styles": [
+            "nishiki-e-polychrome-woodblock"
+          ],
+          "lag_years": 897
+        },
+        {
+          "domain": "print",
+          "year": 1790,
+          "via": "Poetry clubs in Edo pay for surimono, small prints on thick paper with embossing and metal dust.",
+          "styles": [
+            "surimono-print"
+          ],
+          "lag_years": 922
+        },
+        {
+          "domain": "print",
+          "year": 1799,
+          "via": "Collectors in Edo hold exchange meetings for senjafuda, small name slips printed from woodblocks.",
+          "styles": [
+            "senjafuda-slip"
+          ],
+          "lag_years": 931
+        },
+        {
+          "domain": "print",
+          "year": 1816,
+          "via": "Bengali craftsmen cut woodblock pictures for books and sheets printed in the Battala quarter of Calcutta.",
+          "styles": [
+            "battala-woodcut"
+          ],
+          "lag_years": 948
+        },
+        {
+          "domain": "print",
+          "year": 1868,
+          "via": "Meiji printers use imported aniline dye on woodblocks, and Kobayashi Kiyochika adds light and shadow in his kosen-ga.",
+          "styles": [
+            "meiji-kosen-ga-print"
+          ],
+          "lag_years": 1000
         },
         {
           "domain": "print",
@@ -58463,11 +62217,38 @@
           "lag_years": 1026
         },
         {
+          "domain": "print",
+          "year": 1900,
+          "via": "Cutters in the Brazilian northeast cut woodblock covers for cordel chapbooks, from about 1900.",
+          "styles": [
+            "cordel-xilogravura"
+          ],
+          "lag_years": 1032
+        },
+        {
+          "domain": "print",
+          "year": 1904,
+          "via": "Yamamoto Kanae cuts and prints his own block for the print Fisherman, and so starts the sosaku-hanga movement.",
+          "styles": [
+            "sosaku-hanga-print"
+          ],
+          "lag_years": 1036
+        },
+        {
           "domain": "painting",
           "year": 1905,
           "via": "Ernst Ludwig Kirchner, Erich Heckel and Karl Schmidt-Rottluff of Die Brücke cut jagged woodcuts in Dresden.",
           "styles": [
             "expressionism-painting"
+          ],
+          "lag_years": 1037
+        },
+        {
+          "domain": "print",
+          "year": 1905,
+          "via": "Die Brücke artists cut rough woodcuts in Dresden, with flat shapes and visible gouge marks.",
+          "styles": [
+            "expressionist-woodcut-print"
           ],
           "lag_years": 1037
         },
@@ -58479,6 +62260,24 @@
             "fauvism"
           ],
           "lag_years": 1038
+        },
+        {
+          "domain": "print",
+          "year": 1915,
+          "via": "Watanabe Shozaburo restarts the three-trade woodblock shop in Tokyo and names its prints shin-hanga.",
+          "styles": [
+            "shin-hanga-print"
+          ],
+          "lag_years": 1047
+        },
+        {
+          "domain": "print",
+          "year": 1931,
+          "via": "Lu Xun leads a woodcut class in Shanghai, and young artists cut black-and-white prints on cheap wood.",
+          "styles": [
+            "chinese-modern-woodcut"
+          ],
+          "lag_years": 1063
         }
       ],
       "styles": [
@@ -58487,7 +62286,22 @@
         "expressionism-painting",
         "fauvism",
         "woodcut-relief-print",
-        "private-press-book"
+        "private-press-book",
+        "dong-ho-folk-woodblock",
+        "nianhua-new-year-print",
+        "ten-bamboo-studio-polychrome",
+        "nishiki-e-polychrome-woodblock",
+        "surimono-print",
+        "senjafuda-slip",
+        "meiji-kosen-ga-print",
+        "sosaku-hanga-print",
+        "shin-hanga-print",
+        "chinese-modern-woodcut",
+        "battala-woodcut",
+        "cordel-xilogravura",
+        "russian-lubok-print",
+        "chiaroscuro-woodcut-print",
+        "expressionist-woodcut-print"
       ]
     },
     {

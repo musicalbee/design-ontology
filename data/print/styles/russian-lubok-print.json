@@ -1,0 +1,283 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "russian-lubok-print",
+  "domain": "print",
+  "name": "Russian lubok folk print",
+  "aliases": [
+    "Lubok",
+    "Лубок",
+    "Narodnaya kartinka",
+    "Народная картинка"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1660,
+    "end": 1900,
+    "label": "c.1660–1900"
+  },
+  "region": "Moscow, Suzdal and Vladimir, Russia",
+  "summary": "A cheap sheet cut in wood or engraved in copper, printed in black on thin paper and then coloured by hand. Pedlars sold it by the thousand. The line is coarse and the colour is flat and loose, because speed and price mattered most.",
+  "philosophy": {
+    "core_thesis": "A coarse black key line and a few loose hand colours are enough to tell a story that anyone can read at a glance.",
+    "design_principles": [
+      "Cut or engrave one firm black outline for each figure; keep the line 0.8–2.0 mm wide and let it vary.",
+      "Print the key line first on thin paper; add the colour afterwards, by brush or through a stencil.",
+      "Use 3–5 flat hand colours: vermilion, yellow ochre, green and blue. Do not blend them.",
+      "Let the colour miss the line by 2–4 mm in places; the shift shows the hand.",
+      "Put a caption or a short verse in Cyrillic under or inside the picture, in a plain cut or type letter.",
+      "Show the story in one sheet or in a strip of panels, with figures that stand side by side and almost no depth.",
+      "Leave the paper bare for faces and hands; the grey-cream sheet is the light."
+    ],
+    "anti_patterns": [
+      "Smooth tone, shading or a gradient",
+      "Exact register of colour inside the line",
+      "A fine, even line that looks like a pencil sketch",
+      "Perspective and a deep, realistic space",
+      "A glossy or bright white sheet"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 5,
+    "surface_relief": 2,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A block of pear or lime wood cut on the side grain. In some sheets, a copper plate or, later, a lithographic stone.",
+    "press": "A hand press, or a rubbed impression with a wooden roller or a spoon.",
+    "image_making": "A cutter cuts the outline with a knife and gouges. After printing, a colourist adds the colour by brush or through a paper stencil.",
+    "edition": "Thousands of sheets from one block; no two hand-coloured sheets match."
+  },
+  "inks": {
+    "strategy": "One black oil ink for the key line; the colours are thin brush or stencil washes that go on after printing.",
+    "ink_count_min": 1,
+    "ink_count_max": 5,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Lamp black",
+        "hex": "#1E1A17",
+        "role": "the key line and the lettering"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#C8402A",
+        "role": "hand colour for clothes and accents"
+      },
+      {
+        "name": "Yellow ochre",
+        "hex": "#D9A441",
+        "role": "hand colour for gold and hair"
+      },
+      {
+        "name": "Green",
+        "hex": "#5E8B5A",
+        "role": "hand colour for plants and coats"
+      },
+      {
+        "name": "Blue",
+        "hex": "#4A6FA5",
+        "role": "hand colour for sky and cloth"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 20,
+    "angles": [
+      45
+    ],
+    "rule": "Make the tone with a few coarse parallel cuts, about 20 to an inch, or leave the paper bare."
+  },
+  "registration": {
+    "tolerance_mm": 3,
+    "rule": "The hand colour shifts 2–4 mm from the key line, and it can run over it. This shift is part of the look."
+  },
+  "substrate": {
+    "stock": "A thin rag or wood-pulp paper with a rough surface and a grey-cream tone.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 90,
+    "ground": "#D8CDB4",
+    "finish": "Uncoated and unsized, with a coarse tooth; it tones and creases with age."
+  },
+  "surface": {
+    "impression": "A light bite: the black line sinks a little into the thin sheet.",
+    "sheen": "Matt, with a dull shine where the black ink is thick.",
+    "texture": "Thick black lines with ink squash, wash colour that cockles the paper, and a visible grain of the sheet."
+  },
+  "artefacts": {
+    "marks": [
+      "thick, uneven cut line",
+      "hand colour that spills over the outline",
+      "hand-lettered or type captions in Cyrillic",
+      "ink squash at line edges",
+      "paper toning and creases",
+      "wash cockle in the thin sheet"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Russian lubok woodcut",
+      "coarse black cut outline",
+      "flat hand-coloured vermilion and ochre",
+      "colour spilling past the line",
+      "naive folk figures",
+      "Cyrillic caption cartouche",
+      "thin toned paper",
+      "18th-century popular print"
+    ],
+    "negative": [
+      "photorealistic",
+      "smooth gradient",
+      "3D render",
+      "perfect registration",
+      "glossy finish",
+      "fine pencil-like line"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Lubok sheet, c. 1760",
+      "kind": "image",
+      "maker": "Anonymous folk artist",
+      "year": 1760,
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1760kit.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/b3/1760kit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "A pair of dwarfs, lubok",
+      "kind": "image",
+      "maker": "Unknown",
+      "year": 1740,
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:A_pair_of_dwarfs_Lubok.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/A_pair_of_dwarfs_Lubok.jpg/960px-A_pair_of_dwarfs_Lubok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Adskoe chudovishe (Hell monster), lubok",
+      "kind": "image",
+      "maker": "Anonymous folk artist",
+      "year": 1850,
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Adskoe_chudovishe.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/64/Adskoe_chudovishe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "engraving-print"
+    ],
+    "echoes": [
+      "mingei-folk-craft"
+    ]
+  },
+  "emotion": {
+    "target_response": "Blunt, warm humour: the viewer reads a street story that a pedlar sold for a few kopecks, and smiles at its plain force.",
+    "keywords": [
+      "naive",
+      "folk",
+      "bold",
+      "humorous",
+      "hand-made"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "lubok",
+      "russian folk print",
+      "russian woodcut",
+      "narodnaya kartinka",
+      "hand-coloured woodcut",
+      "folk broadside",
+      "pedlar's print",
+      "cyrillic folk print"
+    ],
+    "use_cases": [
+      "folk-tale and satire illustration",
+      "craft beer and food labels",
+      "theatre and puppet-show posters",
+      "editorial images on Russian history"
+    ],
+    "avoid_when": [
+      "The picture needs fine detail, a likeness or a photographic look.",
+      "The colour must sit exactly inside the line."
+    ],
+    "modifiers": [
+      {
+        "request": "more polished",
+        "toward": "mir-iskusstva-book-graphics",
+        "how": "Keep the folk figures and the flat colour; make the outline even, add a pattern border and put the colour exactly inside the line."
+      },
+      {
+        "request": "more political",
+        "toward": "rosta-window-stencil-poster",
+        "how": "Keep the coarse outline and the flat colour; put a rhymed caption under each panel and use 3–4 bold colours."
+      },
+      {
+        "request": "finer line",
+        "toward": "engraving-print",
+        "how": "Change the cut wood for a copper plate: thinner, swelling lines at 80–120 to an inch."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1E1A17",
+      "options": [
+        "#1E1A17",
+        "#2A1E16"
+      ]
+    },
+    "paper_colour": {
+      "default": "#D8CDB4",
+      "options": [
+        "#D8CDB4",
+        "#E3D8BE",
+        "#CFC3A8"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 1,
+      "max": 5
+    },
+    "screen_ruling": {
+      "default": 20,
+      "min": 0,
+      "max": 30
+    },
+    "misregistration": {
+      "default": 3,
+      "min": 1,
+      "max": 4
+    }
+  },
+  "sources": [
+    {
+      "title": "Lubok (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lubok"
+    },
+    {
+      "title": "Лубок (ru.wikipedia)",
+      "url": "https://ru.wikipedia.org/wiki/Лубок"
+    },
+    {
+      "title": "Commons category: Lubok",
+      "url": "https://commons.wikimedia.org/wiki/Category:Lubok"
+    }
+  ]
+}

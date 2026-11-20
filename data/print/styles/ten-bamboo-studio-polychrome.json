@@ -1,0 +1,256 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "ten-bamboo-studio-polychrome",
+  "domain": "print",
+  "name": "Ten Bamboo Studio polychrome block print",
+  "aliases": [
+    "Shizhuzhai",
+    "十竹斋",
+    "Doubanh jigsaw printing",
+    "饾版",
+    "Gonghua embossing",
+    "拱花"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1619,
+    "end": 1644,
+    "label": "c.1619–1644"
+  },
+  "region": "Nanjing, China",
+  "summary": "Hu Zhengyan's workshop cut many small blocks for one picture (douban) and printed them in turn on one sheet. Dry blocks pressed the paper (gonghua) and raised the outline of a petal or a cloud.",
+  "philosophy": {
+    "core_thesis": "A page of a painting manual can carry the soft colour of a scroll when the printer splits the picture into small blocks that fit like a jigsaw.",
+    "design_principles": [
+      "Split each picture by colour into small blocks, up to dozens for one page, and print them one by one on the same sheet.",
+      "Grade the ink on one block (a wet-brush effect) so one petal or leaf shades from pale to deep.",
+      "Print the key outline in light ink, with a thin line, and let the colour carry the form.",
+      "Press a dry block into the sheet (gonghua) to raise the outline of a petal, a cloud or a wave, with no ink on it.",
+      "Choose a quiet subject of the literati: a plum, bamboo, a rock, a bird or an orchid.",
+      "Use pale, clear colours: rose, moss green, water blue and ink grey.",
+      "Add a short poem in calligraphy and a red seal."
+    ],
+    "anti_patterns": [
+      "A heavy black outline in the manner of a folk print",
+      "Poster colours that are loud and opaque",
+      "Halftone dots or a photograph",
+      "A large flat area of one colour with no gradation",
+      "Three-dimensional shading"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 3,
+    "registration_play": 1,
+    "surface_relief": 3,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Pearwood blocks, cut small, up to dozens for one image, and dry blocks for the embossed lines.",
+    "press": "No press. A printer rubs the back of the sheet with a pad by hand.",
+    "image_making": "A painter makes the design. A carver splits it by colour into jigsaw blocks, and a printer sets them in order.",
+    "edition": "Book editions, in sets of albums."
+  },
+  "inks": {
+    "strategy": "Water-based colour and ink on small blocks, with graded ink on a single block. The outline prints in pale ink, then the colour blocks, then the dry emboss.",
+    "ink_count_min": 6,
+    "ink_count_max": 12,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Ink black",
+        "hex": "#2A2A2A",
+        "role": "outline and calligraphy"
+      },
+      {
+        "name": "Mineral green",
+        "hex": "#6F8F6A",
+        "role": "leaves"
+      },
+      {
+        "name": "Rose",
+        "hex": "#C96F7A",
+        "role": "flowers"
+      },
+      {
+        "name": "Water blue",
+        "hex": "#7C9DB8",
+        "role": "ground tint"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with a graded wash of ink on one block, with a soft edge of about 5–20 mm. The style has no screen."
+  },
+  "registration": {
+    "tolerance_mm": 0.4,
+    "rule": "The small blocks must fit within 0.4 mm. The jigsaw join shows only as a hair line of white."
+  },
+  "substrate": {
+    "stock": "Thin xuan-type paper of bark and straw fibre.",
+    "weight_gsm_min": 30,
+    "weight_gsm_max": 60,
+    "ground": "#EFE4C9",
+    "finish": "Soft and absorbent, so the ink sinks in and the paper takes the emboss."
+  },
+  "surface": {
+    "impression": "Medium. The dry blocks raise the outline by 0.1–0.3 mm.",
+    "sheen": "Matt. The raised lines show only in raking light.",
+    "texture": "Soft colour with a feathered edge, a raised line without ink, and a fine paper fibre."
+  },
+  "artefacts": {
+    "marks": [
+      "blind embossing (gonghua) relief",
+      "feathered ink gradation on one block",
+      "colour blocks fitted like a jigsaw",
+      "pale key outline",
+      "red seal and calligraphy"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Ten Bamboo Studio colour woodblock",
+      "delicate flower and bamboo",
+      "blind embossed outline",
+      "soft feathered colour",
+      "Ming dynasty album page",
+      "pale xuan paper",
+      "small colour blocks fitted",
+      "literati painting manual"
+    ],
+    "negative": [
+      "heavy black outline",
+      "halftone",
+      "photograph",
+      "poster colour",
+      "3D"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Ten Bamboo Studio Painting and Calligraphy Handbook: Bamboo",
+      "kind": "image",
+      "maker": "Hu Zhengyan",
+      "year": 1633,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1984.45.2.12",
+      "file": "https://openaccess-cdn.clevelandart.org/1984.45.2.12/1984.45.2.12_web.jpg"
+    },
+    {
+      "title": "Ten Bamboo Studio Collection: Miscellaneous",
+      "kind": "image",
+      "maker": "Hu Zhengyan",
+      "year": 1633,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1984.45.1.2",
+      "file": "https://openaccess-cdn.clevelandart.org/1984.45.1.2/1984.45.1.2_web.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A quiet delight in small, true things: the viewer sees a flower that seems to have been painted by a brush.",
+    "keywords": [
+      "delicate",
+      "literati",
+      "soft",
+      "refined",
+      "botanical"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "ten bamboo studio",
+      "shizhuzhai",
+      "chinese colour woodblock album",
+      "gonghua embossing",
+      "ming dynasty flower print",
+      "chinese painting manual print",
+      "douban printing"
+    ],
+    "use_cases": [
+      "tea and stationery packs",
+      "botanical and flower editions",
+      "book and album covers",
+      "gift cards with a blind emboss"
+    ],
+    "avoid_when": [
+      "The brief needs a loud, flat folk colour set.",
+      "The picture needs a heavy, dark outline."
+    ],
+    "modifiers": [
+      {
+        "request": "bolder and more folk",
+        "toward": "nianhua-new-year-print",
+        "how": "Thicken the key line to 1–2 mm, use flat vermilion and green, and drop the gradation and the emboss."
+      },
+      {
+        "request": "more Japanese",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Keep the colour blocks. Print on washi with bokashi, and add a firm sumi key line."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2A2A2A",
+      "options": [
+        "#2A2A2A",
+        "#3A3A3A",
+        "#4A3A30"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EFE4C9",
+      "options": [
+        "#EFE4C9",
+        "#F3EBD6",
+        "#E8DBBC"
+      ]
+    },
+    "ink_count": {
+      "default": 8,
+      "min": 6,
+      "max": 12
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.4,
+      "min": 0,
+      "max": 0.8
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Hu Zhengyan",
+      "url": "https://en.wikipedia.org/wiki/Hu_Zhengyan"
+    },
+    {
+      "title": "Wikidata Q75245943: Ten Bamboo Studio",
+      "url": "https://www.wikidata.org/wiki/Q75245943"
+    },
+    {
+      "title": "Cleveland Museum of Art Open Access API",
+      "url": "https://openaccess-api.clevelandart.org/"
+    }
+  ]
+}

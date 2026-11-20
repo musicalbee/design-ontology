@@ -284,7 +284,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`art-nouveau-web`](../art-nouveau-web/SKILL.md)
 - **Mixes well with:** [`bauhaus`](../bauhaus/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md)
-- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md), [`suprematism`](../suprematism/SKILL.md), [`suprematist-porcelain`](../suprematist-porcelain/SKILL.md)
+- **Kin in another domain:** [`brutalist-architecture`](../brutalist-architecture/SKILL.md), [`constructivist-photomontage-poster`](../constructivist-photomontage-poster/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md), [`grotesque-sans`](../grotesque-sans/SKILL.md), [`rosta-window-stencil-poster`](../rosta-window-stencil-poster/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md), [`suprematism`](../suprematism/SKILL.md), [`suprematist-porcelain`](../suprematist-porcelain/SKILL.md)
 - **Nearest by vector profile:** [`pop-art-web`](../pop-art-web/SKILL.md), [`space-age`](../space-age/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md)
 
 ## Emotional target

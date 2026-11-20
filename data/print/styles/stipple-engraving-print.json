@@ -1,0 +1,241 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "stipple-engraving-print",
+  "domain": "print",
+  "name": "Stipple (crayon-manner) engraving",
+  "aliases": [
+    "gravure au pointille (French)",
+    "Punktiermanier (German)"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1756,
+    "end": 1840,
+    "label": "1756–1840"
+  },
+  "region": "London",
+  "summary": "The plate is built up from etched and engraved dots and short flicks, so tone has no hatching. The print shows soft skin and flesh with pale dotted shading, and publishers often printed in red-brown (sanguine).",
+  "philosophy": {
+    "core_thesis": "A plate built from dots and short flicks, with no hatching, gives flesh and drapery a soft tone that imitates a chalk drawing.",
+    "design_principles": [
+      "Build every tone from etched dots and short flicks; draw no hatching in the figure.",
+      "Make the dots small and close in the shadows, 80–120 an inch, and wide apart in the lights.",
+      "Print in sanguine red-brown for a chalk drawing look, or in warm black for a portrait.",
+      "Leave the edge of the figure soft and fade it into the paper, in an oval or a vignette.",
+      "Add a light outline only where a form needs a firm edge, such as a hat or a sleeve.",
+      "Keep a plate mark round the sheet."
+    ],
+    "anti_patterns": [
+      "A hard outline round every form",
+      "Halftone dots in a regular grid",
+      "Photographic tone",
+      "Saturated colour",
+      "Dense cross-hatching in the flesh"
+    ]
+  },
+  "vectors": {
+    "tone_method": 4,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "Copper plate with etched dots and a stipple-engraved finish",
+    "press": "Rolling-press; some in colour, a la poupee",
+    "image_making": "Dots etched with a needle or roulette; deepened with a multiple-point tool",
+    "edition": "Hundreds, then reworked"
+  },
+  "inks": {
+    "strategy": "One sanguine red-brown or warm black intaglio ink; a colour print adds one or two inks through the same plate.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Sanguine red-brown",
+        "hex": "#8A4B3A",
+        "role": "common ink for decorative prints"
+      },
+      {
+        "name": "Warm black",
+        "hex": "#2D2926",
+        "role": "portrait ink"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 90,
+    "rule": "Make the tone with etched dots and flicks, 60–120 dots an inch, closer where the shadow is deep."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints the image; a colour print uses a single plate inked in several colours, with no register."
+  },
+  "substrate": {
+    "stock": "Laid paper, cream.",
+    "weight_gsm_min": 100,
+    "weight_gsm_max": 170,
+    "ground": "#E6DBC0",
+    "finish": "Soft laid paper, pressed into the plate."
+  },
+  "surface": {
+    "impression": "A plate mark of 3–6 mm; the dots stand in very light relief.",
+    "sheen": "Matt, with a soft glow in the sanguine ink.",
+    "texture": "Fine dotted shading with no line, and soft edges that fade into the sheet."
+  },
+  "artefacts": {
+    "marks": [
+      "dot-built tone, no line",
+      "plate mark",
+      "soft vignette edges",
+      "pale cheeks and drapery without outline"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "stipple engraving",
+      "dotted tone portrait",
+      "Bartolozzi print",
+      "sanguine red-brown ink",
+      "crayon manner",
+      "soft flesh tones in dots",
+      "Georgian oval portrait",
+      "plate mark"
+    ],
+    "negative": [
+      "hard outline",
+      "halftone grid",
+      "photograph",
+      "saturated colour",
+      "digital vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Francis Willis, stipple engraving",
+      "kind": "image",
+      "maker": "Francesco Bartolozzi",
+      "year": 1789,
+      "credit": "Wellcome Collection, via Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Francis_Willis._Stipple_engraving_by_F._Bartolozzi,_1789,_af_Wellcome_L0008194.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Francis_Willis._Stipple_engraving_by_F._Bartolozzi%2C_1789%2C_af_Wellcome_L0008194.jpg/960px-Francis_Willis._Stipple_engraving_by_F._Bartolozzi%2C_1789%2C_af_Wellcome_L0008194.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Jupiter (Zeus), sanguine stipple engraving",
+      "kind": "image",
+      "maker": "Francesco Bartolozzi",
+      "year": 1790,
+      "credit": "Wellcome Collection, via Wikimedia Commons",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Jupiter_(Zeus)._Sanguine_stipple_engraving_by_F._Bartolozzi_Wellcome_V0035805.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Jupiter_%28Zeus%29._Sanguine_stipple_engraving_by_F._Bartolozzi_Wellcome_V0035805.jpg/960px-Jupiter_%28Zeus%29._Sanguine_stipple_engraving_by_F._Bartolozzi_Wellcome_V0035805.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "engraving-print",
+      "etching-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Gentle, polished charm: the viewer sees smooth skin and soft drapery, like a chalk portrait.",
+    "keywords": [
+      "gentle",
+      "polished",
+      "soft",
+      "georgian",
+      "delicate"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "innocent",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "stipple engraving",
+      "dot manner print",
+      "crayon manner engraving",
+      "bartolozzi print",
+      "sanguine print",
+      "georgian portrait print",
+      "oval stipple portrait",
+      "punktiermanier"
+    ],
+    "use_cases": [
+      "portrait and decorative prints with a period look",
+      "heritage packaging and labels",
+      "book plates and frontispieces",
+      "stationery with a soft vignette"
+    ],
+    "avoid_when": [
+      "The image needs a bold graphic line.",
+      "The design needs bright colour."
+    ],
+    "modifiers": [
+      {
+        "request": "more graphic",
+        "toward": "engraving-print",
+        "how": "Replace the dots with parallel lines that swell, and add a firm contour."
+      },
+      {
+        "request": "more tone",
+        "toward": "mezzotint-print",
+        "how": "Rock the plate to get a deep, smooth dark, and scrape the lights."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#8A4B3A",
+      "options": [
+        "#8A4B3A",
+        "#2D2926",
+        "#5B3A2A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E6DBC0",
+      "options": [
+        "#E6DBC0",
+        "#EEE5CE",
+        "#DACCA9"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 90,
+      "min": 60,
+      "max": 120
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Stipple engraving",
+      "url": "https://en.wikipedia.org/wiki/Stipple_engraving"
+    },
+    {
+      "title": "Wikipedia: Francesco Bartolozzi",
+      "url": "https://en.wikipedia.org/wiki/Francesco_Bartolozzi"
+    }
+  ]
+}

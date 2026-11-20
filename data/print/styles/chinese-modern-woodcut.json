@@ -1,0 +1,244 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "chinese-modern-woodcut",
+  "domain": "print",
+  "name": "Chinese modern woodcut",
+  "aliases": [
+    "New Woodcut Movement",
+    "新兴木刻运动",
+    "Modern woodcut movement"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1931,
+    "end": 1960,
+    "label": "1931–1960"
+  },
+  "region": "Shanghai and Yan'an, China",
+  "summary": "In 1931 Lu Xun urged young artists to learn the European expressionist woodcut of Kollwitz and Masereel. They cut black-and-white prints on cheap wood and printed many on thin paper, bold and rough.",
+  "philosophy": {
+    "core_thesis": "A cheap block of wood and one knife can give a poor and angry public a picture of its own life and its own fight.",
+    "design_principles": [
+      "Cut the block yourself, with a knife, in black ink on white, or in black and one flat colour.",
+      "Build the image from heavy black masses and white knife lines, and keep the contrast high.",
+      "Choose the people as the subject: workers, farmers, soldiers, a crowd, a portrait of a hero.",
+      "Cut the line rough and angular, 0.5–2 mm wide. Leave the knife edge visible.",
+      "Allow some cross-cut hatching in the shadow, but keep most tones as a mass or a white line.",
+      "Print many copies on thin paper by hand rubbing with a spoon or a baren, so the print is cheap to share.",
+      "Add a short caption or a date, and keep the sheet small enough for a magazine page or a wall."
+    ],
+    "anti_patterns": [
+      "A soft colour gradient or a pastel set",
+      "Halftone dots or a photograph",
+      "A thin, delicate, decorative line",
+      "A clean vector edge with no cut mark",
+      "A pretty or neutral subject with no social point"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 2,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A plank of pear or boxwood, cut on the face with a knife.",
+    "press": "No press. The artist rubs the back of the thin sheet with a spoon or a baren.",
+    "image_making": "The artist draws, cuts and prints. Study groups and schools teach the craft.",
+    "edition": "Hundreds to thousands of cheap copies."
+  },
+  "inks": {
+    "strategy": "One black ink, sometimes with one flat colour added from a second block. Print on thin paper.",
+    "ink_count_min": 1,
+    "ink_count_max": 2,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black ink",
+        "hex": "#1C1C1C",
+        "role": "all the image"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 30,
+    "angles": [
+      45
+    ],
+    "rule": "Make a tone with heavy black masses and white knife lines, with some cross-cut hatching at about 30 lines an inch."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One block prints all the image, so there is no register. A second block for colour can shift 1–2 mm."
+  },
+  "substrate": {
+    "stock": "Thin Chinese paper of bamboo or bark fibre.",
+    "weight_gsm_min": 25,
+    "weight_gsm_max": 50,
+    "ground": "#E9E0C8",
+    "finish": "Unsized and absorbent, with a soft, thin sheet."
+  },
+  "surface": {
+    "impression": "Light. The ink shows a slight emboss on the back of the thin sheet.",
+    "sheen": "Matt black ink on matt paper.",
+    "texture": "Dense black masses, rough knife edges, and the fibres of thin paper."
+  },
+  "artefacts": {
+    "marks": [
+      "white knife-cut lines",
+      "heavy black masses",
+      "rough edges",
+      "wood-grain streaks in solids",
+      "portrait of a hero or a worker"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Chinese modern woodcut 1930s",
+      "black and white knife cut",
+      "expressionist heavy black mass",
+      "social realist figures",
+      "rough white lines",
+      "thin paper",
+      "Lu Xun era",
+      "high contrast"
+    ],
+    "negative": [
+      "colour gradient",
+      "halftone",
+      "photographic",
+      "soft pastel",
+      "clean vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Portrait of Lu Xun",
+      "kind": "image",
+      "maker": "Li Qun",
+      "year": 1936,
+      "credit": "Li Qun, Wikimedia Commons (liqunwoodcuts.org)",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Portrait_of_Lu_Xun%22_by_Li_Qun_1936.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%22Portrait_of_Lu_Xun%22_by_Li_Qun_1936.jpg/960px-%22Portrait_of_Lu_Xun%22_by_Li_Qun_1936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Giving Horses",
+      "kind": "image",
+      "maker": "Li Qun",
+      "year": 1948,
+      "credit": "Li Qun, Wikimedia Commons (liqunwoodcuts.org)",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Giving_Horses%22_by_Li_Qun_1948.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/29/%22Giving_Horses%22_by_Li_Qun_1948.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "expressionist-woodcut-print",
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Urgency and solidarity: the viewer feels a hard truth cut in black, and a people who stand together.",
+    "keywords": [
+      "urgent",
+      "militant",
+      "stark",
+      "solidary",
+      "raw"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "chinese modern woodcut",
+      "new woodcut movement",
+      "lu xun woodcut",
+      "1930s chinese protest print",
+      "black and white knife cut",
+      "yan'an woodcut",
+      "social realist woodcut"
+    ],
+    "use_cases": [
+      "posters and covers on social themes",
+      "editorial images on history and labour",
+      "album and zine covers",
+      "campaign material"
+    ],
+    "avoid_when": [
+      "The brief needs soft colour or a decorative mood.",
+      "The picture needs a photographic tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more folk and in colour",
+        "toward": "nianhua-new-year-print",
+        "how": "Add 3–5 flat colour blocks in vermilion, green and yellow, and fill the sheet with auspicious motifs."
+      },
+      {
+        "request": "more European",
+        "toward": "expressionist-woodcut-print",
+        "how": "Cut deeper gouge marks, show the plank grain, and print on a heavy cream paper."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1C1C1C",
+      "options": [
+        "#1C1C1C",
+        "#2A2A2A",
+        "#2A1C1C"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E9E0C8",
+      "options": [
+        "#E9E0C8",
+        "#EFE8D4",
+        "#E2D8BC"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 30,
+      "min": 15,
+      "max": 50
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Lu Xun",
+      "url": "https://en.wikipedia.org/wiki/Lu_Xun"
+    },
+    {
+      "title": "Wikipedia: Lu Xun Academy of Fine Arts",
+      "url": "https://en.wikipedia.org/wiki/Lu_Xun_Academy_of_Fine_Arts"
+    },
+    {
+      "title": "Wikimedia Commons: Li Qun woodcuts",
+      "url": "https://commons.wikimedia.org/wiki/Category:Li_Qun"
+    }
+  ]
+}

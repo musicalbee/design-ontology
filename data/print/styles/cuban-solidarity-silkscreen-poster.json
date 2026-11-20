@@ -1,0 +1,259 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "cuban-solidarity-silkscreen-poster",
+  "domain": "print",
+  "name": "Cuban solidarity silkscreen poster",
+  "aliases": [
+    "Cartel cubano",
+    "ICAIC poster",
+    "OSPAAAL poster",
+    "Serigrafía cubana"
+  ],
+  "era_id": "studio-press",
+  "time_period": {
+    "start": 1960,
+    "end": 1990,
+    "label": "1960–1990"
+  },
+  "region": "Havana, Cuba",
+  "summary": "A poster in flat colour and a bold shape. ICAIC printed film posters by hand-pulled silkscreen in short runs. OSPAAAL printed solidarity posters by offset and folded them into the Tricontinental magazine.",
+  "philosophy": {
+    "core_thesis": "Two to four flat inks and one strong shape can carry a political or film message to a street in any language.",
+    "design_principles": [
+      "Reduce the image to one bold shape or one cut-out figure that a viewer reads in two seconds.",
+      "Use 2–5 flat opaque inks; red, black and yellow are the main set.",
+      "Take the figure from a photograph, then cut it to flat shapes with no tone.",
+      "Cut the stencil by hand and keep its slightly rough edge.",
+      "Leave a large field of one colour for the message.",
+      "Keep the text short, in a bold hand-drawn or geometric letter.",
+      "Allow a gap or an overlap of 1–2 mm where two inks meet."
+    ],
+    "anti_patterns": [
+      "A smooth gradient or a halftone photograph",
+      "Glossy stock with a varnish",
+      "A crowded layout of small text and ornament",
+      "A muted, tonal palette",
+      "A thin, fine line that the mesh cannot hold"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 3,
+    "surface_relief": 1,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "A silk mesh screen with a hand-cut or photographic stencil. OSPAAAL also used offset plates.",
+    "press": "A hand squeegee table for ICAIC; an offset press for OSPAAAL.",
+    "image_making": "The designer makes a collage and cuts a stencil for each colour, or exposes a photographic stencil.",
+    "edition": "Hundreds of sheets for a screen-printed film poster; many thousands for an offset solidarity poster."
+  },
+  "inks": {
+    "strategy": "A tight set of flat, opaque inks, one stencil for each, with the paper as the light.",
+    "ink_count_min": 2,
+    "ink_count_max": 5,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#1A1A1A",
+        "role": "the key: figure and text"
+      },
+      {
+        "name": "Red",
+        "hex": "#D32F2F",
+        "role": "the main field"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F2C300",
+        "role": "accent"
+      },
+      {
+        "name": "Blue",
+        "hex": "#1F4E9C",
+        "role": "accent"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Print every area as a flat solid; show a mid-tone only as a cut-out shape or as a coarse hatch, never as a screen."
+  },
+  "registration": {
+    "tolerance_mm": 1,
+    "trap_mm": 0.5,
+    "rule": "Overlap neighbouring inks by 0.5 mm; a shift of 1 mm between hand-pulled colours is normal."
+  },
+  "substrate": {
+    "stock": "An uncoated offset or poster paper, light in weight, off-white.",
+    "weight_gsm_min": 70,
+    "weight_gsm_max": 120,
+    "ground": "#F1ECDD",
+    "finish": "Uncoated and matt, with a slight tooth."
+  },
+  "surface": {
+    "impression": "No bite; the screen ink lies as a thin layer on the surface.",
+    "sheen": "Matt to satin, with a flat, even colour.",
+    "texture": "Flat fields with a small mesh texture and hand-cut edges."
+  },
+  "artefacts": {
+    "marks": [
+      "flat colour fields",
+      "hand-cut stencil edges",
+      "trapped overlaps",
+      "rough edge of the mesh",
+      "cut-out photo shapes",
+      "fold lines on offset sheets"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Cuban solidarity poster",
+      "flat red black and yellow",
+      "silkscreen print",
+      "bold simplified figure",
+      "revolutionary 1960s graphic",
+      "hand-cut stencil shape",
+      "off-white paper",
+      "two to four flat inks"
+    ],
+    "negative": [
+      "gradient",
+      "glossy finish",
+      "photographic tone",
+      "muted palette",
+      "ornate detail"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Che Guevara, OSPAAAL Tricontinental image",
+      "kind": "image",
+      "maker": "OSPAAAL",
+      "year": 1969,
+      "credit": "Wikimedia Commons. PD basis weak: Commons gives only OSPAAAL authorship. Not verified.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CheTriContinental.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/6a/CheTriContinental.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Tricontinental issue 10 cover",
+      "kind": "image",
+      "maker": "OSPAAAL",
+      "year": 1969,
+      "credit": "Wikimedia Commons. PD basis weak: Commons gives only OSPAAAL authorship. Not verified.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Tricontinental_issue_10_cover.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/9/91/Tricontinental_issue_10_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "constructivist-photomontage-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "pop-screen-print"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Urgency and pride: the viewer feels a clear call in a few loud colours.",
+    "keywords": [
+      "bold",
+      "militant",
+      "optimistic",
+      "graphic",
+      "direct"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "cuban poster",
+      "ospaaal",
+      "icaic poster",
+      "solidarity poster",
+      "tricontinental",
+      "cartel cubano",
+      "revolutionary poster",
+      "flat silkscreen poster"
+    ],
+    "use_cases": [
+      "film festival posters",
+      "campaign and protest posters",
+      "cultural event announcements",
+      "album covers"
+    ],
+    "avoid_when": [
+      "The message needs fine detail or a long text.",
+      "The brand needs a quiet or luxury tone."
+    ],
+    "modifiers": [
+      {
+        "request": "louder and more neon",
+        "toward": "chicha-poster",
+        "how": "Swap the red and black set for fluorescent inks and add hand-drawn outlined letters."
+      },
+      {
+        "request": "more pop and photographic",
+        "toward": "pop-screen-print",
+        "how": "Add a coarse halftone photo layer and let the colour shift by 2–4 mm."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1A1A1A",
+      "options": [
+        "#1A1A1A",
+        "#101820"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F1ECDD",
+      "options": [
+        "#F1ECDD",
+        "#FFFFFF",
+        "#EFE3C8"
+      ]
+    },
+    "ink_count": {
+      "default": 3,
+      "min": 2,
+      "max": 5
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    }
+  },
+  "sources": [
+    {
+      "title": "OSPAAAL (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Organization_of_Solidarity_with_the_People_of_Asia,_Africa_and_Latin_America"
+    },
+    {
+      "title": "Alfredo Rostgaard (Wikidata Q4723856)",
+      "url": "https://www.wikidata.org/wiki/Q4723856"
+    },
+    {
+      "title": "Commons category: OSPAAAL",
+      "url": "https://commons.wikimedia.org/wiki/Category:OSPAAAL"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "crayon-lithograph-print",
+  "domain": "print",
+  "name": "Crayon lithograph",
+  "aliases": [
+    "lithographie au crayon (French)",
+    "Kreidelithographie (German)"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1820,
+    "end": 1900,
+    "label": "1820–1900"
+  },
+  "region": "Paris, Munich",
+  "summary": "The artist draws with greasy crayon directly on a grained limestone, and the grain catches the crayon as speckled black. The print keeps the drawing's pressure, from pale grain to dense black, with no engraved line.",
+  "philosophy": {
+    "core_thesis": "A greasy crayon on a grained stone keeps the pressure of the hand, so that a drawing prints as drawn, with no engraver between.",
+    "design_principles": [
+      "Draw in black crayon on a grained stone; press harder for a darker tone.",
+      "Let the grain of the stone speckle the pale tones, at about 80 grains an inch.",
+      "Scrape or scratch the whites out of the black with a needle or a blade.",
+      "Add the caption in lithographic script under the picture, in the same ink.",
+      "Print in one black ink on thin paper, so that a paper can run in thousands.",
+      "Keep the edges soft and smudged; do not trace a hard contour."
+    ],
+    "anti_patterns": [
+      "A hard engraved line",
+      "Halftone dots or a photographic tone",
+      "Plate mark or emboss",
+      "Bright flat colour",
+      "A digital line of even width"
+    ]
+  },
+  "vectors": {
+    "tone_method": 4,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 1,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "Grained Solnhofen limestone",
+    "press": "Scraper (star-wheel) lithographic press",
+    "image_making": "Greasy crayon drawn on stone; gum-etched; inked with roller; scratched whites",
+    "edition": "Hundreds to thousands; newspaper editions in the thousands"
+  },
+  "inks": {
+    "strategy": "One black greasy ink that the stone takes where the crayon was drawn.",
+    "ink_count_min": 1,
+    "ink_count_max": 1,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Litho black",
+        "hex": "#201E1C",
+        "role": "only ink"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 80,
+    "rule": "Make the tone with the crayon grain that the stone gives, about 80 grains an inch; press harder to close the grain to black."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One stone prints the whole image in one pass, so no register is needed."
+  },
+  "substrate": {
+    "stock": "Thin wove newsprint or chine-collé paper, ivory.",
+    "weight_gsm_min": 60,
+    "weight_gsm_max": 100,
+    "ground": "#E4D9C0",
+    "finish": "Smooth and thin, with a soft tooth that takes the grain."
+  },
+  "surface": {
+    "impression": "None; the print lies flat on the sheet, with no plate mark.",
+    "sheen": "Matt black, with a slight grease sheen in the darks.",
+    "texture": "A fine speckle in the grey tones, and smooth black where the crayon was dense."
+  },
+  "artefacts": {
+    "marks": [
+      "crayon grain speckle",
+      "soft smudged edges",
+      "scraped whites",
+      "no plate mark",
+      "caption in lithographic script below"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "crayon lithograph",
+      "Daumier caricature",
+      "greasy crayon grain",
+      "black on newsprint",
+      "grained stone speckle",
+      "expressive loose drawing",
+      "satirical newspaper print",
+      "smudged soft edges"
+    ],
+    "negative": [
+      "colour",
+      "halftone dots",
+      "engraved fine line",
+      "photograph",
+      "digital"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "The Doctor, published in Le Charivari",
+      "kind": "image",
+      "maker": "Honore Daumier",
+      "year": 1833,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_Daumier,_The_Doctor,_published_in_published_in_Le_Charivari_(1833),_lithograph,_24.9_x_19.9_cm.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Honor%C3%A9_Daumier%2C_The_Doctor%2C_published_in_published_in_Le_Charivari_%281833%29%2C_lithograph%2C_24.9_x_19.9_cm.jpg/960px-Honor%C3%A9_Daumier%2C_The_Doctor%2C_published_in_published_in_Le_Charivari_%281833%29%2C_lithograph%2C_24.9_x_19.9_cm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "The Trains of Pleasure, Le Charivari",
+      "kind": "image",
+      "maker": "Honore Daumier",
+      "year": 1864,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_Daumier,_The_Trains_of_Pleasure,_published_in_Le_Charivari_(1864),_lithograph.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Honor%C3%A9_Daumier%2C_The_Trains_of_Pleasure%2C_published_in_Le_Charivari_%281864%29%2C_lithograph.jpg/960px-Honor%C3%A9_Daumier%2C_The_Trains_of_Pleasure%2C_published_in_Le_Charivari_%281864%29%2C_lithograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [
+      "engraving-print"
+    ],
+    "hybridized_with": [
+      "chromolithograph-poster"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Quick, sharp wit: the viewer reads a satirical drawing that was made the same week.",
+    "keywords": [
+      "satirical",
+      "immediate",
+      "expressive",
+      "grainy",
+      "urbane"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "crayon lithograph",
+      "lithographic crayon drawing",
+      "daumier style",
+      "satirical lithograph",
+      "stone lithograph",
+      "caricature print",
+      "le charivari style",
+      "grained stone print"
+    ],
+    "use_cases": [
+      "satirical and editorial illustration",
+      "political posters with a drawn look",
+      "book and music-sheet covers",
+      "theatre and cabaret prints"
+    ],
+    "avoid_when": [
+      "The image needs an exact line.",
+      "The design needs colour from several plates."
+    ],
+    "modifiers": [
+      {
+        "request": "more colour",
+        "toward": "chromolithograph-poster",
+        "how": "Draw a stone for each colour and print them in order, from light to dark."
+      },
+      {
+        "request": "more exact",
+        "toward": "engraving-print",
+        "how": "Replace the crayon with an engraved line of even width and add plate marks."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#201E1C",
+      "options": [
+        "#201E1C",
+        "#2B2622",
+        "#1A2230"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E4D9C0",
+      "options": [
+        "#E4D9C0",
+        "#ECE3CE",
+        "#D6CBAF"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 1
+    },
+    "screen_ruling": {
+      "default": 80,
+      "min": 50,
+      "max": 120
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Lithography",
+      "url": "https://en.wikipedia.org/wiki/Lithography"
+    },
+    {
+      "title": "Wikipedia: Honore Daumier",
+      "url": "https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier"
+    }
+  ]
+}

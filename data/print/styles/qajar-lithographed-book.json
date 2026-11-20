@@ -1,0 +1,231 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "qajar-lithographed-book",
+  "domain": "print",
+  "name": "Qajar lithographed book",
+  "aliases": [
+    "Sangi book",
+    "Chap-e sangi",
+    "Persian lithographed book",
+    "Tabriz lithograph"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1832,
+    "end": 1925,
+    "label": "1832–c.1925"
+  },
+  "region": "Tabriz and Tehran, Iran",
+  "summary": "A book printed from stone. A scribe wrote each page in nastaliq with greasy ink, and the press copied the page as it was. The book looks like a manuscript, with a frame of ruled lines and small painted pictures.",
+  "philosophy": {
+    "core_thesis": "A printed book can keep the hand of the scribe and the page of the manuscript, and still be cheap to copy.",
+    "design_principles": [
+      "Write the page by hand in nastaliq on transfer paper; do not set type.",
+      "Draw each page inside a frame of ruled lines, with the text in two columns or at a slant.",
+      "Keep the manuscript layout: a decorated head piece, a title cartouche and a colophon.",
+      "Draw the pictures with a pen in the same ink, with fine line and no tone.",
+      "Print in one black ink; add red or a colour wash by hand, after printing.",
+      "Print on laid paper with a clear chain line.",
+      "Accept a soft edge on the line where the grease spread on the stone."
+    ],
+    "anti_patterns": [
+      "Metal type in a regular Latin face",
+      "Halftone photographs",
+      "A heavy dark solid block",
+      "Colour printed in register from many stones",
+      "A modern sans-serif face"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 1,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "A limestone slab. The scribe writes on transfer paper in lithographic ink, and the paper is pressed on the stone.",
+    "press": "A hand lithographic press with a scraper bar.",
+    "image_making": "A scribe writes the text in nastaliq. A painter draws the pictures with a pen on the same transfer paper.",
+    "edition": "Hundreds to a few thousand copies; the stone is wiped and used again."
+  },
+  "inks": {
+    "strategy": "One black lithographic ink for text, frames and pictures. The owner may add red and colour by hand.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Lithographic black",
+        "hex": "#1F1B18",
+        "role": "text, frame and drawing"
+      },
+      {
+        "name": "Hand-tint red",
+        "hex": "#B03A2E",
+        "role": "a later hand colour on titles and borders"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 0,
+    "rule": "Draw all form as a pen line; make a tone only with the density of the line and with a hand wash after printing."
+  },
+  "registration": {
+    "tolerance_mm": 1,
+    "rule": "One stone makes the page, so the register is not a problem; a colour added by hand can sit 1 mm off the line."
+  },
+  "substrate": {
+    "stock": "An imported or hand-made laid paper, off-white, with a visible chain line.",
+    "weight_gsm_min": 60,
+    "weight_gsm_max": 110,
+    "ground": "#E8DDC0",
+    "finish": "Uncoated and lightly sized, matt."
+  },
+  "surface": {
+    "impression": "A very light bite: the stone prints flat, with no plate mark.",
+    "sheen": "Matt black with a small grey bloom where the stone was over-wet.",
+    "texture": "A fine stone grain in the thick strokes and a soft edge on the pen line."
+  },
+  "artefacts": {
+    "marks": [
+      "nastaliq scribe hand",
+      "ruled frame lines",
+      "stone grain",
+      "manuscript page layout",
+      "soft grease spread on the line",
+      "hand-tinted red on titles",
+      "foxing and chain lines in the paper"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Persian lithographed book page",
+      "nastaliq calligraphy in black",
+      "ruled frame border",
+      "pen-drawn miniature",
+      "stone lithograph grain",
+      "off-white laid paper",
+      "Qajar-period book",
+      "hand-tinted red title"
+    ],
+    "negative": [
+      "metal type",
+      "halftone photo",
+      "glossy paper",
+      "full-colour print",
+      "modern sans-serif"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Rare complete Shahnama lithograph book for Muhammad Ali Shah Qajar, 1901",
+      "kind": "image",
+      "maker": "Unknown printer",
+      "year": 1901,
+      "credit": "Plakasauctions.com via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:A_rare_complete_Shahnama_lithograph_book_comissioned_for_Muhammad_Ali_Shah_Qajar,_dated_1901.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/A_rare_complete_Shahnama_lithograph_book_comissioned_for_Muhammad_Ali_Shah_Qajar%2C_dated_1901.jpg/960px-A_rare_complete_Shahnama_lithograph_book_comissioned_for_Muhammad_Ali_Shah_Qajar%2C_dated_1901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "root": "The page copies the Persian manuscript book. The data has no earlier print style of this kind; the stone press came from Europe, and Iran used it to print the manuscript hand."
+  },
+  "emotion": {
+    "target_response": "Respect for a learned book: the viewer sees a quiet, dense page made by a trained hand.",
+    "keywords": [
+      "calligraphic",
+      "scholarly",
+      "intimate",
+      "dense",
+      "traditional"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "persian lithograph",
+      "qajar book",
+      "nastaliq print",
+      "sangi book",
+      "tabriz lithograph",
+      "shahnameh lithograph",
+      "iranian lithographed page",
+      "persian manuscript print"
+    ],
+    "use_cases": [
+      "book covers for Persian literature",
+      "poetry and literature festival graphics",
+      "title pages and chapter openers",
+      "heritage stationery"
+    ],
+    "avoid_when": [
+      "The brief asks for a loud, modern or photographic image.",
+      "The text must be in a Latin face."
+    ],
+    "modifiers": [
+      {
+        "request": "more ornate and coloured",
+        "toward": "chromolithograph-poster",
+        "how": "Add 4–6 colour stones, a gold border and a gloss finish."
+      },
+      {
+        "request": "more austere",
+        "toward": "private-press-book",
+        "how": "Replace the hand script with a book face in black and red, on laid paper with wide margins."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1F1B18",
+      "options": [
+        "#1F1B18",
+        "#2B2420"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E8DDC0",
+      "options": [
+        "#E8DDC0",
+        "#F0E8D0",
+        "#E2D4B0"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    }
+  },
+  "sources": [
+    {
+      "title": "Persian lithography and Qajar books (Commons file page, 1901 Shahnama)",
+      "url": "https://commons.wikimedia.org/wiki/File:A_rare_complete_Shahnama_lithograph_book_comissioned_for_Muhammad_Ali_Shah_Qajar,_dated_1901.jpg"
+    },
+    {
+      "title": "Lithography (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lithography"
+    }
+  ]
+}

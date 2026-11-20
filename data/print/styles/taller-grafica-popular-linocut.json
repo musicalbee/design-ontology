@@ -1,0 +1,248 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "taller-grafica-popular-linocut",
+  "domain": "print",
+  "name": "Taller de Gráfica Popular linocut",
+  "aliases": [
+    "TGP linocut",
+    "Mexican people's print",
+    "Taller de Gráfica Popular print"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1937,
+    "end": 1970,
+    "label": "1937–c.1970"
+  },
+  "region": "Mexico City",
+  "summary": "A black-and-white print cut in linoleum or wood. The Taller de Gráfica Popular made leaflets, posters and portfolios for workers, unions and the state, in large black masses and white gouge lines.",
+  "philosophy": {
+    "core_thesis": "A print that a collective cuts quickly in cheap material can serve a political cause and reach a wide public.",
+    "design_principles": [
+      "Cut the block with a gouge, so that the white line stays bold and clear.",
+      "Fill the picture with solid black and let the white line draw the form.",
+      "Show workers, peasants and soldiers in a strong action, drawn from a low or a close view.",
+      "Add hand-lettered text: a slogan, a name or a verse.",
+      "Print in black; add a red block only where the message needs it.",
+      "Print on cheap paper in editions of tens to thousands.",
+      "Make work with the group: one artist cuts, others print and share the plate."
+    ],
+    "anti_patterns": [
+      "Fine, even engraved tone",
+      "Soft watercolour wash",
+      "Halftone photographs",
+      "A neutral message with no stand",
+      "Pale, thin line work that the press cannot hold"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 1,
+    "registration_play": 3,
+    "surface_relief": 2,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A block of linoleum or wood.",
+    "press": "Hand burnishing with a spoon or a small press; a litho press for large sheets.",
+    "image_making": "The artist cuts the white areas with a gouge and leaves the black as raised surface.",
+    "edition": "Tens to thousands of sheets; the block holds well."
+  },
+  "inks": {
+    "strategy": "One black ink, with a second block in red for some sheets.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Printing black",
+        "hex": "#1B1917",
+        "role": "the image"
+      },
+      {
+        "name": "Red",
+        "hex": "#B5332A",
+        "role": "second block, for accent"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 0,
+    "rule": "Make a tone only with the width and the spacing of gouge lines, 0.3–1.5 mm apart; do not use a screen."
+  },
+  "registration": {
+    "tolerance_mm": 1,
+    "rule": "Register a second block with pin marks; a shift of up to 1 mm is normal in a hand-printed edition."
+  },
+  "substrate": {
+    "stock": "A cheap offset paper or a thin Japanese paper.",
+    "weight_gsm_min": 50,
+    "weight_gsm_max": 110,
+    "ground": "#EDE6D3",
+    "finish": "Uncoated and matt, slightly rough."
+  },
+  "surface": {
+    "impression": "A light to medium bite, deeper in the burnished black areas.",
+    "sheen": "Matt black with a slight shine on thick ink.",
+    "texture": "Solid black with a mottled speckle, gouge strokes and a ragged edge."
+  },
+  "artefacts": {
+    "marks": [
+      "gouge strokes",
+      "burnish marks",
+      "hand lettering",
+      "white line against black",
+      "uneven black speckle",
+      "ragged block edge"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "linocut political print",
+      "bold gouged white lines on black",
+      "Mexican workers and peasants",
+      "hand-lettered slogan",
+      "high-contrast black and white",
+      "cheap off-white paper",
+      "burnished impression",
+      "1940s social realist print"
+    ],
+    "negative": [
+      "halftone",
+      "watercolour wash",
+      "photograph",
+      "fine engraving",
+      "soft gradient"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Corrido de Diego Rivera",
+      "kind": "image",
+      "maker": "Celia Calderón de la Barca (TGP member)",
+      "year": 1956,
+      "credit": "Celia Calderón de la Barca, Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Corrido_de_Diego_Rivera.tif",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Corrido_de_Diego_Rivera.tif/lossy-page1-960px-Corrido_de_Diego_Rivera.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Flyer on profiteers who exploit farmworkers (ladder of profiteers)",
+      "kind": "image",
+      "maker": "Taller de Gráfica Popular (attributed)",
+      "year": 1940,
+      "credit": "The Metropolitan Museum of Art via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Flyer_relating_to_profiteers_who_exploit_rural_farmworkers_and_take_advantage_of_the_government,_depicting_a_ladder_on_which_sit_profiteers_MET_DP874531.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Flyer_relating_to_profiteers_who_exploit_rural_farmworkers_and_take_advantage_of_the_government%2C_depicting_a_ladder_on_which_sit_profiteers_MET_DP874531.jpg/960px-Flyer_relating_to_profiteers_who_exploit_rural_farmworkers_and_take_advantage_of_the_government%2C_depicting_a_ladder_on_which_sit_profiteers_MET_DP874531.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "posada-broadside",
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Solidarity and anger: the viewer feels a strong, plain and human call to act.",
+    "keywords": [
+      "militant",
+      "solidarity",
+      "raw",
+      "monumental",
+      "humane"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "outlaw",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "taller de grafica popular",
+      "tgp print",
+      "mexican linocut",
+      "leopoldo mendez",
+      "social realist woodcut",
+      "political linocut",
+      "protest print",
+      "labour poster linocut"
+    ],
+    "use_cases": [
+      "protest and campaign posters",
+      "union and community publications",
+      "book covers on social history",
+      "event posters for cultural groups"
+    ],
+    "avoid_when": [
+      "The brand needs a neutral, polished or luxury tone.",
+      "The image needs fine tone or a photographic likeness."
+    ],
+    "modifiers": [
+      {
+        "request": "more satirical",
+        "toward": "posada-broadside",
+        "how": "Replace the heroic figure with a skeleton, add cross-hatch and a short verse in type."
+      },
+      {
+        "request": "more classical",
+        "toward": "woodcut-relief-print",
+        "how": "Replace the heavy black masses with parallel shading lines and print on laid paper."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1B1917",
+      "options": [
+        "#1B1917",
+        "#2A1E16"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EDE6D3",
+      "options": [
+        "#EDE6D3",
+        "#F3EFE2",
+        "#E6D9B8"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    }
+  },
+  "sources": [
+    {
+      "title": "Taller de Gráfica Popular (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Taller_de_Gr%C3%A1fica_Popular"
+    },
+    {
+      "title": "Leopoldo Méndez (Wikidata Q711906)",
+      "url": "https://www.wikidata.org/wiki/Q711906"
+    },
+    {
+      "title": "Commons category: Taller de Gráfica Popular",
+      "url": "https://commons.wikimedia.org/wiki/Category:Taller_de_Gr%C3%A1fica_Popular"
+    }
+  ]
+}

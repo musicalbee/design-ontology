@@ -166,11 +166,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more decorative**: move toward [`art-nouveau-web`](../art-nouveau-web/SKILL.md) (Art Nouveau (web)). Add a halo and a frame of whiplash lines and flowers round the figure, in the manner of Mucha.
 - If the user asks for **flatter and more modern**: move toward [`pochoir-plate`](../pochoir-plate/SKILL.md) (Pochoir plate). Drop the grain for flat, opaque colours put on through stencils, with a thin key line.
 
-- **Led to (go here for a newer version):** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md)
+- **Led to (go here for a newer version):** [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md), [`constructivist-photomontage-poster`](../constructivist-photomontage-poster/SKILL.md), [`mir-iskusstva-book-graphics`](../mir-iskusstva-book-graphics/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`ravi-varma-oleograph`](../ravi-varma-oleograph/SKILL.md), [`yuefenpai-calendar-poster`](../yuefenpai-calendar-poster/SKILL.md)
 - **Was rejected by:** [`pochoir-plate`](../pochoir-plate/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
-- **Mixes well with:** [`wood-type-poster`](../wood-type-poster/SKILL.md)
+- **Mixes well with:** [`collotype-print`](../collotype-print/SKILL.md), [`crayon-lithograph-print`](../crayon-lithograph-print/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Kin in another domain:** [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
-- **Nearest by vector profile:** [`pochoir-plate`](../pochoir-plate/SKILL.md), [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md)
+- **Nearest by vector profile:** [`meiji-kosen-ga-print`](../meiji-kosen-ga-print/SKILL.md), [`yuefenpai-calendar-poster`](../yuefenpai-calendar-poster/SKILL.md), [`chiaroscuro-woodcut-print`](../chiaroscuro-woodcut-print/SKILL.md)
 
 ## Emotional target
 

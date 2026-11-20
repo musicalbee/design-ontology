@@ -1,0 +1,252 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "photogravure-print",
+  "domain": "print",
+  "name": "Photogravure",
+  "aliases": [
+    "Heliogravure (French)",
+    "Photogravur (German)",
+    "Klic process"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1878,
+    "end": 1930,
+    "label": "1878–1930"
+  },
+  "region": "Vienna, London, New York",
+  "summary": "A carbon-tissue positive is transferred to a copper plate, which is etched through a dusted aquatint grain. The plate prints continuous photographic tone as deep, rich ink on thin tissue, with no visible screen.",
+  "philosophy": {
+    "core_thesis": "A photograph etched into copper through an aquatint grain prints as continuous tone in a deep ink. The photograph then reads as an original print.",
+    "design_principles": [
+      "Expose a carbon tissue under a positive, transfer it to a copper plate and etch through 3–5 iron-chloride baths.",
+      "Etch the plate through a dusted aquatint grain, so that the tone shows no dots.",
+      "Print in one warm black or brown-black, wiped by hand.",
+      "Print on thin Japan tissue or laid paper, and keep the plate mark.",
+      "Keep the full tone scale: a deep velvet black, soft mid-tones and a clean light.",
+      "Mount the tissue on a larger sheet, with a margin of 20–40 mm."
+    ],
+    "anti_patterns": [
+      "Visible halftone dots",
+      "Glossy photographic paper",
+      "Saturated colour",
+      "Sharp, flat digital contrast",
+      "A hard, even line"
+    ]
+  },
+  "vectors": {
+    "tone_method": 5,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 3,
+    "hand_trace": 2
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "Copper plate with resist and aquatint grain",
+    "press": "Rolling-press, hand-inked",
+    "image_making": "Carbon tissue exposed under a positive, transferred, developed, etched through several iron-chloride baths",
+    "edition": "Hundreds, hand-pulled"
+  },
+  "inks": {
+    "strategy": "One warm black or brown-black intaglio ink, wiped by hand so that each sheet differs a little.",
+    "ink_count_min": 1,
+    "ink_count_max": 2,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Warm black",
+        "hex": "#2B2724",
+        "role": "plate ink"
+      },
+      {
+        "name": "Brown-black",
+        "hex": "#3A2F26",
+        "role": "alternate ink"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 150,
+    "rule": "Make the continuous tone through a dusted aquatint grain of about 150 grains an inch, which shows no regular dot."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints the image; a second plate can add a tone, with a shift of 0.3 mm."
+  },
+  "substrate": {
+    "stock": "Japan tissue or thin laid paper, cream to buff.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 100,
+    "ground": "#DDD1B6",
+    "finish": "Thin and smooth, often chine-collé on a heavier mount."
+  },
+  "surface": {
+    "impression": "A plate mark of 3–5 mm; the ink in the deep tones stands in light relief.",
+    "sheen": "Matt, with a rich depth in the darks.",
+    "texture": "A fine, random grain in the tones, and no dots."
+  },
+  "artefacts": {
+    "marks": [
+      "fine random aquatint grain, no dots",
+      "deep velvet blacks",
+      "plate mark",
+      "tissue tone",
+      "hand-wiped edges"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "photogravure",
+      "Camera Work plate",
+      "continuous tone ink",
+      "deep velvet black",
+      "pictorialist print",
+      "Japan tissue mount",
+      "aquatint grain not dots",
+      "plate mark"
+    ],
+    "negative": [
+      "halftone dots",
+      "sharp digital",
+      "saturated colour",
+      "glossy photo paper",
+      "vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Girl, Camera Work plate, October 1905",
+      "kind": "image",
+      "maker": "Alfred Stieglitz",
+      "year": 1905,
+      "credit": "Museum of Photographic Arts, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Girl_by_Alfred_Stieglitz,_Camera_Work,_October_1905,_12-15_(5711529088).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Girl_by_Alfred_Stieglitz%2C_Camera_Work%2C_October_1905%2C_12-15_%285711529088%29.jpg/960px-Girl_by_Alfred_Stieglitz%2C_Camera_Work%2C_October_1905%2C_12-15_%285711529088%29.jpg"
+    },
+    {
+      "title": "Winter, Fifth Avenue, Camera Work plate (negative 1892)",
+      "kind": "image",
+      "maker": "Alfred Stieglitz",
+      "year": 1892,
+      "credit": "Cleveland Museum of Art, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_Camera_Work-_Winter_-_Fifth_Avenue_-_1995.199.12.b_-_Cleveland_Museum_of_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Alfred_Stieglitz_-_Camera_Work-_Winter_-_Fifth_Avenue_-_1995.199.12.b_-_Cleveland_Museum_of_Art.jpg/960px-Alfred_Stieglitz_-_Camera_Work-_Winter_-_Fifth_Avenue_-_1995.199.12.b_-_Cleveland_Museum_of_Art.jpg"
+    },
+    {
+      "title": "The Terminal, Camera Work plate (negative 1892)",
+      "kind": "image",
+      "maker": "Alfred Stieglitz",
+      "year": 1892,
+      "credit": "Cleveland Museum of Art, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_Camera_Work-_The_Terminal_-_1995.199.36.o_-_Cleveland_Museum_of_Art.tif",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Alfred_Stieglitz_-_Camera_Work-_The_Terminal_-_1995.199.36.o_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-Alfred_Stieglitz_-_Camera_Work-_The_Terminal_-_1995.199.36.o_-_Cleveland_Museum_of_Art.tif.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "aquatint-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pictorialism"
+    ]
+  },
+  "emotion": {
+    "target_response": "Hushed, artful reverence: the viewer sees a photograph that has the depth and weight of a print.",
+    "keywords": [
+      "hushed",
+      "artful",
+      "velvet",
+      "reverent",
+      "tonal"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "lover",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "photogravure",
+      "camera work plate",
+      "stieglitz print",
+      "pictorialist print",
+      "continuous tone intaglio",
+      "japan tissue photograph",
+      "velvet black photograph",
+      "heliogravure"
+    ],
+    "use_cases": [
+      "photography portfolios and monographs",
+      "fine art catalogues",
+      "limited-edition photo prints",
+      "archive and museum reproductions"
+    ],
+    "avoid_when": [
+      "The image needs bright colour.",
+      "The design needs a sharp, high-contrast digital photo."
+    ],
+    "modifiers": [
+      {
+        "request": "more dramatic",
+        "toward": "aquatint-print",
+        "how": "Replace the photographic tone with stepped aquatint tones and hard stopped-out edges."
+      },
+      {
+        "request": "more mechanical",
+        "toward": "collotype-print",
+        "how": "Print from a gelatin plate on matt paper, with a fine reticulation grain and no plate mark."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2B2724",
+      "options": [
+        "#2B2724",
+        "#3A2F26",
+        "#1F2A36"
+      ]
+    },
+    "paper_colour": {
+      "default": "#DDD1B6",
+      "options": [
+        "#DDD1B6",
+        "#E6DCC4",
+        "#D2C5A6"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 150,
+      "min": 100,
+      "max": 220
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0.3
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Photogravure",
+      "url": "https://en.wikipedia.org/wiki/Photogravure"
+    },
+    {
+      "title": "Wikipedia: Karel Klíč",
+      "url": "https://en.wikipedia.org/wiki/Karel_Kl%C3%AD%C4%8D"
+    }
+  ]
+}

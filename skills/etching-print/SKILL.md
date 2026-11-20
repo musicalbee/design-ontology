@@ -171,9 +171,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **darker and softer**: move toward [`mezzotint-print`](../mezzotint-print/SKILL.md) (Mezzotint). Rock the full plate black and scrape the lights; drop the line.
 
 - **Came from (go here for a more orthodox version):** [`engraving-print`](../engraving-print/SKILL.md)
-- **Mixes well with:** [`mezzotint-print`](../mezzotint-print/SKILL.md)
+- **Led to (go here for a newer version):** [`aquatint-print`](../aquatint-print/SKILL.md), [`stipple-engraving-print`](../stipple-engraving-print/SKILL.md)
+- **Mixes well with:** [`aquatint-print`](../aquatint-print/SKILL.md), [`drypoint-print`](../drypoint-print/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
 - **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`realism-painting`](../realism-painting/SKILL.md)
-- **Nearest by vector profile:** [`engraving-print`](../engraving-print/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
+- **Nearest by vector profile:** [`engraving-print`](../engraving-print/SKILL.md), [`drypoint-print`](../drypoint-print/SKILL.md), [`aquatint-print`](../aquatint-print/SKILL.md)
 
 ## Emotional target
 

@@ -1,0 +1,245 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "yuefenpai-calendar-poster",
+  "domain": "print",
+  "name": "Shanghai yuefenpai calendar poster",
+  "aliases": [
+    "Yuefenpai",
+    "月份牌",
+    "Cabi shuicai",
+    "擦笔水彩",
+    "Shanghai calendar poster"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1900,
+    "end": 1949,
+    "label": "1900–1949"
+  },
+  "region": "Shanghai, China",
+  "summary": "Artists drew a beauty in rubbed charcoal and tinted it with watercolour. Printers copied the result by chromolithography for tobacco, medicine and cloth advertisers. A calendar band runs along the foot.",
+  "philosophy": {
+    "core_thesis": "A calendar that a shop gives away can sell a product through the face of a modern woman, in smooth, warm colour that a lithograph can copy.",
+    "design_principles": [
+      "Draw a young woman, in a qipao or a modern dress, in a fashionable room or garden.",
+      "Model the skin with rubbed charcoal and thin watercolour, so the tone is smooth and has no line.",
+      "Use hot, soft colour: peach skin, rose red, jade green and gold yellow.",
+      "Print a calendar band at the foot, with the months, and put the advertiser name and logo in a fixed place.",
+      "Frame the figure with a border of gold or pattern, and add a few props of the new city, such as a car, a radio or a lamp.",
+      "Make 4–8 lithographic plates, and print the full set in a large run for the advertiser.",
+      "Print on coated poster paper, and keep the register within 0.4 mm."
+    ],
+    "anti_patterns": [
+      "A woodblock line or a folk-print outline",
+      "Visible halftone dots, or a photograph",
+      "A grunge or distressed surface",
+      "Flat vector fill with no skin modelling",
+      "A calendar band that is missing or has no advertiser"
+    ]
+  },
+  "vectors": {
+    "tone_method": 4,
+    "ink_layering": 4,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "Lithographic stones or zinc plates, one for each colour, made from a separation of the original.",
+    "press": "A flatbed or offset lithographic press.",
+    "image_making": "A painter makes an original in rubbed charcoal and watercolour. A printer separates it by hand or with a camera.",
+    "edition": "Tens of thousands of sheets for an advertiser."
+  },
+  "inks": {
+    "strategy": "Oil-based lithographic ink, 4–8 passes of transparent colour that mix on the sheet.",
+    "ink_count_min": 4,
+    "ink_count_max": 8,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Key brown-black",
+        "hex": "#2A2622",
+        "role": "outline, hair and dark detail"
+      },
+      {
+        "name": "Skin peach",
+        "hex": "#E6B79F",
+        "role": "modelled flesh"
+      },
+      {
+        "name": "Rose red",
+        "hex": "#C9384F",
+        "role": "dress"
+      },
+      {
+        "name": "Jade green",
+        "hex": "#5E9A7E",
+        "role": "background"
+      },
+      {
+        "name": "Gold yellow",
+        "hex": "#E6BF55",
+        "role": "border and text"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 100,
+    "rule": "Copy the smooth rubbed tone with the grain of the stone or the plate, at about 100 lines an inch in the finest areas."
+  },
+  "registration": {
+    "tolerance_mm": 0.4,
+    "rule": "Keep each plate within 0.4 mm. A small gap shows at the edge of the skin or of the dress."
+  },
+  "substrate": {
+    "stock": "Coated poster paper.",
+    "weight_gsm_min": 90,
+    "weight_gsm_max": 150,
+    "ground": "#F1E6CB",
+    "finish": "A smooth coat with a slight shine."
+  },
+  "surface": {
+    "impression": "None. The ink lies flat on the surface.",
+    "sheen": "A slight shine from the coat and from the oil ink.",
+    "texture": "Smooth skin tone, a soft rub texture in the shadow, and a bright, hot colour."
+  },
+  "artefacts": {
+    "marks": [
+      "calendar block and advertiser logo",
+      "smooth skin tone like an airbrush",
+      "soft rub texture",
+      "bright commercial colour",
+      "gold border"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Shanghai yuefenpai calendar poster",
+      "1930s Chinese beauty illustration",
+      "soft rub and watercolour skin tone",
+      "chromolithograph colour",
+      "calendar band at the foot",
+      "qipao and art deco interior",
+      "advertiser logo",
+      "cream paper"
+    ],
+    "negative": [
+      "woodblock",
+      "visible halftone dots",
+      "photographic",
+      "grunge",
+      "flat vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Advertisement poster for a cigarette company, Shanghai",
+      "kind": "image",
+      "maker": "East Asian Cigarette Company (advertiser)",
+      "credit": "Wikimedia Commons. The Commons record gives the advertiser and the date 1930; the artist and the date are not checked.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Shanghai-girls-chinese-posters.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Shanghai-girls-chinese-posters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "chromolithograph-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A warm, modern glamour: the viewer sees a young woman of the new Shanghai, soft, bright and for sale.",
+    "keywords": [
+      "glamorous",
+      "modern",
+      "soft",
+      "commercial",
+      "nostalgic"
+    ],
+    "brand_archetypes": [
+      "lover",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "yuefenpai",
+      "shanghai calendar poster",
+      "1930s shanghai advertisement",
+      "chinese beauty poster",
+      "old shanghai pin-up",
+      "rub charcoal watercolour poster",
+      "qipao poster"
+    ],
+    "use_cases": [
+      "retro posters and packs for Shanghai themes",
+      "cafe and bar interiors",
+      "film and game art for 1930s Shanghai",
+      "magazine editorials on advertising history"
+    ],
+    "avoid_when": [
+      "The brief needs a rough, hand-cut or folk look.",
+      "The picture needs a photographic or a minimal flat style."
+    ],
+    "modifiers": [
+      {
+        "request": "more European and graphic",
+        "toward": "chromolithograph-poster",
+        "how": "Flatten the skin to flat tints, add a bold outline and large display lettering."
+      },
+      {
+        "request": "more folk",
+        "toward": "nianhua-new-year-print",
+        "how": "Replace the smooth skin by a block outline with flat vermilion and green, and add hand-painted faces."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2A2622",
+      "options": [
+        "#2A2622",
+        "#3A2A26",
+        "#2A2A2E"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F1E6CB",
+      "options": [
+        "#F1E6CB",
+        "#F5ECD6",
+        "#EBDDBC"
+      ]
+    },
+    "ink_count": {
+      "default": 6,
+      "min": 4,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 100,
+      "min": 70,
+      "max": 133
+    },
+    "misregistration": {
+      "default": 0.4,
+      "min": 0,
+      "max": 1.0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons: Shanghai-girls-chinese-posters.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Shanghai-girls-chinese-posters.jpg"
+    },
+    {
+      "title": "Wikidata Q82571614: Hang Zhiying",
+      "url": "https://www.wikidata.org/wiki/Q82571614"
+    }
+  ]
+}

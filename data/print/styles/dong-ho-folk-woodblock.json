@@ -1,0 +1,261 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "dong-ho-folk-woodblock",
+  "domain": "print",
+  "name": "Dong Ho folk woodblock painting",
+  "aliases": [
+    "Tranh Đông Hồ",
+    "Tranh khắc gỗ dân gian Đông Hồ",
+    "Dong Ho painting"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1600,
+    "end": 1950,
+    "label": "c.1600–1950s"
+  },
+  "region": "Dong Ho village, Bac Ninh, Vietnam",
+  "summary": "Villagers print a black outline block, then add flat colour blocks one by one on do paper that carries a coat of scallop-shell powder. The colours come from plants and minerals, so they are bright and flat.",
+  "philosophy": {
+    "core_thesis": "A village can print a whole folk art from plant and mineral colour, one flat block at a time, on paper that shines with ground shell.",
+    "design_principles": [
+      "Print the black outline block first. Keep the line coarse and 1–3 mm wide.",
+      "Add 4–5 flat colour blocks one by one, in order from light to dark, with no gradation.",
+      "Use opaque colour: sophora yellow, leaf green, red and shell white.",
+      "Use motifs for the New Year (Tet): a carp, a pig with chicks, a rooster and a wedding of rats.",
+      "Cut a caption in the block, or write it by hand, as a proverb or a wish.",
+      "Let the colour shift 1–2 mm from the outline. Keep the wood grain in the large fields.",
+      "Print on do paper that has a coat of scallop-shell powder, so the sheet sparkles."
+    ],
+    "anti_patterns": [
+      "Gradient shading or soft modelling",
+      "Fine hatching or a thin, delicate line",
+      "Halftone dots or a photograph",
+      "A glossy, smooth finish",
+      "A colour set that no plant or mineral gives"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 4,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Blocks of jackfruit or persimmon wood, one for each colour, and an outline block that prints first.",
+    "press": "No press. A printer presses the block on the paper by hand, and rubs the back with a pad.",
+    "image_making": "Family workshops copy and recut old motifs for the New Year. The village shares the designs.",
+    "edition": "Thousands for each motif."
+  },
+  "inks": {
+    "strategy": "Colour from plants and minerals, mixed with rice paste. The outline prints first in black, then 4–5 flat colour blocks, then a rice-paste coat.",
+    "ink_count_min": 4,
+    "ink_count_max": 5,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black from burnt bamboo leaf",
+        "hex": "#262626",
+        "role": "outline"
+      },
+      {
+        "name": "Sophora yellow",
+        "hex": "#E3B33F",
+        "role": "fields"
+      },
+      {
+        "name": "Leaf green",
+        "hex": "#4F7D4A",
+        "role": "fields"
+      },
+      {
+        "name": "Red from Thien Thai gravel or sappanwood",
+        "hex": "#B03A2E",
+        "role": "accents"
+      },
+      {
+        "name": "Shell white",
+        "hex": "#EFE9DA",
+        "role": "ground and eyes"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each tone a flat opaque field of one colour. The style has no gradation and no screen."
+  },
+  "registration": {
+    "tolerance_mm": 1.5,
+    "rule": "Allow 1–2 mm of shift between the colour blocks and the black outline, and keep it."
+  },
+  "substrate": {
+    "stock": "Do paper of the bark of the do tree, coated with scallop-shell powder (điệp).",
+    "weight_gsm_min": 60,
+    "weight_gsm_max": 110,
+    "ground": "#F1ECE0",
+    "finish": "A shell coat that glitters, and a final coat of rice paste."
+  },
+  "surface": {
+    "impression": "Light. The sheet lies almost flat.",
+    "sheen": "A fine sparkle from the shell powder, and a matt colour.",
+    "texture": "A grainy, glittering ground, flat colour with the wood grain in it, and a coarse black line."
+  },
+  "artefacts": {
+    "marks": [
+      "sparkling shell-powder ground",
+      "coarse black outline",
+      "slightly offset flat colour",
+      "wood grain in the solid areas",
+      "hand-lettered caption"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Dong Ho folk woodblock print",
+      "flat opaque colour blocks",
+      "coarse black outline",
+      "sparkling shell-powder paper",
+      "carp and pig motifs for Tet",
+      "slight colour offset",
+      "plant and mineral colour set",
+      "hand-lettered caption"
+    ],
+    "negative": [
+      "gradient shading",
+      "halftone",
+      "photographic",
+      "glossy",
+      "fine hatching"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Dong Ho painting - Dai cat",
+      "kind": "image",
+      "maker": "Unknown Dong Ho artisan",
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Dong_Ho_painting_-_Dai_cat.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Dong_Ho_painting_-_Dai_cat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Dong Ho painting - Nhan nghia",
+      "kind": "image",
+      "maker": "Unknown Dong Ho artisan",
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Dong_Ho_painting_-_Nhan_nghia.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/56/Dong_Ho_painting_-_Nhan_nghia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Dong Ho painting - Ly Ngu vong nguyet",
+      "kind": "image",
+      "maker": "Unknown Dong Ho artisan",
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Dong_Ho_painting_-_Ly_Ngu_vong_nguyet.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/9/97/Dong_Ho_painting_-_Ly_Ngu_vong_nguyet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Warm, plain luck: the viewer feels a village joke and a wish for the New Year, in colour that is simple and strong.",
+    "keywords": [
+      "folk",
+      "festive",
+      "naive",
+      "warm",
+      "humorous"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "dong ho painting",
+      "vietnamese folk woodblock",
+      "tranh dong ho",
+      "tet new year print vietnam",
+      "shell powder paper print",
+      "folk woodblock carp",
+      "vietnamese folk art print"
+    ],
+    "use_cases": [
+      "New Year cards and gifts",
+      "packs for Vietnamese food and craft",
+      "folk-art posters",
+      "school and museum material"
+    ],
+    "avoid_when": [
+      "The brief needs soft gradation or fine detail.",
+      "The picture needs a photographic or glossy look."
+    ],
+    "modifiers": [
+      {
+        "request": "more Chinese and ornate",
+        "toward": "nianhua-new-year-print",
+        "how": "Add vermilion and a hand-painted face or robe, and fill the sheet with auspicious motifs."
+      },
+      {
+        "request": "more refined",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Thin the key line to 0.3 mm, print on washi, and add a wiped gradation to the sky."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#262626",
+      "options": [
+        "#262626",
+        "#2E2A26",
+        "#3A2E26"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F1ECE0",
+      "options": [
+        "#F1ECE0",
+        "#EFE9DA",
+        "#F4F0E6"
+      ]
+    },
+    "ink_count": {
+      "default": 5,
+      "min": 4,
+      "max": 5
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.5,
+      "min": 0.5,
+      "max": 3.0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Đông Hồ painting",
+      "url": "https://en.wikipedia.org/wiki/Đông_Hồ_painting"
+    },
+    {
+      "title": "Wikimedia Commons: Category Dong Ho painting",
+      "url": "https://commons.wikimedia.org/wiki/Category:Dong_Ho_painting"
+    }
+  ]
+}

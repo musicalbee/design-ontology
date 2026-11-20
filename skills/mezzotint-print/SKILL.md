@@ -163,7 +163,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`engraving-print`](../engraving-print/SKILL.md)
 - **Mixes well with:** [`etching-print`](../etching-print/SKILL.md)
 - **Kin in another domain:** [`baroque-painting`](../baroque-painting/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md)
-- **Nearest by vector profile:** [`engraving-print`](../engraving-print/SKILL.md), [`etching-print`](../etching-print/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
+- **Nearest by vector profile:** [`photogravure-print`](../photogravure-print/SKILL.md), [`aquatint-print`](../aquatint-print/SKILL.md), [`engraving-print`](../engraving-print/SKILL.md)
 
 ## Emotional target
 

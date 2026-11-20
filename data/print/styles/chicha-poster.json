@@ -1,0 +1,247 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "chicha-poster",
+  "domain": "print",
+  "name": "Chicha poster",
+  "aliases": [
+    "Cartel chicha",
+    "Peruvian chicha poster",
+    "Fluorescent concert poster"
+  ],
+  "era_id": "studio-press",
+  "time_period": {
+    "start": 1978,
+    "end": null,
+    "label": "1978–present"
+  },
+  "region": "Lima, Peru",
+  "summary": "A concert poster in fluorescent ink for chicha music. The maker draws big outlined letters and a tight border by hand, and prints in 2–5 loud flat colours on cheap paper.",
+  "philosophy": {
+    "core_thesis": "A fluorescent poster with big hand-drawn letters can call a crowd to a street concert at a very low cost.",
+    "design_principles": [
+      "Draw the headline in big letters with a thick outline and a drop shadow.",
+      "Use fluorescent pink, green, yellow and orange, with black for the outline.",
+      "Frame the sheet with a tight border of repeat shapes.",
+      "Add a photo cut-out of the band or a drawn face, in flat colour.",
+      "List the names, the place and the date in a dense block.",
+      "Print by screen in short runs on cheap paper.",
+      "Let the neon inks clash, and accept a gap or an overlap of 1–3 mm."
+    ],
+    "anti_patterns": [
+      "A muted or tonal palette",
+      "A neat, wide-margin layout",
+      "Halftone photographs",
+      "A thin, light typeface",
+      "Gloss varnish"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 3,
+    "registration_play": 4,
+    "surface_relief": 1,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "stencil",
+    "matrix": "A silk mesh screen with a hand-cut or hand-drawn stencil.",
+    "press": "A hand squeegee table.",
+    "image_making": "The maker draws the letters and the shapes by hand, often with a collage of photo cut-outs, and makes a stencil for each colour.",
+    "edition": "Tens to hundreds of sheets."
+  },
+  "inks": {
+    "strategy": "Two to five fluorescent and flat inks that overprint with clashes.",
+    "ink_count_min": 2,
+    "ink_count_max": 5,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Fluorescent pink",
+        "hex": "#FF2D95",
+        "role": "ground and letters"
+      },
+      {
+        "name": "Fluorescent green",
+        "hex": "#39FF14",
+        "role": "type and borders"
+      },
+      {
+        "name": "Fluorescent yellow",
+        "hex": "#FFF200",
+        "role": "type"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111",
+        "role": "outline"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Print every area as a flat solid; make a tone only by overprint of two inks."
+  },
+  "registration": {
+    "tolerance_mm": 1.5,
+    "trap_mm": 0.5,
+    "rule": "Hand-pulled colours shift by 1–3 mm; keep an overlap of 0.5 mm between outline and fill."
+  },
+  "substrate": {
+    "stock": "A cheap coated or uncoated poster paper, white or fluorescent.",
+    "weight_gsm_min": 70,
+    "weight_gsm_max": 120,
+    "ground": "#F4F0E4",
+    "finish": "Smooth, with a slight shine from the ink."
+  },
+  "surface": {
+    "impression": "No bite; the screen ink lies as a thick layer on the surface.",
+    "sheen": "Bright and satin; the fluorescent ink looks to glow.",
+    "texture": "Flat fields with a mesh grain and clashing overlaps."
+  },
+  "artefacts": {
+    "marks": [
+      "fluorescent ink",
+      "outlined hand letters",
+      "overprint clashes",
+      "tiled borders",
+      "flat photo cut-outs",
+      "sun-faded neon on street walls"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Peruvian chicha poster",
+      "fluorescent pink green yellow",
+      "big outlined hand-drawn letters",
+      "silkscreen concert poster",
+      "tiled border pattern",
+      "flat colour overprint",
+      "Lima street wall",
+      "psychedelic Andean cumbia"
+    ],
+    "negative": [
+      "muted palette",
+      "halftone photo",
+      "minimal layout",
+      "thin typeface",
+      "glossy varnish"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Cartel chicha, concert at Puente Piedra",
+      "kind": "image",
+      "maker": "QM Keen",
+      "year": 2022,
+      "credit": "QM Keen, Wikimedia Commons (a photo of a poster)",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Cartel_chicha_invitando_a_concierto_por_fin_de_a%C3%B1o_que_se_llevar%C3%A1_a_cabo_en_Puente_Piedra.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cartel_chicha_invitando_a_concierto_por_fin_de_a%C3%B1o_que_se_llevar%C3%A1_a_cabo_en_Puente_Piedra.jpg/960px-Cartel_chicha_invitando_a_concierto_por_fin_de_a%C3%B1o_que_se_llevar%C3%A1_a_cabo_en_Puente_Piedra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "pop-screen-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Joy and noise: the viewer feels a street party, loud and a little psychedelic.",
+    "keywords": [
+      "fluorescent",
+      "festive",
+      "psychedelic",
+      "loud",
+      "popular"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "chicha poster",
+      "peruvian poster",
+      "cartel chicha",
+      "fluorescent concert poster",
+      "cumbia poster",
+      "lima street poster",
+      "neon silkscreen",
+      "andean psychedelic"
+    ],
+    "use_cases": [
+      "music festival and club posters",
+      "album covers for cumbia and psychedelic music",
+      "street food and drink branding",
+      "event invitations"
+    ],
+    "avoid_when": [
+      "The brand needs a quiet, formal or luxury tone.",
+      "The design must stay legible in grayscale."
+    ],
+    "modifiers": [
+      {
+        "request": "more political and strict",
+        "toward": "cuban-solidarity-silkscreen-poster",
+        "how": "Cut the palette to red, black and yellow and use one large bold shape."
+      },
+      {
+        "request": "more 1960s psychedelic",
+        "toward": "psychedelic-concert-poster",
+        "how": "Use vibrating colour pairs and flowing, interlocked letters on a swirl ground."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#111111",
+      "options": [
+        "#111111",
+        "#2A0A3A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#F4F0E4",
+      "options": [
+        "#F4F0E4",
+        "#FFFFFF",
+        "#FFF7A8"
+      ]
+    },
+    "ink_count": {
+      "default": 3,
+      "min": 2,
+      "max": 5
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.5,
+      "min": 0.5,
+      "max": 3
+    }
+  },
+  "sources": [
+    {
+      "title": "Chicha (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chicha_(music)"
+    },
+    {
+      "title": "Monky (Wikipedia)",
+      "url": "https://es.wikipedia.org/wiki/Monky"
+    },
+    {
+      "title": "Commons file: Cartel chicha, Puente Piedra",
+      "url": "https://commons.wikimedia.org/wiki/File:Cartel_chicha_invitando_a_concierto_por_fin_de_a%C3%B1o_que_se_llevar%C3%A1_a_cabo_en_Puente_Piedra.jpg"
+    }
+  ]
+}

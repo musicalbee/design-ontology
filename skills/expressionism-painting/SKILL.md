@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more abstract**: move toward [`abstract-expressionism`](../abstract-expressionism/SKILL.md) (Abstract Expressionism). Drop the figure; enlarge the stroke to 100–300mm, work on a large canvas of 2m or more, and let the gesture be the subject.
 
 - **Came from (go here for a more orthodox version):** [`post-impressionism`](../post-impressionism/SKILL.md)
-- **Kin in another domain:** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
+- **Kin in another domain:** [`expressionist-woodcut-print`](../expressionist-woodcut-print/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`sosaku-hanga-print`](../sosaku-hanga-print/SKILL.md)
 - **Nearest by vector profile:** [`fauvism`](../fauvism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 
 ## Emotional target
