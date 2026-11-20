@@ -227,23 +227,21 @@
     },
     "dark-devtool-ui": {
       "file": "dark-devtool-ui.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Dark-Mode Developer Tool, Product screenshots of the real tool in dark mode, with an accent glow; abstract line diagrams, key cap, command palette, A dark terminal and code editor, shown as flat tonal surfaces, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Dark-Mode Developer Tool, Product screenshots of the real tool in dark mode, with an accent glow; abstract line diagrams, hairline border, key cap, command palette, monospace data, colours void, panel, raised, text, muted, indigo, A dark terminal and code editor, shown as flat tonal surfaces, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "text-like glyph strings in the code editor panes, tab bar and tables in the background, while the prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "editorial-serif-revival": {
@@ -315,8 +313,8 @@
     },
     "japanese-dense-web": {
       "file": "japanese-dense-web.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Japanese Dense Web, Product thumbnails, banners, character mascots and ranking badges in flat colour, colour header bar, banner row, price badge, Print flyers, catalogues and magazines, shown flat on screen, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, Product thumbnails, banners, character mascots and ranking badges in flat colour, ranking list, colour header bar, banner row, price badge, colours paper, ink, signal red, link blue, grey, gold, Print flyers, catalogues and magazines, shown flat on screen, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -324,16 +322,12 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable characters in the search bar (存拌江佐) despite the no-text prompt",
-          "numeric price labels (1.20, 2.10, etc.) on the tiles count as text",
-          "browser-style header with window dots, search field and buttons, though the prompt says no UI or browser window"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "liquid-glass-ui": {
@@ -386,23 +380,21 @@
     },
     "metro-ui": {
       "file": "metro-ui.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Metro UI, colour tile, panorama title, app bar, circle glyph, colours black, white, cobalt, magenta, lime, orange, Digital paper and signage: flat colour with no simulated material, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, Photographs and typography only; no illustration, colour tile, panorama title, app bar, circle glyph, colours black, white, cobalt, magenta, lime, orange, Digital paper and signage: flat colour with no simulated material, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "large readable text 'Metro UI' across the top although the prompt says no text, with an orange shape merged into the last letter"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "minimalism-web": {
@@ -548,8 +540,8 @@
     },
     "terminal-tui-web": {
       "file": "terminal-tui-web.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Terminal / TUI Web, bracketed key hint, A cathode-ray terminal: a flat dark field with glowing characters, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Terminal / TUI Web, ASCII art, text charts and block-character progress bars, box-drawing frame, blinking cursor, bracketed key hint, ASCII chart, colours console, phosphor, amber, dim, alert, panel, A cathode-ray terminal: a flat dark field with glowing characters, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -557,14 +549,12 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text/letters rendered in glowing terminal block at top left, including title 'Terminal / TUI Web', words like 'Coffees', 'coffee', and line numbers, despite prompt saying no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "vaporwave": {
@@ -619,8 +609,8 @@
     },
     "ai-avatar-portrait": {
       "file": "ai-avatar-portrait.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of AI Avatar Portrait, The same face as an elf, a space pilot, an anime lead, an oil painting or a pop star poster, 4x5 pack grid, glow ground, sparkle layer, An airbrushed digital illustration: smooth skin, large eyes and glowing air, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, in the visual language of AI Avatar Portrait, The same face as an elf, a space pilot, an anime lead, an oil painting or a pop star poster, 4x5 pack grid, glow ground, sparkle layer, style name label, colours violet night, panel violet, cosmic pink, gold glow, cyan edge, skin glow, mist, An airbrushed digital illustration: smooth skin, large eyes and glowing air, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -628,15 +618,12 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image split into a 3x3 panel/collage grid of repeated portraits",
-          "some hands have fused or lumpy fingers"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "ai-slop": {
@@ -736,8 +723,8 @@
     },
     "bulletin-board-forum": {
       "file": "bulletin-board-forum.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Bulletin Board Forum, Avatars of 80px to 100px, rank pip images and signature banners, rank pips, avatar, signature banner, breadcrumb, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Bulletin Board Forum, Avatars of 80px to 100px, rank pip images and signature banners, rank pips, avatar, signature banner, breadcrumb, colours page grey, row white, row tint, text ink, forum blue, header blue, rank orange, A web table: ruled cells, tinted rows and small image buttons, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 2955,
@@ -745,57 +732,50 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "banner bars contain text-like script lettering despite no-text prompt",
-          "browser window chrome (tabs, address bar, window controls, bottom taskbar strip) visible despite no browser window/UI"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "chat-sticker-pack": {
       "file": "chat-sticker-pack.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Chat Sticker Pack, A mascot character in 8 to 40 poses with sweat drops, hearts and motion marks, white cut-out edge, speech tail, sweat drop, heart burst, A die-cut paper sticker with a white edge, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, in the visual language of Chat Sticker Pack, A mascot character in 8 to 40 poses with sweat drops, hearts and motion marks, white cut-out edge, speech tail, sweat drop, heart burst, colours chat mint, card white, line ink, chat green, pop orange, moss, sky pop, A die-cut paper sticker with a white edge, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image is a sticker-sheet collage of many separate die-cut pieces rather than one single still-life picture"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "cinemagraph": {
       "file": "cinemagraph.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Cinemagraph, Fashion, travel and still-life photographs with one moving part, soft-edge mask, loop-point marker, credit line in capitals, colours gallery black, wall grey, warm white, sand, window blue, ash, hairline, A photographic print with a fine grain of 2% to 4% and soft tone, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, Fashion, travel and still-life photographs with one moving part, soft-edge mask, hairline under caption, loop-point marker, credit line in capitals, colours gallery black, wall grey, warm white, sand, window blue, ash, hairline, A photographic print with a fine grain of 2% to 4% and soft tone, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "visible line of text in capitals (garbled caption) at the bottom right, but the prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "clean-girl": {
@@ -952,8 +932,8 @@
     },
     "demotivational-poster": {
       "file": "demotivational-poster.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Demotivational poster, One photograph of a landscape, an animal or a group; a muted tone, serif title, A printed office poster on glossy stock, seen as a flat web image, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, One photograph of a landscape, an animal or a group; a muted tone, photo frame, A printed office poster on glossy stock, seen as a flat web image, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -961,14 +941,12 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text 'Coffee' title although prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "diffusion-gloss": {
@@ -1030,8 +1008,8 @@
     },
     "dual-camera-snapshot": {
       "file": "dual-camera-snapshot.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Dual Camera Snapshot, No drawn art; a small emoji reaction as a round photo of the face, 40px, selfie inset, time stamp, late mark, blur lock, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, in the visual language of Dual Camera Snapshot, No drawn art; a small emoji reaction as a round photo of the face, 40px, selfie inset, time stamp, late mark, blur lock, colours viewfinder black, panel black, frame white, grain grey, late red, timestamp amber, neutral grey, A phone viewfinder: black bars, a live frame and a small selfie inset, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 2955,
@@ -1039,14 +1017,12 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text '40px' label under the emoji, although the prompt says no text"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "duet-split-screen": {
@@ -1108,29 +1084,8 @@
     },
     "gan-portrait": {
       "file": "gan-portrait.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of GAN Portrait, Anonymous headshots with a soft swirl background; no other art, fixed eye line, swirl background, 4x4 tile grid, A digital studio portrait: smooth skin, soft light and a blurred backdrop, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
-      "model": "Z-Image-Turbo",
-      "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
-      "steps": 9,
-      "width": 1152,
-      "height": 768,
-      "generated": "2026-11-19",
-      "qa": {
-        "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image is split into a tiled grid of panels/collage with repeated portrait tiles and merged still-life tiles"
-        ]
-      }
-    },
-    "geocities-homepage": {
-      "file": "geocities-homepage.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, Clip art, tiled backgrounds, animated GIF mascots, banners of 468px by 60px and 88px by 31px badges, tiled background, visitor counter, under-construction sign, colours navy, deep blue, yellow, lime, hot pink, cyan, red, white, A pinboard of GIFs: pixel images with hard edges and limited palettes (256 colours), one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph from above of a phone that lies flat on an empty wooden table beside one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app",
+      "prompt": "a photograph from above of a phone that lies flat on an empty wooden table beside one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, in the visual language of GAN Portrait, Anonymous headshots with a soft swirl background; no other art, fixed eye line, swirl background, 4x4 tile grid, seed caption, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1138,14 +1093,31 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text on the sign at top left ('Visiler to costinkeer') although the prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "geocities-homepage": {
+      "file": "geocities-homepage.webp",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, Clip art, tiled backgrounds, animated GIF mascots, banners of 468px by 60px and 88px by 31px badges, tiled background, rainbow rule, visitor counter, under-construction sign, colours navy, deep blue, yellow, lime, hot pink, cyan, red, white, A pinboard of GIFs: pixel images with hard edges and limited palettes (256 colours), the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "glitch-gif": {
@@ -1226,8 +1198,8 @@
     },
     "grwm-short": {
       "file": "grwm-short.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Get Ready With Me, Small hand-drawn sparkle marks and a product tag, product tag pill, sparkle mark, colours cream, blush, rose clay, espresso, taupe, linen, A bathroom mirror and a bedroom: matte skin, glass and cotton, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, Small hand-drawn sparkle marks and a product tag, product tag pill, time-stamp caption, mirror frame, sparkle mark, colours cream, blush, rose clay, espresso, taupe, linen, A bathroom mirror and a bedroom: matte skin, glass and cotton, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1235,14 +1207,12 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text 'Get Ready With Me' on the product tag, but the prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "health-goth": {
@@ -1439,29 +1409,27 @@
     },
     "livestream-overlay": {
       "file": "livestream-overlay.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Livestream Overlay, LIVE tag, alert box, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Livestream Overlay, Animated waveforms, rotating frames, particle bursts for alerts; no figurative illustration, LIVE tag, cut-corner panel, alert box, chat panel, colours control black, panel slate, signal white, stream violet, alert mint, live red, A screen-made control panel: flat dark glass with light edges, no real material, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text 'LIVE' in the red tag at top left, though the prompt says no text/letters"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "mini-diffusion-meme": {
       "file": "mini-diffusion-meme.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Mini-Diffusion Meme, 3x3 tile grid, JPEG block pattern, warped face, colours paper cream, tile paper, prompt black, run orange, murky green, smudge brown, sky blur, A compressed, low-resolution output: small images, scaled up and blocky, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, in the visual language of Mini-Diffusion Meme, Smudged scenes: a face with extra teeth, a landmark that melts, a sign with false letters, 3x3 tile grid, prompt caption, JPEG block pattern, warped face, colours paper cream, tile paper, prompt black, run orange, murky green, smudge brown, sky blur, A compressed, low-resolution output: small images, scaled up and blocky, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1469,42 +1437,18 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image is split into a 3x3 grid of panels (collage)",
-          "hands in several tiles have lumpy or fused, uncountable fingers"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "myspace-profile": {
       "file": "myspace-profile.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Myspace Profile, wallpaper, Top 8 grid, music player, colours wallpaper black, box black, white, hot pink, electric blue, template blue, template orange, glitter silver, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
-      "model": "Z-Image-Turbo",
-      "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
-      "steps": 9,
-      "width": 1152,
-      "height": 768,
-      "generated": "2026-11-19",
-      "qa": {
-        "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image is split into a 4x3 grid of coloured panels separated by black lines (panel/collage layout instead of one flat picture)"
-        ]
-      }
-    },
-    "net-art-browser": {
-      "file": "net-art-browser.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Net Art Browser, No illustration; use the code, a stretched 1px GIF, a table of random numbers or a screenshot of an error dialog, visible source code, error message, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, Band and selfie photos with a flash, glitter text, heart and skull clip art, and animated sparkle trails, wallpaper, Top 8 grid, glitter heading, music player, colours wallpaper black, box black, white, hot pink, electric blue, template blue, template orange, glitter silver, A bedroom wall of posters under glass: translucent panels over a printed wallpaper, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 2955,
@@ -1512,15 +1456,31 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "browser window frame with title bar, address bar, window buttons and border despite no browser window/UI/buttons/device frame",
-          "readable-looking text and characters in the address bar and top-left code block despite no text"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      }
+    },
+    "net-art-browser": {
+      "file": "net-art-browser.webp",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Net Art Browser, No illustration; use the code, a stretched 1px GIF, a table of random numbers or a screenshot of an error dialog, visible source code, broken frame, default link colours, error message, colours white, default grey, black, link blue, visited purple, error red, terminal green, The default browser page: no skin, no material, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "base_seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-20",
+      "qa": {
+        "checker": "sonnet",
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "normcore": {
@@ -1563,8 +1523,8 @@
     },
     "photo-dump": {
       "file": "photo-dump.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Photo Dump, count badge, sticker, A phone camera roll: screenshots, flash snaps and blur in one swipe row, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph from above of a phone that lies flat on a wooden table beside one cup of coffee and a few coffee beans, nobody in the picture, the phone screen is large in the frame and shows the app",
+      "prompt": "a photograph from above of a phone that lies flat on a wooden table beside one cup of coffee and a few coffee beans, nobody in the picture, the phone screen is large in the frame and shows the app, in the visual language of Photo Dump, Hand-drawn circles, arrows and scribbled words in marker over some photos; sticker emojis, dot pager, count badge, marker word, sticker, colours feed black, card grey, flash white, sticker yellow, blown red, night blue, mirror grey, A phone camera roll: screenshots, flash snaps and blur in one swipe row, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1572,37 +1532,31 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "image is split into a main photo plus a bottom strip of seven thumbnail tiles (panel/UI layout, not one flat picture)",
-          "bottom row works as a camera-roll interface, which the prompt excluded"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "portal-table-layout": {
       "file": "portal-table-layout.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, tab row, search box, banner ad, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Portal Table Layout, tab row, search box, link directory, banner ad, colours white, pale blue, portal blue, link blue, orange, light grey, line grey, ink, A printed directory page: flat boxes and lines on a white sheet, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text 'The conmak' in the top bar",
-          "browser/UI chrome: traffic-light dots, address bar, icons, search box overlay despite 'no user interface, no browser window'"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "pov-short": {
@@ -1664,24 +1618,21 @@
     },
     "reddit-thread": {
       "file": "reddit-thread.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Reddit Thread, vote arrows, score, thread line, group flair, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, The group icon and banner, and the posted images or links, vote arrows, score, thread line, group flair, colours page grey, card white, text ink, meta grey, upvote orange, downvote violet, link blue, A flat web app: white cards and thin lines, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
+      "seed": 2955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text in the image: 'Reduit', 'Score', 'Store', 'Thiead', 'Virted', a search-bar string",
-          "browser window frame with traffic-light dots, toolbar and a header bar with buttons, although the prompt says no browser window and no user interface"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "seapunk": {
@@ -1762,24 +1713,21 @@
     },
     "tweet-screenshot-meme": {
       "file": "tweet-screenshot-meme.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Tweet screenshot meme, avatar circle, counter row, handle, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, A circle avatar; sometimes a picture or an emoji in the text, avatar circle, counter row, handle, colours card white, post text, meta grey, link blue, dim card, dim text, A phone or desktop interface, captured as a flat screen image, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text in the header: 'coffee Loffee | inttereming im'",
-          "tweet UI header bar with avatar and menu dots, which splits the frame into two panels, against the no-UI and no-panel instruction"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "unboxing-video": {
@@ -1803,8 +1751,8 @@
     },
     "unicode-emoji": {
       "file": "unicode-emoji.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Unicode Emoji, The glyph set itself: faces with 2 simple eyes and 1 mouth curve, yellow face, skin tone swatch row, category tab row, reaction chip, Small glossy plastic discs: flat fills with one highlight, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, in the visual language of Unicode Emoji, The glyph set itself: faces with 2 simple eyes and 1 mouth curve, yellow face, skin tone swatch row, category tab row, reaction chip, colours page white, cream card, ink blue, face yellow, link blue, slate, rim sand, Small glossy plastic discs: flat fills with one highlight, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1812,22 +1760,18 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "two large hands with crowded, partly fused fingers that are hard to count",
-          "hands are cut off by hard rectangular edges and look pasted onto the roaster",
-          "hands are unattached to any body and fused with the roaster base"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "usenet-thread": {
       "file": "usenet-thread.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Usenet Thread, signature block, header fields, thread tree, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, ASCII art in a signature only, at most 4 lines, quote marks >, signature block, header fields, thread tree, colours terminal black, panel grey, phosphor white, quote grey, amber, cursor green, A text terminal: glyphs on a flat dark screen, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1835,22 +1779,18 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text: title 'Usnnet Thread', 'Header | Lod', list lines like 'Usnnet | Thread', 'Thread | Troed'",
-          "browser window chrome with tab, address bar and toolbar icons despite 'no browser window / no user interface'",
-          "page layout with header and numbered list on the left despite 'no page layout'"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "velocity-edit": {
       "file": "velocity-edit.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Velocity Edit, The source clip and light leaks: orange flares at 30% opacity, speed ramp curve, light leak, zoom shake, A glossy screen with light bloom and a slight film grain, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers",
+      "prompt": "a photograph of a hand that holds a phone above a wooden table with one cup of coffee and a few coffee beans, the phone screen is large in the frame and shows the app, natural human anatomy, five fingers, in the visual language of Velocity Edit, The source clip and light leaks: orange flares at 30% opacity, speed ramp curve, light leak, zoom shake, final word hit, colours void, hit orange, cold blue, highlight, steel, deep panel, A glossy screen with light bloom and a slight film grain, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1858,35 +1798,31 @@
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "letter-like text on the roaster's front panel ('FENCIT', 'EITS', 'FICIV') although the prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "video-essay": {
       "file": "video-essay.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Video Essay, chapter number, source line, slow zoom, colours charcoal, slate, paper, essay amber, archive blue, ash, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, in the visual language of Video Essay, Film stills, archive photographs, maps, screenshots and quotes; one arrow or underline in amber when needed, chapter number, source line, quote block, slow zoom, colours charcoal, slate, paper, essay amber, archive blue, ash, A dark screening room: archive clips, scanned stills and paper quotes on a flat ground, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
+      "seed": 1955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable numerals '1' and '2' on the right side of the roasting drum, but the prompt says no text"
-        ]
+        "tries": 1,
+        "ok": true,
+        "defects": []
       }
     },
     "vsco-preset-look": {
@@ -1929,23 +1865,21 @@
     },
     "web-2-0-gloss": {
       "file": "web-2-0-gloss.webp",
-      "subject": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left",
-      "prompt": "a wide still-life picture of coffee: coffee beans, one cup of coffee and a coffee roasting drum on the right side, open empty ground on the left, in the visual language of Web 2.0 Gloss, beta badge, starburst, colours white, sky, web blue, fresh green, badge orange, line grey, navy ink, gloss white, one flat picture that fills the whole frame, no text, no letters, no words, no logos, no user interface, no buttons, no browser window, no device frame, no page layout",
+      "subject": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page",
+      "prompt": "a photograph of an open laptop on a wooden desk beside one cup of coffee and a few coffee beans, the laptop screen fills most of the frame and shows the web page, glossy button, beta badge, starburst, colours white, sky, web blue, fresh green, badge orange, line grey, navy ink, gloss white, Glossy plastic and glass buttons on a clean page: a candy surface, the screen text small, soft and out of focus so that no word can be read, no logos, no brand names, one single photograph that fills the whole frame",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
+      "seed": 2955,
       "base_seed": 1955,
       "steps": 9,
       "width": 1152,
       "height": 768,
-      "generated": "2026-11-19",
+      "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "readable text 'Web Gloss' on the green starburst badge, though the prompt says no text"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "weirdcore": {

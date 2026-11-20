@@ -25,6 +25,8 @@ Then fail the image (ok false) if any of these is true:
 - furniture that floats, stands on other furniture, or two pieces fused into one;
 - the image is split into panels, a triptych or a collage;
 - readable letters or a logo, when the prompt says no text;${expect ? "\n- the main subject is not the expected subject, or its colour is clearly not the expected colour;" : ""}
+If the prompt asks for a photograph of a screen with soft, unreadable text, an interface on that screen is one image,
+not panels, and small or soft letters on the screen are ok. Fail it only for a logo, a brand name, or large sharp words.
 Do not judge the style or the composition${expect ? "" : ", and do not judge the colour"}. Small far-away figures are ok.
 End with one line of JSON: {"ok": true|false, "defects": ["short description", ...]}`;
 
