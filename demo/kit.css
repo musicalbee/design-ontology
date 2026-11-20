@@ -9,7 +9,7 @@
   --k-radius: 10px; --k-radius-sm: 6px; --k-shadow: 0 10px 30px rgb(20 24 60 / .16), 0 1px 3px rgb(20 24 60 / .1);
   --k-font: "Onest", "Helvetica Neue", Arial, sans-serif; --k-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   /* One colour for each kind of thing, so that a chip says what it is before you read it. */
-  --k-style: #264fcc; --k-person: #b0437a; --k-org: #2f7d6d; --k-material: #a0612a; --k-process: #6b4fc4;
+  --k-style: #264fcc; --k-person: #b0437a; --k-org: #2f7d6d; --k-material: #a0612a; --k-process: #6b4fc4; --k-system: #5b6b1f;
   /* One colour for each kind of edge between styles. */
   --k-e-evolved: #264fcc; --k-e-rebelled: #c2412d; --k-e-hybrid: #8a6d1d; --k-e-echoes: #2f7d6d; --k-e-sub: #7a7e9c;
 }
@@ -49,6 +49,10 @@
 .k-chip[data-k="material"] { --c: var(--k-material); }
 .k-chip[data-k="process"] { --c: var(--k-process); }
 .k-chip[data-k="process"] .k-m { border-radius: 5px; }
+.k-chip[data-k="system"] { --c: var(--k-system); }
+.k-chip[data-k="system"] .k-m { border-radius: 5px; }
+.k-chip .k-m.k-sw4 { display: flex; box-shadow: inset 0 0 0 1px var(--k-line); }
+.k-sw4 i { flex: 1; align-self: stretch; }
 .k-chip.ghost { opacity: .6; }
 .k-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 
@@ -58,6 +62,7 @@
 .k-kind::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--c); }
 .k-kind[data-k="person"] { --c: var(--k-person); } .k-kind[data-k="org"] { --c: var(--k-org); }
 .k-kind[data-k="material"] { --c: var(--k-material); } .k-kind[data-k="process"] { --c: var(--k-process); }
+.k-kind[data-k="system"] { --c: var(--k-system); }
 
 /* ── Tip: one floating card for every kind of thing, on hover or focus of any link to it.
    The look is the canon tip of the people and the orgs (.fx-tip in faces.js): navy, white text. ── */
@@ -71,6 +76,8 @@
 .k-tip .k-pic { aspect-ratio: 3 / 2; border-radius: 8px; overflow: hidden; background: rgb(255 255 255 / .08); }
 .k-tip .k-pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .k-tip .k-pic.sw { aspect-ratio: 5 / 1; }
+.k-tip .k-pic.k-sws { display: flex; }
+.k-tip .k-pic.k-sws i { flex: 1; }
 .k-tip .k-kind { color: #B9BCDA; margin-bottom: 4px; }
 .k-tip b.k-t { display: block; font-size: 14px; color: #fff; }
 .k-tip .k-meta { color: #B9BCDA; margin: 1px 0 6px; }

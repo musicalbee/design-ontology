@@ -109,7 +109,7 @@
     const id = decodeURIComponent(location.hash.slice(1));
     const thesis = document.getElementById("h-thesis");
     if (!thesis || !styleName[id]) return;
-    const fx = thesis.nextElementSibling?.matches(".fx:not(.ox)") ? thesis.nextElementSibling : null;
+    const fx = thesis.nextElementSibling?.matches(".fx:not(.ox):not(.sx)") ? thesis.nextElementSibling : null;
     const anchor = fx || thesis;
     if (id === cur && box?.isConnected && box.previousElementSibling === anchor) return;
     cur = id;
