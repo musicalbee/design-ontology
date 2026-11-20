@@ -5,12 +5,12 @@
   },
   "photos": {
     "ceramics.decorations:cord-impressed": {
-      "file": "ceramics.decorations--cord-impressed.webp",
-      "prompt": "close documentary photograph of cord-impressed decoration being made on clay: Patterns pressed into wet clay with twisted cord, the mark that names Jōmon pottery. The scene shows worked on earthenware, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "file": null,
+      "prompt": "close documentary photograph of cord-impressed decoration being made on clay: Patterns pressed into wet clay with twisted cord, the mark that names J\u014dmon pottery. The scene shows worked on earthenware, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -20,10 +20,11 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "decoration is applied raised rope coils/loops, not cord-impressed marks pressed into clay",
-          "no cord or impressing tool visible; the process of impression is not shown"
+          "main subject is not cord-impressed decoration: the bowl has applied twisted-clay rope and pellets in relief, with no cord-pressed impressions in the clay",
+          "no cord or pressing tool and no decorating action is shown"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "ceramics.decorations:incised": {
       "file": "ceramics.decorations--incised.webp",
@@ -98,12 +99,12 @@
       }
     },
     "ceramics.decorations:sgraffito": {
-      "file": "ceramics.decorations--sgraffito.webp",
+      "file": null,
       "prompt": "close documentary photograph of sgraffito decoration being made on clay: A line scratched through a slip to show the clay of another colour under it. The scene shows worked on earthenware, with clay added, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -113,10 +114,11 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject missing: no sgraffito decoration, no scratched line through slip revealing contrasting clay colour",
-          "pot is plain and uniformly one colour, so the process is not depicted"
+          "main subject is not sgraffito: plain undecorated thrown pot, no slip layer, no scratched line, no contrasting clay colour underneath",
+          "no tool shown working the surface; process is not depicted"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "ceramics.decorations:iron-painting": {
       "file": "ceramics.decorations--iron-painting.webp",
@@ -228,7 +230,7 @@
     },
     "ceramics.decorations:overglaze-enamel": {
       "file": "ceramics.decorations--overglaze-enamel.webp",
-      "prompt": "close documentary photograph of overglaze enamel decoration being made on clay: Coloured glass enamels painted on a fired glaze and fixed in a low third firing. Jingdezhen used them on porcelain from the Chenghua reign (1465–1487). The scene shows worked on porcelain, with glass added, with the kiln, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of overglaze enamel decoration being made on clay: Coloured glass enamels painted on a fired glaze and fixed in a low third firing. Jingdezhen used them on porcelain from the Chenghua reign (1465\u20131487). The scene shows worked on porcelain, with glass added, with the kiln, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -375,20 +377,17 @@
       "prompt": "close documentary photograph of mocha dendritic decoration being made on clay: A drop of acid colour on wet slip spreads into a pattern like a tree, on bands of turned ware. The scene shows worked on pearlware, with iron oxide added, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject wrong: a symmetrical stylised tree in raised glossy relief instead of a spontaneous dendritic spread of acid colour in wet slip",
-          "ware is a flat plate, not banded turned ware"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "ceramics.decorations:sprigging": {
@@ -500,25 +499,23 @@
       }
     },
     "ceramics.decorations:pate-sur-pate": {
-      "file": "ceramics.decorations--pate-sur-pate.webp",
-      "prompt": "close documentary photograph of pâte-sur-pâte decoration being made on clay: Layers of white slip painted on a tinted body and carved, so that the relief looks translucent. The scene shows worked on porcelain, parian porcelain, with clay added, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "file": null,
+      "prompt": "close documentary photograph of p\u00e2te-sur-p\u00e2te decoration being made on clay: Layers of white slip painted on a tinted body and carved, so that the relief looks translucent. The scene shows worked on porcelain, parian porcelain, with clay added, on a potter's workbench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is not pâte-sur-pâte: plain undecorated clay disc with throwing rings, no layered white slip relief or carved motif",
-          "no tinted body with contrasting white slip, so the colour is not as expected"
-        ]
-      }
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      },
+      "dropped": "subject wrong on eye check"
     },
     "ceramics.decorations:hand-banding": {
       "file": "ceramics.decorations--hand-banding.webp",
@@ -684,7 +681,7 @@
     },
     "cuisine.methods:spit-roasting": {
       "file": "cuisine.methods--spit-roasting.webp",
-      "prompt": "close documentary photograph of spit roasting in progress: Meat turned on a spit before an open fire; the roast of the medieval hall and the rôtisseur. The scene shows worked on lamb, chicken, game birds, with the spit, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of spit roasting in progress: Meat turned on a spit before an open fire; the roast of the medieval hall and the r\u00f4tisseur. The scene shows worked on lamb, chicken, game birds, with the spit, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 2955,
@@ -831,7 +828,7 @@
     },
     "cuisine.methods:sauteing": {
       "file": "cuisine.methods--sauteing.webp",
-      "prompt": "close documentary photograph of sautéing in progress: Quick cooking in a little fat in a wide pan, with the pan moved by the cook. The scene shows worked on onion, wild mushrooms, with butter added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of saut\u00e9ing in progress: Quick cooking in a little fat in a wide pan, with the pan moved by the cook. The scene shows worked on onion, wild mushrooms, with butter added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -939,7 +936,7 @@
     },
     "cuisine.methods:emulsion-sauce": {
       "file": "cuisine.methods--emulsion-sauce.webp",
-      "prompt": "close documentary photograph of emulsion sauce in progress: Butter or oil held in egg yolk or a reduction: hollandaise, béarnaise, mayonnaise, beurre blanc. The scene shows worked on hen egg, with butter, olive oil, lemon added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of emulsion sauce in progress: Butter or oil held in egg yolk or a reduction: hollandaise, b\u00e9arnaise, mayonnaise, beurre blanc. The scene shows worked on hen egg, with butter, olive oil, lemon added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -996,8 +993,8 @@
       "prompt": "close documentary photograph of larding in progress: Strips of fat threaded through lean meat with a needle before it is roasted. The scene shows worked on beef, venison, with lard added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 4962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -1005,12 +1002,8 @@
       "qa": {
         "checker": "sonnet",
         "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is not larding: no fat strips threaded into lean meat and no larding needle",
-          "material is pork-belly-like slabs, not lean beef or venison with added lard",
-          "a stray thin wire crosses the frame, which does not match the process"
-        ]
+        "ok": true,
+        "defects": []
       }
     },
     "cuisine.methods:aspic": {
@@ -1033,7 +1026,7 @@
     },
     "cuisine.methods:pate-en-croute": {
       "file": "cuisine.methods--pate-en-croute.webp",
-      "prompt": "close documentary photograph of pâté en croûte in progress: Meat baked in a pastry case; the pie of the medieval and classic feast. The scene shows worked on pork, foie gras, with wheat added, with the oven, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of p\u00e2t\u00e9 en cro\u00fbte in progress: Meat baked in a pastry case; the pie of the medieval and classic feast. The scene shows worked on pork, foie gras, with wheat added, with the oven, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1051,7 +1044,7 @@
     },
     "cuisine.methods:knife-work": {
       "file": "cuisine.methods--knife-work.webp",
-      "prompt": "close documentary photograph of knife work in progress: Exact cuts: julienne, brunoise, tournée and chiffonade; in Japan the work of the itamae. The scene shows worked on onion, carrot, tuna, with the chef's knife, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of knife work in progress: Exact cuts: julienne, brunoise, tourn\u00e9e and chiffonade; in Japan the work of the itamae. The scene shows worked on onion, carrot, tuna, with the chef's knife, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1122,12 +1115,12 @@
       }
     },
     "cuisine.methods:siphon-foam": {
-      "file": "cuisine.methods--siphon-foam.webp",
-      "prompt": "close documentary photograph of siphon foam in progress: A purée or a liquid aerated with nitrous oxide in a cream siphon: the espuma. The scene shows worked on cream, with the whipping siphon, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "file": null,
+      "prompt": "close documentary photograph of siphon foam in progress: A pur\u00e9e or a liquid aerated with nitrous oxide in a cream siphon: the espuma. The scene shows worked on cream, with the whipping siphon, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -1137,13 +1130,14 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject is wrong: a stick/immersion blender frothing cream in a bowl, not a whipping siphon (cream whipper) dispensing espuma"
+          "main tool is an immersion/stick blender in a bowl, not a whipping cream siphon; no siphon visible"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "cuisine.methods:cryo-freezing": {
       "file": "cuisine.methods--cryo-freezing.webp",
-      "prompt": "close documentary photograph of liquid nitrogen freezing in progress: Instant freezing at minus 196 °C. In 1901 Marshall proposed liquid air for ice cream at the table; modernist chefs used liquid nitrogen after 1990. The scene shows worked on cream, berries, with liquid nitrogen added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of liquid nitrogen freezing in progress: Instant freezing at minus 196 \u00b0C. In 1901 Marshall proposed liquid air for ice cream at the table; modernist chefs used liquid nitrogen after 1990. The scene shows worked on cream, berries, with liquid nitrogen added, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -1160,12 +1154,12 @@
       }
     },
     "cuisine.methods:dehydrating": {
-      "file": "cuisine.methods--dehydrating.webp",
+      "file": null,
       "prompt": "close documentary photograph of dehydrating in progress: Water taken out with dry air or low heat; leathers, crisps and powders. The scene shows worked on tomato, tropical fruit, banana, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 4962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -1173,12 +1167,10 @@
       "qa": {
         "checker": "sonnet",
         "tries": 4,
-        "ok": false,
-        "defects": [
-          "water pouring from above onto a puddle in the centre contradicts the dehydrating process",
-          "wet tray and glistening fresh produce read as wetting or washing, not drying"
-        ]
-      }
+        "ok": true,
+        "defects": []
+      },
+      "dropped": "subject wrong on eye check"
     },
     "cuisine.methods:smoking": {
       "file": "cuisine.methods--smoking.webp",
@@ -1253,12 +1245,12 @@
       }
     },
     "cuisine.methods:koji-fermentation": {
-      "file": "cuisine.methods--koji-fermentation.webp",
+      "file": null,
       "prompt": "close documentary photograph of koji fermentation in progress: The mould Aspergillus oryzae grown on rice or barley makes miso, soy sauce and sake; the Nordic kitchen took it up after 2010. The scene shows worked on rice, with koji (aspergillus oryzae) added, making miso, soy sauce, on a kitchen work surface, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -1268,10 +1260,11 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "Large dark grey/blue/brown spiky ball-shaped objects on the rice are not koji; they look like contaminant mould or invented pom-poms, so the colour and subject do not match koji (white fuzz binding rice)",
-          "White coral-like clumps are unrealistic as koji growth"
+          "many large dark grey/brown pitted sphere objects (pumice-like) on the rice are not part of koji fermentation, so the main subject does not match",
+          "unexplained orange fragments scattered in the rice"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "cuisine.methods:acid-curing": {
       "file": "cuisine.methods--acid-curing.webp",
@@ -1728,23 +1721,20 @@
     },
     "fashion.finishes:guilloche": {
       "file": "fashion.finishes--guilloche.webp",
-      "prompt": "close documentary photograph of a guilloché finish being applied: A fine engine-turned pattern cut on a rose engine. Breguet put it on watch dials from about 1786. The scene shows worked on gold, silver, with the rose engine lathe, on a craft workshop table, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of a guilloch\u00e9 finish being applied: A fine engine-turned pattern cut on a rose engine. Breguet put it on watch dials from about 1786. The scene shows worked on gold, silver, with the rose engine lathe, on a craft workshop table, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "dial has garbled brand-like text/logo marks (prompt says no text or logos)",
-          "main subject wrong: no rose engine lathe visible; shows a finished watch in a holding vise instead of guilloché being cut"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "fashion.finishes:engraved": {
@@ -1771,7 +1761,7 @@
     },
     "fashion.finishes:enamelled": {
       "file": "fashion.finishes--enamelled.webp",
-      "prompt": "close documentary photograph of a enamelled finish being applied: Glass fused into or onto metal: champlevé, cloisonné, plique-à-jour or painted. The scene shows worked on gold, silver, copper, with glass added, making vitreous enamel, with the kiln, on a craft workshop table, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of a enamelled finish being applied: Glass fused into or onto metal: champlev\u00e9, cloisonn\u00e9, plique-\u00e0-jour or painted. The scene shows worked on gold, silver, copper, with glass added, making vitreous enamel, with the kiln, on a craft workshop table, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -2690,12 +2680,12 @@
       }
     },
     "industrial.finishes:piece-dyed": {
-      "file": "industrial.finishes--piece-dyed.webp",
+      "file": null,
       "prompt": "close documentary photograph of a piece-dyed finish being applied. The scene shows worked on wool, cotton, on a workshop bench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -2705,17 +2695,18 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject is not piece-dyed: the fabric is undyed cream, with no dye colour and no dyeing process visible"
+          "main subject is plain undyed off-white fabric, no visible dyeing process or dyed colour, so it does not show 'piece-dyed'"
         ]
-      }
+      },
+      "dropped": "subject wrong on eye check"
     },
     "industrial.finishes:printed": {
-      "file": "industrial.finishes--printed.webp",
+      "file": null,
       "prompt": "close documentary photograph of a printed finish being applied. The scene shows worked on cotton, linen cloth, on a workshop bench, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -2725,9 +2716,10 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject wrong: cloth is plain and unprinted, with no print, pattern, ink or printing tool in use, so the 'Printed' process is not shown"
+          "main subject is not the expected process: plain unprinted cloth, no print pattern, ink, screen, block or squeegee, and no printing being applied"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "industrial.finishes:lustre-pile": {
       "file": "industrial.finishes--lustre-pile.webp",
@@ -2802,12 +2794,12 @@
       }
     },
     "technique:ash-glazing": {
-      "file": "technique--ash-glazing.webp",
+      "file": null,
       "prompt": "close documentary photograph of ash glazing in progress: A glaze that comes from wood or plant ash. The ash melts with the clay and makes a green, yellow or brown glass. The scene shows worked on stoneware, with wood ash added, making ash glaze, with the wood-fired kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
+      "seed": 3962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -2817,11 +2809,11 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "both large hands have fused, lumpy fingers that cannot be counted to five",
-          "the main subject is not clearly ash glazing: there is no ash, no glaze vessel and no wood-fired kiln",
-          "a strange yellow-green striped object stands in for a glazing tool, and the pot sits in a bin of shards"
+          "large hand in the frame has fused, lumpy, uncountable fingers",
+          "expected subject missing: no wood-fired kiln and no visible wood ash; the scene is a pot in a basin of clay shards"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:board-marked-concrete": {
       "file": "technique--board-marked-concrete.webp",
@@ -2843,11 +2835,11 @@
     },
     "technique:bone-ash-body": {
       "file": "technique--bone-ash-body.webp",
-      "prompt": "close documentary photograph of bone-ash body in progress: A porcelain body that holds calcined bone ash, about 40 to 50 per cent, with china clay and china stone. It fires white and strong at a lower heat. The scene shows worked on kaolin (china clay), with bone ash, feldspar added, making bone china, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of bone-ash clay paste being wedged by hand, a lump of ceramic body: A porcelain body that holds calcined bone ash, about 40 to 50 per cent, with china clay and china stone. It fires white and strong at a lower heat. The scene shows worked on kaolin (china clay), with bone ash, feldspar added, making bone china, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 4962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -2855,12 +2847,8 @@
       "qa": {
         "checker": "sonnet",
         "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is a human figure lying in a trough, not a bone-ash body/material process; no kiln, tools or clay being worked",
-          "both hands large in frame with fused, lumpy, uncountable fingers",
-          "legs fused into one mass"
-        ]
+        "ok": true,
+        "defects": []
       }
     },
     "technique:breeze-block": {
@@ -3012,8 +3000,8 @@
       "prompt": "close documentary photograph of lava glazing in progress: A thick glaze that blisters and runs in the kiln. It leaves a rough, cratered surface like cooled lava, often in two or more colours. The scene shows worked on earthenware, making lava glaze, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
-      "base_seed": 1955,
+      "seed": 4962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -3021,11 +3009,8 @@
       "qa": {
         "checker": "sonnet",
         "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is a sculptural lava-like blob in a kiln, not earthenware with lava glaze; no recognisable vessel or glazed pot",
-          "glaze reads as glowing molten lava rather than a cooled, cratered glaze surface"
-        ]
+        "ok": true,
+        "defects": []
       }
     },
     "technique:limewash": {
@@ -3047,25 +3032,23 @@
       }
     },
     "technique:matte-glazing": {
-      "file": "technique--matte-glazing.webp",
+      "file": null,
       "prompt": "close documentary photograph of matt glazing in progress: A thick, dry-looking glaze with a velvet surface. The potter adds alumina or a silica surplus, so that fine crystals make the surface dull. The scene shows worked on stoneware, making matte glaze, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 3962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is wheel throwing of a clay pot, not matt glazing; no glaze application and no kiln visible",
-          "large left hand has uncountable, bunched, lumpy fingers (fewer than five clearly separate)"
-        ]
-      }
+        "tries": 3,
+        "ok": true,
+        "defects": []
+      },
+      "dropped": "subject wrong on eye check"
     },
     "technique:membrane-lamination": {
       "file": "technique--membrane-lamination.webp",
@@ -3144,20 +3127,17 @@
       "prompt": "close documentary photograph of pyrogranite tile in progress: A hard, frost-proof ceramic that the Zsolnay factory made from 1886. It is fired at a very high heat and carries a strong glaze, so that it can face roofs and walls. The scene shows worked on fireclay, making pyrogranite, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
+      "seed": 3962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is grey terrazzo/concrete-like tiles, not glazed pyrogranite ceramic",
-          "no kiln or fireclay visible, so the process 'making pyrogranite with the kiln' is not shown"
-        ]
+        "tries": 3,
+        "ok": true,
+        "defects": []
       }
     },
     "technique:raised-bole-red": {
@@ -3216,24 +3196,20 @@
     },
     "technique:stonepaste-body": {
       "file": "technique--stonepaste-body.webp",
-      "prompt": "close documentary photograph of stonepaste body in progress: A body of ground quartz, glass frit and a little white clay. It is white and hard, and it takes a thin glaze, but it is not as clear as porcelain. The scene shows worked on sand (silica), with glass, clay added, making stonepaste (fritware), with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of stonepaste clay paste being wedged by hand, a lump of ceramic body: A body of ground quartz, glass frit and a little white clay. It is white and hard, and it takes a thin glaze, but it is not as clear as porcelain. The scene shows worked on sand (silica), with glass, clay added, making stonepaste (fritware), with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is a human-body figure, not the stonepaste process; no kiln visible",
-          "large left hand has lumpy, fused or uncountable fingers",
-          "figure's limbs merge into the torso and it has no legs"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "technique:tenmoku-iron-glaze": {
@@ -3291,25 +3267,23 @@
       }
     },
     "technique:vitreous-enamelling": {
-      "file": "technique--vitreous-enamelling.webp",
-      "prompt": "close documentary photograph of vitreous enamelling in progress: A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a hard, bright, washable surface that resists heat and rust. The scene shows worked on steel, copper, with glass added, making vitreous enamel, enamelled steel, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "file": null,
+      "prompt": "close documentary photograph of vitreous enamelling in progress: A thin coat of glass that is fused to iron or steel at about 800 \u00b0C. It makes a hard, bright, washable surface that resists heat and rust. The scene shows worked on steel, copper, with glass added, making vitreous enamel, enamelled steel, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is not vitreous enamelling: bare steel bars and copper strip with one loose gem-like glass block, no enamel coat fused on metal",
-          "no kiln or firing process visible"
-        ]
-      }
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      },
+      "dropped": "subject wrong on eye check"
     },
     "technique:layered-plastic-frame": {
       "file": "technique--layered-plastic-frame.webp",
@@ -3456,12 +3430,12 @@
       }
     },
     "technique:ceviche-curing": {
-      "file": "technique--ceviche-curing.webp",
+      "file": null,
       "prompt": "close documentary photograph of ceviche curing in progress: Raw fish stays in lime juice with salt and chilli for a few minutes, until the surface turns firm and opaque, and is served at once with its juice. The scene shows worked on sole and flat fish, with lime, chilli pepper, onion added, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -3471,9 +3445,10 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "fish are round-bodied silvery fish (sardine/herring-like), not sole or flat fish as required by the main subject"
+          "fish are whole round-bodied fish (tilapia/bream-like), not sole or flat fish as required for the main subject"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:chrome-plating": {
       "file": "technique--chrome-plating.webp",
@@ -3657,7 +3632,7 @@
     },
     "technique:flourless-reduction-sauce": {
       "file": "technique--flourless-reduction-sauce.webp",
-      "prompt": "close documentary photograph of flourless reduction sauce in progress: A sauce made from the cooking juices and a stock, reduced and finished with a little cream, butter, fromage blanc or a vegetable purée, with no flour roux. The scene shows worked on stock (broth), in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of flourless reduction sauce in progress: A sauce made from the cooking juices and a stock, reduced and finished with a little cream, butter, fromage blanc or a vegetable pur\u00e9e, with no flour roux. The scene shows worked on stock (broth), in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 1955,
@@ -3894,19 +3869,17 @@
       "prompt": "close documentary photograph of joined-hemisphere throwing in progress: Two large bowls are thrown on the wheel and joined at the rim when leather-hard. The seam is smoothed, and the sphere closes at the top with a collar. The scene shows worked on porcelain, with the potter's wheel, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject wrong: two separate open bowls and a small clay knob on the wheel, not two hemispheres joined at the rim into a closed sphere with a collar"
-        ]
+        "tries": 2,
+        "ok": true,
+        "defects": []
       }
     },
     "technique:lacto-fermentation": {
@@ -4072,33 +4045,31 @@
       }
     },
     "technique:press-moulding": {
-      "file": "technique--press-moulding.webp",
+      "file": null,
       "prompt": "close documentary photograph of press moulding in a bowl mould in progress: Soft clay is pressed into a fired clay mould that carries a design in reverse. The bowl keeps a sharp relief when it comes out of the mould. The scene shows worked on earthenware, with the plaster mould, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
       "generated": "2026-11-20",
       "qa": {
         "checker": "sonnet",
-        "tries": 4,
-        "ok": false,
-        "defects": [
-          "main subject is wheel-thrown bowl with throwing rings, not press moulding",
-          "no visible mould with reverse design or sharp relief; plaster mould not identifiable"
-        ]
-      }
+        "tries": 2,
+        "ok": true,
+        "defects": []
+      },
+      "dropped": "subject wrong on eye check"
     },
     "technique:raku-firing": {
-      "file": "technique--raku-firing.webp",
+      "file": null,
       "prompt": "close documentary photograph of raku firing in progress: A short, hot firing of one small piece. The potter opens the kiln and pulls the glowing piece out with tongs. The scene shows worked on raku clay, making raku glaze, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
+      "seed": 2962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -4108,11 +4079,12 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject is not raku firing: a pale pot on a turntable in a tabletop recess with a lighter and tongs lighting a flame, not a glowing piece pulled from a kiln",
-          "colour is wrong: the pot is pale beige with an orange interior glow, not a glowing red-orange raku piece",
-          "lower hand is large in the frame, mostly hidden and lumpy, and its fingers cannot be counted"
+          "main subject is not raku firing: modern white electric kiln, pot stays inside, chopsticks instead of tongs, no raku clay or glaze",
+          "pot is pale and unglazed with an unrealistic orange glow, colour does not match raku",
+          "hands partly cropped with unclear finger counts, and it is unclear whether the two hands belong to one person"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:reduction-firing": {
       "file": "technique--reduction-firing.webp",
@@ -4295,12 +4267,12 @@
       }
     },
     "technique:sponge-stamping": {
-      "file": "technique--sponge-stamping.webp",
+      "file": null,
       "prompt": "close documentary photograph of sponge stamping in progress: A piece of sea sponge is dipped in ceramic colour and dabbed or stamped on a biscuit pot. The soft print is quick and needs little skill. The scene shows worked on earthenware, with cobalt oxide added, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 1955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -4310,10 +4282,12 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "large hand has fewer than five countable fingers; fingers fused or lumpy with a strange rounded nub between fingertips and sponge",
-          "no visible sponge-stamped print on the pot, so the process is unclear"
+          "large hand with fused/lumpy fingers, not five countable fingers, odd blob under fingertip",
+          "object is a synthetic kitchen scouring sponge, not a sea sponge",
+          "no cobalt-colour sponge prints visible on the pot; stamping process not shown"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:sprig-moulding": {
       "file": "technique--sprig-moulding.webp",
@@ -4352,12 +4326,12 @@
       }
     },
     "technique:thrown-and-assembled-form": {
-      "file": "technique--thrown-and-assembled-form.webp",
+      "file": null,
       "prompt": "close documentary photograph of thrown and assembled form in progress: A potter throws two or more separate parts and joins them at the leather-hard stage. The joined form has a shape that no single throw can make. The scene shows worked on stoneware, with the potter's wheel, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 4955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -4367,10 +4341,12 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "both large hands have fused, lumpy or uncountable fingers (right hand worst, slip-covered, overlapping)",
-          "main subject is a single thrown form on the wheel, not a thrown-and-assembled (joined parts) form"
+          "left hand: fingers lumpy, fused with clay, not countable (hand large in frame)",
+          "right hand: fingers not countable, merge with pot rim",
+          "subject shows a single thrown cylinder, no joined parts, so not 'thrown and assembled form'"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:tie-dye": {
       "file": "technique--tie-dye.webp",
@@ -4427,12 +4403,12 @@
       }
     },
     "technique:underglaze-transfer-printing": {
-      "file": "technique--underglaze-transfer-printing.webp",
+      "file": null,
       "prompt": "close documentary photograph of underglaze transfer printing in progress: A pattern is printed from an engraved copper plate on thin paper. The paper is rubbed on to the biscuit ware and the glaze covers the print. The scene shows worked on pearlware, with cobalt oxide added, with the kiln, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 2955,
-      "base_seed": 1955,
+      "seed": 3962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -4442,10 +4418,11 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject is not underglaze transfer printing on pearlware: it shows a blue vase print on flat paper, with no ware being printed, no copper plate and no kiln",
-          "large hand holding a brush with a paper corner: the fingers are bunched and partly hidden, so the count of five cannot be confirmed"
+          "main subject mismatch: paper print only, no pearlware biscuit ware and no kiln visible",
+          "large foreground hand has fingers that are hidden and lumpy, not countable as five separate fingers"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:wax-proofing": {
       "file": "technique--wax-proofing.webp",
@@ -4485,7 +4462,7 @@
     },
     "technique:wood-type": {
       "file": "technique--wood-type.webp",
-      "prompt": "close documentary photograph of wood type in progress: Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5–50 cm high at a low cost. The scene shows worked on maple, with ink added, with the printing press, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of wood type in progress: Large display letters routed from end-grain wood instead of cast in metal, so posters and bills can use letters 5\u201350 cm high at a low cost. The scene shows worked on maple, with ink added, with the printing press, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 2955,
@@ -4629,7 +4606,7 @@
     },
     "technique:bias-cutting": {
       "file": "technique--bias-cutting.webp",
-      "prompt": "close documentary photograph of bias cutting in progress: The cutting of woven cloth at 45 degrees to the threads, so that it stretches, falls in soft folds and follows the body. The scene shows worked on silk, satin, crêpe de chine, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
+      "prompt": "close documentary photograph of bias cutting in progress: The cutting of woven cloth at 45 degrees to the threads, so that it stretches, falls in soft folds and follows the body. The scene shows worked on silk, satin, cr\u00eape de chine, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
       "seed": 3955,
@@ -4700,12 +4677,12 @@
       }
     },
     "technique:hand-building": {
-      "file": "technique--hand-building.webp",
+      "file": null,
       "prompt": "close documentary photograph of hand building in progress: A vessel or a figure is built from coils, slabs or pinched lumps of clay, with no wheel. The maker joins the parts with slip and keeps the marks of the hand. The scene shows worked on clay, in a workshop, the material and the tools large in the frame, soft natural light, sharp focus, true natural colour, one single photograph, no text, no labels, no logos",
       "model": "Z-Image-Turbo",
       "licence": "Apache-2.0",
-      "seed": 3955,
-      "base_seed": 1955,
+      "seed": 1962,
+      "base_seed": 1962,
       "steps": 9,
       "width": 768,
       "height": 768,
@@ -4715,10 +4692,11 @@
         "tries": 4,
         "ok": false,
         "defects": [
-          "main subject is wheel throwing on a spinning potter's wheel, not hand building (no coils, slabs or pinching, and the prompt says no wheel)",
-          "right hand fingers are crowded, with the thumb unclear and the pinky area slightly lumpy"
+          "Shows wheel throwing on a potter's wheel, not hand building; the prompt says no wheel",
+          "Vessel has thrown horizontal rings and no coils, slabs or pinch marks"
         ]
-      }
+      },
+      "dropped": "subject wrong after all tries"
     },
     "technique:hand-canvassed-tailoring": {
       "file": "technique--hand-canvassed-tailoring.webp",
