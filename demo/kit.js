@@ -364,10 +364,14 @@
   }
 
   // ── Time line ──
-  // items: [{ label, href, tip: "style:id", start, end, open, colour, dots: [{ at, label }] }]
+  // items: [{ label, href, tip: "style:id", start, end, open, colour,
+  //           dots: [{ at, event, person? }], people: [{ id, name, from, to, dots: [{ at, event }] }] }]
+  // It zooms and pans: a click on a bar zooms to that period, Ctrl + wheel (or a pinch) zooms at the pointer,
+  // a drag or a sideways scroll pans, and + − Fit zoom about the centre. The ▸ of a row opens one lane for each
+  // of its people (life and milestones). A click on a dot shows the event and the person under the time line.
   function ticks(a, b) {
     const span = b - a, steps = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000, 5000];
-    const step = steps.find((s) => span / s <= 8) ?? 10000;
+    const step = steps.find((s) => span / s <= 9) ?? 10000;
     const out = [];
     for (let t = Math.ceil(a / step) * step; t <= b; t += step) out.push(t);
     return out;
@@ -377,19 +381,96 @@
     const now = new Date().getFullYear();
     const lo = opts.from ?? Math.min(...items.map((i) => i.start));
     const hi = opts.to ?? Math.max(...items.map((i) => (i.end ?? now)));
-    const pad = (hi - lo) * 0.02 || 1, a = lo - pad, b = hi + pad;
-    const x = (t) => `${(((t - a) / (b - a)) * 100).toFixed(2)}%`;
+    const pad = (hi - lo) * 0.02 || 1, A = lo - pad, B = hi + pad, MIN = 6;
+    const st = { a: A, b: B, open: new Set(opts.open || []), pick: null, dots: [] };
+    el._tlAbort?.abort();
+    const ac = el._tlAbort = new AbortController(), on = { signal: ac.signal };
     el.classList.add("k-tl");
     if (opts.label) el.style.setProperty("--k-tl-label", opts.label);
-    el.innerHTML = `<div class="k-tl-axis">${ticks(a, b).map((t) => `<span style="left:${x(t)}">${yr(t)}</span>`).join("")}</div>` +
-      items.map((i) => {
-        const end = i.end ?? (i.open ? now : i.start);
-        const c = i.colour ? ` style="--c:${esc(i.colour)}"` : "";
-        const name = i.href ? `<a href="${esc(i.href)}"${i.tip ? ` data-k-tip="${esc(i.tip)}"` : ""}>${esc(i.label)}</a>` : `<span>${esc(i.label)}</span>`;
-        const w = Math.max(0, ((end - i.start) / (b - a)) * 100);
-        return `<div class="k-tl-row"${c}>${name}<div class="k-tl-lane"><span class="k-tl-bar${i.end == null && i.open ? " open" : ""}" style="left:${x(i.start)};width:${w.toFixed(2)}%" title="${esc(`${yr(i.start)}–${i.end != null ? yr(i.end) : i.open ? "now" : ""}`)}"></span>` +
-          (i.dots || []).map((d) => `<span class="k-tl-dot" style="left:${x(d.at)}" title="${esc(`${yr(d.at)} · ${d.label}`)}"></span>`).join("") + `</div></div>`;
-      }).join("") + (now >= a && now <= b ? `<span class="k-tl-now" style="left:calc(var(--k-tl-label) + (100% - var(--k-tl-label)) * ${((now - a) / (b - a)).toFixed(4)})" aria-hidden="true"></span>` : "");
+    el.innerHTML = `<div class="k-tl-tools"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button>` +
+      `<button type="button" data-z="fit">Fit</button><span class="k-tl-span" aria-live="polite"></span>` +
+      `<span class="k-tl-hint">Click a bar to zoom, a dot to read it, ▸ for the people. Drag to pan.</span></div>` +
+      `<div class="k-tl-body"></div><div class="k-tl-card" hidden></div>`;
+    const body = el.querySelector(".k-tl-body"), card = el.querySelector(".k-tl-card"), span = el.querySelector(".k-tl-span");
+    const pct = (t) => ((t - st.a) / (st.b - st.a)) * 100;
+    const pos = (from, to) => `left:${pct(from).toFixed(3)}%;width:${Math.max(0, pct(to) - pct(from)).toFixed(3)}%`;
+    const dot = (d, cls = "") => {
+      const p = pct(d.at);
+      st.dots.push(d);
+      if (p < -2 || p > 102) return "";
+      const who = d.person && D.person?.[d.person]?.name;
+      const text = `${yr(d.at)} · ${who ? `${who}: ` : ""}${d.event}`;
+      return `<button type="button" class="k-tl-dot${cls}${st.pick === d.key ? " on" : ""}" data-d="${st.dots.length - 1}" style="left:${p.toFixed(3)}%" title="${esc(text)}" aria-label="${esc(text)}"></button>`;
+    };
+    function draw() {
+      st.dots = [];
+      span.textContent = st.a <= A && st.b >= B ? "" : `${yr(Math.round(st.a))} to ${yr(Math.round(st.b))}`;
+      body.innerHTML = `<div class="k-tl-axis">${ticks(st.a, st.b).map((t) => `<span style="left:${pct(t).toFixed(3)}%">${yr(t)}</span>`).join("")}</div>` +
+        items.map((i, n) => {
+          const end = i.end ?? (i.open ? now : i.start);
+          const c = i.colour ? ` style="--c:${esc(i.colour)}"` : "";
+          const ppl = i.people?.length ? i.people : null, open = ppl && st.open.has(n);
+          const tog = ppl ? `<button type="button" class="k-tl-tog" data-open="${n}" aria-expanded="${!!open}" title="${open ? "Hide" : "Show"} the people of ${esc(i.label)}">${open ? "▾" : "▸"} ${ppl.length}</button>` : `<span class="k-tl-tog"></span>`;
+          const name = i.href ? `<a href="${esc(i.href)}"${i.tip ? ` data-k-tip="${esc(i.tip)}"` : ""}>${esc(i.label)}</a>` : `<span>${esc(i.label)}</span>`;
+          let h = `<div class="k-tl-row"${c}><div class="k-tl-name">${tog}${name}</div><div class="k-tl-lane">` +
+            `<span class="k-tl-bar${i.end == null && i.open ? " open" : ""}" data-zoom="${i.start},${end}" data-row="${n}" style="${pos(i.start, end)}" title="${esc(`${i.label}: ${yr(i.start)} to ${i.end != null ? yr(i.end) : i.open ? "now" : yr(i.start)}. Click to zoom.`)}"></span>` +
+            (i.dots || []).map((d, k) => dot({ ...d, key: `${n}.${k}` })).join("") + `</div></div>`;
+          if (open) h += ppl.map((p, k) => `<div class="k-tl-row sub"${c}><div class="k-tl-name"><a href="${href.person(p.id)}" data-person="${esc(p.id)}">${esc(p.name)}</a></div><div class="k-tl-lane">` +
+            (p.from != null && p.to != null ? `<span class="k-tl-life" data-zoom="${p.from},${p.to}" style="${pos(p.from, p.to)}" title="${esc(`${p.name}: ${yr(p.from)} to ${yr(p.to)}. Click to zoom.`)}"></span>` : "") +
+            p.dots.map((d, j) => dot({ ...d, person: p.id, key: `${n}.p${k}.${j}` })).join("") + `</div></div>`).join("");
+          return h;
+        }).join("") + (now >= st.a && now <= st.b ? `<span class="k-tl-now" style="left:calc(var(--k-tl-label) + (100% - var(--k-tl-label)) * ${(pct(now) / 100).toFixed(4)})" aria-hidden="true"></span>` : "");
+    }
+    let raf = 0;
+    const redraw = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; draw(); }); };
+    const set = (a, b) => {
+      let s = Math.min(B - A, Math.max(MIN, b - a));
+      const mid = (a + b) / 2;
+      a = Math.max(A, Math.min(B - s, mid - s / 2));
+      st.a = a; st.b = a + s; redraw();
+    };
+    const zoom = (f, at = (st.a + st.b) / 2) => { const s = Math.min(B - A, Math.max(MIN, (st.b - st.a) * f)), a = at - (at - st.a) * (s / (st.b - st.a)); set(a, a + s); };
+    const tAt = (cx) => { const r = body.querySelector(".k-tl-axis").getBoundingClientRect(); return st.a + ((cx - r.left) / r.width) * (st.b - st.a); };
+    function read(d) {
+      st.pick = d.key;
+      const p = d.person && D.person?.[d.person];
+      const life = p && [p.born != null && `born ${yr(p.born)}`, p.died != null && `died ${yr(p.died)}`, (p.nationality || []).join(", ")].filter(Boolean).join(" · ");
+      card.hidden = false;
+      card.innerHTML = `<div class="k-tl-when">${esc(yr(d.at))}</div><div>${p ? chip.person(p.id) : ""}<p>${esc(d.event)}</p>${life ? `<small>${esc(life)}</small>` : ""}</div>` +
+        `<button type="button" class="k-tl-x" aria-label="Close the event">×</button>`;
+      redraw();
+    }
+    let drag = null, moved = false;
+    el.addEventListener("click", (e) => {
+      if (moved) { moved = false; e.preventDefault(); return; }
+      const z = e.target.closest("[data-z]"), o = e.target.closest("[data-open]"), d = e.target.closest(".k-tl-dot"), b = e.target.closest("[data-zoom]");
+      if (z) z.dataset.z === "fit" ? set(A, B) : zoom(z.dataset.z === "in" ? 0.5 : 2);
+      else if (o) { const n = +o.dataset.open; st.open.has(n) ? st.open.delete(n) : st.open.add(n); redraw(); }
+      else if (d) read(st.dots[+d.dataset.d]);
+      else if (b) {
+        const [f, t] = b.dataset.zoom.split(",").map(Number), p = Math.max(2, (t - f) * 0.08);
+        if (b.dataset.row != null && items[+b.dataset.row].people?.length) st.open.add(+b.dataset.row);
+        set(f - p, t + p);
+      } else if (e.target.closest(".k-tl-x")) { st.pick = null; card.hidden = true; redraw(); }
+    }, on);
+    body.addEventListener("wheel", (e) => {
+      if (e.ctrlKey || e.metaKey) { e.preventDefault(); zoom(Math.exp(e.deltaY * 0.01), tAt(e.clientX)); }
+      else if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { e.preventDefault(); const r = body.getBoundingClientRect(), s = st.b - st.a; set(st.a + (e.deltaX / r.width) * s, st.b + (e.deltaX / r.width) * s); }
+    }, { ...on, passive: false });
+    body.addEventListener("pointerdown", (e) => {
+      if (e.button !== 0 || e.target.closest("a, button")) return;
+      drag = { x: e.clientX, a: st.a, b: st.b, w: body.querySelector(".k-tl-axis").getBoundingClientRect().width }; moved = false;
+    }, on);
+    addEventListener("pointermove", (e) => {
+      if (!drag) return;
+      const dx = e.clientX - drag.x;
+      if (!moved && Math.abs(dx) < 4) return;
+      if (!moved) { moved = true; body.classList.add("drag"); }
+      const dt = (dx / drag.w) * (drag.b - drag.a);
+      set(drag.a - dt, drag.b - dt);
+    }, on);
+    addEventListener("pointerup", () => { if (drag) { drag = null; body.classList.remove("drag"); setTimeout(() => { moved = false; }, 0); } }, on);
+    draw();
   }
 
   // ── Echoes: the kin of one style in other domains, one column for each domain ──
@@ -409,7 +490,7 @@
 
   // ── Graph cloud: the neighbourhood of one style, ring by ring ──
   const RELS = Object.keys(EDGE);
-  async function cloud(el, id, { hops = 2, max1 = 14, max2 = 28 } = {}) {
+  async function drawCloud(el, id, { hops = 2, max1 = 14, max2 = 28 } = {}) {
     await load("kit", "lineage");
     const adj = D.$lineage.adjacency;
     if (!adj[id]) { el.innerHTML = `<p class="k-path-n">No style “${esc(id)}”.</p>`; return; }
@@ -424,7 +505,7 @@
       }
       ring.push(next);
     }
-    const R = [0, 0.3, 0.45], pos = { [id]: [0.5, 0.5] }, ang = {};
+    const R = hops >= 3 ? [0, 0.22, 0.35, 0.47] : [0, 0.3, 0.45], pos = { [id]: [0.5, 0.5] }, ang = {};
     ring.slice(1).forEach((r, k) => {
       const h = k + 1, ids = [...r.keys()];
       if (h === 1) ids.forEach((t, i) => { ang[t] = (i / ids.length) * Math.PI * 2 - Math.PI / 2; });
@@ -453,10 +534,48 @@
       for (const l of el.querySelectorAll("line.edge")) { const hit = l.dataset.a === t || l.dataset.b === t; l.toggleAttribute("data-lit", hit); if (hit) { on.add(l.dataset.a); on.add(l.dataset.b); } }
       for (const n of el.querySelectorAll(".node")) n.toggleAttribute("data-lit", on.has(n.dataset.id));
     };
-    el.addEventListener("mouseover", (e) => lit(e.target.closest(".node")?.dataset.id));
-    el.addEventListener("mouseleave", () => lit(null));
-    el.addEventListener("focusin", (e) => lit(e.target.closest(".node")?.dataset.id));
-    el.addEventListener("focusout", () => lit(null));
+    el._lit = lit;
+    if (el._litBound) return;
+    el._litBound = true;
+    el.addEventListener("mouseover", (e) => el._lit(e.target.closest(".node")?.dataset.id));
+    el.addEventListener("mouseleave", () => el._lit(null));
+    el.addEventListener("focusin", (e) => el._lit(e.target.closest(".node")?.dataset.id));
+    el.addEventListener("focusout", () => el._lit(null));
+  }
+  /** The neighbourhood cloud, made to walk: a click on a node puts it in the centre (Ctrl or ⌘ + click opens its page),
+   *  a click on the centre opens its page, Back goes to the last centre, and 1 2 3 set the rings. opts.onCentre(id) runs
+   *  after each move, so a time line can follow the cloud. */
+  async function cloud(el, id, opts = {}) {
+    const st = { id, hops: opts.hops ?? 2, back: [] };
+    el._cloudAbort?.abort();
+    const ac = el._cloudAbort = new AbortController();
+    el.classList.remove("k-cloud");
+    el.classList.add("k-cloud-wrap");
+    el.innerHTML = `<div class="k-cloud-bar"><button type="button" data-c="back" disabled>← Back</button><span class="k-cloud-at"></span>` +
+      `<a class="k-cloud-open" href="#">Open page →</a><span class="k-cloud-hops" role="group" aria-label="Rings">` +
+      [1, 2, 3].map((h) => `<button type="button" data-h="${h}" aria-pressed="${h === st.hops}">${h}</button>`).join("") + `</span></div>` +
+      `<div class="k-cloud-in"></div><p class="k-cloud-hint">Click a style to put it in the centre. Ctrl or ⌘ + click opens its page.</p>`;
+    const inner = el.querySelector(".k-cloud-in"), back = el.querySelector("[data-c=back]");
+    async function go(t, push = true) {
+      if (push && t !== st.id) st.back.push(st.id);
+      st.id = t;
+      back.disabled = !st.back.length;
+      el.querySelector(".k-cloud-at").innerHTML = `Centre: <b>${esc(D.style?.[t]?.name ?? t)}</b>`;
+      el.querySelector(".k-cloud-open").href = href.style(t);
+      for (const b of el.querySelectorAll("[data-h]")) b.setAttribute("aria-pressed", String(+b.dataset.h === st.hops));
+      inner.classList.add("busy");
+      await drawCloud(inner, t, { ...opts, hops: st.hops });
+      inner.classList.remove("busy");
+      if (push !== null) opts.onCentre?.(t);
+    }
+    el.addEventListener("click", (e) => {
+      const n = e.target.closest(".node"), h = e.target.closest("[data-h]");
+      if (h) { st.hops = +h.dataset.h; go(st.id, null); }
+      else if (e.target.closest("[data-c=back]") && st.back.length) go(st.back.pop(), false);
+      else if (n && !n.classList.contains("core") && !(e.ctrlKey || e.metaKey || e.shiftKey || e.button)) { e.preventDefault(); go(n.dataset.id); }
+    }, { signal: ac.signal });
+    await load("kit", "lineage");
+    await go(id, null);
   }
   const legend = () => `<div class="k-legend">${LEGEND.map(([n, c]) => `<span><i style="--c:var(${c})"></i>${esc(n)}</span>`).join("")}</div>`;
 
@@ -572,16 +691,25 @@
       ],
     });
   }
-  /** The style and each style one edge away from it, on one time line, with a dot for the first milestone of each of its people. */
+  /** The style and each style one edge away from it, on one time line. A row's dots are the first milestone of each of its
+   *  people; its ▸ opens a lane for each person, with the life span and every milestone. */
   async function hoodTimeline(el, id) {
     await load("kit", "lineage", "people");
-    const a = D.$lineage.adjacency[id] || {}, byP = D.$people.by_style || {};
+    const a = D.$lineage.adjacency[id] || {}, byP = D.$people.by_style || {}, now = new Date().getFullYear();
     const ids = [id, ...new Set(Object.entries(a).filter(([k, v]) => Array.isArray(v) && EDGE[k]).flatMap(([, v]) => v))].filter((i) => D.style[i] && D.node[i]);
-    timeline(el, ids.map((i) => ({
-      label: D.style[i].name, href: href.style(i), tip: `style:${i}`, start: D.node[i].start, end: D.node[i].end, open: D.node[i].end == null,
-      colour: i === id ? "var(--k-accent)" : "var(--k-line-strong)",
-      dots: (byP[i] || []).flatMap((x) => (D.person[x.person]?.milestones || []).slice(0, 1).map((m) => ({ at: +m.year, label: `${D.person[x.person].name}: ${m.event}` }))).filter((d) => Number.isFinite(d.at)),
-    })).sort((x, y) => x.start - y.start), { label: "200px" });
+    const miles = (p) => (p.milestones || []).filter((m) => m.year != null && Number.isFinite(+m.year)).map((m) => ({ at: +m.year, event: m.event, person: p.id }));
+    const people = (i) => [...new Map((byP[i] || []).map((x) => [x.person, D.person[x.person]])).values()].filter(Boolean).map((p) => ({
+      id: p.id, name: p.name, from: p.born ?? p.active?.[0] ?? null,
+      to: p.died ?? (p.born != null && now - p.born < 100 ? now : p.active?.[1] ?? null), dots: miles(p),
+    })).sort((x, y) => (x.from ?? x.dots[0]?.at ?? 1e9) - (y.from ?? y.dots[0]?.at ?? 1e9));
+    timeline(el, ids.map((i) => {
+      const ppl = people(i);
+      return {
+        label: D.style[i].name, href: href.style(i), tip: `style:${i}`, start: D.node[i].start, end: D.node[i].end, open: D.node[i].end == null,
+        colour: i === id ? "var(--k-accent)" : "var(--k-line-strong)", people: ppl,
+        dots: ppl.flatMap((p) => p.dots.slice(0, 1)),
+      };
+    }).sort((x, y) => x.start - y.start), { label: "220px", open: [] });
   }
 
   window.Kit = {

@@ -4,12 +4,12 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**138 styles in six domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**<!-- n:styles -->536<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
-![styles](https://img.shields.io/badge/styles-66-111111)
-![domains](https://img.shields.io/badge/domains-design%20%C2%B7%20architecture%20%C2%B7%20interior%20%C2%B7%20photography%20%C2%B7%20film%20%C2%B7%20painting-111111)
+![styles](https://img.shields.io/badge/styles-536-111111)
+![domains](https://img.shields.io/badge/domains-16-111111)
 ![code](https://img.shields.io/badge/code-MIT-111111)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
 ![PRs](https://img.shields.io/badge/PRs-one%20JSON%20file-E30613)
@@ -3085,19 +3085,28 @@ Other commands: `list`, `show <id>`, `near <id>`, `match "<free text>"`.
 
 The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and one schema ([`schema/domains/`](schema/domains/)). It brings its own vector axes and its own facets, and it shares identity, philosophy, lineage, emotion and agent routing with every other domain. The compiler reads the manifest, so a new domain needs no new code.
 
-| Domain | Styles | Implementation layer | Demo |
-|---|--:|---|---|
-| Internet | 25 | 16 CSS tokens, Tailwind patterns, a visual pack | [landing page](demo/internet.html) |
-| Architecture | 9 | vocabulary primer for briefs, image prompts and 3D scenes | [massing](demo/architecture.html) |
-| Interior | 19 | composition rules in cm, lux and K, and a scene primer | [one room, each style](demo/interior.html) |
-| Photography | 19 | camera numbers (mm, f-stop, shutter, ISO, K) and a grade recipe | [gallery](demo/photography.html) |
-| Film and video | 24 | shot primer (aspect, fps, shutter angle, shot length) and a video-prompt primer | [gallery](demo/film.html) |
-| Painting | 25 | palette in hex, brushwork and medium rules, a composition schema | [gallery](demo/painting.html) |
-| Logo | 8 | grid, stroke contrast, colour count, minimum size, clear space and one-colour reversal | [gallery](demo/logo.html) |
-| Icons | 9 | grid, stroke, corner and fill numbers, and an icon-set brief | [sheet](demo/icon.html) |
-| Typefaces | 8 | type numbers (x-height, contrast, stress, terminals) and font pairings | [specimens](demo/typeface.html) |
+<!-- domains:start -->
+| Domain | Styles | Demo |
+|---|--:|---|
+| Internet | 113 | [internet.html](demo/internet.html) |
+| Architecture | 23 | [architecture.html](demo/architecture.html) |
+| Interior | 19 | [interior.html](demo/interior.html) |
+| Photography | 19 | [photography.html](demo/photography.html) |
+| Film & Video | 24 | [film.html](demo/film.html) |
+| Painting | 25 | [painting.html](demo/painting.html) |
+| Logo | 8 | [logo.html](demo/logo.html) |
+| Icons | 9 | [icon.html](demo/icon.html) |
+| Typeface | 12 | [typeface.html](demo/typeface.html) |
+| Video game | 15 | [game.html](demo/game.html) |
+| Print | 49 | [print.html](demo/print.html) |
+| Graphic movements | 13 | [graphic-movement.html](demo/graphic-movement.html) |
+| Industrial design | 17 | [industrial.html](demo/industrial.html) |
+| Fashion | 84 | [fashion.html](demo/fashion.html) |
+| Ceramics | 89 | [ceramics.html](demo/ceramics.html) |
+| Cuisine | 17 | [cuisine.html](demo/cuisine.html) |
+<!-- domains:end -->
 
-**Composition principles** are shared. [`data/principles/`](data/principles/) holds 20 records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
+**Composition principles** are shared. [`data/principles/`](data/principles/) holds <!-- n:principles -->21<!-- /n --> records, such as focal point, symmetry and axis, rhythm, rule of thirds, layering in depth and colour distribution. Each record has a definition and a measure with a typical range. A style in any domain names a principle by id and gives its own number. The validator refuses an id that does not exist.
 
 Domains connect. An `echoes` edge joins kin across domains: Brutalism ↔ Neo-Brutalism UI, International Style ↔ Swiss International Style, Dogme 95 ↔ Brutalism. Ask for a website that feels like the Barbican, and the graph has an answer.
 
@@ -3105,7 +3114,7 @@ Next domains under discussion: type design, motion, sound.
 
 ## Techniques that cross domains
 
-A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds 52 records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->290<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
 
 Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 
@@ -3125,7 +3134,7 @@ A contribution is one JSON file. The build does the rest.
 
 The validator checks more than the schema. It refuses a lineage edge that points at nothing, a style that descends from a later style, an id that exists in two domains and a font pairing field that is empty. The full rules are in [CONTRIBUTING.md](CONTRIBUTING.md). An agent that contributes reads [AGENTS.md](AGENTS.md).
 
-**Wanted:** brutalist web (the 2014 kind), Apple Aqua, Metro, dark-mode developer tool, claymorphism, editorial serif revival, anti-design. In architecture: almost everything.
+**Wanted:** the open issues with the label [`good first issue`](https://github.com/musicalbee/design-ontology/labels/good%20first%20issue). Each one names a style that the ontology does not have yet.
 
 ## How it is built
 
@@ -3139,7 +3148,7 @@ data/<domain>/styles/*.json     the source of truth, one file for each style
 
 - **Deterministic.** The same data gives the same bytes. A husky pre-commit hook moves the package version one patch step and builds the generated files, so each commit is prebuilt. CI only checks that a generated file does not differ from the commit.
 - **Generated files are in the repository** on purpose, so that a raw URL is all an agent needs.
-- **No runtime.** The output is Markdown, CSS and JSON. The scripts are about 1,300 lines of TypeScript with two dependencies, `ajv` and `handlebars`.
+- **No runtime.** The output is Markdown, CSS and JSON. The scripts are TypeScript with two dependencies, `ajv` and `handlebars`.
 
 ## Principles
 
