@@ -244,7 +244,7 @@ console.log(`graph/orgs.json · ${orgs.length} orgs · ${orgEdges.size} relation
 // ── Design systems: real systems, manuals and kits, with the styles they embody ──
 const dsFiles = loadDesignSystems();
 const designSystems = dsFiles
-  .map(({ ds }) => ({ ...ds, people: ds.people ?? [], versions: ds.versions ?? [], components: ds.components ?? [], principles: ds.principles ?? [], tokens: ds.tokens ?? {} }))
+  .map(({ ds: { $schema: _s, ...ds } }) => ({ ...ds, people: ds.people ?? [], versions: ds.versions ?? [], components: ds.components ?? [], principles: ds.principles ?? [], tokens: ds.tokens ?? {} }))
   .sort((a, b) => a.first_release.year - b.first_release.year || a.id.localeCompare(b.id));
 const dsByStyle: Record<string, { ds: string; relation: string }[]> = {};
 for (const s of styles) dsByStyle[s.id] = [];

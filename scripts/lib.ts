@@ -236,6 +236,7 @@ export function loadOrgs(): { file: string; slug: string; org: Org }[] {
 
 /** A real design system, brand manual or UI kit, linked to the styles it embodies. */
 export interface DesignSystem {
+  $schema?: string;
   id: string;
   name: string;
   kind: "design-system" | "brand-manual" | "ui-kit";

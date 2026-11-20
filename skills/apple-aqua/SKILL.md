@@ -253,6 +253,7 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Apple** (company, Cupertino, 1976–now), made the style. US technology company known for consumer electronics, software and online services. It made the Aqua, iOS and Liquid Glass interface designs.
 - **Macworld Expo** (exhibition, San Francisco, 1985–2014), launched the style. A trade show for the Apple Macintosh. Apple showed new products and systems on its stage, among them the Aqua interface in January 2000.
 
 ## Permutations
