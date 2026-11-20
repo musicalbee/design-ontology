@@ -5,7 +5,7 @@
 //
 // The check says ok when it cannot run (no claude CLI, a time-out), and it marks that in "checker", so a
 // manifest record shows that the render was not checked.
-import { execFileSync } from "node:child_process";
+import { execFile } from "node:child_process";
 import { resolve } from "node:path";
 
 const MODEL = process.env.QA_MODEL ?? "sonnet";
@@ -31,8 +31,12 @@ End with one line of JSON: {"ok": true|false, "defects": ["short description", .
 export async function inspect(png: string, prompt: string, expect?: string): Promise<{ ok: boolean; defects: string[]; checker: string }> {
   const file = resolve(png);
   try {
-    const out = execFileSync(CLI, ["-p", ASK(file, prompt, expect), "--model", MODEL, "--allowedTools", "Read", "--output-format", "text"],
-      { encoding: "utf8", timeout: 180_000, stdio: ["ignore", "pipe", "pipe"] });
+    // Async, so that a caller can run several checks at the same time.
+    const out = await new Promise<string>((ok, fail) => {
+      const child = execFile(CLI, ["-p", ASK(file, prompt, expect), "--model", MODEL, "--allowedTools", "Read", "--output-format", "text"],
+        { encoding: "utf8", timeout: 180_000, maxBuffer: 4 << 20 }, (e, stdout) => (e ? fail(e) : ok(stdout)));
+      child.stdin?.end();
+    });
     const json = out.match(/\{[^{}]*"ok"[^{}]*\}/g)?.pop();
     if (!json) return { ok: true, defects: [], checker: `${MODEL}: no answer` };
     const v = JSON.parse(json);

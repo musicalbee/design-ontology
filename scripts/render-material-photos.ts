@@ -11,6 +11,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadLayer } from "./materials.js";
 import { preflight, renderWebp } from "./previews/comfy.js";
+import { photoExpect, photoPrompt } from "./material-photo-text.js";
 
 const args = process.argv.slice(2);
 const opt = (k: string) => { const i = args.indexOf(`--${k}`); return i >= 0 ? args[i + 1] : undefined; };
@@ -19,16 +20,13 @@ const force = args.includes("--force");
 const dry = args.includes("--dry-run");
 const SIZE = { width: 768, height: 768 };
 
-export const photoPrompt = (subject: string) =>
-  `studio product photograph of ${subject}, alone in the centre of the frame on a seamless pure white background, soft even studio light from above, a faint soft contact shadow, sharp focus, true natural colour, no text, no labels, no props`;
-
 const root = "demo/materials/photos";
 mkdirSync(root, { recursive: true });
 const manifestPath = join(root, "manifest.json");
 const manifest = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, "utf8")) : { size: SIZE, photos: {} };
 const todo = [...loadLayer().byId.values()]
   .filter((m) => !only || only.includes(m.id))
-  .map((m) => ({ id: m.id, prompt: photoPrompt(m.photo ?? m.name.toLowerCase()), expect: `${m.name}, shown as ${m.photo ?? m.name.toLowerCase()}${m.summary ? `. ${m.summary}` : ""}` }))
+  .map((m) => ({ id: m.id, prompt: photoPrompt(m.photo ?? m.name.toLowerCase()), expect: photoExpect(m) }))
   .filter(({ id, prompt }) => force || !existsSync(join(root, `${id}.webp`)) || manifest.photos[id]?.prompt !== prompt);
 if (dry) { for (const { id, prompt } of todo) console.log(`${id}: ${prompt}`); process.exit(0); }
 if (todo.length) await preflight();
