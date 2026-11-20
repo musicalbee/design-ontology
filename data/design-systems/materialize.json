@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "materialize",
+  "name": "Materialize",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2014,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://materializecss.com/",
+  "tokens": {
+    "color": {
+      "primary": "#ee6e73",
+      "secondary": "#26a69a",
+      "success": "#4caf50",
+      "danger": "#f44336",
+      "link": "#039be5"
+    },
+    "radius": [
+      2
+    ]
+  },
+  "styles": [
+    {
+      "style": "material-design",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Materialize 1.0.0 sass/components/_variables.scss",
+      "url": "https://cdn.jsdelivr.net/gh/Dogfalo/materialize@1.0.0/sass/components/_variables.scss"
+    },
+    {
+      "title": "Materialize README: \"based on material design\"",
+      "url": "https://github.com/Dogfalo/materialize"
+    }
+  ]
+}

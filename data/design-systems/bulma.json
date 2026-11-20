@@ -1,0 +1,71 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "bulma",
+  "name": "Bulma",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2016,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://bulma.io/",
+  "tokens": {
+    "color": {
+      "primary": "#00d1b2",
+      "info": "#3e8ed0",
+      "success": "#48c78e",
+      "warning": "#ffe08a",
+      "danger": "#f14668",
+      "link": "#485fc7",
+      "on-surface": "#0a0a0a"
+    },
+    "type": {
+      "families": [
+        "BlinkMacSystemFont",
+        "-apple-system",
+        "Segoe UI",
+        "Roboto"
+      ],
+      "scale": [
+        48,
+        40,
+        32,
+        24,
+        20,
+        16,
+        12
+      ]
+    },
+    "radius": [
+      2,
+      4,
+      6
+    ],
+    "motion": {
+      "duration_ms": 86,
+      "easing": "ease-out"
+    }
+  },
+  "styles": [
+    {
+      "style": "flat-design",
+      "relation": "inspired"
+    },
+    {
+      "style": "minimalism-web",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bulma 0.9.4 sass/utilities/initial-variables.sass",
+      "url": "https://cdn.jsdelivr.net/gh/jgthms/bulma@0.9.4/sass/utilities/initial-variables.sass"
+    },
+    {
+      "title": "Bulma 0.9.4 sass/utilities/derived-variables.sass",
+      "url": "https://cdn.jsdelivr.net/gh/jgthms/bulma@0.9.4/sass/utilities/derived-variables.sass"
+    }
+  ]
+}

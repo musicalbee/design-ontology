@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "pico-css",
+  "name": "Pico CSS",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2019,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://picocss.com/",
+  "tokens": {
+    "color": {
+      "primary": "#0172ad",
+      "bg": "#ffffff",
+      "on-surface": "#373c44"
+    },
+    "type": {
+      "families": [
+        "system-ui",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica",
+        "Arial"
+      ]
+    },
+    "space": [
+      12,
+      16
+    ],
+    "radius": [
+      4
+    ],
+    "motion": {
+      "duration_ms": 200,
+      "easing": "ease-in-out"
+    }
+  },
+  "principles": [
+    "Semantic HTML with no classes needed"
+  ],
+  "styles": [
+    {
+      "style": "minimalism-web",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pico 2.0.6 css/pico.css",
+      "url": "https://cdn.jsdelivr.net/gh/picocss/pico@2.0.6/css/pico.css"
+    },
+    {
+      "title": "Pico repository",
+      "url": "https://github.com/picocss/pico"
+    }
+  ]
+}

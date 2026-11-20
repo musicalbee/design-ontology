@@ -840,6 +840,61 @@
       "people": []
     },
     {
+      "id": "foundation",
+      "name": "Foundation",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2011,
+        "circa": true
+      },
+      "licence": "MIT (see repository licence file)",
+      "url": "https://get.foundation/",
+      "tokens": {
+        "color": {
+          "primary": "#1779ba",
+          "secondary": "#767676",
+          "success": "#3adb76",
+          "warning": "#ffae00",
+          "danger": "#cc4b37",
+          "bg": "#fefefe",
+          "on-surface": "#0a0a0a",
+          "border": "#cacaca"
+        },
+        "type": {
+          "families": [
+            "Helvetica Neue",
+            "Helvetica",
+            "Roboto",
+            "Arial"
+          ]
+        },
+        "radius": [
+          0
+        ]
+      },
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Foundation for Sites 6.8.1 scss/settings/_settings.scss",
+          "url": "https://cdn.jsdelivr.net/gh/foundation/foundation-sites@6.8.1/scss/settings/_settings.scss"
+        },
+        {
+          "title": "foundation-sites repository",
+          "url": "https://github.com/foundation/foundation-sites"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
       "id": "apple-ios-6",
       "name": "iOS 6 interface",
       "kind": "design-system",
@@ -957,6 +1012,107 @@
       "people": []
     },
     {
+      "id": "bootstrap-2",
+      "name": "Bootstrap 2",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2012,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://getbootstrap.com/",
+      "tokens": {
+        "color": {
+          "primary": "#0088cc",
+          "info": "#049cdb",
+          "success": "#46a546",
+          "warning": "#f89406",
+          "danger": "#9d261d",
+          "on-surface": "#333333",
+          "muted": "#999999"
+        },
+        "type": {
+          "families": [
+            "Helvetica Neue",
+            "Helvetica",
+            "Arial"
+          ],
+          "scale": [
+            14
+          ]
+        },
+        "radius": [
+          3,
+          4,
+          6
+        ]
+      },
+      "styles": [
+        {
+          "style": "skeuomorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bootstrap 2.3.2 less/variables.less",
+          "url": "https://cdn.jsdelivr.net/gh/twbs/bootstrap@v2.3.2/less/variables.less"
+        },
+        {
+          "title": "Bootstrap 3 release post: v3 \"gone flat\" (contrast with v2)",
+          "url": "https://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/"
+        },
+        {
+          "title": "twbs/bootstrap repository",
+          "url": "https://github.com/twbs/bootstrap"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "metro-ui-css",
+      "name": "Metro UI (olton)",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2012,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://metroui.org.ua/",
+      "tokens": {
+        "color": {
+          "primary": "#f75553",
+          "secondary": "#74290a",
+          "info": "#468cff"
+        }
+      },
+      "styles": [
+        {
+          "style": "metro-ui",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "olton/metroui source/include/vars.less",
+          "url": "https://github.com/olton/metroui/blob/d7524f4ee31b715c8a7ea2b587d6a3e0d73d0450/source/include/vars.less"
+        },
+        {
+          "title": "metroui repository",
+          "url": "https://github.com/olton/metroui"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
       "id": "apple-ios-7",
       "name": "iOS 7 interface",
       "kind": "design-system",
@@ -989,6 +1145,136 @@
       "versions": [],
       "components": [],
       "tokens": {}
+    },
+    {
+      "id": "bootstrap-3",
+      "name": "Bootstrap 3",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2013
+      },
+      "licence": "MIT",
+      "url": "https://getbootstrap.com/docs/3.4/",
+      "tokens": {
+        "color": {
+          "primary": "#337ab7",
+          "success": "#5cb85c",
+          "info": "#5bc0de",
+          "warning": "#f0ad4e",
+          "danger": "#d9534f",
+          "on-surface": "#333333",
+          "muted": "#555555"
+        },
+        "type": {
+          "families": [
+            "Helvetica Neue",
+            "Helvetica",
+            "Arial"
+          ],
+          "scale": [
+            36,
+            30,
+            24,
+            18,
+            14,
+            12
+          ]
+        },
+        "space": [
+          6,
+          12
+        ],
+        "radius": [
+          3,
+          4,
+          6
+        ]
+      },
+      "principles": [
+        "Mobile first and responsive by default",
+        "Flat look with an optional theme"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bootstrap 3.4.1 less/variables.less",
+          "url": "https://cdn.jsdelivr.net/gh/twbs/bootstrap@v3.4.1/less/variables.less"
+        },
+        {
+          "title": "Bootstrap 3 released: \"we've gone flat\"",
+          "url": "https://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/"
+        }
+      ],
+      "versions": [],
+      "components": []
+    },
+    {
+      "id": "flat-ui",
+      "name": "Flat UI (Designmodo)",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2013,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://designmodo.github.io/Flat-UI/",
+      "tokens": {
+        "color": {
+          "primary": "#34495e",
+          "accent": "#1abc9c",
+          "success": "#2ecc71",
+          "warning": "#f1c40f",
+          "danger": "#e74c3c",
+          "info": "#3498db",
+          "bg": "#ecf0f1",
+          "muted": "#95a5a6"
+        },
+        "type": {
+          "families": [
+            "Lato",
+            "Helvetica",
+            "Arial"
+          ],
+          "scale": [
+            18
+          ]
+        },
+        "radius": [
+          3,
+          4,
+          6
+        ]
+      },
+      "principles": [
+        "Redesign Bootstrap components to look flat in every pixel"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Flat UI 2.3.0 less/variables.less",
+          "url": "https://cdn.jsdelivr.net/gh/designmodo/Flat-UI@2.3.0/less/variables.less"
+        },
+        {
+          "title": "Flat-UI README: \"flat in every pixel\"",
+          "url": "https://github.com/designmodo/Flat-UI"
+        }
+      ],
+      "versions": [],
+      "components": []
     },
     {
       "id": "sap-fiori",
@@ -1024,6 +1310,69 @@
       "people": [],
       "components": [],
       "tokens": {}
+    },
+    {
+      "id": "semantic-ui",
+      "name": "Semantic UI",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2013,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://semantic-ui.com/",
+      "tokens": {
+        "color": {
+          "primary": "#2185d0",
+          "danger": "#db2828",
+          "warning": "#fbbd08",
+          "success": "#21ba45",
+          "info": "#00b5ad",
+          "on-surface": "#1b1c1d",
+          "muted": "#767676"
+        },
+        "type": {
+          "families": [
+            "Lato",
+            "Helvetica Neue",
+            "Arial",
+            "Helvetica"
+          ],
+          "scale": [
+            14
+          ]
+        },
+        "radius": [
+          4
+        ],
+        "motion": {
+          "duration_ms": 100,
+          "easing": "ease"
+        }
+      },
+      "principles": [
+        "A UI framework designed for theming"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Semantic UI 2.5.0 src/themes/default/globals/site.variables",
+          "url": "https://cdn.jsdelivr.net/gh/Semantic-Org/Semantic-UI@2.5.0/src/themes/default/globals/site.variables"
+        },
+        {
+          "title": "Semantic-UI README",
+          "url": "https://github.com/Semantic-Org/Semantic-UI"
+        }
+      ],
+      "versions": [],
+      "components": []
     },
     {
       "id": "airbnb-belo",
@@ -1092,6 +1441,50 @@
       "versions": [],
       "components": [],
       "tokens": {}
+    },
+    {
+      "id": "materialize",
+      "name": "Materialize",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2014,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://materializecss.com/",
+      "tokens": {
+        "color": {
+          "primary": "#ee6e73",
+          "secondary": "#26a69a",
+          "success": "#4caf50",
+          "danger": "#f44336",
+          "link": "#039be5"
+        },
+        "radius": [
+          2
+        ]
+      },
+      "styles": [
+        {
+          "style": "material-design",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Materialize 1.0.0 sass/components/_variables.scss",
+          "url": "https://cdn.jsdelivr.net/gh/Dogfalo/materialize@1.0.0/sass/components/_variables.scss"
+        },
+        {
+          "title": "Materialize README: \"based on material design\"",
+          "url": "https://github.com/Dogfalo/materialize"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
     },
     {
       "id": "ant-design",
@@ -1303,6 +1696,57 @@
       "principles": []
     },
     {
+      "id": "milligram",
+      "name": "Milligram",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2015,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://milligram.io/",
+      "tokens": {
+        "color": {
+          "primary": "#9b4dca",
+          "on-surface": "#606c76",
+          "border": "#d1d1d1",
+          "bg": "#ffffff"
+        },
+        "type": {
+          "families": [
+            "Roboto",
+            "Helvetica Neue",
+            "Helvetica",
+            "Arial"
+          ]
+        },
+        "radius": [
+          4
+        ]
+      },
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "milligram npm package dist/milligram.css",
+          "url": "https://cdn.jsdelivr.net/npm/milligram@1.4.1/dist/milligram.css"
+        },
+        {
+          "title": "Milligram README: a minimalist CSS framework",
+          "url": "https://github.com/milligram/milligram"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
       "id": "salesforce-lightning",
       "name": "Salesforce Lightning Design System",
       "kind": "design-system",
@@ -1438,6 +1882,79 @@
       "tokens": {}
     },
     {
+      "id": "bulma",
+      "name": "Bulma",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2016,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://bulma.io/",
+      "tokens": {
+        "color": {
+          "primary": "#00d1b2",
+          "info": "#3e8ed0",
+          "success": "#48c78e",
+          "warning": "#ffe08a",
+          "danger": "#f14668",
+          "link": "#485fc7",
+          "on-surface": "#0a0a0a"
+        },
+        "type": {
+          "families": [
+            "BlinkMacSystemFont",
+            "-apple-system",
+            "Segoe UI",
+            "Roboto"
+          ],
+          "scale": [
+            48,
+            40,
+            32,
+            24,
+            20,
+            16,
+            12
+          ]
+        },
+        "radius": [
+          2,
+          4,
+          6
+        ],
+        "motion": {
+          "duration_ms": 86,
+          "easing": "ease-out"
+        }
+      },
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "inspired"
+        },
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bulma 0.9.4 sass/utilities/initial-variables.sass",
+          "url": "https://cdn.jsdelivr.net/gh/jgthms/bulma@0.9.4/sass/utilities/initial-variables.sass"
+        },
+        {
+          "title": "Bulma 0.9.4 sass/utilities/derived-variables.sass",
+          "url": "https://cdn.jsdelivr.net/gh/jgthms/bulma@0.9.4/sass/utilities/derived-variables.sass"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
       "id": "microsoft-fluent-1",
       "name": "Fluent Design System",
       "kind": "design-system",
@@ -1525,6 +2042,65 @@
       "tokens": {}
     },
     {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2017,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://tailwindcss.com/",
+      "tokens": {
+        "type": {
+          "scale": [
+            14,
+            16,
+            20
+          ]
+        },
+        "space": [
+          4
+        ],
+        "radius": [
+          4,
+          6,
+          8
+        ],
+        "shadow": [
+          "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+          "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+        ],
+        "motion": {
+          "duration_ms": 150,
+          "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      },
+      "principles": [
+        "Utility classes in place of authored CSS"
+      ],
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "tailwindcss 4.3.5 theme.css",
+          "url": "https://cdn.jsdelivr.net/npm/tailwindcss@4.3.5/theme.css"
+        },
+        {
+          "title": "tailwindcss repository",
+          "url": "https://github.com/tailwindlabs/tailwindcss"
+        }
+      ],
+      "versions": [],
+      "components": []
+    },
+    {
       "id": "adobe-spectrum",
       "name": "Spectrum",
       "kind": "design-system",
@@ -1558,6 +2134,58 @@
       "versions": [],
       "principles": [],
       "tokens": {}
+    },
+    {
+      "id": "aesthetic-css",
+      "name": "Aesthetic CSS",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2018,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://torch2424.github.io/aesthetic-css/",
+      "tokens": {
+        "color": {
+          "white": "#fafafa",
+          "black": "#020202",
+          "purple": "#c774e8",
+          "light-purple": "#ad8cff",
+          "pink": "#ff6ad5",
+          "blue": "#8795e8",
+          "light-blue": "#94d0ff",
+          "green": "#10d7ae"
+        },
+        "type": {
+          "families": [
+            "Times",
+            "Times New Roman",
+            "Georgia",
+            "serif"
+          ]
+        }
+      },
+      "styles": [
+        {
+          "style": "vaporwave",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "aesthetic-css src/_variables.scss",
+          "url": "https://github.com/torch2424/aesthetic-css/blob/4ed3fb8f5a3ae8d1d856a9adac7983febe76b3e4/src/_variables.scss"
+        },
+        {
+          "title": "aesthetic-css README: a vaporwave css framework",
+          "url": "https://github.com/torch2424/aesthetic-css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
     },
     {
       "id": "govuk-design-system",
@@ -1672,6 +2300,157 @@
       "tokens": {}
     },
     {
+      "id": "nes-css",
+      "name": "NES.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2018,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://nostalgic-css.github.io/NES.css/",
+      "tokens": {
+        "color": {
+          "primary": "#209cee",
+          "success": "#92cc41",
+          "warning": "#f7d51d",
+          "danger": "#e76e55",
+          "on-surface": "#212529"
+        },
+        "type": {
+          "families": [
+            "Press Start 2P"
+          ]
+        },
+        "radius": [
+          0
+        ]
+      },
+      "styles": [
+        {
+          "style": "pixel-art-web",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NES.css 2.3.0 css/nes.css",
+          "url": "https://cdn.jsdelivr.net/npm/nes.css@2.3.0/css/nes.css"
+        },
+        {
+          "title": "NES.css README: NES-style (8bit-like) CSS framework",
+          "url": "https://github.com/nostalgic-css/NES.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "react95",
+      "name": "React95",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2018,
+        "circa": true
+      },
+      "licence": "MIT (code); Windows images are Microsoft property",
+      "url": "https://react95.github.io/React95/",
+      "tokens": {
+        "space": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      "styles": [
+        {
+          "style": "skeuomorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "React95 README: inspired by the Windows 95 UI",
+          "url": "https://github.com/React95/React95"
+        },
+        {
+          "title": "React95 baseTheme.ts",
+          "url": "https://github.com/React95/React95/blob/3861245174c4de1eda6b2dcb5925f5142038ccd2/packages/core/components/themes/baseTheme.ts"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "tuicss",
+      "name": "TuiCss",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2018,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://github.com/vinibiavatti1/TuiCss",
+      "tokens": {
+        "type": {
+          "families": [
+            "DOS",
+            "Lucida Console"
+          ]
+        },
+        "radius": [
+          0
+        ]
+      },
+      "styles": [
+        {
+          "style": "terminal-tui-web",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "tuicss npm package dist/tuicss.css",
+          "url": "https://cdn.jsdelivr.net/npm/tuicss@2.1.2/dist/tuicss.css"
+        },
+        {
+          "title": "TuiCss README: text-based user interface CSS library",
+          "url": "https://github.com/vinibiavatti1/TuiCss"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
       "id": "uber-base",
       "name": "Base",
       "kind": "design-system",
@@ -1705,6 +2484,407 @@
       "versions": [],
       "components": [],
       "tokens": {}
+    },
+    {
+      "id": "augmented-ui",
+      "name": "augmented-ui",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2019,
+        "circa": true
+      },
+      "licence": "BSD-2-Clause",
+      "url": "https://augmented-ui.com/",
+      "styles": [
+        {
+          "style": "cyberpunk-web",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "augmented-ui README: cyberpunk-inspired web UI",
+          "url": "https://github.com/propjockey/augmented-ui"
+        },
+        {
+          "title": "augmented-ui.css",
+          "url": "https://github.com/propjockey/augmented-ui/blob/c39f40a4c68f2836d12e4cb73e34a1c9173381db/augmented-ui.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "id": "pico-css",
+      "name": "Pico CSS",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2019,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://picocss.com/",
+      "tokens": {
+        "color": {
+          "primary": "#0172ad",
+          "bg": "#ffffff",
+          "on-surface": "#373c44"
+        },
+        "type": {
+          "families": [
+            "system-ui",
+            "Segoe UI",
+            "Roboto",
+            "Helvetica",
+            "Arial"
+          ]
+        },
+        "space": [
+          12,
+          16
+        ],
+        "radius": [
+          4
+        ],
+        "motion": {
+          "duration_ms": 200,
+          "easing": "ease-in-out"
+        }
+      },
+      "principles": [
+        "Semantic HTML with no classes needed"
+      ],
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pico 2.0.6 css/pico.css",
+          "url": "https://cdn.jsdelivr.net/gh/picocss/pico@2.0.6/css/pico.css"
+        },
+        {
+          "title": "Pico repository",
+          "url": "https://github.com/picocss/pico"
+        }
+      ],
+      "versions": [],
+      "components": []
+    },
+    {
+      "id": "terminal-css",
+      "name": "Terminal.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2019,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://terminalcss.xyz/",
+      "tokens": {
+        "color": {
+          "bg": "#ffffff",
+          "on-surface": "#151515",
+          "primary": "#1a95e0",
+          "secondary": "#727578",
+          "danger": "#d20962"
+        },
+        "type": {
+          "families": [
+            "Menlo",
+            "Monaco",
+            "Lucida Console",
+            "Liberation Mono",
+            "DejaVu Sans Mono"
+          ],
+          "scale": [
+            15
+          ]
+        },
+        "space": [
+          10
+        ]
+      },
+      "styles": [
+        {
+          "style": "terminal-tui-web",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "terminal.css npm package dist/terminal.css",
+          "url": "https://cdn.jsdelivr.net/npm/terminal.css@0.7.5/dist/terminal.css"
+        },
+        {
+          "title": "Terminal.css README: minimal CSS framework for terminal lovers",
+          "url": "https://github.com/Gioni06/terminal.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "water-css",
+      "name": "Water.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2019,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://watercss.kognise.dev/",
+      "tokens": {
+        "color": {
+          "bg": "#ffffff",
+          "surface": "#efefef",
+          "on-surface": "#363636",
+          "muted": "#70777f",
+          "primary": "#0076d1",
+          "border": "#dbdbdb"
+        },
+        "motion": {
+          "duration_ms": 100
+        }
+      },
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "water.css npm package out/light.css",
+          "url": "https://cdn.jsdelivr.net/npm/water.css@2.1.1/out/light.css"
+        },
+        {
+          "title": "Water.css repository",
+          "url": "https://github.com/kognise/water.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "7-css",
+      "name": "7.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2020,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://khang-nd.github.io/7.css/",
+      "tokens": {
+        "color": {
+          "window-bg": "#4580c4"
+        },
+        "type": {
+          "families": [
+            "Calibri",
+            "Noto Sans"
+          ]
+        },
+        "space": [
+          6
+        ],
+        "radius": [
+          5,
+          6
+        ]
+      },
+      "styles": [
+        {
+          "style": "frutiger-aero",
+          "relation": "embodies"
+        },
+        {
+          "style": "glassmorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "7.css npm package dist/7.css",
+          "url": "https://cdn.jsdelivr.net/npm/7.css@0.21.1/dist/7.css"
+        },
+        {
+          "title": "7.css README: styles semantic HTML to the Windows 7 design",
+          "url": "https://github.com/khang-nd/7.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "98-css",
+      "name": "98.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2020,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://jdan.github.io/98.css/",
+      "tokens": {
+        "color": {
+          "on-surface": "#222222",
+          "surface": "#c0c0c0",
+          "button-face": "#dfdfdf",
+          "button-highlight": "#ffffff",
+          "button-shadow": "#808080",
+          "window-frame": "#0a0a0a",
+          "title-bar": "#000080",
+          "title-bar-light": "#1084d0",
+          "link": "#0000ff"
+        },
+        "type": {
+          "families": [
+            "Pixelated MS Sans Serif",
+            "Arial"
+          ]
+        },
+        "space": [
+          4,
+          6,
+          8
+        ],
+        "shadow": [
+          "inset -1px -1px #0a0a0a, inset 1px 1px #ffffff, inset -2px -2px #808080, inset 2px 2px #dfdfdf"
+        ]
+      },
+      "styles": [
+        {
+          "style": "skeuomorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "98.css 0.1.20 style.css",
+          "url": "https://cdn.jsdelivr.net/gh/jdan/98.css@0.1.20/style.css"
+        },
+        {
+          "title": "98.css README: faithful recreations of old UIs",
+          "url": "https://github.com/jdan/98.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "neumorphism-ui-bootstrap",
+      "name": "Neumorphism UI (Themesberg)",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2020,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://demo.themesberg.com/neumorphism-ui/",
+      "tokens": {
+        "color": {
+          "bg": "#e6e7ee",
+          "secondary": "#2d4cc8",
+          "on-surface": "#44476a",
+          "muted": "#66799e"
+        },
+        "radius": [
+          8.8,
+          15.2
+        ],
+        "shadow": [
+          "6px 6px 12px #b8b9be, -6px -6px 12px #ffffff",
+          "3px 3px 6px #b8b9be, -3px -3px 6px #ffffff"
+        ]
+      },
+      "styles": [
+        {
+          "style": "neumorphism",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "neumorphism-ui-bootstrap src/scss/neumorphism/_variables.scss",
+          "url": "https://github.com/themesberg/neumorphism-ui-bootstrap/blob/d17658d0fea92c140b508088f1fca8a50afdd7c4/src/scss/neumorphism/_variables.scss"
+        },
+        {
+          "title": "Neumorphism UI README",
+          "url": "https://github.com/themesberg/neumorphism-ui-bootstrap"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "xp-css",
+      "name": "XP.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2020,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://botoxparty.github.io/XP.css/",
+      "tokens": {
+        "color": {
+          "surface": "#ece9d8",
+          "window-frame": "#0831d9"
+        },
+        "type": {
+          "families": [
+            "Pixelated MS Sans Serif",
+            "Trebuchet MS",
+            "Arial"
+          ]
+        }
+      },
+      "styles": [
+        {
+          "style": "skeuomorphism",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "XP.css npm package dist/XP.css",
+          "url": "https://cdn.jsdelivr.net/npm/xp.css@0.2.6/dist/XP.css"
+        },
+        {
+          "title": "XP.css README: extension of 98.css",
+          "url": "https://github.com/botoxparty/XP.css"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
     },
     {
       "id": "material-3",
@@ -1762,6 +2942,53 @@
       "principles": []
     },
     {
+      "id": "system-css",
+      "name": "system.css",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2022,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://sakofchit.github.io/system.css/",
+      "tokens": {
+        "color": {
+          "on-surface": "#000000",
+          "bg": "#ffffff"
+        },
+        "type": {
+          "families": [
+            "Chicago",
+            "Geneva",
+            "Monaco"
+          ]
+        }
+      },
+      "principles": [
+        "Based on System 6, the last monochrome version"
+      ],
+      "styles": [
+        {
+          "style": "pixel-art-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "system.css 0.1.11 dist/system.css",
+          "url": "https://cdn.jsdelivr.net/npm/@sakun/system.css@0.1.11/dist/system.css"
+        },
+        {
+          "title": "system.css README: interfaces that resemble Apple System 6",
+          "url": "https://github.com/sakofchit/system.css"
+        }
+      ],
+      "versions": [],
+      "components": []
+    },
+    {
       "id": "microsoft-fluent-2",
       "name": "Fluent 2",
       "kind": "design-system",
@@ -1805,6 +3032,170 @@
       "versions": [],
       "components": [],
       "tokens": {}
+    },
+    {
+      "id": "radix-themes",
+      "name": "Radix Themes",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2023,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://www.radix-ui.com/themes",
+      "tokens": {
+        "color": {
+          "primary": "#3e63dd"
+        },
+        "type": {
+          "families": [
+            "-apple-system",
+            "BlinkMacSystemFont",
+            "Segoe UI",
+            "Roboto",
+            "Helvetica Neue"
+          ],
+          "scale": [
+            12,
+            14,
+            16,
+            18,
+            20,
+            24,
+            28,
+            35,
+            60
+          ]
+        },
+        "space": [
+          4,
+          8,
+          12,
+          16,
+          24,
+          32,
+          40,
+          48,
+          64
+        ],
+        "radius": [
+          3,
+          4,
+          6,
+          8,
+          12,
+          16
+        ]
+      },
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "@radix-ui/themes styles.css",
+          "url": "https://cdn.jsdelivr.net/npm/@radix-ui/themes@3.3.0/styles.css"
+        },
+        {
+          "title": "radix-ui/themes repository",
+          "url": "https://github.com/radix-ui/themes"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2023,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://ui.shadcn.com/",
+      "tokens": {
+        "radius": [
+          10
+        ]
+      },
+      "principles": [
+        "Components you copy into your own code base"
+      ],
+      "styles": [
+        {
+          "style": "minimalism-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "shadcn-ui/ui apps/v4/app/globals.css",
+          "url": "https://github.com/shadcn-ui/ui/blob/f50887ae68d0fdcbfbe86b57be08af94a4c88a68/apps/v4/app/globals.css"
+        },
+        {
+          "title": "shadcn-ui/ui repository",
+          "url": "https://github.com/shadcn-ui/ui"
+        }
+      ],
+      "versions": [],
+      "components": []
+    },
+    {
+      "id": "retroui",
+      "name": "RetroUI (neobrutalism)",
+      "kind": "ui-kit",
+      "owner": null,
+      "people": [],
+      "first_release": {
+        "year": 2024,
+        "circa": true
+      },
+      "licence": "MIT",
+      "url": "https://retroui.dev/",
+      "tokens": {
+        "color": {
+          "bg": "#f5ece7",
+          "on-surface": "#000000",
+          "border": "#000000",
+          "primary": "#ffdb33"
+        },
+        "radius": [
+          0
+        ],
+        "shadow": [
+          "1px 1px 0 0 #000",
+          "2px 2px 0 0 #000",
+          "4px 4px 0 0 #000",
+          "6px 6px 0 0 #000"
+        ]
+      },
+      "styles": [
+        {
+          "style": "neo-brutalism-ui",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "neobrutalism/neobrutalism app/global.css",
+          "url": "https://github.com/neobrutalism/neobrutalism/blob/d5fbc0e823bb66575f5372c3df03ee43be45c91b/app/global.css"
+        },
+        {
+          "title": "RetroUI README: retro-styled Tailwind CSS component library",
+          "url": "https://github.com/neobrutalism/neobrutalism"
+        }
+      ],
+      "versions": [],
+      "components": [],
+      "principles": []
     },
     {
       "id": "apple-liquid-glass",
@@ -1882,7 +3273,12 @@
     "anonymous-imageboard": [],
     "myspace-profile": [],
     "demotivational-poster": [],
-    "frutiger-aero": [],
+    "frutiger-aero": [
+      {
+        "ds": "7-css",
+        "relation": "embodies"
+      }
+    ],
     "web-2-0-gloss": [],
     "reddit-thread": [],
     "impact-image-macro": [],
@@ -1895,6 +3291,22 @@
       {
         "ds": "apple-ios-6",
         "relation": "embodies"
+      },
+      {
+        "ds": "bootstrap-2",
+        "relation": "inspired"
+      },
+      {
+        "ds": "react95",
+        "relation": "inspired"
+      },
+      {
+        "ds": "98-css",
+        "relation": "inspired"
+      },
+      {
+        "ds": "xp-css",
+        "relation": "inspired"
       }
     ],
     "rage-comic": [],
@@ -1909,11 +3321,24 @@
         "relation": "defined"
       },
       {
+        "ds": "metro-ui-css",
+        "relation": "inspired"
+      },
+      {
         "ds": "microsoft-fluent-1",
         "relation": "derived-from"
       }
     ],
-    "pixel-art-web": [],
+    "pixel-art-web": [
+      {
+        "ds": "nes-css",
+        "relation": "embodies"
+      },
+      {
+        "ds": "system-css",
+        "relation": "inspired"
+      }
+    ],
     "unicode-emoji": [],
     "wojak-feels": [],
     "chat-sticker-pack": [],
@@ -1936,7 +3361,19 @@
         "relation": "embodies"
       },
       {
+        "ds": "bootstrap-3",
+        "relation": "embodies"
+      },
+      {
+        "ds": "flat-ui",
+        "relation": "embodies"
+      },
+      {
         "ds": "sap-fiori",
+        "relation": "inspired"
+      },
+      {
+        "ds": "semantic-ui",
         "relation": "inspired"
       },
       {
@@ -1964,6 +3401,10 @@
         "relation": "embodies"
       },
       {
+        "ds": "bulma",
+        "relation": "inspired"
+      },
+      {
         "ds": "shopify-polaris",
         "relation": "inspired"
       },
@@ -1978,7 +3419,23 @@
     ],
     "minimalism-web": [
       {
+        "ds": "foundation",
+        "relation": "inspired"
+      },
+      {
+        "ds": "milligram",
+        "relation": "embodies"
+      },
+      {
         "ds": "us-web-design-system",
+        "relation": "inspired"
+      },
+      {
+        "ds": "bulma",
+        "relation": "inspired"
+      },
+      {
+        "ds": "tailwind-css",
         "relation": "inspired"
       },
       {
@@ -1988,11 +3445,37 @@
       {
         "ds": "uber-base",
         "relation": "inspired"
+      },
+      {
+        "ds": "pico-css",
+        "relation": "embodies"
+      },
+      {
+        "ds": "water-css",
+        "relation": "inspired"
+      },
+      {
+        "ds": "radix-themes",
+        "relation": "inspired"
+      },
+      {
+        "ds": "shadcn-ui",
+        "relation": "inspired"
       }
     ],
     "tumblr-soft-grunge": [],
-    "vaporwave": [],
-    "cyberpunk-web": [],
+    "vaporwave": [
+      {
+        "ds": "aesthetic-css",
+        "relation": "embodies"
+      }
+    ],
+    "cyberpunk-web": [
+      {
+        "ds": "augmented-ui",
+        "relation": "embodies"
+      }
+    ],
     "health-goth": [],
     "normcore": [],
     "synthwave-web": [],
@@ -2004,6 +3487,10 @@
       {
         "ds": "material-1",
         "relation": "defined"
+      },
+      {
+        "ds": "materialize",
+        "relation": "embodies"
       },
       {
         "ds": "google-brand-2015",
@@ -2043,7 +3530,16 @@
     "deep-fried-meme": [],
     "deepfake-face-swap": [],
     "label-meme": [],
-    "terminal-tui-web": [],
+    "terminal-tui-web": [
+      {
+        "ds": "tuicss",
+        "relation": "embodies"
+      },
+      {
+        "ds": "terminal-css",
+        "relation": "embodies"
+      }
+    ],
     "aurora-gradient-ui": [],
     "cottagecore": [],
     "duet-split-screen": [],
@@ -2056,11 +3552,20 @@
     "hyperpop-visual": [],
     "kidcore": [],
     "liminal-spaces": [],
-    "neumorphism": [],
+    "neumorphism": [
+      {
+        "ds": "neumorphism-ui-bootstrap",
+        "relation": "embodies"
+      }
+    ],
     "cybercore-web": [],
     "glassmorphism": [
       {
         "ds": "microsoft-fluent-1",
+        "relation": "inspired"
+      },
+      {
+        "ds": "7-css",
         "relation": "inspired"
       },
       {
@@ -2070,7 +3575,12 @@
     ],
     "goblincore": [],
     "green-screen-short": [],
-    "neo-brutalism-ui": [],
+    "neo-brutalism-ui": [
+      {
+        "ds": "retroui",
+        "relation": "embodies"
+      }
+    ],
     "photo-dump": [],
     "pov-short": [],
     "velocity-edit": [],

@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "bootstrap-3",
+  "name": "Bootstrap 3",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2013
+  },
+  "licence": "MIT",
+  "url": "https://getbootstrap.com/docs/3.4/",
+  "tokens": {
+    "color": {
+      "primary": "#337ab7",
+      "success": "#5cb85c",
+      "info": "#5bc0de",
+      "warning": "#f0ad4e",
+      "danger": "#d9534f",
+      "on-surface": "#333333",
+      "muted": "#555555"
+    },
+    "type": {
+      "families": [
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial"
+      ],
+      "scale": [
+        36,
+        30,
+        24,
+        18,
+        14,
+        12
+      ]
+    },
+    "space": [
+      6,
+      12
+    ],
+    "radius": [
+      3,
+      4,
+      6
+    ]
+  },
+  "principles": [
+    "Mobile first and responsive by default",
+    "Flat look with an optional theme"
+  ],
+  "styles": [
+    {
+      "style": "flat-design",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bootstrap 3.4.1 less/variables.less",
+      "url": "https://cdn.jsdelivr.net/gh/twbs/bootstrap@v3.4.1/less/variables.less"
+    },
+    {
+      "title": "Bootstrap 3 released: \"we've gone flat\"",
+      "url": "https://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/"
+    }
+  ]
+}
