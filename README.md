@@ -4,12 +4,12 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**138 styles in six domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**500 styles in 16 domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
-![styles](https://img.shields.io/badge/styles-66-111111)
-![domains](https://img.shields.io/badge/domains-design%20%C2%B7%20architecture%20%C2%B7%20interior%20%C2%B7%20photography%20%C2%B7%20film%20%C2%B7%20painting-111111)
+![styles](https://img.shields.io/badge/styles-500-111111)
+![domains](https://img.shields.io/badge/domains-16-111111)
 ![code](https://img.shields.io/badge/code-MIT-111111)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
 ![PRs](https://img.shields.io/badge/PRs-one%20JSON%20file-E30613)
