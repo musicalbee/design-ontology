@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "atlassian-design-system",
+  "name": "Atlassian Design System",
+  "kind": "design-system",
+  "owner": "atlassian",
+  "first_release": {
+    "year": 2012
+  },
+  "versions": [
+    {
+      "name": "Atlassian Design Guidelines (ADG)",
+      "year": 2012
+    },
+    {
+      "name": "ADG 3",
+      "year": 2016
+    }
+  ],
+  "licence": "Not stated in the sources used",
+  "url": "https://atlassian.design/",
+  "tokens": {
+    "type": {
+      "families": [
+        "Atlassian Sans",
+        "Atlassian Mono",
+        "Charlie Sans"
+      ],
+      "scale": [
+        12,
+        14,
+        16,
+        20,
+        24,
+        28,
+        32
+      ]
+    }
+  },
+  "components": [
+    "Button",
+    "Checkbox",
+    "Dropdown menu",
+    "Form",
+    "Modal dialog",
+    "Banner",
+    "Flag",
+    "Lozenge",
+    "Badge",
+    "Tag",
+    "Tabs",
+    "Breadcrumbs",
+    "Dynamic table",
+    "Tooltip",
+    "Drawer"
+  ],
+  "principles": [
+    "One design language makes every app feel the same and known.",
+    "Design tokens name colour, type and elevation by role."
+  ],
+  "styles": [
+    {
+      "style": "flat-design",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Atlassian Design System",
+      "url": "https://atlassian.design/"
+    },
+    {
+      "title": "Atlassian Design System: components",
+      "url": "https://atlassian.design/components"
+    },
+    {
+      "title": "Atlassian Design System: typography",
+      "url": "https://atlassian.design/foundations/typography"
+    },
+    {
+      "title": "Medium: Designing Atlassian",
+      "url": "https://medium.com/designing-atlassian/our-new-home-for-atlassian-design-system-7ec766cf36cd"
+    }
+  ]
+}

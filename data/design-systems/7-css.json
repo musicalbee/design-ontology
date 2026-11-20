@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "7-css",
+  "name": "7.css",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2020,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://khang-nd.github.io/7.css/",
+  "tokens": {
+    "color": {
+      "window-bg": "#4580c4"
+    },
+    "type": {
+      "families": [
+        "Calibri",
+        "Noto Sans"
+      ]
+    },
+    "space": [
+      6
+    ],
+    "radius": [
+      5,
+      6
+    ]
+  },
+  "styles": [
+    {
+      "style": "frutiger-aero",
+      "relation": "embodies"
+    },
+    {
+      "style": "glassmorphism",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "7.css npm package dist/7.css",
+      "url": "https://cdn.jsdelivr.net/npm/7.css@0.21.1/dist/7.css"
+    },
+    {
+      "title": "7.css README: styles semantic HTML to the Windows 7 design",
+      "url": "https://github.com/khang-nd/7.css"
+    }
+  ]
+}

@@ -176,7 +176,7 @@ A value on a regular 3D grid: the volume version of a pixel. A world of voxels i
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **itch.io** (platform, online, 2013–now), sold the style. An open store for independent games, where most PS1-style revival games are published.
-- **Microsoft** (company, Redmond, ?–now), funded the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019.
+- **Microsoft** (company, Redmond, 1975–now), funded the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019. Its design teams made the Metro and Fluent design systems.
 - **Mojang Studios** (studio, Stockholm, 2009–now), made the style. A Swedish studio that makes Minecraft.
 - **TIGSource** (platform, online, ?–now), gathered the style. An online forum for independent game makers where many early block and pixel games were shown.
 

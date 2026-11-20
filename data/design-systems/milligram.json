@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "milligram",
+  "name": "Milligram",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2015,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://milligram.io/",
+  "tokens": {
+    "color": {
+      "primary": "#9b4dca",
+      "on-surface": "#606c76",
+      "border": "#d1d1d1",
+      "bg": "#ffffff"
+    },
+    "type": {
+      "families": [
+        "Roboto",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial"
+      ]
+    },
+    "radius": [
+      4
+    ]
+  },
+  "styles": [
+    {
+      "style": "minimalism-web",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "milligram npm package dist/milligram.css",
+      "url": "https://cdn.jsdelivr.net/npm/milligram@1.4.1/dist/milligram.css"
+    },
+    {
+      "title": "Milligram README: a minimalist CSS framework",
+      "url": "https://github.com/milligram/milligram"
+    }
+  ]
+}

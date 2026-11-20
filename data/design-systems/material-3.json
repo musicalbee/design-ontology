@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "material-3",
+  "name": "Material Design 3",
+  "kind": "design-system",
+  "owner": "google",
+  "people": [],
+  "first_release": { "year": 2021 },
+  "versions": [{ "name": "Material You", "year": 2021 }],
+  "licence": "Apache-2.0 (code); guidelines on m3.material.io",
+  "url": "https://m3.material.io/",
+  "tokens": {
+    "color": { "primary": "#6750A4", "on-primary": "#FFFFFF", "secondary": "#625B71", "danger": "#B3261E", "surface": "#FEF7FF", "on-surface": "#1D1B20" },
+    "type": { "families": ["Roboto"] },
+    "radius": [0, 4, 8, 12, 16, 28]
+  },
+  "styles": [{ "style": "material-design", "relation": "embodies" }],
+  "sources": [{ "title": "Material Design 3: m3.material.io", "url": "https://m3.material.io/" }]
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "penguin-books-design",
+  "name": "Penguin Books design (composition rules and grid)",
+  "kind": "brand-manual",
+  "owner": null,
+  "first_release": {
+    "year": 1947
+  },
+  "versions": [
+    {
+      "name": "Marber grid",
+      "year": 1961
+    }
+  ],
+  "licence": "proprietary",
+  "url": "https://en.wikipedia.org/wiki/Penguin_Books",
+  "tokens": {
+    "type": {
+      "families": [
+        "Gill Sans"
+      ]
+    }
+  },
+  "components": [
+    "cover grid",
+    "colour-coded series",
+    "spine"
+  ],
+  "styles": [
+    {
+      "style": "humanist-sans",
+      "relation": "embodies"
+    },
+    {
+      "style": "swiss-international",
+      "relation": "inspired"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Penguin Books",
+      "url": "https://en.wikipedia.org/wiki/Penguin_Books"
+    },
+    {
+      "title": "Wikipedia: Jan Tschichold",
+      "url": "https://en.wikipedia.org/wiki/Jan_Tschichold"
+    },
+    {
+      "title": "Wikipedia: Romek Marber",
+      "url": "https://en.wikipedia.org/wiki/Romek_Marber"
+    }
+  ]
+}

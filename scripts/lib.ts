@@ -234,6 +234,38 @@ export function loadOrgs(): { file: string; slug: string; org: Org }[] {
   }));
 }
 
+/** A real design system, brand manual or UI kit, linked to the styles it embodies. */
+export interface DesignSystem {
+  $schema?: string;
+  id: string;
+  name: string;
+  kind: "design-system" | "brand-manual" | "ui-kit";
+  owner: string | null;
+  people?: string[];
+  first_release: { year: number; circa?: boolean };
+  versions?: { name: string; year: number }[];
+  licence: string;
+  url: string;
+  tokens?: {
+    color?: Record<string, string>;
+    type?: { families?: string[]; scale?: number[] };
+    space?: number[];
+    radius?: number[];
+    shadow?: string[];
+    motion?: { duration_ms?: number; easing?: string };
+  };
+  components?: string[];
+  principles?: string[];
+  styles: { style: string; relation: "embodies" | "defined" | "derived-from" | "inspired" }[];
+  sources: { title: string; url?: string }[];
+}
+
+export function loadDesignSystems(): { file: string; slug: string; ds: DesignSystem }[] {
+  const dir = join(ROOT, "data", "design-systems");
+  if (!existsSync(dir)) return [];
+  return jsonFiles(dir).map((f) => ({ file: join("data", "design-systems", f), slug: f.replace(/\.json$/, ""), ds: readJson<DesignSystem>(join(dir, f)) }));
+}
+
 /** One flow of money or paid support: who paid whom, when, for what, and the source. */
 export interface Funding {
   id: string;

@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schema/design-system.schema.json",
+  "id": "retroui",
+  "name": "RetroUI (neobrutalism)",
+  "kind": "ui-kit",
+  "owner": null,
+  "people": [],
+  "first_release": {
+    "year": 2024,
+    "circa": true
+  },
+  "licence": "MIT",
+  "url": "https://retroui.dev/",
+  "tokens": {
+    "color": {
+      "bg": "#f5ece7",
+      "on-surface": "#000000",
+      "border": "#000000",
+      "primary": "#ffdb33"
+    },
+    "radius": [
+      0
+    ],
+    "shadow": [
+      "1px 1px 0 0 #000",
+      "2px 2px 0 0 #000",
+      "4px 4px 0 0 #000",
+      "6px 6px 0 0 #000"
+    ]
+  },
+  "styles": [
+    {
+      "style": "neo-brutalism-ui",
+      "relation": "embodies"
+    }
+  ],
+  "sources": [
+    {
+      "title": "neobrutalism/neobrutalism app/global.css",
+      "url": "https://github.com/neobrutalism/neobrutalism/blob/d5fbc0e823bb66575f5372c3df03ee43be45c91b/app/global.css"
+    },
+    {
+      "title": "RetroUI README: retro-styled Tailwind CSS component library",
+      "url": "https://github.com/neobrutalism/neobrutalism"
+    }
+  ]
+}
