@@ -250,9 +250,9 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Awwwards** (platform, web, 2009–now), published the style. A web site that gives awards to web design. Designers post sites there, and its daily picks spread trends of the expressive web.
-- **Government Digital Service** (state programme, London, ?–now), made the style. UK government digital team. It created the GOV.UK site and maintains the GOV.UK Design System.
+- **Government Digital Service** (state programme, London, 2011–now), made the style. UK government digital team. It created the GOV.UK site and maintains the GOV.UK Design System.
 - **GSA Technology Transformation Services** (state programme, Washington, D.C., 2016–now), made the style. Unit of the US General Services Administration. It maintains the U.S. Web Design System.
-- **Uber** (company, web, ?–now), made the style. A technology company that makes the Base design system and its React implementation, Base Web.
+- **Uber** (company, San Francisco, 2009–now), made the style. A technology company that makes the Base design system and its React implementation, Base Web.
 
 ## Permutations
 

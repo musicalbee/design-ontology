@@ -276,11 +276,11 @@ A moving form changes shape but keeps its volume: it stretches along its path at
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Adobe** (company, web, ?–now), made the style. A software company that makes Spectrum, the design system behind its products and experiences.
+- **Adobe** (company, San Jose, 1982–now), made the style. A software company that makes Spectrum, the design system behind its products and experiences.
 - **Ant Group** (company, Hangzhou, 2014–now), made the style. Chinese financial services company and Alibaba affiliate. Its Ant User-Experience Design Team made Ant Design.
 - **App Store** (platform, online, 2008–now), published the style. The store of Apple for iPhone and iPad apps. Apps and their icons follow the platform look of each era, from leather and glass to flat colour and Liquid Glass, and premium mobile games with a clean art style found a large public there.
 - **Atlassian** (company, Sydney, 2002–now), made the style. Australian software company that Mike Cannon-Brookes and Scott Farquhar founded. It makes the Atlassian Design System.
-- **Salesforce** (company, San Francisco, ?–now), made the style. US software company. Its UX team made the Lightning Design System, a CSS framework for Salesforce apps.
+- **Salesforce** (company, San Francisco, 1999–now), made the style. US software company. Its UX team made the Lightning Design System, a CSS framework for Salesforce apps.
 - **SAP** (company, Walldorf, 1972–now), made the style. German software company, founded by five former IBM engineers. It makes SAP Fiori, the design system for its business software.
 - **Shopify** (company, Ottawa, 2006–now), made the style. Canadian e-commerce company. It makes the Polaris design system for its admin and for partner apps.
 - **Smashing Magazine** (magazine, web, 2006–now), published the style. An online magazine for web designers and developers. Its tutorials and free icon sets spread the glossy Web 2.0 look and then the flat look.

@@ -255,7 +255,7 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Microsoft Store** (platform, web, 2011–now), published the style. The app store of Windows. With Windows 8 it sold "Metro-style apps" with flat tiles and large type.
-- **Microsoft** (company, Redmond, ?–now), made the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019.
+- **Microsoft** (company, Redmond, 1975–now), made the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019. Its design teams made the Metro and Fluent design systems.
 
 ## Permutations
 

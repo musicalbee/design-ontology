@@ -97,7 +97,7 @@
         },
         {
           "style": "flat-design",
-          "relation": "derived-from"
+          "relation": "embodies"
         },
         {
           "style": "swiss-international",
@@ -251,10 +251,6 @@
         {
           "style": "flat-design",
           "relation": "embodies"
-        },
-        {
-          "style": "skeuomorphism",
-          "relation": "derived-from"
         }
       ],
       "sources": [
@@ -323,10 +319,6 @@
         {
           "style": "material-design",
           "relation": "defined"
-        },
-        {
-          "style": "skeuomorphism",
-          "relation": "inspired"
         }
       ],
       "sources": [
@@ -348,7 +340,7 @@
         "year": 2015,
         "circa": true
       },
-      "licence": "Not stated in the sources used",
+      "licence": "MIT (code)",
       "url": "https://ant.design/",
       "components": [
         "Button",
@@ -400,7 +392,7 @@
       "styles": [
         {
           "style": "dark-devtool-ui",
-          "relation": "embodies"
+          "relation": "inspired"
         }
       ],
       "sources": [
@@ -553,7 +545,7 @@
           "year": 2022
         }
       ],
-      "licence": "Not stated in the sources used",
+      "licence": "Public domain (CC0 1.0), per the repo",
       "url": "https://designsystem.digital.gov/",
       "components": [
         "Accordion",
@@ -589,6 +581,10 @@
         {
           "title": "Wikipedia: U.S. Web Design System",
           "url": "https://en.wikipedia.org/wiki/U.S._Web_Design_System"
+        },
+        {
+          "title": "GitHub: uswds/uswds (licence)",
+          "url": "https://github.com/uswds/uswds"
         }
       ],
       "people": [],
@@ -604,13 +600,6 @@
       },
       "licence": "MIT (code); fonts and icons under a separate assets licence",
       "url": "https://github.com/microsoft/fluentui",
-      "tokens": {
-        "type": {
-          "families": [
-            "Segoe UI Variable"
-          ]
-        }
-      },
       "components": [
         "Reveal highlight",
         "Reveal focus",
@@ -649,7 +638,8 @@
         }
       ],
       "people": [],
-      "versions": []
+      "versions": [],
+      "tokens": {}
     },
     {
       "id": "shopify-polaris",
@@ -1022,14 +1012,6 @@
       {
         "ds": "apple-ios-6",
         "relation": "embodies"
-      },
-      {
-        "ds": "apple-ios-7",
-        "relation": "derived-from"
-      },
-      {
-        "ds": "material-1",
-        "relation": "inspired"
       }
     ],
     "rage-comic": [],
@@ -1060,7 +1042,7 @@
     "flat-design": [
       {
         "ds": "microsoft-metro",
-        "relation": "derived-from"
+        "relation": "embodies"
       },
       {
         "ds": "atlassian-design-system",
@@ -1150,7 +1132,7 @@
     "dark-devtool-ui": [
       {
         "ds": "github-primer",
-        "relation": "embodies"
+        "relation": "inspired"
       }
     ],
     "lip-sync-dance-short": [],
