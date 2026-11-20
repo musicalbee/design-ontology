@@ -9,6 +9,964 @@
   "design_systems": [
     {
       "$schema": "../../schema/design-system.schema.json",
+      "id": "london-underground-identity",
+      "name": "London Underground identity (Johnston and the roundel)",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1916
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Johnston_(typeface)",
+      "tokens": {
+        "type": {
+          "families": [
+            "Johnston Sans"
+          ]
+        }
+      },
+      "components": [
+        "roundel",
+        "station signage",
+        "posters",
+        "network map"
+      ],
+      "styles": [
+        {
+          "style": "humanist-sans",
+          "relation": "defined"
+        },
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Johnston (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Johnston_(typeface)"
+        },
+        {
+          "title": "Wikipedia: Roundel",
+          "url": "https://en.wikipedia.org/wiki/Roundel"
+        },
+        {
+          "title": "Wikipedia: Frank Pick",
+          "url": "https://en.wikipedia.org/wiki/Frank_Pick"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "penguin-books-design",
+      "name": "Penguin Books design (composition rules and grid)",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1947
+      },
+      "versions": [
+        {
+          "name": "Marber grid",
+          "year": 1961
+        }
+      ],
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Penguin_Books",
+      "tokens": {
+        "type": {
+          "families": [
+            "Gill Sans"
+          ]
+        }
+      },
+      "components": [
+        "cover grid",
+        "colour-coded series",
+        "spine"
+      ],
+      "styles": [
+        {
+          "style": "garalde-old-style",
+          "relation": "embodies"
+        },
+        {
+          "style": "swiss-international",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Penguin Books",
+          "url": "https://en.wikipedia.org/wiki/Penguin_Books"
+        },
+        {
+          "title": "Wikipedia: Jan Tschichold",
+          "url": "https://en.wikipedia.org/wiki/Jan_Tschichold"
+        },
+        {
+          "title": "Wikipedia: Romek Marber",
+          "url": "https://en.wikipedia.org/wiki/Romek_Marber"
+        }
+      ],
+      "people": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "olivetti-corporate-identity",
+      "name": "Olivetti corporate identity",
+      "kind": "brand-manual",
+      "owner": null,
+      "people": [
+        "ettore-sottsass"
+      ],
+      "first_release": {
+        "year": 1950,
+        "circa": true
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Olivetti",
+      "components": [
+        "typewriters",
+        "posters",
+        "showrooms"
+      ],
+      "styles": [
+        {
+          "style": "mid-century-modern-product",
+          "relation": "embodies"
+        },
+        {
+          "style": "swiss-international",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Olivetti",
+          "url": "https://en.wikipedia.org/wiki/Olivetti"
+        },
+        {
+          "title": "Wikipedia: Ettore Sottsass",
+          "url": "https://en.wikipedia.org/wiki/Ettore_Sottsass"
+        }
+      ],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "cbs-eye-identity",
+      "name": "CBS Eye identity",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1951
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/CBS",
+      "components": [
+        "logo",
+        "on-air graphics"
+      ],
+      "styles": [
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        },
+        {
+          "style": "mid-century-modern",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: William Golden (graphic designer)",
+          "url": "https://en.wikipedia.org/wiki/William_Golden_(graphic_designer)"
+        },
+        {
+          "title": "Wikipedia: CBS",
+          "url": "https://en.wikipedia.org/wiki/CBS"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "braun-design-language",
+      "name": "Braun design language",
+      "kind": "brand-manual",
+      "owner": "braun",
+      "people": [
+        "dieter-rams"
+      ],
+      "first_release": {
+        "year": 1955,
+        "circa": true
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Braun_(company)",
+      "components": [
+        "product housings",
+        "print",
+        "packaging"
+      ],
+      "principles": [
+        "Less, but better."
+      ],
+      "styles": [
+        {
+          "style": "rams-functionalism-ui",
+          "relation": "defined"
+        },
+        {
+          "style": "ulm-braun-functionalism",
+          "relation": "defined"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Braun (company)",
+          "url": "https://en.wikipedia.org/wiki/Braun_(company)"
+        },
+        {
+          "title": "Wikipedia: Dieter Rams",
+          "url": "https://en.wikipedia.org/wiki/Dieter_Rams"
+        }
+      ],
+      "versions": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "ibm-corporate-identity",
+      "name": "IBM corporate identity (Rand and Noyes)",
+      "kind": "brand-manual",
+      "owner": "ibm",
+      "people": [
+        "paul-rand",
+        "eliot-noyes"
+      ],
+      "first_release": {
+        "year": 1956
+      },
+      "versions": [
+        {
+          "name": "Striped logo",
+          "year": 1972
+        }
+      ],
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/IBM",
+      "tokens": {
+        "type": {
+          "families": [
+            "City Medium"
+          ]
+        }
+      },
+      "components": [
+        "logo",
+        "products",
+        "print",
+        "architecture"
+      ],
+      "styles": [
+        {
+          "style": "swiss-modernist-mark",
+          "relation": "embodies"
+        },
+        {
+          "style": "mid-century-modern",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Paul Rand",
+          "url": "https://en.wikipedia.org/wiki/Paul_Rand"
+        },
+        {
+          "title": "Wikipedia: Eliot Noyes",
+          "url": "https://en.wikipedia.org/wiki/Eliot_Noyes"
+        },
+        {
+          "title": "Wikipedia: IBM",
+          "url": "https://en.wikipedia.org/wiki/IBM"
+        }
+      ],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "uk-road-signs-transport",
+      "name": "UK road signs (Kinneir and Calvert)",
+      "kind": "brand-manual",
+      "owner": "uk-government",
+      "first_release": {
+        "year": 1957,
+        "circa": true
+      },
+      "licence": "Crown copyright",
+      "url": "https://en.wikipedia.org/wiki/Transport_(typeface)",
+      "tokens": {
+        "type": {
+          "families": [
+            "Transport"
+          ]
+        }
+      },
+      "components": [
+        "road signs",
+        "motorway signs"
+      ],
+      "styles": [
+        {
+          "style": "neo-grotesque-sans",
+          "relation": "embodies"
+        },
+        {
+          "style": "swiss-international",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Transport (typeface)",
+          "url": "https://en.wikipedia.org/wiki/Transport_(typeface)"
+        },
+        {
+          "title": "Wikipedia: Jock Kinneir",
+          "url": "https://en.wikipedia.org/wiki/Jock_Kinneir"
+        },
+        {
+          "title": "Wikipedia: Margaret Calvert",
+          "url": "https://en.wikipedia.org/wiki/Margaret_Calvert"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "lufthansa-corporate-design",
+      "name": "Lufthansa corporate design (Aicher)",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1963,
+        "circa": true
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Lufthansa",
+      "components": [
+        "aircraft livery",
+        "print",
+        "signage"
+      ],
+      "styles": [
+        {
+          "style": "swiss-international",
+          "relation": "embodies"
+        },
+        {
+          "style": "ulm-braun-functionalism",
+          "relation": "derived-from"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Otl Aicher",
+          "url": "https://en.wikipedia.org/wiki/Otl_Aicher"
+        },
+        {
+          "title": "Wikipedia: Lufthansa",
+          "url": "https://en.wikipedia.org/wiki/Lufthansa"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "british-rail-corporate-identity-manual",
+      "name": "British Rail Corporate Identity Manual",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1965
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/British_Rail_Corporate_Identity_Manual",
+      "tokens": {
+        "type": {
+          "families": [
+            "Rail Alphabet"
+          ]
+        }
+      },
+      "components": [
+        "double arrow symbol",
+        "signage",
+        "rolling stock livery",
+        "stationery"
+      ],
+      "principles": [
+        "One symbol and one typeface across the whole railway."
+      ],
+      "styles": [
+        {
+          "style": "swiss-international",
+          "relation": "embodies"
+        },
+        {
+          "style": "neo-grotesque-sans",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: British Rail Corporate Identity Manual",
+          "url": "https://en.wikipedia.org/wiki/British_Rail_Corporate_Identity_Manual"
+        },
+        {
+          "title": "Wikipedia: Rail Alphabet",
+          "url": "https://en.wikipedia.org/wiki/Rail_Alphabet"
+        },
+        {
+          "title": "Wikipedia: British Rail double arrow",
+          "url": "https://en.wikipedia.org/wiki/British_Rail_double_arrow"
+        }
+      ],
+      "people": [],
+      "versions": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "mobil-identity",
+      "name": "Mobil identity (Chermayeff & Geismar)",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1965
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Mobil",
+      "components": [
+        "wordmark",
+        "service station",
+        "packaging"
+      ],
+      "styles": [
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        },
+        {
+          "style": "swiss-modernist-mark",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Chermayeff & Geismar & Haviv",
+          "url": "https://en.wikipedia.org/wiki/Chermayeff_&_Geismar_&_Haviv"
+        },
+        {
+          "title": "Wikipedia: Mobil",
+          "url": "https://en.wikipedia.org/wiki/Mobil"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "expo-67-identity",
+      "name": "Expo 67 identity",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1967
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Expo_67",
+      "components": [
+        "logo",
+        "pictograms",
+        "signage"
+      ],
+      "styles": [
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        },
+        {
+          "style": "swiss-international",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Expo 67",
+          "url": "https://en.wikipedia.org/wiki/Expo_67"
+        },
+        {
+          "title": "Wikipedia: Julien H%C3%A9bert",
+          "url": "https://en.wikipedia.org/wiki/Julien_H%C3%A9bert"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "mexico-68-olympic-identity",
+      "name": "Mexico 1968 Olympic identity",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1968
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/1968_Summer_Olympics",
+      "components": [
+        "logo",
+        "pictograms",
+        "posters",
+        "wayfinding"
+      ],
+      "styles": [
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        },
+        {
+          "style": "pop-art-web",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Lance Wyman",
+          "url": "https://en.wikipedia.org/wiki/Lance_Wyman"
+        },
+        {
+          "title": "Wikipedia: 1968 Summer Olympics",
+          "url": "https://en.wikipedia.org/wiki/1968_Summer_Olympics"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "nyc-transit-graphics-standards-manual",
+      "name": "NYC Transit Authority Graphics Standards Manual",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1970
+      },
+      "versions": [
+        {
+          "name": "Reissue by Standards Manual",
+          "year": 2012
+        }
+      ],
+      "licence": "proprietary",
+      "url": "https://standardsmanual.com/products/nyctagsm",
+      "tokens": {
+        "type": {
+          "families": [
+            "Standard Medium",
+            "Helvetica Medium"
+          ]
+        }
+      },
+      "components": [
+        "station signage",
+        "route bullets",
+        "wayfinding"
+      ],
+      "styles": [
+        {
+          "style": "swiss-international",
+          "relation": "embodies"
+        },
+        {
+          "style": "grotesque-sans",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Unimark International",
+          "url": "https://en.wikipedia.org/wiki/Unimark_International"
+        },
+        {
+          "title": "Wikipedia: Helvetica",
+          "url": "https://en.wikipedia.org/wiki/Helvetica"
+        }
+      ],
+      "people": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "munich-1972-olympic-design",
+      "name": "Munich 1972 Olympic visual identity",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1972
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/1972_Summer_Olympics",
+      "tokens": {
+        "type": {
+          "families": [
+            "Univers"
+          ]
+        }
+      },
+      "components": [
+        "pictograms",
+        "posters",
+        "tickets",
+        "uniforms"
+      ],
+      "styles": [
+        {
+          "style": "swiss-international",
+          "relation": "embodies"
+        },
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Otl Aicher",
+          "url": "https://en.wikipedia.org/wiki/Otl_Aicher"
+        },
+        {
+          "title": "Wikipedia: 1972 Summer Olympics",
+          "url": "https://en.wikipedia.org/wiki/1972_Summer_Olympics"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "nasa-graphics-standards-manual",
+      "name": "NASA Graphics Standards Manual",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 1975
+      },
+      "versions": [
+        {
+          "name": "Reissue by Standards Manual",
+          "year": 2015
+        }
+      ],
+      "licence": "public domain (NASA publication)",
+      "url": "https://standardsmanual.com/products/nasa-graphics-standards-manual",
+      "components": [
+        "logotype (the worm)",
+        "signage",
+        "vehicles and aircraft",
+        "spacecraft",
+        "publications",
+        "uniforms"
+      ],
+      "styles": [
+        {
+          "style": "swiss-modernist-mark",
+          "relation": "defined"
+        },
+        {
+          "style": "swiss-international",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: NASA insignia",
+          "url": "https://en.wikipedia.org/wiki/NASA_insignia"
+        },
+        {
+          "title": "Standards Manual: NASA Graphics Standards Manual",
+          "url": "https://standardsmanual.com/products/nasa-graphics-standards-manual"
+        }
+      ],
+      "people": [],
+      "principles": [],
+      "tokens": {}
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "us-nps-unigrid",
+      "name": "US National Park Service Unigrid",
+      "kind": "brand-manual",
+      "owner": "national-park-service",
+      "first_release": {
+        "year": 1977
+      },
+      "licence": "US government work (public domain)",
+      "url": "https://en.wikipedia.org/wiki/Unigrid",
+      "tokens": {
+        "type": {
+          "families": [
+            "Helvetica"
+          ]
+        }
+      },
+      "components": [
+        "folder format",
+        "grid",
+        "brochure series"
+      ],
+      "styles": [
+        {
+          "style": "swiss-international",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Unigrid",
+          "url": "https://en.wikipedia.org/wiki/Unigrid"
+        },
+        {
+          "title": "Wikipedia: Massimo Vignelli",
+          "url": "https://en.wikipedia.org/wiki/Massimo_Vignelli"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "airbnb-belo",
+      "name": "Airbnb Bélo identity",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 2014
+      },
+      "versions": [
+        {
+          "name": "Cereal typeface",
+          "year": 2018
+        }
+      ],
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Airbnb",
+      "tokens": {
+        "type": {
+          "families": [
+            "Airbnb Cereal"
+          ]
+        }
+      },
+      "components": [
+        "Bélo symbol",
+        "wordmark"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        },
+        {
+          "style": "geometric-symbol",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Airbnb",
+          "url": "https://en.wikipedia.org/wiki/Airbnb"
+        }
+      ],
+      "people": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "google-brand-2015",
+      "name": "Google brand identity 2015",
+      "kind": "brand-manual",
+      "owner": "google",
+      "first_release": {
+        "year": 2015
+      },
+      "licence": "proprietary",
+      "url": "https://design.google/library/evolving-google-identity/",
+      "tokens": {
+        "color": {
+          "blue": "#4285F4",
+          "red": "#EA4335",
+          "yellow": "#FBBC05",
+          "green": "#34A853"
+        },
+        "type": {
+          "families": [
+            "Product Sans"
+          ]
+        }
+      },
+      "components": [
+        "logotype",
+        "G icon",
+        "dots"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        },
+        {
+          "style": "geometric-sans",
+          "relation": "embodies"
+        },
+        {
+          "style": "material-design",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Design: Evolving the Google identity",
+          "url": "https://design.google/library/evolving-google-identity/"
+        },
+        {
+          "title": "Wikipedia: Google logo",
+          "url": "https://en.wikipedia.org/wiki/Google_logo"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "spotify-brand-2015",
+      "name": "Spotify brand 2015",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 2015
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Spotify",
+      "tokens": {
+        "color": {
+          "primary": "#1DB954"
+        },
+        "type": {
+          "families": [
+            "Circular"
+          ]
+        }
+      },
+      "components": [
+        "logo",
+        "duotone imagery"
+      ],
+      "styles": [
+        {
+          "style": "flat-design",
+          "relation": "embodies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Spotify",
+          "url": "https://en.wikipedia.org/wiki/Spotify"
+        },
+        {
+          "title": "Spotify for Developers: Design guidelines",
+          "url": "https://developer.spotify.com/documentation/design"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
+      "id": "mailchimp-brand-2018",
+      "name": "Mailchimp brand 2018",
+      "kind": "brand-manual",
+      "owner": null,
+      "first_release": {
+        "year": 2018
+      },
+      "licence": "proprietary",
+      "url": "https://en.wikipedia.org/wiki/Mailchimp",
+      "tokens": {
+        "color": {
+          "primary": "#FFE01B"
+        },
+        "type": {
+          "families": [
+            "Cooper Light",
+            "Graphik"
+          ]
+        }
+      },
+      "components": [
+        "logo",
+        "illustration",
+        "photography"
+      ],
+      "styles": [
+        {
+          "style": "editorial-serif-revival",
+          "relation": "inspired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Mailchimp",
+          "url": "https://en.wikipedia.org/wiki/Mailchimp"
+        },
+        {
+          "title": "Mailchimp Brand Assets",
+          "url": "https://mailchimp.com/about/brand-assets/"
+        }
+      ],
+      "people": [],
+      "versions": [],
+      "principles": []
+    },
+    {
+      "$schema": "../../schema/design-system.schema.json",
       "id": "material-3",
       "name": "Material Design 3",
       "kind": "design-system",
@@ -106,7 +1064,20 @@
     "seapunk": [],
     "bohemian-web": [],
     "clickbait-thumbnail": [],
-    "flat-design": [],
+    "flat-design": [
+      {
+        "ds": "airbnb-belo",
+        "relation": "embodies"
+      },
+      {
+        "ds": "google-brand-2015",
+        "relation": "embodies"
+      },
+      {
+        "ds": "spotify-brand-2015",
+        "relation": "embodies"
+      }
+    ],
     "minimalism-web": [],
     "tumblr-soft-grunge": [],
     "vaporwave": [],
@@ -119,6 +1090,10 @@
     "flat-lay-feed": [],
     "luxury-typography-web": [],
     "material-design": [
+      {
+        "ds": "google-brand-2015",
+        "relation": "inspired"
+      },
       {
         "ds": "material-3",
         "relation": "embodies"
@@ -169,7 +1144,12 @@
     "weirdcore": [],
     "word-caption-clip": [],
     "claymorphism": [],
-    "editorial-serif-revival": [],
+    "editorial-serif-revival": [
+      {
+        "ds": "mailchimp-brand-2018",
+        "relation": "inspired"
+      }
+    ],
     "ethereal-web": [],
     "ai-avatar-portrait": [],
     "ai-chat-ui": [],
@@ -296,8 +1276,50 @@
     "victorian-trademark": [],
     "art-nouveau-monogram": [],
     "emblem-badge": [],
-    "swiss-modernist-mark": [],
-    "geometric-symbol": [],
+    "swiss-modernist-mark": [
+      {
+        "ds": "ibm-corporate-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "mobil-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "nasa-graphics-standards-manual",
+        "relation": "defined"
+      }
+    ],
+    "geometric-symbol": [
+      {
+        "ds": "london-underground-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "cbs-eye-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "mobil-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "expo-67-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "mexico-68-olympic-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "munich-1972-olympic-design",
+        "relation": "embodies"
+      },
+      {
+        "ds": "airbnb-belo",
+        "relation": "embodies"
+      }
+    ],
     "minimal-wordmark": [],
     "glossy-3d-logo": [],
     "flat-logo": [],
@@ -311,17 +1333,46 @@
     "duotone-icon": [],
     "clay-3d-icon": [],
     "blackletter": [],
-    "garalde-old-style": [],
+    "garalde-old-style": [
+      {
+        "ds": "penguin-books-design",
+        "relation": "embodies"
+      }
+    ],
     "formal-script": [],
     "transitional-serif": [],
     "didone-serif": [],
     "fat-face-display": [],
     "slab-serif": [],
-    "grotesque-sans": [],
+    "grotesque-sans": [
+      {
+        "ds": "nyc-transit-graphics-standards-manual",
+        "relation": "embodies"
+      }
+    ],
     "monospace": [],
-    "humanist-sans": [],
-    "geometric-sans": [],
-    "neo-grotesque-sans": [],
+    "humanist-sans": [
+      {
+        "ds": "london-underground-identity",
+        "relation": "defined"
+      }
+    ],
+    "geometric-sans": [
+      {
+        "ds": "google-brand-2015",
+        "relation": "embodies"
+      }
+    ],
+    "neo-grotesque-sans": [
+      {
+        "ds": "uk-road-signs-transport",
+        "relation": "embodies"
+      },
+      {
+        "ds": "british-rail-corporate-identity-manual",
+        "relation": "embodies"
+      }
+    ],
     "vector-display-arcade": [],
     "eight-bit-tile": [],
     "isometric-pixel-world": [],
@@ -356,11 +1407,71 @@
     "bauhaus": [],
     "constructivism-web": [],
     "art-deco-web": [],
-    "mid-century-modern": [],
-    "swiss-international": [],
+    "mid-century-modern": [
+      {
+        "ds": "cbs-eye-identity",
+        "relation": "embodies"
+      },
+      {
+        "ds": "ibm-corporate-identity",
+        "relation": "embodies"
+      }
+    ],
+    "swiss-international": [
+      {
+        "ds": "penguin-books-design",
+        "relation": "inspired"
+      },
+      {
+        "ds": "olivetti-corporate-identity",
+        "relation": "inspired"
+      },
+      {
+        "ds": "uk-road-signs-transport",
+        "relation": "inspired"
+      },
+      {
+        "ds": "lufthansa-corporate-design",
+        "relation": "embodies"
+      },
+      {
+        "ds": "british-rail-corporate-identity-manual",
+        "relation": "embodies"
+      },
+      {
+        "ds": "expo-67-identity",
+        "relation": "inspired"
+      },
+      {
+        "ds": "nyc-transit-graphics-standards-manual",
+        "relation": "embodies"
+      },
+      {
+        "ds": "munich-1972-olympic-design",
+        "relation": "embodies"
+      },
+      {
+        "ds": "nasa-graphics-standards-manual",
+        "relation": "embodies"
+      },
+      {
+        "ds": "us-nps-unigrid",
+        "relation": "embodies"
+      }
+    ],
     "japanese-graphic-modernism": [],
-    "rams-functionalism-ui": [],
-    "pop-art-web": [],
+    "rams-functionalism-ui": [
+      {
+        "ds": "braun-design-language",
+        "relation": "defined"
+      }
+    ],
+    "pop-art-web": [
+      {
+        "ds": "mexico-68-olympic-identity",
+        "relation": "inspired"
+      }
+    ],
     "space-age": [],
     "psychedelic": [],
     "georgian-neoclassical-manufacture": [],
@@ -373,9 +1484,23 @@
     "art-deco-product": [],
     "scandinavian-modern-product": [],
     "streamline-moderne-product": [],
-    "mid-century-modern-product": [],
+    "mid-century-modern-product": [
+      {
+        "ds": "olivetti-corporate-identity",
+        "relation": "embodies"
+      }
+    ],
     "japanese-modern-craft-product": [],
-    "ulm-braun-functionalism": [],
+    "ulm-braun-functionalism": [
+      {
+        "ds": "braun-design-language",
+        "relation": "defined"
+      },
+      {
+        "ds": "lufthansa-corporate-design",
+        "relation": "derived-from"
+      }
+    ],
     "space-age-pop-product": [],
     "memphis-product": [],
     "contemporary-craft-product": [],
@@ -572,7 +1697,20 @@
     "plant-based-fine-dining": []
   },
   "by_owner": {
+    "braun": [
+      "braun-design-language"
+    ],
+    "ibm": [
+      "ibm-corporate-identity"
+    ],
+    "uk-government": [
+      "uk-road-signs-transport"
+    ],
+    "national-park-service": [
+      "us-nps-unigrid"
+    ],
     "google": [
+      "google-brand-2015",
       "material-3"
     ]
   }
