@@ -1,0 +1,246 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "expressionist-woodcut-print",
+  "domain": "print",
+  "name": "Die Brucke woodcut",
+  "aliases": [
+    "Expressionistischer Holzschnitt (German)",
+    "Brucke-Holzschnitt"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1905,
+    "end": 1930,
+    "label": "1905–1930"
+  },
+  "region": "Dresden, Berlin",
+  "summary": "Planks are cut with a few bold gouge strokes, and the grain and the cut marks stay visible. The artists often hand-print on cheap paper with a spoon or a press. The ink is uneven, with flat black masses and sharp angular white.",
+  "philosophy": {
+    "core_thesis": "A plank cut with a few hard strokes and printed by hand keeps the cut and the grain. The print shows a raw inner state, not a clean picture.",
+    "design_principles": [
+      "Cut straight into a soft plank with a knife and a gouge; do not draw the picture first in fine detail.",
+      "Keep the plank grain and the gouge marks in the print.",
+      "Print flat black masses against sharp, angular white shapes.",
+      "Add colour from a second or third block in opaque inks such as red and yellow, with 1–3 mm of misregister.",
+      "Print by hand with a spoon or a small press, so that the ink covers the sheet unevenly.",
+      "Use cheap thin paper, and let the rubbing marks show on the back."
+    ],
+    "anti_patterns": [
+      "Fine, smooth line work",
+      "A soft gradient or a halftone",
+      "Exact register of the colour blocks",
+      "A clean white margin with no hand marks",
+      "A digital vector edge"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 2,
+    "registration_play": 4,
+    "surface_relief": 4,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Soft plank (pine, plywood), side grain, sometimes cut-up for colour",
+    "press": "Hand-rubbed with spoon or baren, or a small press",
+    "image_making": "Knife and gouge cut straight into the plank; planks sawn apart for colour inking",
+    "edition": "Small editions, 20-100 or monoprinted colour variants"
+  },
+  "inks": {
+    "strategy": "Black relief ink for the key block, and one to three opaque colour inks that cover the ink under them.",
+    "ink_count_min": 1,
+    "ink_count_max": 4,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black relief ink",
+        "hex": "#1B1917",
+        "role": "key block"
+      },
+      {
+        "name": "Vermilion red",
+        "hex": "#C0392B",
+        "role": "colour block"
+      },
+      {
+        "name": "Chrome yellow",
+        "hex": "#E3B42C",
+        "role": "colour block"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each tone as a flat ink mass from one cut; do not screen. Where the cut leaves a grain, let the wood grain print."
+  },
+  "registration": {
+    "tolerance_mm": 2.0,
+    "rule": "Blocks are registered by eye or by pin; the shift of 1–3 mm is a feature of the look."
+  },
+  "substrate": {
+    "stock": "Thin Japan, wove or poster paper, grey-cream.",
+    "weight_gsm_min": 50,
+    "weight_gsm_max": 100,
+    "ground": "#D9CFB4",
+    "finish": "Thin and slightly rough; it takes the rubbing without a tear."
+  },
+  "surface": {
+    "impression": "A deep bite from hand rubbing; the lines show as a relief on the back.",
+    "sheen": "Matt black, with a slight shine where the ink is thick.",
+    "texture": "Visible plank grain, jagged cut edges, and an uneven ink film with white speckle."
+  },
+  "artefacts": {
+    "marks": [
+      "jagged gouge strokes",
+      "visible plank grain",
+      "uneven ink coverage",
+      "angular faces",
+      "rubbed pressure marks on back"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "German expressionist woodcut",
+      "Die Brucke print",
+      "jagged gouge marks",
+      "flat black mass",
+      "visible plank grain",
+      "angular figures",
+      "hand-rubbed uneven ink",
+      "cheap grey paper"
+    ],
+    "negative": [
+      "smooth gradient",
+      "halftone dots",
+      "photograph",
+      "fine engraving",
+      "digital vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Programm der Brucke",
+      "kind": "image",
+      "maker": "Ernst Ludwig Kirchner",
+      "year": 1906,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ernst_Ludwig_Kirchner_Programm_der_Br%C3%BCcke.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ernst_Ludwig_Kirchner_Programm_der_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Poster for the Brucke exhibition, Arnold Gallery Dresden",
+      "kind": "image",
+      "maker": "Ernst Ludwig Kirchner",
+      "year": 1910,
+      "credit": "Google Art Project, via Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ernst_Ludwig_Kirchner_-_Poster_for_the_exhibition_for_the_artists%27_group_%22Die_Br%C3%BCcke%22_at_the_Arnold_Gallery_Dresden_-_Google_Art_Project.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Ernst_Ludwig_Kirchner_-_Poster_for_the_exhibition_for_the_artists%27_group_%22Die_Br%C3%BCcke%22_at_the_Arnold_Gallery_Dresden_-_Google_Art_Project.jpg/960px-Ernst_Ludwig_Kirchner_-_Poster_for_the_exhibition_for_the_artists%27_group_%22Die_Br%C3%BCcke%22_at_the_Arnold_Gallery_Dresden_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "expressionism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "Raw, urgent tension: the viewer sees angular figures that were cut fast and printed by hand.",
+    "keywords": [
+      "raw",
+      "angular",
+      "urgent",
+      "tense",
+      "primitive"
+    ],
+    "brand_archetypes": [
+      "outlaw",
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "expressionist woodcut",
+      "die brucke print",
+      "kirchner woodcut",
+      "german expressionist print",
+      "jagged woodcut",
+      "plank grain print",
+      "angular woodcut figure",
+      "brucke programme"
+    ],
+    "use_cases": [
+      "exhibition and event posters",
+      "album and zine covers",
+      "editorial illustration with a raw edge",
+      "theatre and festival identity"
+    ],
+    "avoid_when": [
+      "The design needs a calm or refined tone.",
+      "The text must stay small and exact."
+    ],
+    "modifiers": [
+      {
+        "request": "more refined",
+        "toward": "woodcut-relief-print",
+        "how": "Cut finer lines that follow the form, print in black only and use laid paper."
+      },
+      {
+        "request": "more colour",
+        "toward": "linocut-print",
+        "how": "Cut each colour on lino with smooth curves and overlap the opaque layers."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1B1917",
+      "options": [
+        "#1B1917",
+        "#2A1D14",
+        "#14213D"
+      ]
+    },
+    "paper_colour": {
+      "default": "#D9CDAF",
+      "options": [
+        "#D9CDAF",
+        "#E2D8BD",
+        "#CBBF9F"
+      ]
+    },
+    "ink_count": {
+      "default": 2,
+      "min": 1,
+      "max": 4
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 2.0,
+      "min": 1.0,
+      "max": 3.0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Die Brucke",
+      "url": "https://en.wikipedia.org/wiki/Die_Br%C3%BCcke"
+    },
+    {
+      "title": "Wikipedia: Erich Heckel",
+      "url": "https://en.wikipedia.org/wiki/Erich_Heckel"
+    }
+  ]
+}

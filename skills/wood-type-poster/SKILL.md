@@ -175,7 +175,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
 - **Mixes well with:** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Kin in another domain:** [`fat-face-display`](../fat-face-display/SKILL.md), [`slab-serif`](../slab-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md), [`victorian-web`](../victorian-web/SKILL.md)
-- **Nearest by vector profile:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`pop-screen-print`](../pop-screen-print/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
+- **Nearest by vector profile:** [`battala-woodcut`](../battala-woodcut/SKILL.md), [`dong-ho-folk-woodblock`](../dong-ho-folk-woodblock/SKILL.md), [`senjafuda-slip`](../senjafuda-slip/SKILL.md)
 
 ## Emotional target
 

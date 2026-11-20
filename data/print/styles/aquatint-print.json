@@ -1,0 +1,254 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "aquatint-print",
+  "domain": "print",
+  "name": "Aquatint",
+  "aliases": [
+    "aguatinta (Spanish)",
+    "aquatinte (French)"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1768,
+    "end": 1900,
+    "label": "1768–1900"
+  },
+  "region": "Paris, Madrid, London",
+  "summary": "Rosin dust is melted onto a copper plate, and acid bites round each grain. The print has a soft tone like a wash. The artist controls the tone with varnish and a burnisher, so the print has a grey speckled grain.",
+  "philosophy": {
+    "core_thesis": "A bitten grain of rosin gives a copper plate the soft tone of a wash. An etched line can then sit on a brush-like ground.",
+    "design_principles": [
+      "Etch the contour first, then add the rosin ground and bite the tone areas in timed baths.",
+      "Make the tone in steps: stop out the lightest area first and bite the darkest area longest, with 3–6 steps in all.",
+      "Keep the grain visible as a speckle, about 100–150 grains an inch.",
+      "Lift the highlights with a burnisher or a scraper; do not paint them in.",
+      "Print in one warm black or sepia, and leave a plate mark round the image.",
+      "Keep the edge of each tone area hard where the stopping-out varnish stopped the acid."
+    ],
+    "anti_patterns": [
+      "A smooth digital gradient with no grain",
+      "Halftone dots",
+      "Clean vector line work with no etched bite",
+      "Bright process colour",
+      "Heavy hatching that replaces the wash tone"
+    ]
+  },
+  "vectors": {
+    "tone_method": 4,
+    "ink_layering": 2,
+    "registration_play": 1,
+    "surface_relief": 3,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "intaglio",
+    "matrix": "Copper plate with rosin ground over etched line",
+    "press": "Rolling-press (etching press) with felt blankets",
+    "image_making": "Line etched first; rosin dust fused; tones bitten in timed acid baths with stopping-out; burnishing and scraping lift lights",
+    "edition": "Under 100 before the grain wears"
+  },
+  "inks": {
+    "strategy": "One warm black or sepia intaglio ink, wiped by hand; a second or third ink only in colour prints.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Warm black",
+        "hex": "#2A2622",
+        "role": "plate ink"
+      },
+      {
+        "name": "Sepia",
+        "hex": "#5B4636",
+        "role": "alternate monochrome"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 120,
+    "rule": "Make each tone with a rosin grain of about 120 grains an inch; bite longer for a darker step."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "One plate prints the image; a colour print needs a plate for each ink, and the paper can shift 0.5 mm between passes."
+  },
+  "substrate": {
+    "stock": "Dampened laid or wove paper, cream.",
+    "weight_gsm_min": 150,
+    "weight_gsm_max": 250,
+    "ground": "#E4D8BC",
+    "finish": "Soft, with some tooth, pressed into the plate."
+  },
+  "surface": {
+    "impression": "A plate mark of 3–6 mm with a bevelled edge; the ink sits in the grain and stands a little above the paper.",
+    "sheen": "Matt to semi-matt; the ink is rich where the tone is deep.",
+    "texture": "A fine speckle in the tone areas, and a smooth line where the plate is etched."
+  },
+  "artefacts": {
+    "marks": [
+      "rosin-grain speckle in tone areas",
+      "plate mark",
+      "hard-edged stopped-out tone areas",
+      "burnished lights",
+      "foul bite pits"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "aquatint print",
+      "rosin grain tone",
+      "soft grey wash",
+      "etched line with aquatint",
+      "copper plate mark",
+      "Goya style print",
+      "burnished highlights",
+      "cream laid paper"
+    ],
+    "negative": [
+      "halftone dots",
+      "smooth digital gradient",
+      "colour photograph",
+      "woodcut",
+      "vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Los Caprichos, plate 1: Self-portrait of Goya",
+      "kind": "image",
+      "maker": "Francisco Goya",
+      "year": 1799,
+      "credit": "The Met Open Access, via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Plate_1_from_%27Los_Caprichos%27-_Self-portrait_of_Goya_(Franco._Goya_e_Lucientes,_Pintor)_MET_DP816886.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Plate_1_from_%27Los_Caprichos%27-_Self-portrait_of_Goya_%28Franco._Goya_e_Lucientes%2C_Pintor%29_MET_DP816886.jpg/960px-Plate_1_from_%27Los_Caprichos%27-_Self-portrait_of_Goya_%28Franco._Goya_e_Lucientes%2C_Pintor%29_MET_DP816886.jpg"
+    },
+    {
+      "title": "Los Caprichos, plate 28: Hush",
+      "kind": "image",
+      "maker": "Francisco Goya",
+      "year": 1799,
+      "credit": "The Met Open Access, via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Plate_28_from_%27Los_Caprichos%27-_Hush_(Chiton.)_MET_DP816968.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Plate_28_from_%27Los_Caprichos%27-_Hush_%28Chiton.%29_MET_DP816968.jpg/960px-Plate_28_from_%27Los_Caprichos%27-_Hush_%28Chiton.%29_MET_DP816968.jpg"
+    },
+    {
+      "title": "Los Caprichos, plate 70: Devout Profession",
+      "kind": "image",
+      "maker": "Francisco Goya",
+      "year": 1799,
+      "credit": "The Met Open Access, via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Plate_70_from_%27Los_Caprichos%27-_Devout_Profession_(Devota_profesion.)_MET_DP832041.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Plate_70_from_%27Los_Caprichos%27-_Devout_Profession_%28Devota_profesion.%29_MET_DP832041.jpg/960px-Plate_70_from_%27Los_Caprichos%27-_Devout_Profession_%28Devota_profesion.%29_MET_DP832041.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "etching-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "etching-print"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Sombre, soft drama: the viewer sees a grey brush wash, with the weight of a night scene or a ruin.",
+    "keywords": [
+      "sombre",
+      "soft",
+      "dramatic",
+      "atmospheric",
+      "grainy"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "aquatint",
+      "rosin grain print",
+      "goya style print",
+      "wash tone etching",
+      "grey wash print",
+      "caprichos print",
+      "soft grain intaglio",
+      "copper plate tone"
+    ],
+    "use_cases": [
+      "satirical or dark editorial illustration",
+      "topographic and architectural plates",
+      "fine art editions",
+      "album and book covers with a night mood"
+    ],
+    "avoid_when": [
+      "The image needs bright colour or a crisp graphic line.",
+      "The design needs a long run with no loss of tone."
+    ],
+    "modifiers": [
+      {
+        "request": "sharper",
+        "toward": "etching-print",
+        "how": "Drop the tone ground, keep the etched line and add cross-hatching for the shadow."
+      },
+      {
+        "request": "more velvet",
+        "toward": "mezzotint-print",
+        "how": "Rock the whole plate so that the darks are deep, and scrape the lights."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2A2622",
+      "options": [
+        "#2A2622",
+        "#5B4636",
+        "#1F2A36"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E4D8BC",
+      "options": [
+        "#E4D8BC",
+        "#EBE2CC",
+        "#D9CAA6"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 120,
+      "min": 80,
+      "max": 160
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Aquatint",
+      "url": "https://en.wikipedia.org/wiki/Aquatint"
+    },
+    {
+      "title": "Wikipedia: Francisco Goya",
+      "url": "https://en.wikipedia.org/wiki/Francisco_Goya"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schema/technique.schema.json",
+  "id": "photogravure",
+  "name": "Photogravure",
+  "aliases": [
+    "Talbot-Klič process",
+    "Heliogravure"
+  ],
+  "kind": "process",
+  "summary": "A way to etch a photograph into a copper plate. The print has the full range of tones of the photograph, in a rich intaglio ink.",
+  "how": [
+    "Expose a gelatin tissue under a positive; the light hardens the gelatin in proportion to its tone.",
+    "Transfer the tissue to a copper plate that has an aquatint grain of about 150 to the inch.",
+    "Etch the plate in baths of ferric chloride; the soft gelatin lets the acid bite deeper.",
+    "Print on damp paper with a copper-plate press, in a warm black or brown ink."
+  ],
+  "origin": {
+    "domain": "print",
+    "year": 1852,
+    "where": "England",
+    "note": "Henry Fox Talbot patented his photographic engraving in 1852.",
+    "styles": [
+      "photogravure-print"
+    ]
+  },
+  "adoptions": [
+    {
+      "domain": "print",
+      "year": 1878,
+      "via": "Karel Klíč makes the mature Talbot-Klič process, which stays in use.",
+      "styles": [
+        "photogravure-print"
+      ]
+    },
+    {
+      "domain": "photography",
+      "year": 1903,
+      "via": "Alfred Stieglitz prints the plates of Camera Work as photogravures.",
+      "styles": [
+        "pictorialism"
+      ]
+    }
+  ],
+  "styles": [
+    "photogravure-print",
+    "pictorialism"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Photogravure",
+      "url": "https://en.wikipedia.org/wiki/Photogravure"
+    },
+    {
+      "title": "Wikipedia: Camera Work",
+      "url": "https://en.wikipedia.org/wiki/Camera_Work"
+    }
+  ]
+}

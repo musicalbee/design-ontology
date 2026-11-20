@@ -1,0 +1,241 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "wood-engraving-print",
+  "domain": "print",
+  "name": "End-grain wood engraving",
+  "aliases": [
+    "Holzstich (German)",
+    "gravure sur bois de bout (French)",
+    "white-line engraving"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1790,
+    "end": 1950,
+    "label": "1790–1950"
+  },
+  "region": "Newcastle, London, New York",
+  "summary": "A burin cuts lines into a boxwood end-grain block, which is inked on the surface and printed with type. The cut becomes a white line on black, and fine parallel hatching gives the grey tones of Victorian magazines.",
+  "philosophy": {
+    "core_thesis": "A burin on the end grain of boxwood cuts white lines in a black block, so that fine tone and exact detail print with type.",
+    "design_principles": [
+      "Think in white lines: each cut makes a white mark, and the uncut wood prints black.",
+      "Build tone with parallel cuts of 0.1–0.4 mm; widen the cuts to lighten a tone.",
+      "Use a tint tool to rule even grey skies and backgrounds, at about 100 lines an inch.",
+      "Print the block at type height, so that the picture sits in the text page with no join.",
+      "Keep the picture to one black ink; add colour only as a flat tint from a second block.",
+      "Join several blocks with bolts for a large picture, and place the joins in a quiet area."
+    ],
+    "anti_patterns": [
+      "Gouge cuts with the coarse grain of a side-grain woodcut",
+      "Soft grey wash or a photographic tone",
+      "Halftone dots",
+      "Thick contour lines with no fine hatching",
+      "Colour that fills the picture"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 1,
+    "registration_play": 1,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Boxwood end-grain block, type height (about 23.3 mm)",
+    "press": "Letterpress, platen or cylinder, often via electrotype",
+    "image_making": "Burin and tint tools cut white lines; large blocks bolted from several pieces for double-page cuts",
+    "edition": "Tens of thousands via electrotypes"
+  },
+  "inks": {
+    "strategy": "One black letterpress ink, as for the text; the type and the picture print in the same pass.",
+    "ink_count_min": 1,
+    "ink_count_max": 1,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Letterpress black",
+        "hex": "#1C1B1A",
+        "role": "only ink"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 100,
+    "angles": [
+      45
+    ],
+    "rule": "Make a mid-tone with parallel white lines, 60–100 lines an inch; cross a second set at 60° only in the deepest shadow."
+  },
+  "registration": {
+    "tolerance_mm": 0,
+    "rule": "The block prints with the type in one pass, so no register is needed; a tint block can shift 0.3 mm."
+  },
+  "substrate": {
+    "stock": "Machine-made wove paper or newsprint, off-white.",
+    "weight_gsm_min": 60,
+    "weight_gsm_max": 90,
+    "ground": "#E7DEC8",
+    "finish": "Smooth wove, with a slight tooth from the machine felt."
+  },
+  "surface": {
+    "impression": "A slight impression from the type pressure; the lines show on the back as a faint emboss.",
+    "sheen": "Matt black; a dense block can show a faint shine.",
+    "texture": "Very fine, even lines, with sharp edges and no grain from the wood."
+  },
+  "artefacts": {
+    "marks": [
+      "fine white-line hatching",
+      "dense black cross-hatch",
+      "slight impression from type pressure",
+      "block joins in large cuts",
+      "tint-tool ruled sky tones"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "wood engraving",
+      "Bewick vignette",
+      "white-line hatching",
+      "Victorian illustrated press",
+      "boxwood end-grain cut",
+      "black ink on off-white",
+      "fine parallel tint lines",
+      "tailpiece vignette"
+    ],
+    "negative": [
+      "colour",
+      "halftone dots",
+      "photograph",
+      "soft gradient",
+      "brush texture"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Woodcock, from Bewick's History of British Birds: Water Birds",
+      "kind": "image",
+      "maker": "Thomas Bewick",
+      "year": 1804,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Brief_History_of_Wood-engraving_Bewick_Woodcock.png",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/54/Brief_History_of_Wood-engraving_Bewick_Woodcock.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "(Horses) Waiting for Death",
+      "kind": "image",
+      "maker": "Thomas Bewick",
+      "year": 1832,
+      "credit": "Yale Center for British Art, via Wikimedia Commons",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Thomas_Bewick_-_(Horses)_Waiting_for_Death_-_B1985.36.269_-_Yale_Center_for_British_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Thomas_Bewick_-_%28Horses%29_Waiting_for_Death_-_B1985.36.269_-_Yale_Center_for_British_Art.jpg/960px-Thomas_Bewick_-_%28Horses%29_Waiting_for_Death_-_B1985.36.269_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "engraving-print"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Exact, nineteenth-century trust: the viewer reads a news picture or a natural-history plate with precise detail.",
+    "keywords": [
+      "exact",
+      "victorian",
+      "fine",
+      "engraved",
+      "documentary"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "explorer",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "wood engraving",
+      "white line engraving",
+      "bewick style",
+      "victorian illustration",
+      "boxwood engraving",
+      "tailpiece vignette",
+      "illustrated london news style",
+      "end grain print"
+    ],
+    "use_cases": [
+      "book illustration and vignettes",
+      "magazine and newspaper features with a period look",
+      "natural-history plates",
+      "heritage labels and packaging"
+    ],
+    "avoid_when": [
+      "The image needs solid colour fields.",
+      "The look should be rough and hand-gouged."
+    ],
+    "modifiers": [
+      {
+        "request": "rougher",
+        "toward": "woodcut-relief-print",
+        "how": "Use side-grain wood and a knife; cut thick lines and drop the fine tint lines."
+      },
+      {
+        "request": "more tone",
+        "toward": "engraving-print",
+        "how": "Switch to copper and lines that swell; keep one black ink and a plate mark."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1C1B1A",
+      "options": [
+        "#1C1B1A",
+        "#2B2A28",
+        "#1B2433"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E7DEC8",
+      "options": [
+        "#E7DEC8",
+        "#F0E9D6",
+        "#D8CFB4"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 2
+    },
+    "screen_ruling": {
+      "default": 100,
+      "min": 60,
+      "max": 140
+    },
+    "misregistration": {
+      "default": 0,
+      "min": 0,
+      "max": 0.3
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Wood engraving",
+      "url": "https://en.wikipedia.org/wiki/Wood_engraving"
+    },
+    {
+      "title": "Wikipedia: Thomas Bewick",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Bewick"
+    }
+  ]
+}

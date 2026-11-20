@@ -1,0 +1,235 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "battala-woodcut",
+  "domain": "print",
+  "name": "Battala woodcut",
+  "aliases": [
+    "Battala print",
+    "Bat-tala woodcut",
+    "Calcutta bazaar woodcut"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1816,
+    "end": 1900,
+    "label": "c.1816–c.1900"
+  },
+  "region": "Calcutta (Kolkata), India",
+  "summary": "A cheap woodcut sheet from the Battala bazaar quarter of Calcutta. Local craftsmen cut a bold black outline, often to copy a painted original, and printed it with type on thin country paper.",
+  "philosophy": {
+    "core_thesis": "A cheap wood block with a bold line can put a sacred or comic story in the hands of a bazaar crowd.",
+    "design_principles": [
+      "Cut a strong, even outline in wood and keep the line 0.5–1.5 mm wide.",
+      "Fill large shapes with a flat colour, applied by hand or by a second block.",
+      "Show gods, village scenes and city satire, with the main figure at the centre.",
+      "Print the verse or the title in Bengali type on the same sheet.",
+      "Use thin country paper; do not hide its fibre.",
+      "Keep the hatch short and sparse, in the style of a European wood engraving that the cutter had seen.",
+      "Accept a thick line, a blot and a shift of 1–2 mm between the black and the colour."
+    ],
+    "anti_patterns": [
+      "Smooth oil-like blend of the oleograph kind",
+      "Halftone dots",
+      "Fine engraved line with deep shadows",
+      "Gloss and varnish",
+      "A refined, balanced European layout"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 1,
+    "registration_play": 3,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A block of hard wood, cut along or across the grain.",
+    "press": "A hand letterpress or a hand-rubbed print.",
+    "image_making": "A Bengali craftsman cuts the block, often from a painted or a European original.",
+    "edition": "Thousands of sheets from one block."
+  },
+  "inks": {
+    "strategy": "One black ink for the outline; red and other colours are added by hand or by a second block.",
+    "ink_count_min": 1,
+    "ink_count_max": 3,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#1F1A16",
+        "role": "outline and type"
+      },
+      {
+        "name": "Hand-applied red",
+        "hex": "#B8322A",
+        "role": "robes and borders"
+      },
+      {
+        "name": "Ochre yellow",
+        "hex": "#D9A83A",
+        "role": "skin and ornament"
+      }
+    ]
+  },
+  "screening": {
+    "method": "line",
+    "ruling_lpi": 0,
+    "rule": "Draw all form as an outline with sparse short hatch; make no tone with a screen."
+  },
+  "registration": {
+    "tolerance_mm": 1.5,
+    "rule": "The colour is often applied by hand, so it can sit 1–2 mm off the outline."
+  },
+  "substrate": {
+    "stock": "A thin country paper, cream, with a coarse fibre.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 80,
+    "ground": "#E6D9B8",
+    "finish": "Uncoated and rough, matt."
+  },
+  "surface": {
+    "impression": "A light bite on the soft paper, with the type pressed in a little.",
+    "sheen": "Matt black ink.",
+    "texture": "Thick outline with a visible wood grain and thin, sparse hatch."
+  },
+  "artefacts": {
+    "marks": [
+      "bold black outline",
+      "hand colour wash",
+      "type and picture on one sheet",
+      "wood grain in the black",
+      "coarse paper fibre",
+      "blots and uneven ink"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Battala woodcut",
+      "Bengali bazaar print",
+      "bold black outline",
+      "flat hand-applied red and ochre",
+      "thin cream country paper",
+      "Calcutta 19th century",
+      "Bengali type verse",
+      "sacred and satirical scene"
+    ],
+    "negative": [
+      "halftone",
+      "smooth blend",
+      "glossy paper",
+      "fine engraving",
+      "photograph"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Durga slays Mahishasura, Battala woodcut",
+      "kind": "image",
+      "maker": "unknown Battala printer",
+      "year": 1860,
+      "credit": "Victoria and Albert Museum (O102043) via Wikimedia Commons. The Commons file name says Jagannath; the print shows Durga.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:BattalaJagannath.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/03/BattalaJagannath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Warm, plain humour and faith: the viewer sees a lively bazaar sheet.",
+    "keywords": [
+      "folk",
+      "devotional",
+      "satirical",
+      "earthy",
+      "lively"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "battala woodcut",
+      "bengali woodcut",
+      "calcutta bazaar print",
+      "bengal folk print",
+      "indian woodcut god",
+      "19th century bengali print",
+      "kolkata folk art",
+      "hand-coloured woodcut"
+    ],
+    "use_cases": [
+      "book and album covers with a Bengali theme",
+      "festival and food packaging",
+      "editorial images for South Asian history",
+      "folk-style posters"
+    ],
+    "avoid_when": [
+      "The brief asks for a polished, glossy or photographic image.",
+      "The subject needs tonal depth."
+    ],
+    "modifiers": [
+      {
+        "request": "richer and glossier",
+        "toward": "ravi-varma-oleograph",
+        "how": "Replace the outline with a smooth painted blend in 6–10 colour stones and add a gloss varnish."
+      },
+      {
+        "request": "more engraved",
+        "toward": "engraving-print",
+        "how": "Replace the thick outline with fine parallel hatch and a tone built from line."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1F1A16",
+      "options": [
+        "#1F1A16",
+        "#2A1E16"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E6D9B8",
+      "options": [
+        "#E6D9B8",
+        "#EFE4C8",
+        "#DCCBA0"
+      ]
+    },
+    "ink_count": {
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.5,
+      "min": 0.5,
+      "max": 2.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Battala (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Battala"
+    },
+    {
+      "title": "Battala woodcut Jagannath (Commons, V&A)",
+      "url": "https://commons.wikimedia.org/wiki/File:BattalaJagannath.jpg"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "senjafuda-slip",
+  "domain": "print",
+  "name": "Senjafuda pilgrim name slip",
+  "aliases": [
+    "Senjafuda",
+    "千社札",
+    "Nosatsu",
+    "Pilgrim slip"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1799,
+    "end": 1950,
+    "label": "1799–1950s"
+  },
+  "region": "Edo (Tokyo), Japan",
+  "summary": "Pilgrims pasted small woodblock name slips on shrine gates. Collectors later swapped decorated slips in clubs, and artists such as Hiroshige designed slips in many colours. Each slip is 58 mm by 173 mm.",
+  "philosophy": {
+    "core_thesis": "A name on a slip of paper can be a prayer, a signature and a small piece of art at the same time.",
+    "design_principles": [
+      "Print a slip of 58 mm by 173 mm, a ratio of 1:3, with a frame about 48 mm by 144 mm.",
+      "Set the name in bold lettering in a block of one colour, and make it the largest mark on the slip.",
+      "Add an ornamental border, and one small image such as a wave, a crest, a flower or a mythical beast.",
+      "Use 2–8 colours, in vermilion, indigo and black, with a transparent overprint.",
+      "Print on small sheets of washi with a baren, in runs of several hundred slips.",
+      "For an exchange slip, add the club name and the year, and a design that fits the event.",
+      "Make the slip so that a person can paste it on a gate, with the name still easy to read."
+    ],
+    "anti_patterns": [
+      "A large landscape or a poster format",
+      "Halftone dots or a photograph",
+      "A smooth gradient",
+      "A name too small to read at a distance",
+      "A three-dimensional effect"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 2,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Small cherry-wood blocks, with one for each colour and one for the name and the frame.",
+    "press": "No press. A printer rubs the back of the small slip with a baren by hand.",
+    "image_making": "A pilgrim or a club orders a name and an ornament. A professional artist sometimes designs the slip, and a carver cuts it.",
+    "edition": "Several hundred small slips."
+  },
+  "inks": {
+    "strategy": "Water-based pigment on small blocks. The name block prints first, in black, then 1–7 colour blocks.",
+    "ink_count_min": 2,
+    "ink_count_max": 8,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#232323",
+        "role": "lettering"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#D14A34",
+        "role": "ground"
+      },
+      {
+        "name": "Indigo",
+        "hex": "#2C4A7B",
+        "role": "ground"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each area a flat colour. The style has no gradation and no screen."
+  },
+  "registration": {
+    "tolerance_mm": 0.4,
+    "rule": "Keep each colour within 0.4 mm of the name block, because the slip is small and an error shows."
+  },
+  "substrate": {
+    "stock": "A small slip of washi, 58 mm by 173 mm, that carries a paste on the back for use.",
+    "weight_gsm_min": 30,
+    "weight_gsm_max": 60,
+    "ground": "#EEE4CC",
+    "finish": "Thin and soft, with a plain face."
+  },
+  "surface": {
+    "impression": "Light. The baren leaves a faint rub on the back.",
+    "sheen": "Matt paper, with no gloss.",
+    "texture": "Flat colour and bold lettering with a fine paper fibre."
+  },
+  "artefacts": {
+    "marks": [
+      "name lettering in bold script",
+      "small format of 58 mm by 173 mm",
+      "ornamental border",
+      "paste on the back",
+      "exchange-club mark and year"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "senjafuda pilgrim slip",
+      "small woodblock name slip",
+      "bold name lettering",
+      "ornamental border",
+      "vermilion and indigo",
+      "pasted on a shrine gate",
+      "Edo period ephemera",
+      "tiny format"
+    ],
+    "negative": [
+      "halftone",
+      "photograph",
+      "gradient",
+      "large landscape",
+      "3D"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Senjafuda designed by Hiroshige",
+      "kind": "image",
+      "maker": "Utagawa Hiroshige",
+      "year": 1842,
+      "credit": "Wikimedia Commons (public domain)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Hiroshige_senjafuda.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Hiroshige_senjafuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Senjafuda on the Niomon gate of Risshaku-ji",
+      "kind": "image",
+      "maker": "Emily Jiang",
+      "year": 2017,
+      "credit": "Emily Jiang, Wikimedia Commons (a photo of slips on a gate)",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Senjafuda_(37092741792).jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Senjafuda_%2837092741792%29.jpg/960px-Senjafuda_%2837092741792%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nishiki-e-polychrome-woodblock"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "A small, bright, social pleasure: the viewer sees the mark of a person who passed this gate, and of a club that traded its slips.",
+    "keywords": [
+      "ornamental",
+      "tiny",
+      "devout",
+      "playful",
+      "collectible"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "senjafuda",
+      "japanese pilgrim slip",
+      "shrine name sticker",
+      "nosatsu",
+      "japanese name label print",
+      "edo ephemera",
+      "woodblock name card"
+    ],
+    "use_cases": [
+      "stickers and labels",
+      "business and name cards",
+      "small collectible sets",
+      "packs with a hand-made look"
+    ],
+    "avoid_when": [
+      "The brief needs a large picture or a landscape.",
+      "The picture needs fine tone or a photograph."
+    ],
+    "modifiers": [
+      {
+        "request": "more luxurious",
+        "toward": "surimono-print",
+        "how": "Add embossing and metal dust, and use thick washi and a verse beside the image."
+      },
+      {
+        "request": "more pictorial",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Enlarge the sheet to a standard print, and replace the name by a scene with a bokashi sky."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#232323",
+      "options": [
+        "#232323",
+        "#2B2B2E",
+        "#3A2A24"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EEE4CC",
+      "options": [
+        "#EEE4CC",
+        "#F2EAD6",
+        "#E8DCBF"
+      ]
+    },
+    "ink_count": {
+      "default": 4,
+      "min": 2,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.4,
+      "min": 0,
+      "max": 1.0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Senjafuda",
+      "url": "https://en.wikipedia.org/wiki/Senjafuda"
+    },
+    {
+      "title": "Wikimedia Commons: Category Senjafuda",
+      "url": "https://commons.wikimedia.org/wiki/Category:Senjafuda"
+    }
+  ]
+}

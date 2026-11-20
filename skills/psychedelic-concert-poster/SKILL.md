@@ -170,7 +170,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`xerox-zine`](../xerox-zine/SKILL.md)
 - **Mixes well with:** [`pop-screen-print`](../pop-screen-print/SKILL.md)
 - **Kin in another domain:** [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`deepdream-psychedelia`](../deepdream-psychedelia/SKILL.md), [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md), [`psychedelic`](../psychedelic/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
-- **Nearest by vector profile:** [`pochoir-plate`](../pochoir-plate/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
+- **Nearest by vector profile:** [`mir-iskusstva-book-graphics`](../mir-iskusstva-book-graphics/SKILL.md), [`pochoir-plate`](../pochoir-plate/SKILL.md), [`nishiki-e-polychrome-woodblock`](../nishiki-e-polychrome-woodblock/SKILL.md)
 
 ## Emotional target
 

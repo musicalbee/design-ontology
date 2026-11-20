@@ -1,0 +1,258 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "sosaku-hanga-print",
+  "domain": "print",
+  "name": "Sosaku-hanga creative print",
+  "aliases": [
+    "Sosaku-hanga",
+    "創作版画",
+    "Creative print",
+    "Self-carved, self-printed print"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1904,
+    "end": 1970,
+    "label": "1904–1970"
+  },
+  "region": "Japan",
+  "summary": "The artist draws, cuts and prints the block alone, and so rejects the three trades of the ukiyo-e shop. The result is a bold cut, an individual block, abstract shape and visible tool marks.",
+  "philosophy": {
+    "core_thesis": "A print is art when one person makes the whole of it, from the drawing to the last rub of the baren.",
+    "design_principles": [
+      "Cut the block yourself. Leave the gouge and knife marks in the print.",
+      "Use 1–8 inks, and choose them with the cut: a large black mass, a field of red, a ground of blue-grey.",
+      "Use the grain of the plank or the plywood as a texture, not a fault.",
+      "Print the ink unevenly, 0.5–1.5 mm out of register in places, and keep the shift.",
+      "Allow abstract shape, or a strong, simple figure, with no soft gradation.",
+      "Sign in pencil in the margin, and write the edition number (for example 12/30).",
+      "Print on washi or on thin machine paper with a baren or a small press."
+    ],
+    "anti_patterns": [
+      "A polished, even gradation in the manner of a commercial print",
+      "A carver and a printer who are not the artist",
+      "Halftone or a photographic tone",
+      "An airbrushed or vector-clean edge",
+      "Pretty detail with no cut mark"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 2,
+    "registration_play": 3,
+    "surface_relief": 2,
+    "hand_trace": 5
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "A plank, plywood or sometimes linoleum, cut by the artist with a knife and gouges.",
+    "press": "A baren or a spoon by hand, or a small press.",
+    "image_making": "One artist draws, cuts and prints. No publisher sets the subject.",
+    "edition": "Small numbered editions, often 10–50 sheets."
+  },
+  "inks": {
+    "strategy": "Water-based or oil-based ink, 1–8 passes, mixed by the artist. The black block prints the mass, and the colour blocks print on or beside it.",
+    "ink_count_min": 1,
+    "ink_count_max": 8,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Black sumi",
+        "hex": "#1E1E22",
+        "role": "key block and mass"
+      },
+      {
+        "name": "Deep red",
+        "hex": "#A5352B",
+        "role": "accent"
+      },
+      {
+        "name": "Blue-grey",
+        "hex": "#5A6C8A",
+        "role": "ground"
+      },
+      {
+        "name": "Mustard",
+        "hex": "#C9A03F",
+        "role": "field"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with a flat mass of ink or a field of cut lines. The style has no screen."
+  },
+  "registration": {
+    "tolerance_mm": 1.0,
+    "rule": "Allow 0.5–1.5 mm of shift between the inks, and keep it as the sign of the hand."
+  },
+  "substrate": {
+    "stock": "Washi, or a thin machine-made paper.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 100,
+    "ground": "#EDE3CC",
+    "finish": "Soft and absorbent, with no coating."
+  },
+  "surface": {
+    "impression": "Light to medium. A hard rub leaves the line of the block on the back.",
+    "sheen": "Matt, with a slight shine where the ink is thick.",
+    "texture": "Visible wood grain, gouge marks, and ink that is thick in one place and thin in another."
+  },
+  "artefacts": {
+    "marks": [
+      "gouge and knife marks left visible",
+      "wood grain in solids",
+      "uneven ink",
+      "pencil signature and edition number in the margin",
+      "colour shift of 0.5–1.5 mm"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Japanese creative woodblock print",
+      "bold gouge marks",
+      "abstract shapes",
+      "uneven hand-printed ink",
+      "visible wood grain",
+      "limited palette",
+      "pencil signature in the margin",
+      "expressive cut line"
+    ],
+    "negative": [
+      "ukiyo-e polished gradation",
+      "halftone",
+      "photographic",
+      "vector clean",
+      "airbrush"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Mother and Child",
+      "kind": "image",
+      "maker": "Onchi Koshiro",
+      "year": 1915,
+      "credit": "Wikimedia Commons (Honolulu Museum of Art)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mother_and_Child_by_Onchi_K%C5%8Dshir%C5%8D,_1915,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mother_and_Child_by_Onchi_K%C5%8Dshir%C5%8D%2C_1915%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Fisherman",
+      "kind": "image",
+      "maker": "Yamamoto Kanae",
+      "year": 1906,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1960.122",
+      "file": "https://openaccess-cdn.clevelandart.org/1960.122/1960.122_web.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [
+      "nishiki-e-polychrome-woodblock"
+    ],
+    "hybridized_with": [],
+    "echoes": [
+      "expressionism-painting"
+    ]
+  },
+  "emotion": {
+    "target_response": "The force of one hand: the viewer feels that a person cut this block, and that the person had something to say.",
+    "keywords": [
+      "raw",
+      "personal",
+      "bold",
+      "modern",
+      "expressive"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "sosaku-hanga",
+      "creative print japan",
+      "onchi koshiro",
+      "modern japanese woodblock",
+      "abstract woodblock print",
+      "hand-cut japanese print",
+      "gouge marks print"
+    ],
+    "use_cases": [
+      "album and book covers",
+      "gallery posters",
+      "editorial art with a personal voice",
+      "limited-edition art prints"
+    ],
+    "avoid_when": [
+      "The brief needs a soft, polished Edo or shin-hanga finish.",
+      "The message needs exact register and a clean, regular edge."
+    ],
+    "modifiers": [
+      {
+        "request": "softer and more scenic",
+        "toward": "shin-hanga-print",
+        "how": "Add tonal blocks and wiped gradations, keep a thin key line, and bring the register to 0.2 mm."
+      },
+      {
+        "request": "more European and harsh",
+        "toward": "expressionist-woodcut-print",
+        "how": "Cut deeper, use black and one raw colour, and keep the wood grain."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#1E1E22",
+      "options": [
+        "#1E1E22",
+        "#2B2B2E",
+        "#3A2E26"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EDE3CC",
+      "options": [
+        "#EDE3CC",
+        "#F1E9D6",
+        "#E4D9BF"
+      ]
+    },
+    "ink_count": {
+      "default": 3,
+      "min": 1,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.0,
+      "min": 0.3,
+      "max": 2.0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Sōsaku-hanga",
+      "url": "https://en.wikipedia.org/wiki/Sōsaku-hanga"
+    },
+    {
+      "title": "Wikipedia: Kanae Yamamoto",
+      "url": "https://en.wikipedia.org/wiki/Kanae_Yamamoto"
+    },
+    {
+      "title": "Cleveland Museum of Art Open Access API",
+      "url": "https://openaccess-api.clevelandart.org/"
+    }
+  ]
+}

@@ -168,7 +168,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Kin in another domain:** [`art-deco-interior`](../art-deco-interior/SKILL.md), [`art-deco-web`](../art-deco-web/SKILL.md), [`fauvism`](../fauvism/SKILL.md)
-- **Nearest by vector profile:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md), [`ben-day-comic-print`](../ben-day-comic-print/SKILL.md)
+- **Nearest by vector profile:** [`psychedelic-concert-poster`](../psychedelic-concert-poster/SKILL.md), [`nishiki-e-polychrome-woodblock`](../nishiki-e-polychrome-woodblock/SKILL.md), [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 
 ## Emotional target
 

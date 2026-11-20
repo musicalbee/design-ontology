@@ -1,0 +1,266 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "meiji-kosen-ga-print",
+  "domain": "print",
+  "name": "Meiji kosen-ga and aniline-red woodblock print",
+  "aliases": [
+    "Kosen-ga",
+    "光線画",
+    "Kaika-e",
+    "開化絵",
+    "Meiji aniline red print"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1868,
+    "end": 1912,
+    "label": "1868–1912"
+  },
+  "region": "Tokyo and Yokohama, Japan",
+  "summary": "Early Meiji prints used imported synthetic (aniline) dye in hot reds and purples. Kiyochika's kosen-ga later added Western light and shadow to night scenes of gas lamps, trains and ships.",
+  "philosophy": {
+    "core_thesis": "A woodblock print can show the new Japan, with its trains, brick streets and gas light, if it takes the hard colour and the deep shadow of the West.",
+    "design_principles": [
+      "Print the sky in a strong aniline red or violet, with a wiped gradation to blue at the horizon.",
+      "Put the light source in the picture: a gas lamp, a window, the sun on water. Let rays and cast shadow fall from it.",
+      "Use 4–10 blocks, and let the shadow be a block of dark blue or violet, not a hatched line.",
+      "Choose a subject from the new city: a steam train, a brick bank, a steamship, a street at night.",
+      "Draw the street in Western perspective with one vanishing point, on a block that a Japanese carver can cut.",
+      "Let the red bleed a little at the edge of the area. Do not hold it back.",
+      "Print large commercial runs, and keep the outline in thin sumi."
+    ],
+    "anti_patterns": [
+      "The pale, soft colour of an Edo print",
+      "A flat scene with no light source and no cast shadow",
+      "Halftone dots or a photograph",
+      "A clean, matt digital vector fill",
+      "A neat, restrained red that does not bleed"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 3,
+    "registration_play": 2,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Cherry-wood blocks, one for each colour and one for the key line.",
+    "press": "No press. A printer rubs the back of the sheet with a baren by hand.",
+    "image_making": "A designer draws, a carver cuts and a printer prints, as in the Edo shop. The subjects are the railway, gas light and the steamship.",
+    "edition": "Large commercial runs."
+  },
+  "inks": {
+    "strategy": "Imported synthetic dyes (aniline) in water, with traditional pigment for the rest. The key block prints first, then the colour blocks in 4–10 passes.",
+    "ink_count_min": 4,
+    "ink_count_max": 10,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Sumi black",
+        "hex": "#26242A",
+        "role": "key block outline"
+      },
+      {
+        "name": "Aniline red",
+        "hex": "#C3283C",
+        "role": "sky, flags and accents"
+      },
+      {
+        "name": "Aniline violet",
+        "hex": "#7A4D8F",
+        "role": "shadow"
+      },
+      {
+        "name": "Night blue",
+        "hex": "#2A3B64",
+        "role": "dusk gradation"
+      },
+      {
+        "name": "Gaslight yellow",
+        "hex": "#E8C25A",
+        "role": "lamp glow"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with a wiped gradation of 15–50 mm and with flat blocks of dark colour for shadow. The style has no screen."
+  },
+  "registration": {
+    "tolerance_mm": 0.7,
+    "rule": "Allow 0.5–1.0 mm of shift in the large commercial runs. The red may bleed over the edge."
+  },
+  "substrate": {
+    "stock": "Thin washi of mulberry fibre, with a cream-brown tone.",
+    "weight_gsm_min": 35,
+    "weight_gsm_max": 70,
+    "ground": "#E6D8B8",
+    "finish": "Unsized and absorbent, so the dye sinks in and bleeds a little."
+  },
+  "surface": {
+    "impression": "Light. The baren leaves a soft rub on the back.",
+    "sheen": "Matt. Some of the dyes have a slight shine when fresh.",
+    "texture": "Flat colour with a soft gradation, a bleed at some edges, and the fibres of thin washi."
+  },
+  "artefacts": {
+    "marks": [
+      "garish synthetic red that bleeds",
+      "lamp-lit shadows and rays",
+      "Western perspective in a block print",
+      "faded violet",
+      "thin sumi outline"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Meiji woodblock print",
+      "aniline red sky",
+      "gaslight night scene",
+      "kosen-ga light rays",
+      "steam train and brick street",
+      "bold synthetic red and purple",
+      "Western shading in a woodcut",
+      "aged washi"
+    ],
+    "negative": [
+      "Edo pastel",
+      "halftone",
+      "photograph",
+      "clean digital",
+      "matt flat vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Dawn at Kanda Shrine",
+      "kind": "image",
+      "maker": "Kobayashi Kiyochika",
+      "year": 1882,
+      "credit": "Wikimedia Commons (Honolulu Museum of Art)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Dawn_at_Kanda_Shrine_by_Kobayashi_Kiyochika,_1882,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Dawn_at_Kanda_Shrine_by_Kobayashi_Kiyochika%2C_1882%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/960px-Dawn_at_Kanda_Shrine_by_Kobayashi_Kiyochika%2C_1882%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Night Stalls at Asakusa",
+      "kind": "image",
+      "maker": "Kobayashi Kiyochika",
+      "year": 1881,
+      "credit": "Wikimedia Commons (Honolulu Museum of Art)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Night_Stalls_at_Asakusa_by_Kobayashi_Kiyochika,_1881,_woodblock_print,_Honolulu_Museum_of_Art.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Night_Stalls_at_Asakusa_by_Kobayashi_Kiyochika%2C_1881%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg/960px-Night_Stalls_at_Asakusa_by_Kobayashi_Kiyochika%2C_1881%2C_woodblock_print%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Tokyo kaika meisho",
+      "kind": "image",
+      "maker": "Nikutei Karyō (presumed Kobayashi Kiyochika) and Kawanabe Kyōsai",
+      "year": 1875,
+      "credit": "Wikimedia Commons (public domain). Published in 1875 (Meiji 8).",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:T%C5%8Dky%C5%8D_kaika_meish%C5%8D.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/T%C5%8Dky%C5%8D_kaika_meish%C5%8D.jpg/960px-T%C5%8Dky%C5%8D_kaika_meish%C5%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "nishiki-e-polychrome-woodblock"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Hot, strange novelty: the viewer feels a new city that glows red and violet at night.",
+    "keywords": [
+      "modern",
+      "garish",
+      "nocturnal",
+      "urban",
+      "theatrical"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "kosen-ga",
+      "meiji woodblock",
+      "kiyochika style",
+      "aniline red print",
+      "kaika-e",
+      "japanese gaslight print",
+      "meiji tokyo night print"
+    ],
+    "use_cases": [
+      "posters on Meiji and railway history",
+      "game and film art for a modernising Japan",
+      "editorial images on 19th-century Tokyo",
+      "record sleeves with a hot, night palette"
+    ],
+    "avoid_when": [
+      "The brief needs a soft, pale Edo look.",
+      "The picture needs a photographic tone."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer and softer",
+        "toward": "shin-hanga-print",
+        "how": "Keep the light and the shadow. Replace the aniline red with indigo and grey, and tighten the register to 0.2 mm."
+      },
+      {
+        "request": "more classic Edo",
+        "toward": "nishiki-e-polychrome-woodblock",
+        "how": "Remove the cast shadow and the perspective. Use mineral and plant pigment, and flat colour with a bokashi sky."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#26242A",
+      "options": [
+        "#26242A",
+        "#2A3B64",
+        "#3A2E3A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E6D8B8",
+      "options": [
+        "#E6D8B8",
+        "#EAD9B5",
+        "#DDCDA8"
+      ]
+    },
+    "ink_count": {
+      "default": 6,
+      "min": 4,
+      "max": 10
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.7,
+      "min": 0.2,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Kobayashi Kiyochika",
+      "url": "https://en.wikipedia.org/wiki/Kobayashi_Kiyochika"
+    },
+    {
+      "title": "Wikimedia Commons: Category Kobayashi Kiyochika",
+      "url": "https://commons.wikimedia.org/wiki/Category:Kobayashi_Kiyochika"
+    }
+  ]
+}

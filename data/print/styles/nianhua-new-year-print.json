@@ -1,0 +1,258 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "nianhua-new-year-print",
+  "domain": "print",
+  "name": "Chinese nianhua New Year woodblock print",
+  "aliases": [
+    "Nianhua",
+    "年画",
+    "Yangliuqing New Year picture",
+    "杨柳青年画",
+    "Taohuawu",
+    "桃花坞",
+    "Yangjiabu",
+    "杨家埠"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1600,
+    "end": 1950,
+    "label": "c.1600–1950s"
+  },
+  "region": "Yangliuqing (Tianjin), Suzhou, Weifang and other towns, China",
+  "summary": "Workshops print a key-block outline and fill it with colour blocks, and often add hand-painted colour. Yangliuqing sheets end with hand colour and painted faces. Other towns print bold and flat.",
+  "philosophy": {
+    "core_thesis": "A New Year picture works as a charm for the house, so it must be bright, full of good signs and cheap enough for every door.",
+    "design_principles": [
+      "Print a bold black key outline from a pear or jujube block. Keep the line 1–2 mm wide.",
+      "Use 3–8 colour blocks in vermilion, green, yellow and a late aniline magenta.",
+      "Fill the sheet with signs of luck: a door god, a fat child, a carp, a peony, a coin.",
+      "In Yangliuqing work, paint the faces and the hands over the print, with a fine brush and a white powder ground.",
+      "Add gold or lead-white on a robe or a flower, by hand, where the print needs a bright point.",
+      "Allow the colour to shift 1–2 mm from the outline. Keep the rough register.",
+      "Print thousands of sheets before the New Year, and paste them on doors and walls."
+    ],
+    "anti_patterns": [
+      "A soft gradient or a pale, literati colour set",
+      "Western perspective and cast shadow",
+      "Halftone dots or a photograph",
+      "A clean vector line with no cut mark",
+      "A quiet, empty composition with no sign of luck"
+    ]
+  },
+  "vectors": {
+    "tone_method": 1,
+    "ink_layering": 2,
+    "registration_play": 4,
+    "surface_relief": 1,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Blocks of pear or jujube wood, one for the outline and 3–8 for the colour.",
+    "press": "No press. A printer rubs the back of the sheet with a pad by hand. Some towns add hand colour after the print.",
+    "image_making": "Workshops split the work between the designer, the carver, the printer and the colourist, and hire out hand colour to village families.",
+    "edition": "Thousands of sheets for each design, sold before the New Year."
+  },
+  "inks": {
+    "strategy": "Water-based colour and ink. The outline prints first, then the colour blocks, and in some towns a brush adds colour over the print.",
+    "ink_count_min": 3,
+    "ink_count_max": 8,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#202020",
+        "role": "key outline"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#C8362B",
+        "role": "dominant red"
+      },
+      {
+        "name": "Mineral green",
+        "hex": "#4C8B5B",
+        "role": "robes"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#E9B93B",
+        "role": "accent"
+      },
+      {
+        "name": "Aniline magenta",
+        "hex": "#C73E7C",
+        "role": "late prints"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make each tone a flat field of one colour, or a hand-painted tint. The style has no screen."
+  },
+  "registration": {
+    "tolerance_mm": 1.5,
+    "rule": "Allow 1–2 mm of shift between the colour blocks and the outline."
+  },
+  "substrate": {
+    "stock": "Cheap paper, with a white powder ground in some towns.",
+    "weight_gsm_min": 30,
+    "weight_gsm_max": 70,
+    "ground": "#EFE2C0",
+    "finish": "Unsized, with a thin, matt surface."
+  },
+  "surface": {
+    "impression": "Light. The sheet is almost flat.",
+    "sheen": "Matt, with a small shine from the gold and the lead-white by hand.",
+    "texture": "Flat bright colour, hand-painted faces, and a rough paper fibre."
+  },
+  "artefacts": {
+    "marks": [
+      "hand-painted faces over the print",
+      "vivid vermilion",
+      "bold key lines",
+      "rough registration",
+      "gold and white by hand on robes"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Chinese nianhua New Year print",
+      "vermilion and green flat colour",
+      "hand-painted faces",
+      "door god woodblock",
+      "bold black key line",
+      "folk auspicious motifs",
+      "coarse registration",
+      "Yangliuqing style"
+    ],
+    "negative": [
+      "halftone",
+      "photographic",
+      "soft gradient",
+      "western perspective",
+      "clean vector"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Nianhua woodblock prints: door gods and deities",
+      "kind": "image",
+      "maker": "Various",
+      "credit": "Wikimedia Commons (The Metropolitan Museum of Art, Open Access)",
+      "licence": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:One_hundred_thirty-five_woodblock_prints_including_New_Year%27s_pictures_(nianhua),_door_gods,_historical_figures_and_Taoist_deities_MET_DP-17327-122.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/One_hundred_thirty-five_woodblock_prints_including_New_Year%27s_pictures_%28nianhua%29%2C_door_gods%2C_historical_figures_and_Taoist_deities_MET_DP-17327-122.jpg/960px-One_hundred_thirty-five_woodblock_prints_including_New_Year%27s_pictures_%28nianhua%29%2C_door_gods%2C_historical_figures_and_Taoist_deities_MET_DP-17327-122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "The Spirit of the Doors, colour woodblock nianhua",
+      "kind": "image",
+      "maker": "Unknown maker",
+      "year": 1900,
+      "credit": "Wikimedia Commons (public domain, a scan; the date is c.1900)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg/960px-1900s_Nianhua_The_Spirit_of_the_Doors_woodblock_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Loud, warm luck: the viewer feels a crowded, bright house at the New Year, with a charm on every door.",
+    "keywords": [
+      "festive",
+      "auspicious",
+      "bold",
+      "folk",
+      "joyful"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "jester"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "nianhua",
+      "chinese new year print",
+      "yangliuqing",
+      "door god woodblock",
+      "taohuawu print",
+      "chinese folk woodblock",
+      "lunar new year folk art"
+    ],
+    "use_cases": [
+      "Lunar New Year cards, packs and posters",
+      "packs for Chinese food and tea",
+      "folk-art editorial images",
+      "festival and shop windows"
+    ],
+    "avoid_when": [
+      "The brief needs a quiet, pale or literati colour set.",
+      "The picture needs fine gradation or a photographic tone."
+    ],
+    "modifiers": [
+      {
+        "request": "more delicate",
+        "toward": "ten-bamboo-studio-polychrome",
+        "how": "Thin the line, use pale colour with a graded wash, and add a dry-block emboss on the petals."
+      },
+      {
+        "request": "more Vietnamese and plain",
+        "toward": "dong-ho-folk-woodblock",
+        "how": "Reduce the colours to four plant colours on a shell-powder ground, and drop the hand colour."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#202020",
+      "options": [
+        "#202020",
+        "#2A2420",
+        "#3A2A24"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EFE2C0",
+      "options": [
+        "#EFE2C0",
+        "#F3E8CC",
+        "#E8D9B4"
+      ]
+    },
+    "ink_count": {
+      "default": 5,
+      "min": 3,
+      "max": 8
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 1.5,
+      "min": 0.5,
+      "max": 3.0
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Yangliuqing New Year pictures",
+      "url": "https://en.wikipedia.org/wiki/Yangliuqing_New_Year_pictures"
+    },
+    {
+      "title": "Wikimedia Commons: Category Nianhua",
+      "url": "https://commons.wikimedia.org/wiki/Category:Nianhua"
+    }
+  ]
+}

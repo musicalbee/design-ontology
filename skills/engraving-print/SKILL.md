@@ -170,10 +170,11 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **looser and freer**: move toward [`etching-print`](../etching-print/SKILL.md) (Etching). Draw the lines in a wax ground with a needle and bite them in acid; the line is even and free, not swelled.
 - If the user asks for **softer tone**: move toward [`mezzotint-print`](../mezzotint-print/SKILL.md) (Mezzotint). Rock the plate to a grain and scrape the lights, so the tone has no lines.
 
-- **Led to (go here for a newer version):** [`etching-print`](../etching-print/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
-- **Mixes well with:** [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
+- **Led to (go here for a newer version):** [`banknote-engraving-print`](../banknote-engraving-print/SKILL.md), [`drypoint-print`](../drypoint-print/SKILL.md), [`etching-print`](../etching-print/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md), [`narbut-ukrainian-graphics`](../narbut-ukrainian-graphics/SKILL.md), [`posada-broadside`](../posada-broadside/SKILL.md), [`stipple-engraving-print`](../stipple-engraving-print/SKILL.md)
+- **Was rejected by:** [`crayon-lithograph-print`](../crayon-lithograph-print/SKILL.md)
+- **Mixes well with:** [`russian-lubok-print`](../russian-lubok-print/SKILL.md), [`wood-engraving-print`](../wood-engraving-print/SKILL.md), [`woodcut-relief-print`](../woodcut-relief-print/SKILL.md)
 - **Kin in another domain:** [`didone-serif`](../didone-serif/SKILL.md), [`victorian-trademark`](../victorian-trademark/SKILL.md)
-- **Nearest by vector profile:** [`etching-print`](../etching-print/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md), [`mezzotint-print`](../mezzotint-print/SKILL.md)
+- **Nearest by vector profile:** [`etching-print`](../etching-print/SKILL.md), [`aquatint-print`](../aquatint-print/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md)
 
 ## Emotional target
 

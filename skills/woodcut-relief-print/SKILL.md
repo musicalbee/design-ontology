@@ -172,10 +172,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more expressive**: move toward [`expressionism-painting`](../expressionism-painting/SKILL.md) (Expressionism). Cut wider gouge marks, keep the wood grain, and let large black areas take the tone.
 - If the user asks for **in Japanese colour**: move toward [`ukiyo-e`](../ukiyo-e/SKILL.md) (Ukiyo-e). Use one key block for the line and a separate block for each flat colour, printed with water-based ink by hand.
 
-- **Led to (go here for a newer version):** [`private-press-book`](../private-press-book/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
+- **Led to (go here for a newer version):** [`battala-woodcut`](../battala-woodcut/SKILL.md), [`chiaroscuro-woodcut-print`](../chiaroscuro-woodcut-print/SKILL.md), [`chinese-modern-woodcut`](../chinese-modern-woodcut/SKILL.md), [`cordel-xilogravura`](../cordel-xilogravura/SKILL.md), [`dong-ho-folk-woodblock`](../dong-ho-folk-woodblock/SKILL.md), [`expressionist-woodcut-print`](../expressionist-woodcut-print/SKILL.md), [`linocut-print`](../linocut-print/SKILL.md), [`nianhua-new-year-print`](../nianhua-new-year-print/SKILL.md), [`nishiki-e-polychrome-woodblock`](../nishiki-e-polychrome-woodblock/SKILL.md), [`posada-broadside`](../posada-broadside/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md), [`russian-lubok-print`](../russian-lubok-print/SKILL.md), [`sosaku-hanga-print`](../sosaku-hanga-print/SKILL.md), [`taller-grafica-popular-linocut`](../taller-grafica-popular-linocut/SKILL.md), [`ten-bamboo-studio-polychrome`](../ten-bamboo-studio-polychrome/SKILL.md), [`wood-engraving-print`](../wood-engraving-print/SKILL.md), [`wood-type-poster`](../wood-type-poster/SKILL.md)
 - **Mixes well with:** [`engraving-print`](../engraving-print/SKILL.md)
 - **Kin in another domain:** [`blackletter`](../blackletter/SKILL.md), [`renaissance-painting`](../renaissance-painting/SKILL.md)
-- **Nearest by vector profile:** [`xerox-zine`](../xerox-zine/SKILL.md), [`private-press-book`](../private-press-book/SKILL.md), [`etching-print`](../etching-print/SKILL.md)
+- **Nearest by vector profile:** [`chinese-modern-woodcut`](../chinese-modern-woodcut/SKILL.md), [`narbut-ukrainian-graphics`](../narbut-ukrainian-graphics/SKILL.md), [`posada-broadside`](../posada-broadside/SKILL.md)
 
 ## Emotional target
 

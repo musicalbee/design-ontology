@@ -1,0 +1,278 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "nishiki-e-polychrome-woodblock",
+  "domain": "print",
+  "name": "Nishiki-e multi-block colour woodblock print",
+  "aliases": [
+    "Nishiki-e",
+    "錦絵",
+    "Brocade picture",
+    "Edo colour woodblock print"
+  ],
+  "era_id": "hand-press",
+  "time_period": {
+    "start": 1765,
+    "end": 1900,
+    "label": "1765–1900s"
+  },
+  "region": "Edo (Tokyo), Japan",
+  "summary": "A drawing is pasted on a cherry plank and cut by a carver. A printer rubs water-based pigment from one block for each colour onto damp washi with a baren. The colours are flat and soft, and the wood grain shows.",
+  "philosophy": {
+    "core_thesis": "A set of wood blocks, one for each colour, can make a full-colour picture when a printer rubs thin water-based colour into damp paper and keeps each block in register by hand.",
+    "design_principles": [
+      "Print a sumi key block first. Keep its line 0.2–0.5 mm wide and unbroken, so the carver can follow it.",
+      "Give each flat colour its own block. Use 3–12 blocks, and let the inks mix where two colours overlap.",
+      "Cut two L-shaped register marks (kento) on each block, so each colour lands on the key line within 0.5 mm.",
+      "Make a gradation (bokashi) by wiping the ink on the block with a damp cloth. Place it at the sky, the water and the hem of a robe.",
+      "Leave the wood grain in the large flat areas. Do not hide it with extra ink.",
+      "Press a bare, inkless block into the sheet (karazuri) where you need a raised line, for example on snow or a collar.",
+      "Print on thin damp washi, and rub the back with a baren in a circle until the colour sinks into the fibre."
+    ],
+    "anti_patterns": [
+      "A thick, even outline round each shape",
+      "A smooth digital gradient with no hand-wipe edge",
+      "A halftone dot or a photographic tone",
+      "Glossy, opaque, uniform ink",
+      "Perfect register with no kento shift or grain"
+    ]
+  },
+  "vectors": {
+    "tone_method": 2,
+    "ink_layering": 3,
+    "registration_play": 2,
+    "surface_relief": 2,
+    "hand_trace": 4
+  },
+  "process": {
+    "family": "relief",
+    "matrix": "Planks of mountain cherry (yamazakura), cut on both faces, with one block for each colour and a key block with kento register notches.",
+    "press": "No press. A printer rubs the back of the sheet with a baren, a disc of bamboo-sheath cord, by hand.",
+    "image_making": "A publisher commissions the work. The artist draws in ink, a carver cuts the key block, and a printer sets and prints the colour blocks.",
+    "edition": "A few hundred to several thousand sheets for each design, and the blocks can be recut for reprints."
+  },
+  "inks": {
+    "strategy": "Water-based pigment and rice paste. The key block prints first in sumi, then each colour block prints in turn from light to dark.",
+    "ink_count_min": 3,
+    "ink_count_max": 12,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Sumi black",
+        "hex": "#2B2B2E",
+        "role": "key block outline"
+      },
+      {
+        "name": "Prussian blue (bero-ai)",
+        "hex": "#1F3F78",
+        "role": "sky, water, bokashi gradation"
+      },
+      {
+        "name": "Beni red",
+        "hex": "#C2453B",
+        "role": "accents and garments"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#D9A74E",
+        "role": "flat fields"
+      },
+      {
+        "name": "Moss green",
+        "hex": "#7A8F5A",
+        "role": "foliage"
+      }
+    ]
+  },
+  "screening": {
+    "method": "solid",
+    "ruling_lpi": 0,
+    "rule": "Make a tone with a flat colour field or with a wiped bokashi gradation of 10–40 mm. The style has no hatching and no dot."
+  },
+  "registration": {
+    "tolerance_mm": 0.5,
+    "rule": "The kento marks hold each colour within 0.5 mm of the key line, and a small gap or overlap of colour at an edge is normal."
+  },
+  "substrate": {
+    "stock": "Hand-made washi of mulberry fibre (kozo), thin and damp when printed.",
+    "weight_gsm_min": 40,
+    "weight_gsm_max": 80,
+    "ground": "#EFE3C8",
+    "finish": "Unsized or lightly sized, with a soft surface and visible long fibres."
+  },
+  "surface": {
+    "impression": "Light. The baren leaves a faint circular sheen on the back, and an embossed (karazuri) line stands up in fine work.",
+    "sheen": "Matt, with a soft shine on burnished or mica areas.",
+    "texture": "Flat colour with the wood grain in it, soft wiped edges, and the long fibres of the paper."
+  },
+  "artefacts": {
+    "marks": [
+      "kento register shift",
+      "wood grain in flat areas",
+      "baren swirl on the back",
+      "embossing (karazuri) in fine work",
+      "bokashi gradation at block edges",
+      "fading of organic reds"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Japanese nishiki-e woodblock print",
+      "flat transparent colour blocks",
+      "soft bokashi gradient sky",
+      "visible wood grain",
+      "crisp sumi key line",
+      "washi paper texture",
+      "faded beni red and indigo",
+      "slight offset of colour registration"
+    ],
+    "negative": [
+      "photographic",
+      "halftone dots",
+      "glossy digital gradient",
+      "3D render",
+      "thick outline stroke"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "The Moon-Viewing Promontory",
+      "kind": "image",
+      "maker": "Utagawa Hiroshige",
+      "year": 1857,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1985.320",
+      "file": "https://openaccess-cdn.clevelandart.org/1985.320/1985.320_web.jpg"
+    },
+    {
+      "title": "Young Woman Looking at a Pot of Pinks",
+      "kind": "image",
+      "maker": "Suzuki Harunobu",
+      "year": 1767,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1985.304",
+      "file": "https://openaccess-cdn.clevelandart.org/1985.304/1985.304_web.jpg"
+    },
+    {
+      "title": "Driving Rain at Shono",
+      "kind": "image",
+      "maker": "Utagawa Hiroshige",
+      "year": 1833,
+      "credit": "Cleveland Museum of Art Open Access",
+      "licence": "CC0",
+      "url": "https://clevelandart.org/art/1948.306",
+      "file": "https://openaccess-cdn.clevelandart.org/1948.306/1948.306_web.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "woodcut-relief-print"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "ukiyo-e"
+    ]
+  },
+  "emotion": {
+    "target_response": "Calm, flat beauty: the viewer reads a soft, clear picture that many hands made, with a fine eye for season and weather.",
+    "keywords": [
+      "serene",
+      "flat",
+      "delicate",
+      "seasonal",
+      "crafted"
+    ],
+    "brand_archetypes": [
+      "sage",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "nishiki-e",
+      "ukiyo-e print",
+      "japanese woodblock print",
+      "edo woodblock",
+      "hokusai style print",
+      "hiroshige style",
+      "bokashi gradient",
+      "washi woodblock"
+    ],
+    "use_cases": [
+      "tea, sake and stationery labels",
+      "editorial images on Japan",
+      "travel posters",
+      "packs for craft goods"
+    ],
+    "avoid_when": [
+      "The picture needs a photographic tone or a sharp, glossy finish.",
+      "The brief needs a heavy, bold outline or a pop colour set."
+    ],
+    "modifiers": [
+      {
+        "request": "more modern and personal",
+        "toward": "sosaku-hanga-print",
+        "how": "Keep the block and the washi. Let one artist cut the block, show the gouge marks, and use fewer, bolder colours."
+      },
+      {
+        "request": "softer, with Western light",
+        "toward": "shin-hanga-print",
+        "how": "Keep the process. Add 8–12 tonal blocks and wiped gradations for rain, dusk and lamp light."
+      },
+      {
+        "request": "small and luxurious",
+        "toward": "surimono-print",
+        "how": "Reduce the sheet to a small square. Add embossing, metallic dust and a verse beside the image."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2B2B2E",
+      "options": [
+        "#2B2B2E",
+        "#1E1E24",
+        "#3A3228"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EFE3C8",
+      "options": [
+        "#EFE3C8",
+        "#F2E9D3",
+        "#E6D8B8"
+      ]
+    },
+    "ink_count": {
+      "default": 6,
+      "min": 3,
+      "max": 12
+    },
+    "screen_ruling": {
+      "default": 0,
+      "min": 0,
+      "max": 0
+    },
+    "misregistration": {
+      "default": 0.5,
+      "min": 0,
+      "max": 1.5
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Ukiyo-e",
+      "url": "https://en.wikipedia.org/wiki/Ukiyo-e"
+    },
+    {
+      "title": "Wikipedia: Woodblock printing in Japan",
+      "url": "https://en.wikipedia.org/wiki/Woodblock_printing_in_Japan"
+    },
+    {
+      "title": "Cleveland Museum of Art Open Access API",
+      "url": "https://openaccess-api.clevelandart.org/"
+    }
+  ]
+}

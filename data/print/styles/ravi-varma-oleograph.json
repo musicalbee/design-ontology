@@ -1,0 +1,264 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "ravi-varma-oleograph",
+  "domain": "print",
+  "name": "Ravi Varma oleograph",
+  "aliases": [
+    "Oleograph",
+    "Calendar art",
+    "Bazaar god print",
+    "Ravi Varma Press print"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1894,
+    "end": 1960,
+    "label": "c.1894–1960"
+  },
+  "region": "Mumbai and Lonavala, India",
+  "summary": "A god picture printed by stone lithography in many colours, for the home shrine and the shop wall. The oil-like gloss, the saturated colour and the smooth blend copy the paintings of Raja Ravi Varma.",
+  "philosophy": {
+    "core_thesis": "A lithograph in many colours can copy the smooth oil painting of a god and put it in every home for a few annas.",
+    "design_principles": [
+      "Copy a painted original: smooth modelling, a soft light and a figure in the centre.",
+      "Print 6–12 stones or plates, one for each colour, in transparent inks that blend.",
+      "Use vermilion, ultramarine, gold yellow and a warm flesh tone as the main inks.",
+      "Draw a halo, a crown and jewels with a gold-yellow ink and a thin dark line.",
+      "Put a plain title in Devanagari or English in a strip at the foot of the sheet.",
+      "Finish the sheet with an oil varnish for a deep gloss.",
+      "Keep the register within 0.5 mm so that the face and the eyes stay sharp."
+    ],
+    "anti_patterns": [
+      "A flat matt colour with no blend",
+      "A halftone dot that shows at reading distance",
+      "Rough or crude outline of the woodcut kind",
+      "A pale pastel palette without a strong red and blue",
+      "A sketch line with no painted modelling"
+    ]
+  },
+  "vectors": {
+    "tone_method": 4,
+    "ink_layering": 5,
+    "registration_play": 2,
+    "surface_relief": 1,
+    "hand_trace": 3
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "Limestone, later grained zinc or aluminium plates, one for each colour.",
+    "press": "A German-made flatbed lithographic press, then an oil varnish on the printed sheet.",
+    "image_making": "A craftsman draws each colour on its stone with crayon and tusche, working from a painted original.",
+    "edition": "Thousands to hundreds of thousands of sheets; the sheets match closely."
+  },
+  "inks": {
+    "strategy": "Six to twelve transparent inks that overprint and blend, with a gold yellow for ornament.",
+    "ink_count_min": 6,
+    "ink_count_max": 12,
+    "overprint": "transparent",
+    "colours": [
+      {
+        "name": "Deep brown-black",
+        "hex": "#2A1E1A",
+        "role": "the key stone: outline, hair and eyes"
+      },
+      {
+        "name": "Vermilion",
+        "hex": "#C8301E",
+        "role": "robes, borders and the mark on the brow"
+      },
+      {
+        "name": "Ultramarine",
+        "hex": "#2B3E8F",
+        "role": "the skin of Krishna and Vishnu, and the sky"
+      },
+      {
+        "name": "Gold yellow",
+        "hex": "#E4B238",
+        "role": "ornament and halo"
+      },
+      {
+        "name": "Flesh ochre",
+        "hex": "#D9A27A",
+        "role": "skin"
+      }
+    ]
+  },
+  "screening": {
+    "method": "grain",
+    "ruling_lpi": 100,
+    "rule": "Make the smooth blend with a fine crayon grain on the stone, at about 100 grains an inch, with no visible dot."
+  },
+  "registration": {
+    "tolerance_mm": 0.4,
+    "rule": "Each stone registers to pins; the shift stays at 0.2–0.6 mm and shows as a light rim round the face."
+  },
+  "substrate": {
+    "stock": "A smooth, coated or glazed paper, made for colour work and varnished after printing.",
+    "weight_gsm_min": 100,
+    "weight_gsm_max": 160,
+    "ground": "#EFE4C8",
+    "finish": "Coated and glazed, with an oil varnish on the face."
+  },
+  "surface": {
+    "impression": "No bite: the ink lies on the surface of the coated sheet.",
+    "sheen": "A deep oil gloss from the varnish, bright on the gold and the red.",
+    "texture": "A smooth blend with a faint stone grain in the shadows."
+  },
+  "artefacts": {
+    "marks": [
+      "glossy oil varnish",
+      "soft stone grain",
+      "title strip at the foot",
+      "light rim at colour edges",
+      "yellowed varnish with age",
+      "crazing of the varnish"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Indian oleograph god print",
+      "saturated vermilion and ultramarine",
+      "glossy varnished lithograph",
+      "devotional calendar art",
+      "gold ornament and halo",
+      "title strip at the foot",
+      "smooth painted blend",
+      "yellowed shrine print"
+    ],
+    "negative": [
+      "halftone dots",
+      "matt finish",
+      "flat vector",
+      "pencil sketch",
+      "muted pastel"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Tirumala Tirupati Mahakshetram, print from the Ravi Varma Press",
+      "kind": "image",
+      "maker": "Ravi Varma Press",
+      "year": 1910,
+      "credit": "Wikimedia Commons",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Tirumala_Tirupati_Mahakshetram,%22_a_religious_print_about_the_site_from_the_Ravi_Varma_Press,_c.1910%27s.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/33/%22Tirumala_Tirupati_Mahakshetram%2C%22_a_religious_print_about_the_site_from_the_Ravi_Varma_Press%2C_c.1910%27s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Ravi Varma Press Kali",
+      "kind": "image",
+      "maker": "Anant Shivaji Desai (Ravi Varma Press print)",
+      "credit": "Wikimedia Commons. Dated before 1945.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravi_Varma_Press_Kali.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ravi_Varma_Press_Kali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "title": "Vintage Bhim oleograph litho, Ravi Varma Press",
+      "kind": "image",
+      "maker": "Ravi Varma Press",
+      "credit": "Wikimedia Commons. The date is not known.",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Vintage_Bhim_oleograph_litho_Ravi_Varma_Press_B.jpg",
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Vintage_Bhim_oleograph_litho_Ravi_Varma_Press_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "chromolithograph-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Warmth and devotion: the viewer sees a bright shrine picture, rich and a little old-fashioned.",
+    "keywords": [
+      "devotional",
+      "glossy",
+      "saturated",
+      "nostalgic",
+      "ornate"
+    ],
+    "brand_archetypes": [
+      "caregiver",
+      "ruler",
+      "innocent"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "oleograph",
+      "indian calendar art",
+      "bazaar god poster",
+      "ravi varma print",
+      "hindu deity print",
+      "shrine picture",
+      "vintage indian lithograph",
+      "devotional chromolithograph"
+    ],
+    "use_cases": [
+      "packaging for tea and sweets",
+      "festival posters",
+      "heritage book covers",
+      "retro Indian shop signage"
+    ],
+    "avoid_when": [
+      "The subject is not a devotional or a narrative scene.",
+      "The image needs a rough, hand-cut folk line."
+    ],
+    "modifiers": [
+      {
+        "request": "rougher and folk",
+        "toward": "battala-woodcut",
+        "how": "Replace the blend with a thick black outline and flat hand-applied colour on cheap country paper."
+      },
+      {
+        "request": "more European",
+        "toward": "chromolithograph-poster",
+        "how": "Use a Paris poster layout with a large title and a lighter, more decorative figure."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#2A1E1A",
+      "options": [
+        "#2A1E1A",
+        "#1B1B3A"
+      ]
+    },
+    "paper_colour": {
+      "default": "#EFE4C8",
+      "options": [
+        "#EFE4C8",
+        "#F6EEDA"
+      ]
+    },
+    "ink_count": {
+      "default": 8,
+      "min": 6,
+      "max": 12
+    },
+    "screen_ruling": {
+      "default": 100,
+      "min": 60,
+      "max": 140
+    },
+    "misregistration": {
+      "default": 0.4,
+      "min": 0,
+      "max": 1
+    }
+  },
+  "sources": [
+    {
+      "title": "Raja Ravi Varma (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Raja_Ravi_Varma"
+    },
+    {
+      "title": "Commons category: Ravi Varma Press",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ravi_Varma_Press"
+    }
+  ]
+}

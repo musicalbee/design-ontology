@@ -1,0 +1,268 @@
+{
+  "$schema": "../../../schema/domains/print.schema.json",
+  "id": "constructivist-photomontage-poster",
+  "domain": "print",
+  "name": "Constructivist photomontage poster",
+  "aliases": [
+    "Soviet photomontage poster",
+    "Конструктивистский фотомонтажный плакат"
+  ],
+  "era_id": "industrial-press",
+  "time_period": {
+    "start": 1923,
+    "end": 1938,
+    "label": "1923–1938"
+  },
+  "region": "Moscow, USSR",
+  "summary": "Cut-out photographs are pasted with drawn shapes and big type, then copied by photo-lithography or by halftone blocks in two to four flat inks. The diagonals, the red and black blocks and the sans-serif capitals come from the montage and the spot colour.",
+  "philosophy": {
+    "core_thesis": "A poster made of real photographs, set on strong diagonals and printed in a few hard colours, speaks as a fact and not as a picture.",
+    "design_principles": [
+      "Cut each photograph to a hard edge and paste it on the layout; do not feather or blend it.",
+      "Set the main axis on a diagonal of 15–45° and let the figures lean along it.",
+      "Change the scale of the photographs sharply: a face as large as the sheet beside a crowd as small as a thumb.",
+      "Use 2–4 flat inks: red, black, cream paper and, in some sheets, ochre. Put the red in blocks and wedges.",
+      "Make the photographs with a coarse halftone of 50–80 lines an inch so that they print on cheap paper.",
+      "Set the slogan in heavy sans-serif capitals, in red or black, and give it a block of its own.",
+      "Use geometric shapes (circle, bar, wedge) as frames and as pointers, and leave no ornament."
+    ],
+    "anti_patterns": [
+      "Soft blends and drop shadows between photographs",
+      "A centred, symmetrical layout with no diagonal",
+      "Ornament, script type and floral borders",
+      "A fine halftone that looks like a photograph in a magazine",
+      "Pastel colours and gradients"
+    ]
+  },
+  "vectors": {
+    "tone_method": 3,
+    "ink_layering": 2,
+    "registration_play": 3,
+    "surface_relief": 1,
+    "hand_trace": 2
+  },
+  "process": {
+    "family": "planographic",
+    "matrix": "A photo-lithographic plate or a zinc halftone block, made from the pasted montage.",
+    "press": "A flatbed lithographic press or a letterpress machine at a state printing house.",
+    "image_making": "The designer cuts photographs and paper shapes and pastes them on a board. A camera copies the montage through a screen, and the colour plates are drawn by hand.",
+    "edition": "Thousands of sheets, all the same; the print is a machine copy of a hand-made master."
+  },
+  "inks": {
+    "strategy": "Opaque spot inks: a red for the blocks, a black for the photographs and the type, and sometimes an ochre, on a cream sheet.",
+    "ink_count_min": 2,
+    "ink_count_max": 4,
+    "overprint": "opaque",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#161616",
+        "role": "the photo tone and the type"
+      },
+      {
+        "name": "Red",
+        "hex": "#C8281E",
+        "role": "blocks, wedges and diagonals"
+      },
+      {
+        "name": "Ochre",
+        "hex": "#D3A23A",
+        "role": "a small accent"
+      }
+    ]
+  },
+  "screening": {
+    "method": "halftone",
+    "ruling_lpi": 65,
+    "angles": [
+      45,
+      75,
+      15
+    ],
+    "rule": "Screen each photograph at a coarse 50–80 lines an inch; the dots show at reading distance."
+  },
+  "registration": {
+    "tolerance_mm": 1,
+    "trap_mm": 0.3,
+    "rule": "The plates register within 1 mm. A small gap between the red block and the black photograph is normal."
+  },
+  "substrate": {
+    "stock": "A machine-made paper, cream or light grey, uncoated or with a light coat.",
+    "weight_gsm_min": 70,
+    "weight_gsm_max": 140,
+    "ground": "#E6DCC3",
+    "finish": "Matt and smooth, with a slight tooth; the paper yellows with age."
+  },
+  "surface": {
+    "impression": "No bite; a flat lithographic film of ink on the surface.",
+    "sheen": "Matt, with a slight sheen in the red solids.",
+    "texture": "Coarse halftone dots, hard cut edges of photographs and a faint grain in the large solids."
+  },
+  "artefacts": {
+    "marks": [
+      "coarse halftone dots",
+      "hard cut edges of photographs",
+      "diagonal bar layout",
+      "heavy sans-serif capitals in red",
+      "small gaps between inks",
+      "yellowed cream paper"
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "constructivist poster",
+      "photomontage cut-out photographs",
+      "red, black and cream palette",
+      "diagonal composition",
+      "bold sans-serif lettering",
+      "coarse halftone",
+      "1930 Soviet lithograph",
+      "hard-edged geometric shapes"
+    ],
+    "negative": [
+      "soft watercolour",
+      "vintage floral",
+      "3D render",
+      "gradient glow",
+      "ornate",
+      "centred symmetry"
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Under the banner of Lenin for socialist construction",
+      "kind": "image",
+      "maker": "Gustavs Klucis",
+      "year": 1930,
+      "credit": "Wikimedia Commons (public domain, Gustavs Klucis)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Under_the_banner_of_Lenin_for_socialist_construction_Poster_-_Gustavs_Klucis.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Under_the_banner_of_Lenin_for_socialist_construction_Poster_-_Gustavs_Klucis.jpg/960px-Under_the_banner_of_Lenin_for_socialist_construction_Poster_-_Gustavs_Klucis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Poster by Gustavs Klucis, CH-000957-X-9967",
+      "kind": "image",
+      "maker": "Gustavs Klucis",
+      "year": 1930,
+      "credit": "Wikimedia Commons (public domain, Gustavs Klucis)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CH-000957-X-9967_Klucis.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/CH-000957-X-9967_Klucis.jpg/960px-CH-000957-X-9967_Klucis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "Agricultural shock workers",
+      "kind": "image",
+      "maker": "Gustavs Klucis",
+      "year": 1932,
+      "credit": "Wikimedia Commons (public domain, Gustavs Klucis)",
+      "licence": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gustavs_Klucis-p%C3%B5llumajanduse_l%C3%B6%C3%B6kt%C3%B6%C3%B6lised.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gustavs_Klucis-p%C3%B5llumajanduse_l%C3%B6%C3%B6kt%C3%B6%C3%B6lised.jpg/960px-Gustavs_Klucis-p%C3%B5llumajanduse_l%C3%B6%C3%B6kt%C3%B6%C3%B6lised.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [
+      "rosta-window-stencil-poster"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "constructivism-web"
+    ]
+  },
+  "emotion": {
+    "target_response": "Hard, confident drive: the viewer feels a call to act, in a layout that leans forward and uses real faces.",
+    "keywords": [
+      "forceful",
+      "modern",
+      "agitational",
+      "geometric",
+      "dynamic"
+    ],
+    "brand_archetypes": [
+      "hero",
+      "ruler",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "constructivist poster",
+      "photomontage poster",
+      "soviet poster",
+      "klucis",
+      "rodchenko poster",
+      "red and black poster",
+      "diagonal poster layout",
+      "agitprop poster"
+    ],
+    "use_cases": [
+      "campaign and protest posters",
+      "event and exhibition posters",
+      "book and magazine covers",
+      "film posters"
+    ],
+    "avoid_when": [
+      "The message must feel soft, calm or luxurious.",
+      "The design uses no photographs and no strong diagonal."
+    ],
+    "modifiers": [
+      {
+        "request": "more hand-made",
+        "toward": "rosta-window-stencil-poster",
+        "how": "Replace the photographs with a painted figure in a thick black contour; keep the red, the black and the heavy caption."
+      },
+      {
+        "request": "more printed texture",
+        "toward": "ben-day-comic-print",
+        "how": "Change the photographic halftone for coarse flat dot tints; keep the flat red and black."
+      }
+    ]
+  },
+  "permutations": {
+    "key_ink": {
+      "default": "#161616",
+      "options": [
+        "#161616",
+        "#1F1B18"
+      ]
+    },
+    "paper_colour": {
+      "default": "#E6DCC3",
+      "options": [
+        "#E6DCC3",
+        "#EFE6D2",
+        "#DCD2BA"
+      ]
+    },
+    "ink_count": {
+      "default": 3,
+      "min": 2,
+      "max": 4
+    },
+    "screen_ruling": {
+      "default": 65,
+      "min": 45,
+      "max": 85
+    },
+    "misregistration": {
+      "default": 1,
+      "min": 0,
+      "max": 2
+    }
+  },
+  "sources": [
+    {
+      "title": "Gustav Klutsis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gustav_Klutsis"
+    },
+    {
+      "title": "Photomontage (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Photomontage"
+    },
+    {
+      "title": "Alexander Rodchenko (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Rodchenko"
+    }
+  ]
+}

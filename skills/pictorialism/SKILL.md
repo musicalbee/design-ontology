@@ -180,6 +180,15 @@ Small dots or strokes of pure colour placed side by side, so that the eye mixes 
 - Set complementary colours next to each other in the shadows.
 - Keep each dot under 0.5% of the picture width.
 
+### Photogravure (process)
+
+A way to etch a photograph into a copper plate. The print has the full range of tones of the photograph, in a rich intaglio ink. Origin: print, England, 1852.
+
+- Expose a gelatin tissue under a positive; the light hardens the gelatin in proportion to its tone.
+- Transfer the tissue to a copper plate that has an aquatint grain of about 150 to the inch.
+- Etch the plate in baths of ferric chloride; the soft gelatin lets the acid bite deeper.
+- Print on damp paper with a copper-plate press, in a warm black or brown ink.
+
 ## Organisations
 
 The groups, studios, companies, schools, channels and backers that carried this style.
@@ -206,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`fashion-editorial`](../fashion-editorial/SKILL.md)
 - **Was rejected by:** [`documentary-photography`](../documentary-photography/SKILL.md), [`group-f64`](../group-f64/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md)
-- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
+- **Kin in another domain:** [`impressionism`](../impressionism/SKILL.md), [`photogravure-print`](../photogravure-print/SKILL.md), [`victorian-interior`](../victorian-interior/SKILL.md)
 - **Nearest by vector profile:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`food-photography`](../food-photography/SKILL.md)
 
 ## Emotional target
