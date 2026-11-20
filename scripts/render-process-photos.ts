@@ -73,6 +73,8 @@ const todo = L.edges.map(({ edge: p }) => {
   return { key: p.process, file: processFile(p.process), prompt, expect };
 })
   .filter(({ key }) => !only || only.includes(key))
+  // A dropped process stays without a photo. Only --force, or --only with its key, renders it again.
+  .filter(({ key }) => !manifest.photos[key]?.dropped || force || only?.includes(key))
   .filter(({ key }) => !fails || (manifest.photos[key]?.file !== undefined && wrongSubject(manifest.photos[key]?.qa)) || (/-body$/.test(key) && manifest.photos[key]?.qa?.ok === false))
   .filter(({ key, file, prompt }) => force || fails || !existsSync(join(root, file)) || manifest.photos[key]?.prompt !== prompt);
 if (dry) { for (const { key, prompt } of todo) console.log(`${key}: ${prompt}\n`); console.log(`${todo.length} to render`); process.exit(0); }
