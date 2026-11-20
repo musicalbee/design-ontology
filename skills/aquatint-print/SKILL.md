@@ -124,7 +124,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** aquatint print · rosin grain tone · soft grey wash · etched line with aquatint · copper plate mark · Goya style print · burnished highlights · cream laid paper
+- **Positive:** aquatint print · rosin grain tone · soft grey wash · etched line with aquatint · copper plate mark · dark scenes of folly, witches and war · burnished highlights · cream laid paper
 - **Negative:** halftone dots · smooth digital gradient · colour photograph · woodcut · vector
 
 ## Techniques

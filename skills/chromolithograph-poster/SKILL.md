@@ -125,7 +125,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** Belle Époque poster · Jules Chéret lithograph · colour lithograph poster · crayon grain · spatter texture · dancing woman in motion · hand-drawn title lettering · red yellow and blue inks
+- **Positive:** Belle Époque poster · poster for a cabaret, a bicycle or a soap · colour lithograph poster · crayon grain · spatter texture · dancing woman in motion · hand-drawn title lettering · red yellow and blue inks
 - **Negative:** photograph · halftone dots · digital gradient · typeset sans-serif · muted brown palette
 
 ## Techniques

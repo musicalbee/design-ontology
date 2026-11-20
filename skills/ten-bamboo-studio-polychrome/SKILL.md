@@ -126,7 +126,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** Ten Bamboo Studio colour woodblock · delicate flower and bamboo · blind embossed outline · soft feathered colour · Ming dynasty album page · pale xuan paper · small colour blocks fitted · literati painting manual
+- **Positive:** Ming multi-block colour woodblock · delicate flower and bamboo · blind embossed outline · soft feathered colour · Ming dynasty album page · pale xuan paper · small colour blocks fitted · literati painting manual
 - **Negative:** heavy black outline · halftone · photograph · poster colour · 3D
 
 ## Techniques

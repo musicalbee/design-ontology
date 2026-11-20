@@ -124,7 +124,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** 1960s psychedelic concert poster · Fillmore poster · melting hand-drawn lettering · vibrating complementary colours · Art Nouveau revival · flat offset colour · Wes Wilson lettering · orange and violet
+- **Positive:** 1960s psychedelic concert poster · San Francisco dance-hall poster · melting hand-drawn lettering · vibrating complementary colours · Art Nouveau revival · flat offset colour · lettering that swells to fill the shape · orange and violet
 - **Negative:** readable sans-serif · white space · photograph · muted colours · grid layout
 
 ## Techniques

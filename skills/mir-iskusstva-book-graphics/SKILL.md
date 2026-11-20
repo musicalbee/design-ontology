@@ -129,7 +129,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** Bilibin book illustration · firm black pen outline · flat watercolour tints · Russian fairy-tale ornament · folk border pattern · 1900s tale book · chromolithograph colours · stylised wood and fur patterns
+- **Positive:** Russian fairy-tale book illustration · firm black pen outline · flat watercolour tints · Russian fairy-tale ornament · folk border pattern · 1900s tale book · chromolithograph colours · stylised wood and fur patterns
 - **Negative:** photorealistic · gradient shading · 3D render · modern vector · sketchy loose line
 
 ## Techniques

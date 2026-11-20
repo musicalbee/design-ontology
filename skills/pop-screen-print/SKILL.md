@@ -133,7 +133,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** pop art screen print · Warhol silkscreen · flat bright colours · off-register black photo layer · hot pink and turquoise · coarse halftone · repeated celebrity portrait · 1960s serigraph
+- **Positive:** pop art screen print · bold flat colour from the mass media · flat bright colours · off-register black photo layer · hot pink and turquoise · coarse halftone · repeated celebrity portrait · 1960s serigraph
 - **Negative:** soft photograph · muted palette · painterly · smooth gradient · exact register
 
 ## Techniques

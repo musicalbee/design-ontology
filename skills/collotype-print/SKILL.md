@@ -124,7 +124,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** collotype print · continuous tone gelatin print · fine reticulation grain · matt paper · early photographic plate · sepia brown monotone · Muybridge plate · no halftone dots
+- **Positive:** collotype print · continuous tone gelatin print · fine reticulation grain · matt paper · early photographic plate · sepia brown monotone · art book reproduction plate · no halftone dots
 - **Negative:** halftone dots · glossy · saturated colour · vector · woodcut
 
 ## Techniques

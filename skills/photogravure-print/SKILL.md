@@ -124,7 +124,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** photogravure · Camera Work plate · continuous tone ink · deep velvet black · pictorialist print · Japan tissue mount · aquatint grain not dots · plate mark
+- **Positive:** photogravure · soft-focus city street in mist · continuous tone ink · deep velvet black · pictorialist print · Japan tissue mount · aquatint grain not dots · plate mark
 - **Negative:** halftone dots · sharp digital · saturated colour · glossy photo paper · vector
 
 ## Techniques

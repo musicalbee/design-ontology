@@ -124,7 +124,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** stipple engraving · dotted tone portrait · Bartolozzi print · sanguine red-brown ink · crayon manner · soft flesh tones in dots · Georgian oval portrait · plate mark
+- **Positive:** stipple engraving · dotted tone portrait · sentimental allegory and society beauty · sanguine red-brown ink · crayon manner · soft flesh tones in dots · Georgian oval portrait · plate mark
 - **Negative:** hard outline · halftone grid · photograph · saturated colour · digital vector
 
 ## Techniques

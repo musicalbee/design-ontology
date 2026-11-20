@@ -129,7 +129,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** drypoint print · velvety burr line · scratched copper plate · soft fuzzy black line · Rembrandt Three Crosses · plate tone · plate mark · cream laid paper
+- **Positive:** drypoint print · velvety burr line · scratched copper plate · soft fuzzy black line · biblical crowd scene in deep burr shadow · plate tone · plate mark · cream laid paper
 - **Negative:** clean vector line · halftone dots · colour · photograph · woodcut
 
 ## Techniques

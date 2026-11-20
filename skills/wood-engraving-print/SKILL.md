@@ -129,7 +129,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Prompt primer
 
-- **Positive:** wood engraving · Bewick vignette · white-line hatching · Victorian illustrated press · boxwood end-grain cut · black ink on off-white · fine parallel tint lines · tailpiece vignette
+- **Positive:** wood engraving · birds and country life in a small vignette · white-line hatching · Victorian illustrated press · boxwood end-grain cut · black ink on off-white · fine parallel tint lines · tailpiece vignette
 - **Negative:** colour · halftone dots · photograph · soft gradient · brush texture
 
 ## Techniques
