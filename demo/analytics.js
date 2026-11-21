@@ -132,7 +132,13 @@
       } else {
         call("stopSessionRecording");
         call("set_config", { persistence: "memory" });
-        tab.set("do-replay", "");
+        try { sessionStorage.removeItem("do-replay"); } catch {}
+        // A visitor who accepted before and now declines: remove what PostHog stored.
+        try { for (const k of Object.keys(localStorage)) if (k.startsWith("ph_")) localStorage.removeItem(k); } catch {}
+        for (const c of document.cookie.split(";")) {
+          const n = c.split("=")[0].trim();
+          if (n.startsWith("ph_")) document.cookie = `${n}=; Max-Age=0; path=/`;
+        }
       }
     });
     document.body.append(el);
