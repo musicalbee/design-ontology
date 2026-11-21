@@ -1,0 +1,41 @@
+# design-ontology
+
+> A machine-readable ontology of design styles across 16 domains of design (internet culture, architecture, interiors, photography, film, painting, video games, logos, icons, typefaces, print, graphic movements, industrial design, fashion, ceramics and cuisine). Each style is JSON data that compiles into an agent skill: a SKILL.md with system directives, guardrails, design tokens, techniques and lineage fallbacks. A graph links the styles to each other and to people, organisations, materials, techniques, money and emotions.
+
+To use a style, read the skill index first, pick one row, then load `skills/<id>/SKILL.md`. Load one skill at a time. The code is MIT. The data in `data/`, `domains/`, `graph/` and `skills/` is CC BY 4.0.
+
+## Start here
+
+- [Agent instructions](https://raw.githubusercontent.com/musicalbee/design-ontology/main/AGENTS.md): how to use a style and how to change the repository
+- [Skill index](https://raw.githubusercontent.com/musicalbee/design-ontology/main/skills/SKILL_INDEX.md): the router, one row for each style skill, with "Load when", "Good for", "Feels" and the vector scores
+- [Skill index as JSON](https://musicalbee.github.io/design-ontology/skills/index.json): the same table, machine-readable
+- [Techniques](https://raw.githubusercontent.com/musicalbee/design-ontology/main/skills/TECHNIQUES.md): named techniques (a jump cut, a sunburst, terrazzo) and their rules
+- [README](https://raw.githubusercontent.com/musicalbee/design-ontology/main/README.md): what the project is, with the lineage overview
+
+## Skills
+
+- Skill file: `https://raw.githubusercontent.com/musicalbee/design-ontology/main/skills/<id>/SKILL.md`, where `<id>` is a row id from the skill index
+- Visual pack: `skills/<id>/pack/hero.svg`, `pattern.svg` and `icons.svg` where the style has one
+- Tokens: `skills/<id>/tokens.css` where the style has one
+
+## Graph
+
+- [Lineage](https://musicalbee.github.io/design-ontology/graph/lineage.json): styles as nodes, typed edges between them (EVOLVED_FROM, ECHOES, HYBRIDIZED_WITH, REBELLED_AGAINST)
+- [People](https://musicalbee.github.io/design-ontology/graph/people.json): designers and the styles they shaped
+- [Organisations](https://musicalbee.github.io/design-ontology/graph/orgs.json): crews, studios, schools, magazines and backers
+- [Materials](https://musicalbee.github.io/design-ontology/graph/materials.json): materials, processes and the styles that use them
+- [Emotions](https://musicalbee.github.io/design-ontology/graph/emotions.json): what each style evokes, with cues and moments
+- [Money](https://musicalbee.github.io/design-ontology/graph/money.json): funding flows from patrons and investors to styles
+- [Design systems](https://musicalbee.github.io/design-ontology/graph/design-systems.json): published design systems mapped to styles
+- [Kit](https://musicalbee.github.io/design-ontology/graph/kit.json): one entry for each style with its preview
+
+## Source data
+
+- Styles: `data/<domain>/styles/<id>.json` in https://github.com/musicalbee/design-ontology
+- Schemas: [core style schema](https://raw.githubusercontent.com/musicalbee/design-ontology/main/schema/core.schema.json) and the other files in `schema/`
+- [Contributing rules](https://raw.githubusercontent.com/musicalbee/design-ontology/main/CONTRIBUTING.md): content rules and the six curation rules each style must pass
+
+## Optional
+
+- [Live demo](https://musicalbee.github.io/design-ontology/demo/): one page for each domain; each keeps one task and changes the style
+- [Data licence](https://raw.githubusercontent.com/musicalbee/design-ontology/main/LICENSE-DATA.md)
