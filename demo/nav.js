@@ -5,8 +5,8 @@
 // The page fills #chips with <button data-go="<id>" aria-pressed> and handles the clicks, as before.
 // The "Styles" button shows only when #chips has buttons, so a page with no styles shows the bar only.
 (() => {
-  // The visitor counter: one file, loaded once for each page (metrika.js).
-  document.head.append(Object.assign(document.createElement("script"), { src: new URL("metrika.js", document.currentScript?.src ?? location.href).href, async: true }));
+  // The visitor analytics and the consent banner: one file, loaded once for each page (analytics.js).
+  document.head.append(Object.assign(document.createElement("script"), { src: new URL("analytics.js", document.currentScript?.src ?? location.href).href, async: true }));
   // The domains go in a dropdown. The views across all domains stay in the bar.
   // Two families of domains (domains/<id>.json `family`) get a heading each: graphic design is the printed
   // page and the mark, internet is screen culture. The other domains follow with no heading.
