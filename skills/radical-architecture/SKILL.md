@@ -190,7 +190,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 - **Archigram** (crew, London, 1960–1974), shaped the style. A group of six young London architects who published a magazine of cities as machines. They drew walking cities, plug-in frames and living pods, but built almost nothing.
 - **Archizoom Associati** (crew, Florence, 1966–1974), launched the style. A Florence group that mixed pop colour with a critique of the market. It drew No-Stop City, a city as one endless room, and made furniture for Poltronova.
 - **Global Tools** (collective, Florence, 1973–1975), gathered the style. A network of Italian radical groups and designers who ran a counter-school of workshops on the body, play and craft. It met for about two years.
-- **Soviet paper architects** (collective, Moscow, 1984–now), shaped the style. A scene of young Moscow architects who drew impossible buildings for international competitions and could not build them. Their etchings made the Soviet paper dream known in the West.
+- **Soviet paper architects** (collective, Moscow, 1981–now), shaped the style. A scene of young Moscow architects who drew impossible buildings for international competitions and could not build them. Their etchings made the Soviet paper dream known in the West.
 - **Superstudio** (crew, Florence, 1966–1978), launched the style. A Florence group that drew the endless grid as a critique of consumer society. Its collages show one monument that wraps the whole earth.
 
 ## Permutations

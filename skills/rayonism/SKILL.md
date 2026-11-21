@@ -180,7 +180,7 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Donkey's Tail** (crew, Moscow, 1911–1914), launched the style. A Moscow group of the most radical painters who broke with the Jack of Diamonds. Larionov led it. It showed Rayonism, folk art and child-like pictures, and it ended with its last show in 1914.
+- **Donkey's Tail** (crew, Moscow, 1911–1914), exhibited the style. A Moscow group of the most radical painters who broke with the Jack of Diamonds. Larionov led it. It showed folk art and child-like pictures, and it ended with its last show in 1914. Larionov announced Rayonism at the Target show in 1913.
 
 ## Permutations
 

@@ -135,7 +135,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference works
 
-- **Note:** Object ids were checked against the Art Institute of Chicago API (CC0 data). Both works are by Gauguin; they come from his later years, after the Synthetist method was set. Look at the museum page for the image and its licence.
+- **Note:** Object ids were checked against the Art Institute of Chicago API (CC0 data). All three works are by Gauguin. The Arlésiennes is from the Synthetist years at Pont-Aven and Arles; the other two come from Tahiti, where he kept the method. Look at the museum page for the image and its licence.
 
 **Works**
 
@@ -179,7 +179,7 @@ Flat areas of one colour held by a dark outline, as the lead holds the glass in 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Pont-Aven School** (collective, Pont-Aven, 1886–now), launched the style. A loose circle of painters in a Breton village. Gauguin and Bernard worked there on flat areas of colour with dark outlines, a manner that critics named Synthetism. The circle has no firm end date.
+- **Pont-Aven School** (collective, Pont-Aven, ?–now), launched the style. A loose circle of painters in a Breton village, where an artists’ colony grew from the 1850s. Gauguin came in 1886; he and Bernard worked there on flat areas of colour with dark outlines, a manner that critics named Synthetism. The circle has no firm end date.
 
 ## Permutations
 

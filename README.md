@@ -2192,12 +2192,9 @@ flowchart LR
   y2k_aesthetic -. rejects .-> grunge_editorial
   yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
   mid_century_modern_architecture == branch ==> googie_architecture
-  brutalist_architecture == branch ==> metabolism_architecture
   cubism_painting == branch ==> orphism
-  postmodern_architecture == branch ==> radical_architecture
   futurism_painting == branch ==> rayonism
   post_impressionism == branch ==> synthetism
-  documentary_verite == branch ==> third_cinema
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px

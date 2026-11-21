@@ -216,7 +216,7 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cannes Film Festival** (salon, Cannes, 1946–now), exhibited the style. An annual film festival with a juried competition. It gave prizes to neorealist, New Hollywood, Dogme 95 and slow-cinema films.
-- **Dogme 95** (crew, Copenhagen, 1995–2005), launched the style. A group of Danish directors who signed a set of rules for film making. They banned sets, added light and a score. The first Dogme films came in 1998.
+- **Dogme 95** (crew, Denmark, 1995–2005), launched the style. A group of Danish directors who signed a set of rules for film making. They banned sets, added light and a score. The first Dogme films came in 1998.
 
 ## Permutations
 

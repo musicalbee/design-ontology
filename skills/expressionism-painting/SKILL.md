@@ -195,7 +195,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 - **CoBrA** (crew, Paris, 1948–1951), shaped the style. A group of artists from Copenhagen, Brussels and Amsterdam, and the name comes from those three cities. They painted fast, with thick colour and the drawing of children, and they worked as one team.
 - **Der Blaue Reiter** (crew, Munich, 1911–1914), shaped the style. A short-lived group round Kandinsky and Marc in Munich. They put on two shows, published an almanac in 1912, and held that colour and form can carry the spirit of the work without a subject.
 - **Der Sturm** (magazine, Berlin, 1910–1932), published the style. A magazine and gallery of Herwarth Walden. It published and showed Expressionist art.
-- **Die Brücke** (crew, Dresden, 1905–1913), launched the style. A group of four architecture students in Dresden who became painters. They worked in raw, strong colour, printed woodcuts, and lived and worked together. They started German Expressionism.
+- **Die Brücke** (crew, Dresden, 1905–1913), launched the style. A group of four architecture students in Dresden who became painters. They worked in raw, strong colour, printed woodcuts, and lived and worked together. In 1911 they moved to Berlin. They started German Expressionism.
 - **Neue Künstlervereinigung München** (collective, Munich, 1909–1920), gathered the style. A Munich society of avant-garde painters that grew from the salon of Marianne von Werefkin. Kandinsky was its first chairman. It broke over his abstract work, and the break gave rise to Der Blaue Reiter.
 
 ## Permutations

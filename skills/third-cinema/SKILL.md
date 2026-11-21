@@ -1,6 +1,6 @@
 ---
 name: third-cinema
-description: "Apply the Third Cinema style (1968–1980) when planning, shooting, prompting, editing or grading moving images. Load when the user asks for: third cinema, tercer cine, la hora de los hornos, solanas, getino, militant documentary."
+description: "Apply the Third Cinema style (1968–) when planning, shooting, prompting, editing or grading moving images. Load when the user asks for: third cinema, tercer cine, la hora de los hornos, solanas, getino, militant documentary."
 domain: film
 era: new-waves
 triggers:
@@ -25,7 +25,7 @@ vector_profile:
 
 A militant film that works as a tool, not as a show. It uses a light 16mm camera, black and white stock, real streets and factories, archive clips, slogans on screen and direct address. The picture is rough and the cut is an argument.
 
-**Period:** 1968–1980 · **Era:** Portable cameras and the new waves · **Domain:** Film & Video · **Also called:** Tercer Cine, Militant documentary, Cinema of liberation
+**Period:** 1968– · **Era:** Portable cameras and the new waves · **Domain:** Film & Video · **Also called:** Tercer Cine, Militant documentary, Cinema of liberation
 
 ## When to load this skill
 
@@ -214,7 +214,7 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Cinema Novo** (collective, Rio de Janeiro, 1960–1972), shaped the style. A Brazilian film movement of young directors who filmed poverty, the land and the state in a rough form. Its three phases ran from 1960 to 1972.
-- **Grupo Cine Liberación** (crew, Buenos Aires, ?–now), launched the style. An Argentine film group led by Solanas and Getino. They made The Hour of the Furnaces in secret and wrote the text that named Third Cinema.
+- **Grupo Cine Liberación** (crew, Buenos Aires, ?–now), launched the style. An Argentine film group of Solanas, Getino and Vallejo. They made The Hour of the Furnaces and wrote Toward a Third Cinema, the best-known manifesto of Third Cinema.
 - **L.A. Rebellion** (collective, Los Angeles, 1967–1999), shaped the style. A group of African and African-American students at the UCLA film school. They made films on Black life as an answer to the Hollywood picture.
 
 ## Permutations

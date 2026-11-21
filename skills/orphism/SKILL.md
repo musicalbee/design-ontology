@@ -136,7 +136,7 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 ## Reference works
 
-- **Note:** These works are not flagged as public domain by the museum. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it.
+- **Note:** These works are not flagged as public domain by the museum. The Kupka and the final state of The Red Tower are later than the movement; they keep its method. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it.
 
 **Works**
 

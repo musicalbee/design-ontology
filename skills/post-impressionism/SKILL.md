@@ -183,7 +183,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 
 - **Jack of Diamonds** (collective, Moscow, 1910–1917), shaped the style. A Moscow society of painters that brought French Cubism, Cézanne and Russian folk art together. Its first show in 1910 caused a scandal. The radical members left in 1912.
 - **Les Nabis** (crew, Paris, 1888–1900), shaped the style. Young painters from the Académie Julian in Paris who took Gauguin as their guide. They made flat, decorative pictures in rich colour, and they worked also on posters, prints, stage sets and book art.
-- **Pont-Aven School** (collective, Pont-Aven, 1886–now), launched the style. A loose circle of painters in a Breton village. Gauguin and Bernard worked there on flat areas of colour with dark outlines, a manner that critics named Synthetism. The circle has no firm end date.
+- **Pont-Aven School** (collective, Pont-Aven, ?–now), launched the style. A loose circle of painters in a Breton village, where an artists’ colony grew from the 1850s. Gauguin came in 1886; he and Bernard worked there on flat areas of colour with dark outlines, a manner that critics named Synthetism. The circle has no firm end date.
 - **Salon des Indépendants** (salon, Paris, 1884–now), exhibited the style. An annual show without a jury. Seurat and Signac showed their dot paintings here, and the Cubists had a room here in 1911.
 
 ## Permutations
