@@ -195,6 +195,7 @@ Ducts, pipes, stairs and cables stay in view on the outside or the ceiling, ofte
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Archigram** (crew, London, 1960–1974), shaped the style. A group of six young London architects who published a magazine of cities as machines. They drew walking cities, plug-in frames and living pods, but built almost nothing.
 - **Hyatt Foundation** (foundation, Chicago, ?–now), funded the style. Sponsor of the Pritzker Architecture Prize. The Pritzker family funds the prize, which it founded in 1979.
 - **Team 4** (studio, London, 1963–1967), made the style. A small architecture practice of Norman Foster, Richard Rogers and two partners. Its factory building at Swindon used light steel and glass in the way of the later high-tech.
 
@@ -217,9 +218,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **heavier**: move toward [`brutalist-architecture`](../brutalist-architecture/SKILL.md) (Brutalism). Replace the steel frame with cast concrete members of the same grid, show services in a concrete tower, and reduce the glazing to 40%.
 
 - **Came from (go here for a more orthodox version):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
-- **Mixes well with:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md)
+- **Mixes well with:** [`deconstructivist-architecture`](../deconstructivist-architecture/SKILL.md), [`radical-architecture`](../radical-architecture/SKILL.md)
 - **Kin in another domain:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`industrial-loft-interior`](../industrial-loft-interior/SKILL.md), [`industrial-utility-product`](../industrial-utility-product/SKILL.md), [`luxury-steel-sports-watch`](../luxury-steel-sports-watch/SKILL.md), [`space-age`](../space-age/SKILL.md), [`technical-shell-alpinism`](../technical-shell-alpinism/SKILL.md), [`terracotta-rainscreen`](../terracotta-rainscreen/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md)
+- **Nearest by vector profile:** [`metabolism-architecture`](../metabolism-architecture/SKILL.md), [`bauhaus-architecture`](../bauhaus-architecture/SKILL.md), [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md)
 
 ## Emotional target
 

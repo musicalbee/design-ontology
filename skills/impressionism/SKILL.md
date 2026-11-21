@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`realism-painting`](../realism-painting/SKILL.md)
 - **Led to (go here for a newer version):** [`pointillism`](../pointillism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md)
-- **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md)
+- **Was rejected by:** [`cubism-painting`](../cubism-painting/SKILL.md), [`synthetism`](../synthetism/SKILL.md)
 - **Mixes well with:** [`nordic-national-romanticism-painting`](../nordic-national-romanticism-painting/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
 - **Kin in another domain:** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`hand-painted-texture`](../hand-painted-texture/SKILL.md), [`pictorialism`](../pictorialism/SKILL.md)
 - **Nearest by vector profile:** [`pointillism`](../pointillism/SKILL.md), [`post-impressionism`](../post-impressionism/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)

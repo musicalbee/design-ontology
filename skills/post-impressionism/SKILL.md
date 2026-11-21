@@ -12,7 +12,6 @@ triggers:
   - "toulouse-lautrec"
   - "starry night style"
   - "impasto brush strokes"
-  - "synthetism"
 vector_profile:
   abstraction: 2
   brushwork_visibility: 5
@@ -27,11 +26,11 @@ vector_profile:
 
 Painters who kept the bright colour of Impressionism and gave it back structure, feeling and symbol. Cézanne builds solid form from planes of colour; Van Gogh and Gauguin use bold colour, thick stroke and flat shape for emotion.
 
-**Period:** 1886–1905 · **Era:** Nineteenth century · **Domain:** Painting · **Also called:** Cézanne's structure, Synthetism, Van Gogh and Gauguin
+**Period:** 1886–1905 · **Era:** Nineteenth century · **Domain:** Painting · **Also called:** Cézanne's structure, Van Gogh and Gauguin
 
 ## When to load this skill
 
-Load it when the user asks for: "post-impressionism", "post-impressionist", "van gogh", "cezanne", "gauguin", "toulouse-lautrec", "starry night style", "impasto brush strokes", "synthetism".
+Load it when the user asks for: "post-impressionism", "post-impressionist", "van gogh", "cezanne", "gauguin", "toulouse-lautrec", "starry night style", "impasto brush strokes".
 
 Good for: gallery and museum campaign art, cafe, bistro and wine identity, book and album covers with warm, thick texture, landscape and still-life illustration.
 
@@ -182,6 +181,9 @@ A print from a block of wood with the white parts cut away; the result is flat c
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Jack of Diamonds** (collective, Moscow, 1910–1917), shaped the style. A Moscow society of painters that brought French Cubism, Cézanne and Russian folk art together. Its first show in 1910 caused a scandal. The radical members left in 1912.
+- **Les Nabis** (crew, Paris, 1888–1900), shaped the style. Young painters from the Académie Julian in Paris who took Gauguin as their guide. They made flat, decorative pictures in rich colour, and they worked also on posters, prints, stage sets and book art.
+- **Pont-Aven School** (collective, Pont-Aven, 1886–now), launched the style. A loose circle of painters in a Breton village. Gauguin and Bernard worked there on flat areas of colour with dark outlines, a manner that critics named Synthetism. The circle has no firm end date.
 - **Salon des Indépendants** (salon, Paris, 1884–now), exhibited the style. An annual show without a jury. Seurat and Signac showed their dot paintings here, and the Cubists had a room here in 1911.
 
 ## Permutations
@@ -203,7 +205,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **wilder colour**: move toward [`fauvism`](../fauvism/SKILL.md) (Fauvism). Keep the contour and the flat patch; set the hue free from nature, enlarge the patch to 30–200mm, and raise every colour to full chroma.
 
 - **Came from (go here for a more orthodox version):** [`impressionism`](../impressionism/SKILL.md)
-- **Led to (go here for a newer version):** [`expressionism-painting`](../expressionism-painting/SKILL.md)
+- **Led to (go here for a newer version):** [`expressionism-painting`](../expressionism-painting/SKILL.md), [`synthetism`](../synthetism/SKILL.md)
 - **Kin in another domain:** [`chromolithograph-poster`](../chromolithograph-poster/SKILL.md)
 - **Nearest by vector profile:** [`expressionism-painting`](../expressionism-painting/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`impressionism`](../impressionism/SKILL.md)
 

@@ -1,0 +1,307 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "orphism",
+  "domain": "painting",
+  "name": "Orphism",
+  "aliases": [
+    "Orphic Cubism",
+    "Simultanism"
+  ],
+  "era_id": "avant-garde",
+  "time_period": {
+    "start": 1912,
+    "end": 1914,
+    "label": "1912–1914"
+  },
+  "region": "Paris, France",
+  "media": [
+    "oil on canvas"
+  ],
+  "summary": "Cubist structure with the bright colour of the Fauves, pushed toward pure abstraction. Discs and arcs of pure colour set side by side make rhythm and light, and the subject melts away.",
+  "philosophy": {
+    "core_thesis": "Colour alone can build the form and the movement of a picture, so the painter makes new wholes from pure colour and no longer shows the object.",
+    "design_principles": [
+      "Build the picture from arcs and discs of pure colour, each 50–300mm across, in overlapping rings.",
+      "Set complementary colours side by side in each ring, so that the contrast makes the colour vibrate.",
+      "Break the object into planes as in Cubism, then drop the object when the colour is able to carry the form.",
+      "Repeat a circle or an arc 5–12 times, with the colour shifting by one step each time, to give the eye a beat.",
+      "Keep the space shallow, with 2–3 layers, and let the discs overlap so that they appear to move.",
+      "Use a bright, clear colour in the full spectrum, and keep black to a minimum.",
+      "Take the subject from the modern world, such as a tower, a window, a city or an aeroplane, and then dissolve it."
+    ],
+    "anti_patterns": [
+      "The grey and brown key of Analytic Cubism",
+      "A recognisable single viewpoint and a clear object",
+      "Deep perspective with a receding floor",
+      "Soft, atmospheric blending",
+      "Strict black outlines around flat shapes",
+      "A narrative scene with a story"
+    ]
+  },
+  "vectors": {
+    "abstraction": 5,
+    "brushwork_visibility": 2,
+    "chromatic_intensity": 5,
+    "depth_illusion": 2,
+    "line_dominance": 2
+  },
+  "composition": {
+    "layout": "A central burst of overlapping discs and arcs, with a few straight planes of a broken object behind them, on a hidden grid at a slant of 10–30°.",
+    "focal_point": "The brightest ring, a clash of complementary colours, within the central 40% of the canvas.",
+    "format": "A square or near-square canvas of 1:1 to 4:5, or a tall panel; the rings may run to the edge.",
+    "principles": [
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a disc or an arc 5–12 times, with each ring 10–25% smaller or one step brighter than the last."
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set complementary pairs side by side in 60% or more of the rings, at full chroma and a value gap of 30%."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Reduce the depth to 2–3 overlapping layers, with no horizon and no vanishing point."
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Place the strongest ring within the central 40% and make it 25–40% of the picture width."
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Spread 4–5 hues across the picture, each 15–25%, and keep the neutrals under 10%."
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance the burst by a smaller group of arcs on the opposite diagonal, at about one third of its mass."
+      }
+    ]
+  },
+  "palette": {
+    "strategy": "The full spectrum at high chroma, in complementary pairs, with white and a little black or deep blue to hold the rings.",
+    "distribution": "Four or five hues each 15–25%, white or pale ground 10–15%, dark under 5%.",
+    "ground": "A white or pale ground that shows between the rings.",
+    "colours": [
+      {
+        "name": "Cadmium red",
+        "hex": "#D7263D",
+        "pigment": "cadmium red",
+        "role": "warm ring and accent"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#2956B2",
+        "pigment": "cobalt blue",
+        "role": "cool ring and field"
+      },
+      {
+        "name": "Cadmium yellow",
+        "hex": "#F4C20D",
+        "pigment": "cadmium yellow",
+        "role": "light and the sun disc"
+      },
+      {
+        "name": "Emerald green",
+        "hex": "#1E9C6B",
+        "pigment": "emerald green",
+        "role": "the green ring"
+      },
+      {
+        "name": "Violet",
+        "hex": "#6B3FA0",
+        "pigment": "cobalt violet",
+        "role": "the complement of yellow"
+      },
+      {
+        "name": "Orange",
+        "hex": "#F28C28",
+        "pigment": "cadmium orange",
+        "role": "warm arc"
+      },
+      {
+        "name": "White",
+        "hex": "#F6F1E7",
+        "pigment": "lead white",
+        "role": "ground and highlight"
+      }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thin and clear, with little medium.",
+    "support": "Primed canvas, often large, in a square or near-square format.",
+    "brushwork": "Even, short strokes of 5–15mm that fill each ring; the stroke follows the arc and does not show as gesture.",
+    "paint_handling": "1–2 coats of opaque or semi-opaque colour, 0.5–1mm thick; the rings are painted next to each other and are not blended.",
+    "edges": "Clean edges between colours, with no dark outline; the contrast of the colours makes the edge."
+  },
+  "light_and_modelling": {
+    "light": "Light comes from the colour: a bright ring stands for a flash, a sun or an electric lamp.",
+    "modelling": "By a step of colour from warm to cool across a ring, in 3–5 steps, and not by grey.",
+    "shadow": "No cast shadow; a ring is darker only through a cool or a complementary colour of the same value.",
+    "temperature": "Warm and cool rings set next to each other so that the picture seems to pulse."
+  },
+  "subject": {
+    "typical": "A tower, a window on a city, a disc of light, a dancer, an aeroplane, an abstract rhythm.",
+    "figure_scale": "The main motif fills 50–90% of the picture and is hard to name.",
+    "treatment": "The motif begins in the modern world and then dissolves in colour; the mood is lyrical and bright."
+  },
+  "surface": {
+    "finish": "Matt to satin.",
+    "texture": "Smooth, even coats with a faint weave."
+  },
+  "reference_works": {
+    "works": [
+      {
+        "work": "Champs de Mars: The Red Tower",
+        "artist": "Robert Delaunay",
+        "date": "1911/23",
+        "museum": "Art Institute of Chicago",
+        "object_id": "9503",
+        "public_domain": false
+      },
+      {
+        "work": "Homage to Blériot",
+        "artist": "Robert Delaunay",
+        "date": "c. 1914",
+        "museum": "Art Institute of Chicago",
+        "object_id": "150797",
+        "public_domain": false
+      },
+      {
+        "work": "Orphist Composition with Disks",
+        "artist": "František Kupka",
+        "date": "1927/29",
+        "museum": "Art Institute of Chicago",
+        "object_id": "110991",
+        "public_domain": false
+      }
+    ],
+    "note": "These works are not flagged as public domain by the museum. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": [
+      "orphism",
+      "orphic cubism",
+      "simultaneous contrast of colour",
+      "overlapping discs and arcs",
+      "full spectrum at high chroma",
+      "Delaunay Simultaneous Windows",
+      "Kupka Amorpha",
+      "lyrical abstraction",
+      "rhythm of rings",
+      "pure colour, no black outline"
+    ],
+    "negative": [
+      "grey and brown cubism",
+      "clear object",
+      "deep perspective",
+      "soft blended colour",
+      "black outline",
+      "narrative scene"
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "cubism-painting"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "fauvism"
+    ],
+    "echoes": [],
+    "subgenre_of": "cubism-painting"
+  },
+  "emotion": {
+    "target_response": "Lyrical joy and movement: the viewer feels the colour pulse and the rhythm of the rings.",
+    "keywords": [
+      "lyrical",
+      "luminous",
+      "rhythmic",
+      "abstract",
+      "bright"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "orphism",
+      "orphic cubism",
+      "simultanism",
+      "delaunay",
+      "kupka",
+      "simultaneous contrast",
+      "discs of colour",
+      "rings of colour"
+    ],
+    "use_cases": [
+      "poster and cover art with a bright rhythm",
+      "textile, fashion and pattern design",
+      "music and dance branding",
+      "lyrical abstract illustration"
+    ],
+    "avoid_when": [
+      "The brief needs a calm, muted or tonal mood.",
+      "The picture must show a clear object or a likeness."
+    ],
+    "modifiers": [
+      {
+        "request": "more cubist and structured",
+        "toward": "cubism-painting",
+        "how": "Keep the shallow space; narrow the palette to ochre, grey and brown, bring back the guitar or the bottle, and cut the rings into straight facets."
+      },
+      {
+        "request": "wilder and more painterly",
+        "toward": "fauvism",
+        "how": "Keep the pure colour; drop the rings, bring back the object, and use a loose stroke of 15–40mm and flat patches with a free hue."
+      }
+    ]
+  },
+  "permutations": {
+    "key_colour": {
+      "default": "#D7263D",
+      "options": [
+        "#D7263D",
+        "#2956B2",
+        "#F4C20D",
+        "#1E9C6B"
+      ]
+    },
+    "value_contrast": {
+      "default": 0.65,
+      "min": 0.45,
+      "max": 0.85
+    },
+    "brush_size": {
+      "default": 0.9,
+      "min": 0.4,
+      "max": 2
+    },
+    "canvas_ratio": {
+      "default": "1:1",
+      "options": [
+        "1:1",
+        "4:5",
+        "3:4"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Orphism (art)",
+      "url": "https://en.wikipedia.org/wiki/Orphism_(art)"
+    },
+    {
+      "title": "Wikidata Q519443 (Orphism)",
+      "url": "https://www.wikidata.org/wiki/Q519443"
+    },
+    {
+      "title": "Art Institute of Chicago API (CC0 data)",
+      "url": "https://api.artic.edu/docs/"
+    },
+    {
+      "title": "Guillaume Apollinaire, The Cubist Painters (1913)"
+    }
+  ]
+}

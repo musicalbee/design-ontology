@@ -158,6 +158,14 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Simultaneous contrast (process)
+
+Pure colours set side by side so that each one raises the force of the other, with the picture built from the contrast alone. Origin: painting, Paris, France, 1912.
+
+- Set a complementary pair side by side in each ring or plane.
+- Keep each colour pure and unmixed, at full chroma.
+- Repeat the pair in steps of colour, so that the picture beats like a rhythm.
+
 ### Tambour embroidery (skill)
 
 A fast chain stitch made with a fine hook on cloth that is stretched tight in a frame; later the same hook sews beads on silk. Origin: fashion, France and Britain, c. 1760.

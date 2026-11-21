@@ -294,7 +294,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`corporate-memphis`](../corporate-memphis/SKILL.md)
 - **Mixes well with:** [`corporate-memphis`](../corporate-memphis/SKILL.md), [`kidcore`](../kidcore/SKILL.md)
-- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`music-video`](../music-video/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
+- **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`music-video`](../music-video/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-art-web`](../pop-art-web/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md), [`radical-architecture`](../radical-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
 - **Nearest by vector profile:** [`glitchcore`](../glitchcore/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`anti-design`](../anti-design/SKILL.md)
 
 ## Emotional target

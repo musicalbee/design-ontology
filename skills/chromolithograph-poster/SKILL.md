@@ -132,6 +132,14 @@ Hold these scores. If a request moves an axis by 2 points or more, you have left
 
 These techniques started in one domain and moved into this style. Apply the rules as they are written; the full record is in [`TECHNIQUES.md`](../TECHNIQUES.md).
 
+### Cloisonnism (process)
+
+Flat areas of one colour held by a dark outline, as the lead holds the glass in a church window. Origin: painting, Paris, France, c. 1887.
+
+- Fill each shape with one flat colour and no gradient.
+- Draw a dark contour of 3 to 8mm round each shape.
+- Set a few large shapes against a high horizon, with no cast shadow.
+
 ### Lithography (process)
 
 A print from a flat stone or plate on which a greasy drawing takes ink and water repels it; the artist draws as on paper. Origin: print, Munich, c. 1796.

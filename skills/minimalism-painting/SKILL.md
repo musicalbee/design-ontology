@@ -182,6 +182,7 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Leo Castelli Gallery** (gallery, New York, 1957–now), exhibited the style. The gallery of the dealer Leo Castelli. It showed Pop Art and then Minimalism.
+- **Zero** (crew, Düsseldorf, 1957–1967), shaped the style. Two artists in Düsseldorf, Mack and Piene, who held evening shows in their studio. Uecker joined them in 1961. They worked with light, movement and empty fields of one colour, as a fresh start after the war.
 
 ## Permutations
 

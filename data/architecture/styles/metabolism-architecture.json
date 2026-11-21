@@ -1,0 +1,295 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "metabolism-architecture",
+  "domain": "architecture",
+  "name": "Metabolism",
+  "aliases": [
+    "Japanese Metabolism",
+    "Metabolist architecture"
+  ],
+  "era_id": "modern-movement",
+  "time_period": {
+    "start": 1959,
+    "end": 1973,
+    "label": "1960s–early 1970s"
+  },
+  "building_types": [
+    "residential",
+    "civic",
+    "cultural"
+  ],
+  "summary": "A Japanese style of fixed concrete cores that carry replaceable capsules. Its architects drew the city as a living body that grows, changes and renews its cells.",
+  "philosophy": {
+    "core_thesis": "A city lives like an organism, so its long-life cores must stand fixed and its short-life cells must change.",
+    "design_principles": [
+      "Separate the fixed structure from the units that people replace.",
+      "Plan for growth: leave the frame open at the end and on top.",
+      "Hang prefabricated capsules on a core of services and stairs.",
+      "Show the core as a monumental concrete tower and the capsules as small machines.",
+      "Treat the unit as a product that a factory makes and a crane lifts.",
+      "Lift the city above the ground, the sea or old streets on huge platforms."
+    ],
+    "anti_patterns": [
+      "A closed, finished building that cannot grow",
+      "Capsules that look like part of the wall and hide their joints",
+      "Applied ornament or historical motifs",
+      "Fixed room layouts that tie the user to one plan",
+      "Low, spread-out forms with no central core",
+      "Rough, hand-built finishes on the capsule"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 1,
+    "structural_expression": 5,
+    "geometric_rigidity": 4,
+    "material_rawness": 3,
+    "monumentality": 4
+  },
+  "massing": {
+    "form": "A tall concrete core or a pair of cores with many small boxes fixed to its sides; the boxes stack at different heights.",
+    "proportion": "Vertical towers dominate, and the small cells make a rough, jagged edge on the main shape.",
+    "roof": "Flat roofs; the core ends in a plain parapet or a plant room.",
+    "relation_to_ground": "The core stands on a raised base, on pilotis or over water, so that the cells float above the street."
+  },
+  "structure": {
+    "system": "A reinforced concrete core or megastructure frame with steel or precast cells that bolt to it.",
+    "span_and_module": "A cell of about 2.5 by 4m is the module, and the cores sit about 10 to 20m apart.",
+    "expression": "Cores, bolts, ducts and crane hooks stay visible, and the joints between core and cell are the main detail."
+  },
+  "materials": {
+    "primary": [
+      "in-situ reinforced concrete",
+      "prefabricated steel capsule"
+    ],
+    "secondary": [
+      "galvanised steel",
+      "glass",
+      "aluminium cladding"
+    ],
+    "finish": "The core keeps a bare concrete finish, and the capsules have a smooth, factory-made metal skin with a round window.",
+    "palette": [
+      {
+        "name": "Raw concrete",
+        "hex": "#8C8A84",
+        "role": "core and platform"
+      },
+      {
+        "name": "Capsule white",
+        "hex": "#E8E6E0",
+        "role": "capsule skin"
+      },
+      {
+        "name": "Steel grey",
+        "hex": "#5A5F66",
+        "role": "bolts and frames"
+      },
+      {
+        "name": "Night blue",
+        "hex": "#1F2A3A",
+        "role": "shadow and window glass"
+      },
+      {
+        "name": "Signal red",
+        "hex": "#C8372D",
+        "role": "small accents on doors and lifts"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "Plain cores with clusters of identical capsules, each with one round or square window.",
+    "openings": "One circular porthole window of about 1.3m in each cell.",
+    "solid_to_void": "Solid dominates: windows cover 10–25% of the elevation."
+  },
+  "light_and_space": {
+    "daylight": "Each cell gets light from one window, and the core has narrow slots and stair windows.",
+    "spatial_sequence": "The route runs through the core by lift and stair, and then the visitor enters a small cell with a fixed plan.",
+    "interior_character": "The cell is a tight, built-in room of about 10 square metres, with a bed, a desk and a bath moulded in one unit."
+  },
+  "ornament": {
+    "attitude": "No applied ornament; the repeated capsule and the exposed bolt form the pattern.",
+    "details": [
+      "round porthole windows",
+      "exposed bolt heads",
+      "crane hooks",
+      "service ducts on the core",
+      "built-in unit furniture"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q1503425"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 2.5,
+    "rules": [
+      {
+        "principle": "hierarchy",
+        "rule": "Give the fixed core the first place and the cells the second.",
+        "value": "core 3–10 times the cell height"
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat the same cell around the core with small shifts.",
+        "value": "cell 2.5 × 4m"
+      },
+      {
+        "principle": "grouping",
+        "rule": "Cluster the cells in groups on the core, not in a flat row.",
+        "value": "8–40 cells on one core"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set the smooth capsule against the raw concrete.",
+        "value": "1 capsule skin, 1 core finish"
+      },
+      {
+        "principle": "circulation",
+        "rule": "Run all routes through the core and lift.",
+        "value": "1–2 cores"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "Capsules of the Nakagin Capsule Tower",
+        "credit": "Dllu",
+        "licence": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Capsules_of_the_Nakagin_Capsule_Tower_dllu.jpg"
+      }
+    ]
+  },
+  "lineage": {
+    "subgenre_of": "brutalist-architecture",
+    "evolved_from": [
+      "international-style-architecture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Wonder at a city that changes: the viewer feels a machine for the future that has cells like a body.",
+    "keywords": [
+      "futurist",
+      "modular",
+      "growing",
+      "compact",
+      "technological"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "metabolism",
+      "metabolist",
+      "capsule tower",
+      "nakagin",
+      "plug-in capsule",
+      "kurokawa",
+      "kikutake",
+      "megastructure"
+    ],
+    "use_cases": [
+      "concept renders",
+      "sci-fi sets",
+      "urban futures",
+      "product-like micro housing"
+    ],
+    "avoid_when": [
+      "The brief asks for a low, warm, hand-built domestic place.",
+      "The scene needs a flat grid with no central tower."
+    ],
+    "modifiers": [
+      {
+        "request": "rougher",
+        "toward": "brutalist-architecture",
+        "how": "Make the cells from board-marked concrete, deepen the windows and remove the smooth metal skin."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "fixed concrete core tower",
+      "prefabricated capsule units",
+      "round porthole windows",
+      "exposed bolts and joints",
+      "cells hanging on a core",
+      "raised megastructure",
+      "tight modular housing",
+      "futurist Japanese city"
+    ],
+    "negative": [
+      "pitched roof",
+      "classical ornament",
+      "glass curtain wall",
+      "hand-built brick",
+      "pastel paint",
+      "spread-out low villa"
+    ],
+    "canonical_works": [
+      {
+        "work": "Sky House",
+        "architect": "Kiyonori Kikutake",
+        "year": 1958
+      },
+      {
+        "work": "Yamanashi Press and Broadcasting Center",
+        "architect": "Kenzo Tange",
+        "year": 1966
+      },
+      {
+        "work": "Master plan of Expo 70",
+        "architect": "Kenzo Tange",
+        "year": 1970
+      },
+      {
+        "work": "Nakagin Capsule Tower",
+        "architect": "Kisho Kurokawa",
+        "year": 1972
+      }
+    ]
+  },
+  "permutations": {
+    "storey_height": {
+      "default": 3.0,
+      "min": 2.6,
+      "max": 3.6
+    },
+    "structural_grid": {
+      "default": 10,
+      "min": 6,
+      "max": 20
+    },
+    "glazing_ratio": {
+      "default": 15,
+      "min": 8,
+      "max": 30
+    },
+    "roof_pitch": {
+      "default": 0,
+      "min": 0,
+      "max": 3
+    },
+    "base_material": {
+      "default": "concrete",
+      "options": [
+        "concrete",
+        "steel"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Metabolism (architecture)",
+      "url": "https://en.wikipedia.org/wiki/Metabolism_(architecture)"
+    },
+    {
+      "title": "Kisho Kurokawa, Metabolism in Architecture (Studio Vista, 1977)"
+    }
+  ]
+}

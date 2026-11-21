@@ -179,7 +179,7 @@ The circle, the square and the triangle in flat colour, used as the whole pictur
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **State Porcelain Factory, Petrograd** (state programme, Petrograd (Saint Petersburg), Russia, 1744–now), made the style. The former Imperial Porcelain Factory, which the Soviet state took over in 1918. In the 1920s it made propaganda plates and, from 1923, the Suprematist tea ware.
+- **State Porcelain Factory, Petrograd** (company, Petrograd (Saint Petersburg), Russia, 1744–now), made the style. The former Imperial Porcelain Factory, which the Soviet state took over in 1918. In the 1920s it made propaganda plates and, from 1923, the Suprematist tea ware.
 
 ## Permutations
 

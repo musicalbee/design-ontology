@@ -175,7 +175,7 @@ A roof tile of fine clay with a coloured lead glaze. The glaze makes the roof br
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Liulichang kilns** (collective, Beijing, ?–now), made the style. The imperial kilns of Beijing that fired glazed tile for the palaces and temples of the Ming and Qing courts. The district Liulichang still carries their name.
+- **Liulichang kilns** (court, Beijing, ?–now), made the style. The imperial kilns of Beijing that fired glazed tile for the palaces and temples of the Ming and Qing courts. The district Liulichang still carries their name.
 
 ## Permutations
 

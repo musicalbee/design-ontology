@@ -1,0 +1,301 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "synthetism",
+  "domain": "painting",
+  "name": "Synthetism",
+  "aliases": [
+    "Cloisonnism",
+    "Pont-Aven style"
+  ],
+  "era_id": "nineteenth-century",
+  "time_period": {
+    "start": 1888,
+    "end": 1900,
+    "label": "1888–1900"
+  },
+  "region": "Brittany, France",
+  "media": [
+    "oil on canvas"
+  ],
+  "summary": "Flat areas of pure colour held by a dark outline, painted from memory and feeling. The painter combines the seen scene, the feeling and the pure form of line and colour into one simple, decorative picture.",
+  "philosophy": {
+    "core_thesis": "A picture should join the thing seen, the feeling of the painter and the pure form of colour and line, and it should not copy the scene from the eye.",
+    "design_principles": [
+      "Fill each shape with one flat colour and no gradient, in a patch of 30–300mm.",
+      "Draw a dark blue or black contour of 3–8mm around every patch, like the lead of a stained-glass window.",
+      "Choose colours by feeling and not by nature: a red field, a yellow Christ, a blue tree.",
+      "Flatten the space to 2 layers, with no cast shadow and no single-point perspective.",
+      "Set the shapes in a rhythm of curves, and cut the scene by a tree or a high horizon at 10–20% from the top.",
+      "Paint from memory and from sketches, so that detail is lost and the main form stays.",
+      "Choose a simple, devout or rustic subject, such as women at prayer, a field, a calvary or a farm."
+    ],
+    "anti_patterns": [
+      "Soft, blended modelling of the form",
+      "Atmospheric perspective with a pale far distance",
+      "Broken dabs of colour that mix in the eye",
+      "Grey or brown cast shadows",
+      "Fine, exact detail of the scene",
+      "A realistic, local colour copied from nature"
+    ]
+  },
+  "vectors": {
+    "abstraction": 3,
+    "brushwork_visibility": 2,
+    "chromatic_intensity": 5,
+    "depth_illusion": 1,
+    "line_dominance": 4
+  },
+  "composition": {
+    "layout": "A few large flat patches set against a high horizon, joined by curved dark contours, with a tree trunk or a figure that cuts the picture at a diagonal.",
+    "focal_point": "The strongest colour patch, a red or yellow, placed within the central 40% of the canvas and at one third from an edge.",
+    "format": "A canvas at 4:5 to 3:2; the figures are large, and the edges crop the scene hard.",
+    "principles": [
+      {
+        "principle": "layering-depth",
+        "rule": "Reduce the depth to 2 layers and put the horizon at 10–20% from the top, so that the ground fills the picture."
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set one pure complementary pair, such as red against green, in the focal area with a value gap of 30% or more."
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a curved contour of 3–8mm around 5 or more patches, with each curve echoing its neighbour."
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Give the main figure or the central patch 30–50% of the picture area, in the purest colour."
+      },
+      {
+        "principle": "colour-distribution",
+        "rule": "Fill 60–70% of the area with 2 flat colours, 20–30% with a contrast colour, and under 10% with the dark contour."
+      },
+      {
+        "principle": "negative-space",
+        "rule": "Leave large empty patches of one flat colour, and put no detail in them."
+      }
+    ]
+  },
+  "palette": {
+    "strategy": "Pure, flat colours chosen for feeling: a red ground, a yellow figure, a blue-green tree, all held by a dark blue contour.",
+    "distribution": "Two dominant flat colours 60–70%, a contrast colour 20–30%, a dark contour under 10%.",
+    "ground": "A pale, warm ground that shows at the edge of a patch.",
+    "colours": [
+      {
+        "name": "Vermilion",
+        "hex": "#D2381F",
+        "pigment": "vermilion",
+        "role": "the red field"
+      },
+      {
+        "name": "Chrome yellow",
+        "hex": "#E8B923",
+        "pigment": "chrome yellow",
+        "role": "figure, sky and light"
+      },
+      {
+        "name": "Viridian green",
+        "hex": "#2E7D5B",
+        "pigment": "viridian",
+        "role": "grass and tree"
+      },
+      {
+        "name": "Prussian blue",
+        "hex": "#1D3A6B",
+        "pigment": "Prussian blue",
+        "role": "the contour and the shadow"
+      },
+      {
+        "name": "Orange",
+        "hex": "#E07A22",
+        "pigment": "cadmium orange",
+        "role": "path and ground"
+      },
+      {
+        "name": "Warm white",
+        "hex": "#EFE6D0",
+        "pigment": "lead white",
+        "role": "cap, cloth and highlight"
+      }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, thin and matt, with little medium, laid in even coats.",
+    "support": "Rough canvas or coarse sacking, often a small to medium size.",
+    "brushwork": "Flat fills with a stroke of 5–15mm that does not show; the visible stroke follows the edge of the patch.",
+    "paint_handling": "1 layer of opaque colour, under 1mm thick; the colour is not blended and no glaze is added.",
+    "edges": "A dark blue or black contour of 3–8mm in a smooth curve; the patches meet at the contour."
+  },
+  "light_and_modelling": {
+    "light": "None from a source; the light is a pure yellow or a warm white patch.",
+    "modelling": "By a flat change of colour from one patch to the next, with no gradient.",
+    "shadow": "No cast shadow; a form turns by its contour and by a darker patch of the same hue.",
+    "temperature": "Warm patches against cool ones, set side by side at full chroma."
+  },
+  "subject": {
+    "typical": "Breton women at prayer or in a field, a calvary, a farm, a tree and a hill, a vision of a scene from the Bible.",
+    "figure_scale": "A figure fills 40–80% of the picture height, often in a group of 3–6.",
+    "treatment": "Simple, devout and rustic; the scene is a dream or a memory, and the mood is quiet and strange."
+  },
+  "surface": {
+    "finish": "Matt; no varnish.",
+    "texture": "Flat and even, with the weave of the canvas in view."
+  },
+  "reference_works": {
+    "works": [
+      {
+        "work": "Arlésiennes (Mistral)",
+        "artist": "Paul Gauguin",
+        "date": "1888",
+        "museum": "Art Institute of Chicago",
+        "object_id": "19339",
+        "public_domain": true
+      },
+      {
+        "work": "Mahana no atua (Day of the God)",
+        "artist": "Paul Gauguin",
+        "date": "1894",
+        "museum": "Art Institute of Chicago",
+        "object_id": "27943",
+        "public_domain": true
+      },
+      {
+        "work": "No te aha oe riri (Why Are You Angry?)",
+        "artist": "Paul Gauguin",
+        "date": "1896",
+        "museum": "Art Institute of Chicago",
+        "object_id": "16496",
+        "public_domain": true
+      }
+    ],
+    "note": "Object ids were checked against the Art Institute of Chicago API (CC0 data). Both works are by Gauguin; they come from his later years, after the Synthetist method was set. Look at the museum page for the image and its licence."
+  },
+  "prompt_primer": {
+    "positive": [
+      "synthetist painting",
+      "flat areas of pure colour",
+      "dark blue contour",
+      "cloisonnism, stained-glass outline",
+      "Gauguin Brittany",
+      "Pont-Aven school",
+      "red field and yellow figure",
+      "high horizon, no perspective",
+      "simple devout subject",
+      "matt, thin oil"
+    ],
+    "negative": [
+      "soft blended modelling",
+      "atmospheric perspective",
+      "broken dabs of colour",
+      "grey cast shadows",
+      "fine detail",
+      "naturalistic colour"
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "post-impressionism"
+    ],
+    "rebelled_against": [
+      "impressionism"
+    ],
+    "hybridized_with": [],
+    "echoes": [],
+    "subgenre_of": "post-impressionism"
+  },
+  "emotion": {
+    "target_response": "A quiet, dreamlike intensity: the viewer meets a simple scene made strange by pure colour.",
+    "keywords": [
+      "flat",
+      "decorative",
+      "symbolic",
+      "dreamlike",
+      "bold"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "explorer",
+      "magician"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "synthetism",
+      "synthetist",
+      "cloisonnism",
+      "pont-aven",
+      "gauguin brittany",
+      "flat colour with dark outline",
+      "emile bernard",
+      "serusier"
+    ],
+    "use_cases": [
+      "poster and label art with flat colour",
+      "book and album covers",
+      "stained-glass and tile design",
+      "folk and travel illustration"
+    ],
+    "avoid_when": [
+      "The brief needs modelled volume, depth or a photographic look.",
+      "The picture must show a fine technical detail."
+    ],
+    "modifiers": [
+      {
+        "request": "more thick and expressive",
+        "toward": "post-impressionism",
+        "how": "Keep the strong colour; drop the even fill, show a stroke of 5–15mm that follows the form, and thicken the paint to 2–5mm."
+      },
+      {
+        "request": "more decorative and mystic",
+        "toward": "symbolism-painting",
+        "how": "Keep the flat patch and the contour; add a quiet, dreamlike subject, a pale, soft palette and a rhythm of long curves."
+      }
+    ]
+  },
+  "permutations": {
+    "key_colour": {
+      "default": "#D2381F",
+      "options": [
+        "#D2381F",
+        "#E8B923",
+        "#2E7D5B",
+        "#1D3A6B"
+      ]
+    },
+    "value_contrast": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.8
+    },
+    "brush_size": {
+      "default": 0.8,
+      "min": 0.3,
+      "max": 2
+    },
+    "canvas_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5",
+        "3:4",
+        "3:2"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Pont-Aven School",
+      "url": "https://en.wikipedia.org/wiki/Pont-Aven_School"
+    },
+    {
+      "title": "Wikipedia: Synthetism",
+      "url": "https://en.wikipedia.org/wiki/Synthetism"
+    },
+    {
+      "title": "Art Institute of Chicago API (CC0 data)",
+      "url": "https://api.artic.edu/docs/"
+    },
+    {
+      "title": "Albert Aurier, Le Symbolisme en peinture: Paul Gauguin (Mercure de France, 1891)"
+    }
+  ]
+}

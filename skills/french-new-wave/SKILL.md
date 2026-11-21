@@ -221,7 +221,9 @@ A cut inside one continuous shot that removes time and leaves the jump in view. 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Cahiers du cinéma** (magazine, Paris, 1951–now), published the style. A film magazine whose young critics argued for the director as author. Several of them went on to make the first films of the French New Wave.
+- **Cahiers du cinéma** (magazine, Paris, 1951–now), published the style. A French film magazine. Its young critics argued that the director is the author of a film, and several of them went on to make the first films of the French New Wave.
+- **Dziga Vertov Group** (crew, Paris, 1968–1972), opposed the style. A group of political film makers round Godard and Gorin. They made Marxist films with no single author, and they took the name of the Kinoks' leader.
+- **Zanzibar Group** (collective, Paris, 1968–1970), gathered the style. A French group of young artists and film makers. Sylvina Boissonnas paid for their films. A critic called them the dandies of May 1968.
 
 ## Permutations
 

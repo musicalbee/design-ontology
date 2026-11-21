@@ -230,7 +230,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`nordic-modernism-architecture`](../nordic-modernism-architecture/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`international-style-architecture`](../international-style-architecture/SKILL.md), [`postmodern-architecture`](../postmodern-architecture/SKILL.md)
-- **Nearest by vector profile:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md)
+- **Nearest by vector profile:** [`mass-timber-architecture`](../mass-timber-architecture/SKILL.md), [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md), [`metabolism-architecture`](../metabolism-architecture/SKILL.md)
 
 ## Emotional target
 

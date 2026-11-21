@@ -201,7 +201,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`minimalism-painting`](../minimalism-painting/SKILL.md)
 - **Was rejected by:** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
 - **Kin in another domain:** [`bauhaus`](../bauhaus/SKILL.md), [`bauhaus-interior`](../bauhaus-interior/SKILL.md), [`de-stijl-web`](../de-stijl-web/SKILL.md), [`geometric-symbol`](../geometric-symbol/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`prairie-school-architecture`](../prairie-school-architecture/SKILL.md), [`swiss-international`](../swiss-international/SKILL.md), [`voxel-block-world`](../voxel-block-world/SKILL.md)
-- **Nearest by vector profile:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`suprematism`](../suprematism/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md)
+- **Nearest by vector profile:** [`minimalism-painting`](../minimalism-painting/SKILL.md), [`suprematism`](../suprematism/SKILL.md), [`synthetism`](../synthetism/SKILL.md)
 
 ## Emotional target
 

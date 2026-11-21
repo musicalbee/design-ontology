@@ -21256,8 +21256,16 @@
    "name": "Mid-century Modern",
    "domain": "architecture"
   },
+  "googie-architecture": {
+   "name": "Googie",
+   "domain": "architecture"
+  },
   "brutalist-architecture": {
    "name": "Brutalism",
+   "domain": "architecture"
+  },
+  "metabolism-architecture": {
+   "name": "Metabolism",
    "domain": "architecture"
   },
   "adaptive-reuse-architecture": {
@@ -21266,6 +21274,10 @@
   },
   "postmodern-architecture": {
    "name": "Postmodernism",
+   "domain": "architecture"
+  },
+  "radical-architecture": {
+   "name": "Radical architecture",
    "domain": "architecture"
   },
   "high-tech-architecture": {
@@ -21484,6 +21496,10 @@
    "name": "New Hollywood",
    "domain": "film"
   },
+  "third-cinema": {
+   "name": "Third Cinema",
+   "domain": "film"
+  },
   "music-video": {
    "name": "Music video",
    "domain": "film"
@@ -21584,6 +21600,10 @@
    "name": "Symbolism",
    "domain": "painting"
   },
+  "synthetism": {
+   "name": "Synthetism",
+   "domain": "painting"
+  },
   "expressionism-painting": {
    "name": "Expressionism",
    "domain": "painting"
@@ -21598,6 +21618,14 @@
   },
   "futurism-painting": {
    "name": "Futurism",
+   "domain": "painting"
+  },
+  "rayonism": {
+   "name": "Rayonism",
+   "domain": "painting"
+  },
+  "orphism": {
+   "name": "Orphism",
    "domain": "painting"
   },
   "suprematism": {
@@ -43212,6 +43240,41 @@
    "via": "materials.secondary: \"oak\""
   },
   {
+   "style": "googie-architecture",
+   "domain": "architecture",
+   "material": "steel-frame",
+   "use": "primary",
+   "via": "materials.primary: \"steel frame\""
+  },
+  {
+   "style": "googie-architecture",
+   "domain": "architecture",
+   "material": "plate-glass",
+   "use": "primary",
+   "via": "materials.primary: \"plate glass\""
+  },
+  {
+   "style": "googie-architecture",
+   "domain": "architecture",
+   "material": "neon-tube",
+   "use": "secondary",
+   "via": "materials.secondary: \"neon tube\""
+  },
+  {
+   "style": "googie-architecture",
+   "domain": "architecture",
+   "material": "plastic-laminate",
+   "use": "secondary",
+   "via": "materials.secondary: \"plastic laminate\""
+  },
+  {
+   "style": "googie-architecture",
+   "domain": "architecture",
+   "material": "terrazzo",
+   "use": "secondary",
+   "via": "materials.secondary: \"terrazzo\""
+  },
+  {
    "style": "gothic-architecture",
    "domain": "architecture",
    "material": "limestone",
@@ -43413,6 +43476,41 @@
    "material": "timber",
    "use": "secondary",
    "via": "materials.secondary: \"charred timber cladding\""
+  },
+  {
+   "style": "metabolism-architecture",
+   "domain": "architecture",
+   "material": "concrete",
+   "use": "primary",
+   "via": "materials.primary: \"in-situ reinforced concrete\""
+  },
+  {
+   "style": "metabolism-architecture",
+   "domain": "architecture",
+   "material": "steel",
+   "use": "primary",
+   "via": "materials.primary: \"prefabricated steel capsule\""
+  },
+  {
+   "style": "metabolism-architecture",
+   "domain": "architecture",
+   "material": "galvanised-steel",
+   "use": "secondary",
+   "via": "materials.secondary: \"galvanised steel\""
+  },
+  {
+   "style": "metabolism-architecture",
+   "domain": "architecture",
+   "material": "glass",
+   "use": "secondary",
+   "via": "materials.secondary: \"glass\""
+  },
+  {
+   "style": "metabolism-architecture",
+   "domain": "architecture",
+   "material": "aluminium",
+   "use": "secondary",
+   "via": "materials.secondary: \"aluminium cladding\""
   },
   {
    "style": "mid-century-modern-architecture",
@@ -43805,6 +43903,41 @@
    "material": "concrete",
    "use": "secondary",
    "via": "materials.secondary: \"cast concrete\""
+  },
+  {
+   "style": "radical-architecture",
+   "domain": "architecture",
+   "material": "plastic-laminate",
+   "use": "primary",
+   "via": "materials.primary: \"white laminate grid\""
+  },
+  {
+   "style": "radical-architecture",
+   "domain": "architecture",
+   "material": "glass",
+   "use": "primary",
+   "via": "materials.primary: \"mirrored glass\""
+  },
+  {
+   "style": "radical-architecture",
+   "domain": "architecture",
+   "material": "steel-frame",
+   "use": "primary",
+   "via": "materials.primary: \"steel frame\""
+  },
+  {
+   "style": "radical-architecture",
+   "domain": "architecture",
+   "material": "plastic",
+   "use": "secondary",
+   "via": "materials.secondary: \"plastic\""
+  },
+  {
+   "style": "radical-architecture",
+   "domain": "architecture",
+   "material": "felt",
+   "use": "secondary",
+   "via": "materials.secondary: \"felt-tip colour\""
   },
   {
    "style": "renaissance-architecture",
@@ -45242,6 +45375,20 @@
    "via": "media: \"watercolour\""
   },
   {
+   "style": "orphism",
+   "domain": "painting",
+   "material": "oil-paint",
+   "use": "primary",
+   "via": "media: \"oil on canvas\""
+  },
+  {
+   "style": "orphism",
+   "domain": "painting",
+   "material": "canvas",
+   "use": "primary",
+   "via": "media: \"oil on canvas\""
+  },
+  {
    "style": "photorealism",
    "domain": "painting",
    "material": "oil-paint",
@@ -45306,6 +45453,20 @@
   },
   {
    "style": "post-impressionism",
+   "domain": "painting",
+   "material": "canvas",
+   "use": "primary",
+   "via": "media: \"oil on canvas\""
+  },
+  {
+   "style": "rayonism",
+   "domain": "painting",
+   "material": "oil-paint",
+   "use": "primary",
+   "via": "media: \"oil on canvas\""
+  },
+  {
+   "style": "rayonism",
    "domain": "painting",
    "material": "canvas",
    "use": "primary",
@@ -45443,6 +45604,20 @@
    "material": "watercolour",
    "use": "primary",
    "via": "media: \"watercolour\""
+  },
+  {
+   "style": "synthetism",
+   "domain": "painting",
+   "material": "oil-paint",
+   "use": "primary",
+   "via": "media: \"oil on canvas\""
+  },
+  {
+   "style": "synthetism",
+   "domain": "painting",
+   "material": "canvas",
+   "use": "primary",
+   "via": "media: \"oil on canvas\""
   },
   {
    "style": "ukiyo-e",
@@ -50639,6 +50814,11 @@
    "process": "technique:cantilever"
   },
   {
+   "style": "googie-architecture",
+   "domain": "",
+   "process": "technique:cantilever"
+  },
+  {
    "style": "smartwatch",
    "domain": "",
    "process": "technique:capacitive-touchscreen"
@@ -50837,6 +51017,16 @@
    "style": "claymorphism",
    "domain": "",
    "process": "technique:clay-render"
+  },
+  {
+   "style": "synthetism",
+   "domain": "",
+   "process": "technique:cloisonnism"
+  },
+  {
+   "style": "chromolithograph-poster",
+   "domain": "",
+   "process": "technique:cloisonnism"
   },
   {
    "style": "brass-era-car",
@@ -51040,6 +51230,11 @@
   },
   {
    "style": "swiss-international",
+   "domain": "",
+   "process": "technique:diagonal-composition"
+  },
+  {
+   "style": "rayonism",
    "domain": "",
    "process": "technique:diagonal-composition"
   },
@@ -51595,6 +51790,11 @@
   },
   {
    "style": "pov-short",
+   "domain": "",
+   "process": "technique:handheld-camera"
+  },
+  {
+   "style": "third-cinema",
    "domain": "",
    "process": "technique:handheld-camera"
   },
@@ -52484,6 +52684,11 @@
    "process": "technique:photomontage"
   },
   {
+   "style": "radical-architecture",
+   "domain": "",
+   "process": "technique:photomontage"
+  },
+  {
    "style": "neo-grotesque-sans",
    "domain": "",
    "process": "technique:phototypesetting"
@@ -52577,6 +52782,11 @@
    "style": "cottagecore",
    "domain": "",
    "process": "technique:plein-air"
+  },
+  {
+   "style": "metabolism-architecture",
+   "domain": "",
+   "process": "technique:plug-in-capsule"
   },
   {
    "style": "pochoir-plate",
@@ -52962,6 +53172,16 @@
    "style": "flat-icon",
    "domain": "",
    "process": "technique:silhouette"
+  },
+  {
+   "style": "orphism",
+   "domain": "",
+   "process": "technique:simultaneous-contrast"
+  },
+  {
+   "style": "garconne-flapper-dress",
+   "domain": "",
+   "process": "technique:simultaneous-contrast"
   },
   {
    "style": "barbiecore",
@@ -53816,7 +54036,23 @@
   },
   {
    "domain": "architecture",
+   "text": "plastered block"
+  },
+  {
+   "domain": "architecture",
+   "text": "flagstone"
+  },
+  {
+   "domain": "architecture",
    "text": "raised access floor"
+  },
+  {
+   "domain": "architecture",
+   "text": "photo-collage"
+  },
+  {
+   "domain": "architecture",
+   "text": "screen print"
   },
   {
    "domain": "interior",
