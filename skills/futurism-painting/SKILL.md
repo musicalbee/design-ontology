@@ -204,9 +204,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more pure and abstract**: move toward [`suprematism`](../suprematism/SKILL.md) (Suprematism). Drop the machine and the street; keep the diagonals and reduce the form to 3–5 flat geometric shapes on a white field.
 
 - **Came from (go here for a more orthodox version):** [`cubism-painting`](../cubism-painting/SKILL.md)
-- **Led to (go here for a newer version):** [`suprematism`](../suprematism/SKILL.md)
+- **Led to (go here for a newer version):** [`rayonism`](../rayonism/SKILL.md), [`suprematism`](../suprematism/SKILL.md)
 - **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`soviet-montage`](../soviet-montage/SKILL.md)
-- **Nearest by vector profile:** [`symbolism-painting`](../symbolism-painting/SKILL.md), [`cubism-painting`](../cubism-painting/SKILL.md), [`expressionism-painting`](../expressionism-painting/SKILL.md)
+- **Nearest by vector profile:** [`rayonism`](../rayonism/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md), [`synthetism`](../synthetism/SKILL.md)
 
 ## Emotional target
 

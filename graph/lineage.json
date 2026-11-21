@@ -2107,6 +2107,21 @@
       }
     },
     {
+      "id": "googie-architecture",
+      "domain": "architecture",
+      "name": "Googie",
+      "era": "modern-movement",
+      "start": 1949,
+      "end": 1972,
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 1,
+        "monumentality": 2
+      }
+    },
+    {
       "id": "brutalist-architecture",
       "domain": "architecture",
       "name": "Brutalism",
@@ -2119,6 +2134,21 @@
         "geometric_rigidity": 4,
         "material_rawness": 5,
         "monumentality": 5
+      }
+    },
+    {
+      "id": "metabolism-architecture",
+      "domain": "architecture",
+      "name": "Metabolism",
+      "era": "modern-movement",
+      "start": 1959,
+      "end": 1973,
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 5,
+        "geometric_rigidity": 4,
+        "material_rawness": 3,
+        "monumentality": 4
       }
     },
     {
@@ -2149,6 +2179,21 @@
         "geometric_rigidity": 3,
         "material_rawness": 1,
         "monumentality": 3
+      }
+    },
+    {
+      "id": "radical-architecture",
+      "domain": "architecture",
+      "name": "Radical architecture",
+      "era": "postmodern-and-after",
+      "start": 1966,
+      "end": 1989,
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 4,
+        "geometric_rigidity": 4,
+        "material_rawness": 1,
+        "monumentality": 4
       }
     },
     {
@@ -2962,6 +3007,21 @@
       }
     },
     {
+      "id": "third-cinema",
+      "domain": "film",
+      "name": "Third Cinema",
+      "era": "new-waves",
+      "start": 1968,
+      "end": null,
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 4,
+        "staging": 1,
+        "grade_stylisation": 2,
+        "frame_width": 2
+      }
+    },
+    {
       "id": "music-video",
       "domain": "film",
       "name": "Music video",
@@ -3337,6 +3397,21 @@
       }
     },
     {
+      "id": "synthetism",
+      "domain": "painting",
+      "name": "Synthetism",
+      "era": "nineteenth-century",
+      "start": 1888,
+      "end": 1900,
+      "vectors": {
+        "abstraction": 3,
+        "brushwork_visibility": 2,
+        "chromatic_intensity": 5,
+        "depth_illusion": 1,
+        "line_dominance": 4
+      }
+    },
+    {
       "id": "expressionism-painting",
       "domain": "painting",
       "name": "Expressionism",
@@ -3394,6 +3469,36 @@
         "chromatic_intensity": 4,
         "depth_illusion": 2,
         "line_dominance": 5
+      }
+    },
+    {
+      "id": "rayonism",
+      "domain": "painting",
+      "name": "Rayonism",
+      "era": "avant-garde",
+      "start": 1910,
+      "end": 1914,
+      "vectors": {
+        "abstraction": 4,
+        "brushwork_visibility": 4,
+        "chromatic_intensity": 4,
+        "depth_illusion": 2,
+        "line_dominance": 5
+      }
+    },
+    {
+      "id": "orphism",
+      "domain": "painting",
+      "name": "Orphism",
+      "era": "avant-garde",
+      "start": 1912,
+      "end": 1914,
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 2,
+        "chromatic_intensity": 5,
+        "depth_illusion": 2,
+        "line_dominance": 2
       }
     },
     {
@@ -10169,6 +10274,16 @@
       "type": "ECHOES"
     },
     {
+      "from": "googie-architecture",
+      "to": "space-age",
+      "type": "ECHOES"
+    },
+    {
+      "from": "googie-architecture",
+      "to": "space-age-pop-product",
+      "type": "ECHOES"
+    },
+    {
       "from": "gorpcore",
       "to": "health-goth",
       "type": "ECHOES"
@@ -10655,6 +10770,11 @@
     },
     {
       "from": "memphis-design",
+      "to": "radical-architecture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "memphis-design",
       "to": "swiss-international",
       "type": "ECHOES"
     },
@@ -11066,6 +11186,11 @@
     {
       "from": "pop-art-painting",
       "to": "pop-screen-print",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pop-art-painting",
+      "to": "radical-architecture",
       "type": "ECHOES"
     },
     {
@@ -12419,6 +12544,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "googie-architecture",
+      "to": "art-deco-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "gorpcore",
       "to": "technical-shell-alpinism",
       "type": "EVOLVED_FROM"
@@ -12824,6 +12954,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "metabolism-architecture",
+      "to": "international-style-architecture",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "mezzotint-print",
       "to": "engraving-print",
       "type": "EVOLVED_FROM"
@@ -13109,6 +13244,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "orphism",
+      "to": "cubism-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "outline-icon",
       "to": "flat-icon",
       "type": "EVOLVED_FROM"
@@ -13286,6 +13426,16 @@
     {
       "from": "ravi-varma-oleograph",
       "to": "chromolithograph-poster",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "rayonism",
+      "to": "cubism-painting",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "rayonism",
+      "to": "futurism-painting",
       "type": "EVOLVED_FROM"
     },
     {
@@ -13604,6 +13754,11 @@
       "type": "EVOLVED_FROM"
     },
     {
+      "from": "synthetism",
+      "to": "post-impressionism",
+      "type": "EVOLVED_FROM"
+    },
+    {
       "from": "synthwave-web",
       "to": "vaporwave",
       "type": "EVOLVED_FROM"
@@ -13656,6 +13811,16 @@
     {
       "from": "terracotta-rainscreen",
       "to": "victorian-architectural-terracotta",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "third-cinema",
+      "to": "documentary-verite",
+      "type": "EVOLVED_FROM"
+    },
+    {
+      "from": "third-cinema",
+      "to": "soviet-montage",
       "type": "EVOLVED_FROM"
     },
     {
@@ -14549,6 +14714,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "fauvism",
+      "to": "orphism",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "fifth-gen-low-poly",
       "to": "pre-rendered-backgrounds",
       "type": "HYBRIDIZED_WITH"
@@ -14711,6 +14881,11 @@
     {
       "from": "health-goth",
       "to": "y2k-aesthetic",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "high-tech-architecture",
+      "to": "radical-architecture",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -15954,6 +16129,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "radical-architecture",
+      "to": "international-style-architecture",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "raku-tea-bowl",
       "to": "jian-tenmoku-ware",
       "type": "REBELLED_AGAINST"
@@ -16134,6 +16314,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "synthetism",
+      "to": "impressionism",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "synthwave-web",
       "to": "flat-design",
       "type": "REBELLED_AGAINST"
@@ -16146,6 +16331,11 @@
     {
       "from": "terminal-tui-web",
       "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "third-cinema",
+      "to": "classical-hollywood",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -16217,6 +16407,26 @@
       "from": "yixing-zisha-teapot",
       "to": "jian-tenmoku-ware",
       "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "googie-architecture",
+      "to": "mid-century-modern-architecture",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "orphism",
+      "to": "cubism-painting",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "rayonism",
+      "to": "futurism-painting",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "synthetism",
+      "to": "post-impressionism",
+      "type": "SUBGENRE_OF"
     }
   ],
   "techniques": [
@@ -17201,6 +17411,15 @@
           ]
         },
         {
+          "domain": "architecture",
+          "year": 1949,
+          "circa": false,
+          "lag_years": 649,
+          "styles": [
+            "googie-architecture"
+          ]
+        },
+        {
           "domain": "industrial",
           "year": 1960,
           "circa": false,
@@ -17217,7 +17436,8 @@
         "bauhaus-architecture",
         "international-style-architecture",
         "bauhaus-product",
-        "space-age-pop-product"
+        "space-age-pop-product",
+        "googie-architecture"
       ]
     },
     {
@@ -17871,6 +18091,31 @@
       "styles": [
         "clay-3d-icon",
         "claymorphism"
+      ]
+    },
+    {
+      "id": "cloisonnism",
+      "name": "Cloisonnism",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1887,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1891,
+          "circa": false,
+          "lag_years": 4,
+          "styles": [
+            "chromolithograph-poster"
+          ]
+        }
+      ],
+      "styles": [
+        "synthetism",
+        "chromolithograph-poster"
       ]
     },
     {
@@ -18571,7 +18816,8 @@
         "suprematism",
         "constructivism-web",
         "soviet-montage",
-        "swiss-international"
+        "swiss-international",
+        "rayonism"
       ]
     },
     {
@@ -20239,7 +20485,8 @@
           "circa": true,
           "lag_years": 0,
           "styles": [
-            "documentary-verite"
+            "documentary-verite",
+            "third-cinema"
           ]
         },
         {
@@ -20315,7 +20562,8 @@
         "phone-cinema",
         "new-hollywood",
         "camcorder-revival",
-        "pov-short"
+        "pov-short",
+        "third-cinema"
       ]
     },
     {
@@ -22902,6 +23150,15 @@
           ]
         },
         {
+          "domain": "architecture",
+          "year": 1969,
+          "circa": false,
+          "lag_years": 51,
+          "styles": [
+            "radical-architecture"
+          ]
+        },
+        {
           "domain": "internet",
           "year": 1976,
           "circa": false,
@@ -22966,7 +23223,8 @@
         "anti-design",
         "scrapbook-ui",
         "seapunk",
-        "constructivist-photomontage-poster"
+        "constructivist-photomontage-poster",
+        "radical-architecture"
       ]
     },
     {
@@ -23260,6 +23518,30 @@
         "nordic-national-romanticism-painting",
         "italian-neorealism",
         "cottagecore"
+      ]
+    },
+    {
+      "id": "plug-in-capsule",
+      "name": "Plug-in capsule",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 1972,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1972,
+          "circa": false,
+          "lag_years": 0,
+          "styles": [
+            "metabolism-architecture"
+          ]
+        }
+      ],
+      "styles": [
+        "metabolism-architecture"
       ]
     },
     {
@@ -24475,6 +24757,31 @@
       "styles": [
         "solid-glyph-icon",
         "flat-icon"
+      ]
+    },
+    {
+      "id": "simultaneous-contrast",
+      "name": "Simultaneous contrast",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1912,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "fashion",
+          "year": 1925,
+          "circa": false,
+          "lag_years": 13,
+          "styles": [
+            "garconne-flapper-dress"
+          ]
+        }
+      ],
+      "styles": [
+        "orphism",
+        "garconne-flapper-dress"
       ]
     },
     {
@@ -27172,6 +27479,7 @@
         "pop-art-painting",
         "pop-art-web",
         "postmodern-architecture",
+        "radical-architecture",
         "swiss-international",
         "swiss-plastic-pop-watch"
       ],
@@ -31448,15 +31756,15 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "googie-architecture",
+          "distance": 1.73
+        },
+        {
           "id": "arts-and-crafts-architecture",
           "distance": 3
         },
         {
           "id": "organic-architecture",
-          "distance": 3.16
-        },
-        {
-          "id": "parametricism-architecture",
           "distance": 3.16
         }
       ],
@@ -31607,7 +31915,9 @@
       "evolved_from": [
         "art-nouveau-architecture"
       ],
-      "evolved_into": [],
+      "evolved_into": [
+        "googie-architecture"
+      ],
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [],
@@ -31650,6 +31960,7 @@
       "evolved_into": [
         "brutalist-architecture",
         "high-tech-architecture",
+        "metabolism-architecture",
         "mid-century-modern-architecture",
         "nordic-modernism-architecture"
       ],
@@ -31659,7 +31970,8 @@
         "critical-regionalism-architecture",
         "deconstructivist-architecture",
         "parametricism-architecture",
-        "postmodern-architecture"
+        "postmodern-architecture",
+        "radical-architecture"
       ],
       "hybridized_with": [
         "bauhaus-architecture"
@@ -31756,7 +32068,9 @@
         "space-age"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "googie-architecture"
+      ],
       "nearest_by_vector": [
         {
           "id": "bauhaus-architecture",
@@ -31773,6 +32087,40 @@
       ],
       "techniques": [
         "breeze-block"
+      ]
+    },
+    "googie-architecture": {
+      "evolved_from": [
+        "art-deco-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "space-age",
+        "space-age-pop-product"
+      ],
+      "subgenre_of": [
+        "mid-century-modern-architecture"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "art-nouveau-architecture",
+          "distance": 1.73
+        },
+        {
+          "id": "postmodern-architecture",
+          "distance": 2.45
+        },
+        {
+          "id": "parametricism-architecture",
+          "distance": 2.65
+        }
+      ],
+      "techniques": [
+        "cantilever"
       ]
     },
     "brutalist-architecture": {
@@ -31812,12 +32160,41 @@
           "distance": 2.24
         },
         {
-          "id": "critical-regionalism-architecture",
-          "distance": 2.65
+          "id": "metabolism-architecture",
+          "distance": 2.24
         }
       ],
       "techniques": [
         "board-marked-concrete"
+      ]
+    },
+    "metabolism-architecture": {
+      "evolved_from": [
+        "international-style-architecture"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "high-tech-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "mass-timber-architecture",
+          "distance": 1.41
+        },
+        {
+          "id": "critical-regionalism-architecture",
+          "distance": 2
+        }
+      ],
+      "techniques": [
+        "plug-in-capsule"
       ]
     },
     "adaptive-reuse-architecture": {
@@ -31880,13 +32257,47 @@
           "distance": 2.24
         },
         {
-          "id": "baroque-architecture",
-          "distance": 2.65
+          "id": "googie-architecture",
+          "distance": 2.45
         }
       ],
       "techniques": [
         "arch",
         "neon-glow"
+      ]
+    },
+    "radical-architecture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "international-style-architecture"
+      ],
+      "provoked": [],
+      "hybridized_with": [
+        "high-tech-architecture"
+      ],
+      "echoes": [
+        "memphis-design",
+        "pop-art-painting"
+      ],
+      "subgenre_of": [],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "high-tech-architecture",
+          "distance": 2
+        },
+        {
+          "id": "international-style-architecture",
+          "distance": 2.24
+        },
+        {
+          "id": "metabolism-architecture",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "photomontage"
       ]
     },
     "high-tech-architecture": {
@@ -31897,7 +32308,8 @@
       "rebelled_against": [],
       "provoked": [],
       "hybridized_with": [
-        "deconstructivist-architecture"
+        "deconstructivist-architecture",
+        "radical-architecture"
       ],
       "echoes": [
         "cassette-futurism",
@@ -31912,16 +32324,16 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "metabolism-architecture",
+          "distance": 1.41
+        },
+        {
           "id": "bauhaus-architecture",
           "distance": 1.73
         },
         {
           "id": "mass-timber-architecture",
           "distance": 2
-        },
-        {
-          "id": "international-style-architecture",
-          "distance": 2.24
         }
       ],
       "techniques": [
@@ -31953,7 +32365,7 @@
           "distance": 1.73
         },
         {
-          "id": "prairie-school-architecture",
+          "id": "metabolism-architecture",
           "distance": 2
         }
       ],
@@ -32020,12 +32432,12 @@
           "distance": 1.41
         },
         {
-          "id": "high-tech-architecture",
-          "distance": 2
+          "id": "metabolism-architecture",
+          "distance": 1.41
         },
         {
-          "id": "adaptive-reuse-architecture",
-          "distance": 2.24
+          "id": "high-tech-architecture",
+          "distance": 2
         }
       ],
       "techniques": [
@@ -32057,7 +32469,7 @@
           "distance": 2.65
         },
         {
-          "id": "postmodern-architecture",
+          "id": "googie-architecture",
           "distance": 2.65
         }
       ],
@@ -33623,7 +34035,8 @@
       "evolved_from": [],
       "evolved_into": [
         "documentary-verite",
-        "french-new-wave"
+        "french-new-wave",
+        "third-cinema"
       ],
       "rebelled_against": [],
       "provoked": [
@@ -33670,7 +34083,8 @@
         "music-video",
         "new-hollywood",
         "slow-cinema",
-        "spaghetti-western"
+        "spaghetti-western",
+        "third-cinema"
       ],
       "hybridized_with": [],
       "echoes": [
@@ -33846,7 +34260,8 @@
         "soviet-montage"
       ],
       "evolved_into": [
-        "found-footage"
+        "found-footage",
+        "third-cinema"
       ],
       "rebelled_against": [],
       "provoked": [],
@@ -33971,6 +34386,38 @@
         {
           "id": "phone-cinema",
           "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "handheld-camera"
+      ]
+    },
+    "third-cinema": {
+      "evolved_from": [
+        "documentary-verite",
+        "soviet-montage"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "classical-hollywood"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "dogme-95",
+          "distance": 1.73
+        },
+        {
+          "id": "mumblecore",
+          "distance": 1.73
+        },
+        {
+          "id": "french-new-wave",
+          "distance": 2
         }
       ],
       "techniques": [
@@ -34374,12 +34821,12 @@
           "distance": 2
         },
         {
-          "id": "phone-cinema",
-          "distance": 3
+          "id": "third-cinema",
+          "distance": 2.65
         },
         {
-          "id": "classical-hollywood",
-          "distance": 3.16
+          "id": "phone-cinema",
+          "distance": 3
         }
       ],
       "techniques": [
@@ -34443,15 +34890,15 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "third-cinema",
+          "distance": 2.83
+        },
+        {
           "id": "documentary-verite",
           "distance": 3
         },
         {
           "id": "italian-neorealism",
-          "distance": 3.16
-        },
-        {
-          "id": "phone-cinema",
           "distance": 3.16
         }
       ],
@@ -34727,7 +35174,8 @@
       ],
       "rebelled_against": [],
       "provoked": [
-        "cubism-painting"
+        "cubism-painting",
+        "synthetism"
       ],
       "hybridized_with": [
         "nordic-national-romanticism-painting",
@@ -34827,7 +35275,8 @@
         "impressionism"
       ],
       "evolved_into": [
-        "expressionism-painting"
+        "expressionism-painting",
+        "synthetism"
       ],
       "rebelled_against": [],
       "provoked": [],
@@ -34836,7 +35285,9 @@
         "chromolithograph-poster"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "synthetism"
+      ],
       "nearest_by_vector": [
         {
           "id": "expressionism-painting",
@@ -34887,6 +35338,39 @@
         "lithography"
       ]
     },
+    "synthetism": {
+      "evolved_from": [
+        "post-impressionism"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [
+        "impressionism"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [
+        "post-impressionism"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "pop-art-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "futurism-painting",
+          "distance": 2
+        },
+        {
+          "id": "symbolism-painting",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "cloisonnism"
+      ]
+    },
     "expressionism-painting": {
       "evolved_from": [
         "post-impressionism"
@@ -34912,8 +35396,8 @@
           "distance": 1.73
         },
         {
-          "id": "futurism-painting",
-          "distance": 2.45
+          "id": "rayonism",
+          "distance": 2
         }
       ],
       "techniques": [
@@ -34928,7 +35412,9 @@
       "evolved_into": [],
       "rebelled_against": [],
       "provoked": [],
-      "hybridized_with": [],
+      "hybridized_with": [
+        "orphism"
+      ],
       "echoes": [
         "new-colour",
         "pochoir-plate"
@@ -34959,6 +35445,8 @@
         "abstract-expressionism",
         "de-stijl-painting",
         "futurism-painting",
+        "orphism",
+        "rayonism",
         "suprematism"
       ],
       "rebelled_against": [
@@ -34973,7 +35461,9 @@
         "deconstructivist-architecture"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "orphism"
+      ],
       "nearest_by_vector": [
         {
           "id": "symbolism-painting",
@@ -34998,6 +35488,7 @@
         "cubism-painting"
       ],
       "evolved_into": [
+        "rayonism",
         "suprematism"
       ],
       "rebelled_against": [],
@@ -35008,23 +35499,90 @@
         "soviet-montage"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "rayonism"
+      ],
       "nearest_by_vector": [
+        {
+          "id": "rayonism",
+          "distance": 1.41
+        },
         {
           "id": "symbolism-painting",
           "distance": 1.73
         },
         {
-          "id": "cubism-painting",
-          "distance": 2.45
-        },
-        {
-          "id": "expressionism-painting",
-          "distance": 2.45
+          "id": "synthetism",
+          "distance": 2
         }
       ],
       "techniques": [
         "chronophotography"
+      ]
+    },
+    "rayonism": {
+      "evolved_from": [
+        "cubism-painting",
+        "futurism-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [
+        "futurism-painting"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "futurism-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "expressionism-painting",
+          "distance": 2
+        },
+        {
+          "id": "cubism-painting",
+          "distance": 2.45
+        }
+      ],
+      "techniques": [
+        "diagonal-composition"
+      ]
+    },
+    "orphism": {
+      "evolved_from": [
+        "cubism-painting"
+      ],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "fauvism"
+      ],
+      "echoes": [],
+      "subgenre_of": [
+        "cubism-painting"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "colour-field-painting",
+          "distance": 1.41
+        },
+        {
+          "id": "suprematism",
+          "distance": 2.65
+        },
+        {
+          "id": "fauvism",
+          "distance": 3
+        }
+      ],
+      "techniques": [
+        "simultaneous-contrast"
       ]
     },
     "suprematism": {
@@ -35054,7 +35612,7 @@
           "distance": 2.24
         },
         {
-          "id": "symbolism-painting",
+          "id": "orphism",
           "distance": 2.65
         }
       ],
@@ -35097,8 +35655,8 @@
           "distance": 2.24
         },
         {
-          "id": "symbolism-painting",
-          "distance": 2.83
+          "id": "synthetism",
+          "distance": 2.65
         }
       ],
       "techniques": [
@@ -35194,16 +35752,16 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "orphism",
+          "distance": 1.41
+        },
+        {
           "id": "suprematism",
           "distance": 3
         },
         {
           "id": "fauvism",
           "distance": 3.61
-        },
-        {
-          "id": "abstract-expressionism",
-          "distance": 3.87
         }
       ],
       "techniques": [
@@ -35231,6 +35789,7 @@
         "mod-and-mini",
         "pop-art-web",
         "pop-screen-print",
+        "radical-architecture",
         "space-age-pop-product",
         "swiss-plastic-pop-watch"
       ],
@@ -35238,16 +35797,16 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "synthetism",
+          "distance": 1.41
+        },
+        {
           "id": "mannerism-painting",
           "distance": 2.24
         },
         {
           "id": "ukiyo-e",
           "distance": 2.45
-        },
-        {
-          "id": "symbolism-painting",
-          "distance": 2.65
         }
       ],
       "techniques": [
@@ -37791,6 +38350,7 @@
         }
       ],
       "techniques": [
+        "cloisonnism",
         "lithography"
       ]
     },
@@ -39056,6 +39616,7 @@
       "echoes": [
         "airbrush-surrealism",
         "emblem-badge",
+        "googie-architecture",
         "high-tech-architecture",
         "mid-century-modern-architecture",
         "mid-century-modern-interior",
@@ -39721,6 +40282,7 @@
         "barbiecore",
         "electronic-and-digital-watch",
         "glam-platform-shoe",
+        "googie-architecture",
         "muscle-and-pony-car",
         "pop-art-painting",
         "space-age",
@@ -40920,6 +41482,7 @@
         }
       ],
       "techniques": [
+        "simultaneous-contrast",
         "tambour-embroidery"
       ]
     },

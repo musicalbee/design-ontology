@@ -182,6 +182,8 @@ Work made outside in front of the subject, in the light of the place and the hou
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Paris Salon** (salon, Paris, 1667–now), exhibited the style. The official art exhibition of the French Academy. For two centuries a painting had to succeed here to make a name, and each new school fought for its walls.
+- **Peredvizhniki** (collective, Saint Petersburg, 1870–1923), launched the style. A society of Russian realist painters. It sent its shows by train to many towns, so that people outside the capital could see them. It was a free group, apart from the Academy.
+- **Pre-Raphaelite Brotherhood** (crew, London, 1848–1853), shaped the style. Seven young British artists and writers who met in London in 1848. They wanted bright, detailed pictures drawn from nature and from serious subjects, and they rejected the soft manner of the Academy.
 
 ## Permutations
 

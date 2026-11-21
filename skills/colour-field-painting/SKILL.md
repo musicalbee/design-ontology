@@ -202,7 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **harder and more exact**: move toward [`minimalism-painting`](../minimalism-painting/SKILL.md) (Minimalism). Sharpen every edge to under 1mm, flatten each field to one even coat, and cut the palette to 1–2 hues in a strict, repeated order.
 
 - **Came from (go here for a more orthodox version):** [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
-- **Nearest by vector profile:** [`suprematism`](../suprematism/SKILL.md), [`fauvism`](../fauvism/SKILL.md), [`abstract-expressionism`](../abstract-expressionism/SKILL.md)
+- **Nearest by vector profile:** [`orphism`](../orphism/SKILL.md), [`suprematism`](../suprematism/SKILL.md), [`fauvism`](../fauvism/SKILL.md)
 
 ## Emotional target
 

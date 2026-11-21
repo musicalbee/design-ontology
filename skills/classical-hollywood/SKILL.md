@@ -214,6 +214,8 @@ A key light, a fill light and a back light on one subject, so that the face is m
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **L.A. Rebellion** (collective, Los Angeles, 1967–1999), opposed the style. A group of African and African-American students at the UCLA film school. They made films on Black life as an answer to the Hollywood picture.
+- **Oberhausen Group** (collective, Oberhausen, 1962–now), opposed the style. Twenty-six young West German film makers who signed a short manifesto at the Oberhausen short film festival. They declared the old German film dead and asked for the freedom to make a new one.
 - **RKO Pictures** (studio, Los Angeles, 1928–1959), made the style. A Hollywood studio of the studio era. It made classic Hollywood films and many low-key film noirs, with their publicity stills.
 
 ## Permutations
@@ -237,7 +239,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md)
 - **Led to (go here for a newer version):** [`one-take-oner`](../one-take-oner/SKILL.md)
-- **Was rejected by:** [`film-noir`](../film-noir/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md), [`music-video`](../music-video/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md), [`spaghetti-western`](../spaghetti-western/SKILL.md)
+- **Was rejected by:** [`film-noir`](../film-noir/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`mumblecore`](../mumblecore/SKILL.md), [`music-video`](../music-video/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md), [`slow-cinema`](../slow-cinema/SKILL.md), [`spaghetti-western`](../spaghetti-western/SKILL.md), [`third-cinema`](../third-cinema/SKILL.md)
 - **Kin in another domain:** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`bias-cut-glamour`](../bias-cut-glamour/SKILL.md), [`ladylike-handbag`](../ladylike-handbag/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Nearest by vector profile:** [`film-noir`](../film-noir/SKILL.md), [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md), [`planimetric-symmetry`](../planimetric-symmetry/SKILL.md)
 

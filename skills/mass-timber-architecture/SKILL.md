@@ -215,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`brutalist-architecture`](../brutalist-architecture/SKILL.md)
 - **Kin in another domain:** [`scandinavian-interior`](../scandinavian-interior/SKILL.md)
-- **Nearest by vector profile:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`adaptive-reuse-architecture`](../adaptive-reuse-architecture/SKILL.md)
+- **Nearest by vector profile:** [`critical-regionalism-architecture`](../critical-regionalism-architecture/SKILL.md), [`metabolism-architecture`](../metabolism-architecture/SKILL.md), [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
 
 ## Emotional target
 

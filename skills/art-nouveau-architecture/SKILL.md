@@ -212,7 +212,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`art-deco-architecture`](../art-deco-architecture/SKILL.md), [`expressionist-architecture`](../expressionist-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
 - **Kin in another domain:** [`art-nouveau-ceramics`](../art-nouveau-ceramics/SKILL.md), [`art-nouveau-interior`](../art-nouveau-interior/SKILL.md), [`art-nouveau-monogram`](../art-nouveau-monogram/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md), [`art-nouveau-tiles`](../art-nouveau-tiles/SKILL.md), [`art-nouveau-web`](../art-nouveau-web/SKILL.md), [`chicago-school-terracotta`](../chicago-school-terracotta/SKILL.md), [`hungarian-secession-ceramics`](../hungarian-secession-ceramics/SKILL.md), [`rococo-painting`](../rococo-painting/SKILL.md), [`symbolism-painting`](../symbolism-painting/SKILL.md), [`trencadis`](../trencadis/SKILL.md)
-- **Nearest by vector profile:** [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md), [`parametricism-architecture`](../parametricism-architecture/SKILL.md)
+- **Nearest by vector profile:** [`googie-architecture`](../googie-architecture/SKILL.md), [`arts-and-crafts-architecture`](../arts-and-crafts-architecture/SKILL.md), [`organic-architecture`](../organic-architecture/SKILL.md)
 
 ## Emotional target
 

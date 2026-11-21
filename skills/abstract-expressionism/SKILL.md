@@ -185,6 +185,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 - **Charles Egan Gallery** (gallery, New York, ?–1972), funded the style. A New York gallery on East 57th Street. It held the 1948 show of de Kooning's black and white paintings.
 - **Congress for Cultural Freedom** (state programme, West Berlin, 1950–1979), funded the style. Anti-communist cultural network founded in West Berlin in 1950. The CIA funded it until 1966.
 - **WPA Federal Art Project** (state programme, United States, 1935–1943), funded the style. US relief programme from 1935 to 1943. It paid up to 10,000 artists weekly wages, among them Jackson Pollock.
+- **Gutai Art Association** (collective, Ashiya, 1954–1972), shaped the style. A Japanese group led by Jiro Yoshihara. Its members painted with feet, mud and balls, and made shows in parks and on stage. The name means concrete: they let the matter speak.
 - **Sidney Janis Gallery** (gallery, New York, 1948–now), funded the style. A New York gallery. It gave Pollock the first of three solo shows in 1952 and held the New Realists show of 1962.
 
 ## Permutations

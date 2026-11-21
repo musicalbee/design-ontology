@@ -223,6 +223,8 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Dziga Vertov Group** (crew, Paris, 1968–1972), revived the style. A group of political film makers round Godard and Gorin. They made Marxist films with no single author, and they took the name of the Kinoks' leader.
+- **Kinoks** (crew, Moscow, 1922–now), launched the style. A Soviet group of film makers: Vertov, his wife Svilova and his brother Kaufman. They rejected the staged drama and wanted the camera to show life as it is, cut into a film.
 - **Gerasimov Institute of Cinematography** (school, Moscow, 1919–now), taught the style. The first film school in the world. Lev Kuleshov ran a workshop here, and Sergei Eisenstein taught here.
 
 ## Permutations
@@ -244,7 +246,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **more human**: move toward [`french-new-wave`](../french-new-wave/SKILL.md) (French New Wave). Keep the cut rhythm at 3 to 5 s and the hard black and white; move to a street, a handheld camera and one named person.
 - If the user asks for **more mood**: move toward [`german-expressionist-cinema`](../german-expressionist-cinema/SKILL.md) (German Expressionist cinema). Keep the black and white and the low angles; cut to an average of 6 to 10 s, add one hard key and painted shadows.
 
-- **Led to (go here for a newer version):** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md)
+- **Led to (go here for a newer version):** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`third-cinema`](../third-cinema/SKILL.md)
 - **Was rejected by:** [`one-take-oner`](../one-take-oner/SKILL.md)
 - **Kin in another domain:** [`constructivism-web`](../constructivism-web/SKILL.md), [`futurism-painting`](../futurism-painting/SKILL.md)
 - **Nearest by vector profile:** [`vertical-short-form`](../vertical-short-form/SKILL.md), [`classical-hollywood`](../classical-hollywood/SKILL.md), [`hong-kong-action`](../hong-kong-action/SKILL.md)

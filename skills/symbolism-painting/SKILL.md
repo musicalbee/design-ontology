@@ -184,6 +184,8 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Le Figaro** (magazine, Paris, 1826–now), published the style. A French daily newspaper. It printed the Symbolist manifesto in 1886 and the Futurist manifesto in 1909.
+- **Les Nabis** (crew, Paris, 1888–1900), shaped the style. Young painters from the Académie Julian in Paris who took Gauguin as their guide. They made flat, decorative pictures in rich colour, and they worked also on posters, prints, stage sets and book art.
+- **Pre-Raphaelite Brotherhood** (crew, London, 1848–1853), shaped the style. Seven young British artists and writers who met in London in 1848. They wanted bright, detailed pictures drawn from nature and from serious subjects, and they rejected the soft manner of the Academy.
 - **Salon de la Rose + Croix** (salon, Paris, 1892–1897), exhibited the style. A series of six art salons that Joséphin Péladan held. It showed mystic and Symbolist painting.
 
 ## Permutations

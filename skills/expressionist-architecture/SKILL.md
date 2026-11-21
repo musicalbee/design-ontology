@@ -193,6 +193,7 @@ A form broken into flat planes that meet at sharp angles, so that it reads as a 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Arbeitsrat für Kunst** (council, Berlin, 1918–1921), gathered the style. A council of architects and artists after the First World War. Its members drew visionary crystal buildings and showed them in exhibitions.
+- **Glass Chain** (collective, Berlin, 1919–1920), shaped the style. A chain of letters among a small circle of architects and artists around Bruno Taut. Each member signed with a code name and sent drawings of crystal and glass buildings.
 
 ## Permutations
 

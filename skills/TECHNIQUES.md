@@ -116,14 +116,15 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 | 1 | Graphic movements | 1924 | +6 years | Alexander Rodchenko and El Lissitzky use photomontage in Constructivist posters and books. | [`constructivism-web`](./constructivism-web/SKILL.md) |
 | 2 | Print | c. 1924 | +6 years | Klucis and Rodchenko paste cut photographs and drawn shapes into posters, covers and book jackets in Moscow. | [`constructivist-photomontage-poster`](./constructivist-photomontage-poster/SKILL.md) |
 | 3 | Film & Video | 1925 | +7 years | Sergei Eisenstein carries the collision of fragments into the cut of Strike and Battleship Potemkin. | [`soviet-montage`](./soviet-montage/SKILL.md) |
-| 4 | Internet | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 5 | Internet | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
-| 6 | Internet | 2011 | +93 years | Seapunk artists cut 1990s 3D shapes, dolphins and water textures into one collage on a turquoise ground. | [`seapunk`](./seapunk/SKILL.md) |
-| 7 | Internet | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
-| 8 | Internet | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
-| 9 | Internet | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
+| 4 | Architecture | 1969 | +51 years | Superstudio sets mirrored grids into photographs of landscapes in the Continuous Monument. | [`radical-architecture`](./radical-architecture/SKILL.md) |
+| 5 | Internet | 1976 | +58 years | Punk zines and record sleeves cut up newspapers with scissors and glue. | [`punk-zine`](./punk-zine/SKILL.md) |
+| 6 | Internet | c. 1990 | +72 years | Photoshop makes the cut and the layer digital; early cyberculture prints dense photo-illustration. | [`cyberdelia`](./cyberdelia/SKILL.md) |
+| 7 | Internet | 2011 | +93 years | Seapunk artists cut 1990s 3D shapes, dolphins and water textures into one collage on a turquoise ground. | [`seapunk`](./seapunk/SKILL.md) |
+| 8 | Internet | c. 2012 | +94 years | Designers cut photographs of objects and clouds into collage scenes, in the line of the Surrealist collages of Max Ernst. | [`surrealism-web`](./surrealism-web/SKILL.md) |
+| 9 | Internet | c. 2016 | +98 years | Anti-design sites overlap cut images and text blocks across a broken grid. | [`anti-design`](./anti-design/SKILL.md) |
+| 10 | Internet | c. 2018 | +100 years | Scrapbook interfaces lay cut photographs, tape and stickers over each other, as on the page of an album. | [`scrapbook-ui`](./scrapbook-ui/SKILL.md) |
 
-Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md), [`seapunk`](./seapunk/SKILL.md), [`constructivist-photomontage-poster`](./constructivist-photomontage-poster/SKILL.md).
+Used by: [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`cyberdelia`](./cyberdelia/SKILL.md), [`grunge-editorial`](./grunge-editorial/SKILL.md), [`surrealism-web`](./surrealism-web/SKILL.md), [`anti-design`](./anti-design/SKILL.md), [`scrapbook-ui`](./scrapbook-ui/SKILL.md), [`seapunk`](./seapunk/SKILL.md), [`constructivist-photomontage-poster`](./constructivist-photomontage-poster/SKILL.md), [`radical-architecture`](./radical-architecture/SKILL.md).
 
 - Join 3 to 12 photographic fragments on one ground and keep the cut edges hard and visible.
 - Vary the scale of the fragments by 4:1 or more, so that the joins read as a claim and not as a scene.
@@ -465,7 +466,7 @@ The main forms lie on a tilted axis, so that the picture seems to move and to cu
 | 3 | Film & Video | c. 1925 | +10 years | Sergei Eisenstein stages frames of Battleship Potemkin along strong diagonals. | [`soviet-montage`](./soviet-montage/SKILL.md) |
 | 4 | Graphic movements | c. 1928 | +13 years | Jan Tschichold teaches the asymmetric, diagonal page in Die neue Typographie. | [`swiss-international`](./swiss-international/SKILL.md) |
 
-Used by: [`suprematism`](./suprematism/SKILL.md), [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`swiss-international`](./swiss-international/SKILL.md).
+Used by: [`suprematism`](./suprematism/SKILL.md), [`constructivism-web`](./constructivism-web/SKILL.md), [`soviet-montage`](./soviet-montage/SKILL.md), [`swiss-international`](./swiss-international/SKILL.md), [`rayonism`](./rayonism/SKILL.md).
 
 - Set the main axis at 30° to 60° to the frame edge; 45° is the strongest.
 - Let a large form and a small form lie on the same diagonal at a ratio of 4:1 or more.
@@ -1578,9 +1579,10 @@ A beam or slab fixed at one end that carries load beyond its support, so that it
 | 4 | Architecture | 1927 | +627 years | The houses of the Weissenhof Estate in Stuttgart extend slabs past their columns, so that the window band can turn the corner. | [`international-style-architecture`](./international-style-architecture/SKILL.md) |
 | 5 | Industrial design | 1928 | +628 years | Marcel Breuer puts the cantilever chair of bent steel tube into series production. | [`bauhaus-product`](./bauhaus-product/SKILL.md) |
 | 6 | Architecture | 1935 | +635 years | Wright cantilevers the concrete terraces of Fallingwater over a stream in Pennsylvania. | [`organic-architecture`](./organic-architecture/SKILL.md) |
-| 7 | Industrial design | 1960 | +660 years | Verner Panton draws the Panton chair as a cantilever seat in one moulded shell. | [`space-age-pop-product`](./space-age-pop-product/SKILL.md) |
+| 7 | Architecture | 1949 | +649 years | John Lautner pushes the roof of Googie's Coffee Shop far past its glass walls, and later roadside buildings copy the flying roof. | [`googie-architecture`](./googie-architecture/SKILL.md) |
+| 8 | Industrial design | 1960 | +660 years | Verner Panton draws the Panton chair as a cantilever seat in one moulded shell. | [`space-age-pop-product`](./space-age-pop-product/SKILL.md) |
 
-Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md), [`bauhaus-interior`](./bauhaus-interior/SKILL.md), [`organic-architecture`](./organic-architecture/SKILL.md), [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`international-style-architecture`](./international-style-architecture/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md), [`space-age-pop-product`](./space-age-pop-product/SKILL.md).
+Used by: [`prairie-school-architecture`](./prairie-school-architecture/SKILL.md), [`bauhaus-interior`](./bauhaus-interior/SKILL.md), [`organic-architecture`](./organic-architecture/SKILL.md), [`bauhaus-architecture`](./bauhaus-architecture/SKILL.md), [`international-style-architecture`](./international-style-architecture/SKILL.md), [`bauhaus-product`](./bauhaus-product/SKILL.md), [`space-age-pop-product`](./space-age-pop-product/SKILL.md), [`googie-architecture`](./googie-architecture/SKILL.md).
 
 - Fix the beam at one end and anchor it with a back span of at least 1 part to every 2 parts of the overhang.
 - Keep the free end thin; a depth of 1/8 to 1/10 of the span suits steel and concrete.
@@ -1745,6 +1747,23 @@ Used by: [`clay-3d-icon`](./clay-3d-icon/SKILL.md), [`claymorphism`](./claymorph
 - Light with one large soft source and a soft contact shadow under the form.
 
 Sources: Michael Frierson, Clay Animation: American Highlights 1908 to the Present (1994).
+
+### Cloisonnism
+
+Flat areas of one colour held by a dark outline, as the lead holds the glass in a church window.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | c. 1887 | — | Paris, France: Louis Anquetin and Émile Bernard paint flat, outlined shapes in Paris; the critic Édouard Dujardin names the manner in 1888. | |
+| 1 | Print | 1891 | +4 years | Henri de Toulouse-Lautrec, a friend of Anquetin and Bernard, prints flat fields of colour with a dark outline in the lithograph poster Moulin Rouge: La Goulue. | [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md) |
+
+Used by: [`synthetism`](./synthetism/SKILL.md), [`chromolithograph-poster`](./chromolithograph-poster/SKILL.md).
+
+- Fill each shape with one flat colour and no gradient.
+- Draw a dark contour of 3 to 8mm round each shape.
+- Set a few large shapes against a high horizon, with no cast shadow.
+
+Sources: [Wikipedia: Cloisonnism](https://en.wikipedia.org/wiki/Cloisonnism).
 
 ### Cobalt underglaze painting
 
@@ -3083,6 +3102,25 @@ Used by: [`realism-painting`](./realism-painting/SKILL.md), [`nordic-national-ro
 
 Sources: John House, Impressionism: Paint and Politics (2004).
 
+### Plug-in capsule
+
+A factory-made living cell that a crane lifts and bolts to a fixed core, so that the owner can swap the cell and keep the structure.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Architecture | 1972 | — | Tokyo: Kisho Kurokawa completes the Nakagin Capsule Tower with 140 steel cells on two concrete cores. | |
+| 1 | Architecture | 1972 | +0 years | Kisho Kurokawa bolts 140 prefabricated capsules to two concrete cores at the Nakagin Capsule Tower. | [`metabolism-architecture`](./metabolism-architecture/SKILL.md) |
+
+Used by: [`metabolism-architecture`](./metabolism-architecture/SKILL.md).
+
+- Build a fixed core of concrete or steel that holds the stairs, lifts and services.
+- Make the cell as one prefabricated unit with its bath, bed and fittings.
+- Fix the cell to the core with a small number of bolts, such as 4, so that a crane can swap it.
+- Place the cells at different heights and angles around the core to show growth.
+- Give each cell one round window and keep the cell skin smooth.
+
+Sources: [Wikipedia: Nakagin Capsule Tower](https://en.wikipedia.org/wiki/Nakagin_Capsule_Tower).
+
 ### Pounce transfer
 
 A drawing on paper is pricked along its lines and dabbed with a bag of charcoal dust, so that dots of the design go onto the surface below.
@@ -3405,6 +3443,23 @@ Used by: [`power-dressing`](./power-dressing/SKILL.md).
 - Press the shoulder so that the line is square and level.
 
 Sources: [Wikipedia: Shoulder pad](https://en.wikipedia.org/wiki/Shoulder_pad_(fashion)); [Wikipedia: Power dressing](https://en.wikipedia.org/wiki/Power_dressing).
+
+### Simultaneous contrast
+
+Pure colours set side by side so that each one raises the force of the other, with the picture built from the contrast alone.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Painting | 1912 | — | Paris, France: Robert Delaunay builds his Windows pictures from contrasts of pure colour, after the law of Michel-Eugène Chevreul (1839). | |
+| 1 | Fashion | 1925 | +13 years | Sonia Delaunay shows simultaneous fabrics and clothes of colour blocks at the Boutique Simultanée in Paris. | [`garconne-flapper-dress`](./garconne-flapper-dress/SKILL.md) |
+
+Used by: [`orphism`](./orphism/SKILL.md), [`garconne-flapper-dress`](./garconne-flapper-dress/SKILL.md).
+
+- Set a complementary pair side by side in each ring or plane.
+- Keep each colour pure and unmixed, at full chroma.
+- Repeat the pair in steps of colour, so that the picture beats like a rhythm.
+
+Sources: Michel-Eugène Chevreul, The Principles of Harmony and Contrast of Colours (1839); [Wikipedia: Orphism (art)](https://en.wikipedia.org/wiki/Orphism_(art)).
 
 ### Sketch line
 
@@ -4075,7 +4130,7 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 |---|---|---|---|---|---|
 | Origin | Film & Video | c. 1960 | — | Paris: Jean Rouch and Edgar Morin shoot Chronique d'un été with the light synchronous-sound camera that Michel Brault operates by hand; earlier handheld shots exist. | |
 | 1 | Film & Video | c. 1960 | +0 years | Raoul Coutard shoots À bout de souffle by hand for Jean-Luc Godard. | [`french-new-wave`](./french-new-wave/SKILL.md) |
-| 2 | Film & Video | c. 1960 | +0 years | Rouch, Brault and the Direct Cinema crews carry the light 16mm camera and the sound recorder into real rooms. | [`documentary-verite`](./documentary-verite/SKILL.md) |
+| 2 | Film & Video | c. 1960 | +0 years | Rouch, Brault and the Direct Cinema crews carry the light 16mm camera and the sound recorder into real rooms. | [`documentary-verite`](./documentary-verite/SKILL.md), [`third-cinema`](./third-cinema/SKILL.md) |
 | 3 | Film & Video | 1969 | +9 years | Easy Rider and other New Hollywood films use light cameras on real roads and locations. | [`new-hollywood`](./new-hollywood/SKILL.md) |
 | 4 | Film & Video | 1995 | +35 years | The Dogme 95 Vow of Chastity demands that the camera is hand-held. | [`dogme-95`](./dogme-95/SKILL.md) |
 | 5 | Film & Video | 1999 | +39 years | The Blair Witch Project gives the camera to its characters and shows the shake as their fear. | [`found-footage`](./found-footage/SKILL.md) |
@@ -4084,7 +4139,7 @@ A camera that the operator carries on the body, with no tripod or dolly; the sha
 | 8 | Film & Video | c. 2020 | +60 years | Camcorder revival films shoot on handheld consumer video cameras. | [`camcorder-revival`](./camcorder-revival/SKILL.md) |
 | 9 | Internet | c. 2020 | +60 years | POV clips hold the phone at eye level and let the actor look at the lens. | [`pov-short`](./pov-short/SKILL.md) |
 
-Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`](./documentary-verite/SKILL.md), [`dogme-95`](./dogme-95/SKILL.md), [`found-footage`](./found-footage/SKILL.md), [`mumblecore`](./mumblecore/SKILL.md), [`phone-cinema`](./phone-cinema/SKILL.md), [`new-hollywood`](./new-hollywood/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md), [`pov-short`](./pov-short/SKILL.md).
+Used by: [`french-new-wave`](./french-new-wave/SKILL.md), [`documentary-verite`](./documentary-verite/SKILL.md), [`dogme-95`](./dogme-95/SKILL.md), [`found-footage`](./found-footage/SKILL.md), [`mumblecore`](./mumblecore/SKILL.md), [`phone-cinema`](./phone-cinema/SKILL.md), [`new-hollywood`](./new-hollywood/SKILL.md), [`camcorder-revival`](./camcorder-revival/SKILL.md), [`pov-short`](./pov-short/SKILL.md), [`third-cinema`](./third-cinema/SKILL.md).
 
 - Use a light camera and a wide lens of 18mm to 35mm so that the shake stays small in the frame.
 - Follow the action at the pace of a walking person and let the frame move 2% to 5% off the subject.

@@ -168,7 +168,7 @@ A thin coat of glass that is fused to iron or steel at about 800 °C. It makes a
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Guild of Handicraft** (company, London, and then Chipping Campden, 1888–1907), made the style. The craft guild that C. R. Ashbee founded. Its members made silver, enamel and gem jewels by hand and sold them in small runs.
+- **Guild of Handicraft** (collective, London, and then Chipping Campden, 1888–1907), made the style. The craft guild that C. R. Ashbee founded. Its members made silver, enamel and gem jewels by hand and sold them in small runs.
 
 ## Permutations
 

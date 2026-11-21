@@ -1,0 +1,306 @@
+{
+  "$schema": "../../../schema/domains/architecture.schema.json",
+  "id": "googie-architecture",
+  "domain": "architecture",
+  "name": "Googie",
+  "aliases": [
+    "Populuxe architecture",
+    "Coffee-shop modern"
+  ],
+  "era_id": "modern-movement",
+  "time_period": {
+    "start": 1949,
+    "end": 1972,
+    "label": "1940s–1970s"
+  },
+  "building_types": [
+    "commercial",
+    "civic"
+  ],
+  "summary": "The roadside style of the American car age. Coffee shops, motels and car washes got upswept roofs, bright signs and space-age shapes to catch a driver at speed.",
+  "philosophy": {
+    "core_thesis": "A roadside building must be a sign: it must show a driver at 50 km/h what it sells and why it is new.",
+    "design_principles": [
+      "Lift the roof in a bold slope or a fold so that it reads from the road.",
+      "Tie the sign to the building and make it as big as the roof.",
+      "Use space-age forms such as boomerangs, starbursts, atoms and saucers.",
+      "Fill the front with glass so that the interior is the show.",
+      "Cantilever the roof past the walls to give a feeling of flight.",
+      "Use bright colour and neon so that the building works at night."
+    ],
+    "anti_patterns": [
+      "A plain box with a small sign",
+      "Historical or rustic styling",
+      "Heavy masonry walls with few windows",
+      "Muted, earthy colour",
+      "Hidden or low-slung roofs",
+      "Restrained, quiet detailing"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "structural_expression": 3,
+    "geometric_rigidity": 2,
+    "material_rawness": 1,
+    "monumentality": 2
+  },
+  "massing": {
+    "form": "A low pavilion under a large, dynamic roof; the roof and the sign are the main shapes.",
+    "proportion": "Wide and low, with a tall sign or spire that stands higher than the roof.",
+    "roof": "Upswept, folded or butterfly roofs of steel, often with a strong tilt of 10 to 30 degrees.",
+    "relation_to_ground": "The building sits on a slab beside a parking lot, with its glass front open to the road."
+  },
+  "structure": {
+    "system": "Light steel frames and thin concrete shells; the roof is a cantilever carried by few slim columns.",
+    "span_and_module": "A bay of 4 to 6m, with a roof overhang of 2 to 4m.",
+    "expression": "Slim steel columns, bold rafters and folded plates show the lightness; the stone work is a thin accent."
+  },
+  "materials": {
+    "primary": [
+      "steel frame",
+      "plate glass",
+      "plastered block"
+    ],
+    "secondary": [
+      "flagstone",
+      "neon tube",
+      "plastic laminate",
+      "terrazzo"
+    ],
+    "finish": "Smooth and bright; plaster, enamel and chrome, with neon and painted signs for effect.",
+    "palette": [
+      {
+        "name": "Aqua turquoise",
+        "hex": "#2FB5B0",
+        "role": "roof and sign"
+      },
+      {
+        "name": "Sunset orange",
+        "hex": "#F06A2A",
+        "role": "accent and neon"
+      },
+      {
+        "name": "Cream",
+        "hex": "#F2E8CF",
+        "role": "walls"
+      },
+      {
+        "name": "Chrome",
+        "hex": "#C9CED3",
+        "role": "trim"
+      },
+      {
+        "name": "Night black",
+        "hex": "#16161A",
+        "role": "sky and shadow"
+      }
+    ]
+  },
+  "facade": {
+    "composition": "A glass front under a bold roof edge, with a sign tower or a boomerang pylon at one side.",
+    "openings": "Large plate-glass walls, often 60% of the front, with thin steel frames.",
+    "solid_to_void": "Void dominates: glass covers 50–70% of the front."
+  },
+  "light_and_space": {
+    "daylight": "Glass lets in strong daylight, and at night the neon and the interior light make the building glow.",
+    "spatial_sequence": "The driver sees the sign, parks, and enters directly from the car park into an open room.",
+    "interior_character": "A bright open room with a counter, booths and bold laminate; the ceiling follows the shape of the roof."
+  },
+  "ornament": {
+    "attitude": "Ornament is a sign: the shape of the roof and the lettering carry the message.",
+    "details": [
+      "starburst and atom motifs",
+      "boomerang shapes",
+      "neon script signs",
+      "exposed rafters",
+      "flagstone planters"
+    ]
+  },
+  "identity": {
+    "wikidata": "Q717220"
+  },
+  "composition": {
+    "symmetry": "asymmetric",
+    "axis_count": 0,
+    "rhythm_module_m": 4.5,
+    "rules": [
+      {
+        "principle": "focal-point",
+        "rule": "Make the sign or the roof the focal point.",
+        "value": "1 sign pylon, 1 roof"
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set the bright colour against dark night sky.",
+        "value": "1 accent colour"
+      },
+      {
+        "principle": "leading-lines",
+        "rule": "Slope the roof line toward the road.",
+        "value": "10–30 degrees"
+      },
+      {
+        "principle": "scale",
+        "rule": "Make the sign taller than the roof edge.",
+        "value": "sign 6–12m"
+      },
+      {
+        "principle": "framing",
+        "rule": "Frame the interior with a long glass wall.",
+        "value": "glazing 50–70%"
+      }
+    ]
+  },
+  "references": {
+    "images": [
+      {
+        "title": "LAX Theme Building and moon",
+        "credit": "Junkyardsparkle",
+        "licence": "CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:LAX_Theme_Building_and_moon_from_northwest_2016-07-21.jpg"
+      },
+      {
+        "title": "Norms Restaurant on La Cienega",
+        "credit": "Wikimedia Commons contributor",
+        "licence": "CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:NormsRestaurant_LaCienega.JPG"
+      }
+    ]
+  },
+  "lineage": {
+    "subgenre_of": "mid-century-modern-architecture",
+    "evolved_from": [
+      "art-deco-architecture"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "space-age",
+      "space-age-pop-product"
+    ]
+  },
+  "emotion": {
+    "target_response": "Excitement and optimism: the viewer feels a roadside rocket that promises a fast, bright future.",
+    "keywords": [
+      "optimistic",
+      "futuristic",
+      "playful",
+      "flashy",
+      "roadside"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "googie",
+      "diner",
+      "coffee shop",
+      "space age roadside",
+      "boomerang",
+      "starburst",
+      "1950s motel",
+      "neon sign"
+    ],
+    "use_cases": [
+      "retro-future scenes",
+      "roadside sets",
+      "signage studies",
+      "diner and motel moodboards"
+    ],
+    "avoid_when": [
+      "The brief asks for quiet, restrained or domestic mid-century living.",
+      "The scene is an urban or monumental civic place."
+    ],
+    "modifiers": [
+      {
+        "request": "calmer",
+        "toward": "mid-century-modern-architecture",
+        "how": "Lower the roof slope, remove the sign pylon and use timber and brick with a muted palette."
+      }
+    ]
+  },
+  "primer": {
+    "positive": [
+      "upswept cantilevered roof",
+      "boomerang shaped sign",
+      "starburst motif",
+      "neon signage",
+      "plate-glass front",
+      "bright turquoise and orange",
+      "1950s roadside diner",
+      "space-age pylon"
+    ],
+    "negative": [
+      "heavy masonry",
+      "historical ornament",
+      "muted earth palette",
+      "pitched tile roof",
+      "small windows",
+      "rustic timber cabin"
+    ],
+    "canonical_works": [
+      {
+        "work": "Googie's Coffee Shop",
+        "architect": "John Lautner",
+        "year": 1949
+      },
+      {
+        "work": "Norms La Cienega",
+        "architect": "Armet and Davis (Eldon Davis)",
+        "year": 1957
+      },
+      {
+        "work": "LAX Theme Building",
+        "architect": "Pereira and Luckman",
+        "year": 1961
+      },
+      {
+        "work": "Space Needle",
+        "architect": "John Graham and Company",
+        "year": 1962
+      }
+    ]
+  },
+  "permutations": {
+    "storey_height": {
+      "default": 3.6,
+      "min": 3,
+      "max": 5
+    },
+    "structural_grid": {
+      "default": 5,
+      "min": 4,
+      "max": 8
+    },
+    "glazing_ratio": {
+      "default": 60,
+      "min": 40,
+      "max": 80
+    },
+    "roof_pitch": {
+      "default": 15,
+      "min": 5,
+      "max": 35
+    },
+    "base_material": {
+      "default": "steel",
+      "options": [
+        "steel",
+        "stone",
+        "concrete"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Googie architecture",
+      "url": "https://en.wikipedia.org/wiki/Googie_architecture"
+    },
+    {
+      "title": "Alan Hess, Googie: Fifties Coffee Shop Architecture (Chronicle Books, 1985)"
+    }
+  ]
+}

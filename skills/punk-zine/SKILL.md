@@ -257,6 +257,7 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Punk** (magazine, New York, 1975–1979), published the style. A fanzine of the New York punk scene, with hand-lettered pages and comics. It made the word punk a name for the music.
+- **Situationist International** (crew, Cosio di Arroscia, 1957–1972), shaped the style. A group of artists and writers led by Guy Debord. It joined three small avant-garde bodies, and it turned from art to a critique of city life and of the spectacle. Punk designers used its ideas later.
 - **Sniffin' Glue** (magazine, London, 1976–1977), launched the style. A punk zine that Mark Perry typed, cut and photocopied. Its rough paste-up look became the model for punk print.
 
 ## Permutations

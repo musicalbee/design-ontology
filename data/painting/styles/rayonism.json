@@ -1,0 +1,305 @@
+{
+  "$schema": "../../../schema/domains/painting.schema.json",
+  "id": "rayonism",
+  "domain": "painting",
+  "name": "Rayonism",
+  "aliases": [
+    "Rayism",
+    "Luchism"
+  ],
+  "era_id": "avant-garde",
+  "time_period": {
+    "start": 1910,
+    "end": 1914,
+    "label": "1910–1914"
+  },
+  "region": "Moscow, Russia",
+  "media": [
+    "oil on canvas"
+  ],
+  "summary": "Pictures built from lines that stand for rays of light thrown back by objects. The rays cross in sharp, coloured beams, and the object breaks into a spray of lines in a Cubist and Futurist space.",
+  "philosophy": {
+    "core_thesis": "What the eye sees is the sum of the rays of light that objects throw back, so the painter draws the crossing of the rays and not the objects.",
+    "design_principles": [
+      "Draw the rays as straight, narrow lines of 3–15mm, in a fan or a bundle that crosses the picture.",
+      "Cross the rays at 10–45°, and let the form appear where two or more rays meet.",
+      "Set the ray lines in contrasting colours, one warm against one cool, over a ground of broken colour.",
+      "Break the object into 8–20 shards with a sharp edge, and keep the shards in motion along the rays.",
+      "Keep the space flat, with 2–3 layers of overlapping beams, and avoid a vanishing point.",
+      "Show a little of the subject, such as a forest, a street or a fish, so that the eye finds it in the beams.",
+      "Paint with a dry, quick stroke so that the beams have a feathered edge."
+    ],
+    "anti_patterns": [
+      "Round, smooth modelling of volume",
+      "A single viewpoint and a calm still life",
+      "Soft, atmospheric haze",
+      "Flat colour patches with a thick outline",
+      "A tidy grid or a circle motif of the Delaunays",
+      "A deep scene with a clear horizon"
+    ]
+  },
+  "vectors": {
+    "abstraction": 4,
+    "brushwork_visibility": 4,
+    "chromatic_intensity": 4,
+    "depth_illusion": 2,
+    "line_dominance": 5
+  },
+  "composition": {
+    "layout": "A fan of straight ray lines that cross at the centre, at angles of 10–45° from the vertical, with small shards of the object caught in the beams.",
+    "focal_point": "The crossing of the strongest rays, within the central 40% of the canvas.",
+    "format": "A canvas at 4:5 to 3:2; the rays run off the edge, so that the picture seems to go on.",
+    "principles": [
+      {
+        "principle": "leading-lines",
+        "rule": "Run 15–40 ray lines across the picture, all in 2–3 main directions, to lead the eye to the crossing."
+      },
+      {
+        "principle": "rhythm",
+        "rule": "Repeat a ray at an interval of 10–30mm, with the angle shifting by 3–8° from one bundle to the next."
+      },
+      {
+        "principle": "contrast",
+        "rule": "Set a warm ray against a cool one at each crossing, with a value gap of 30% or more."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Reduce the depth to 2–3 layers of overlapping beams, with no horizon."
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Put the densest crossing at one third from an edge, in the sharpest contrast."
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance the main fan by a lighter bundle on the other diagonal, at about one third of its mass."
+      }
+    ]
+  },
+  "palette": {
+    "strategy": "Bright contrasting beams of warm and cool colour over a ground of broken earth and green, with dark accents to hold the crossings.",
+    "distribution": "A dominant hue family 40–50%, its contrast 25–35%, earth and neutral 15–20%, dark accent under 5%.",
+    "ground": "A broken ground of earth, grey and green that shows between the beams.",
+    "colours": [
+      {
+        "name": "Vermilion",
+        "hex": "#D63B24",
+        "pigment": "vermilion",
+        "role": "warm ray"
+      },
+      {
+        "name": "Cobalt blue",
+        "hex": "#2B5BA8",
+        "pigment": "cobalt blue",
+        "role": "cool ray"
+      },
+      {
+        "name": "Cadmium yellow",
+        "hex": "#EDB81F",
+        "pigment": "cadmium yellow",
+        "role": "light beam"
+      },
+      {
+        "name": "Sap green",
+        "hex": "#4B7A3A",
+        "pigment": "sap green",
+        "role": "forest and ground"
+      },
+      {
+        "name": "Burnt umber",
+        "hex": "#6B4128",
+        "pigment": "burnt umber",
+        "role": "earth and dark"
+      },
+      {
+        "name": "Pink",
+        "hex": "#E9A0A8",
+        "pigment": "madder lake with white",
+        "role": "soft ray"
+      },
+      {
+        "name": "Cream",
+        "hex": "#EFE5CC",
+        "pigment": "lead white",
+        "role": "highlight and ground"
+      }
+    ]
+  },
+  "brushwork_and_medium": {
+    "medium": "Oil paint, matt, with a lean medium so that the stroke stays dry.",
+    "support": "Canvas, often a medium size.",
+    "brushwork": "Long, narrow, straight strokes of 3–15mm for each ray; dry brush for the feathered edge; short dabs in the ground.",
+    "paint_handling": "2–3 layers of opaque colour; the rays go over the ground, and they show as a ridge of 1–2mm.",
+    "edges": "Sharp at the line of the ray, soft and feathered where two beams cross."
+  },
+  "light_and_modelling": {
+    "light": "Light is the subject: each ray is a line of light thrown back by an object.",
+    "modelling": "By the crossing of the rays, and not by shading; the form is the place where the rays meet.",
+    "shadow": "No cast shadow; a dark ray or a deep blue beam stands for the shadow.",
+    "temperature": "Warm and cool rays set at each crossing, so that the crossing flashes."
+  },
+  "subject": {
+    "typical": "A forest, a city street, a glass, a fish, a portrait, a beam of light, caught in a net of rays.",
+    "figure_scale": "The main motif fills 40–80% of the picture, but is hard to read at first.",
+    "treatment": "The scene is seen as energy; the mood is fast, hard and bright, and the object is hidden in the rays."
+  },
+  "surface": {
+    "finish": "Matt, with no varnish on the dry paint.",
+    "texture": "Dry and streaked, with ridged ray lines over a flat ground."
+  },
+  "reference_works": {
+    "works": [
+      {
+        "work": "Worldbackwards (Mirskontsa)",
+        "artist": "Natalia Goncharova",
+        "date": "1912",
+        "museum": "Art Institute of Chicago",
+        "object_id": "199083",
+        "public_domain": false
+      },
+      {
+        "work": "Old-Fashioned Love (Starinnaia Liubov)",
+        "artist": "Mikhail Larionov",
+        "date": "1912",
+        "museum": "Art Institute of Chicago",
+        "object_id": "199061",
+        "public_domain": false
+      },
+      {
+        "work": "Pomade (Pomada)",
+        "artist": "Mikhail Larionov",
+        "date": "1913",
+        "museum": "Art Institute of Chicago",
+        "object_id": "199060",
+        "public_domain": false
+      }
+    ],
+    "note": "These are illustrated books of the Russian avant-garde, in the museum collection, with Rayonist drawings. They are not flagged as public domain by the museum. The ids identify the works only. Look at the museum page for the image and its licence; do not copy it."
+  },
+  "prompt_primer": {
+    "positive": [
+      "rayonism",
+      "rayonist painting",
+      "crossing rays of light as straight lines",
+      "Larionov and Goncharova",
+      "fan of beams",
+      "warm and cool contrasting lines",
+      "shards of a forest or a street",
+      "dry feathered brushwork",
+      "flat shallow space",
+      "Russian avant-garde 1913"
+    ],
+    "negative": [
+      "smooth modelling",
+      "calm still life",
+      "atmospheric haze",
+      "flat patches with a thick outline",
+      "Delaunay circles",
+      "deep horizon"
+    ]
+  },
+  "lineage": {
+    "evolved_from": [
+      "cubism-painting",
+      "futurism-painting"
+    ],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "subgenre_of": "futurism-painting"
+  },
+  "emotion": {
+    "target_response": "Speed and shock: the viewer sees light as a net of fast, hard lines.",
+    "keywords": [
+      "dynamic",
+      "radiant",
+      "sharp",
+      "fragmented",
+      "abstract"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw",
+      "creator"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "rayonism",
+      "rayonist",
+      "rayism",
+      "larionov",
+      "goncharova rayonist",
+      "rays of light as lines",
+      "russian avant-garde 1913"
+    ],
+    "use_cases": [
+      "poster and cover art with a sense of speed",
+      "music and event branding",
+      "editorial illustration of light and energy",
+      "pattern and textile with a sharp line"
+    ],
+    "avoid_when": [
+      "The brief needs a calm, soft or warm mood.",
+      "The picture must show a clear likeness or a tidy diagram."
+    ],
+    "modifiers": [
+      {
+        "request": "more about speed and the machine",
+        "toward": "futurism-painting",
+        "how": "Keep the lines of force; show a clear train, car or crowd, repeat the form in 5–8 stages, and add a blur of motion."
+      },
+      {
+        "request": "more geometric and pure",
+        "toward": "suprematism",
+        "how": "Drop the rays and the object; reduce the picture to 3–5 flat shapes in 2–3 colours on a white ground."
+      }
+    ]
+  },
+  "permutations": {
+    "key_colour": {
+      "default": "#D63B24",
+      "options": [
+        "#D63B24",
+        "#2B5BA8",
+        "#EDB81F",
+        "#4B7A3A"
+      ]
+    },
+    "value_contrast": {
+      "default": 0.65,
+      "min": 0.45,
+      "max": 0.85
+    },
+    "brush_size": {
+      "default": 1,
+      "min": 0.4,
+      "max": 2
+    },
+    "canvas_ratio": {
+      "default": "4:5",
+      "options": [
+        "4:5",
+        "3:4",
+        "3:2"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Rayonism",
+      "url": "https://en.wikipedia.org/wiki/Rayonism"
+    },
+    {
+      "title": "Wikidata Q941875 (Rayonism)",
+      "url": "https://www.wikidata.org/wiki/Q941875"
+    },
+    {
+      "title": "Art Institute of Chicago API (CC0 data)",
+      "url": "https://api.artic.edu/docs/"
+    },
+    {
+      "title": "Mikhail Larionov and Natalia Goncharova, Rayonist Manifesto (1913)"
+    }
+  ]
+}

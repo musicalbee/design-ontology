@@ -145,7 +145,7 @@ A print from a block of wood with the white parts cut away; the result is flat c
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Die Brücke** (crew, Dresden, 1905–1913), made the style. A group of young German painters. They printed woodcuts and painted in raw, strong colour, and they started Expressionism.
+- **Die Brücke** (crew, Dresden, 1905–1913), made the style. A group of four architecture students in Dresden who became painters. They worked in raw, strong colour, printed woodcuts, and lived and worked together. In 1911 they moved to Berlin. They started German Expressionism.
 
 ## Permutations
 

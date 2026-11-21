@@ -226,6 +226,7 @@
       ],
       "orgs": [
         "punk-magazine",
+        "situationist-international",
         "sniffin-glue"
       ],
       "permutations": {
@@ -14976,7 +14977,8 @@
         "crystal-facet"
       ],
       "orgs": [
-        "arbeitsrat-fur-kunst"
+        "arbeitsrat-fur-kunst",
+        "glass-chain"
       ],
       "permutations": {
         "storey_height": {
@@ -15236,7 +15238,10 @@
         "curtain-wall"
       ],
       "orgs": [
+        "ciam",
+        "der-ring",
         "moma-modern-architecture-1932",
+        "team-10",
         "weissenhof-estate"
       ],
       "permutations": {
@@ -15444,6 +15449,89 @@
       }
     },
     {
+      "id": "googie-architecture",
+      "name": "Googie",
+      "domain": "architecture",
+      "era": "modern-movement",
+      "period": "1940s–1970s",
+      "thesis": "A roadside building must be a sign: it must show a driver at 50 km/h what it sells and why it is new.",
+      "summary": "The roadside style of the American car age. Coffee shops, motels and car washes got upswept roofs, bright signs and space-age shapes to catch a driver at speed.",
+      "path": "skills/googie-architecture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "googie",
+        "diner",
+        "coffee shop",
+        "space age roadside",
+        "boomerang",
+        "starburst",
+        "1950s motel",
+        "neon sign"
+      ],
+      "use_cases": [
+        "retro-future scenes",
+        "roadside sets",
+        "signage studies",
+        "diner and motel moodboards"
+      ],
+      "emotion": [
+        "optimistic",
+        "futuristic",
+        "playful",
+        "flashy",
+        "roadside"
+      ],
+      "archetypes": [
+        "jester",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "structural_expression": 3,
+        "geometric_rigidity": 2,
+        "material_rawness": 1,
+        "monumentality": 2
+      },
+      "techniques": [
+        "cantilever"
+      ],
+      "orgs": [
+        "armet-and-davis"
+      ],
+      "permutations": {
+        "storey_height": {
+          "default": 3.6,
+          "min": 3,
+          "max": 5
+        },
+        "structural_grid": {
+          "default": 5,
+          "min": 4,
+          "max": 8
+        },
+        "glazing_ratio": {
+          "default": 60,
+          "min": 40,
+          "max": 80
+        },
+        "roof_pitch": {
+          "default": 15,
+          "min": 5,
+          "max": 35
+        },
+        "base_material": {
+          "default": "steel",
+          "options": [
+            "steel",
+            "stone",
+            "concrete"
+          ]
+        }
+      }
+    },
+    {
       "id": "brutalist-architecture",
       "name": "Brutalism",
       "domain": "architecture",
@@ -15494,7 +15582,8 @@
         "board-marked-concrete"
       ],
       "orgs": [
-        "architectural-review"
+        "architectural-review",
+        "team-10"
       ],
       "permutations": {
         "storey_height": {
@@ -15522,6 +15611,88 @@
           "options": [
             "concrete",
             "brick"
+          ]
+        }
+      }
+    },
+    {
+      "id": "metabolism-architecture",
+      "name": "Metabolism",
+      "domain": "architecture",
+      "era": "modern-movement",
+      "period": "1960s–early 1970s",
+      "thesis": "A city lives like an organism, so its long-life cores must stand fixed and its short-life cells must change.",
+      "summary": "A Japanese style of fixed concrete cores that carry replaceable capsules. Its architects drew the city as a living body that grows, changes and renews its cells.",
+      "path": "skills/metabolism-architecture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "metabolism",
+        "metabolist",
+        "capsule tower",
+        "nakagin",
+        "plug-in capsule",
+        "kurokawa",
+        "kikutake",
+        "megastructure"
+      ],
+      "use_cases": [
+        "concept renders",
+        "sci-fi sets",
+        "urban futures",
+        "product-like micro housing"
+      ],
+      "emotion": [
+        "futurist",
+        "modular",
+        "growing",
+        "compact",
+        "technological"
+      ],
+      "archetypes": [
+        "creator",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 1,
+        "structural_expression": 5,
+        "geometric_rigidity": 4,
+        "material_rawness": 3,
+        "monumentality": 4
+      },
+      "techniques": [
+        "plug-in-capsule"
+      ],
+      "orgs": [
+        "metabolists"
+      ],
+      "permutations": {
+        "storey_height": {
+          "default": 3,
+          "min": 2.6,
+          "max": 3.6
+        },
+        "structural_grid": {
+          "default": 10,
+          "min": 6,
+          "max": 20
+        },
+        "glazing_ratio": {
+          "default": 15,
+          "min": 8,
+          "max": 30
+        },
+        "roof_pitch": {
+          "default": 0,
+          "min": 0,
+          "max": 3
+        },
+        "base_material": {
+          "default": "concrete",
+          "options": [
+            "concrete",
+            "steel"
           ]
         }
       }
@@ -15703,6 +15874,94 @@
       }
     },
     {
+      "id": "radical-architecture",
+      "name": "Radical architecture",
+      "domain": "architecture",
+      "era": "postmodern-and-after",
+      "period": "1960s–1980s",
+      "thesis": "The drawing is the act: if the real city serves the market, the architect must draw a city that no market can build.",
+      "summary": "Architecture that lives on paper, in collage and in film. Groups in London, Florence and Moscow drew endless grids, walking cities and impossible houses to attack the market and the state.",
+      "path": "skills/radical-architecture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "radical architecture",
+        "archigram",
+        "superstudio",
+        "archizoom",
+        "continuous monument",
+        "no-stop city",
+        "paper architecture",
+        "plug-in city",
+        "walking city"
+      ],
+      "use_cases": [
+        "concept art",
+        "speculative design",
+        "poster and collage",
+        "sci-fi worlds"
+      ],
+      "emotion": [
+        "ironic",
+        "utopian",
+        "critical",
+        "graphic",
+        "cool"
+      ],
+      "archetypes": [
+        "outlaw",
+        "magician"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "structural_expression": 4,
+        "geometric_rigidity": 4,
+        "material_rawness": 1,
+        "monumentality": 4
+      },
+      "techniques": [
+        "photomontage"
+      ],
+      "orgs": [
+        "archigram",
+        "archizoom-associati",
+        "global-tools",
+        "soviet-paper-architects",
+        "superstudio"
+      ],
+      "permutations": {
+        "storey_height": {
+          "default": 4,
+          "min": 2.4,
+          "max": 8
+        },
+        "structural_grid": {
+          "default": 12,
+          "min": 3,
+          "max": 30
+        },
+        "glazing_ratio": {
+          "default": 40,
+          "min": 0,
+          "max": 100
+        },
+        "roof_pitch": {
+          "default": 0,
+          "min": 0,
+          "max": 10
+        },
+        "base_material": {
+          "default": "steel",
+          "options": [
+            "steel",
+            "glass",
+            "concrete"
+          ]
+        }
+      }
+    },
+    {
       "id": "high-tech-architecture",
       "name": "High-tech",
       "domain": "architecture",
@@ -15753,6 +16012,7 @@
         "exposed-services"
       ],
       "orgs": [
+        "archigram",
         "hyatt-foundation",
         "team-4"
       ],
@@ -19534,6 +19794,8 @@
         "photomontage"
       ],
       "orgs": [
+        "dziga-vertov-group",
+        "kinoks",
         "vgik"
       ],
       "permutations": {
@@ -19617,6 +19879,8 @@
         "three-point-lighting"
       ],
       "orgs": [
+        "la-rebellion",
+        "oberhausen-group",
         "rko-pictures"
       ],
       "permutations": {
@@ -19945,7 +20209,9 @@
         "jump-cut"
       ],
       "orgs": [
-        "cahiers-du-cinema"
+        "cahiers-du-cinema",
+        "dziga-vertov-group",
+        "zanzibar-group"
       ],
       "permutations": {
         "aspect_ratio": {
@@ -20302,6 +20568,90 @@
           "default": 0.18,
           "min": 0.15,
           "max": 0.2
+        }
+      }
+    },
+    {
+      "id": "third-cinema",
+      "name": "Third Cinema",
+      "domain": "film",
+      "era": "new-waves",
+      "period": "1968–",
+      "thesis": "A film made outside the studio and outside the art house is a weapon for a people in a struggle, so each image must serve an argument and each screening must start a debate.",
+      "summary": "A militant film that works as a tool, not as a show. It uses a light 16mm camera, black and white stock, real streets and factories, archive clips, slogans on screen and direct address. The picture is rough and the cut is an argument.",
+      "path": "skills/third-cinema/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "third cinema",
+        "tercer cine",
+        "la hora de los hornos",
+        "solanas",
+        "getino",
+        "militant documentary",
+        "political essay film"
+      ],
+      "use_cases": [
+        "campaign and activist films",
+        "archive-led political essays",
+        "community documentaries",
+        "protest video prompts"
+      ],
+      "emotion": [
+        "militant",
+        "urgent",
+        "collective",
+        "rough",
+        "argumentative"
+      ],
+      "archetypes": [
+        "outlaw",
+        "hero"
+      ],
+      "vectors": {
+        "camera_mobility": 4,
+        "cutting_rate": 4,
+        "staging": 1,
+        "grade_stylisation": 2,
+        "frame_width": 2
+      },
+      "techniques": [
+        "handheld-camera"
+      ],
+      "orgs": [
+        "cinema-novo",
+        "grupo-cine-liberacion",
+        "la-rebellion"
+      ],
+      "permutations": {
+        "aspect_ratio": {
+          "default": "1.37:1",
+          "options": [
+            "1.33:1",
+            "1.37:1"
+          ]
+        },
+        "frame_rate": {
+          "default": 24,
+          "min": 24,
+          "max": 25
+        },
+        "average_shot_length": {
+          "default": 5,
+          "min": 3,
+          "max": 8
+        },
+        "colour_temperature": {
+          "default": 5600,
+          "min": 4500,
+          "max": 6500,
+          "note": "The film is black and white; this sets the tint of a toned print only."
+        },
+        "grain": {
+          "default": 0.5,
+          "min": 0.35,
+          "max": 0.7
         }
       }
     },
@@ -20696,7 +21046,8 @@
         "handheld-camera"
       ],
       "orgs": [
-        "cannes-film-festival"
+        "cannes-film-festival",
+        "dogme-95-collective"
       ],
       "permutations": {
         "aspect_ratio": {
@@ -21958,7 +22309,9 @@
         "plein-air"
       ],
       "orgs": [
-        "paris-salon"
+        "paris-salon",
+        "peredvizhniki",
+        "pre-raphaelite-brotherhood"
       ],
       "permutations": {
         "key_colour": {
@@ -22262,8 +22615,7 @@
         "gauguin",
         "toulouse-lautrec",
         "starry night style",
-        "impasto brush strokes",
-        "synthetism"
+        "impasto brush strokes"
       ],
       "use_cases": [
         "gallery and museum campaign art",
@@ -22294,6 +22646,9 @@
         "woodcut"
       ],
       "orgs": [
+        "jack-of-diamonds",
+        "les-nabis",
+        "pont-aven-school",
         "salon-des-independants"
       ],
       "permutations": {
@@ -22380,6 +22735,8 @@
       ],
       "orgs": [
         "le-figaro",
+        "les-nabis",
+        "pre-raphaelite-brotherhood",
         "salon-de-la-rose-croix"
       ],
       "permutations": {
@@ -22407,6 +22764,89 @@
           "options": [
             "3:4",
             "2:3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "synthetism",
+      "name": "Synthetism",
+      "domain": "painting",
+      "era": "nineteenth-century",
+      "period": "1888–1900",
+      "thesis": "A picture should join the thing seen, the feeling of the painter and the pure form of colour and line, and it should not copy the scene from the eye.",
+      "summary": "Flat areas of pure colour held by a dark outline, painted from memory and feeling. The painter combines the seen scene, the feeling and the pure form of line and colour into one simple, decorative picture.",
+      "path": "skills/synthetism/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "synthetism",
+        "synthetist",
+        "cloisonnism",
+        "pont-aven",
+        "gauguin brittany",
+        "flat colour with dark outline",
+        "emile bernard",
+        "serusier"
+      ],
+      "use_cases": [
+        "poster and label art with flat colour",
+        "book and album covers",
+        "stained-glass and tile design",
+        "folk and travel illustration"
+      ],
+      "emotion": [
+        "flat",
+        "decorative",
+        "symbolic",
+        "dreamlike",
+        "bold"
+      ],
+      "archetypes": [
+        "creator",
+        "explorer",
+        "magician"
+      ],
+      "vectors": {
+        "abstraction": 3,
+        "brushwork_visibility": 2,
+        "chromatic_intensity": 5,
+        "depth_illusion": 1,
+        "line_dominance": 4
+      },
+      "techniques": [
+        "cloisonnism"
+      ],
+      "orgs": [
+        "pont-aven-school"
+      ],
+      "permutations": {
+        "key_colour": {
+          "default": "#D2381F",
+          "options": [
+            "#D2381F",
+            "#E8B923",
+            "#2E7D5B",
+            "#1D3A6B"
+          ]
+        },
+        "value_contrast": {
+          "default": 0.6,
+          "min": 0.4,
+          "max": 0.8
+        },
+        "brush_size": {
+          "default": 0.8,
+          "min": 0.3,
+          "max": 2
+        },
+        "canvas_ratio": {
+          "default": "4:5",
+          "options": [
+            "4:5",
+            "3:4",
+            "3:2"
           ]
         }
       }
@@ -22463,8 +22903,11 @@
         "woodcut"
       ],
       "orgs": [
+        "cobra",
+        "der-blaue-reiter",
         "der-sturm",
-        "die-brucke"
+        "die-brucke",
+        "neue-kunstlervereinigung-munchen"
       ],
       "permutations": {
         "key_colour": {
@@ -22637,7 +23080,9 @@
       ],
       "orgs": [
         "galerie-kahnweiler",
-        "salon-des-independants"
+        "jack-of-diamonds",
+        "salon-des-independants",
+        "section-d-or"
       ],
       "permutations": {
         "key_colour": {
@@ -22749,6 +23194,171 @@
           "options": [
             "3:2",
             "16:9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rayonism",
+      "name": "Rayonism",
+      "domain": "painting",
+      "era": "avant-garde",
+      "period": "1910–1914",
+      "thesis": "What the eye sees is the sum of the rays of light that objects throw back, so the painter draws the crossing of the rays and not the objects.",
+      "summary": "Pictures built from lines that stand for rays of light thrown back by objects. The rays cross in sharp, coloured beams, and the object breaks into a spray of lines in a Cubist and Futurist space.",
+      "path": "skills/rayonism/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "rayonism",
+        "rayonist",
+        "rayism",
+        "larionov",
+        "goncharova rayonist",
+        "rays of light as lines",
+        "russian avant-garde 1913"
+      ],
+      "use_cases": [
+        "poster and cover art with a sense of speed",
+        "music and event branding",
+        "editorial illustration of light and energy",
+        "pattern and textile with a sharp line"
+      ],
+      "emotion": [
+        "dynamic",
+        "radiant",
+        "sharp",
+        "fragmented",
+        "abstract"
+      ],
+      "archetypes": [
+        "explorer",
+        "outlaw",
+        "creator"
+      ],
+      "vectors": {
+        "abstraction": 4,
+        "brushwork_visibility": 4,
+        "chromatic_intensity": 4,
+        "depth_illusion": 2,
+        "line_dominance": 5
+      },
+      "techniques": [
+        "diagonal-composition"
+      ],
+      "orgs": [
+        "donkeys-tail"
+      ],
+      "permutations": {
+        "key_colour": {
+          "default": "#D63B24",
+          "options": [
+            "#D63B24",
+            "#2B5BA8",
+            "#EDB81F",
+            "#4B7A3A"
+          ]
+        },
+        "value_contrast": {
+          "default": 0.65,
+          "min": 0.45,
+          "max": 0.85
+        },
+        "brush_size": {
+          "default": 1,
+          "min": 0.4,
+          "max": 2
+        },
+        "canvas_ratio": {
+          "default": "4:5",
+          "options": [
+            "4:5",
+            "3:4",
+            "3:2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "orphism",
+      "name": "Orphism",
+      "domain": "painting",
+      "era": "avant-garde",
+      "period": "1912–1914",
+      "thesis": "Colour alone can build the form and the movement of a picture, so the painter makes new wholes from pure colour and no longer shows the object.",
+      "summary": "Cubist structure with the bright colour of the Fauves, pushed toward pure abstraction. Discs and arcs of pure colour set side by side make rhythm and light, and the subject melts away.",
+      "path": "skills/orphism/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "orphism",
+        "orphic cubism",
+        "simultanism",
+        "delaunay",
+        "kupka",
+        "simultaneous contrast",
+        "discs of colour",
+        "rings of colour"
+      ],
+      "use_cases": [
+        "poster and cover art with a bright rhythm",
+        "textile, fashion and pattern design",
+        "music and dance branding",
+        "lyrical abstract illustration"
+      ],
+      "emotion": [
+        "lyrical",
+        "luminous",
+        "rhythmic",
+        "abstract",
+        "bright"
+      ],
+      "archetypes": [
+        "creator",
+        "explorer",
+        "magician"
+      ],
+      "vectors": {
+        "abstraction": 5,
+        "brushwork_visibility": 2,
+        "chromatic_intensity": 5,
+        "depth_illusion": 2,
+        "line_dominance": 2
+      },
+      "techniques": [
+        "simultaneous-contrast"
+      ],
+      "orgs": [
+        "section-d-or"
+      ],
+      "permutations": {
+        "key_colour": {
+          "default": "#D7263D",
+          "options": [
+            "#D7263D",
+            "#2956B2",
+            "#F4C20D",
+            "#1E9C6B"
+          ]
+        },
+        "value_contrast": {
+          "default": 0.65,
+          "min": 0.45,
+          "max": 0.85
+        },
+        "brush_size": {
+          "default": 0.9,
+          "min": 0.4,
+          "max": 2
+        },
+        "canvas_ratio": {
+          "default": "1:1",
+          "options": [
+            "1:1",
+            "4:5",
+            "3:4"
           ]
         }
       }
@@ -23062,6 +23672,7 @@
         "charles-egan-gallery",
         "congress-for-cultural-freedom",
         "federal-art-project",
+        "gutai-art-association",
         "sidney-janis-gallery"
       ],
       "permutations": {
@@ -23320,7 +23931,8 @@
         "serial-repetition"
       ],
       "orgs": [
-        "leo-castelli-gallery"
+        "leo-castelli-gallery",
+        "zero-group"
       ],
       "permutations": {
         "key_colour": {
@@ -29294,6 +29906,7 @@
         "hand_trace": 4
       },
       "techniques": [
+        "cloisonnism",
         "lithography"
       ],
       "orgs": [
@@ -37247,6 +37860,7 @@
         "chromatic_intensity": 3
       },
       "techniques": [
+        "simultaneous-contrast",
         "tambour-embroidery"
       ],
       "orgs": [
@@ -51692,6 +52306,15 @@
           "lag_years": 635
         },
         {
+          "domain": "architecture",
+          "year": 1949,
+          "via": "John Lautner pushes the roof of Googie's Coffee Shop far past its glass walls, and later roadside buildings copy the flying roof.",
+          "styles": [
+            "googie-architecture"
+          ],
+          "lag_years": 649
+        },
+        {
           "domain": "industrial",
           "year": 1960,
           "via": "Verner Panton draws the Panton chair as a cantilever seat in one moulded shell.",
@@ -51708,7 +52331,8 @@
         "bauhaus-architecture",
         "international-style-architecture",
         "bauhaus-product",
-        "space-age-pop-product"
+        "space-age-pop-product",
+        "googie-architecture"
       ]
     },
     {
@@ -52409,6 +53033,36 @@
       "styles": [
         "clay-3d-icon",
         "claymorphism"
+      ]
+    },
+    {
+      "id": "cloisonnism",
+      "name": "Cloisonnism",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1887,
+        "where": "Paris, France",
+        "note": "Louis Anquetin and Émile Bernard paint flat, outlined shapes in Paris; the critic Édouard Dujardin names the manner in 1888.",
+        "styles": [
+          "synthetism"
+        ],
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "print",
+          "year": 1891,
+          "via": "Henri de Toulouse-Lautrec, a friend of Anquetin and Bernard, prints flat fields of colour with a dark outline in the lithograph poster Moulin Rouge: La Goulue.",
+          "styles": [
+            "chromolithograph-poster"
+          ],
+          "lag_years": 4
+        }
+      ],
+      "styles": [
+        "synthetism",
+        "chromolithograph-poster"
       ]
     },
     {
@@ -53161,7 +53815,8 @@
         "suprematism",
         "constructivism-web",
         "soviet-montage",
-        "swiss-international"
+        "swiss-international",
+        "rayonism"
       ]
     },
     {
@@ -54970,7 +55625,8 @@
           "circa": true,
           "via": "Rouch, Brault and the Direct Cinema crews carry the light 16mm camera and the sound recorder into real rooms.",
           "styles": [
-            "documentary-verite"
+            "documentary-verite",
+            "third-cinema"
           ],
           "lag_years": 0
         },
@@ -55049,7 +55705,8 @@
         "phone-cinema",
         "new-hollywood",
         "camcorder-revival",
-        "pov-short"
+        "pov-short",
+        "third-cinema"
       ]
     },
     {
@@ -57836,6 +58493,15 @@
           "lag_years": 7
         },
         {
+          "domain": "architecture",
+          "year": 1969,
+          "via": "Superstudio sets mirrored grids into photographs of landscapes in the Continuous Monument.",
+          "styles": [
+            "radical-architecture"
+          ],
+          "lag_years": 51
+        },
+        {
           "domain": "internet",
           "year": 1976,
           "via": "Punk zines and record sleeves cut up newspapers with scissors and glue.",
@@ -57904,7 +58570,8 @@
         "anti-design",
         "scrapbook-ui",
         "seapunk",
-        "constructivist-photomontage-poster"
+        "constructivist-photomontage-poster",
+        "radical-architecture"
       ]
     },
     {
@@ -58219,6 +58886,34 @@
         "nordic-national-romanticism-painting",
         "italian-neorealism",
         "cottagecore"
+      ]
+    },
+    {
+      "id": "plug-in-capsule",
+      "name": "Plug-in capsule",
+      "kind": "process",
+      "origin": {
+        "domain": "architecture",
+        "year": 1972,
+        "where": "Tokyo",
+        "note": "Kisho Kurokawa completes the Nakagin Capsule Tower with 140 steel cells on two concrete cores.",
+        "styles": [
+          "metabolism-architecture"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "architecture",
+          "year": 1972,
+          "via": "Kisho Kurokawa bolts 140 prefabricated capsules to two concrete cores at the Nakagin Capsule Tower.",
+          "styles": [
+            "metabolism-architecture"
+          ],
+          "lag_years": 0
+        }
+      ],
+      "styles": [
+        "metabolism-architecture"
       ]
     },
     {
@@ -59534,6 +60229,35 @@
       "styles": [
         "solid-glyph-icon",
         "flat-icon"
+      ]
+    },
+    {
+      "id": "simultaneous-contrast",
+      "name": "Simultaneous contrast",
+      "kind": "process",
+      "origin": {
+        "domain": "painting",
+        "year": 1912,
+        "where": "Paris, France",
+        "note": "Robert Delaunay builds his Windows pictures from contrasts of pure colour, after the law of Michel-Eugène Chevreul (1839).",
+        "styles": [
+          "orphism"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "fashion",
+          "year": 1925,
+          "via": "Sonia Delaunay shows simultaneous fabrics and clothes of colour blocks at the Boutique Simultanée in Paris.",
+          "styles": [
+            "garconne-flapper-dress"
+          ],
+          "lag_years": 13
+        }
+      ],
+      "styles": [
+        "orphism",
+        "garconne-flapper-dress"
       ]
     },
     {

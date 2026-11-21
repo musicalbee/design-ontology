@@ -4,11 +4,11 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**<!-- n:styles -->536<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**<!-- n:styles -->543<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
-![styles](https://img.shields.io/badge/styles-536-111111)
+![styles](https://img.shields.io/badge/styles-543-111111)
 ![domains](https://img.shields.io/badge/domains-16-111111)
 ![code](https://img.shields.io/badge/code-MIT-111111)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
@@ -261,11 +261,14 @@ flowchart LR
     international_style_architecture["International Style"]
     nordic_modernism_architecture["Nordic Modernism"]
     mid_century_modern_architecture["Mid-century Modern"]
+    googie_architecture["Googie"]
     brutalist_architecture["Brutalism"]
+    metabolism_architecture["Metabolism"]
     adaptive_reuse_architecture["Adaptive Reuse"]
   end
   subgraph architecture_postmodern_and_after["Architecture · Postmodern and After · 1966–present"]
     postmodern_architecture["Postmodernism"]
+    radical_architecture["Radical architecture"]
     high_tech_architecture["High-tech"]
     critical_regionalism_architecture["Critical Regionalism"]
     deconstructivist_architecture["Deconstructivism"]
@@ -348,6 +351,7 @@ flowchart LR
     giallo["Giallo"]
     spaghetti_western["Spaghetti western"]
     new_hollywood["New Hollywood"]
+    third_cinema["Third Cinema"]
   end
   subgraph film_tape_and_cable["Film & Video · Tape, cable and the blockbuster · 1976–1994"]
     music_video["Music video"]
@@ -383,12 +387,15 @@ flowchart LR
     pointillism["Pointillism"]
     post_impressionism["Post-Impressionism"]
     symbolism_painting["Symbolism"]
+    synthetism["Synthetism"]
   end
   subgraph painting_avant_garde["Painting · Avant-garde · 1905–1970"]
     expressionism_painting["Expressionism"]
     fauvism["Fauvism"]
     cubism_painting["Cubism"]
     futurism_painting["Futurism"]
+    rayonism["Rayonism"]
+    orphism["Orphism"]
     suprematism["Suprematism"]
     de_stijl_painting["De Stijl painting"]
     surrealism_painting["Surrealism"]
@@ -1204,6 +1211,8 @@ flowchart LR
   goblincore <-. echoes .-> mingei_folk_craft
   goblincore <-. echoes .-> naturalist_cuisine
   goblincore <-. echoes .-> organic_architecture
+  googie_architecture <-. echoes .-> space_age
+  googie_architecture <-. echoes .-> space_age_pop_product
   gorpcore <-. echoes .-> health_goth
   gorpcore <-. echoes .-> normcore
   gorpcore <-. echoes .-> street_photography
@@ -1301,6 +1310,7 @@ flowchart LR
   memphis_design <-. echoes .-> pop_art_painting
   memphis_design <-. echoes .-> pop_art_web
   memphis_design <-. echoes .-> postmodern_architecture
+  memphis_design <-. echoes .-> radical_architecture
   memphis_design <-. echoes .-> swiss_international
   memphis_design <-. echoes .-> swiss_plastic_pop_watch
   memphis_interior <-. echoes .-> memphis_postmodern_ceramics
@@ -1384,6 +1394,7 @@ flowchart LR
   planimetric_symmetry <-. echoes .-> renaissance_painting
   pop_art_painting <-. echoes .-> pop_art_web
   pop_art_painting <-. echoes .-> pop_screen_print
+  pop_art_painting <-. echoes .-> radical_architecture
   pop_art_painting <-. echoes .-> space_age_pop_product
   pop_art_painting <-. echoes .-> swiss_plastic_pop_watch
   pop_art_web <-. echoes .-> pop_screen_print
@@ -1654,6 +1665,7 @@ flowchart LR
   y2k_aesthetic --> glitchcore
   geometric_symbol --> glossy_3d_logo
   cottagecore --> goblincore
+  art_deco_architecture --> googie_architecture
   technical_shell_alpinism --> gorpcore
   longquan_celadon --> goryeo_celadon
   cuisine_francoise --> grande_cuisine
@@ -1735,6 +1747,7 @@ flowchart LR
   kraak_porcelain --> meissen_baroque_porcelain
   art_deco_tableware --> memphis_postmodern_ceramics
   space_age_pop_product --> memphis_product
+  international_style_architecture --> metabolism_architecture
   engraving_print --> mezzotint_print
   bauhaus --> mid_century_modern
   international_style_architecture --> mid_century_modern_architecture
@@ -1792,6 +1805,7 @@ flowchart LR
   prairie_school_architecture --> organic_architecture
   art_deco_tableware --> organic_modern_tableware
   bauhaus_modern_tableware --> organic_modern_tableware
+  cubism_painting --> orphism
   flat_icon --> outline_icon
   california_cuisine --> pacific_rim_fusion
   nouvelle_cuisine --> pacific_rim_fusion
@@ -1828,6 +1842,8 @@ flowchart LR
   bauhaus --> rams_functionalism_ui
   swiss_international --> rams_functionalism_ui
   chromolithograph_poster --> ravi_varma_oleograph
+  cubism_painting --> rayonism
+  futurism_painting --> rayonism
   kaomoji_emoticon --> reaction_gif
   creamware_neoclassical --> regency_gilded_bone_china
   sevres_rococo_porcelain --> regency_gilded_bone_china
@@ -1891,6 +1907,7 @@ flowchart LR
   vaporwave --> surrealism_web
   bauhaus --> swiss_international
   electronic_and_digital_watch --> swiss_plastic_pop_watch
+  post_impressionism --> synthetism
   vaporwave --> synthwave_web
   y2k_aesthetic --> synthwave_web
   streamline_car --> tailfin_era_car
@@ -1902,6 +1919,8 @@ flowchart LR
   woodcut_relief_print --> ten_bamboo_studio_polychrome
   art_deco_faience_facade --> terracotta_rainscreen
   victorian_architectural_terracotta --> terracotta_rainscreen
+  documentary_verite --> third_cinema
+  soviet_montage --> third_cinema
   garalde_old_style --> transitional_serif
   azulejo --> trencadis
   zellige --> trencadis
@@ -2116,6 +2135,7 @@ flowchart LR
   punk_fashion -. rejects .-> mod_and_mini
   quiet_luxury_fashion -. rejects .-> logomania
   quiet_luxury_interior -. rejects .-> dopamine_decor
+  radical_architecture -. rejects .-> international_style_architecture
   raku_tea_bowl -. rejects .-> jian_tenmoku_ware
   realism_painting -. rejects .-> rococo_painting
   realism_painting -. rejects .-> romanticism_painting
@@ -2152,9 +2172,11 @@ flowchart LR
   swiss_modernist_mark -. rejects .-> victorian_trademark
   swiss_plastic_pop_watch -. rejects .-> luxury_steel_sports_watch
   symbolism_painting -. rejects .-> realism_painting
+  synthetism -. rejects .-> impressionism
   synthwave_web -. rejects .-> flat_design
   technical_shell_alpinism -. rejects .-> country_sporting_tweed
   terminal_tui_web -. rejects .-> material_design
+  third_cinema -. rejects .-> classical_hollywood
   ulm_braun_functionalism -. rejects .-> streamline_moderne_product
   underwear_as_outerwear -. rejects .-> soft_natural_lingerie
   velocity_edit -. rejects .-> grwm_short
@@ -2169,6 +2191,10 @@ flowchart LR
   xerox_zine -. rejects .-> psychedelic_concert_poster
   y2k_aesthetic -. rejects .-> grunge_editorial
   yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
+  mid_century_modern_architecture == branch ==> googie_architecture
+  cubism_painting == branch ==> orphism
+  futurism_painting == branch ==> rayonism
+  post_impressionism == branch ==> synthetism
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
@@ -2819,18 +2845,10 @@ flowchart LR
   linkStyle 647 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 648 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 649 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 1126 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1127 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1128 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1129 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1130 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1131 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1132 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1133 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1134 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1135 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1136 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1137 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 650 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 651 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 652 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 653 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1138 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1139 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1140 stroke:#E5484D,stroke-width:1.5px
@@ -3046,6 +3064,21 @@ flowchart LR
   linkStyle 1350 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1351 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1352 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1353 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1354 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1355 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1356 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1357 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1358 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1359 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1360 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1361 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1362 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1363 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1364 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1365 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1366 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1367 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -3089,11 +3122,11 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Domain | Styles | Demo |
 |---|--:|---|
 | Internet | 113 | [internet.html](demo/internet.html) |
-| Architecture | 23 | [architecture.html](demo/architecture.html) |
+| Architecture | 26 | [architecture.html](demo/architecture.html) |
 | Interior | 19 | [interior.html](demo/interior.html) |
 | Photography | 19 | [photography.html](demo/photography.html) |
-| Film & Video | 24 | [film.html](demo/film.html) |
-| Painting | 25 | [painting.html](demo/painting.html) |
+| Film & Video | 25 | [film.html](demo/film.html) |
+| Painting | 28 | [painting.html](demo/painting.html) |
 | Logo | 8 | [logo.html](demo/logo.html) |
 | Icons | 9 | [icon.html](demo/icon.html) |
 | Typeface | 12 | [typeface.html](demo/typeface.html) |
@@ -3114,7 +3147,7 @@ Next domains under discussion: type design, motion, sound.
 
 ## Techniques that cross domains
 
-A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->290<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->293<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
 
 Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 

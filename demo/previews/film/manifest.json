@@ -2939,6 +2939,136 @@
           }
         }
       ]
+    },
+    "third-cinema": {
+      "file": "third-cinema/1.webp",
+      "kind": "reel",
+      "subject": "A march in a street",
+      "prompt": "a still frame from a film, wide shot: a march in a street, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 12mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, close-up shot: a worker speaks to the camera, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 50mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, insert shot: an archive newsreel insert of dock workers at a port, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 35mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, medium shot: a factory floor with machines, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 16mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits | a still frame from a film, wide shot: a meeting in a union hall, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 16mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+      "model": "Z-Image-Turbo",
+      "licence": "Apache-2.0",
+      "seed": 1955,
+      "steps": 9,
+      "width": 1152,
+      "height": 768,
+      "generated": "2026-11-21",
+      "frames": [
+        {
+          "label": "A march in a street",
+          "size": "wide",
+          "lens": "12mm",
+          "movement": "handheld follow 1.4 m/s",
+          "seconds": 12,
+          "prompt": "a still frame from a film, wide shot: a march in a street, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 12mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "file": "third-cinema/1.webp",
+          "model": "Z-Image-Turbo",
+          "licence": "Apache-2.0",
+          "seed": 1955,
+          "base_seed": 1955,
+          "steps": 9,
+          "width": 1152,
+          "height": 768,
+          "generated": "2026-11-21",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
+        },
+        {
+          "label": "A worker speaks to the camera",
+          "size": "close-up",
+          "lens": "50mm",
+          "movement": "static, tripod",
+          "seconds": 25,
+          "prompt": "a still frame from a film, close-up shot: a worker speaks to the camera, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 50mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "file": "third-cinema/2.webp",
+          "model": "Z-Image-Turbo",
+          "licence": "Apache-2.0",
+          "seed": 1956,
+          "base_seed": 1956,
+          "steps": 9,
+          "width": 1152,
+          "height": 768,
+          "generated": "2026-11-21",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
+        },
+        {
+          "label": "An archive newsreel insert of dock workers at a port",
+          "size": "insert",
+          "lens": "35mm",
+          "movement": "static copy shot",
+          "seconds": 4,
+          "prompt": "a still frame from a film, insert shot: an archive newsreel insert of dock workers at a port, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 35mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "file": "third-cinema/3.webp",
+          "model": "Z-Image-Turbo",
+          "licence": "Apache-2.0",
+          "seed": 1957,
+          "base_seed": 1957,
+          "steps": 9,
+          "width": 1152,
+          "height": 768,
+          "generated": "2026-11-21",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
+        },
+        {
+          "label": "A factory floor with machines",
+          "size": "medium",
+          "lens": "16mm",
+          "movement": "handheld pan",
+          "seconds": 10,
+          "prompt": "a still frame from a film, medium shot: a factory floor with machines, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 16mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "file": "third-cinema/4.webp",
+          "model": "Z-Image-Turbo",
+          "licence": "Apache-2.0",
+          "seed": 1958,
+          "base_seed": 1958,
+          "steps": 9,
+          "width": 1152,
+          "height": 768,
+          "generated": "2026-11-21",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
+        },
+        {
+          "label": "A meeting in a union hall",
+          "size": "wide",
+          "lens": "16mm",
+          "movement": "slow zoom over 6 s",
+          "seconds": 15,
+          "prompt": "a still frame from a film, wide shot: a meeting in a union hall, in a dusty street of a Latin American port town, workers in plain shirts with their arms at their sides, 16mm lens, third cinema militant documentary, 16mm black and white, handheld camera in a crowded street, archive newsreel inserts, coarse film grain, high contrast, 1.37:1 frame, a clean frame with no on-screen text, no captions, no titles, no interface, no logos, no timestamp, no timecode, no digits",
+          "file": "third-cinema/5.webp",
+          "model": "Z-Image-Turbo",
+          "licence": "Apache-2.0",
+          "seed": 1959,
+          "base_seed": 1959,
+          "steps": 9,
+          "width": 1152,
+          "height": 768,
+          "generated": "2026-11-21",
+          "qa": {
+            "checker": "sonnet",
+            "tries": 1,
+            "ok": true,
+            "defects": []
+          }
+        }
+      ]
     }
   }
 }
