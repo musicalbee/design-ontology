@@ -81,6 +81,10 @@
   .do-links a:hover, .do-gh:hover { color: var(--hv-heading); background: var(--hv-subtle); }
   .do-links a[aria-current="page"] { color: var(--hv-accent); background: var(--hv-muted-bg); font-weight: 600; }
   .do-gh { margin-left: 4px; }
+  .do-lang { display: flex; gap: 2px; flex: none; margin-left: 4px; padding: 2px; border: 1.5px solid var(--hv-line); border-radius: 999px; background: var(--hv-surface); }
+  .do-lang a { padding: 4px 9px; border-radius: 999px; color: var(--hv-ink-muted); text-decoration: none; font-weight: 600; font-size: 12.5px; }
+  .do-lang a:hover { color: var(--hv-heading); background: var(--hv-subtle); }
+  .do-lang a[aria-current="true"] { background: var(--hv-accent); color: #fff; }
   .do-bar :focus-visible, .do-drawer :focus-visible { outline: 3px solid var(--hv-focus); outline-offset: 3px; }
 
   .do-drawer { position: fixed; z-index: 999; top: 64px; left: 8px; bottom: 8px; width: min(300px, calc(100vw - 16px));
@@ -191,7 +195,8 @@
     `<button class="do-btn do-step" id="prev" aria-label="Previous style" hidden>←</button>` +
     `<button class="do-btn do-step" id="next" aria-label="Next style" hidden>→</button>` +
     `<nav class="do-links" aria-label="Across the domains">${links}</nav>` +
-    `<a class="do-gh" href="https://github.com/musicalbee/design-ontology">GitHub</a>`;
+    `<a class="do-gh" href="https://github.com/musicalbee/design-ontology">GitHub</a>` +
+    `<nav class="do-lang" id="do-lang" aria-label="Language"><a href="#" aria-current="true" hreflang="en" lang="en">EN</a><a href="../ru/" hreflang="ru" lang="ru">RU</a><a href="../no/" hreflang="nb" lang="nb">NO</a></nav>`;
 
   const drawer = document.createElement("aside");
   drawer.className = "do-drawer";
@@ -249,6 +254,11 @@
       for (const el of [open, $("prev"), $("next")]) el.hidden = !on;
       bar.classList.toggle("do-bare", !on);
       requestAnimationFrame(edges);
+      // The language links lead to the translated static page of the current style, else to the translated index.
+      const pick = items.find((b) => b.getAttribute("aria-pressed") === "true")?.dataset.go;
+      const lg = $("do-lang").querySelectorAll("a");
+      lg[1].href = pick ? `../ru/style/${pick}.html` : "../ru/";
+      lg[2].href = pick ? `../no/style/${pick}.html` : "../no/";
       if (!on) return;
       const cur = items.findIndex((b) => b.getAttribute("aria-pressed") === "true");
       open.querySelector(".do-cur").textContent = cur >= 0 ? items[cur].textContent : "Styles";

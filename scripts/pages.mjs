@@ -99,4 +99,34 @@ ${alt}
     written.push(`${l}/${s.id}`);
   }
 }
+// Language hubs: style/index.html (en), ru/index.html, no/index.html. One crawlable list of every style per language.
+const H1 = { en: "Design styles", ru: "Стили дизайна", no: "Designstiler" };
+const SUB = { en: "Every style in the ontology, by domain.", ru: "Все стили онтологии по областям.", no: "Alle stiler i ontologien, etter område." };
+for (const l of LANGS) {
+  const up = l === "en" ? "../" : "../";
+  const dir = l === "en" ? "style" : l;
+  const base = l === "en" ? "" : "style/";
+  const by = new Map();
+  for (const s of all) { if (l !== "en" && !tr(l, s.id)) continue; if (!by.has(s.domain)) by.set(s.domain, []); by.get(s.domain).push(s); }
+  const url = `${BASE}${dir}/`;
+  const alt = LANGS.map((h) => `<link rel="alternate" hreflang="${HL[h]}" href="${BASE}${h === "en" ? "style" : h}/">`).join("\n") + `\n<link rel="alternate" hreflang="x-default" href="${BASE}style/">`;
+  const sw = LANGS.map((h) => (h === l ? `<b>${LNAME[h]}</b>` : `<a href="../${h === "en" ? "style" : h}/" hreflang="${HL[h]}">${LNAME[h]}</a>`)).join(" · ");
+  const secs = [...by].sort(([a], [b]) => dom(l, a).localeCompare(dom(l, b))).map(([d, ss]) => `<h2>${esc(dom(l, d))} <small>(${ss.length})</small></h2><ul>${ss.sort((a, b) => nameIn(l, a.id).localeCompare(nameIn(l, b.id))).map((s) => `<li><a href="${base}${s.id}.html">${esc(nameIn(l, s.id))}</a></li>`).join("")}</ul>`).join("");
+  const title = `${H1[l]} · ${SITE}`;
+  const img = `${BASE}assets/og.png`;
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(`${dir}/index.html`, `<!doctype html>
+<html lang="${HL[l]}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc(title)}</title><meta name="description" content="${esc(SUB[l])} ${all.length}">
+<link rel="canonical" href="${url}">
+${alt}
+<meta property="og:type" content="website"><meta property="og:site_name" content="${SITE}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(SUB[l])}"><meta property="og:url" content="${url}"><meta property="og:image" content="${img}">
+<meta name="twitter:card" content="summary_large_image">
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 16px;color:#1b1b1f}a{color:#0b5fff}ul{columns:3 200px;padding-left:1.2em}h2 small{color:#777;font-weight:400}nav{font-size:.9em;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}</style>
+</head><body>
+<nav><span><a href="${up}demo/">${T[l].home}</a></span><span class="lang">${sw}</span></nav>
+<h1>${H1[l]}</h1><p>${SUB[l]}</p>${secs}
+</body></html>
+`);
+}
 console.log(`pages: ${written.length} style pages`);
