@@ -63,6 +63,12 @@ for (const d of Object.keys(HLS)) {
   for (const n of readdirSync(d).filter((x) => x.endsWith(".html")).sort()) pages.push({ url: `${BASE}${d}/${n}`, mod, alt: altOf(n), xdef: `${BASE}style/${n}` });
 }
 
+// Language hubs.
+{
+  const hub = Object.entries({ style: "en", ru: "ru", no: "nb" }).filter(([d]) => existsSync(`${d}/index.html`));
+  for (const [d] of hub) pages.push({ url: `${BASE}${d}/`, mod: lastmod(d), alt: hub.map(([x, h]) => ({ h, href: `${BASE}${x}/` })), xdef: `${BASE}style/` });
+}
+
 // Root: GitHub Pages serves nothing at /design-ontology/ without an index.
 writeFileSync("index.html", `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
