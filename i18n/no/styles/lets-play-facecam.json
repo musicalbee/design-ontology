@@ -1,0 +1,53 @@
+{
+  "name": "Let's Play med facecam",
+  "aliases": [
+    "Spillopptak med facecam",
+    "Reaksjonskamera",
+    "Gamerkommentar"
+  ],
+  "summary": "Spillopptak fyller bildet, og et lite direktevindu med spillerens ansikt sitter i ett hjørne. Ansiktet reagerer, og høylytte bildetekster og zoomklipp driver stemningen.",
+  "core_thesis": "Spillet er scenen og ansiktet er publikum: legg reaksjonen ved siden av handlingen, så følger seeren spilleren og ikke spillet.",
+  "design_principles": [
+    "Fyll bildet med spillopptak og sett facecam-vinduet på 18 % til 25 % av bildebredden.",
+    "Plasser facecam i et hjørne 24px fra hver kant og behold det der gjennom hele klippet.",
+    "Beskjær facecam til en avrundet boks med en kant på 4px i aksentfargen.",
+    "Zoom ansiktet med 110 % til 130 % i 8 til 12 bilder ved en skrekk eller en seier, og gå så tilbake.",
+    "Legg til en rød eller gul bildetekst på 48px til 72px med et svart omriss på 4px for nøkkelvitsen.",
+    "Klipp bort hver pause over 1,5s og legg til et kort lydslag ved hvert klipp.",
+    "Hold spillets HUD synlig; ikke dekk helsefeltet eller kartet med facecam."
+  ],
+  "anti_patterns": [
+    "Studiolys som fjerner rommet",
+    "En facecam som dekker spillets HUD",
+    "Stille, urørlige opptak uten klipp",
+    "Små, tynne bildetekster som forsvinner i spillet",
+    "Et bedriftsmessig undertekstfelt med en logolinje",
+    "Dempede fargegraderinger"
+  ],
+  "palette": [
+    {
+      "name": "Skjermsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelgrå",
+      "role": "flate"
+    },
+    {
+      "name": "Tekstehvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Raserirød",
+      "role": "primær"
+    },
+    {
+      "name": "Kameracyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Poenggul",
+      "role": "høylys"
+    }
+  ]
+}

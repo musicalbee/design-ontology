@@ -1,0 +1,54 @@
+{
+  "name": "Liquid Glass",
+  "aliases": [
+    "Apple Liquid Glass",
+    "Brytende glass-UI",
+    "iOS 26-design"
+  ],
+  "summary": "Klart, buet glass som bøyer innholdet bak seg, med speilende kanter, en tone som tilpasser seg bunnen og flytende kontroller. Apple innførte det i 2025, og det går lenger enn frostet glass.",
+  "core_thesis": "Kontroller er en gjennomsiktig linse over innholdet: grensesnittet flyter, bryter lyset fra siden og holder seg ute av veien.",
+  "design_principles": [
+    "Lag et glasslag med uskarphet av bakgrunnen på 16px til 40px, metning på 160 % til 200 % og en tone av hvitt eller bunnfargen ved 8 % til 20 % dekning.",
+    "Tegn en speilende kant: en indre kant på 1px i hvitt ved 40 % til 60 % øverst og til venstre, og hvitt ved 10 % nederst og til høyre.",
+    "Legg hjørnene i konsentrisk rekkefølge: den indre radiusen er lik den ytre radiusen minus polstringen (for eksempel 28px ytre, 12px polstring, 16px indre).",
+    "La navigasjon og verktøylinjer flyte som piller på 56px til 64px høyde, med en marg på 12px til 16px fra skjermkanten og ingen linje i full bredde.",
+    "La glasset krympe og utvide seg: en linje på 64px trekker seg sammen til 40px ved rulling på 250ms med en fjær.",
+    "Plasser glass bare over rikt innhold (foto, video, kart); høyst 2 glasslag kan overlappe.",
+    "Bruk heldekkende fyll på innholdskort og glassfyll bare på kontroller, slik at glasset merker det du kan handle på."
+  ],
+  "anti_patterns": [
+    "Glass på glass stablet i mer enn 2 lag",
+    "Ugjennomsiktige toppfelt i full bredde",
+    "Harde kanter på 2px eller mer og flate omriss",
+    "Glass bak lang brødtekst med lav kontrast",
+    "Tunge slagskygger som får kontrollen til å ligne et kort",
+    "Firkantede hjørner på flytende kontroller",
+    "Tonet glass som skjuler innholdet bak seg"
+  ],
+  "palette": [
+    {
+      "name": "Bunn",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Glasshvit",
+      "role": "glasstone"
+    },
+    {
+      "name": "Asurblå",
+      "role": "aksent"
+    },
+    {
+      "name": "Skifer",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Skumring",
+      "role": "mørk bunn"
+    }
+  ]
+}

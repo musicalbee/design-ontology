@@ -1,0 +1,58 @@
+{
+  "name": "Cyberpunk-nett",
+  "aliases": [
+    "Cyberpunk",
+    "Neon noir-UI",
+    "High tech, low life-nett"
+  ],
+  "summary": "En våt, neonbelyst by om natten: mørk bunn, skilt i magenta, cyan og gult, glitch, skannelinjer, skitt, tette HUD-paneler og kanji eller kode i hver kant. High tech med low life.",
+  "core_thesis": "Fremtiden er trang, skitten og lys: neon på mørkt, data overalt.",
+  "design_principles": [
+    "Sett bunnen i nesten svart blått (#0A0B14) og lys den opp med neon i magenta (#FF2E88), cyan (#19E3F5) og et gult varsel (#FFE600).",
+    "Bruk glød: en text-shadow eller box-shadow på 0 0 12px til 24px i neonfargen ved 60 % til 80 % dekning.",
+    "Legg til skannelinjer (2px linjer ved 6 % til 10 % dekning), støy på 6 % og en glitch-forskyvning på 2px til 6px i magenta og cyan på overskrifter.",
+    "Skjær panelene i hjørnene (en avfasing på 12px til 24px) og ramm dem inn med en 1px neonlinje og små merkestreker.",
+    "Fyll kantene med HUD-detaljer: koordinater, serienumre, strekkoder, varselstriper og små etiketter i blandet skrift på 10px til 12px.",
+    "Sett overskrifter i en hard, bred eller smal versalskrift og brødtekst i en mono på 14px til 16px med kontrast 7:1.",
+    "Animer med flimring, glitch og skriving: trinn på 80ms til 240ms; en hover-flimring på 3 bilder."
+  ],
+  "anti_patterns": [
+    "Pastell eller myk farge",
+    "Runde, vennlige former",
+    "Rene, tomme oppsett uten skitt",
+    "Lange myke overganger",
+    "Neontekst på neon med lav kontrast",
+    "Skarpt hvite bunner",
+    "Neon i mer enn 3 fargetoner samtidig"
+  ],
+  "palette": [
+    {
+      "name": "Natt",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panel",
+      "role": "flate"
+    },
+    {
+      "name": "Bein",
+      "role": "tekst"
+    },
+    {
+      "name": "Dempet",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Magenta",
+      "role": "primær"
+    },
+    {
+      "name": "Cyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Linje",
+      "role": "kant"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Redaksjonell seriff-gjenfødelse",
+  "aliases": [
+    "Seriffnett",
+    "Magasinnett",
+    "Ny redaksjonell"
+  ],
+  "summary": "Store, uttrykksfulle seriffoverskrifter, varmt off-white papir, en liten sans til etiketter og en behersket palett. Det kom tilbake som en reaksjon mot den geometriske sans-serif-standarden i SaaS-nettet.",
+  "core_thesis": "Stemme slår nøytralitet: en seriff med karakter får en merkevare til å høres ut som et menneske, som i et magasin.",
+  "design_principles": [
+    "Sett overskrifter i en seriff med høy kontrast på 56px til 120px med linjeavstand 0,95 til 1,05 og sporing på -0,02em til -0,04em.",
+    "Bruk en varm off-white bunn (#F6F1E7) og nesten svart blekk (#1A1714); én dempet aksent (terrakotta #A64B25 eller grønn) dekker mindre enn 8 % av flaten.",
+    "Sett brødtekst i en seriff eller en stille sans på 18px til 20px med linjelengde på 55 til 70 tegn og linjeavstand 1,55.",
+    "Sett etiketter, datoer og byline i en liten sans eller mono på 11px til 13px i versaler med +0,08em sporing.",
+    "Bruk kursiv som utheving i en overskrift: ett ord eller uttrykk i kursiv i hver overskrift.",
+    "Del siden med 1px streker; bruk initialer og utdragssitater på 32px til 48px.",
+    "Beskjær fotografier i rene rektangler med en bildetekst på 12px under og ingen radius."
+  ],
+  "anti_patterns": [
+    "Geometriske sans-serif-overskrifter i fet",
+    "Gradientbakgrunner og glød",
+    "Runde kort, piller og emojier",
+    "Ensartede flisrutenett med skygger",
+    "All skrift i fet uten kursiv",
+    "Rent hvite bakgrunner",
+    "Stockillustrasjon i flat bedriftsstil"
+  ],
+  "palette": [
+    {
+      "name": "Papir",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst og streker"
+    },
+    {
+      "name": "Terrakotta",
+      "role": "aksent"
+    },
+    {
+      "name": "Stein",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Lin",
+      "role": "alternativ flate"
+    }
+  ]
+}

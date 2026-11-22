@@ -1,0 +1,58 @@
+{
+  "name": "Bento-rutenett-UI",
+  "aliases": [
+    "Bento-layout",
+    "Bentoboks-rutenett",
+    "Modulært kortrutenett"
+  ],
+  "summary": "Et rektangulært rutenett av avrundede celler med blandede spenn, der hver celle rommer én idé, med like små mellomrom. Apples funksjonssider gjorde det til standard produktoppsett fra 2022.",
+  "core_thesis": "En side er lettest å skanne når hver idé har sitt eget rom og rommene fyller ett tett, regelmessig rutenett.",
+  "design_principles": [
+    "Del siden i et rutenett på 4 eller 12 kolonner og la hver celle spenne 1, 2 eller 3 kolonner og 1 eller 2 rader.",
+    "Hold ett jevnt mellomrom på 12px til 16px mellom alle celler, og bland aldri mellomrom i ulik størrelse.",
+    "Gi hver celle en radius på 20px til 28px og bruk samme radius på alle cellene på en side.",
+    "Legg én melding i hver celle: en overskrift på høyst 8 ord, ett bilde eller ett tall.",
+    "Gjør hovedcellen 2 ganger 2 og fyll de andre cellene med 1 ganger 1 eller 2 ganger 1, slik at størrelsene gir rekkefølgen etter viktighet.",
+    "Fyll cellene med 2 til 4 toner av én familie, pluss én eller to celler i aksentfargen.",
+    "Juster celleinnholdet til samme indre polstring på 24px, og forankre teksten øverst til venstre eller nederst til venstre."
+  ],
+  "anti_patterns": [
+    "Mellomrom i ulik størrelse mellom cellene i ett rutenett",
+    "Tomme hull i rutenettet som bryter rektangelet",
+    "Celler med ulike hjørneradier på én side",
+    "Flere meldinger eller handlingsoppfordringer i én celle",
+    "Mer enn 8 celler i det første visningsbildet",
+    "Tunge kanter eller harde skygger som kjemper mot flislegningen",
+    "Avsnitt på mer enn 30 ord inni en celle"
+  ],
+  "palette": [
+    {
+      "name": "Side",
+      "role": "sidebakgrunn"
+    },
+    {
+      "name": "Celle",
+      "role": "standard cellefyll"
+    },
+    {
+      "name": "Celletone",
+      "role": "sekundært cellefyll"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Grafitt",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Aksentblå",
+      "role": "aksentcelle og lenker"
+    },
+    {
+      "name": "Natt",
+      "role": "mørkt cellefyll"
+    }
+  ]
+}

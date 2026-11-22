@@ -1,0 +1,52 @@
+{
+  "name": "Fotokarusell-lysbildeserie",
+  "aliases": [
+    "Fotomodus",
+    "Sveipekarusell",
+    "Lysbildeinnlegg"
+  ],
+  "summary": "Et sett på 4 til 10 stillbilder som seeren sveiper gjennom, med én tekstlinje på hvert bilde og en krok på det første. Instagram la til karuseller i 2017, og TikTok la til fotomodus i 2022.",
+  "core_thesis": "Senk tempoet i strømmen: én idé på hvert stille bilde, ett sveip om gangen.",
+  "design_principles": [
+    "Bruk et 4:5-utsnitt på 1080 x 1350 px eller et 9:16-utsnitt på 1080 x 1920 px for hvert bilde.",
+    "La bilde 1 være kroken: en overskrift på 72 px med 6 ord eller færre.",
+    "Hold 1 idé og 1 tekstlinje på 40 px på hvert bilde, med marger på 64 px.",
+    "Bruk 5 til 10 bilder og vis antallet som prikker på 8 px nederst.",
+    "Gjenta samme rutenett, farge og skrift på alle bildene slik at settet leses som ett.",
+    "Antyd sveipet med en pil eller et avskåret element ved høyre kant på bilde 1.",
+    "Avslutt med en oppfordring til å lagre eller dele på 44 px med en knapp med 100 % kontrast."
+  ],
+  "anti_patterns": [
+    "Et ulikt oppsett på hvert bilde",
+    "Avsnittstekst på et foto",
+    "Ingen krok på bilde 1",
+    "Foto i lav oppløsning",
+    "Mer enn 10 bilder"
+  ],
+  "palette": [
+    {
+      "name": "Papir",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Signalkorall",
+      "role": "primær"
+    },
+    {
+      "name": "Salvie",
+      "role": "aksent"
+    },
+    {
+      "name": "Stein",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Kort",
+      "role": "flate"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Terminal / TUI på nett",
+  "aliases": [
+    "Terminal-UI",
+    "TUI-estetikk",
+    "Konsollnett"
+  ],
+  "summary": "Et rutenett av tegn i fast bredde, kanter av boksetegn, en mørk eller fosforgrønn bunn og tastaturhint. Det låner fra kommandolinjeverktøy og tekstbaserte brukergrensesnitt for å lage nettsider som føles som en terminal.",
+  "core_thesis": "Terminalen er det ærlige grensesnittet: et fast tegnrutenett, bare tekst og et tastatur gjør et verktøy raskt og pålitelig.",
+  "design_principles": [
+    "Sett hvert tegn på et fast rutenett: én mono på 14px til 16px, tegnbredde 8px til 10px, linjehøyde 20px til 24px.",
+    "Juster alle blokker til hele tegn og hele linjer; bredder er multipler av 1 ch og høyder multipler av 1 linje.",
+    "Tegn kanter med boksetegn (┌ ─ ┐ │ └ ┘) eller en linje på 1px festet til rutenettet; hjørneradius er 0px.",
+    "Bruk 2 til 4 farger: en mørk bunn (#0C0C0C), én tekstfarge, ett aksent og en varselfarge; grønt eller ravgult på svart gir fosforpreg.",
+    "Vis en ledetekst (>, $ eller ▌) og en blinkende blokkmarkør med 1s intervall (500ms på, 500ms av).",
+    "Vis tastatursnarveier i klammer, for eksempel [q] avslutt, [/] søk, på 12px til 14px ved siden av hver handling.",
+    "Bruk ASCII-kunst, søyler (▁▂▃▅▇) og tekstspinnere (⠋⠙⠹) i stedet for bilder og ikon."
+  ],
+  "anti_patterns": [
+    "Proporsjonale skrifter i UI-tekst",
+    "Runde hjørner, skygger og gradienter",
+    "Ikon, emoji og illustrasjon",
+    "Kontroller som bare virker med mus, uten tast",
+    "Jevn animasjon og lettelseskurver",
+    "Mer enn 4 farger",
+    "Elementer utenfor tegnrutenettet"
+  ],
+  "palette": [
+    {
+      "name": "Konsoll",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Fosfor",
+      "role": "tekst og primær"
+    },
+    {
+      "name": "Rav",
+      "role": "aksent"
+    },
+    {
+      "name": "Dempet",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Varsel",
+      "role": "feil"
+    },
+    {
+      "name": "Panel",
+      "role": "flate"
+    }
+  ]
+}

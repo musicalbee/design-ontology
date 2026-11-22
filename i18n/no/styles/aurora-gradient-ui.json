@@ -1,0 +1,54 @@
+{
+  "name": "Aurora-gradient-UI",
+  "aliases": [
+    "Mesh-gradient-UI",
+    "Gradientglød på nett",
+    "Aurora-bakgrunn"
+  ],
+  "summary": "Myke, uskarpe mesh-gradienter i 3 til 5 fargetoner bak ren sans-serif-skrift, med glødende kanter og korn. Det kom fra fintech- og AI-produktsider og erstattet den flate hero-seksjonen.",
+  "core_thesis": "Farge er atmosfære: et uskarpt lysfelt får et produkt til å føles levende uten noe bilde av det.",
+  "design_principles": [
+    "Bygg hero-bunnen av 3 til 5 radiale fargeflekker på 400px til 900px, uskarpe med 80px til 160px, på en base av #0A0A14 eller hvit.",
+    "Velg fargetoner som ligger innenfor 90° til 150° på fargehjulet og hold metningen på 60 % til 90 %.",
+    "Legg et kornlag på 3 % til 6 % dekning med 1px til 2px støy for å hindre båndeffekter.",
+    "Sett overskrifter i en ren sans på 56px til 96px, vekt 500 til 600, og hold brødtekst hvit ved 80 % dekning eller blekk på bleke toner.",
+    "Ramm inn kort med en 1px gradientkant (hvit ved 20 % til 0 %) og fyll med hvit ved 4 % til 8 %.",
+    "Animer flekkene: drift på 40px til 120px over 12s til 30s, med ease-in-out og en vekslende løkke.",
+    "Begrens gløden: én glød bak hero-objektet og én bak primærknappen, hver med 24px til 60px uskarphet ved 30 % til 50 % dekning."
+  ],
+  "anti_patterns": [
+    "Flate ensfargede hero-bakgrunner",
+    "Hardkantede lineære gradienter med synlige bånd",
+    "Mer enn 5 fargetoner i ett felt",
+    "Tykke svarte kanter og harde skygger",
+    "Gradienttekst i hver overskrift",
+    "Rask, blinkende gradientanimasjon under 4s per løkke",
+    "Lavkontrast-tekst på lyse flekker"
+  ],
+  "palette": [
+    {
+      "name": "Midnatt",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Fiolett",
+      "role": "flekk og primær"
+    },
+    {
+      "name": "Cyan",
+      "role": "flekk og aksent"
+    },
+    {
+      "name": "Magenta",
+      "role": "flekk"
+    },
+    {
+      "name": "Tåke",
+      "role": "tekst"
+    },
+    {
+      "name": "Røyk",
+      "role": "sekundær tekst"
+    }
+  ]
+}

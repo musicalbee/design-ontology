@@ -1,0 +1,26 @@
+{
+  "name": "8-bits flisegrafikk",
+  "aliases": [
+    "8-bits pikselkunst",
+    "NES-tidens grafikk",
+    "Utseendet til tredje generasjons konsoller"
+  ],
+  "summary": "En verden tegnet av 8×8 piksler store fliser på en 256×240-skjerm, med 3 farger pluss gjennomsiktighet i hver sprite og en fast maskinvarepalett på omtrent 54 farger. Svarte konturer og flate fyll gjør hvert hus og hvert tre til et lite ikon.",
+  "core_thesis": "Et lite rutenett og en liten palett tvinger hver gjenstand inn i sin klareste silhuett, slik at et hus på 16 piksler leses med én gang.",
+  "design_principles": [
+    "Bygg hver bakgrunn av 8×8- eller 16×16-fliser som gjentas på et rutenett.",
+    "Gi hver sprite 3 farger pluss gjennomsiktig; legg en kontur i svart eller en mørk tone rundt den.",
+    "Bruk flate fyll; vis volum med én høylysrad og én skyggerad, aldri en gradient.",
+    "Hold skjermen på 256×240 piksler og skaler opp med harde nærmeste-nabo-kanter.",
+    "Bruk en himmel i én flat farge, ofte lyseblå eller svart.",
+    "Gjør en figur 16 til 32 piksler høy, med et stort hode."
+  ],
+  "anti_patterns": [
+    "Glatte gradienter eller kantutjevnede kanter",
+    "Mer enn 4 farger i ett 16×16-område",
+    "Subpiksel-detaljer eller filtrert skalering",
+    "Perspektiv som bryter flisrutenettet",
+    "Fotografisk tekstur"
+  ],
+  "palette": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Massivt glyfikon",
+  "aliases": [
+    "Fylt ikon",
+    "Glyfikon",
+    "Ikonskrift-glyf"
+  ],
+  "summary": "Ikoner som massive énfargede silhuetter, som glyfene i en fet skrifttype. Indre detaljer er skåret ut av fyllet som åpninger. Stilen startet med ikonskrifter og er fortsatt standard for små UI-elementer med høy kontrast.",
+  "core_thesis": "Et ikon er ett massivt merke, og en silhuett med utskårne detaljer leses best i små størrelser og på alle bakgrunner.",
+  "design_principles": [
+    "Tegn en massiv silhuett på et 24 × 24 px-rutenett, eller på em-kvadratet i en ikonskrift.",
+    "Skjær indre detaljer ut av fyllet som åpninger på 1,5–2 px ved 24 px.",
+    "Bruk én farge per ikon; ikonet tar tekstfargen.",
+    "Hold den visuelle vekten jevn: hvert ikon dekker 40–60 % av det aktive området.",
+    "Gi rektangler hjørneradius 1–2 px ved 24 px.",
+    "Juster glyfen til tekstens grunnlinje når den står i en tekstlinje."
+  ],
+  "anti_patterns": [
+    "Tynne omriss ved siden av massive former",
+    "Mer enn én farge i en UI-glyf",
+    "Gradienter og skygger",
+    "Åpninger under 1 px ved 24 px",
+    "Ujevn visuell vekt i settet"
+  ],
+  "palette": []
+}

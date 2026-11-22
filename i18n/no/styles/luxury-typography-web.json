@@ -1,0 +1,58 @@
+{
+  "name": "Luksustypografi på nett",
+  "aliases": [
+    "Luksus-skriftnett",
+    "Eksklusivt redaksjonelt nett",
+    "Motehusnett"
+  ],
+  "summary": "Stor seriffskrift med høy kontrast på en rolig bunn, vid sporing på kapitéler, tynne streker og få ord. Bokstaven er hovedbildet, og rommet signaliserer pris og omsorg.",
+  "core_thesis": "Luksus er tilbakeholdenhet og håndverk: fin skrift, vid luft og få ord.",
+  "design_principles": [
+    "Sett heltefeltet i en seriff med høy kontrast på 72px til 160px, vekt 300 til 400, med sporing på -0,02em.",
+    "Sett etiketter og meny i versaler på 11px til 12px med sporing på +0,2em til +0,3em.",
+    "Bruk en bunn av elfenbein (#F6F1E8) eller dyp svart (#0E0D0C) og tekst i motsatt tone; legg til ett metallaksent (#A8863B) til streker og små merker.",
+    "Bruk hårstreker på 1px i aksenten; bruk ingen boks, ingen skygge og ingen radius over 0px.",
+    "Vis ett produkt eller ett bilde per skjerm i stor størrelse med 120px eller mer rom rundt.",
+    "Skriv kort tekst på 12 ord eller færre per blokk og unngå salgsord og priser i heltefeltet.",
+    "Animer sakte: toninger og løft på 16px over 700ms til 1100ms."
+  ],
+  "anti_patterns": [
+    "Rabattmerker og hastetellere",
+    "Fet, tung sans-serif",
+    "Lys mettet farge",
+    "Runde, myke knapper",
+    "Tette produktrutenett med små bilder",
+    "Stockikon og emoji",
+    "Slagskygger og gradienter"
+  ],
+  "palette": [
+    {
+      "name": "Elfenben",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Lin",
+      "role": "flate"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Gråbrun",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Svart",
+      "role": "primær"
+    },
+    {
+      "name": "Messing",
+      "role": "aksent"
+    },
+    {
+      "name": "Strek",
+      "role": "kant"
+    }
+  ]
+}

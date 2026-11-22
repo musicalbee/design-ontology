@@ -1,0 +1,26 @@
+{
+  "name": "PBR-fotorealisme",
+  "aliases": [
+    "Fysisk basert realisme",
+    "Fotorealisme for dagens generasjon",
+    "Unreal-fotorealisme"
+  ],
+  "summary": "Materialer følger fysikken: albedo, ruhet og metallighet svarer til én lysmodell, slik at tre, stein og metall ser riktige ut i alt lys. Skannede overflater, global belysning og strålesporede refleksjoner bringer spillverdener nær arkitekturvisualiseringer.",
+  "core_thesis": "Hvis hvert materiale følger den samme fysikken for lys, ser verden ekte ut fra alle vinkler og til alle tider på døgnet.",
+  "design_principles": [
+    "Lag hvert materiale som albedo, ruhet, metallighet og normal i kalibrerte områder.",
+    "Bruk skannede eller målte overflater for stein, tre og stoff.",
+    "Lys med fysiske enheter: en sol i lux, lamper i lumen, en ekte himmel.",
+    "Bruk global belysning slik at lyset spretter mellom flater.",
+    "Fargegrad bildet med en filmisk tonekurve, ikke et kraftig fargestikk.",
+    "Legg til små ufullkommenheter: støv, flekker, ujevn slitasje."
+  ],
+  "anti_patterns": [
+    "Lys malt inn i teksturer",
+    "Albedoverdier utenfor det fysiske området",
+    "Lik glans på hver flate",
+    "Kraftig fargegradering",
+    "Stiliserte proporsjoner"
+  ],
+  "palette": []
+}

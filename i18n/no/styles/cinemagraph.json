@@ -1,0 +1,57 @@
+{
+  "name": "Cinemagraph",
+  "aliases": [
+    "Levende fotografi",
+    "Stillbilde med bevegelsesløkke",
+    "Foto med én bevegelig del"
+  ],
+  "summary": "Et stillbilde der én liten del beveger seg i en sømløs løkke: hår i vinden, damp fra en kopp, et blunk. To kunstnere i New York ga det navn i 2011 under moteuken.",
+  "core_thesis": "Bildet står stille, og én liten bevegelse får seeren til å se lenger.",
+  "design_principles": [
+    "Frys minst 90 % av bildet; la ett område på 5 % til 15 % av flaten gå i løkke.",
+    "Løkk bevegelsen i 2 til 5 sekunder med en sømløs skjøt, ved 24 fps eller mer.",
+    "Maskér det bevegelige området med en myk kant på 4px til 12px, slik at skjøten forblir usynlig.",
+    "Fotografer på stativ, slik at den stille delen ikke driver mer enn 1px.",
+    "Gradér bildet med dempet farge, en kontrast på 0,9 og korn på 2 % til 4 %.",
+    "Sett bildet i 4:5 eller 16:9 uten bildetekst i selve bildet; legg tittelen under i en seriflinje på 14px.",
+    "Vis bildet i full bredde med 24px til 64px marg rundt."
+  ],
+  "anti_patterns": [
+    "Flere deler som beveger seg samtidig",
+    "Et synlig hopp i løkkepunktet",
+    "Et bevegelig kamera som ødelegger den stille delen",
+    "Tunge filtre og sterke klistremerker på bildet",
+    "Rask, stroboskopisk bevegelse",
+    "Bildetekster tegnet oppå bildet"
+  ],
+  "palette": [
+    {
+      "name": "Galleri-svart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Veggrå",
+      "role": "flate"
+    },
+    {
+      "name": "Varm hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Sand",
+      "role": "primær"
+    },
+    {
+      "name": "Vindusblå",
+      "role": "aksent"
+    },
+    {
+      "name": "Aske",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Hårstrek",
+      "role": "kant"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Reddit-tråd",
+  "aliases": [
+    "Kommentartråd",
+    "Stemmetråd",
+    "Subreddit"
+  ],
+  "summary": "En lenke eller et tekstinnlegg i en emnegruppe, med en poengsum som mengden stemmer opp eller ned, og nøstede kommentarer sortert etter stemmer, der hvert nivå er markert med en tynn linje til venstre.",
+  "core_thesis": "Mengden rangerer hvert innlegg og hvert svar; det beste svaret flyter til toppen.",
+  "design_principles": [
+    "Legg en stemmekolonne til venstre for hvert innlegg: en pil opp, poengsummen og en pil ned.",
+    "Nøst kommentarene som et tre; rykk inn hvert nivå med 16px til 24px og tegn en tynn linje til venstre for hvert nivå.",
+    "Sorter kommentarene etter poengsum som standard, og la leseren lukke en gren med ett klikk.",
+    "Vis gruppenavnet (r/navn), brukernavnet (u/navn) og alderen på innlegget i liten, dempet tekst over tittelen.",
+    "Farg en stemme opp oransje og en stemme ned blåfiolett.",
+    "Hold siden tett: titler på 16px til 18px og kommentarer på 14px."
+  ],
+  "anti_patterns": [
+    "Lineære svar uten tre",
+    "Innlegg uten poengsum",
+    "Store dekorative bilder i en kommentar",
+    "Lange mellomrom mellom kommentarer",
+    "Én forfatterstemme uten mengde"
+  ],
+  "palette": [
+    {
+      "name": "Sidegrå",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortehvit",
+      "role": "panel"
+    },
+    {
+      "name": "Tekstblekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Metagrå",
+      "role": "dempet"
+    },
+    {
+      "name": "Oppstemmeoransje",
+      "role": "aksent"
+    },
+    {
+      "name": "Nedstemmefiolett",
+      "role": "sekundær"
+    },
+    {
+      "name": "Lenkeblå",
+      "role": "lenke"
+    }
+  ]
+}

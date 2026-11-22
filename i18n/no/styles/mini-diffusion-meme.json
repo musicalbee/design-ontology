@@ -1,0 +1,57 @@
+{
+  "name": "Mini-diffusjonsmeme",
+  "aliases": [
+    "DALL-E mini-meme",
+    "Craiyon-rutenett",
+    "Utsmurt rutenett"
+  ],
+  "summary": "Et 3x3-rutenett av små, utsmurte bilder som svarer på en tåpelig tekstbeskrivelse, med skjeve ansikter og myke former. Det gikk viralt i 2022 fra en gratis bildemodell med lav oppløsning.",
+  "core_thesis": "Vitsen er gapet mellom en enkel beskrivelse og et mykt, galt bilde; utsmøringen er formatet.",
+  "design_principles": [
+    "Legg 9 bilder i et 3x3-rutenett av fliser på 256px med et mellomrom på 4px og ingen rennestein.",
+    "La hver flis vise en uskarphet på 1px til 2px og et synlig JPEG-blokkmønster med blokker på 8px.",
+    "Skjev ett trekk i hvert bilde: et ansikt, en hånd eller et skilt med falske bokstaver.",
+    "Sett beskrivelsen som bildetekst over rutenettet i mono på 20px, med små bokstaver, inne i anførselstegn.",
+    "Sett en mørk ramme på 1px rundt rutenettet og en enkel kremfarget bunn (#F4EFE6).",
+    "Bruk et fargeområde av gjørmebrun, grønn og en blek himmel; unngå ren hvit og ren svart i flisene.",
+    "Vis en liten oransje knapp, som Run, under rutenettet på 40px høyde."
+  ],
+  "anti_patterns": [
+    "Skarpe renderinger i høy oppløsning",
+    "Blankt filmatisk lys",
+    "Resultat med ett enkelt bilde",
+    "Rene, nøyaktige ansikter",
+    "Mørk dyster gradering",
+    "Tett oppsettsornament"
+  ],
+  "palette": [
+    {
+      "name": "Papirkrem",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Flispapir",
+      "role": "flate"
+    },
+    {
+      "name": "Beskrivelsessvart",
+      "role": "tekst"
+    },
+    {
+      "name": "Run-oransje",
+      "role": "primær"
+    },
+    {
+      "name": "Grumsete grønn",
+      "role": "aksent"
+    },
+    {
+      "name": "Utsmurt brun",
+      "role": "bildereferanse"
+    },
+    {
+      "name": "Uskarp himmel",
+      "role": "bildereferanse"
+    }
+  ]
+}

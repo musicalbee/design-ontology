@@ -1,0 +1,57 @@
+{
+  "name": "Liminale rom",
+  "aliases": [
+    "Liminalt rom",
+    "Backrooms-utseendet",
+    "Tomme steder"
+  ],
+  "summary": "Tomme rom for transitt og rutine: kontorkorridorer, svømmebasseng, parkeringshus og kjøpesentre under flatt lys, uten mennesker. Et bilde av gule rom fra 2019 startet utseendet, og Backrooms spredte det.",
+  "core_thesis": "Et vanlig sted uten mennesker og uten formål føles fremmed: seeren møter uroen ved en terskel.",
+  "design_principles": [
+    "Sett bunnen i en fuktig gul (#C9B96B) eller en matt teppegrønn med et svakt grått skjær.",
+    "Fotografer eller render tomme rom fra øyehøyde på 160cm, med ett enkelt forsvinningspunkt i midten.",
+    "Lys rommet med flatt lysrørlys og ingen sterk skygge; hvitpunktet ligger på 4000K til 4500K.",
+    "Legg til et opptak av lav kvalitet: JPEG-blokker, et 4:3-utsnitt, en størrelse på 480p til 720p og et tidsstempel i mono på 14px.",
+    "Gjenta strukturen: flislagte tak med celler på 60cm, dører og korridorer i rader på 6 eller flere.",
+    "Hold tekst sjelden og enkel: en romkode, en dato eller et skilt i en standard sans-serif på 14px til 18px.",
+    "La 50 % eller mer av utsnittet være tomt gulv og vegg."
+  ],
+  "anti_patterns": [
+    "Mennesker og ansikter i bildet",
+    "Varmt, koselig lys",
+    "Lys mettet farge",
+    "Dekorativ skrift og ornamenter",
+    "Dramatisk perspektiv og kamerabevegelser",
+    "Ren glans i høy oppløsning"
+  ],
+  "palette": [
+    {
+      "name": "Tapetgul",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Takhvit",
+      "role": "flate"
+    },
+    {
+      "name": "Teppeoliven",
+      "role": "primær"
+    },
+    {
+      "name": "Bassengturkis",
+      "role": "aksent"
+    },
+    {
+      "name": "Korridorgrå",
+      "role": "tekst"
+    },
+    {
+      "name": "Fuktig brun",
+      "role": "kant"
+    },
+    {
+      "name": "Mellomgrå",
+      "role": "dempet tekst"
+    }
+  ]
+}

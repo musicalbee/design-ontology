@@ -1,0 +1,54 @@
+{
+  "name": "Eterisk nett",
+  "aliases": [
+    "Eterisk",
+    "Drømmende mykt nett",
+    "Mykt fokus-UI"
+  ],
+  "summary": "Blekt, glødende pastell, mykt fokus, tynn seriff eller lett sans, gjennomskinnelige lag og luft. Det sikter mot en rolig, drømmeaktig, vektløs stemning og leses som lys heller enn som gjenstand.",
+  "core_thesis": "Letthet er luksus: dis, glød og rom gir en stille, vektløs verden.",
+  "design_principles": [
+    "Sett bunnen i en blek gradient mellom 2 eller 3 toner (for eksempel #FDF7FF til #EAF4FF) med lyshet over 92 %.",
+    "Legg til myke fargeflekker på 300px til 700px bredde, uskarpe med 100px til 200px, ved 30 % til 50 % dekning i pastelltoner.",
+    "Sett overskrifter i en lett seriff eller en tynn sans med vekt 200 til 300 og størrelse 48px til 96px, med sporing på -0,01em til +0,04em.",
+    "Legg gjennomskinnelige paneler i lag: hvitt ved 40 % til 60 %, uskarphet på 16px til 32px, en 1px hvit kant ved 60 % og en radius på 24px til 40px.",
+    "Bruk en skygge på 0 20px 60px ved 6 % til 10 % i en tonet farge og aldri en grå eller svart skygge over 12 %.",
+    "Hold tekstfargen i en myk skifer (#4A4A5E) med kontrast på minst 4,5:1; unngå ren svart.",
+    "Animer sakte: toninger og drift på 8px til 24px over 800ms til 1500ms."
+  ],
+  "anti_patterns": [
+    "Tung svart skrift",
+    "Mettede primærfarger",
+    "Harde kanter og harde skygger",
+    "Tette, små datatabeller",
+    "Rask, kjapp bevegelse under 300ms",
+    "Mørke bunner med høy kontrast",
+    "Skarpe, firkantede hjørner"
+  ],
+  "palette": [
+    {
+      "name": "Perle",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Dis",
+      "role": "flate"
+    },
+    {
+      "name": "Skifer",
+      "role": "tekst"
+    },
+    {
+      "name": "Dempet",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Lilla",
+      "role": "primær"
+    },
+    {
+      "name": "Rødme",
+      "role": "aksent"
+    }
+  ]
+}

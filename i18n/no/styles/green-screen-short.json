@@ -1,0 +1,52 @@
+{
+  "name": "Greenscreen-kortvideo",
+  "aliases": [
+    "Greenscreen-video",
+    "TikTok-greenscreen",
+    "Chroma key-forklaring"
+  ],
+  "summary": "En person står foran et skjermbilde, et kart eller et foto som fyller hele det vertikale bildet, og snakker om det. Skaperen klipper ut bakgrunnen med chroma key-verktøyet i en kortvideoapp.",
+  "core_thesis": "Sett taleren foran beviset: bildet er settet, skaperen er kommentatoren.",
+  "design_principles": [
+    "Fyll bildet på 1080 x 1920 px med bakgrunnsbildet; vis taleren fra livet og opp på 40 % til 55 % av høyden.",
+    "Plasser taleren i venstre eller høyre tredjedel; hold nøkkelområdet i bildet fritt.",
+    "Klipp ut taleren med en ren maske med 1 px til 2 px fjær.",
+    "Legg til en hvit strek på 3 px rundt taleren når bakgrunnen er travel.",
+    "Zoom bildet inn med 110 % til 130 % gjennom klippet for å lede blikket.",
+    "Marker en nøkkeldetalj med en rød sirkel på 6 px eller en pil ved 100 % dekning.",
+    "Tekst talen med ord på 40 px i nedre tredjedel."
+  ],
+  "anti_patterns": [
+    "En taler med en synlig grønn kant",
+    "En bakgrunn uten tilknytning til innlegget",
+    "Små skjermbildetekster ingen kan lese",
+    "To talere som skjuler bildet",
+    "Bakgrunner fra stockfoto"
+  ],
+  "palette": [
+    {
+      "name": "Mørk bakgrunn",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Merkerød",
+      "role": "primær"
+    },
+    {
+      "name": "Nøkkelgrønn",
+      "role": "aksent"
+    },
+    {
+      "name": "Hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Dis",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Panel",
+      "role": "flate"
+    }
+  ]
+}

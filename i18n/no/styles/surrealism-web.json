@@ -1,0 +1,58 @@
+{
+  "name": "Surrealisme på nett",
+  "aliases": [
+    "Surrealistisk nett",
+    "Drømmelogikk-UI",
+    "Umulige scener"
+  ],
+  "summary": "Umulige scener med enkel, rolig gjengivelse: flytende gjenstander, underlig skala, smeltende former, skyer i rom og skygger som er uenige. Logikken bøyes mens grensesnittet forblir brukbart.",
+  "core_thesis": "Sett det umulige på en stille side: merkelige bilder, tydelige kontroller.",
+  "design_principles": [
+    "Bygg hver hero av én umulig scene: en gjenstand i feil skala, en flytende form eller et landskap i et rom.",
+    "Render med mykt, jevnt lys, lange skygger (en vinkel på 25° til 45°) og rolige, rene kanter; det merkelige er det som vises, ikke hvordan.",
+    "Bruk en drømmepalett: en blek himmel (#BFD8EA), varm sand (#E9D3B4), en dyp blå (#1B2A55) og ett rødt eller oransje aksent (#E4572E).",
+    "Bryt skala og plassering med vilje: en hånd 2x større enn et hus, en dør på en åker, et øye i en sky.",
+    "Hold UI enkelt oppå scenen: en sans på 16px, 4,5:1 tekstkontrast og knapper med 44px høyde.",
+    "La ett element bryte rutenettet med 40px til 160px, og legg til 1 skygge som peker feil vei.",
+    "Beveg deg sakte og drivende: gjenstander flyter 8px til 20px opp og ned over 4s til 8s; sideskifte tones inn på 600ms til 900ms."
+  ],
+  "anti_patterns": [
+    "Kaotisk støy som skjuler tekst",
+    "Skrekk og blod",
+    "Mange urelaterte gjenstander i én scene",
+    "Flate stockfoto i bedriftsstil",
+    "Merkelig UI som skjuler hovedhandlingen",
+    "Harde neonfarger",
+    "Tilfeldig forvrengning uten idé bak"
+  ],
+  "palette": [
+    {
+      "name": "Himmel",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Sand",
+      "role": "flate"
+    },
+    {
+      "name": "Natt",
+      "role": "tekst"
+    },
+    {
+      "name": "Skumring",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Sinoberrød",
+      "role": "primær"
+    },
+    {
+      "name": "Blekkblå",
+      "role": "aksent"
+    },
+    {
+      "name": "Horisont",
+      "role": "kant"
+    }
+  ]
+}

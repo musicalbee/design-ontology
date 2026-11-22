@@ -1,0 +1,57 @@
+{
+  "name": "Diffusjonsglans",
+  "aliases": [
+    "AI-hyperrealistisk rendering",
+    "Midjourney-utseende",
+    "Prompt-core-glans"
+  ],
+  "summary": "Et glatt, overdetaljert bilde med et perfekt kantlys, en turkis og amber gradering og en myk bokeh-bunn. Det ble standardutseendet til tekst-til-bilde-modeller fra 2022.",
+  "core_thesis": "Alt er opplyst, skarpt og ferdig: modellen gir hver flate den samme dyre glansen, og glansen er stilen.",
+  "design_principles": [
+    "Lys motivet med et kantlys på 2px til 6px bredde i amber (#F0A04B) mot en turkis dis (#1F8A99).",
+    "Glatt hud og flater til en porestørrelse under 1px, og legg til fin detalj på 1px til 2px i hår, tekstil og metall.",
+    "Plasser motivet på øvre tredjedelslinje med en bokeh-bunn av 8 til 20 myke skiver, 20px til 120px brede.",
+    "Øk kontrasten i mellomtonene og sett en bloom på 12px til 24px rundt høylysene.",
+    "Bruk et 4:5- eller 16:9-bilde på 1024px eller mer på korteste side.",
+    "Legg til en kort bildetekst i 14px sans med promptordene i små bokstaver under bildet.",
+    "Hold fargegraderingen til to fargetoner, turkis og amber, med én rosa aksent på 10 %."
+  ],
+  "anti_patterns": [
+    "Synlig korn og flatt, kjedelig lys",
+    "Håndtegnet strektegning",
+    "Utsmurt utdata i lav oppløsning",
+    "Rotete, fullstendige bunner uten fokus",
+    "Nøytralt, jevnt dokumentlys",
+    "Brutalistisk skrift"
+  ],
+  "palette": [
+    {
+      "name": "Midnatt",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Dypt panel",
+      "role": "flate"
+    },
+    {
+      "name": "Amberkant",
+      "role": "primær"
+    },
+    {
+      "name": "Turkis dis",
+      "role": "aksent"
+    },
+    {
+      "name": "Bloomrosa",
+      "role": "andre aksent"
+    },
+    {
+      "name": "Perlehud",
+      "role": "bildereferanse"
+    },
+    {
+      "name": "Tåke",
+      "role": "tekst"
+    }
+  ]
+}

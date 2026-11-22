@@ -1,0 +1,54 @@
+{
+  "name": "Synthwave på nett",
+  "aliases": [
+    "Outrun",
+    "Retrowave",
+    "Neonnett fra 80-tallet"
+  ],
+  "summary": "En neonsolnedgang, et perspektivrutenett, kromskrift, rosa og cyan på dyp fiolett og skannelinjer. Det minner om 1980-tallet slik film og spill solgte det, og det føles som en nattkjøring.",
+  "core_thesis": "1980-tallet som en drøm: neon, krom og en vei mot horisonten.",
+  "design_principles": [
+    "Sett bunnen som en gradient fra #12062B øverst til #3A0A5C ved horisonten.",
+    "Tegn en sol på 240px til 480px med en gradient fra #FFD319 til #FF2975 og 5 til 8 vannrette kutt som vokser fra 2px til 10px.",
+    "Tegn et perspektivrutenett på gulvet med linjer på 1px til 2px i #FF2975 eller #00F0FF, 12 til 20 linjer, med et forsvinningspunkt ved 50 % bredde.",
+    "Gi overskrifter en kromgradient (hvit til rosa til fiolett) og en glød på 8px til 24px i rosa ved 60 %.",
+    "Bruk bare 3 neonfarger: rosa (#FF2975), cyan (#00F0FF) og gul (#FFD319) på fiolett.",
+    "Legg skannelinjer på 2px ved 8 % dekning og en vignett ved 30 %.",
+    "La rutenettet gli mot betrakteren med 1 rutenettcelle per 2s i en løkke."
+  ],
+  "anti_patterns": [
+    "Pastell- og jordpaletter",
+    "Flate dagslysbakgrunner",
+    "Tynn lys tekst uten glød",
+    "Håndtegnet tekstur",
+    "Runde, vennlige illustrasjoner",
+    "Mer enn 3 neonfarger",
+    "Seriff-brødtekst"
+  ],
+  "palette": [
+    {
+      "name": "Natt",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Skumring",
+      "role": "flate"
+    },
+    {
+      "name": "Neonrosa",
+      "role": "primær"
+    },
+    {
+      "name": "Neoncyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Sol",
+      "role": "høylys"
+    },
+    {
+      "name": "Dis",
+      "role": "tekst"
+    }
+  ]
+}

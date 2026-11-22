@@ -1,0 +1,53 @@
+{
+  "name": "De Stijl (web)",
+  "aliases": [
+    "Neoplastisisme",
+    "Mondrian-rutenett"
+  ],
+  "summary": "Vannrette og loddrette svarte linjer, flate felt i rødt, gult og blått, og hvitt rom. Stilen kom fra den nederlandske gruppen rundt Mondrian og Van Doesburg og reduserer formen til grunndelene.",
+  "core_thesis": "Reduser formen til den rette linjen og primærfargen, så trer en universell, harmonisk orden frem.",
+  "design_principles": [
+    "Bygg hver layout av bare rette vannrette og loddrette linjer; ingen andre vinkler enn 0° eller 90°.",
+    "Tegn svarte linjer på 6px til 12px mellom alle fargefelt.",
+    "Bruk bare rød (#D8261C), gul (#F4C719), blå (#1D4FA8), svart, hvit og en lys grå (#E8E8E4).",
+    "Fyll 60 % til 75 % av siden med hvitt; fargefeltene dekker høyst 25 %, og ett stort felt får mest vekt.",
+    "Plasser fargefeltene utenfor midten og hold dem ulike i størrelse; forholdet mellom to nabofelt er 1:1.6 til 1:2.4.",
+    "Sett tekst i en geometrisk sans serif på 16px; la overskrifter stå i et hvitt felt med små bokstaver.",
+    "La linjene løpe til kanten av visningsområdet og kuttes ved grensen."
+  ],
+  "anti_patterns": [
+    "Diagonale linjer og kurver",
+    "Gradienter, teksturer og skygger",
+    "Sekundærfarger som grønn, oransje eller lilla",
+    "Symmetriske komposisjoner med like store felt",
+    "Dekorativ illustrasjon og ornamenter",
+    "Avrundede hjørner på noe element",
+    "Fotografier uten ramme av et flatt felt"
+  ],
+  "palette": [
+    {
+      "name": "Hvit",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Svart",
+      "role": "linjer og tekst"
+    },
+    {
+      "name": "Rød",
+      "role": "primærfelt"
+    },
+    {
+      "name": "Gul",
+      "role": "aksentfelt"
+    },
+    {
+      "name": "Blå",
+      "role": "andre aksentfelt"
+    },
+    {
+      "name": "Grå",
+      "role": "flate"
+    }
+  ]
+}

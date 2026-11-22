@@ -1,0 +1,54 @@
+{
+  "name": "Skeuomorfisme",
+  "aliases": [
+    "Skeuomorft UI",
+    "iOS 6-stil",
+    "Grensesnitt av virkelige gjenstander"
+  ],
+  "summary": "Grensesnitt som kopierer virkelige gjenstander: skinn, lin, tre, filt, glass og børstet metall, belyst ovenfra med gradienter og lagdelte skygger. Det har røtter i skrivebordsikon fra 1980-tallet og nådde toppen i iOS 1 til 6, til iOS 7 erstattet det i 2013.",
+  "core_thesis": "En kontroll på skjermen er lettere å lære når den ser ut og oppfører seg som en fysisk gjenstand brukeren allerede kjenner.",
+  "design_principles": [
+    "Modeller hver kontroll på en virkelig gjenstand med en kjent bruk, som en bryter, en notisblokk, en bokhylle eller en skive, og hold proporsjonene innenfor 10 % av originalen.",
+    "Belys hver flate ovenfra med én lyskilde på 90 grader, slik at høylys ligger på toppkanten og skygger faller nedover.",
+    "Bygg dybde av 3 til 5 stablede lag: et lyst høylys på 1px øverst, en kropp med 2 til 4 gradient, en mørk bunnkant på 1px, en indre skygge og en ytre slagskygge.",
+    "Gi store flater tekstur med en gjentatt punktgrafikk på 128 til 256px ved 4 til 12 % dekning: lin, skinn, papir, trestruktur eller filt.",
+    "Gi hver knapp en gradient med 8 til 15 % forskjell i lyshet fra topp til bunn, og snu gradienten mens knappen trykkes inn.",
+    "Legg til én sydd, preget eller innpreget detalj på hvert materialpanel, med et indre høylys på 1px og en ytre skygge på 1px.",
+    "Speil den virkelige verden i bevegelse: sidekrøll, vendeoverganger og fjærbelastede brytere følger fysikken til gjenstanden de etterligner."
+  ],
+  "anti_patterns": [
+    "Flate heldekkende fyll uten gradient eller skygge på kontroller",
+    "En lyskilde som skifter retning mellom komponenter",
+    "Teksturer som gjentas med en synlig skjøt eller en periode under 64px",
+    "Materialmetaforer som ikke passer til funksjonen, som en kalkulator av tre",
+    "Ikon med hårstrek på 1px uten fyll",
+    "Skygger med uskarphetsradius 0px og ingen spredning",
+    "Rene hvite bakgrunner uten flatetekstur"
+  ],
+  "palette": [
+    {
+      "name": "Lin",
+      "role": "bakgrunnstekstur"
+    },
+    {
+      "name": "Skinnbrun",
+      "role": "panelflate"
+    },
+    {
+      "name": "Glassblå",
+      "role": "primær kontrollgradient"
+    },
+    {
+      "name": "Krom",
+      "role": "metalllinje og innfatning"
+    },
+    {
+      "name": "Filtgrønn",
+      "role": "bordflate"
+    },
+    {
+      "name": "Stempelblekk",
+      "role": "tekst på lyst materiale"
+    }
+  ]
+}

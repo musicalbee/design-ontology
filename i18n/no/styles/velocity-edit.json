@@ -1,0 +1,52 @@
+{
+  "name": "Velocity-redigering",
+  "aliases": [
+    "Velocity edit",
+    "Fartsramperedigering",
+    "CapCut velocity"
+  ],
+  "summary": "En kort vertikal montasje med fartsramper: klippet går i sakte film og hopper så til rask avspilling på taktslaget, med glød, zoomrist og fargegradering. Redigerere lager det med velocity-verktøyet i CapCut.",
+  "core_thesis": "La tiden bøye seg etter musikken: sakte på det sterke slaget, raskt på resten.",
+  "design_principles": [
+    "Rampe farten mellom 20 % og 400 %; senk til 20 % til 30 % på aksentslaget og hopp til 300 % mellom slagene.",
+    "Kutt hvert 0,3 s til 1,2 s på taktslaget i et spor på 120 BPM til 140 BPM.",
+    "Legg til en zoom på 100 % til 115 % over 6 bilder ved hvert kutt.",
+    "Legg til en glød med 20 px uskarphet ved 30 % dekning på høylys.",
+    "Bruk en gradering med høy kontrast: press det svarte til 5 % og løft høylysene til 95 %.",
+    "Legg et rist på 2 px over 4 bilder på hvert sterke slag.",
+    "Sett ett kort ord i 56 px skrift på det siste slaget, ikke mer."
+  ],
+  "anti_patterns": [
+    "Jevn fart gjennom hele klippet",
+    "Kutt som bommer på taktslaget",
+    "Flat grå fargegradering",
+    "Lang bildetekst",
+    "Harde svarte striper på sidene"
+  ],
+  "palette": [
+    {
+      "name": "Tomrom",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Slagoransje",
+      "role": "primær"
+    },
+    {
+      "name": "Kaldblå",
+      "role": "aksent"
+    },
+    {
+      "name": "Høylys",
+      "role": "tekst"
+    },
+    {
+      "name": "Stål",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Dypt panel",
+      "role": "flate"
+    }
+  ]
+}

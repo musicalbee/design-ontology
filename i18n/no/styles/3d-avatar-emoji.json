@@ -1,0 +1,58 @@
+{
+  "name": "3D-avatar-emoji",
+  "aliases": [
+    "Animoji",
+    "Memoji",
+    "Ansiktssporet emoji",
+    "3D-emoji"
+  ],
+  "summary": "Et gjengitt 3D-hode, et dyr eller en brukertegneserie, som kopierer ansiktet til brukeren i sanntid. Apple viste Animoji med iPhone X i 2017, og Memoji fulgte i 2018.",
+  "core_thesis": "Emojien kopierer ansiktet til avsenderen: en maske med stemme, ikke et fast bilde.",
+  "design_principles": [
+    "Gjengi et rundt hode med forholdet 1:1, en diameter på 120px til 240px og mykt studiolys ovenfra til venstre.",
+    "Bruk en leireaktig flate med ruhet 0,6 og ingen synlig tekstur; hold fargene flate og klare.",
+    "Gjør øynene 12 % av hodebredden, blanke, med ett høylys på 4px øverst til høyre.",
+    "Kopier ansiktet til brukeren ved 60 fps: bryn, øyelokk, kjeve og munnviker overføres til hodet.",
+    "Kast en myk kontaktskygge med 24px uskarphet og 18 % dekning under hodet, på en blek fiolett bunn.",
+    "Vis hodene i et rutenett med 4 kolonner og 16px rennesteiner, med en opptaksknapp på 64px nederst.",
+    "Begrens et opptak til 10 sekunder og eksporter det ved 30 fps."
+  ],
+  "anti_patterns": [
+    "Flate 2D-ansikter uten dybde",
+    "Realistiske hudporer og fotografisk lys",
+    "En fast positur uten ansiktssporing",
+    "Mørke, tunge skygger",
+    "Uhyggelige, menneskelignende proporsjoner",
+    "Travle bakgrunner bak hodet"
+  ],
+  "palette": [
+    {
+      "name": "Lilla bunn",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortkvit",
+      "role": "flate"
+    },
+    {
+      "name": "Dyp indigo",
+      "role": "tekst"
+    },
+    {
+      "name": "Avatarfiolett",
+      "role": "primær"
+    },
+    {
+      "name": "Avatarorange",
+      "role": "aksent"
+    },
+    {
+      "name": "Skumring",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Tåke",
+      "role": "kant"
+    }
+  ]
+}

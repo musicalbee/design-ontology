@@ -1,0 +1,61 @@
+{
+  "name": "Myspace-profil",
+  "aliases": [
+    "Sosial profilside",
+    "Profil med egen CSS",
+    "Top 8-profil"
+  ],
+  "summary": "En brukerprofilside som eieren stilte om med limt inn CSS: en bakgrunnsbilde, glitrende tekst, en musikkspiller, et Top 8-rutenett med venner og et speilselfie. Myspace gjorde siden til en personlig scene.",
+  "core_thesis": "En profil er en soveromsvegg: eieren pynter den, og pynten sier hvem hen er.",
+  "design_principles": [
+    "Bytt ut sidens bunn med et bakgrunnsbilde i full bredde: et bandfoto, et mønster eller en gradient, festet til visningsvinduet.",
+    "Gjør boksene halvgjennomsiktige: svart ved 70 % dekning med en kant på 1px i et lyst aksent som #FF3399.",
+    "Plasser et profilbilde på 170px bredde øverst til venstre, en navnelinje, en stemningslinje og et 'online now'-merke.",
+    "Vis et Top 8-rutenett med venner av 4 ganger 2 fliser på 75px ganger 75px med et navn under hver flis.",
+    "Legg til en musikkspillerlinje med autoavspilling på 24px til 40px og en kommentarvegg av stablede rader med foto og tekst.",
+    "Sett tekst i en Verdana-lignende skrift på 10px til 12px, og sett overskriftene i en dekorativ farge eller et glitterbilde.",
+    "Legg til en glitter- eller gnist-GIF som overskrift og et blinkende pekerspor."
+  ],
+  "anti_patterns": [
+    "En ensartet mal som alle brukere deler",
+    "Stor, stille skrift på 18px eller mer",
+    "Nøytral, flat farge uten bakgrunnsbilde",
+    "En enkelt kolonne uten vennerutenett",
+    "Dempede toner og skjult musikk",
+    "Låst oppsett uten egen kode"
+  ],
+  "palette": [
+    {
+      "name": "Bakgrunnssvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Boksvart",
+      "role": "panel"
+    },
+    {
+      "name": "Hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Skarp rosa",
+      "role": "primær"
+    },
+    {
+      "name": "Elektrisk blå",
+      "role": "aksent"
+    },
+    {
+      "name": "Malblå",
+      "role": "tittelfelt"
+    },
+    {
+      "name": "Maloransje",
+      "role": "høylys"
+    },
+    {
+      "name": "Glittersølv",
+      "role": "kant"
+    }
+  ]
+}

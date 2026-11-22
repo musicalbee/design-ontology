@@ -1,0 +1,53 @@
+{
+  "name": "VTuber-avatar",
+  "aliases": [
+    "Virtuell YouTuber",
+    "VTuber",
+    "Live2D-strømmer"
+  ],
+  "summary": "En tegnet figur i anime-stil tar plassen til verten. En ansiktssporer flytter øyne, munn og hode i sanntid. Pastellpaneler, glitter og søte runde rammer holder scenen.",
+  "core_thesis": "Verten er en figur: en sporet avatar gir en person et ansikt som er trygt, stabilt og designet, og rammen er kledd for å passe.",
+  "design_principles": [
+    "Plasser avataren på 40 % til 55 % av bildehøyden, sentrert eller ved en tredjedel av bredden.",
+    "Spor blink, munnformer og hodehelning ved 30 bps eller mer, med forsinkelse under 100ms.",
+    "Tegn avataren med flat farge, et mørkt omriss på 3px og 2 til 3 trinn med cel-skravering.",
+    "Ramm inn scenen med runde paneler med 24px radius og en hvit kant på 4px.",
+    "Bruk en pastellgradientbunn (for eksempel #FFD6EC til #D6E4FF ved 160°).",
+    "Legg til glittermerker på 12px til 24px og myke stjerner på 3 til 6 punkter i bildet.",
+    "Vis chatkommentarer som snakkebobler med 16px radius og tekststørrelse 14px."
+  ],
+  "anti_patterns": [
+    "Fotografiske menneskeansikter",
+    "Mørke, harde teknopaneler",
+    "Realistisk 3D uten omriss",
+    "Grov tekstur og filmkorn",
+    "Tette databjelker",
+    "Skarpe, firkantede hjørner"
+  ],
+  "palette": [
+    {
+      "name": "Skylavendel",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Boblehvit",
+      "role": "flate"
+    },
+    {
+      "name": "Plommeblekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Sakurarosa",
+      "role": "primær"
+    },
+    {
+      "name": "Himmelblå",
+      "role": "aksent"
+    },
+    {
+      "name": "Stjernegull",
+      "role": "høylys"
+    }
+  ]
+}

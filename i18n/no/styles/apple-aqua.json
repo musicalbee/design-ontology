@@ -1,0 +1,54 @@
+{
+  "name": "Apple Aqua",
+  "aliases": [
+    "Aqua",
+    "Mac OS X Aqua",
+    "Gel-UI"
+  ],
+  "summary": "Gjennomskinnelige blå gelknapper, nålestripebakgrunner, blanke dråper og vinduer i børstet metall. Det kom med Mac OS X i 2000 og fikk skjermen til å se ut som vann og godteri.",
+  "core_thesis": "Skjermen er en flytende, taktil flate: hver kontroll er en blank dråpe som innbyr til et klikk.",
+  "design_principles": [
+    "Gjør knapper pillformede (radius 999px) med en vertikal gradient i 2 til 3 trinn og et hvitt glansmerke på de øverste 45 %.",
+    "Bruk en nålestripebakgrunn med 2px horisontale linjer ved 4 % dekning på #EDEDED.",
+    "Bruk Aqua-blå (#2A6FB8 til #A8D4FF) som aksent og hold andre farger under 20 % av flaten.",
+    "Gi hvert panel et indre høylys (1px hvitt ved 80 %) og en ytre 1px kant i #8E8E8E.",
+    "Sett en myk slagskygge på 0 2px 6px ved 30 % svart under vinduer og knapper.",
+    "Tegn ikoner som blanke, tredimensjonale gjenstander med mye detalj på 48px eller større, med en refleksjon.",
+    "Sett tekst i en humanistisk sans-serif på 13px til 16px; titler sentreres i tittellinjen."
+  ],
+  "anti_patterns": [
+    "Flate fyll uten gradient eller glans",
+    "Skarpe, rektangulære knapper",
+    "Enfargede ikoner uten volum",
+    "Mørke temaer med matte svarte flater",
+    "Neonfarger",
+    "Harde forskjøvne skygger",
+    "Tekst på gel med kontrast under 4,5:1"
+  ],
+  "palette": [
+    {
+      "name": "Nålestripe",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Aqua",
+      "role": "primær"
+    },
+    {
+      "name": "Lys aqua",
+      "role": "utheving"
+    },
+    {
+      "name": "Grafitt",
+      "role": "tekst"
+    },
+    {
+      "name": "Metall",
+      "role": "flate"
+    },
+    {
+      "name": "Dråpegrønn",
+      "role": "status"
+    }
+  ]
+}

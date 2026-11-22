@@ -1,0 +1,57 @@
+{
+  "name": "Fotodump",
+  "aliases": [
+    "Fotokarusell-dump",
+    "Uformell karusell",
+    "Kamerarull-innlegg"
+  ],
+  "summary": "En karusell med 6 til 20 uformelle bilder i ett innlegg: uskarpe, blitslyste, skjevt komponert, med et skjermbilde, et måltid og et speilselfie på rad. Det ser uforsiktig ut med vilje.",
+  "core_thesis": "Det motsatte av det kuraterte rutenettet: vis kamerarullen som den er, slik at den som poster virker avslappet og ekte.",
+  "design_principles": [
+    "Post 6 til 20 bilder i én karusell, opptil 10 i de første appene og 20 i senere.",
+    "Bland formater: et 4:5-stående, et 1:1-kvadrat, et skjermbilde og et kort klipp, uten felles forhåndsinnstilling.",
+    "Tillat uskarphet, røde øyne, hard blits og en helning på 3° til 10° i minst 3 bilder.",
+    "Legg til en blek prikket sideteller med 6 prikker under innlegget og et tellemerke som 1/12 øverst til høyre.",
+    "Åpne med det beste bildet og avslutt med det morsomste, som et kjæledyr eller et uskarpt speilbilde.",
+    "Sett bildeteksten på 1 linje, med små bokstaver, med en emoji eller en dato som 'feb dump'.",
+    "Legg et klistremerke eller et håndskrevet ord med tusj på 24px til 40px over 1 eller 2 bilder."
+  ],
+  "anti_patterns": [
+    "Én tone for alle bildene",
+    "En streng plan med 3 kolonner",
+    "Perfekt eksponering og skarp fokus i hvert bilde",
+    "Iscenesatte, poserte rekvisitter",
+    "En lang, polert bildetekst",
+    "En tekstflis som ligner en annonse"
+  ],
+  "palette": [
+    {
+      "name": "Strømsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortgrå",
+      "role": "flate"
+    },
+    {
+      "name": "Blitshvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Klistremerkegul",
+      "role": "primær"
+    },
+    {
+      "name": "Overbelyst rød",
+      "role": "aksent"
+    },
+    {
+      "name": "Nattblå",
+      "role": "tone"
+    },
+    {
+      "name": "Speilgrå",
+      "role": "dempet"
+    }
+  ]
+}

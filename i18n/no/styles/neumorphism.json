@@ -1,0 +1,53 @@
+{
+  "name": "Neumorfisme",
+  "aliases": [
+    "Soft UI",
+    "Ny skeuomorfisme"
+  ],
+  "summary": "Enfargede flater som ser ut som de er presset ut av eller inn i bakgrunnen, laget med en lys og en mørk skygge på motsatte hjørner. Det dukket opp på Dribbble sent i 2019 som et mykt svar på flat design.",
+  "core_thesis": "Et grensesnitt kan være taktilt uten å etterligne gjenstander, hvis hver kontroll er formet av samme materiale som siden bak.",
+  "design_principles": [
+    "Gi bakgrunnen og hver flate samme fyll, slik at skyggene alene definerer formen.",
+    "Par to skygger på hvert hevet element: en mørk på 8px 8px 16px og en lys på -8px -8px 16px, med lyskilden øverst til venstre.",
+    "Snu begge skyggene med nøkkelordet inset for å vise en trykket, valgt eller inndatatilstand.",
+    "Hold hjørneradiusen mellom 16px og 32px på kort og 999px på piller, slik at kantene fanger skyggen jevnt.",
+    "Begrens paletten til én lys mellomtone nøytral, en mørkere og en lysere tone av den, og ett mettet aksent brukt på under 5 % av flaten.",
+    "Bruk bare tre høydenivåer: flat, hevet med 8px forskyvning og trykket med inset 4px forskyvning.",
+    "Legg aksenten på ikonet, etiketten eller en tynn indikator, fordi skyggen allerede markerer formen."
+  ],
+  "anti_patterns": [
+    "Harde svarte kanter eller omriss på 1px rundt hevede elementer",
+    "Ren hvit eller ren svart bakgrunn som opphever en av de to skyggene",
+    "Hevede og trykkede elementer med ulike bakgrunnsfarger",
+    "Lys grå tekst på en lys grå flate under 4,5:1 kontrast",
+    "Mer enn tre høydenivåer på én skjerm",
+    "Skyggeforskyvninger som er uenige om lysretningen",
+    "Mettede gradienter på selve flaten"
+  ],
+  "palette": [
+    {
+      "name": "Leire",
+      "role": "bakgrunn og flate"
+    },
+    {
+      "name": "Høylys",
+      "role": "lys skygge"
+    },
+    {
+      "name": "Skygge",
+      "role": "mørk skygge"
+    },
+    {
+      "name": "Skifer",
+      "role": "tekst"
+    },
+    {
+      "name": "Stål",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Signalblå",
+      "role": "aksent"
+    }
+  ]
+}

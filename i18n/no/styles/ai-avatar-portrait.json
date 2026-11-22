@@ -1,0 +1,57 @@
+{
+  "name": "AI-avatarportrett",
+  "aliases": [
+    "Magiske avatarer",
+    "Avatarpakke",
+    "Stilisert AI-selfie"
+  ],
+  "summary": "Et sett på 20 stiliserte portretter av ett ansikt i mange utseender: fantasy, anime, rom og maleri. Mobilapper gjorde formen vanlig mot slutten av 2022.",
+  "core_thesis": "Ett ansikt, mange kostymer: pakken gjør en selfie til et karakterark, og gløden er belønningen.",
+  "design_principles": [
+    "Vis en pakke som et 4x5-rutenett av 20 kvadratiske fliser på 160px med 6px mellomrom.",
+    "Behold samme ansikt i hver flis og skift verdenen rundt det: kostyme, bunn og fargegradering.",
+    "Sett øynene 10 % til 15 % større enn naturlig og glatt huden til en airbrush-finish.",
+    "Legg en glødebunn bak hodet: en radial gradient fra #FFC857 til #2B1E5A.",
+    "Navngi hver stil under flisen i 12px sans, for eksempel Fantasy, Anime, Cosmic.",
+    "Legg en avrundet Lagre pakke-knapp på 48px høyde i rosa (#FF5FA2) under rutenettet.",
+    "Vis et før-og-etter-par: den vanlige selfien på 30 % bredde ved siden av det beste resultatet på 70 %."
+  ],
+  "anti_patterns": [
+    "Rå, uredigerte selfier",
+    "Dokumentarisk korn og ærlige feil",
+    "Ett ensartet utseende gjennom hele pakken",
+    "Dempede, flate paletter",
+    "Tette tekstblokker",
+    "Brutalistiske, harde rammer"
+  ],
+  "palette": [
+    {
+      "name": "Fiolett natt",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelfiolett",
+      "role": "flate"
+    },
+    {
+      "name": "Kosmisk rosa",
+      "role": "primær"
+    },
+    {
+      "name": "Gullglød",
+      "role": "aksent"
+    },
+    {
+      "name": "Cyankant",
+      "role": "andre aksent"
+    },
+    {
+      "name": "Hudglød",
+      "role": "bildereferanse"
+    },
+    {
+      "name": "Tåke",
+      "role": "tekst"
+    }
+  ]
+}

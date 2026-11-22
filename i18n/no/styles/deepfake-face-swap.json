@@ -1,0 +1,57 @@
+{
+  "name": "Deepfake-ansiktsbytte",
+  "aliases": [
+    "Ansiktsbytte",
+    "Syntetisk ansiktsvideo",
+    "Deepfake"
+  ],
+  "summary": "Video der et ansiktsområde er erstattet av et generert, med en myk blandesøm og et kontrolloverlegg av landemerkeprikker. Formen spredte seg etter 2017 gjennom åpen kode og mobilapper.",
+  "core_thesis": "Ansiktet i bildet er et lag, og laget viser sømmen sin: stilen markerer der et ekte bilde slutter og et laget bilde begynner.",
+  "design_principles": [
+    "Ramm inn ett ansikt på 30 % til 60 % av bildehøyden, nesten forfra, med jevnt lys.",
+    "Bland det erstattede området med en myk kant på 8px til 24px; la en svak fargeforskjell på 3 % til 6 % vises ved kjeven.",
+    "Tegn en gjenkjenningsboks på 2px i grønt (#3DDC84) og 68 landemerkeprikker på 4px på ansiktet i analysevisningen.",
+    "Vis et par bilder side om side, kilden til venstre og resultatet til høyre, med en skillelinje på 2px.",
+    "Legg til en etikettbrikke i mono-versaler på 12px, for eksempel SYNTHETIC, i øverste venstre hjørne ved 90 % dekning.",
+    "Hold ansiktsfeltet i lavere oppløsning enn resten av bildet, omtrent 60 % av skarpheten.",
+    "Klipp videoen ved 24 fps eller 30 fps og la sømmen flimre i 2 til 4 bilder ved en rask vending av hodet."
+  ],
+  "anti_patterns": [
+    "Åpenbare tegneseriefiltre uten ekte ansikt",
+    "Tung stilisert illustrasjon",
+    "Mørk, dyster gradering som skjuler sømmen",
+    "Dekorative kanter og ornament",
+    "Fotorealistisk resultat uten etikett eller kontrolloverlegg",
+    "Stor displayskrift over ansiktet"
+  ],
+  "palette": [
+    {
+      "name": "Panelsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelgrå",
+      "role": "flate"
+    },
+    {
+      "name": "Landemerkegrønn",
+      "role": "primær"
+    },
+    {
+      "name": "Boksamber",
+      "role": "aksent"
+    },
+    {
+      "name": "Hudtone",
+      "role": "bildereferanse"
+    },
+    {
+      "name": "Sømgrå",
+      "role": "dempet"
+    },
+    {
+      "name": "Bildehvit",
+      "role": "tekst"
+    }
+  ]
+}

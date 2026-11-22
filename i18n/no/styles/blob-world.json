@@ -1,0 +1,54 @@
+{
+  "name": "Blob World",
+  "aliases": [
+    "3D-blobillustrasjon",
+    "Myk 3D",
+    "Leirerendering"
+  ],
+  "summary": "Bevegelsesdesign og illustrasjon laget av merkelige 3D-renderinger: myke blobber, surrealistiske rom, leire, pels, gelé og oppblåsbare teksturer, noen ganger uhyggelige. Det er en illustrasjonsverden, ikke en komponentstil: glassmorfisme og 3D-UI former kontrollene; Blob World fyller bildet.",
+  "core_thesis": "Gjør skjermen til en leketøysverden: myke, overbelyste 3D-kropper med merkelige teksturer bærer merkevaren, og grensesnittet rundt forblir enkelt.",
+  "design_principles": [
+    "Bygg hver figur av avrundede volumer uten skarpe kanter: en minste radius på 24 % av formbredden.",
+    "Gjengi én hero-scene per side ved 1600px eller bredere, med et mykt hovedlys fra øverst til venstre og en skygge med 40px til 80px uskarphet.",
+    "Gi hver flate ett taktilt materiale: leire, pels, gelé, oppblåsbar plast eller filt, med synlig korn ved 100 % zoom.",
+    "Bruk en palett av 3 mettede fargetoner på en pastellbunn (#FFE9D6), med én syreaksent.",
+    "Plasser 3 til 7 svevende former rundt hero-motivet på 3 dybder, med størrelser i forholdet 1 : 2 : 4.",
+    "Sett skrift i en avrundet, tung skrift (vekt 600 til 700) på 56px eller større til display, og hold brødteksten på 18px i en enkel bunnblokk.",
+    "Løkk bevegelse i 4s til 8s: kropper klemmes og strekkes med 6 % til 12 %, og driver med 8px til 24px."
+  ],
+  "anti_patterns": [
+    "Flate vektorfigurer uten volum",
+    "Hardkantede geometriske former",
+    "Fotografiske stockbilder",
+    "Frostet glass som hovedbilde",
+    "Mørkt, realistisk lys med dyp skygge",
+    "Tette datatabeller ved siden av renderingen",
+    "Statiske scener uten bevegelse"
+  ],
+  "palette": [
+    {
+      "name": "Ferskenbunn",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Gelékorall",
+      "role": "primær"
+    },
+    {
+      "name": "Leirefiolett",
+      "role": "aksent"
+    },
+    {
+      "name": "Pelsturkis",
+      "role": "andre aksent"
+    },
+    {
+      "name": "Syrelime",
+      "role": "utheving"
+    },
+    {
+      "name": "Kremflate",
+      "role": "flate"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Rams-funksjonalisme (UI)",
+  "aliases": [
+    "Braun-design",
+    "Mindre, men bedre",
+    "De ti prinsippene for godt design"
+  ],
+  "summary": "Stille matte flater, en dempet grå palett, én oransje signalfarge og kontroller som viser hva de gjør. Stilen følger Dieter Rams og Braun og dukker opp igjen i kalkulatorer, lyd og telefongrensesnitt.",
+  "core_thesis": "Godt design er så lite design som mulig: produktet skal være nyttig, forståelig og ærlig, og så tre i bakgrunnen.",
+  "design_principles": [
+    "Begrens paletten til 3 nøytrale (varme grå) og én signalfarge (oransje #E8590C) brukt på høyst 5 % av flaten.",
+    "Grupper kontrollene i merkede soner; hver kontroll har en tekstetikett på 12px til 14px og en fast plass på et 4px-rutenett.",
+    "Gi hver kontroll én oppgave og gjør tilstanden synlig: bruk massivt fyll for på og omriss for av.",
+    "Bruk radius 2px til 4px på knapper og paneler; radius overstiger aldri 8px.",
+    "Sett all tekst i én neo-grotesk sans serif i 4 størrelser: 12, 14, 18 og 32px.",
+    "Ordne paneler i en modulær layout av like enheter på 80px til 120px; juster hver kant til en enhet.",
+    "Farg bare det som signaliserer: en tilstand, en advarsel eller en primær handling."
+  ],
+  "anti_patterns": [
+    "Dekorative gradienter, glød og glasseffekter",
+    "To eller flere mettede aksentfarger",
+    "Ikoner uten tekstetikett på en primær handling",
+    "Skeuomorfe knotter med falske materialer",
+    "Avrundede beholdere med radius over 8px",
+    "Ornamental skrift og displayskrifter",
+    "Animasjon som ikke viser en tilstandsendring"
+  ],
+  "palette": [
+    {
+      "name": "Tåke",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Grafitt",
+      "role": "tekst"
+    },
+    {
+      "name": "Stein",
+      "role": "flate"
+    },
+    {
+      "name": "Røyk",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Signaloransje",
+      "role": "aksent"
+    },
+    {
+      "name": "Off-white",
+      "role": "hevet flate"
+    }
+  ]
+}

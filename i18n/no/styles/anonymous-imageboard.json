@@ -1,0 +1,56 @@
+{
+  "name": "Anonymt bildebrett",
+  "aliases": [
+    "Chan-brett",
+    "4chan-brett",
+    "Futaba-aktig brett"
+  ],
+  "summary": "Et anonymt brett der hver tråd starter med et bilde: en blek side, innlegg uten konto, innleggsnumre, grønne sitatlinjer og tråder som flyttes øverst og så faller av.",
+  "core_thesis": "Ingen har et navn, så bare innlegget teller; det nyeste svaret holder en tråd i live.",
+  "design_principles": [
+    "Start hver tråd med en bildeminiatyr på høyst 250px til venstre i det første innlegget.",
+    "Signer hvert innlegg 'Anonymous' med dato og et innleggsnummer som No.123456789.",
+    "Sett en linje som starter med > i grønt (#789922) som et sitat eller en historielinje.",
+    "Lenk et svar til et tidligere innlegg med >>123456789 i lenkefargen.",
+    "Legg svar i bokser med en litt mørkere tone enn siden, stablet under det første innlegget.",
+    "Vis høyst 10 sider med tråder; en tråd med et nytt svar flyttes øverst, og den siste tråden slettes.",
+    "Bruk en sentrert brett-tittel øverst, med et kort bannerbilde over."
+  ],
+  "anti_patterns": [
+    "Brukerkontoer, avatarer og likerklikk",
+    "Polert merkevaretypografi",
+    "Uendelige feeder som beholder gamle tråder",
+    "Store hvite flater og myke kort",
+    "Algoritmisk rangering"
+  ],
+  "palette": [
+    {
+      "name": "Fersken",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Svarbrun",
+      "role": "panel"
+    },
+    {
+      "name": "Rødbrun",
+      "role": "tekst"
+    },
+    {
+      "name": "Sitatgrønn",
+      "role": "aksent"
+    },
+    {
+      "name": "Navnegrønn",
+      "role": "utheving"
+    },
+    {
+      "name": "Emneblå",
+      "role": "overskrift"
+    },
+    {
+      "name": "Tittelrød",
+      "role": "tittel"
+    }
+  ]
+}
