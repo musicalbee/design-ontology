@@ -6,7 +6,7 @@ import { execSync } from "node:child_process";
 
 const BASE = "https://musicalbee.github.io/design-ontology/";
 const SITE = "Design Ontology";
-const IMG = BASE + "assets/og.png";
+const imgFor = (name) => (existsSync(`assets/og/${name.replace(".html", "")}.jpg`) ? `${BASE}assets/og/${name.replace(".html", "")}.jpg` : BASE + "assets/og.png");
 const SKIP_INDEX = new Set(["design.html", "kit.html"]); // redirect stub, internal kit
 const cfg = existsSync("seo.config.json") ? JSON.parse(readFileSync("seo.config.json", "utf8")) : {};
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
@@ -27,6 +27,7 @@ for (const name of readdirSync("demo").filter((n) => n.endsWith(".html")).sort()
   const full = title.includes(SITE) ? title : `${title} · ${SITE}`;
   html = html.replace(/<title>[^<]*<\/title>/, `<title>${full}</title>`);
   const url = name === "index.html" ? BASE + "demo/" : BASE + "demo/" + name;
+  const IMG = name === "index.html" ? BASE + "assets/og.png" : imgFor(name);
   const tags = [
     `<link rel="canonical" href="${url}">`,
     `<meta property="og:type" content="website">`,
@@ -35,8 +36,8 @@ for (const name of readdirSync("demo").filter((n) => n.endsWith(".html")).sort()
     `<meta property="og:description" content="${desc}">`,
     `<meta property="og:url" content="${url}">`,
     `<meta property="og:image" content="${IMG}">`,
-    `<meta property="og:image:width" content="1280">`,
-    `<meta property="og:image:height" content="640">`,
+    `<meta property="og:image:width" content="${IMG.endsWith(".jpg") ? 1200 : 1280}">`,
+    `<meta property="og:image:height" content="${IMG.endsWith(".jpg") ? 630 : 640}">`,
     `<meta property="og:image:alt" content="Design Ontology: design styles as data that compile into agent skills">`,
     `<meta name="twitter:card" content="summary_large_image">`,
     `<meta name="twitter:title" content="${esc(full)}">`,
@@ -62,7 +63,7 @@ writeFileSync("index.html", `<!doctype html>
 <meta http-equiv="refresh" content="0; url=demo/">
 <meta property="og:type" content="website"><meta property="og:title" content="${SITE}">
 <meta property="og:description" content="Design styles as data. Each style compiles into a SKILL.md and tokens.css that any coding agent can load.">
-<meta property="og:url" content="${BASE}"><meta property="og:image" content="${IMG}">
+<meta property="og:url" content="${BASE}"><meta property="og:image" content="${BASE}assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="text/plain" title="llms.txt" href="llms.txt">
 </head><body><p><a href="demo/">Open the demo</a> · <a href="https://github.com/musicalbee/design-ontology">GitHub</a></p></body></html>
