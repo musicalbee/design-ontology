@@ -1,0 +1,54 @@
+{
+  "name": "Material Design",
+  "aliases": [
+    "Material",
+    "Google Material",
+    "Material 2"
+  ],
+  "summary": "Et system av flate fargede flater som ligger i bestemte høyder og kaster skygger fra et nøkkellys oppe til venstre, med dristig farge, et 8dp-rutenett og målrettet bevegelse. Google kunngjorde det på I/O i juni 2014.",
+  "core_thesis": "Digitale flater oppfører seg som papirark med tykkelse og skygge, slik at dybde og bevegelse forklarer grensesnittets hierarki.",
+  "design_principles": [
+    "Behandle hver flate som et papirark på 1dp tykkelse som aldri bøyer seg, aldri endrer størrelse ved strekking og aldri går gjennom en annen flate.",
+    "Uttrykk hierarkiet med høyde i dp: 0 for siden, 1 for kort, 4 for appfeltet, 6 for en flytende knapp i hvile, 8 for en meny, 16 for en navigasjonsskuff og 24 for en dialog.",
+    "Bygg hvert oppsett på et 8dp-rutenett, med 4dp til liten skrift og ikonjustering, og trykkflater på 48dp.",
+    "Bruk dristig farge fra en primær- og en aksenttone, med statuslinjen i skygge 700 av primærfargen og appfeltet i skygge 500.",
+    "Bruk stor skrift med en bestemt skala på 12, 14, 16, 20, 34, 45 og 56sp i Roboto.",
+    "Gi hvert trykk en respons: en sirkulær krusning som vokser ut fra trykkpunktet over 300ms.",
+    "Flytt elementer langs buede baner med en lettelse som starter fort og slutter sakte, og la hver bevegelse forklare hvor et element kom fra."
+  ],
+  "anti_patterns": [
+    "Gradienter og teksturer på flater",
+    "Skygger uten et konsekvent høydenivå eller med ulike lysretninger",
+    "Flater som overlapper i samme høyde",
+    "Trykkflater under 48dp",
+    "Farget tekst på en farget bakgrunn under 4,5:1",
+    "Umiddelbare tilstandsendringer uten bevegelse eller krusningsrespons",
+    "Mer enn én flytende handlingsknapp på en skjerm"
+  ],
+  "palette": [
+    {
+      "name": "Flate",
+      "role": "kort- og arkflate"
+    },
+    {
+      "name": "Bakgrunn",
+      "role": "sidebakgrunn"
+    },
+    {
+      "name": "Indigo 500",
+      "role": "primær og appfelt"
+    },
+    {
+      "name": "Indigo 700",
+      "role": "statuslinje"
+    },
+    {
+      "name": "Rosa A200",
+      "role": "aksent og flytende handlingsknapp"
+    },
+    {
+      "name": "Grå 900",
+      "role": "tekst ved 87 % dekning"
+    }
+  ]
+}

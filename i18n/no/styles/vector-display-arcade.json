@@ -1,0 +1,25 @@
+{
+  "name": "Arkade med vektorskjerm",
+  "aliases": [
+    "Vektorgrafikk-arkade",
+    "Arkade med glødende linjer"
+  ],
+  "summary": "Rørets stråle tegner linjer, ikke piksler. Klare monokrome eller fargede konturer gløder på ren svart, uten fyll, uten tekstur og med en verden bygd av trådformer.",
+  "core_thesis": "En verden kan tegnes med lys alene: noen få skarpe, glødende linjer på svart er nok til at øyet bygger rom.",
+  "design_principles": [
+    "Tegn hver gjenstand som en kontur av rette linjesegmenter; bruk ingen fylte flater.",
+    "Hold bakgrunnen ren svart; den er rommet mellom linjene.",
+    "Gjør linjene klare og la dem blomstre 1–3 px ut i mørket.",
+    "Bruk 1 til 4 farger i full metning, én for hver gjenstandsklasse.",
+    "Vis dybde med perspektiv-trådmodeller og et forsvinningspunkt, ikke med skyggelegging.",
+    "Hold hver form under omtrent 30 segmenter slik at den leses med et blikk."
+  ],
+  "anti_patterns": [
+    "Fylte eller teksturerte flater",
+    "En grå eller farget bakgrunn",
+    "Myke gradienter eller malt skyggelegging",
+    "Tett detalj som strålen ikke rekker å tegne i ett bilde",
+    "Pikseltrinn på en diagonal linje"
+  ],
+  "palette": []
+}

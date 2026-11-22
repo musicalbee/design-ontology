@@ -1,0 +1,48 @@
+{
+  "name": "Etikettmeme",
+  "aliases": [
+    "Stockfoto med etiketter",
+    "Sett tekst på bildet-meme"
+  ],
+  "summary": "Et kjent foto eller en stillbilde der hver person eller gjenstand har en liten tekstlapp som gir den en rolle. Leseren kobler rollene og finner vitsen. Formen tok av i 2017 med stockfoto og stillbilder fra tegnefilm.",
+  "core_thesis": "La et berømt bilde virke som et diagram: etikettene gir rollene, og positurene gir vitsen.",
+  "design_principles": [
+    "Behold kildebildet helt og ubeskåret; bruk et utsnitt på 4:3 eller 3:2.",
+    "Legg til 2 til 4 etiketter i hvite eller svarte bokser med 4px polstring og 2px radius.",
+    "Sett etikettene i en enkel fet sans-serif på 24px til 32px, 1 til 4 ord hver.",
+    "Plasser hver etikett over motivet sitt, inne i motivområdet, på mindre enn 20 % av bredden.",
+    "Bruk en hvit boks med svart tekst eller en svart boks med hvit tekst; bruk én stil i alle etikettene.",
+    "Legg til en tynn linje eller pil fra etikett til motiv bare når målet ikke er tydelig.",
+    "Behold bildet uredigert; etikettene er det eneste som legges til."
+  ],
+  "anti_patterns": [
+    "Versaler med Impact-omriss",
+    "Etiketter som skjuler ansiktene",
+    "Mer enn 5 etiketter",
+    "Tunge filtre på bildet",
+    "Lange setninger i etikettene",
+    "Etiketter i mange farger"
+  ],
+  "palette": [
+    {
+      "name": "Etikett hvit",
+      "role": "etikettboks"
+    },
+    {
+      "name": "Etikett svart",
+      "role": "etikettekst"
+    },
+    {
+      "name": "Fotohud",
+      "role": "fototone"
+    },
+    {
+      "name": "Fotogate",
+      "role": "fototone"
+    },
+    {
+      "name": "Aksentrød",
+      "role": "pil"
+    }
+  ]
+}

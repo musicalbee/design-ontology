@@ -1,0 +1,53 @@
+{
+  "name": "Reaksjons-GIF",
+  "aliases": [
+    "Reaksjonsklipp",
+    "GIF-løkke med bildetekst",
+    "Giphy-løkke"
+  ],
+  "summary": "Et kort klipp på løkke fra en film, en serie eller en idrettskamp, sendt i stedet for en setning. Bildet er lite og kornete og har ofte en bildetekst på én linje i tung hvit versal.",
+  "core_thesis": "Ett sekund på løkke med et ekte ansikt sier en følelse raskere enn en setning, så klippet er svaret.",
+  "design_principles": [
+    "Sett et klipp på 1 til 4 sekunder på løkke med 10 til 15 bps og et sømløst kutt fra siste bilde til det første.",
+    "Eksporter bildet med 480px bredde eller mindre i 256 farger, og la dithering og korn være synlig.",
+    "Sett bildeteksten i tung hvit versal med et svart omriss på 2px, med 8 % til 12 % av bildehøyden.",
+    "Plasser bildeteksten i nedre tredjedel av bildet, sentrert, med 4 % avstand fra kanten.",
+    "Beskjær tett rundt ett ansikt eller én gest, slik at motivet fyller 50 % til 70 % av bildet.",
+    "Ramm inn klippet med et hvitt omriss på 1px på et mørkt kort (#22222C) når det vises i en strøm.",
+    "Vis søkeknaggen, for eksempel #facepalm, i versal på 12px under klippet."
+  ],
+  "anti_patterns": [
+    "Jevn video på 60 bps uten dithering",
+    "Lange klipp med et synlig kuttpunkt",
+    "Tynne bildetekster uten omriss",
+    "Brede landskapsbilder med et lite motiv",
+    "Rene studiogradienter bak klippet",
+    "Flere bildetekster i ett bilde"
+  ],
+  "palette": [
+    {
+      "name": "Strømsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortgrå",
+      "role": "flate"
+    },
+    {
+      "name": "Teksthvit",
+      "role": "bildetekst og tekst"
+    },
+    {
+      "name": "Søkegul",
+      "role": "primær"
+    },
+    {
+      "name": "Lenkeblå",
+      "role": "aksent"
+    },
+    {
+      "name": "Støvgrå",
+      "role": "dempet tekst"
+    }
+  ]
+}

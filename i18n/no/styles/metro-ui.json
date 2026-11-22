@@ -1,0 +1,54 @@
+{
+  "name": "Metro UI",
+  "aliases": [
+    "Windows Phone 7-design",
+    "Modern UI",
+    "Microsoft Design Language"
+  ],
+  "summary": "Flate fargefliser, stor lett skrift, et strengt rutenett og innhold foran grensesnittet. Det kom fra Windows Phone 7 i 2010 og hentet fra sveitsisk skilting og veivisning på flyplasser.",
+  "core_thesis": "Innholdet er grensesnittet: fjern pynten, bruk skrift og bevegelse til hierarki, og la flate fargefliser bære merkevaren.",
+  "design_principles": [
+    "Bygg startskjermen av fliser på et rutenett på 12px; bruk fliser på 1, 2 og 4 enheter (for eksempel 80px, 168px og 344px).",
+    "Bruk én heldekkende aksentfarge per flis fra et sett på 8 til 12 mettede farger; rennesteinene mellom flisene er 8px.",
+    "Sett en stor sidetittel i lett vekt (300) på 40px til 72px, delvis avskåret av høyre kant for å signalisere et panorama.",
+    "Bruk ingen gradient, ingen skygge og ingen glans; en flis er et flatt rektangel med 0px radius.",
+    "Tegn ikon som enkle hvite linjeglyfer inne i en sirkel på 2px eller på en flis; én strekbredde på 2px.",
+    "Juster all tekst mot venstre til en marg på 12px; etikettene er 14px med små bokstaver.",
+    "Flytt innholdet ved panorering og flisvending: inngang ved et skyv på 40px med en forskyvning på 40ms per element."
+  ],
+  "anti_patterns": [
+    "Gradienter, glans og avfasinger",
+    "Avrundede hjørner og slagskygger",
+    "Grensesnitt som konkurrerer med innholdet, som tunge verktøylinjer",
+    "Sentrerte tekstblokker",
+    "Pastellfarger",
+    "Dekorative teksturer",
+    "Skeuomorfe ikon"
+  ],
+  "palette": [
+    {
+      "name": "Svart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Kobolt",
+      "role": "primærflis"
+    },
+    {
+      "name": "Magenta",
+      "role": "aksentflis"
+    },
+    {
+      "name": "Lime",
+      "role": "andre flis"
+    },
+    {
+      "name": "Oransje",
+      "role": "tredje flis"
+    }
+  ]
+}

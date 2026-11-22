@@ -1,0 +1,61 @@
+{
+  "name": "ANSI BBS-kunst",
+  "aliases": [
+    "ANSI-kunst",
+    "BBS-kunst",
+    "Kunstpakke"
+  ],
+  "summary": "Bilder og menyer laget av tekstblokker på 80 kolonner i de 16 ANSI-fargene: skyggetegn, boksslinjer og brede logoer. Oppringte oppslagstavler viste dem, og kunstgrupper ga dem ut i månedlige pakker.",
+  "core_thesis": "Et bilde er et rutenett av tegn: hver form må passe en celle på 8 ganger 16 piksler og én av 16 farger.",
+  "design_principles": [
+    "Bygg oppsettet på et rutenett av 80 kolonner og 25 rader; én celle er 8px bred og 16px høy.",
+    "Bruk bare de 16 ANSI-fargene, på en svart bunn (#000000), og vis 8 farger som det mørke settet og 8 som det lyse settet.",
+    "Skygg med blokktegn: lett skygge ░ ved 25 %, middels skygge ▒ ved 50 %, mørk skygge ▓ ved 75 %, full blokk █ ved 100 %.",
+    "Ramm inn menyer og vinduer med dobbeltlinje-boksetegn ╔ ═ ╗ og hold rammen 1 celle bred.",
+    "Sett signaturlogoen 6 til 10 rader høy i en blokkskrift, med en tre-trinns fargetoning fra mørkeblå til cyan til hvit.",
+    "Legg en statuslinje på 1 rad nederst på skjermen, hvitt på blått, med tastehint i klammer.",
+    "Blink én markørblokk ved 530ms; vis lange skjermer linje for linje med 1 rad per 40ms for å etterligne et 28,8 kbps modem."
+  ],
+  "anti_patterns": [
+    "Kantutjevnet tekst og myke gradienter",
+    "Mer enn 16 farger på én skjerm",
+    "Proporsjonale skrifter med variabel bredde",
+    "Runde hjørner og myke skygger",
+    "Fotografiske bilder",
+    "Fritt oppsett som ignorerer cellerutenettet"
+  ],
+  "palette": [
+    {
+      "name": "Svart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Lysegrå",
+      "role": "tekst"
+    },
+    {
+      "name": "Blå",
+      "role": "vindu"
+    },
+    {
+      "name": "Cyan",
+      "role": "primær"
+    },
+    {
+      "name": "Lys cyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Lys magenta",
+      "role": "utheving"
+    },
+    {
+      "name": "Lys gul",
+      "role": "tast"
+    },
+    {
+      "name": "Hvit",
+      "role": "tittel"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Flat design",
+  "aliases": [
+    "Flat UI",
+    "Flat 2.0",
+    "Metro-inspirert flat"
+  ],
+  "summary": "Grensesnitt av hele fargeflater, enkle geometriske former, fet sans-serif og ingen gradienter eller skygger. Det fulgte Microsoft Metro i 2010 og Windows 8 i 2012, og ble standarden etter iOS 7 i 2013.",
+  "core_thesis": "Et digitalt grensesnitt er ærlig når det viser seg som piksler og skrift og ikke etterligner fysiske gjenstander.",
+  "design_principles": [
+    "Fyll hver flate med én ensfarget tone og bruk ingen gradient, tekstur eller skygge.",
+    "Bygg paletten av 4 til 6 mettede farger, som turkis, smaragd, ametyst, gulrot og alizarin, pluss én nøytral.",
+    "Tegn ikon som enkle geometriske former i en kvadrat på 24px eller 32px, med heldekkende fyll eller en strek på 2px og uten avfasing.",
+    "Uttrykk hierarkiet med størrelse, vekt og farge, med forholdet 1,25 eller mer mellom skriftnivåene.",
+    "Bruk store trykkflater på minst 44px og romslig polstring på 16 til 24px rundt innholdet.",
+    "Skill områder med et fargeskifte og ikke med en kant, en skygge eller en linje.",
+    "Gi interaktive elementer et enkelt fargeskifte ved hover og trykk, uten løft og uten glød."
+  ],
+  "anti_patterns": [
+    "Gradienter, blanke høylys og refleksjoner på knapper",
+    "Slagskygger, indre skygger og avfasinger på noe element",
+    "Teksturer av skinn, papir, tre eller lin som bakgrunn",
+    "Fotografiske eller 3D-rendrede ikon",
+    "Pastelltekst med lav kontrast under 4,5:1 på en farget flate",
+    "Spøkelsesknapper med en omriss på 1px som eneste primærhandling",
+    "Blandede ikonstiler med omriss og fylt i samme visning"
+  ],
+  "palette": [
+    {
+      "name": "Skyer",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Midnatt",
+      "role": "tekst og mørk flate"
+    },
+    {
+      "name": "Turkis",
+      "role": "primær"
+    },
+    {
+      "name": "Elven Peter",
+      "role": "sekundærhandling"
+    },
+    {
+      "name": "Alizarin",
+      "role": "varsel og aksent"
+    },
+    {
+      "name": "Solsikke",
+      "role": "høylys"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Pikselkunst på nett",
+  "aliases": [
+    "Piksel-UI",
+    "8-bit-nett",
+    "Retro spill-UI"
+  ],
+  "summary": "Blokkaktige sprites, en begrenset palett, harde pikselkanter, bitmap-skrift og paneler i spillstil. Det låner fra 8-bit- og 16-bit-spill og får en side til å føles som en spillskjerm.",
+  "core_thesis": "Begrensningene er stilen: få piksler, få farger og et hardt rutenett gir et klart, lekent bilde.",
+  "design_principles": [
+    "Tegn kunst på et grunnrutenett av sprites på 8px eller 16px og skaler bare med hele tall (2x, 3x, 4x).",
+    "Begrens paletten til 8 til 16 farger; bruk 1 omrissfarge og høyst 3 toner per materiale.",
+    "Render bilder med `image-rendering: pixelated` og bruk aldri kantutjevnet skalering.",
+    "Bygg paneler med en trappet kant på 4px (hjørnepikslene kuttet) og en hard skyggeforskyvning på 4px (4px, 4px) uten uskarphet.",
+    "Sett tekst i en bitmap-skrift i multipler av 8px (8, 16, 24, 32px) med linjehøyde 1,5.",
+    "Animer i trinn: bruk `steps(4)` for sprites ved 8 til 12 bilder per sekund og la pekere blinke ved 1s.",
+    "Vis et spillelement på hver skjerm: en helsefelt, en teller, en meny med en peker eller en dialogboks."
+  ],
+  "anti_patterns": [
+    "Myke gradienter og myk uskarphet",
+    "Kantutjevnet skalering av sprites",
+    "Avrundede hjørner med en myk radius",
+    "Tynn, lett, moderne sans-serif-tekst",
+    "Mer enn 16 farger",
+    "Fotografier uten pikselbehandling",
+    "Lettelseskurver på sprite-bevegelse"
+  ],
+  "palette": [
+    {
+      "name": "Natt",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panel",
+      "role": "flate"
+    },
+    {
+      "name": "Bein",
+      "role": "tekst"
+    },
+    {
+      "name": "Skifer",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Lava",
+      "role": "primær"
+    },
+    {
+      "name": "Mynte",
+      "role": "aksent"
+    }
+  ]
+}

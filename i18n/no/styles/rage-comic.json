@@ -1,0 +1,49 @@
+{
+  "name": "Rage comic",
+  "aliases": [
+    "Rage faces",
+    "Rage guy-tegneserie",
+    "Fffuuu-tegneserie"
+  ],
+  "summary": "En kort tegneserie på 2 til 8 ruter tegnet i MS Paint med et sett grove ansikter som viser én fast følelse hver. Den startet på 4chan i 2008 og fylte Reddit og 9GAG til rundt 2015.",
+  "core_thesis": "Fortell en liten daglig irritasjon i noen få grove ruter, med faste ansikter som alle lesere kjenner.",
+  "design_principles": [
+    "Del lerretet i 2 til 6 ruter i et rutenett med 2 kolonner, hver med en svart linje på 2px.",
+    "Tegn ansikter som hvite ovaler med et svart omriss på 3px og noen få harde streker, uten skravering.",
+    "Bruk ett fast ansikt per følelse: raseri, glede, selvgodhet, vantro, tristhet.",
+    "Skriv dialogen i ruten som vanlig tekst på 16px til 20px, uten snakkeboble.",
+    "Sett scenen på hvit bunn med strekfigurer i svarte linjer på 3px.",
+    "Hold tegningen flat og grov; la linjene vingle 2px til 3px fra rett.",
+    "Avslutt i den siste ruten med det sterkeste ansiktet og et utfall på én linje."
+  ],
+  "anti_patterns": [
+    "Polert vektorkunst",
+    "Skraverte eller fargelagte figurer",
+    "Lange, plottede historier",
+    "Realistiske proporsjoner",
+    "Myke, runde skrifter",
+    "Dekorative rutekanter"
+  ],
+  "palette": [
+    {
+      "name": "Papirhvit",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Linjesvart",
+      "role": "linje og tekst"
+    },
+    {
+      "name": "Raseririød",
+      "role": "fremheving"
+    },
+    {
+      "name": "Ansiktskrem",
+      "role": "ansiktsfyll"
+    },
+    {
+      "name": "Rutegrå",
+      "role": "mellomrom mellom ruter"
+    }
+  ]
+}

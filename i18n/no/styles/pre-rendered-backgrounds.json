@@ -1,0 +1,26 @@
+{
+  "name": "Forhåndsrenderte bakgrunner",
+  "aliases": [
+    "Forhåndsrendret 3D",
+    "Fast kamera med rendrede scener",
+    "Myst-aktige stillbilder"
+  ],
+  "summary": "Rom og gater rendres frakoblet i 3D-programvare og vises som stillbilder fra faste kameravinkler. Spilleren beveger seg som en figur med få polygoner, eller som en peker, over en scene med langt mer lys og detaljer enn konsollen kan tegne.",
+  "core_thesis": "Hvis kameraet ikke beveger seg, kan hvert bilde være en ferdig rendring, komponert som et filmbilde.",
+  "design_principles": [
+    "Komponer hvert bilde som et stillbilde: et fast kamera med en sterk diagonal eller en lav vinkel.",
+    "Render bakgrunnen frakoblet med myke skygger og mange lys.",
+    "Tilpass figuren i sanntid til bakgrunnen med samme lysretning.",
+    "Bruk dramatiske kameravinkler: høyt, lavt, gjennom en døråpning.",
+    "Klipp mellom bildene når spilleren krysser en kant.",
+    "Mal dybdemasker slik at figuren går bak et bord eller en pilar."
+  ],
+  "anti_patterns": [
+    "Et fritt kamera",
+    "Bakgrunner som figuren ikke matcher i lys",
+    "Flate bilder i øyehøyde uten komposisjon",
+    "Sanntidsteksturer på bakgrunnen",
+    "Tomme rom uten rekvisitter"
+  ],
+  "palette": []
+}

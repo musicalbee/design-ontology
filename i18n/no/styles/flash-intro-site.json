@@ -1,0 +1,57 @@
+{
+  "name": "Flash-introside",
+  "aliases": [
+    "Skip intro",
+    "Flash-nettsted",
+    "Macromedia Flash-side"
+  ],
+  "summary": "Et nettsted i fullt vindu bygget som vektoranimasjon: en lastelinje, en lenke for å hoppe over introen, liten pikselskrift, egne pekere, lyd og overganger mellom seksjoner. Macromedia Flash gjorde det mulig.",
+  "core_thesis": "Et nettsted er en forestilling: styr hver piksel og hvert sekund, og la den besøkende vente på det.",
+  "design_principles": [
+    "Fyll hele vinduet med én scene og sentrer et fast område på 800px ganger 600px eller 1000px ganger 600px.",
+    "Åpne med en lastelinje på 1px til 4px og en teller fra 0 % til 100 %, deretter en intro på 5 til 20 sekunder.",
+    "Sett en lenke 'skip intro' på 11px i det nedre hjørnet, synlig fra første bilde.",
+    "Sett navigasjonen i pikselskrift på 8px til 10px i versaler med 0,1em sporing, og plasser den på en fri bane.",
+    "La hver seksjon komme inn med en tween: skyv 40px til 120px med ease-out over 400ms til 800ms.",
+    "Bruk én aksent (#FF6600) på en mørk bunn (#111111) og hold resten i gråtoner.",
+    "Følg pekeren: et element etterfølger markøren med en glatting på 0,1 til 0,2."
+  ],
+  "anti_patterns": [
+    "Umiddelbare statiske sider uten intro",
+    "Vanlig tekstnavigasjon i en linje",
+    "Lange blokker med lesbar brødtekst",
+    "Responsiv omflyt til små skjermer",
+    "Vanlig rulling uten scenebytte",
+    "Vanlige systemfonter på 16px til all tekst"
+  ],
+  "palette": [
+    {
+      "name": "Scenesvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelgrå",
+      "role": "panel"
+    },
+    {
+      "name": "Lys tekst",
+      "role": "tekst"
+    },
+    {
+      "name": "Dempet grå",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Flash-oransje",
+      "role": "primær"
+    },
+    {
+      "name": "Cyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Linjegrå",
+      "role": "kant"
+    }
+  ]
+}

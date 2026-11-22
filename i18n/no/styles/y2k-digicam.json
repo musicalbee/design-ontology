@@ -1,0 +1,26 @@
+{
+  "name": "Y2K-digicam",
+  "aliases": [
+    "Tidlig digitalt kompaktkamera",
+    "CCD-kompaktuttrykk"
+  ],
+  "summary": "Uttrykket fra et CCD-kompaktkamera på 2 til 5 megapiksler: full dybdeskarphet fra en liten sensor, utbrente høylys, en hard blits på kameraet, overskarpe kanter og klønete hvitbalanse. Det er et opptak av en enhet og nå en bevisst nostalgi.",
+  "core_thesis": "Feilene i en billig tidlig sensor er stilen: de merker et øyeblikk i tid og leses som ærlige.",
+  "design_principles": [
+    "Etterlign en liten sensor (1/2,7 tommer, beskjæringsfaktor omtrent 6) med en ekte brennvidde på 5,8 mm, som er 35 mm i småbildeformat, og full dybdeskarphet fra 0,5 m til uendelig.",
+    "Klipp høylysene: sett hvitpunktet på 100 % og la himler og hud gå til rent hvitt.",
+    "Bruk den utfellbare blitsen på hvert innendørsbilde, med forhold til omgivelseslyset på 6:1 og et hardt, flatt ansikt.",
+    "Begrens bildet til 1600×1200 px (2 MP) eller 2048×1536 px (3 MP), lagret som en komprimert JPEG på kvalitet 60 til 75.",
+    "Legg til sensorfeilene: kromastøy fra ISO 200 og oppover, lilla fargekanter ved kontrastrike kanter og et svakt grønt eller magenta fargestikk.",
+    "Skarp med en grov radius på 1,5 til 2 px ved 150 % styrke, slik kameraets egen prosessor gjorde."
+  ],
+  "anti_patterns": [
+    "Grunn dybdeskarphet og kremet bokeh",
+    "Ren toneavbildning med høyt dynamisk omfang",
+    "Naturlig, nøyaktig hvitbalanse",
+    "Mellomstore eller store filer med fin detalj og glatte overganger",
+    "Filmkorn i stedet for sensorstøy",
+    "En nøye komponert, jevnt belyst ramme"
+  ],
+  "palette": []
+}

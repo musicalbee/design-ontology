@@ -1,0 +1,55 @@
+{
+  "name": "Oppslagstavleforum",
+  "aliases": [
+    "phpBB-forum",
+    "Nettforum",
+    "Meldingsbrett"
+  ],
+  "summary": "Et nettforum i tabeller: en liste over brett i kategorier, emner med svar- og visningstall, og innlegg med en brukerkolonne som viser en avatar, en rang, antall innlegg og en signatur.",
+  "core_thesis": "Et forum er en klubb med rom; hvert medlem bærer en synlig rang, et bilde og en signatur fra innlegg til innlegg.",
+  "design_principles": [
+    "Vis indeksen som en tabell av brett i kategorier, med kolonner for emner, innlegg og siste innlegg.",
+    "Legg hvert innlegg i en tabellrad med to kolonner: brukerkolonnen på 150px til 180px til venstre, innlegget til høyre.",
+    "Vis i brukerkolonnen en avatar på 80px til 100px, en rangtittel, en rad med rangprikker, innmeldingsdatoen og antall innlegg.",
+    "Legg en signatur under hvert innlegg etter en kort strek, med et bannerbilde på høyst 468px ganger 60px.",
+    "Bruk et toppbånd med forumlogoen og en brødsmulelinje: Indeks > Brett > Emne.",
+    "Merk et festet emne med et nålikon og et låst emne med et låsikon i emnelisten."
+  ],
+  "anti_patterns": [
+    "Endeløs rulling uten sidetall",
+    "Innlegg uten forfatteridentitet",
+    "Store hero-bilder",
+    "Flate ensfargede lister uten tabellinjer",
+    "Skjulte svartall"
+  ],
+  "palette": [
+    {
+      "name": "Sidegrå",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Radhvit",
+      "role": "panel"
+    },
+    {
+      "name": "Radtone",
+      "role": "panel"
+    },
+    {
+      "name": "Tekstblekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Forumblå",
+      "role": "lenke"
+    },
+    {
+      "name": "Toppblå",
+      "role": "overskrift"
+    },
+    {
+      "name": "Rangorange",
+      "role": "aksent"
+    }
+  ]
+}

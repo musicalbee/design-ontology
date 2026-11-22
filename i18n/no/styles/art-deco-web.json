@@ -1,0 +1,54 @@
+{
+  "name": "Art deco (web)",
+  "aliases": [
+    "Style Moderne",
+    "Jazzalderens stil",
+    "Gatsby-stil"
+  ],
+  "summary": "Symmetrisk geometri, trappetrinnsformer, vifte- og solstrålemotiver og gulllinjer på mørk bunn. Stilen vokste ut av Paris-utstillingen i 1925 og står for luksus og fart.",
+  "core_thesis": "Luksus er orden: maskintiden gir ornamentet en streng, symmetrisk geometri som ser rik og moderne ut på en gang.",
+  "design_principles": [
+    "Komponer hver layout på en midtakse: speil venstre og høyre halvdel med en toleranse på 8px.",
+    "Tegn ornamenter av buer, vifter, vinkelstreker og trappetrinn; bygg hvert motiv på 15° eller 45°.",
+    "Bruk gull (#C9A24B)-linjer på 1px til 2px på en nesten svart eller dypgrønn bunn; gull dekker 10 % til 20 % av flaten.",
+    "Sett overskrifter i store, geometriske, høykontrastige versaler på 48px eller mer med sporing +0.12em til +0.2em.",
+    "Ramm inn hero- og kortpaneler med en dobbel kant: en gulllinje på 2px, et mellomrom på 6px og en gulllinje på 1px.",
+    "Kutt hjørnene på paneler i 45° med en fasing på 16px i stedet for å runde dem.",
+    "Hold brødteksten på 16px i en geometrisk sans med linjeavstand 1.6, og begrens den til en spalte på 560px."
+  ],
+  "anti_patterns": [
+    "Asymmetriske hero-komposisjoner",
+    "Avrundede pillknapper og myke hjørner",
+    "Pastellpaletter uten gull eller svart",
+    "Frihåndstegnede organiske kurver og plante-ornamenter",
+    "Displaytekst med små bokstaver",
+    "Glød, uskarphet og glasseffekter",
+    "Gradienter som ikke er en metallisk gullgradient med 2 stopp"
+  ],
+  "palette": [
+    {
+      "name": "Onyx",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Smaragd",
+      "role": "sekundær flate"
+    },
+    {
+      "name": "Gull",
+      "role": "aksent og streker"
+    },
+    {
+      "name": "Elfenben",
+      "role": "tekst"
+    },
+    {
+      "name": "Messing",
+      "role": "mørke streker"
+    },
+    {
+      "name": "Blekkblå",
+      "role": "alternativ flate"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Isometrisk pikselverden",
+  "aliases": [
+    "Isometrisk pikselkunst",
+    "2,5D isometri",
+    "Filmation-utseende"
+  ],
+  "summary": "Verden ses ovenfra i en fast vinkel med 2:1-piksel-diagonaler. Rom blir bokser skåret opp på to sider, slik at spilleren leser vegger, gulv og møbler på en gang.",
+  "core_thesis": "En fast 2:1-diagonal gir dybde uten perspektiv, slik at et rom kan leses helt som en arkitekts aksonometriske tegning.",
+  "design_principles": [
+    "Tegn hver kant på 2:1 (omtrent 26,6°) eller loddrett.",
+    "Bygg gulv av rutefliser som er 2 ganger så brede som høye.",
+    "Skjær veggene opp på de to nære sidene slik at innsiden vises.",
+    "Lys hver blokk fra én side: topp lys, venstre middels, høyre mørk.",
+    "Hold samme målestokk i hele scenen; ingenting krymper med avstanden.",
+    "Sorter gjenstander bakfra og fram etter gulvposisjonen deres."
+  ],
+  "anti_patterns": [
+    "Forsvinningspunkter eller perspektivkrymping",
+    "Kanter i andre vinkler enn 2:1 og loddrett",
+    "Vegger som skjuler spilleren",
+    "Lys fra ulike sider på ulike gjenstander",
+    "Fri kamerarotasjon"
+  ],
+  "palette": []
+}

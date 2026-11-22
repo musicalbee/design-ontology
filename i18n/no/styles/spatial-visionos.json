@@ -1,0 +1,54 @@
+{
+  "name": "Romlig UI (visionOS)",
+  "aliases": [
+    "visionOS-design",
+    "Spatial computing-UI",
+    "Glassvinduer i rommet"
+  ],
+  "summary": "Gjennomsiktige glassvinduer som flyter i brukerens rom i en fast avstand, belyst av omgivelsene og styrt med blikk og klyping med hånden. Apple introduserte det med Vision Pro i 2023.",
+  "core_thesis": "Et grensesnitt i rommet bør være en fysisk tilstedeværelse i rommet, så det bruker glass som tar lys fra den virkelige scenen og respekterer personens synsfelt.",
+  "design_principles": [
+    "Lag vinduer av et glassmateriale som glir over i rommet bak; et standardvindu er omtrent 1280pt ganger 720pt i 2 meters avstand.",
+    "Plasser innhold der øynene hviler, innenfor et felt på omtrent 30 grader, og unngå å tvinge fram hodevending.",
+    "Gjør hvert mål minst 60pt, med 16pt eller mer avstand, fordi øye- og klypeinndata er mindre presise enn en mus.",
+    "Vis hover med et høylys på elementet det ses på, fordi øynene er pekeren og klypet er klikket.",
+    "Bruk dybde for mening: løft en modal 20pt til 40pt foran vinduet sitt med en myk skygge.",
+    "Bruk en hjørneradius på 24pt til 32pt på vinduer og en full kapselform på knapper.",
+    "Sett tekst i levende hvite eller mørke etikettfarger som er lesbare på glass, på 17pt eller større og vekt 500 eller mer."
+  ],
+  "anti_patterns": [
+    "Ugjennomsiktige mørke bakgrunner som blokkerer rommet",
+    "Mål mindre enn 44pt på en enhet med øye og klyp",
+    "Tekst under 17pt eller under vekt 400 på glass",
+    "Harde svarte slagskygger og flate harde kanter",
+    "Innhold festet til hodet på kort avstand, som gir belastning på øynene",
+    "Vinduer bredere enn synsfeltet, slik at kantene krever hodevending",
+    "Rask parallakse eller store bevegelser mot betrakteren"
+  ],
+  "palette": [
+    {
+      "name": "Glass",
+      "role": "vindusfyll ved 10 % til 20 % alfa"
+    },
+    {
+      "name": "Etikett",
+      "role": "primær tekst ved 100 % dekning"
+    },
+    {
+      "name": "Mørk etikett",
+      "role": "tekst på lyst glass"
+    },
+    {
+      "name": "Systemblå",
+      "role": "tone for primærhandling"
+    },
+    {
+      "name": "Hover-glød",
+      "role": "blikkhøylys ved 20 % alfa"
+    },
+    {
+      "name": "Slør",
+      "role": "dempelag ved 30 % alfa"
+    }
+  ]
+}

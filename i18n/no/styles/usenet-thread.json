@@ -1,0 +1,51 @@
+{
+  "name": "Usenet-tråd",
+  "aliases": [
+    "Nyhetsgruppetråd",
+    "Netnews",
+    "Trådet nyhetsleser"
+  ],
+  "summary": "En tråd av rene tekstinnlegg i en nyhetsgruppe, lest i en nyhetsleser i terminalen: et tre av emnelinjer, siterte linjer som starter med > og en signatur under hvert innlegg.",
+  "core_thesis": "En diskusjon er et tre av svar i ren tekst, og hvert svar siterer den delen det svarer på.",
+  "design_principles": [
+    "Sett all tekst i én mono i én størrelse, 80 tegn per linje.",
+    "Vis tråden som et tre av emnelinjer, med 2 mellomrom innrykk for hvert svarnivå.",
+    "Start hver sitert linje med '> ', og legg til ett '>' til for hvert eldre nivå.",
+    "Legg en topptekstblokk på hvert innlegg: From, Newsgroups, Subject og Date, ett felt per linje.",
+    "Avslutt hvert innlegg med en signatur på høyst 4 linjer etter en linje med '-- '.",
+    "Marker gjeldende linje i trådlisten med omvendt video: lys tekst på en mørk stolpe."
+  ],
+  "anti_patterns": [
+    "Proporsjonal skrift og skriftstørrelser for hierarki",
+    "Bilder, avatarer og ikon i innleggsteksten",
+    "Farge for andre betydninger enn markørstolpen",
+    "Sitater uten >-merket",
+    "Runde kort og skygger"
+  ],
+  "palette": [
+    {
+      "name": "Terminalsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelgrå",
+      "role": "panel"
+    },
+    {
+      "name": "Fosforhvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Sitatgrå",
+      "role": "dempet"
+    },
+    {
+      "name": "Rav",
+      "role": "høylys"
+    },
+    {
+      "name": "Markørgrønn",
+      "role": "aksent"
+    }
+  ]
+}

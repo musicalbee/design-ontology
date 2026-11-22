@@ -1,0 +1,26 @@
+{
+  "name": "16-bits sprite og parallakse",
+  "aliases": [
+    "16-bits pikselkunst",
+    "SNES-tidens grafikk",
+    "Utseendet til fjerde generasjons konsoller"
+  ],
+  "summary": "Pikselkunst i 256×224 med opptil 256 farger på skjermen fra et område på 32 768 farger. Flere rullende lag gir parallakse-dybde, sprites bærer 15 farger og myke fargerekker, og himmelen får gradienter laget av fargebånd.",
+  "core_thesis": "En rikere palett og lag på lag lar pikselkunst male lys, luft og avstand uten en 3D-motor.",
+  "design_principles": [
+    "Bruk 2 til 4 bakgrunnslag som ruller i ulik fart for dybde.",
+    "Skyggelegg hver sprite med fargerekker på 3 til 5 trinn av én fargetone, belyst øverst fra venstre.",
+    "Bruk 15 farger pluss gjennomsiktig i hver sprite.",
+    "Mal himler som vannrette bånd av 4 til 8 farger, ikke en glatt gradient.",
+    "Bruk selektive konturer: mørke utenpå, farget inni.",
+    "Gjør en figur 24 til 48 px høy."
+  ],
+  "anti_patterns": [
+    "Glatte fotografiske gradienter",
+    "Pute-skyggelegging fra midten",
+    "Filtrert eller uskarp skalering",
+    "Inkonsekvente lysretninger mellom sprites",
+    "3D-polygongjenstander"
+  ],
+  "palette": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Omrissikon",
+  "aliases": [
+    "Linjeikon",
+    "Strekikon",
+    "Feather-aktig ikon"
+  ],
+  "summary": "Ikoner tegnet som én jevn strek på et 24 px-rutenett, med runde ender og skjøter og uten fyll. Settet leses som en lett skrifttype: samme linjevekt, samme hjørneradius og samme aktive område for hver glyf.",
+  "core_thesis": "Et ikonsett er en skrifttype av gjenstander: én strek, ett rutenett og én hjørneradius får hundrevis av glyfer til å leses som én familie.",
+  "design_principles": [
+    "Tegn på et 24 × 24 px-rutenett med et aktivt område på 20 × 20 px og 2 px polstring på hver side.",
+    "Bruk én strekbredde for hele settet: 2 px ved 24 px (1,5 px for et lett sett).",
+    "Sett runde ender og runde skjøter på hver bane.",
+    "Gi rektangler hjørneradius 2 px; sirkler og buer beholder samme strek.",
+    "Hold et mellomrom på minst 2 px mellom to parallelle streker.",
+    "Juster strekene til pikselrutenettet slik at en 2 px linje dekker hele piksler ved 1× og 2×."
+  ],
+  "anti_patterns": [
+    "Blandede strekbredder i ett sett",
+    "Massive fyll inne i glyfen",
+    "Firkantede ender ved siden av runde ender",
+    "Detaljer nærmere enn 2 px ved 24 px",
+    "Farge inne i en UI-glyf"
+  ],
+  "palette": []
+}

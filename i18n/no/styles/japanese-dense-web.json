@@ -1,0 +1,54 @@
+{
+  "name": "Tett japansk nett",
+  "aliases": [
+    "Informasjonstett nett",
+    "Portalstil",
+    "Japansk portaldesign"
+  ],
+  "summary": "Tette sider med mange lenker, liten skrift, lyse aksentfarger, bannere, rangeringslister og stramme rutenett. Det vokste ut av portaler som Yahoo! JAPAN og Rakuten og gjør en side rik på valg.",
+  "core_thesis": "Tetthet er gjestfrihet: vis alle valgene på én gang, slik at den besøkende aldri må lete.",
+  "design_principles": [
+    "Pakk 6 til 12 innholdsblokker over bretten, hver med en tittellinje på 28px til 32px og 5 til 10 lenker under.",
+    "Sett tekst på 12px til 14px med linjeavstand 1,5 til 1,7; hold overskriftene på 14px til 18px i fet.",
+    "Bruk et stramt rutenett med rennesteiner på 8px og blokkpolstring på 8px til 12px; kanter på 1px i lys grå skiller blokkene.",
+    "Merk kategorier med lyse aksentfarger (rød #E60012, oransje, blå #0A58CA) i overskriftsfelt på 3px til 4px.",
+    "Vis rangeringstall (1 til 10), pris, rabattmerke og stjernevurdering i små lyse elementer på 12px til 16px.",
+    "Legg til 3 eller flere bannere på 300px til 728px bredde i rader, og en klebrig linje for søk og handlekurv på 48px til 56px høyde.",
+    "Behold en tydelig tekst-først-vei: hver blokk har en tekstlenke, og bildene er små miniatyrer på 64px til 120px."
+  ],
+  "anti_patterns": [
+    "Store tomme heltefelt med én overskrift",
+    "Én enkelt handlingsknapp per skjerm",
+    "Tynn lys skrift på 16px eller mer til alt",
+    "Minimale enkolonneoppsett",
+    "Navigasjon skjult bak ett menyikon",
+    "Stor polstring over 24px",
+    "Enfargede paletter uten aksentfarger"
+  ],
+  "palette": [
+    {
+      "name": "Papir",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Signalrød",
+      "role": "pris og primær"
+    },
+    {
+      "name": "Lenkeblå",
+      "role": "lenker"
+    },
+    {
+      "name": "Grå",
+      "role": "blokkflate"
+    },
+    {
+      "name": "Gull",
+      "role": "rangering og aksent"
+    }
+  ]
+}

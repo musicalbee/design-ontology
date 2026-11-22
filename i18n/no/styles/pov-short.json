@@ -1,0 +1,52 @@
+{
+  "name": "POV-kortvideo",
+  "aliases": [
+    "POV-video",
+    "POV-sketsj",
+    "Førstepersonsklipp"
+  ],
+  "summary": "Et kort klipp som viser en scene som om seeren er en rolle: kameraet er seerens øyne, og skuespilleren snakker rett til linsen. En tekstlinje som starter med \"POV:\" setter scenen.",
+  "core_thesis": "Gjør seeren til den andre personen i scenen: bildeteksten navngir situasjonen, linsen er seeren.",
+  "design_principles": [
+    "Start klippet med en tittellinje som begynner med \"POV:\" på 48 px, sentrert på 18 % av bildehøyden.",
+    "Filme med en telefon holdt i øyehøyde, en vid linse tilsvarende 24 mm og en liten, jevn risting.",
+    "La skuespilleren se inn i linsen i minst 60 % av klippet.",
+    "Hold klippet mellom 7 s og 20 s, med én vits eller vending til slutt.",
+    "Bruk ett enkelt rom og 1 til 2 rekvisitter.",
+    "Sett bildeteksten på 1 linje i hvitt på et svart felt ved 70 % dekning, 40 px, slik at situasjonen er klar.",
+    "Klipp høyst én eller to ganger; hold opptaket i 3 s til 8 s."
+  ],
+  "anti_patterns": [
+    "Et vidt bilde i tredje person",
+    "Mange steder i ett klipp",
+    "Tekst som ikke navngir seerens rolle",
+    "Studiolys med et perfekt sett",
+    "Lang monolog uten vending"
+  ],
+  "palette": [
+    {
+      "name": "Romgrå",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "POV-blå",
+      "role": "primær"
+    },
+    {
+      "name": "Varmt tre",
+      "role": "aksent"
+    },
+    {
+      "name": "Hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Tåke",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Svart felt",
+      "role": "flate"
+    }
+  ]
+}

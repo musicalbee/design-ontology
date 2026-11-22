@@ -1,0 +1,27 @@
+{
+  "name": "Monospace",
+  "aliases": [
+    "Monospace",
+    "Fast bredde",
+    "Skrivemaskinskrift",
+    "Kodeskrift"
+  ],
+  "summary": "Hvert tegn tar samme bredde, som på en skrivemaskin eller en terminal. De smale bokstavene får seriffer eller brede armer, og de brede presses sammen. Det er stemmen til kode, data, skjemaer og det maskinskrevne dokumentet.",
+  "core_thesis": "Når hvert tegn har samme bredde, flukter kolonnene uten rutenett, og hvert tegn er en enhet leseren kan telle.",
+  "design_principles": [
+    "Gi hver glyf samme skrittbredde, 0,50–0,62 em; 0,60 em er den vanlige verdien.",
+    "Utvid de smale bokstavene (i, l, j, r, f, t) med lange seriffer eller armer, slik at de fyller cellen sin.",
+    "Press sammen de brede bokstavene (m, w, M, W) og gjør skjøtene lettere, slik at de ikke ser mørkere ut enn resten.",
+    "Gjør tegn som ligner hverandre ulike: 0 med skråstrek eller prikk, l med hale, 1 med flagg og fot, og en tydelig I.",
+    "Hold en stor x-høyde, 0,70–0,80 av versalhøyden, for små størrelser på skjermer.",
+    "Hold strekkontrasten lav, 1,0–1,4:1."
+  ],
+  "anti_patterns": [
+    "Proporsjonale tall eller kerning i en kodeskrift",
+    "En O og en 0 som ser like ut",
+    "Ligaturer som skjuler de egentlige tegnene for en leser som kopierer koden",
+    "Monospace til lang leseprosa",
+    "Blokksatt tekst"
+  ],
+  "palette": []
+}

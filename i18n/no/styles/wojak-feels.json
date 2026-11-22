@@ -1,0 +1,49 @@
+{
+  "name": "Wojak og feels",
+  "aliases": [
+    "Wojak",
+    "Feels guy",
+    "Doomer-bloomer-familien"
+  ],
+  "summary": "Et skallet, strektegnet ansikt i grått og krem med en presis følelse, satt i et flatt panel med en bildetekst. Det startet på bildebrett rundt 2010 og står nå for mange roller. Denne oppføringen dekker bare den nøytrale tegneformen.",
+  "core_thesis": "Reduser en stemning til ett tegnet ansikt og en kort etikett, slik at leseren ser følelsen med én gang.",
+  "design_principles": [
+    "Tegn ansiktet som et skallet omriss på 2px i svart på et flatt kremfyll (#F5E6D3), med 5 til 8 ansiktslinjer.",
+    "Vis én følelse i hvert panel gjennom øyenbryn, munn og noen få tåre- eller svettemerker.",
+    "Sett figuren på et flatt felt i én farge, med hodet på 40 % til 60 % av høyden.",
+    "Legg til en etikett på 1 til 4 ord i en enkel sans-serif på 20px til 28px, i hvitt eller svart.",
+    "Sett sammenligningspaneler i 2 kolonner med en tynn skillelinje på 2px.",
+    "Hold linjene svakt ujevne, som tegnet for hånd med mus.",
+    "Bruk grått og dempede toner i bakgrunnen; spar én farge til fremheving."
+  ],
+  "anti_patterns": [
+    "Fotografiske ansikter",
+    "Polert gjengivelse med gradient",
+    "Mange farger i ett panel",
+    "Dekorative rammer",
+    "Lange tekstavsnitt",
+    "Virkelige navn eller private personer"
+  ],
+  "palette": [
+    {
+      "name": "Feltgrå",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Ansiktskrem",
+      "role": "figurfyll"
+    },
+    {
+      "name": "Linjesvart",
+      "role": "linje"
+    },
+    {
+      "name": "Tonet blå",
+      "role": "andre felt"
+    },
+    {
+      "name": "Stemningsrød",
+      "role": "fremheving"
+    }
+  ]
+}

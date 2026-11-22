@@ -1,0 +1,53 @@
+{
+  "name": "DeepDream-psykedelia",
+  "aliases": [
+    "DeepDream",
+    "Inceptionisme",
+    "Valpe-snegl-drømmer"
+  ],
+  "summary": "Fotografier som et nevralt nettverk fyller med øyne, hundeansikter, pagoder og virvlet pels i alle skalaer. Det startet i 2015 da Google ga ut koden som lagde effekten.",
+  "core_thesis": "En maskin som leter etter mønstre finner dem i alt: bildet viser det nettverket venter å se, og det viser det overalt.",
+  "design_principles": [
+    "Fyll bildet med gjentatte motiver: øyne, snuter, fjær og buer i 3 til 5 størrelser, fra 8px til 200px.",
+    "Kjør 4 til 8 oktaver av effekten, slik at små motiver ligger inni store.",
+    "Sett metningen på 130 % til 180 % og skyv fargetonen mot orange, lime og magenta over en mørk bunn (#14102A).",
+    "Bøy linjer til spiraler og bølgefelt; behold ingen rett kant lengre enn 10 % av bildet.",
+    "Behold én lesbar fotografisk base, for eksempel et landskap eller et ansikt, på omtrent 30 % synlighet under motivene.",
+    "Legg en enkel mono-bildetekstlinje på 16px nederst i bildet med lagnavnet, for eksempel inception_4c.",
+    "Løkk zoomen ved 12 fps: skaler bildet 1,03x for hvert bilde og mat det tilbake til nettverket."
+  ],
+  "anti_patterns": [
+    "Rene flate fargefelt uten gjentatt motiv",
+    "Rette, geometriske oppsett med brede marger",
+    "Fotorealistisk hud og mykt studiolys",
+    "Rolige enfargede paletter",
+    "Ett fokusmotiv på en tom bunn",
+    "Nøytral bedriftsskrift"
+  ],
+  "palette": [
+    {
+      "name": "Drømmeindigo",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Øyeorange",
+      "role": "primær"
+    },
+    {
+      "name": "Syrelime",
+      "role": "aksent"
+    },
+    {
+      "name": "Drømmemagenta",
+      "role": "andre aksent"
+    },
+    {
+      "name": "Bassengcyan",
+      "role": "utheving"
+    },
+    {
+      "name": "Pelskrem",
+      "role": "tekst"
+    }
+  ]
+}

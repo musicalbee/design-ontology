@@ -1,0 +1,52 @@
+{
+  "name": "Duett-delt skjerm",
+  "aliases": [
+    "Duettvideo",
+    "Side-om-side-reaksjon",
+    "Stitch og duett"
+  ],
+  "summary": "To videopaneler side om side i ett vertikalt bilde: kildeklippet på den ene halvdelen og en ny reaksjon eller opptreden på den andre. TikTok la til Duet-verktøyet i 2018.",
+  "core_thesis": "Bildet er en samtale: ett originalklipp, ett svar, begge synlige samtidig.",
+  "design_principles": [
+    "Del bildet på 1080 x 1920 px i to paneler på 540 x 960 px i midten, eller i to halvdeler på 1080 x 960 px.",
+    "Hold et mellomrom på 4 px i sidefargen mellom de to panelene.",
+    "Spill begge lydsporene fra én tidslinje og synkroniser starten med bildet.",
+    "Merk den opprinnelige skaperen med en håndtaksetikett på 24 px nederst til venstre i panelet.",
+    "Gi det reagerende panelet en aksentkant på 2 px (#FE2C55) slik at seeren ser hvem som svarer.",
+    "Hold bildetekster i den døde stripen under panelene på 40 px, høyst 2 linjer.",
+    "Hold klipperytmen på 1 klipp hvert 2 s til 3 s bare på svarsiden."
+  ],
+  "anti_patterns": [
+    "Ett enkelt fullformatsbilde uten et andre panel",
+    "Overlappende paneler som skjuler ansikter",
+    "Ulike bildeforhold i hvert panel",
+    "Store tittelkort som dekker klippene",
+    "Kildeklipp uten merking"
+  ],
+  "palette": [
+    {
+      "name": "Blekk",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Svarrød",
+      "role": "primær"
+    },
+    {
+      "name": "Kildecyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Aske",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Panelgrå",
+      "role": "flate"
+    }
+  ]
+}

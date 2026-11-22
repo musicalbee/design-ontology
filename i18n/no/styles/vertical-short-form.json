@@ -1,0 +1,31 @@
+{
+  "name": "Vertikal kortvideo",
+  "aliases": [
+    "TikTok-stil",
+    "Reels-stil",
+    "Shorts-stil",
+    "9:16-video"
+  ],
+  "summary": "Et fullskjerms 9:16-klipp på 15 til 45 s, filmet på en telefon og klippet hvert 1,5 til 3 sekund. En krok i første sekund, innbrente tekster og en lyd som kan loope. Feeden bestemmer hver regel.",
+  "core_thesis": "En seer sveiper på 1 til 2 s, så hvert sekund må fortjene det neste: kroken, klippet og teksten er hele designet.",
+  "design_principles": [
+    "Komponer i 9:16 med 1080 × 1920 px, 30 fps (24 eller 60 er tillatt), 180° lukker, og fyll skjermen fra kant til kant.",
+    "Legg kroken i de første 1 til 2 s: et ansikt, en bevegelse eller en tekstlinje; det første klippet kommer innen 3 s.",
+    "Klipp eller bytt bilde hvert 1,5 til 3 s: ny vinkel, ny skala, et innzoom på 10 % til 20 % eller en ny tekst.",
+    "Hold ansikter og tekster innenfor sikkerhetssonen: la de nederste 20 % og de øverste 7 % av høyden og de 12 % til høyre av bredden stå frie for grensesnittet.",
+    "Brenn inn tekster på 1 til 6 ord for hvert slag, på 48 px eller større i et bilde som er 1080 px bredt, høyst 2 linjer.",
+    "Film med hovedkameraet på 24mm (fullformat) 0,3 til 1,5 m fra motivet, med et ringlys eller et vindu på 5600K.",
+    "Avslutt slik at klippet loopes: tilpass siste bilde til det første, og hold spilletiden på 15 til 45 s.",
+    "Miks til −14 LUFS integrert med stemmen over en trendende eller loopet lyd."
+  ],
+  "anti_patterns": [
+    "Et horisontalt 16:9-klipp med svarte striper over og under",
+    "En sakte intro eller en logo før kroken",
+    "Tekster under plattformens grensesnitt eller i sikkerhetsmarginen",
+    "Et bredt etableringsbilde holdt i mer enn 3 s",
+    "En filmatisk letterbox med en 2,39:1-beskjæring",
+    "En stemme uten tekst i en feed som spilles av uten lyd",
+    "Et klipp på over 60 s uten vinkelskifte"
+  ],
+  "palette": []
+}

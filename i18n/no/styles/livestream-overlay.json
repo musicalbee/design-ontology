@@ -1,0 +1,53 @@
+{
+  "name": "Direktesendingsoverlegg",
+  "aliases": [
+    "Strømmeoverlegg",
+    "Twitch-oppsett",
+    "Strømmerscene"
+  ],
+  "summary": "En ramme rundt et direkte spill eller kamera. Den har en plass for facecam, et chattepanel, en varselboks og et navnefelt. Neonkanter og animerte paneler viser at sendingen er direkte.",
+  "core_thesis": "Et direkteshow trenger et kontrollrom på skjermen: rammen holder hvert direktesignal på faste plasser, så seeren alltid vet hvor hen skal se.",
+  "design_principles": [
+    "Del bildet på 1920x1080 i faste plasser: spill 1440x810, facecam 360x270, chat 360x540 og en linje på 1920x80.",
+    "Ramm inn hver plass med en linje på 2px i aksentfargen og kutt hjørnene i 45° over 12px.",
+    "Sett en LIVE-merkelapp med en pulserende prikk på 12px i øvre venstre hjørne til enhver tid.",
+    "Sett varselbokser på 480x120 med en innglidning på 300ms og en holdetid på 5s.",
+    "Vis siste følger, donasjon og abonnent i små monoetiketter på 14px til 18px.",
+    "Bruk en mørk bunn (#0E0E12) med ett neonaksent (#9146FF eller #00F0A0) og en annen farge bare til varsler.",
+    "Hold spillplassen fri for overlegg bortsett fra varselboksen og LIVE-merkelappen."
+  ],
+  "anti_patterns": [
+    "Myke, stille oppsett uten plasser",
+    "Opptak i full bredde uten ramme",
+    "Pastellpaletter",
+    "Dekorative skrifter og seriffer",
+    "Statiske paneler uten direktesignal",
+    "Varselbokser som dekker midten av spillet"
+  ],
+  "palette": [
+    {
+      "name": "Kontrollsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelskifer",
+      "role": "flate"
+    },
+    {
+      "name": "Signalhvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Strømmeviolett",
+      "role": "primær"
+    },
+    {
+      "name": "Varselmynte",
+      "role": "aksent"
+    },
+    {
+      "name": "Direkterød",
+      "role": "høylys"
+    }
+  ]
+}

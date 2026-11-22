@@ -1,0 +1,54 @@
+{
+  "name": "Kassettfuturisme",
+  "aliases": [
+    "Retrofuturisme fra den analoge tiden",
+    "Brukt fremtid",
+    "Kassettpunk"
+  ],
+  "summary": "Klumpete maskinvare fra en fremtid forestilt på kassett: CRT-skjermer, membrantaster, vippebrytere og beige kabinetter, med amber eller grønn fosfortekst. Den henter fra Syd Meads industrielle fremtider og japansk bobleøkonomi-elektronikk. Uttrykket er funksjonelt, slitt og litt trangt.",
+  "core_thesis": "Fremtiden er en maskin med synlige brytere: hver funksjon har en fysisk kontroll, en etikett og et statuslys, og kabinettet viser slitasjen etter bruk.",
+  "design_principles": [
+    "Sett tekst i fosforamber (#FFB000) eller grønt (#33FF66) på en nesten svart bunn (#14130F) med kontrast på 9:1 eller mer.",
+    "Bygg paneler som kabinetter i beige (#D8D0B8) eller grått (#9A9A8E) med 4px radius, en mørk kant på 2px og en lys toppkant på 1px.",
+    "Merk hver kontroll i mono med versaler på 12px med +0,08em sporing, og plasser etiketten over kontrollen.",
+    "Grupper kontroller i rom på et rutenett med 12 kolonner og 16px rennesteiner; skill rommene med en 2px rille.",
+    "Legg til et statuslys på 8px, en vippebryter, en segmentvisning eller et kassettvindu på hvert hovedpanel.",
+    "Ramm inn hovedskjermen som en CRT: 8 % hjørneradius, et indre 1px skjær og skannelinjer på 2px ved 8 % dekning.",
+    "Legg trykte merker på kabinettene: delenumre, piler og én farestripe på 8px i orange (#E8662B) eller gul."
+  ],
+  "anti_patterns": [
+    "Runde pillknapper med myke skygger",
+    "Pastellgradienter og glassuskarphet",
+    "Skjulte kontroller bak ikoner uten etikett",
+    "Rene hvite flater uten slitasje",
+    "Proporsjonal sans-serif-brødtekst",
+    "Glatt, sømløs maskinvare uten synlige brytere",
+    "Neonrosa og cyan glød"
+  ],
+  "palette": [
+    {
+      "name": "Rørsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kabinettbeige",
+      "role": "kabinettflate"
+    },
+    {
+      "name": "Amberfosfor",
+      "role": "primær"
+    },
+    {
+      "name": "Grønn fosfor",
+      "role": "aksent"
+    },
+    {
+      "name": "Varselorange",
+      "role": "utheving"
+    },
+    {
+      "name": "Panelgrå",
+      "role": "andre flate"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Discord-server",
+  "aliases": [
+    "Chatserver",
+    "Fellesskapsserver"
+  ],
+  "summary": "En mørk chatapp for et fellesskap: en skinne med runde serverikoner, en liste over tekst- og talekanaler, en strøm av meldinger i tidsrekkefølge med avatarer og emoji-reaksjoner under hver melding.",
+  "core_thesis": "Et fellesskap lever i et rom som alltid er åpent, og praten flyter i sanntid i stedet for i tråder.",
+  "design_principles": [
+    "Bruk tre kolonner: en skinne på 72px med runde serverikoner, en kanalliste på 240px og meldingsstrømmen.",
+    "Gi tekstkanaler et # i navnet og talekanaler et høyttalerikon.",
+    "Vis hver meldingsgruppe med en rund avatar på 40px, et farget brukernavn, et tidsstempel og teksten under.",
+    "Legg emoji-reaksjoner under en melding som små piller med et tall.",
+    "Bruk en mørk grå bunn med en blåfiolett merkevarefarge til de aktive elementene.",
+    "Gi hver rolle en farge og sett brukernavnet i den fargen."
+  ],
+  "anti_patterns": [
+    "Lyse temaer med hvitt rom",
+    "Tråder som hovedstruktur",
+    "Innlegg med titler og poengsum",
+    "Seriff i brødteksten i chatten",
+    "Statiske sider uten tilstedeværelse"
+  ],
+  "palette": [
+    {
+      "name": "Skinnesvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kanalgrå",
+      "role": "panel"
+    },
+    {
+      "name": "Chatgrå",
+      "role": "panel"
+    },
+    {
+      "name": "Tekst hvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Dempet grå",
+      "role": "dempet"
+    },
+    {
+      "name": "Blurple",
+      "role": "primær"
+    },
+    {
+      "name": "Pålogget grønn",
+      "role": "aksent"
+    }
+  ]
+}

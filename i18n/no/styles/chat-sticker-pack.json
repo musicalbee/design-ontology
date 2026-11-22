@@ -1,0 +1,57 @@
+{
+  "name": "Chat-klistremerkepakke",
+  "aliases": [
+    "Messenger-klistremerker",
+    "LINE-klistremerker",
+    "Klistremerkesett"
+  ],
+  "summary": "Et sett på 8 til 40 tegnede figurer med en positur, et stort ansikt og ett kort ord, sendt i en chat som et bilde. Meldingstjenesten LINE gjorde formen vanlig i Asia fra 2011.",
+  "core_thesis": "En figur med et stort ansikt sier det en setning ikke kan: chatten får en maskot med stemme.",
+  "design_principles": [
+    "Tegn én figur i et sett på 8, 16, 24 eller 40 positurer på en firkant på 370px ganger 320px eller mindre.",
+    "Omgi hver positur med en hvit kant på 6px til 8px, og legg en mørk linje på 3px rundt figuren.",
+    "Gi figuren et hode på 50 % av kroppshøyden, to prikkøyne og en munn av 1 til 3 streker.",
+    "Legg ett kort ord på 1 til 3 ord i avrundet skrift, med en hvit kontur på 4px, i et hjørne av klistremerket.",
+    "Fyll former med flat farge fra en palett på 5 til 7 fargetoner og hold skyggingen til én tone.",
+    "Vipp figuren 2° til 4° og la hender og en snakkehale bryte firkantkanten.",
+    "Vis pakken som et 4 ganger 2-rutenett av miniatyrer på 96px på et blekgrønt felt."
+  ],
+  "anti_patterns": [
+    "Realistiske ansikter med fin skyggelegging",
+    "Lange setninger inni et klistremerke",
+    "Tynne linjer på 1px som forsvinner ved 96px",
+    "Bakgrunnsbokser som skjuler utklippskanten",
+    "Figurer uten følelse i ansiktet",
+    "Blandede illustrasjonsstiler i ett sett"
+  ],
+  "palette": [
+    {
+      "name": "Chatmynte",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortkvit",
+      "role": "flate"
+    },
+    {
+      "name": "Linjeblekk",
+      "role": "tekst og kontur"
+    },
+    {
+      "name": "Chatgrønn",
+      "role": "primær"
+    },
+    {
+      "name": "Poporange",
+      "role": "aksent"
+    },
+    {
+      "name": "Mose",
+      "role": "dempet tekst"
+    },
+    {
+      "name": "Himmelpop",
+      "role": "andre aksent"
+    }
+  ]
+}

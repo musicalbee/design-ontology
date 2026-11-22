@@ -1,0 +1,53 @@
+{
+  "name": "Dypstekt meme",
+  "aliases": [
+    "Deep fried",
+    "Stekt meme",
+    "Sprø meme"
+  ],
+  "summary": "Et memebilde som er presset gjennom mange runder med lagring, skarphet og fargeforsterkning til det viser tunge JPEG-blokker, brente røde og gule toner, linseflimmer og glødende emojier. Det spredte seg på Reddit og Tumblr i 2017.",
+  "core_thesis": "Vis skaden som vitsen: et bilde så kopiert og forsterket at selve forfallet er stilen.",
+  "design_principles": [
+    "Komprimer bildet på nytt til JPEG-kvalitet 5 til 15, 3 til 10 ganger, med en endring av størrelse på 50 % og 200 % mellom rundene.",
+    "Øk metningen med 150 % til 300 % og kontrasten med 40 % til 80 % til de røde tonene brenner.",
+    "Skjerp med 150 % slik at støy vises rundt hver kant.",
+    "Legg til linseflimmer, glødende øyne eller et laserglimt i rødt (#FF1A1A) og gult (#FFE000).",
+    "Legg til lattergråt- eller 100-emojier på 10 % til 20 % av lerretet og en bildetekst i konturerte versaler i Impact-stil.",
+    "Legg til et ytre skjær på 2px til 4px i orange på teksten.",
+    "Hold motivet lesbart: ansiktet eller gjenstanden skal kunne gjenkjennes ved 25 % størrelse."
+  ],
+  "anti_patterns": [
+    "Ren, skarp, moderne gradering",
+    "Subtile, jevne toner",
+    "Ryddig, justert bildetekst",
+    "Tapsfri eksport av et ferskt foto",
+    "Myke pastellfarger",
+    "Brede tomme marger"
+  ],
+  "palette": [
+    {
+      "name": "Brent rød",
+      "role": "aksent"
+    },
+    {
+      "name": "Stekegul",
+      "role": "utheving"
+    },
+    {
+      "name": "Varm orange",
+      "role": "glød"
+    },
+    {
+      "name": "Knust svart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Blitshvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Cyanstøy",
+      "role": "støy"
+    }
+  ]
+}

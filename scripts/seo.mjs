@@ -54,10 +54,13 @@ for (const name of readdirSync("demo").filter((n) => n.endsWith(".html")).sort()
   pages.push({ url, mod: lastmod(path) });
 }
 
-// Generated style pages (scripts/pages.mjs): one canonical URL each, all in the sitemap.
-if (existsSync("style")) {
-  const mod = lastmod("style");
-  for (const n of readdirSync("style").filter((x) => x.endsWith(".html")).sort()) pages.push({ url: `${BASE}style/${n}`, mod });
+// Generated style pages (scripts/pages.mjs): one canonical URL each per language, all in the sitemap with hreflang.
+const HLS = { style: "en", "ru/style": "ru", "no/style": "nb" };
+const altOf = (n) => Object.entries(HLS).filter(([d]) => existsSync(`${d}/${n}`)).map(([d, h]) => ({ h, href: `${BASE}${d}/${n}` }));
+for (const d of Object.keys(HLS)) {
+  if (!existsSync(d)) continue;
+  const mod = lastmod(d);
+  for (const n of readdirSync(d).filter((x) => x.endsWith(".html")).sort()) pages.push({ url: `${BASE}${d}/${n}`, mod, alt: altOf(n), xdef: `${BASE}style/${n}` });
 }
 
 // Root: GitHub Pages serves nothing at /design-ontology/ without an index.
@@ -76,8 +79,8 @@ writeFileSync("index.html", `<!doctype html>
 `);
 
 writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages.map((p) => `  <url><loc>${p.url}</loc>${p.mod ? `<lastmod>${p.mod}</lastmod>` : ""}</url>`).join("\n")}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${pages.map((p) => `  <url><loc>${p.url}</loc>${p.mod ? `<lastmod>${p.mod}</lastmod>` : ""}${p.alt ? p.alt.map((a) => `<xhtml:link rel="alternate" hreflang="${a.h}" href="${a.href}"/>`).join("") + `<xhtml:link rel="alternate" hreflang="x-default" href="${p.xdef}"/>` : ""}</url>`).join("\n")}
 </urlset>
 `);
 writeFileSync("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${BASE}sitemap.xml\n`);

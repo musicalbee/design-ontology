@@ -1,0 +1,54 @@
+{
+  "name": "Cybercore-nett",
+  "aliases": [
+    "Cybercore",
+    "Cyber Y2K",
+    "Techwear-nett"
+  ],
+  "summary": "Svarte bunner, syregrønne eller cyan aksenter, krom, kantede kutt, HUD-rammer, små versaletiketter med data og glitch. Det blander 1990-tallets cyberfiksjon med techwear, og føles som et maskingrensesnitt.",
+  "core_thesis": "Siden er et maskingrensesnitt: skarp, merket, kald og tett på data.",
+  "design_principles": [
+    "Sett bunnen til #05070A og bruk 1 syreaksent (#C6FF00 eller #00F0FF) på høyst 10 % av flaten.",
+    "Kutt hjørner ved 45° med en clip-path på 8px til 16px på kort og knapper; sett radius til 0px ellers.",
+    "Ramm inn paneler med en 1px linje i aksentfargen ved 40 % og legg til 4 hjørnemerker på 8px til 12px.",
+    "Sett dataetiketter på 10px til 12px i versaler med sporing på +0,12em til +0,2em i en mono eller en bred displayskrift.",
+    "Legg til en glitch ved hover: forskyv tekstlagene med 2px til 4px i cyan og magenta i 120ms til 200ms.",
+    "Legg skannelinjer på 2px ved 6 % til 10 % dekning og et korn på 3 % til 5 % over.",
+    "Legg til 3 eller flere HUD-dataelementer per skjerm: en kode, en koordinat, et versjonsnummer eller en tidtaker."
+  ],
+  "anti_patterns": [
+    "Myke pastellpaletter",
+    "Runde hjørner over 4px",
+    "Vennlig illustrasjon",
+    "Store tomme flater uten noen dataetikett",
+    "Varm fotografi med naturlig farge",
+    "Seriff i brødtekst",
+    "Myke slagskygger på kort"
+  ],
+  "palette": [
+    {
+      "name": "Tomrom",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Syre",
+      "role": "primær"
+    },
+    {
+      "name": "Cyan",
+      "role": "aksent"
+    },
+    {
+      "name": "Krom",
+      "role": "tekst"
+    },
+    {
+      "name": "Stål",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Alarm",
+      "role": "varsel"
+    }
+  ]
+}

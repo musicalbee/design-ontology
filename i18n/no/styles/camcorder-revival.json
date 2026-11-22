@@ -1,0 +1,30 @@
+{
+  "name": "Videokamera-revival",
+  "aliases": [
+    "VHS-look",
+    "Kassettlook",
+    "Hjemmevideolook",
+    "Y2K-videokamera"
+  ],
+  "summary": "Et 4:3-bilde med båndstøy, datostempel og en ustø hånd. Det ser ut som en hjemmevideo fra 1985 til 2005. Skapere filmer på gamle Hi8- og MiniDV-kameraer eller legger på looken i etterarbeidet, for å virke nær og uferdig.",
+  "core_thesis": "Et ufullkomment bilde med lav oppløsning ser ut som et ekte minne, så feilen er beviset på øyeblikket.",
+  "design_principles": [
+    "Komponer i 4:3 med 640 × 480 px (SD), og behold 4:3 i en vertikal feed med uskarp sidefyll.",
+    "Film med 29,97 fps (NTSC) eller 25 fps (PAL) i 60i eller 50i, med fast lukker på 1/60 s eller 1/50 s og en autoeksponering som pumper 0,5 til 1 blenderstopp.",
+    "Legg et datostempel eller et REC- og batteriikon i hjørnet, for eksempel 'NOV 18 2003', med 5 % av bildehøyden i oransje eller hvitt.",
+    "Hev svartnivået til 8 % til 10 %, klipp høylysene ved 100 % med en bloom på 5 til 10 px, og sett metningen til +25 %.",
+    "Legg til fargeutflytning på 2 til 4 px til høyre for røde kanter, 8 % til 15 % støy og en sporingsfeil på 4 til 12 bilder, høyst én gang i minuttet.",
+    "Hold opptak på 8 til 30 s i håndholdt, med vidvinkel tilsvarende 35mm til 40mm, og la zoomen lete én gang per opptak.",
+    "Ta opp lyden med kameramikrofonen, mono, på omtrent −18 LUFS integrert, med vind og 3 til 6 dB pumping fra automatisk forsterkning."
+  ],
+  "anti_patterns": [
+    "Et skarpt 4K-bilde med et flatt overlegg",
+    "En myk gimbalbevegelse",
+    "En 2,39:1-beskjæring",
+    "En voice-over-miks i studiokvalitet",
+    "En teal-og-oransje gradering",
+    "En stabel av effekter på hvert opptak",
+    "Et jevnt filter uten håndholdt risting"
+  ],
+  "palette": []
+}

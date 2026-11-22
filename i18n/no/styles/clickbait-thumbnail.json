@@ -1,0 +1,53 @@
+{
+  "name": "Klikkagn-miniatyr",
+  "aliases": [
+    "YouTube-miniatyr",
+    "Miniatyr med reaksjonsansikt",
+    "MrBeast-aktig miniatyr"
+  ],
+  "summary": "Et lite stillbilde som må vinne et klikk ved 168px bredde. Det har et enormt ansikt med åpen munn, en rød pil eller sirkel, sterke farger og 1 til 3 ord i tykk kontur.",
+  "core_thesis": "Stillbildet har ett sekund på å stille et spørsmål: vis ett tydelig sjokk, ett objekt og 3 ord, og gjør det lesbart i størrelsen av en tommel.",
+  "design_principles": [
+    "Lag bildet i 1280x720 og test det ved 168px bredde før du leverer det.",
+    "Fyll 40 % til 60 % av bildet med ett ansikt i et sterkt uttrykk, frikuttet med en hvit kant på 6px.",
+    "Bruk høyst 3 ord i en tykk displayskrift på 120px til 200px med en svart kontur på 8px.",
+    "Tegn én pil eller sirkel i rødt (#FF0000) eller gult (#FFE500) som peker på nøkkelobjektet.",
+    "Øk metningen med 20 % til 40 % og legg til en vignett på 12 % mot kanten.",
+    "Del bildet i 2 halvdeler (før og etter, eller A og B) med en diagonal linje på 8px.",
+    "Hold all tekst og alle ansikter 48px unna nederste høyre hjørne, der varighetsmerket sitter."
+  ],
+  "anti_patterns": [
+    "Rolig, subtil farge og myk gradering",
+    "Lange titler på 6 ord eller mer",
+    "Små ansikter og brede, tomme scener",
+    "Tynn skrift eller seriff",
+    "Nøytrale uttrykk",
+    "Mange små objekter uten ett tydelig fokus"
+  ],
+  "palette": [
+    {
+      "name": "Sjokkblå",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortsvart",
+      "role": "flate"
+    },
+    {
+      "name": "Konturhvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Pilrød",
+      "role": "primær"
+    },
+    {
+      "name": "Agnegul",
+      "role": "aksent"
+    },
+    {
+      "name": "Varm hud",
+      "role": "utheving"
+    }
+  ]
+}

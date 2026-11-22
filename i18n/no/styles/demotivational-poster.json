@@ -1,0 +1,48 @@
+{
+  "name": "Demotivasjonsplakat",
+  "aliases": [
+    "Demotivator",
+    "Fortvilelsesplakat"
+  ],
+  "summary": "En svart plakat med en tynn hvit ramme, et foto, en stor seriftittel i versaler og en liten linje med trist eller tørr tekst. Den parodierer kontorets motivasjonsplakat og spredte seg på nettforum fra 2004.",
+  "core_thesis": "Gjør den muntre kontorplakaten til en tørr vits: samme ramme og oppsett, med en dyster bildetekst.",
+  "design_principles": [
+    "Fyll lerretet med svart (#000000) og behold en marg på 6 % til 8 % rundt bildet.",
+    "Ramm inn bildet med en hvit linje på 2px og et mellomrom på 3px svart mellom bildet og linjen.",
+    "Sett tittelen i hvite seriffversaler på 56px til 72px, sentrert, 24px under rammen, med +0,12em sporing.",
+    "Sett én linje bildetekst i 18px seriff i #C8C8C8, sentrert, 12px under tittelen.",
+    "Velg et fotografi med ett tydelig motiv; avmett det med 10 % til 30 % og beskjær det til 4:3.",
+    "Hold det totale forholdet nær 4:5; bildet tar 66 % til 72 % av høyden.",
+    "Skriv en tittel på ett ord og en bildetekst på én setning; bildeteksten sier et hardt faktum med rolig stemme."
+  ],
+  "anti_patterns": [
+    "Sterke fargede bakgrunner",
+    "Avrundede rammer eller slagskygger",
+    "Håpefulle, oppriktige bildetekster",
+    "Sans-serif-titler",
+    "Mer enn to linjer bildetekst",
+    "Travel kollasje i stedet for ett motiv"
+  ],
+  "palette": [
+    {
+      "name": "Plakatsvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Rammehvit",
+      "role": "primær"
+    },
+    {
+      "name": "Bildetekstgrå",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Fotoskifer",
+      "role": "fototone"
+    },
+    {
+      "name": "Varselrød",
+      "role": "aksent"
+    }
+  ]
+}

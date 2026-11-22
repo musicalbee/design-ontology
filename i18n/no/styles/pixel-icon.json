@@ -1,0 +1,25 @@
+{
+  "name": "Pikselikon",
+  "aliases": [
+    "Bitmap-ikon",
+    "Pikselkunst-ikon"
+  ],
+  "summary": "Ikoner tegnet på et hardt pikselrutenett, ett kvadrat om gangen. Hver piksel er av eller på, kantene er trapper, og settet har 1 til 16 farger. Stilen startet med lav skjermoppløsning og vender nå tilbake som et retrovalg.",
+  "core_thesis": "Et ikon er et sett med kvadratiske piksler på et fast rutenett, og rutenettet er en del av uttrykket, ikke en begrensning som må skjules.",
+  "design_principles": [
+    "Tegn på et rutenett på 16 × 16 eller 32 × 32 px, og plasser hver kant på en hel piksel.",
+    "Bruk rette strekninger og trinn på 1:1, 1:2 eller 2:1 for diagonaler; en kurve er en rekke slike trinn.",
+    "Hold omrisset 1 px bredt ved 16 px og 2 px bredt ved 32 px.",
+    "Bruk 1 til 4 farger for en UI-glyf og høyst 16 for et app-ikon, uten kantutjevning.",
+    "Skaler bare med hele multipler (2×, 3×, 4×) med nærmeste-nabo-sampling.",
+    "La det være en fri marg på 1 px inne i rutenettet på hver side."
+  ],
+  "anti_patterns": [
+    "Kantutjevnede, myke kanter",
+    "Piksler på halvpikselposisjoner",
+    "Glatte vektorkurver på et pikselrutenett",
+    "Gradienter og myke skygger",
+    "Skalering med en brøk som 1,5×"
+  ],
+  "palette": []
+}

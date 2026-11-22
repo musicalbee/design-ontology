@@ -1,0 +1,53 @@
+{
+  "name": "Seapunk",
+  "aliases": [
+    "Sea punk",
+    "Havpunk"
+  ],
+  "summary": "Turkis og akvamarint vann, delfiner, skjell, flytende 3D-former og batikk, med nettgrafikk fra 1990-tallet. Det startet som en spøketweet i 2011 og vokste til et havtema i musikk og mote.",
+  "core_thesis": "Sett det tidlige nettet under vann: 3D-formene, klippkunsten og gradientene svever på et hav av turkis.",
+  "design_principles": [
+    "Sett bunnen som en vertikal gradient fra akvamarin (#7FFFD4) øverst til dyphavsblå (#0B3D91) nederst.",
+    "La 3 til 6 blanke former (pyramider, kuler, ringer) flyte i ulike størrelser og drive over oppsettet.",
+    "Plasser ett marint motiv på 30 % til 50 % av bildet: en delfin, et skjell eller en bølge.",
+    "Sett displaytekst med 2 fargestopp fra #00F5D4 til #9B5DE5 og en mørk kant på 2px.",
+    "Legg et batikk- eller bølgemønster ved 15 % dekning over ett panel.",
+    "Legg til en pikselgnist på 8px på 4 eller flere punkter i bildet.",
+    "Hold tekstpanelene på dyphavsbunn (#0B3D91) med tekst ved 7:1 kontrast."
+  ],
+  "anti_patterns": [
+    "Dempede jordtoner",
+    "Realistiske havfoto uten digitalt lag",
+    "Flate bedriftsoppsett",
+    "Tørr, alvorlig tekst",
+    "Tette grå tabeller",
+    "Tynn seriff-brødtekst",
+    "Varme solnedgangspaletter"
+  ],
+  "palette": [
+    {
+      "name": "Dyphav",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Akvamarin",
+      "role": "primær"
+    },
+    {
+      "name": "Turkis",
+      "role": "aksent"
+    },
+    {
+      "name": "Lilla",
+      "role": "andre aksent"
+    },
+    {
+      "name": "Korallrosa",
+      "role": "høylys"
+    },
+    {
+      "name": "Skumhvit",
+      "role": "tekst"
+    }
+  ]
+}

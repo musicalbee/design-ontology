@@ -1,0 +1,57 @@
+{
+  "name": "AI-slop",
+  "aliases": [
+    "Slop",
+    "Engasjementsagn med AI-bilder",
+    "Fyllkunst til feeden"
+  ],
+  "summary": "Masseproduserte genererte bilder i sosiale feeder: plastblankt, et generisk motiv, forvridde hender, falsk tekst og en agnbildetekst. Ordet slop om slikt innhold spredte seg i 2024.",
+  "core_thesis": "Bildet finnes for å fylle en feed: det har høy finish, ingen avsender og ingen mening, og de små feilene viser mangelen på omsorg.",
+  "design_principles": [
+    "Velg et generisk, følelsesladet motiv: et barn med en kake, en tømmerhytte i solnedgang, et dyr laget av frukt.",
+    "Gjengi motivet med full glans og et varmt skjær (#FFD08A) og en metning på 120 %.",
+    "La 1 til 3 feil stå i hvert bilde: en ekstra finger, et skilt med falske bokstaver eller en søm i bakgrunnen.",
+    "Legg en agnbildetekst på 16px til 20px over bildet, i vanlig sans, med 2 til 4 emojier.",
+    "Legg til en reaksjonsrad med 3 runde ikoner og et tall i 14px under bildet.",
+    "Sett en kvadratisk 1:1- eller 4:5-ramme på 1080px bredde, med en lys 1px kant på en lysegrå feed (#F2F3F5).",
+    "Post det samme motivet i 6 til 12 nesten like kopier, med små endringer i farge eller utsnitt."
+  ],
+  "anti_patterns": [
+    "En tydelig avsender og et oppgitt formål",
+    "Nøye, håndtegnet detalj",
+    "Ærlig, stille fotografi",
+    "Måtehold i glans og farge",
+    "Sterkt redaksjonelt oppsett",
+    "Feil som blir rettet"
+  ],
+  "palette": [
+    {
+      "name": "Feedgrå",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Kortkvit",
+      "role": "flate"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Feedblå",
+      "role": "primær"
+    },
+    {
+      "name": "Plastorange",
+      "role": "aksent"
+    },
+    {
+      "name": "Varmt skjær",
+      "role": "bildereferanse"
+    },
+    {
+      "name": "Død grå",
+      "role": "dempet"
+    }
+  ]
+}

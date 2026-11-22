@@ -1,0 +1,54 @@
+{
+  "name": "Weirdcore",
+  "aliases": [
+    "Oddcore",
+    "Strangecore",
+    "Creepycore"
+  ],
+  "summary": "Foto av lav kvalitet av tomme steder, rød varseltekst, svarte tomrom, ansiktsløse former og gamle 3D- eller nettfragmenter. Stemningen er et underlig drømmeminne. Det vokste på Tumblr, Reddit og Twitter.",
+  "core_thesis": "Gjør noe kjent galt på én liten måte, og la den dårlige bildekvaliteten bære uroen.",
+  "design_principles": [
+    "Bruk et foto i lav oppløsning (320px til 640px bredt) skalert opp uten utjevning, med synlige JPEG-blokker.",
+    "Gi fotoet et fargeskift på 10 % til 20 % mot gulgrønt eller magenta.",
+    "Plasser ett svart rektangel (tomrommet) på 5 % til 15 % av bildet over et sentralt område.",
+    "Sett én linje med rød (#E01B1B) tekst på 14px til 24px, som et tall eller en kort frase.",
+    "Legg til én feil detalj: et ansikt uten trekk, en andre horisont eller en dør uten vegg.",
+    "Legg til et datostempel eller et plusstegn på 12px i et hjørne.",
+    "Hold bildet utenfor sentrum med 8 % til 20 %."
+  ],
+  "anti_patterns": [
+    "Rent studiolys",
+    "Skarpt fotografi i høy oppløsning",
+    "Muntre lyse paletter",
+    "Symmetriske, polerte oppsett",
+    "Dekorative sløyfer",
+    "Glatt vektorillustrasjon",
+    "Vennlige maskotfigurer"
+  ],
+  "palette": [
+    {
+      "name": "Tomromssvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Matt lysrør",
+      "role": "primær"
+    },
+    {
+      "name": "Feilrød",
+      "role": "aksent"
+    },
+    {
+      "name": "Teppeblågrønn",
+      "role": "andre aksent"
+    },
+    {
+      "name": "Gammel vegg",
+      "role": "tekst"
+    },
+    {
+      "name": "Støvgrå",
+      "role": "dempet"
+    }
+  ]
+}

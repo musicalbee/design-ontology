@@ -1,0 +1,26 @@
+{
+  "name": "Voksel-blokkverden",
+  "aliases": [
+    "Blokkaktig voksel",
+    "Utseende for byggeklosser",
+    "Kubeverden"
+  ],
+  "summary": "Verden er et rutenett av kuber på 1 m, hver med en 16×16 piksler stor tekstur på flatene. Hvert hus, rom og hver bakke bygges blokk for blokk, med nærmeste-nabo-piksler og enkelt flatelys.",
+  "core_thesis": "Hvis verden er et rutenett av like blokker, kan alle bygge i den, og selve rutenettet blir stilen.",
+  "design_principles": [
+    "Bygg hver flate av kuber på 1 m i et 3D-rutenett.",
+    "Tekstur hver flate med 16×16 px pikselkunst, skalert uten filter.",
+    "Lys hver flate etter retningen: toppen lysest, sidene middels, bunnen mørkest.",
+    "Hold figurene blokkaktige: en kropp av rektangulære bokser.",
+    "Bruk klare, mettede materialfarger: gressgrønn, jordbrun, steingrå.",
+    "La byggverk leses som stablede blokker; unngå å skjule rutenettet."
+  ],
+  "anti_patterns": [
+    "Glatte kurver eller skråkanter",
+    "Teksturer i høy oppløsning eller med filter",
+    "Gjenstander utenfor blokkrutenettet",
+    "Realistiske figurer",
+    "Fotografiske materialer"
+  ],
+  "palette": []
+}

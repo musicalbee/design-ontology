@@ -1,0 +1,53 @@
+{
+  "name": "ASMR-video",
+  "aliases": [
+    "ASMR",
+    "Hviskevideo",
+    "Frysningsvideo"
+  ],
+  "summary": "Et mykt, nært bilde med en mikrofon tett på motivet. Sakte hender tapper, børster og hvisker. Uttrykket er dunkelt, varmt og stille, med nesten ingen tekst, fordi lyden gjør jobben.",
+  "core_thesis": "Senk tempoet i bildet så det passer lyden: en rolig ramme, mykt lys og en nær mikrofon får seeren til å slappe av.",
+  "design_principles": [
+    "Lys scenen ved 2700K til 3200K med én myk lampe og hold høylysene under 85 % hvitt.",
+    "Plasser motivet innenfor 30cm fra linsen og hold bakgrunnen ute av fokus ved f/2 eller videre.",
+    "Beveg deg i halv fart: én handling hvert 4s til 8s, uten plutselige klipp.",
+    "Hold hvert bilde i minst 8s og kryssoverton med 1s til 2s når et klipp trengs.",
+    "Bruk en dempet gradering med løftede svartnivåer (#1A1614) og ingen ren hvit.",
+    "Hold teksten til en tittel på 24px ved 70 % dekning de første 3s; legg ikke til undertekster.",
+    "Vis begge stereosidene med en gjenstand til venstre og en til høyre, 1m fra hverandre, slik at seeren ser lyden bevege seg."
+  ],
+  "anti_patterns": [
+    "Høylytte, mettede farger",
+    "Raske klipp under 3s",
+    "Store titler og piler på skjermen",
+    "Hardt, kaldt lys",
+    "Skarpe zoomer og risting",
+    "Travle bakgrunner med mange små detaljer"
+  ],
+  "palette": [
+    {
+      "name": "Dunkelt rom",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Fløyelsbrun",
+      "role": "flate"
+    },
+    {
+      "name": "Kremtekst",
+      "role": "tekst"
+    },
+    {
+      "name": "Rosekvarts",
+      "role": "primær"
+    },
+    {
+      "name": "Lysamber",
+      "role": "aksent"
+    },
+    {
+      "name": "Tåkegrå",
+      "role": "dempet"
+    }
+  ]
+}

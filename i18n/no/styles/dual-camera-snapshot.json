@@ -1,0 +1,57 @@
+{
+  "name": "Dobbeltkamera-øyeblikksbilde",
+  "aliases": [
+    "BeReal-utseende",
+    "Foto foran og bak",
+    "Sent foto"
+  ],
+  "summary": "Ett innlegg laget av to bilder fra ett øyeblikk: bakkameraet fyller bildet og frontkameraet sitter i et lite innfelt bilde. Et tidsstempel og et sent-merke viser at det ikke var planlagt.",
+  "core_thesis": "Bevis på et ekte øyeblikk: to kameraer utløses samtidig, det er ingen redigering, og sent-merket viser at den som postet ikke har iscenesatt det.",
+  "design_principles": [
+    "Ta begge bildene i ett vindu på 2 sekunder: bakkameraet fyller bildet og frontkameraet fyller det innfelte bildet.",
+    "Plasser det innfelte bildet øverst til venstre, 28 % av bildebredden, med en hvit kant på 2px og en radius på 12px.",
+    "Tillat ingen filtre, ingen beskjæring og ingen redigering: behold den rå fargen og mobilstøyen.",
+    "Vis et tidsstempel som '14:32' og et sent-merke som '2h late' i en mono på 12px under bildet.",
+    "Sett siden på ren svart (#0B0B0B) slik at bildet bærer all fargen.",
+    "Begrens bildeteksten til 1 linje på 40 tegn eller færre, i hvitt.",
+    "Vis venner i en liste sortert etter tid, med én flis per person og uskarphet på fliser som ikke er låst opp ennå."
+  ],
+  "anti_patterns": [
+    "Filtre, presets og retusjering",
+    "Iscenesatte positurer med rekvisitter",
+    "Visning med ett kamera",
+    "Lange bildetekster og merker",
+    "Sterk, fargerik appramme",
+    "En fast rutenettrytme"
+  ],
+  "palette": [
+    {
+      "name": "Søkersvart",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Panelsvart",
+      "role": "flate"
+    },
+    {
+      "name": "Bildehvit",
+      "role": "tekst"
+    },
+    {
+      "name": "Kornegrå",
+      "role": "dempet"
+    },
+    {
+      "name": "Sentrød",
+      "role": "aksent"
+    },
+    {
+      "name": "Tidsstempelamber",
+      "role": "utheving"
+    },
+    {
+      "name": "Nøytral grå",
+      "role": "kant"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Neobrutalistisk UI",
+  "aliases": [
+    "Neubrutalism",
+    "Neobrutalism",
+    "Brutalistisk nett-UI"
+  ],
+  "summary": "Flate, høylytte fargefelt med tykke svarte kanter og harde, uskarpfrie forskjøvne skygger. Det vokste ut av produktsider som Gumroad og fra Figma-fellesskapets sett som et bevisst svar på bedriftsmyket.",
+  "core_thesis": "Et grensesnitt vinner tillit ved å vise strukturen åpent og være høylytt om det, for hver kant og skygge er en uttalt kjensgjerning.",
+  "design_principles": [
+    "Tegn en heldekkende #000000-kant på 2px til 4px rundt hvert kort, hver knapp, hvert inndatafelt og hvert bilde.",
+    "Kast én hard skygge uten uskarphet, forskjøvet 4px 4px, for eksempel 4px 4px 0 0 #000000, på hvert hevet element.",
+    "Fyll flater med flat mettet farge ved 100 % dekning, og bruk to til fire høylytte fargetoner på én side.",
+    "Ved hover flytter du elementet med skyggeforskyvningen og kutter skyggen til 0, slik at det ser ut til å trykkes inn i siden.",
+    "Bruk bare radier på 0px til 8px, og bruk samme verdi på alle elementer på én side.",
+    "Sett overskrifter i en tung grotesk eller monoskrift i vekt 700 eller høyere, i størrelser fra 48px til 96px.",
+    "Hold teksten svart på fargefelt, og nå minst 7:1 kontrast på hvert fyll."
+  ],
+  "anti_patterns": [
+    "Uskarpe slagskygger med en uskarphetsradius over 0px",
+    "Subtile grå gradienter eller blanke høylys på flater",
+    "Pastellfyll med lav metning og grå tekst",
+    "Hårstrekkanter på 1px eller kanter i en annen farge enn svart",
+    "Blandede hjørneradier på én side, som 4px på kort og 24px på knapper",
+    "Gjennomsiktige paneler eller paneler med uskarp bakgrunn",
+    "Tynne skriftvekter under 500 til overskrifter"
+  ],
+  "palette": [
+    {
+      "name": "Blekk",
+      "role": "kanter, skygger og tekst"
+    },
+    {
+      "name": "Krem",
+      "role": "sidebakgrunn"
+    },
+    {
+      "name": "Sitron",
+      "role": "høylys og primærfyll"
+    },
+    {
+      "name": "Skarp rosa",
+      "role": "aksentfyll"
+    },
+    {
+      "name": "Elektrisk blå",
+      "role": "sekundært aksent"
+    },
+    {
+      "name": "Mynte",
+      "role": "suksess og merkefyll"
+    },
+    {
+      "name": "Hvit",
+      "role": "kortflate"
+    }
+  ]
+}

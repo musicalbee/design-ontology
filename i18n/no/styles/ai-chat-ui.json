@@ -1,0 +1,54 @@
+{
+  "name": "AI-chatgrensesnitt",
+  "aliases": [
+    "Samtalegrensesnitt",
+    "LLM-chat-UI",
+    "Prompt-først-UI"
+  ],
+  "summary": "Én sentrert kolonne, ett stort inndatafelt nederst, strømmende tekst, forslagsbrikker og nesten ingen ramme. Det kom med ChatGPT i 2022 og gjør språk til den viktigste kontrollen.",
+  "core_thesis": "Grensesnittet er en samtale: én boks å snakke i, og alt annet kommer i svaret.",
+  "design_principles": [
+    "Sentrer én kolonne på 680px til 768px; bruk en linjelengde på 60 til 75 tegn og tekst på 16px til 17px med linjeavstand 1,6.",
+    "Fest ett inndatafelt nederst: høyde 56px til 120px som vokser til 200px, radius 16px til 28px, med en sendeknapp på 32px til 40px inni.",
+    "Merk brukerens innlegg med en tonet boble (radius 18px, maks bredde 80 %) og la assistentens innlegg stå som ren tekst uten boble.",
+    "Strøm teksten ord for ord med 20 til 60 ord i sekundet og vis en pulserende markør eller prikk på 12px mens den strømmer.",
+    "Tilby 3 til 4 forslagsbrikker (høyde 36px til 44px, radius 999px) i tomtilstanden og 2 til 3 oppfølginger etter et svar.",
+    "Skjul sidepanelet som standard på skjermer under 768px og hold det 260px bredt på skrivebord, med én rad på 36px per samtale.",
+    "Vis kilder, verktøy og kode som sammenleggbare blokker med 1px kant og 12px radius; kodeblokker bruker en mono-skrift på 13px."
+  ],
+  "anti_patterns": [
+    "Dashbord med fliser og mange menyer ved siden av chatten",
+    "Tunge bobler rundt hvert assistentsvar",
+    "Dekorative bakgrunner bak tekst",
+    "Flerkolonnelayout for hovedsvaret",
+    "Tette verktøylinjer over inndatafeltet",
+    "Skriveindikatorer som later som de er et menneske",
+    "Skjult inndatafelt som må klikkes for å åpnes"
+  ],
+  "palette": [
+    {
+      "name": "Side",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Blekk",
+      "role": "tekst"
+    },
+    {
+      "name": "Tone",
+      "role": "brukerboble og inndata"
+    },
+    {
+      "name": "Dempet",
+      "role": "sekundær tekst"
+    },
+    {
+      "name": "Aksent",
+      "role": "aksent og markør"
+    },
+    {
+      "name": "Linje",
+      "role": "kant"
+    }
+  ]
+}

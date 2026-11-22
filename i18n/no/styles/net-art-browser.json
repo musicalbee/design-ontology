@@ -1,0 +1,57 @@
+{
+  "name": "Nettkunst i nettleseren",
+  "aliases": [
+    "Nettleserkunst",
+    "net.art",
+    "Standard HTML-kunst"
+  ],
+  "summary": "Kunst laget inne i nettleseren av rå HTML: standard grå bunn, blå lenker, Times-tekst, ødelagte rammer og synlig kode. Net.art-kunstnerne på 1990-tallet brukte vinduet som lerret.",
+  "core_thesis": "Nettleseren er materialet: vis standardverdiene, feilene og kilden som selve verket.",
+  "design_principles": [
+    "Behold nettleserens standardverdier: Times-tekst på 16px, blå lenker (#0000EE), besøkte lenker (#551A8B) og en marg på 8px.",
+    "Velg én bunn: hvit (#FFFFFF), standard grå (#C0C0C0) eller svart med grønn tekst (#00FF00).",
+    "Del vinduet med nestede rammer med kanter på 1px, og la én ramme vise en feil eller den rå kilden.",
+    "Sett tekst som enkle linjer på 60 til 80 tegn; bruk ingen bilder, eller bruk 1 strukket GIF.",
+    "La lenker være den eneste navigasjonen; gi dem navn med enkeltord eller selve URL-en.",
+    "Vis koden: skriv ut en blokk med HTML, en statuslinje eller en feilmelding som synlig innhold.",
+    "La farge og størrelse glitche: én linje i 72px fet rød (#FF0000) blant svart tekst på 16px."
+  ],
+  "anti_patterns": [
+    "Polert merkevareidentitet og logoer",
+    "Myke skygger, gradienter og avrundede kort",
+    "Navigasjonslinjer med ikon",
+    "Stockfotografi",
+    "Responsive rutenettsystemer",
+    "Egne skrifter med fin sporing"
+  ],
+  "palette": [
+    {
+      "name": "Hvit",
+      "role": "bakgrunn"
+    },
+    {
+      "name": "Standard grå",
+      "role": "rammebunn"
+    },
+    {
+      "name": "Svart",
+      "role": "tekst"
+    },
+    {
+      "name": "Lenkeblå",
+      "role": "lenke"
+    },
+    {
+      "name": "Besøkt lilla",
+      "role": "besøkt lenke"
+    },
+    {
+      "name": "Feilrød",
+      "role": "aksent"
+    },
+    {
+      "name": "Terminalgrønn",
+      "role": "aksent på svart"
+    }
+  ]
+}
