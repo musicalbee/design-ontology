@@ -54,6 +54,12 @@ for (const name of readdirSync("demo").filter((n) => n.endsWith(".html")).sort()
   pages.push({ url, mod: lastmod(path) });
 }
 
+// Generated style pages (scripts/pages.mjs): one canonical URL each, all in the sitemap.
+if (existsSync("style")) {
+  const mod = lastmod("style");
+  for (const n of readdirSync("style").filter((x) => x.endsWith(".html")).sort()) pages.push({ url: `${BASE}style/${n}`, mod });
+}
+
 // Root: GitHub Pages serves nothing at /design-ontology/ without an index.
 writeFileSync("index.html", `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
