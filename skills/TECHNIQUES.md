@@ -12,8 +12,8 @@ A still from a 1980s or 1990s anime, cropped and set on a sunset gradient with d
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 2013 | — | web: The Vaporwave article names the 2013 Sailorwave series of Macross 82-99 as the start of future funk, which draws on 1980s and 1990s anime. | |
-| 1 | Internet | 2013 | +0 years | Future funk releases take their pictures from 1980s and 1990s anime such as Sailor Moon and Macross. | [`future-funk`](./future-funk/SKILL.md) |
+| Origin | Internet | c. 2013 | — | web: The year follows the 2013 Sailorwave series of Macross 82-99, which dates the music, not the technique. The Vaporwave article names it as the start of future funk, which draws on 1980s and 1990s anime. It gives no date for the first collage. | |
+| 1 | Internet | c. 2013 | +0 years | Future funk releases take their pictures from 1980s and 1990s anime such as Sailor Moon and Macross. | [`future-funk`](./future-funk/SKILL.md) |
 
 Used by: [`future-funk`](./future-funk/SKILL.md).
 
@@ -2014,8 +2014,8 @@ A clean, glossy computer render in the look of early 3D graphics: spheres, water
 
 | Step | Domain | Year | Lag | Route | Styles |
 |---|---|---|---|---|---|
-| Origin | Internet | 2011 | — | web: The Vaporwave article says James Ferraro coined the term utopian virtual with the album Far Side Virtual (2011), which combined crisp, unreal early 3D graphics with vaporwave textures. | |
-| 1 | Internet | 2011 | +0 years | The album Far Side Virtual and its concept of a virtual life soundtrack. | [`utopian-virtual`](./utopian-virtual/SKILL.md) |
+| Origin | Internet | c. 2011 | — | web: The year follows the album Far Side Virtual (2011), which dates the music, not the technique. The Vaporwave article says James Ferraro named the style utopian virtual with this album and that it combined crisp, unreal early 3D graphics with vaporwave textures. It gives no date for the first render. | |
+| 1 | Internet | c. 2011 | +0 years | The album Far Side Virtual and its concept of a virtual life soundtrack. | [`utopian-virtual`](./utopian-virtual/SKILL.md) |
 
 Used by: [`utopian-virtual`](./utopian-virtual/SKILL.md).
 
@@ -5419,8 +5419,8 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 |---|---|---|---|---|---|
 | Origin | Photography | 1925 | — | Wetzlar, Germany: Leitz sells the Leica I, designed by Oskar Barnack. | |
 | 1 | Photography | 1932 | +7 years | Henri Cartier-Bresson starts to photograph streets with a Leica. | [`street-photography`](./street-photography/SKILL.md) |
-| 2 | Photography | 1936 | +11 years | Life magazine starts in 1936 and prints picture stories that photographers shoot with small, fast cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
-| 3 | Photography | 1936 | +11 years | The 35 mm Contax lets photographers shoot fast and without notice. French photographers use small cameras for scenes of street life. | [`humanist-photography`](./humanist-photography/SKILL.md) |
+| 2 | Photography | 1932 | +7 years | Zeiss Ikon sells the 35 mm Contax I in 1932. With the Leica, it lets photographers work in the street. French photographers use small cameras for scenes of street life. | [`humanist-photography`](./humanist-photography/SKILL.md) |
+| 3 | Photography | 1936 | +11 years | Life magazine starts in 1936 and prints picture stories that photographers shoot with small, fast cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
 | 4 | Photography | c. 2015 | +90 years | Young photographers buy old 35 mm cameras and shoot colour negative and Tri-X film again. | [`film-grain-revival`](./film-grain-revival/SKILL.md) |
 
 Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-photography`](./documentary-photography/SKILL.md), [`film-grain-revival`](./film-grain-revival/SKILL.md), [`humanist-photography`](./humanist-photography/SKILL.md).
@@ -5429,7 +5429,7 @@ Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-ph
 - Shoot at 1/125 to 1/500 s, from the hand.
 - Show the full frame; keep the 2:3 format.
 
-Sources: Ian Jeffrey, Photography: A Concise History (1981); [Wikipedia: Humanist photography](https://en.wikipedia.org/wiki/Humanist_photography).
+Sources: Ian Jeffrey, Photography: A Concise History (1981); [Wikipedia: Humanist photography](https://en.wikipedia.org/wiki/Humanist_photography); [Wikipedia: Contax](https://en.wikipedia.org/wiki/Contax).
 
 ### Spring steel hoop
 

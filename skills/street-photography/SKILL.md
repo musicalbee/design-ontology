@@ -187,7 +187,7 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
-- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Capa, Seymour, Cartier-Bresson, Rodger and three others founded it in Paris in 1947. Its members made documentary and street photography for magazines. The Japanese group Provoke worked against its realism.
+- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Capa, Seymour, Cartier-Bresson, Rodger and three others founded it in Paris in 1947. Seymour, Cartier-Bresson and Rodger did not attend the founding meeting. Its members made documentary and street photography for magazines. The Japanese group Provoke worked against its realism.
 - **New Documents** (exhibition, New York, 1967–1967), exhibited the style. A photography show at the Museum of Modern Art. It showed street photographs by Garry Winogrand, Diane Arbus and Lee Friedlander.
 
 ## Permutations

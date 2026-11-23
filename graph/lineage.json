@@ -772,6 +772,21 @@
       }
     },
     {
+      "id": "utopian-virtual",
+      "domain": "internet",
+      "name": "Utopian virtual",
+      "era": "feed-mobile",
+      "start": 2011,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 5,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "bohemian-web",
       "domain": "internet",
       "name": "Bohemian Web",
@@ -859,21 +874,6 @@
         "grid_rigidity": 2,
         "skeuomorphic_realism": 3,
         "typographic_expressiveness": 3
-      }
-    },
-    {
-      "id": "utopian-virtual",
-      "domain": "internet",
-      "name": "Utopian virtual",
-      "era": "feed-mobile",
-      "start": 2012,
-      "end": null,
-      "vectors": {
-        "ornamentation": 3,
-        "dimensionality": 5,
-        "grid_rigidity": 3,
-        "skeuomorphic_realism": 4,
-        "typographic_expressiveness": 2
       }
     },
     {
@@ -2662,6 +2662,21 @@
       }
     },
     {
+      "id": "humanist-photography",
+      "domain": "photography",
+      "name": "Humanist photography",
+      "era": "documentary-century",
+      "start": 1930,
+      "end": 1960,
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 3,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
       "id": "street-photography",
       "domain": "photography",
       "name": "Street photography",
@@ -2689,21 +2704,6 @@
         "colour_saturation": 2,
         "depth_of_field": 2,
         "proximity": 4
-      }
-    },
-    {
-      "id": "humanist-photography",
-      "domain": "photography",
-      "name": "Humanist photography",
-      "era": "documentary-century",
-      "start": 1945,
-      "end": null,
-      "vectors": {
-        "staging": 1,
-        "tonal_contrast": 3,
-        "colour_saturation": 1,
-        "depth_of_field": 3,
-        "proximity": 3
       }
     },
     {
@@ -15374,6 +15374,11 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "are-bure-boke",
+      "to": "documentary-photography",
+      "type": "REBELLED_AGAINST"
+    },
+    {
       "from": "art-deco-ceramic-figures",
       "to": "parian-statuary",
       "type": "REBELLED_AGAINST"
@@ -16757,13 +16762,13 @@
       "origin": {
         "domain": "internet",
         "year": 2013,
-        "circa": false
+        "circa": true
       },
       "adoptions": [
         {
           "domain": "internet",
           "year": 2013,
-          "circa": false,
+          "circa": true,
           "lag_years": 0,
           "styles": [
             "future-funk"
@@ -19281,13 +19286,13 @@
       "origin": {
         "domain": "internet",
         "year": 2011,
-        "circa": false
+        "circa": true
       },
       "adoptions": [
         {
           "domain": "internet",
           "year": 2011,
-          "circa": false,
+          "circa": true,
           "lag_years": 0,
           "styles": [
             "utopian-virtual"
@@ -25232,11 +25237,11 @@
         },
         {
           "domain": "photography",
-          "year": 1936,
+          "year": 1932,
           "circa": false,
-          "lag_years": 11,
+          "lag_years": 7,
           "styles": [
-            "documentary-photography"
+            "humanist-photography"
           ]
         },
         {
@@ -25245,7 +25250,7 @@
           "circa": false,
           "lag_years": 11,
           "styles": [
-            "humanist-photography"
+            "documentary-photography"
           ]
         },
         {
@@ -28961,6 +28966,37 @@
         "photomontage"
       ]
     },
+    "utopian-virtual": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "frutiger-aero"
+      ],
+      "echoes": [],
+      "subgenre_of": [
+        "vaporwave"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "frutiger-aero",
+          "distance": 1
+        },
+        {
+          "id": "spatial-visionos",
+          "distance": 1
+        },
+        {
+          "id": "3d-avatar-emoji",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "early-3d-render"
+      ]
+    },
     "bohemian-web": {
       "evolved_from": [],
       "evolved_into": [
@@ -29217,37 +29253,6 @@
       ],
       "techniques": [
         "matte-fade"
-      ]
-    },
-    "utopian-virtual": {
-      "evolved_from": [],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "frutiger-aero"
-      ],
-      "echoes": [],
-      "subgenre_of": [
-        "vaporwave"
-      ],
-      "subgenres": [],
-      "nearest_by_vector": [
-        {
-          "id": "frutiger-aero",
-          "distance": 1
-        },
-        {
-          "id": "spatial-visionos",
-          "distance": 1
-        },
-        {
-          "id": "3d-avatar-emoji",
-          "distance": 1.41
-        }
-      ],
-      "techniques": [
-        "early-3d-render"
       ]
     },
     "vaporwave": {
@@ -33708,6 +33713,37 @@
         "serial-repetition"
       ]
     },
+    "humanist-photography": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "street-photography"
+      ],
+      "echoes": [],
+      "subgenre_of": [
+        "documentary-photography"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "documentary-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "street-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "film-grain-revival",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "small-format-camera"
+      ]
+    },
     "street-photography": {
       "evolved_from": [
         "straight-photography"
@@ -33762,7 +33798,9 @@
       "rebelled_against": [
         "pictorialism"
       ],
-      "provoked": [],
+      "provoked": [
+        "are-bure-boke"
+      ],
       "hybridized_with": [
         "street-photography"
       ],
@@ -33791,41 +33829,12 @@
         "small-format-camera"
       ]
     },
-    "humanist-photography": {
-      "evolved_from": [],
-      "evolved_into": [],
-      "rebelled_against": [],
-      "provoked": [],
-      "hybridized_with": [
-        "street-photography"
-      ],
-      "echoes": [],
-      "subgenre_of": [
-        "documentary-photography"
-      ],
-      "subgenres": [],
-      "nearest_by_vector": [
-        {
-          "id": "documentary-photography",
-          "distance": 1.73
-        },
-        {
-          "id": "street-photography",
-          "distance": 1.73
-        },
-        {
-          "id": "film-grain-revival",
-          "distance": 2.24
-        }
-      ],
-      "techniques": [
-        "small-format-camera"
-      ]
-    },
     "are-bure-boke": {
       "evolved_from": [],
       "evolved_into": [],
-      "rebelled_against": [],
+      "rebelled_against": [
+        "documentary-photography"
+      ],
       "provoked": [],
       "hybridized_with": [],
       "echoes": [],

@@ -1,6 +1,6 @@
 ---
 name: are-bure-boke
-description: "Apply the Are-bure-boke style (1968 on) when making, briefing, prompting or grading photographs. Load when the user asks for: are-bure-boke, provoke, moriyama, grainy blurred street, out of focus night street, tokyo street grain."
+description: "Apply the Are-bure-boke style (From 1968 (the Provoke magazine)) when making, briefing, prompting or grading photographs. Load when the user asks for: are-bure-boke, provoke, moriyama, grainy blurred street, out of focus night street, tokyo street grain."
 domain: photography
 era: documentary-century
 triggers:
@@ -23,9 +23,9 @@ vector_profile:
 
 > A photograph cannot give a clear and certain view of the world, so the picture shows the fragments that a moving eye catches.
 
-A rough form of street photography from Japan: grain, blur and loss of focus on purpose. The picture shows a wandering glance, not a clear fact. Provoke made the look known in 1968.
+A rough form of street photography from Japan: grain, blur and loss of focus on purpose. The picture shows a wandering glance, not a clear fact. The Provoke magazine of 1968 used the look. Nakahira and Moriyama had tried it before.
 
-**Period:** 1968 on · **Era:** The small camera · **Domain:** Photography · **Also called:** Grainy, blurred, out of focus, Provoke style
+**Period:** From 1968 (the Provoke magazine) · **Era:** The small camera · **Domain:** Photography · **Also called:** Grainy, blurred, out of focus, Provoke style
 
 ## When to load this skill
 
@@ -202,6 +202,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - If the user asks for **clearer and more readable**: move toward [`street-photography`](../street-photography/SKILL.md) (Street photography). Zone-focus at f/8 and 2.5m, use ISO 400 with 1/250s, and keep the frame level; keep the high contrast.
 - If the user asks for **calmer and warmer**: move toward [`humanist-photography`](../humanist-photography/SKILL.md) (Humanist photography). Use ISO 400, grade 2 to 3 paper and a 35mm lens at f/8; wait for a tender gesture and print with soft mid-tones.
 
+- **Rejects (the opposite pole; do not blend):** [`documentary-photography`](../documentary-photography/SKILL.md)
 - **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`documentary-photography`](../documentary-photography/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
 
 ## Emotional target

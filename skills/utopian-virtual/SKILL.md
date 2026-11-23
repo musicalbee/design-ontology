@@ -1,6 +1,6 @@
 ---
 name: utopian-virtual
-description: "Apply the Utopian virtual style (2012–) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: utopian virtual, early 3d, glossy 3d, 2000s tech gloss, virtual life, aqua render."
+description: "Apply the Utopian virtual style (2011–) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: utopian virtual, early 3d, glossy 3d, 2000s tech gloss, virtual life, aqua render."
 domain: internet
 era: feed-mobile
 triggers:
@@ -25,7 +25,7 @@ vector_profile:
 
 Crisp, unreal early 3D graphics: glossy blue spheres, clean water, white interfaces and smooth sky gradients. Musician James Ferraro coined the term in 2011. It later came to be tied to the Frutiger Aero look.
 
-**Period:** 2012– · **Era:** The feed and the phone · **Domain:** Internet
+**Period:** 2011– · **Era:** The feed and the phone · **Domain:** Internet
 
 ## When to load this skill
 
@@ -243,7 +243,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Early 3D render (process, invented here)
 
-A clean, glossy computer render in the look of early 3D graphics: spheres, water and glass with a sharp highlight and no wear. Origin: internet, web, 2011.
+A clean, glossy computer render in the look of early 3D graphics: spheres, water and glass with a sharp highlight and no wear. Origin: internet, web, c. 2011.
 
 - Render one object, such as a sphere, a drop or a button, with a sharp top highlight of 40% white.
 - Add a faint mirrored reflection of 15% white below the object.

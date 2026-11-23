@@ -259,8 +259,7 @@ Fragments of photographs, cut and joined on one sheet, so that the joins make a 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Emigre** (magazine, Berkeley, 1984–2005), shaped the style. A quarterly magazine of design and typography that Rudy VanderLans edited and designed, with type by Zuzana Licko on a Macintosh. Its foundry Emigre Fonts sold her digital typefaces from 1985. The magazine ended in 2005 with issue 69.
-- **FUSE** (magazine, Berlin, 1991–2000), published the style. An experimental typography magazine that FontShop International published with Neville Brody. It ran to 18 issues between 1991 and 2000. The company also held FUSE conferences, the forerunners of the TYPO Berlin conference.
+- **Emigre** (magazine, Berkeley, 1984–2005), shaped the style. A magazine of design and typography that Rudy VanderLans edited and designed, with type by Zuzana Licko on a Macintosh. At first it came out quarterly. By 1986 the foundry Emigre Fonts sold her digital typefaces. The magazine ended in 2005 with issue 69.
 - **Ray Gun** (magazine, Santa Monica, 1992–2000), launched the style. An alternative rock magazine that David Carson art-directed. Its layered, broken type pages defined grunge typography.
 
 ## Permutations

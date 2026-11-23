@@ -181,7 +181,6 @@ A flash on the camera that fires straight at the subject, so that faces are brig
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Boston School** (collective, Boston, ?–now), gathered the style. A loose group of artists who each kept their own style. They shared a messy, instinctive approach to photography that aimed to be true to life. Mark Morrisroe was its unofficial lead. Several members met at the School of the Museum of Fine Arts. The sources give no founding year. The link to party flash rests on Nan Goldin alone.
 - **Vice** (magazine, Montreal, 1994–now), published the style. A youth culture magazine. Its pages were full of direct-flash party and street photos.
 
 ## Permutations

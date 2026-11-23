@@ -1,6 +1,6 @@
 ---
 name: future-funk
-description: "Apply the Future funk style (2013–now) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: future funk, sailorwave, city pop, 90s anime, anime sunset, japanese pop nostalgia."
+description: "Apply the Future funk style (2013–) when generating web pages, apps, memes, short video frames, forum and chat screens, and other images of internet culture. Load when the user asks for: future funk, sailorwave, city pop, 90s anime, anime sunset, japanese pop nostalgia."
 domain: internet
 era: feed-mobile
 triggers:
@@ -25,7 +25,7 @@ vector_profile:
 
 Cels and stills from 1980s and 1990s anime in warm sunset colours, with city and neon signs and bright pastel type. It adds the sample-based look of vaporwave to upbeat dance music and Japanese pop culture.
 
-**Period:** 2013–now · **Era:** The feed and the phone · **Domain:** Internet
+**Period:** 2013– · **Era:** The feed and the phone · **Domain:** Internet
 
 ## When to load this skill
 
@@ -235,7 +235,7 @@ These techniques started in one domain and moved into this style. Apply the rule
 
 ### Anime still collage (montage, invented here)
 
-A still from a 1980s or 1990s anime, cropped and set on a sunset gradient with dots, katakana and small stickers. Origin: internet, web, 2013.
+A still from a 1980s or 1990s anime, cropped and set on a sunset gradient with dots, katakana and small stickers. Origin: internet, web, c. 2013.
 
 - Crop one still or cel from a 1980s or 1990s anime to fill 60% to 80% of the width.
 - Set a pink to peach to teal gradient behind the still.

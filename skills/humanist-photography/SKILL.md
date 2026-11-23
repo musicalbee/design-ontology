@@ -1,6 +1,6 @@
 ---
 name: humanist-photography
-description: "Apply the Humanist photography style (1945–1970s) when making, briefing, prompting or grading photographs. Load when the user asks for: humanist photography, photographie humaniste, doisneau, willy ronis, paris 1950s street, tender street scene."
+description: "Apply the Humanist photography style (1930–1960) when making, briefing, prompting or grading photographs. Load when the user asks for: humanist photography, photographie humaniste, doisneau, willy ronis, paris 1950s street, tender street scene."
 domain: photography
 era: documentary-century
 triggers:
@@ -26,7 +26,7 @@ vector_profile:
 
 A warm and tender form of documentary photography from France. It shows the everyday life of ordinary people in streets and bistros. It joins sympathy with wit, and it hopes for a world of mutual care.
 
-**Period:** 1945–1970s · **Era:** The small camera · **Domain:** Photography · **Also called:** School of Humanist Photography, Photographie humaniste
+**Period:** 1930–1960 · **Era:** The small camera · **Domain:** Photography · **Also called:** School of Humanist Photography, Photographie humaniste
 
 ## When to load this skill
 

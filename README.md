@@ -160,13 +160,13 @@ flowchart LR
     seapunk["Seapunk"]
   end
   subgraph internet_feed_mobile["The feed and the phone · 2012–2019"]
+    utopian_virtual["Utopian virtual"]
     bohemian_web["Bohemian Web"]
     clickbait_thumbnail["Clickbait Thumbnail"]
     flat_design["Flat Design"]
     mallsoft["Mallsoft"]
     minimalism_web["Minimalism Web"]
     tumblr_soft_grunge["Tumblr Soft Grunge"]
-    utopian_virtual["Utopian virtual"]
     vaporwave["Vaporwave"]
     cyberpunk_web["Cyberpunk Web"]
     future_funk["Future funk"]
@@ -316,9 +316,9 @@ flowchart LR
   end
   subgraph photography_documentary_century["Photography · The small camera · 1930–today"]
     new_objectivity["New Objectivity photography"]
+    humanist_photography["Humanist photography"]
     street_photography["Street photography"]
     documentary_photography["Documentary photography"]
-    humanist_photography["Humanist photography"]
     are_bure_boke["Are-bure-boke"]
   end
   subgraph photography_colour_and_topography["Photography · Colour and the topographic turn · 1970–1990"]
@@ -1972,6 +1972,7 @@ flowchart LR
   americana_workwear -. rejects .-> english_bespoke_tailoring
   anti_design -. rejects .-> flat_design
   anti_design -. rejects .-> material_design
+  are_bure_boke -. rejects .-> documentary_photography
   art_deco_ceramic_figures -. rejects .-> parian_statuary
   art_deco_interior -. rejects .-> art_nouveau_interior
   art_deco_jewellery -. rejects .-> art_nouveau_jewellery
@@ -3089,6 +3090,7 @@ flowchart LR
   linkStyle 1365 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1366 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1367 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1368 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
