@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`impact-image-macro`](../impact-image-macro/SKILL.md)
 - **Mixes well with:** [`surreal-meme`](../surreal-meme/SKILL.md)
 - **Kin in another domain:** [`xerox-zine`](../xerox-zine/SKILL.md)
-- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md)
+- **Nearest by vector profile:** [`punk-zine`](../punk-zine/SKILL.md), [`anti-design`](../anti-design/SKILL.md), [`future-funk`](../future-funk/SKILL.md)
 
 ## Emotional target
 

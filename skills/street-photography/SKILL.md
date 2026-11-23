@@ -187,7 +187,7 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
-- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Its members made documentary and street photography for magazines.
+- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Capa, Seymour, Cartier-Bresson, Rodger and three others founded it in Paris in 1947. Its members made documentary and street photography for magazines. The Japanese group Provoke worked against its realism.
 - **New Documents** (exhibition, New York, 1967–1967), exhibited the style. A photography show at the Museum of Modern Art. It showed street photographs by Garry Winogrand, Diane Arbus and Lee Friedlander.
 
 ## Permutations
@@ -211,9 +211,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Led to (go here for a newer version):** [`film-grain-revival`](../film-grain-revival/SKILL.md), [`new-colour`](../new-colour/SKILL.md)
-- **Mixes well with:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
+- **Mixes well with:** [`documentary-photography`](../documentary-photography/SKILL.md), [`film-noir-still`](../film-noir-still/SKILL.md), [`humanist-photography`](../humanist-photography/SKILL.md), [`party-flash`](../party-flash/SKILL.md)
 - **Kin in another domain:** [`documentary-verite`](../documentary-verite/SKILL.md), [`french-new-wave`](../french-new-wave/SKILL.md), [`gorpcore`](../gorpcore/SKILL.md), [`grunge-editorial`](../grunge-editorial/SKILL.md), [`italian-neorealism`](../italian-neorealism/SKILL.md), [`new-hollywood`](../new-hollywood/SKILL.md)
-- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`straight-photography`](../straight-photography/SKILL.md), [`group-f64`](../group-f64/SKILL.md)
+- **Nearest by vector profile:** [`documentary-photography`](../documentary-photography/SKILL.md), [`are-bure-boke`](../are-bure-boke/SKILL.md), [`humanist-photography`](../humanist-photography/SKILL.md)
 
 ## Emotional target
 

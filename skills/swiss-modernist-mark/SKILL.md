@@ -143,6 +143,7 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Ulm School of Design** (school, Ulm, 1953–1968), taught the style. A school of design that taught system, grid and method. Its teachers worked with Braun and with corporate identity programs.
+- **Total Design** (studio, Amsterdam, 1963–now), made the style. A Dutch design studio in Amsterdam, founded in 1963 by Wim Crouwel and others, and now called Total Identity. Its work used grid-based layouts and geometric wordmarks in the line of the International Typographic Style.
 
 ## Permutations
 

@@ -4,11 +4,11 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**<!-- n:styles -->543<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**<!-- n:styles -->548<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
-![styles](https://img.shields.io/badge/styles-543-111111)
+![styles](https://img.shields.io/badge/styles-548-111111)
 ![domains](https://img.shields.io/badge/domains-16-111111)
 ![code](https://img.shields.io/badge/code-MIT-111111)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
@@ -163,10 +163,13 @@ flowchart LR
     bohemian_web["Bohemian Web"]
     clickbait_thumbnail["Clickbait Thumbnail"]
     flat_design["Flat Design"]
+    mallsoft["Mallsoft"]
     minimalism_web["Minimalism Web"]
     tumblr_soft_grunge["Tumblr Soft Grunge"]
+    utopian_virtual["Utopian virtual"]
     vaporwave["Vaporwave"]
     cyberpunk_web["Cyberpunk Web"]
+    future_funk["Future funk"]
     health_goth["Health Goth"]
     normcore["Normcore"]
     synthwave_web["Synthwave Web"]
@@ -315,6 +318,8 @@ flowchart LR
     new_objectivity["New Objectivity photography"]
     street_photography["Street photography"]
     documentary_photography["Documentary photography"]
+    humanist_photography["Humanist photography"]
+    are_bure_boke["Are-bure-boke"]
   end
   subgraph photography_colour_and_topography["Photography · Colour and the topographic turn · 1970–1990"]
     new_colour["New Colour"]
@@ -2191,10 +2196,15 @@ flowchart LR
   xerox_zine -. rejects .-> psychedelic_concert_poster
   y2k_aesthetic -. rejects .-> grunge_editorial
   yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
+  street_photography == branch ==> are_bure_boke
+  vaporwave == branch ==> future_funk
   mid_century_modern_architecture == branch ==> googie_architecture
+  documentary_photography == branch ==> humanist_photography
+  vaporwave == branch ==> mallsoft
   cubism_painting == branch ==> orphism
   futurism_painting == branch ==> rayonism
   post_impressionism == branch ==> synthetism
+  vaporwave == branch ==> utopian_virtual
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px
@@ -3121,10 +3131,10 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 <!-- domains:start -->
 | Domain | Styles | Demo |
 |---|--:|---|
-| Internet | 113 | [internet.html](demo/internet.html) |
+| Internet | 116 | [internet.html](demo/internet.html) |
 | Architecture | 26 | [architecture.html](demo/architecture.html) |
 | Interior | 19 | [interior.html](demo/interior.html) |
-| Photography | 19 | [photography.html](demo/photography.html) |
+| Photography | 21 | [photography.html](demo/photography.html) |
 | Film & Video | 25 | [film.html](demo/film.html) |
 | Painting | 28 | [painting.html](demo/painting.html) |
 | Logo | 8 | [logo.html](demo/logo.html) |
@@ -3147,7 +3157,7 @@ Next domains under discussion: type design, motion, sound.
 
 ## Techniques that cross domains
 
-A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->293<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->296<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
 
 Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 

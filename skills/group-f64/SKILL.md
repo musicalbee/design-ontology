@@ -186,7 +186,7 @@ Lens or camera movements that keep vertical lines parallel and move the plane of
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Group f/64** (exhibition, San Francisco, 1932–1932), launched the style. The first show of Group f/64 at the M. H. de Young Museum. It showed sharp, straight prints against pictorialism.
+- **Group f/64** (collective, San Francisco Bay Area, 1932–1935), launched the style. A group of seven photographers of the San Francisco Bay Area who shared a sharp, straight style. Ansel Adams and Willard Van Dyke organised it. It showed first at the de Young Museum in 1932. It dissolved by the end of 1935. It stood in part against pictorialism. The id keeps the old word exhibition.
 
 ## Permutations
 

@@ -261,8 +261,9 @@ A pen-sized spray gun that lays paint in soft, even tones; with masks, it makes 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Consumer Aesthetics Research Institute** (platform, web, ?–now), published the style. An online community that collects and names the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
+- **Consumer Aesthetics Research Institute** (platform, web, 2014–now), published the style. An online community that builds a shared vocabulary for the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
 - **Myspace** (platform, web, 2003–now), published the style. A social network of profile pages. Users posted flash digicam photos and filled their pages with glitter, gloss and custom code.
+- **The Designers Republic** (studio, Sheffield, 1986–2009), shaped the style. A graphic design studio in Sheffield, known for sleeves for electronic music, for logos and for ironic anti-corporate slogans. It made the look of the Warp label and the game Wipeout. It went into liquidation in 2009, and Ian Anderson relaunched it in a smaller form.
 - **Tumblr** (platform, web, 2007–now), published the style. A microblog site of reblogged images. Vaporwave and other net aesthetics grew in its image feeds.
 
 ## Permutations

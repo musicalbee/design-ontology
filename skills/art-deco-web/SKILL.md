@@ -253,6 +253,7 @@ Rays from a disc or a half disc: a sign of light and of the new, on a facade, a 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **International Exhibition of Modern Decorative and Industrial Arts** (exhibition, Paris, 1925–1925), launched the style. A world's fair of decorative and industrial arts. Its pavilions and rooms showed the new luxury style that later got the name Art Deco from this show.
+- **Push Pin Studios** (studio, New York City, 1954–now), revived the style. A design and illustration studio that Milton Glaser and Seymour Chwast led for twenty years. Its Push Pin style gave old styles such as Victorian, Art Nouveau and Art Deco a new, playful form, in an era of Swiss rationalism. Chwast still runs the Pushpin Group.
 
 ## Permutations
 

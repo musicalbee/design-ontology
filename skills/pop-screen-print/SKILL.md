@@ -160,6 +160,7 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Atelier Populaire** (crew, Paris, 1968–1968), made the style. A workshop of art students and artists who occupied the École des Beaux-Arts in Paris in May 1968. A general assembly voted on each poster. They printed thousands of single-colour silk-screen posters for the strikes and did not sign them.
 - **Immaculate Heart College art department** (school, Los Angeles, ?–1981), taught the style. The art department of a college in Los Angeles where Corita Kent taught screen printing. The college closed in 1981.
 - **The Factory** (studio, New York, 1964–1987), made the style. The studio of Andy Warhol. Assistants printed silkscreens there, and artists, actors and musicians met there.
 

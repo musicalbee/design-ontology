@@ -278,7 +278,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`duet-split-screen`](../duet-split-screen/SKILL.md), [`velocity-edit`](../velocity-edit/SKILL.md)
 - **Was rejected by:** [`grwm-short`](../grwm-short/SKILL.md)
 - **Kin in another domain:** [`music-video`](../music-video/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`glitch-gif`](../glitch-gif/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md), [`barbiecore`](../barbiecore/SKILL.md)
+- **Nearest by vector profile:** [`future-funk`](../future-funk/SKILL.md), [`glitch-gif`](../glitch-gif/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
 
 ## Emotional target
 

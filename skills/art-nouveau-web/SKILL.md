@@ -261,6 +261,7 @@ A print from a flat stone or plate on which a greasy drawing takes ink and water
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Maison de l'Art Nouveau** (gallery, Paris, 1895–1904), launched the style. The gallery of the dealer Siegfried Bing. It sold furniture, glass and rooms by new designers, and its name became the name of the style.
+- **Push Pin Studios** (studio, New York City, 1954–now), revived the style. A design and illustration studio that Milton Glaser and Seymour Chwast led for twenty years. Its Push Pin style gave old styles such as Victorian, Art Nouveau and Art Deco a new, playful form, in an era of Swiss rationalism. Chwast still runs the Pushpin Group.
 
 ## Permutations
 

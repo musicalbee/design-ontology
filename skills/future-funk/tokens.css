@@ -1,0 +1,128 @@
+/*
+ * Future funk — tokens
+ * Generated from data/internet/styles/future-funk.json by design-ontology. Do not edit.
+ * Use: put data-style="future-funk" on <html> or on any container.
+ */
+[data-style="future-funk"] {
+  --color-bg: #1B1F4B;
+  --color-surface: #2A2F6B;
+  --color-text: #FFF4E6;
+  --color-muted: #C9C0F0;
+  --color-primary: #FF6FB5;
+  --color-accent: #3CD7C9;
+  --color-border: #FFFFFF;
+  --font-sans: "Zen Maru Gothic", "Nunito", sans-serif;
+  --font-display: "M PLUS Rounded 1c", "Fredoka", sans-serif;
+  --border-radius: 20px;
+  --border-width: 3px;
+  --shadow-elevation: 6px 6px 0 #FF6FB5;
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --duration: 320ms;
+  --type-ratio: 1.5;
+  --size-small: 10.67px;
+  --size-h3: 36px;
+  --size-h2: 54px;
+  --size-h1: 81px;
+  --color-on-bg: #FFF4E6;
+  --color-on-surface: #FFF4E6;
+  --color-on-primary: #1B1F4B;
+  --color-on-accent: #1B1F4B;
+  --color-muted-on-bg: #C9C0F0;
+  --color-muted-on-surface: #C9C0F0;
+  --color-link: #3CD7C9;
+  --color-link-on-surface: #3CD7C9;
+  --display-weight: 800;
+  --subhead-weight: 600;
+  --body-weight: 400;
+  --strong-weight: 700;
+  --label-weight: 700;
+  --display-tracking: 0.02em;
+  --display-leading: 1.15;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 16px;
+  --icon-stroke: 2;
+  --ground: linear-gradient(100deg, var(--color-bg) 28%, transparent 60%),
+    radial-gradient(circle, var(--color-accent) 34%, transparent 36%) 0 0 / 22px 22px,
+    repeating-conic-gradient(from 0deg at 84% 30%, color-mix(in oklab, var(--color-primary) 70%, transparent) 0 9deg, transparent 9deg 18deg),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="future-funk"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="future-funk"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="future-funk"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="future-funk"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="future-funk"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="future-funk"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="future-funk"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="future-funk"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="future-funk"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="future-funk"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="future-funk"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="future-funk"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="future-funk"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="future-funk"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

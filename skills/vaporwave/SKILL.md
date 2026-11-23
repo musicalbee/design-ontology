@@ -291,7 +291,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Was rejected by:** [`normcore`](../normcore/SKILL.md)
 - **Mixes well with:** [`cybercore-web`](../cybercore-web/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md), [`pixel-art-web`](../pixel-art-web/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`surrealism-painting`](../surrealism-painting/SKILL.md)
-- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`vtuber-avatar`](../vtuber-avatar/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
+- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`vtuber-avatar`](../vtuber-avatar/SKILL.md), [`future-funk`](../future-funk/SKILL.md)
 
 ## Emotional target
 

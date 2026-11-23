@@ -277,7 +277,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`asmr-video`](../asmr-video/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
 - **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md)
 - **Kin in another domain:** [`creator-vlog`](../creator-vlog/SKILL.md)
-- **Nearest by vector profile:** [`dreamcore`](../dreamcore/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md), [`dual-camera-snapshot`](../dual-camera-snapshot/SKILL.md)
+- **Nearest by vector profile:** [`dreamcore`](../dreamcore/SKILL.md), [`mallsoft`](../mallsoft/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md)
 
 ## Emotional target
 

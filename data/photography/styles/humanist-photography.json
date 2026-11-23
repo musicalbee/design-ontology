@@ -1,0 +1,300 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "domain": "photography",
+  "id": "humanist-photography",
+  "name": "Humanist photography",
+  "aliases": [
+    "School of Humanist Photography",
+    "Photographie humaniste"
+  ],
+  "era_id": "documentary-century",
+  "time_period": {
+    "start": 1945,
+    "end": null,
+    "label": "1945–1970s"
+  },
+  "process": [
+    "analogue-bw"
+  ],
+  "summary": "A warm and tender form of documentary photography from France. It shows the everyday life of ordinary people in streets and bistros. It joins sympathy with wit, and it hopes for a world of mutual care.",
+  "philosophy": {
+    "core_thesis": "Ordinary people share a human nature, and a photograph of everyday life can show their dignity, their humour and their need for each other.",
+    "design_principles": [
+      "Photograph ordinary life in the street, the bistro, the market and the working-class district, and not news events.",
+      "Use available light and a small camera, a 35mm lens or a waist-level Rolleiflex, so that people do not notice you.",
+      "Stand 1.5 to 4m away, so that the face and the setting share the frame.",
+      "Wait for a gesture of tenderness or wit: a child at play, a couple, a shared joke.",
+      "Print in black and white with deep mid-tones and a soft contrast.",
+      "Work in series for the picture essay, and publish it in a magazine or a book."
+    ],
+    "anti_patterns": [
+      "Cold, distant views of people as types",
+      "Cruel or mocking close-ups",
+      "Harsh flash that flattens the face",
+      "Heavy blur or grain that hides the person",
+      "Staged scenes with hired models",
+      "Pictures of news events or battles with no human warmth"
+    ]
+  },
+  "vectors": {
+    "staging": 1,
+    "tonal_contrast": 3,
+    "colour_saturation": 1,
+    "depth_of_field": 3,
+    "proximity": 3
+  },
+  "composition": {
+    "framing": "Loose and readable; the frame holds the person and the room or street around them.",
+    "viewpoint": "Eye or waist height, handheld, 1.5 to 4m from the subject.",
+    "geometry": "Gentle diagonals, doorways and window light; a small human drama sits inside the setting.",
+    "subject_placement": "Off centre, with the gesture or the gaze of the person in a pocket of light.",
+    "principles": [
+      {
+        "principle": "focal-point",
+        "rule": "Give 1 human gesture as the point of the picture and let the setting support it."
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Put 2 or 3 planes in the frame: a foreground detail at 1.5m, the person at 3m and the street beyond."
+      },
+      {
+        "principle": "balance",
+        "rule": "Balance the frame by a second figure or a shop sign within 0.8 to 1.25 of the visual weight."
+      },
+      {
+        "principle": "rule-of-thirds",
+        "rule": "Put the main figure within 0.05 of 0.33 or 0.67 of the width."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Available light: soft daylight, a café window or the street lamp at dusk.",
+    "direction": "Side light from windows and low sun; gentle backlight.",
+    "key_to_fill_ratio": "3:1 to 5:1 (about 2 stops)",
+    "colour_temperature": "5000–5500K daylight; 3200K for tungsten rooms",
+    "time_of_day": "Morning or late afternoon; early evening in town"
+  },
+  "lens_and_camera": {
+    "format": "35mm rangefinder or a 6×6 Rolleiflex",
+    "focal_length": "35mm to 50mm (35mm format)",
+    "aperture": "f/4 to f/8",
+    "shutter": "1/60s to 1/250s",
+    "film_speed": "ISO 100–400",
+    "focus": "Set by scale or on the ground glass; the subject stays sharp with softly blurred surroundings.",
+    "support": "Handheld, or from the waist",
+    "equipment": [
+      "35mm rangefinder or Rolleiflex",
+      "35mm or 50mm prime",
+      "black and white film"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Black and white with rich mid-tones and a gentle S-curve; the tone is warm and human.",
+    "palette": [
+      {
+        "name": "Soft black",
+        "hex": "#161616",
+        "role": "deep shadows"
+      },
+      {
+        "name": "Pavement grey",
+        "hex": "#7A7A76",
+        "role": "midtones"
+      },
+      {
+        "name": "Café wall",
+        "hex": "#CFCBC2",
+        "role": "highlights"
+      },
+      {
+        "name": "Paper white",
+        "hex": "#EFEDE6",
+        "role": "clipped highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a yellow-orange filter mix (R 45, G 45, B 10).",
+      "Set the black point at 2% and the white point at 96%.",
+      "Apply +15% midtone contrast with a soft S-curve.",
+      "Dodge the faces by +0.3 stop and burn the corners by −0.3 stop.",
+      "Add film grain, amount 15%, size 30%, as for ISO 400 film.",
+      "Keep the full frame; crop by no more than 5%."
+    ],
+    "grain": "ISO 400 film: fine and even, visible at A4"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "children at play",
+      "couples",
+      "workers and bistro guests",
+      "market and street scenes",
+      "working-class districts",
+      "dancers and street musicians"
+    ],
+    "staging": "Little or none. The photographer waits, and may speak to the person first.",
+    "direction": "People are at ease; they ignore the camera or give a short, natural smile."
+  },
+  "post_processing": {
+    "workflow": [
+      "Develop in a standard developer at ISO 400, with no push.",
+      "Make a contact sheet of the whole series and choose the frames that tell a story.",
+      "Print on grade 2 to 3 paper with soft burning at the edges.",
+      "Order the prints as a picture essay for a magazine or a book."
+    ],
+    "output": "A warm black and white 8×10 in print, or a series of 6 to 12 prints for a picture essay."
+  },
+  "prompt_primer": {
+    "positive": [
+      "humanist street photograph",
+      "Paris 1950s",
+      "black and white, available light",
+      "35mm Leica or Rolleiflex",
+      "children at play in the street",
+      "a couple in a café",
+      "warm and tender mood",
+      "soft contrast, rich mid-tones",
+      "candid and witty",
+      "working-class neighbourhood"
+    ],
+    "negative": [
+      "harsh flash",
+      "posed model",
+      "shallow depth of field",
+      "HDR",
+      "colour",
+      "cold and distant",
+      "heavy grain",
+      "glamour retouching"
+    ],
+    "canonical_works": [
+      {
+        "work": "Banlieue de Paris",
+        "maker": "Robert Doisneau",
+        "year": 1949
+      },
+      {
+        "work": "Le baiser de l'hôtel de ville",
+        "maker": "Robert Doisneau",
+        "year": 1950
+      },
+      {
+        "work": "Paris des rêves",
+        "maker": "Izis",
+        "year": 1950
+      },
+      {
+        "work": "Belleville-Ménilmontant",
+        "maker": "Willy Ronis",
+        "year": 1954
+      }
+    ]
+  },
+  "lineage": {
+    "subgenre_of": "documentary-photography",
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "street-photography"
+    ],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Warm recognition: the viewer feels fellowship with an ordinary person and smiles with them.",
+    "keywords": [
+      "tender",
+      "witty",
+      "warm",
+      "communal",
+      "everyday"
+    ],
+    "brand_archetypes": [
+      "everyman",
+      "caregiver"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "humanist photography",
+      "photographie humaniste",
+      "doisneau",
+      "willy ronis",
+      "paris 1950s street",
+      "tender street scene",
+      "picture essay of everyday life",
+      "belleville"
+    ],
+    "use_cases": [
+      "editorial city stories",
+      "community and care campaigns",
+      "photo books of everyday life",
+      "image prompts for warm street scenes"
+    ],
+    "avoid_when": [
+      "The brief needs a harsh, raw or edgy mood.",
+      "The brief needs a news event or a staged glossy ideal."
+    ],
+    "modifiers": [
+      {
+        "request": "rougher and more restless",
+        "toward": "are-bure-boke",
+        "how": "Push ISO 3200, shoot at 1/30s handheld, tilt the frame and print with crushed blacks."
+      },
+      {
+        "request": "colder and more exact",
+        "toward": "new-objectivity",
+        "how": "Move to a tripod and a 150mm lens at f/32, with even light and a frontal view; photograph the person as a type."
+      }
+    ]
+  },
+  "permutations": {
+    "colour_temperature": {
+      "default": 5500,
+      "min": 4500,
+      "max": 6500
+    },
+    "contrast": {
+      "default": 1.1,
+      "min": 0.95,
+      "max": 1.25
+    },
+    "grain": {
+      "default": 400,
+      "min": 200,
+      "max": 800
+    },
+    "focal_length": {
+      "default": 35,
+      "min": 28,
+      "max": 50
+    },
+    "aspect_ratio": {
+      "default": "2:3",
+      "options": [
+        "2:3",
+        "1:1"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Humanist photography",
+      "url": "https://en.wikipedia.org/wiki/Humanist_photography"
+    },
+    {
+      "title": "Wikipedia: Robert Doisneau",
+      "url": "https://en.wikipedia.org/wiki/Robert_Doisneau"
+    },
+    {
+      "title": "Wikipedia: Willy Ronis",
+      "url": "https://en.wikipedia.org/wiki/Willy_Ronis"
+    },
+    {
+      "title": "Wikipedia: Le Groupe des XV",
+      "url": "https://en.wikipedia.org/wiki/Le_Groupe_des_XV"
+    },
+    {
+      "title": "Wikidata Q3381582: humanist photography",
+      "url": "https://www.wikidata.org/wiki/Q3381582"
+    }
+  ]
+}

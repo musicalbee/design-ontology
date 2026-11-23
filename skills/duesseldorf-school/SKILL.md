@@ -180,7 +180,7 @@ One motif or one frame, repeated with small changes in a set of works, so that t
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Kunstakademie Düsseldorf** (school, Düsseldorf, 1773–now), taught the style. The art academy of Düsseldorf. Bernd and Hilla Becher taught photography here to the students of the Düsseldorf School.
+- **Kunstakademie Düsseldorf** (school, Düsseldorf, 1773–now), taught the style. The art academy of Düsseldorf. Bernd Becher founded a photography class here in 1976. Bernd and Hilla Becher taught the students of the Düsseldorf School. Sources give 1996 or 1998 as the end of his chair.
 
 ## Permutations
 

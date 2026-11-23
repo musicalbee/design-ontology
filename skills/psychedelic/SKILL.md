@@ -258,6 +258,7 @@ A long S-shaped line whose curve changes along its length, drawn from a plant st
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Push Pin Studios** (studio, New York City, 1954–now), shaped the style. A design and illustration studio that Milton Glaser and Seymour Chwast led for twenty years. Its Push Pin style gave old styles such as Victorian, Art Nouveau and Art Deco a new, playful form, in an era of Swiss rationalism. Chwast still runs the Pushpin Group.
 - **San Francisco Oracle** (magazine, San Francisco, 1966–1968), published the style. An underground paper of the Haight-Ashbury scene. It printed rainbow inks over swirling art and lettering.
 
 ## Permutations

@@ -275,7 +275,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`grunge-editorial`](../grunge-editorial/SKILL.md)
 - **Mixes well with:** [`instagram-vintage-filter`](../instagram-vintage-filter/SKILL.md), [`photo-dump`](../photo-dump/SKILL.md), [`vsco-preset-look`](../vsco-preset-look/SKILL.md)
 - **Kin in another domain:** [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md), [`glitch-gif`](../glitch-gif/SKILL.md)
+- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`future-funk`](../future-funk/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
 
 ## Emotional target
 

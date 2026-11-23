@@ -281,7 +281,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`frutiger-aero`](../frutiger-aero/SKILL.md)
 - **Led to (go here for a newer version):** [`ethereal-web`](../ethereal-web/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md)
 - **Mixes well with:** [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`bento-grid-ui`](../bento-grid-ui/SKILL.md), [`blob-world`](../blob-world/SKILL.md), [`dark-devtool-ui`](../dark-devtool-ui/SKILL.md), [`neumorphism`](../neumorphism/SKILL.md), [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
-- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md), [`discord-server`](../discord-server/SKILL.md)
+- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`mallsoft`](../mallsoft/SKILL.md), [`aurora-gradient-ui`](../aurora-gradient-ui/SKILL.md)
 
 ## Emotional target
 

@@ -273,7 +273,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`photo-dump`](../photo-dump/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`cohesive-feed-grid`](../cohesive-feed-grid/SKILL.md)
 - **Kin in another domain:** [`camcorder-revival`](../camcorder-revival/SKILL.md), [`vertical-short-form`](../vertical-short-form/SKILL.md)
-- **Nearest by vector profile:** [`cinemagraph`](../cinemagraph/SKILL.md), [`unboxing-video`](../unboxing-video/SKILL.md), [`ai-slop`](../ai-slop/SKILL.md)
+- **Nearest by vector profile:** [`mallsoft`](../mallsoft/SKILL.md), [`cinemagraph`](../cinemagraph/SKILL.md), [`unboxing-video`](../unboxing-video/SKILL.md)
 
 ## Emotional target
 

@@ -270,7 +270,7 @@ A move speeds up from rest and slows down before it stops, as a real mass does, 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Consumer Aesthetics Research Institute** (platform, web, ?–now), published the style. An online community that collects and names the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
+- **Consumer Aesthetics Research Institute** (platform, web, 2014–now), published the style. An online community that builds a shared vocabulary for the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
 
 ## Permutations
 
@@ -296,9 +296,9 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Led to (go here for a newer version):** [`glassmorphism`](../glassmorphism/SKILL.md), [`hyperpop-visual`](../hyperpop-visual/SKILL.md)
 - **Was rejected by:** [`health-goth`](../health-goth/SKILL.md), [`metro-ui`](../metro-ui/SKILL.md), [`weirdcore`](../weirdcore/SKILL.md)
-- **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
+- **Mixes well with:** [`apple-aqua`](../apple-aqua/SKILL.md), [`dreamcore`](../dreamcore/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`utopian-virtual`](../utopian-virtual/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
 - **Kin in another domain:** [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
-- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`ai-slop`](../ai-slop/SKILL.md), [`cassette-futurism`](../cassette-futurism/SKILL.md)
+- **Nearest by vector profile:** [`apple-aqua`](../apple-aqua/SKILL.md), [`utopian-virtual`](../utopian-virtual/SKILL.md), [`ai-slop`](../ai-slop/SKILL.md)
 
 ## Emotional target
 

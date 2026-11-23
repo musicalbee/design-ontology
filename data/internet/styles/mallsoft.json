@@ -1,0 +1,334 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "mallsoft",
+  "domain": "internet",
+  "name": "Mallsoft",
+  "aliases": [
+    "Mallwave"
+  ],
+  "branch": "net-aesthetics",
+  "era_id": "feed-mobile",
+  "time_period": {
+    "start": 2012,
+    "end": null,
+    "label": "2012–"
+  },
+  "primary_mediums": [
+    "web",
+    "video"
+  ],
+  "summary": "Empty shopping malls and lobbies in dull light, in photos that look like they date from the 1980s and 1990s. The pictures go with mall music and evoke loneliness and a cold, corporate space.",
+  "philosophy": {
+    "core_thesis": "A mall with no people is a memory of a public place that sells and does not speak: the viewer feels at home and alone at once.",
+    "design_principles": [
+      "Use one photo of a mall interior from the 1980s or 1990s as the focal image, and set it at 70% to 85% of the viewport width.",
+      "Fade the photo: lower the contrast by 10% to 20%, warm the shadows and add a grain of 3% to 6%.",
+      "Set the ground in pale peach (#EFE4D6) with a floor of square tiles in 64px to 96px steps.",
+      "Use cool tube-light white (#F7FBFF) for the text panels and keep body text at 16px with a contrast of 7:1 or more.",
+      "Set headlines in a quiet geometric sans-serif at normal tracking, in lower case, with a small shop-sign tag above.",
+      "Add one line of fake mall notice text, such as an opening time or a floor name, under each main heading.",
+      "Leave 40% to 55% of the surface empty, so that the page feels like a hall with no people."
+    ],
+    "anti_patterns": [
+      "Neon pink and cyan glow",
+      "Statues, sun discs and perspective grids",
+      "Busy, loud promotion banners",
+      "Crowds of happy shoppers",
+      "Sharp modern photography",
+      "Dense multi-column layouts"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "dimensionality": 3,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A calm 12-column grid with 32px gutters; one large photo spans 8 columns and a narrow text panel spans 4 columns.",
+    "whitespace_ratio": "40% to 55% of the surface stays empty; the spacing scale is 8, 16, 32 and 64px.",
+    "alignment_rules": "Flush-left headlines and panels; the photo sits off centre, as a view down a hall.",
+    "container_geometry": "Panels with a 2px radius and a 1px pale edge; photo frames with a square corner; thin rules like shop-front edges."
+  },
+  "typography": {
+    "classifications": [
+      "geometric sans",
+      "humanist sans",
+      "sign lettering"
+    ],
+    "font_pairings": [
+      {
+        "display": "Jost",
+        "body": "Work Sans",
+        "note": "A geometric display face that echoes mall sign lettering, with a calm text face."
+      },
+      {
+        "display": "Josefin Sans",
+        "body": "Source Sans 3",
+        "note": "A thin, wide-set face for floor signs, with a neutral text face."
+      },
+      {
+        "display": "Poppins",
+        "body": "Nunito Sans",
+        "note": "A round, friendly sign face for a soft corporate tone."
+      }
+    ],
+    "tracking": "Display takes 0.02em; small tags take 0.14em; body stays at 0.01em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and semibold (600).",
+      "Use sizes 13, 16, 32 and 56px.",
+      "Set headlines in lower case.",
+      "Put a small upper-case tag with a floor or shop name above each main heading."
+    ]
+  },
+  "color": {
+    "palette_structure": "Pale peach and warm beige for the hall, cool tube white for the panels, with a muted teal and a dusty rose as the only accents.",
+    "palette": [
+      {
+        "name": "Peach Marble",
+        "hex": "#EFE4D6",
+        "role": "background"
+      },
+      {
+        "name": "Fountain Teal",
+        "hex": "#2F6F73",
+        "role": "primary"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#B0576B",
+        "role": "accent"
+      },
+      {
+        "name": "Tube White",
+        "hex": "#F7FBFF",
+        "role": "panel surface"
+      },
+      {
+        "name": "Carpet Brown",
+        "hex": "#6B4F3F",
+        "role": "second accent"
+      },
+      {
+        "name": "Closed Shutter",
+        "hex": "#8A8F94",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Text on peach marble holds at least 7:1; teal and rose carry headings and tags, not long text.",
+    "surface_treatment": "Flat pale colour with a faint tile pattern; photos with a faded, warm cast and fine grain.",
+    "light_and_shadow": "Even overhead light with no hard shadow; a soft glow of 1px to 2px at the edge of panels."
+  },
+  "materiality": {
+    "surface_simulation": "A mall hall: polished tile floors, glass shop fronts, brushed metal rails and a ceiling of tube lights.",
+    "border_rules": "A 1px pale-grey rule on panels; a 2px rule under headings like a shop-front edge.",
+    "blur_and_elevation": "No blur; panels sit flat with a 2px soft shadow at 8% opacity."
+  },
+  "ornamentation_details": {
+    "iconography": "Thin outline icons at 24px with round terminals, in the style of mall directory signs: stairs, lift, bag, fountain.",
+    "illustration": "Faded photos and video stills of mall halls, fountains, escalators and closed shop fronts; no drawn figures.",
+    "decorative_elements": [
+      "mall interior photo",
+      "square floor tiles",
+      "directory sign",
+      "fountain basin",
+      "shop-front rule"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Very slow, steady drifts: the photo pans by 2% in 30s; panels fade in over 800ms; no bounce.",
+    "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+    "duration_ms": 800,
+    "hover_and_active": "Hover lowers the contrast of the photo by 5% and underlines the label; active state darkens the panel by 4%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "subgenre_of": "vaporwave"
+  },
+  "emotion": {
+    "target_response": "The viewer feels a calm, lonely nostalgia for a public place that no longer exists.",
+    "keywords": [
+      "lonely",
+      "calm",
+      "nostalgic",
+      "corporate",
+      "faded",
+      "hollow"
+    ],
+    "brand_archetypes": [
+      "innocent",
+      "sage",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "mallsoft",
+      "mallwave",
+      "empty mall",
+      "dead mall",
+      "shopping mall nostalgia",
+      "elevator music",
+      "retail lounge"
+    ],
+    "use_cases": [
+      "ambient and lo-fi music releases",
+      "video essays on retail and consumer culture",
+      "art and zine pages about public space",
+      "photo archives of lost interiors"
+    ],
+    "avoid_when": [
+      "The page must sell a product with urgency.",
+      "The audience needs a bright, active tone.",
+      "The page needs dense, fast reading."
+    ],
+    "modifiers": [
+      {
+        "request": "more neon",
+        "toward": "vaporwave",
+        "how": "Replace the peach with a violet ground; add a pink to cyan gradient, a perspective floor and a glow on headings."
+      },
+      {
+        "request": "cleaner",
+        "toward": "utopian-virtual",
+        "how": "Replace the faded photo with a bright 3D render; use sky blue and white with glossy panels."
+      },
+      {
+        "request": "more upbeat",
+        "toward": "future-funk",
+        "how": "Replace the mall photo with a warm anime sunset still; add pink and teal and a rounded sans face."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.1,
+      "display_case": "lowercase",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "outline",
+      "stroke_width": 1.5,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "none",
+      "pack": {
+        "id": "lucide",
+        "why": "Thin outline icons with round ends read like the pictograms on a mall directory."
+      }
+    },
+    "art": {
+      "recipe": "flat",
+      "pattern": "checks",
+      "seed": 41
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "tiles",
+      "why": "A mall hall is a floor of square tiles under tube light; the ground repeats that floor."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#EFE4D6",
+      "--color-surface": "#F7FBFF",
+      "--color-text": "#2B2420",
+      "--color-muted": "#5B5148",
+      "--color-primary": "#2F6F73",
+      "--color-accent": "#B0576B",
+      "--color-border": "#C9BBA8",
+      "--font-sans": "\"Work Sans\", \"Source Sans 3\", sans-serif",
+      "--font-display": "\"Jost\", \"Josefin Sans\", sans-serif",
+      "--border-radius": "2px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 2px 6px rgba(43,36,32,0.08)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "--duration": "800ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#EFE4D6] text-[#2B2420] antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-semibold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border bg-[#F7FBFF] rounded-sm shadow-sm"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-sm border border-[#B0576B] bg-[#2F6F73] px-6 py-3 text-sm font-semibold text-[#EFE4D6]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.12em] text-[#B0576B]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#EFE4D6",
+        "#F7FBFF",
+        "#2F6F73"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#B0576B",
+        "#2F6F73"
+      ]
+    },
+    "corner_radius": {
+      "min": 0,
+      "max": 4
+    },
+    "grid_step": {
+      "min": 6,
+      "max": 16
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Mallsoft",
+      "url": "https://en.wikipedia.org/wiki/Mallsoft"
+    },
+    {
+      "title": "Wikipedia: Vaporwave",
+      "url": "https://en.wikipedia.org/wiki/Vaporwave"
+    }
+  ]
+}

@@ -48,10 +48,13 @@ flowchart LR
     bohemian_web["Bohemian Web"]
     clickbait_thumbnail["Clickbait Thumbnail"]
     flat_design["Flat Design"]
+    mallsoft["Mallsoft"]
     minimalism_web["Minimalism Web"]
     tumblr_soft_grunge["Tumblr Soft Grunge"]
+    utopian_virtual["Utopian virtual"]
     vaporwave["Vaporwave"]
     cyberpunk_web["Cyberpunk Web"]
+    future_funk["Future funk"]
     health_goth["Health Goth"]
     normcore["Normcore"]
     synthwave_web["Synthwave Web"]
@@ -200,6 +203,8 @@ flowchart LR
     new_objectivity["New Objectivity photography"]
     street_photography["Street photography"]
     documentary_photography["Documentary photography"]
+    humanist_photography["Humanist photography"]
+    are_bure_boke["Are-bure-boke"]
   end
   subgraph photography_colour_and_topography["Photography · Colour and the topographic turn · 1970–1990"]
     new_colour["New Colour"]
@@ -2076,10 +2081,15 @@ flowchart LR
   xerox_zine -. rejects .-> psychedelic_concert_poster
   y2k_aesthetic -. rejects .-> grunge_editorial
   yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
+  street_photography == branch ==> are_bure_boke
+  vaporwave == branch ==> future_funk
   mid_century_modern_architecture == branch ==> googie_architecture
+  documentary_photography == branch ==> humanist_photography
+  vaporwave == branch ==> mallsoft
   cubism_painting == branch ==> orphism
   futurism_painting == branch ==> rayonism
   post_impressionism == branch ==> synthetism
+  vaporwave == branch ==> utopian_virtual
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 2 stroke:#8E8E93,stroke-width:1.5px

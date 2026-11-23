@@ -269,6 +269,8 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Neue Grafik** (magazine, Zürich, 1958–1965), published the style. A trilingual review of graphic design, set on a strict grid, that four Swiss designers edited. It made the case for the International Typographic Style.
+- **Push Pin Studios** (studio, New York City, 1954–now), opposed the style. A design and illustration studio that Milton Glaser and Seymour Chwast led for twenty years. Its Push Pin style gave old styles such as Victorian, Art Nouveau and Art Deco a new, playful form, in an era of Swiss rationalism. Chwast still runs the Pushpin Group.
+- **Total Design** (studio, Amsterdam, 1963–now), shaped the style. A Dutch design studio in Amsterdam, founded in 1963 by Wim Crouwel and others, and now called Total Identity. Its work used grid-based layouts and geometric wordmarks in the line of the International Typographic Style.
 
 ## Permutations
 

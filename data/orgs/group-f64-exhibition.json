@@ -2,14 +2,14 @@
   "$schema": "../../schema/org.schema.json",
   "id": "group-f64-exhibition",
   "name": "Group f/64",
-  "kind": "exhibition",
+  "kind": "collective",
   "identity": {
     "wikidata": "Q309961"
   },
   "founded": 1932,
-  "closed": 1932,
-  "place": "San Francisco",
-  "summary": "The first show of Group f/64 at the M. H. de Young Museum. It showed sharp, straight prints against pictorialism.",
+  "closed": 1935,
+  "place": "San Francisco Bay Area",
+  "summary": "A group of seven photographers of the San Francisco Bay Area who shared a sharp, straight style. Ansel Adams and Willard Van Dyke organised it. It showed first at the de Young Museum in 1932. It dissolved by the end of 1935. It stood in part against pictorialism. The id keeps the old word exhibition.",
   "styles": [
     {
       "style": "group-f64",
@@ -18,12 +18,103 @@
   ],
   "people": [
     "ansel-adams",
-    "edward-weston"
+    "edward-weston",
+    "willard-van-dyke",
+    "imogen-cunningham",
+    "sonya-noskowiak"
   ],
   "sources": [
     {
       "title": "Wikipedia: Group f/64",
       "url": "https://en.wikipedia.org/wiki/Group_f/64"
+    },
+    {
+      "title": "Wikidata Q309961",
+      "url": "https://www.wikidata.org/wiki/Q309961"
+    },
+    {
+      "title": "Wikipedia: Willard Van Dyke",
+      "url": "https://en.wikipedia.org/wiki/Willard_Van_Dyke"
+    },
+    {
+      "title": "Wikipedia: Sonya Noskowiak",
+      "url": "https://en.wikipedia.org/wiki/Sonya_Noskowiak"
+    }
+  ],
+  "members": [
+    {
+      "person": "ansel-adams",
+      "role": "founder",
+      "from": 1932,
+      "to": 1935
+    },
+    {
+      "person": "willard-van-dyke",
+      "role": "founder",
+      "from": 1932,
+      "to": 1935
+    },
+    {
+      "person": "edward-weston",
+      "role": "member",
+      "from": 1932,
+      "to": 1935
+    },
+    {
+      "person": "imogen-cunningham",
+      "role": "member",
+      "from": 1932,
+      "to": 1935
+    },
+    {
+      "person": "sonya-noskowiak",
+      "role": "member",
+      "from": 1932,
+      "to": 1935
+    }
+  ],
+  "statement": {
+    "text": "The group shows only work in pure photography, which uses no technique, composition or idea borrowed from another art form.",
+    "title": "Manifesto of Group f/64",
+    "year": 1932,
+    "url": "https://en.wikipedia.org/wiki/Group_f/64"
+  },
+  "moves": [
+    {
+      "year": 1932,
+      "kind": "founding",
+      "text": "Adams and Van Dyke organised their fellow photographers into a group.",
+      "source": {
+        "title": "Wikipedia: Group f/64",
+        "url": "https://en.wikipedia.org/wiki/Group_f/64"
+      }
+    },
+    {
+      "year": 1932,
+      "kind": "show",
+      "text": "The first exhibition opened at the de Young Museum on 15 November.",
+      "source": {
+        "title": "Wikipedia: Group f/64",
+        "url": "https://en.wikipedia.org/wiki/Group_f/64"
+      }
+    },
+    {
+      "year": 1932,
+      "kind": "manifesto",
+      "text": "The group displayed its manifesto at this exhibition.",
+      "source": {
+        "title": "Wikipedia: Group f/64",
+        "url": "https://en.wikipedia.org/wiki/Group_f/64"
+      }
+    },
+    {
+      "year": 1935,
+      "kind": "closure",
+      "text": "The group dissolved by the end of the year.",
+      "source": {
+        "title": "Wikipedia: Group f/64",
+        "url": "https://en.wikipedia.org/wiki/Group_f/64"
+      }
     }
   ]
 }
