@@ -259,6 +259,7 @@ A small image that repeats in both directions behind a page. It fills any window
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **GeoCities** (platform, web, 1994–2009), launched the style. A free host for personal home pages. Its pages used tiled backgrounds, pixel GIFs, counters and under-construction signs.
+- **WebRing** (company, web, 1995–now), gathered the style. A service that linked web sites on one theme into a loop by a shared navigation bar. It grew from a script by Sage Weil.
 
 ## Permutations
 
@@ -284,7 +285,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`myspace-profile`](../myspace-profile/SKILL.md)
 - **Was rejected by:** [`portal-table-layout`](../portal-table-layout/SKILL.md)
 - **Mixes well with:** [`net-art-browser`](../net-art-browser/SKILL.md)
-- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
+- **Nearest by vector profile:** [`cottagecore`](../cottagecore/SKILL.md), [`future-funk`](../future-funk/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md)
 
 ## Emotional target
 

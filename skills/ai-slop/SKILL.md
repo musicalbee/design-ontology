@@ -272,7 +272,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`diffusion-gloss`](../diffusion-gloss/SKILL.md)
 - **Mixes well with:** [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md)
 - **Kin in another domain:** [`ai-hyperreal`](../ai-hyperreal/SKILL.md)
-- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md), [`apple-aqua`](../apple-aqua/SKILL.md)
+- **Nearest by vector profile:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`mallsoft`](../mallsoft/SKILL.md), [`ai-avatar-portrait`](../ai-avatar-portrait/SKILL.md)
 
 ## Emotional target
 

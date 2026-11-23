@@ -1,0 +1,334 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "utopian-virtual",
+  "domain": "internet",
+  "name": "Utopian virtual",
+  "aliases": [],
+  "branch": "net-aesthetics",
+  "era_id": "feed-mobile",
+  "time_period": {
+    "start": 2011,
+    "end": null,
+    "label": "2011–"
+  },
+  "primary_mediums": [
+    "web",
+    "mobile",
+    "video"
+  ],
+  "summary": "Crisp, unreal early 3D graphics: glossy blue spheres, clean water, white interfaces and smooth sky gradients. Musician James Ferraro coined the term in 2011. It later came to be tied to the Frutiger Aero look.",
+  "philosophy": {
+    "core_thesis": "A virtual life with no flaws: clean, bright and synthetic, a soundtrack and a picture of a computer world that is too perfect to be real.",
+    "design_principles": [
+      "Use one glossy 3D render as the focal image, such as a sphere, a drop or a glass button, at 40% to 60% of the viewport.",
+      "Set a vertical sky gradient from deep blue (#1E6FD9) to pale aqua (#CFF4FF) behind the render.",
+      "Give each surface a top highlight of 40% white and a soft bottom reflection of 15% white.",
+      "Use white panels with a 12px radius and a 1px pale-blue edge for content, with dark navy text.",
+      "Set headlines in a clean humanist sans-serif at normal tracking, in mixed case.",
+      "Keep body text at 17px with a contrast of 7:1 or more on white panels.",
+      "Add one small touch of fresh green (#7ED957) or lime to a single button or label."
+    ],
+    "anti_patterns": [
+      "Grain, dirt and film wear",
+      "Dark purple grounds and neon glow",
+      "Faded, lonely interiors",
+      "Pixel icons and bevelled windows",
+      "Heavy outlines and flat cel colours",
+      "Irony in the copy that shows through a harsh layout"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 3,
+    "dimensionality": 5,
+    "grid_rigidity": 3,
+    "skeuomorphic_realism": 4,
+    "typographic_expressiveness": 2
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; the render sits across columns 1 to 6 and a white panel sits across columns 7 to 12.",
+    "whitespace_ratio": "30% to 40% of the surface stays empty; the spacing scale is 8, 16, 24 and 48px.",
+    "alignment_rules": "Flush-left text with the render floating at the right; objects cast a faint reflection below them.",
+    "container_geometry": "Panels with a 12px radius and a 1px pale edge; circles for buttons and spheres; capsules for tags."
+  },
+  "typography": {
+    "classifications": [
+      "humanist sans",
+      "grotesque sans"
+    ],
+    "font_pairings": [
+      {
+        "display": "Nunito Sans",
+        "body": "Open Sans",
+        "note": "A friendly humanist pair that echoes early 2000s interfaces."
+      },
+      {
+        "display": "Figtree",
+        "body": "Source Sans 3",
+        "note": "A clean modern display face with a neutral text face."
+      },
+      {
+        "display": "Lexend",
+        "body": "Public Sans",
+        "note": "A wide, open display face with a plain text face."
+      }
+    ],
+    "tracking": "Display takes 0em; labels take 0.08em; body stays at 0em.",
+    "leading": "Display 1.1; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and semibold (600).",
+      "Use sizes 14, 17, 34 and 64px.",
+      "Set headlines in mixed case.",
+      "Put the most important word of a heading in the primary blue."
+    ]
+  },
+  "color": {
+    "palette_structure": "Sky blue and aqua with white, one fresh green and a deep navy for text.",
+    "palette": [
+      {
+        "name": "Sky Blue",
+        "hex": "#1E6FD9",
+        "role": "primary"
+      },
+      {
+        "name": "Pale Aqua",
+        "hex": "#CFF4FF",
+        "role": "background"
+      },
+      {
+        "name": "Fresh Green",
+        "hex": "#7ED957",
+        "role": "accent"
+      },
+      {
+        "name": "Gloss White",
+        "hex": "#FFFFFF",
+        "role": "panel surface"
+      },
+      {
+        "name": "Deep Navy",
+        "hex": "#0B2A4A",
+        "role": "text"
+      },
+      {
+        "name": "Mist Blue",
+        "hex": "#8FB8DE",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Navy text on white or pale aqua holds at least 7:1; blue and green carry buttons and highlights, not long text.",
+    "surface_treatment": "Smooth gradients with a gloss highlight on the top half of each object; a faint mirrored reflection below.",
+    "light_and_shadow": "A soft white highlight at the top edge and a blurred blue shadow of 16px below; no hard shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Early rendered glass, water and plastic: crisp spheres, droplets, glossy buttons and clear panels.",
+    "border_rules": "A 1px pale-blue edge on panels; a 1px white inner edge on glossy buttons.",
+    "blur_and_elevation": "Soft shadows of 12px to 20px blur at 15% blue; panels lift by 4px on hover."
+  },
+  "ornamentation_details": {
+    "iconography": "Filled glossy icons at 24px with round forms and a highlight, in blue and white.",
+    "illustration": "Rendered spheres, water drops, glass buttons, clouds and a clean horizon; no photos of people.",
+    "decorative_elements": [
+      "glossy sphere",
+      "water drop",
+      "glass button",
+      "sky gradient",
+      "reflection"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Smooth and weightless: objects float up and down by 8px over 6s; panels fade and rise by 12px over 360ms.",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "duration_ms": 360,
+    "hover_and_active": "Hover raises the gloss highlight by 10% and lifts the panel by 4px; active state dims the gloss by 15%."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [
+      "frutiger-aero"
+    ],
+    "echoes": [],
+    "subgenre_of": "vaporwave"
+  },
+  "emotion": {
+    "target_response": "The viewer feels calm wonder at a clean, perfect, synthetic world.",
+    "keywords": [
+      "clean",
+      "glossy",
+      "synthetic",
+      "optimistic",
+      "weightless",
+      "uncanny"
+    ],
+    "brand_archetypes": [
+      "magician",
+      "creator",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "utopian virtual",
+      "early 3d",
+      "glossy 3d",
+      "2000s tech gloss",
+      "virtual life",
+      "aqua render",
+      "y2k 3d"
+    ],
+    "use_cases": [
+      "music and art releases about digital life",
+      "retro tech landing pages",
+      "game and 3D portfolio sites",
+      "fashion and product drops with a clean tone"
+    ],
+    "avoid_when": [
+      "The page needs a grainy, human or hand-made tone.",
+      "The audience wants a dark, moody tone.",
+      "The page must load fast on weak devices with large renders."
+    ],
+    "modifiers": [
+      {
+        "request": "more neon",
+        "toward": "vaporwave",
+        "how": "Swap the sky gradient for pink to cyan on a purple ground; add a perspective floor and desktop windows."
+      },
+      {
+        "request": "more natural",
+        "toward": "frutiger-aero",
+        "how": "Add a green hill, bubbles and a lighter sky; keep the gloss and soften the renders."
+      },
+      {
+        "request": "lonelier",
+        "toward": "mallsoft",
+        "how": "Replace the renders with a faded photo of an empty hall; mute the blue to peach and teal."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 600,
+      "subhead_weight": 400,
+      "body_weight": 400,
+      "strong_weight": 600,
+      "label_weight": 600,
+      "accent": "colour",
+      "display_tracking": "0em",
+      "display_leading": 1.1,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "17px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "ion",
+        "why": "Filled round icons sit well in a glossy circle and suit a clean, rendered look."
+      }
+    },
+    "art": {
+      "recipe": "aero",
+      "pattern": "none",
+      "seed": 57
+    },
+    "layout": {
+      "hero": "split",
+      "align": "left",
+      "density": "airy",
+      "tilt_deg": 0
+    },
+    "ground": {
+      "kind": "sky",
+      "why": "Utopian virtual shows a clean rendered sky with a smooth gradient behind its glossy objects."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#CFF4FF",
+      "--color-surface": "#FFFFFF",
+      "--color-text": "#0B2A4A",
+      "--color-muted": "#3F5F80",
+      "--color-primary": "#1E6FD9",
+      "--color-accent": "#7ED957",
+      "--color-border": "#8FB8DE",
+      "--font-sans": "\"Open Sans\", \"Source Sans 3\", sans-serif",
+      "--font-display": "\"Nunito Sans\", \"Figtree\", sans-serif",
+      "--border-radius": "12px",
+      "--border-width": "1px",
+      "--shadow-elevation": "0 8px 16px rgba(30,111,217,0.15)",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--duration": "360ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#CFF4FF] text-[#0B2A4A] antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-semibold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border bg-[#FFFFFF] rounded-xl shadow-lg"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-xl border border-[#7ED957] bg-[#1E6FD9] px-6 py-3 text-sm font-semibold text-[#CFF4FF]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.12em] text-[#7ED957]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#1E6FD9",
+        "#CFF4FF",
+        "#FFFFFF"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#7ED957",
+        "#1E6FD9"
+      ]
+    },
+    "corner_radius": {
+      "min": 8,
+      "max": 20
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 8
+    },
+    "type_scale_ratio": {
+      "default": 1.25,
+      "min": 1.2,
+      "max": 1.333
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Vaporwave",
+      "url": "https://en.wikipedia.org/wiki/Vaporwave"
+    },
+    {
+      "title": "Wikipedia: James Ferraro",
+      "url": "https://en.wikipedia.org/wiki/James_Ferraro"
+    }
+  ]
+}

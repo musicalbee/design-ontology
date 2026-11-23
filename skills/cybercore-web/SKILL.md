@@ -255,7 +255,7 @@ A fault in a signal, kept as an image: torn lines, split colour channels and rep
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
-- **Consumer Aesthetics Research Institute** (platform, web, ?–now), published the style. An online community that collects and names the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
+- **Consumer Aesthetics Research Institute** (platform, web, 2014–now), published the style. An online community that began around 2014 (circa 2014). It builds a shared vocabulary for the looks of consumer goods and media from the 1970s on. It named Y2K and Frutiger Aero as aesthetics.
 - **Neocities** (platform, web, 2013–now), published the style. A free host for hand-made personal web sites, started as a new GeoCities. Its users bring back pixel art, small buttons and cyber looks.
 
 ## Permutations

@@ -285,7 +285,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`flat-design`](../flat-design/SKILL.md)
 - **Mixes well with:** [`dark-academia`](../dark-academia/SKILL.md), [`scrapbook-ui`](../scrapbook-ui/SKILL.md)
 - **Kin in another domain:** [`arts-and-crafts-interior`](../arts-and-crafts-interior/SKILL.md), [`grandmillennial-interior`](../grandmillennial-interior/SKILL.md), [`mingei-folk-craft`](../mingei-folk-craft/SKILL.md), [`romanticism-painting`](../romanticism-painting/SKILL.md)
-- **Nearest by vector profile:** [`geocities-homepage`](../geocities-homepage/SKILL.md), [`glitch-gif`](../glitch-gif/SKILL.md), [`tumblr-soft-grunge`](../tumblr-soft-grunge/SKILL.md)
+- **Nearest by vector profile:** [`future-funk`](../future-funk/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md), [`glitch-gif`](../glitch-gif/SKILL.md)
 
 ## Emotional target
 

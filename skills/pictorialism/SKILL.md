@@ -194,6 +194,9 @@ A way to etch a photograph into a copper plate. The print has the full range of 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Camera Work** (magazine, New York, 1903–1917), published the style. A quarterly of photography that Alfred Stieglitz edited and published, with fine photogravure plates. It argued for photography as a fine art.
+- **Le Groupe des XV** (collective, Paris, 1946–1957), opposed the style. A group of fifteen French photographers who showed together in Paris each year until 1957. It wanted photography to count as an art and wanted to keep French photographic heritage. Its members rejected pictorialism and shot street life. Most of them helped French humanist photography.
+- **The Linked Ring** (collective, United Kingdom, 1892–1909), gathered the style. A British photographic society for invited members. It argued that photography is an art as well as a science. Its Photographic Salon showed pictorial work each year. The Photo-Secession is called its American counterpart. Wikidata ends the group in 1909. A book title gives 1892 to 1910.
+- **Photo-Secession** (collective, United States, 1902–1917), launched the style. An invitation-only group that Alfred Stieglitz formed on 17 February 1902. It promoted photography as a fine art and pictorialism in particular. It ran the Little Galleries from 1905. Stieglitz dissolved it in 1917, when it existed in name only. Wikipedia calls it the American counterpart to the Linked Ring.
 
 ## Permutations
 

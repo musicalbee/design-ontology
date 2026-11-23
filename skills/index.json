@@ -987,6 +987,7 @@
         "photomontage"
       ],
       "orgs": [
+        "emigre",
         "ray-gun"
       ],
       "permutations": {
@@ -1113,7 +1114,12 @@
         "browser-default-rendering"
       ],
       "orgs": [
-        "rhizome"
+        "irational-org",
+        "jodi",
+        "net-art",
+        "new-radio-and-performing-arts",
+        "rhizome",
+        "the-thing"
       ],
       "permutations": {
         "base_colour": {
@@ -1240,7 +1246,8 @@
         "tiled-background"
       ],
       "orgs": [
-        "geocities"
+        "geocities",
+        "webring"
       ],
       "permutations": {
         "base_colour": {
@@ -1623,6 +1630,7 @@
       "orgs": [
         "consumer-aesthetics-research-institute",
         "myspace",
+        "the-designers-republic",
         "tumblr"
       ],
       "permutations": {
@@ -1749,6 +1757,7 @@
         "vector-tween-animation"
       ],
       "orgs": [
+        "hi-res",
         "newgrounds"
       ],
       "permutations": {
@@ -4904,6 +4913,131 @@
       }
     },
     {
+      "id": "utopian-virtual",
+      "name": "Utopian virtual",
+      "domain": "internet",
+      "family": "internet",
+      "branch": "net-aesthetics",
+      "era": "feed-mobile",
+      "period": "2011–",
+      "thesis": "A virtual life with no flaws: clean, bright and synthetic, a soundtrack and a picture of a computer world that is too perfect to be real.",
+      "summary": "Crisp, unreal early 3D graphics: glossy blue spheres, clean water, white interfaces and smooth sky gradients. Musician James Ferraro coined the term in 2011. It later came to be tied to the Frutiger Aero look.",
+      "path": "skills/utopian-virtual/SKILL.md",
+      "tokens": "skills/utopian-virtual/tokens.css",
+      "pack": "skills/utopian-virtual/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "colour",
+          "display_tracking": "0em",
+          "display_leading": 1.1,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "17px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle",
+          "pack": {
+            "id": "ion",
+            "why": "Filled round icons sit well in a glossy circle and suit a clean, rendered look."
+          }
+        },
+        "art": {
+          "recipe": "aero",
+          "pattern": "none",
+          "seed": 57
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        },
+        "ground": {
+          "kind": "sky",
+          "why": "Utopian virtual shows a clean rendered sky with a smooth gradient behind its glossy objects."
+        }
+      },
+      "triggers": [
+        "utopian virtual",
+        "early 3d",
+        "glossy 3d",
+        "2000s tech gloss",
+        "virtual life",
+        "aqua render",
+        "y2k 3d"
+      ],
+      "use_cases": [
+        "music and art releases about digital life",
+        "retro tech landing pages",
+        "game and 3D portfolio sites",
+        "fashion and product drops with a clean tone"
+      ],
+      "emotion": [
+        "clean",
+        "glossy",
+        "synthetic",
+        "optimistic",
+        "weightless",
+        "uncanny"
+      ],
+      "archetypes": [
+        "magician",
+        "creator",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 5,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      },
+      "techniques": [
+        "early-3d-render"
+      ],
+      "orgs": [
+        "4chan",
+        "reddit"
+      ],
+      "permutations": {
+        "base_colour": {
+          "options": [
+            "#1E6FD9",
+            "#CFF4FF",
+            "#FFFFFF"
+          ]
+        },
+        "accent_colour": {
+          "options": [
+            "#7ED957",
+            "#1E6FD9"
+          ]
+        },
+        "corner_radius": {
+          "min": 8,
+          "max": 20
+        },
+        "grid_step": {
+          "min": 4,
+          "max": 8
+        },
+        "type_scale_ratio": {
+          "default": 1.25,
+          "min": 1.2,
+          "max": 1.333
+        }
+      }
+    },
+    {
       "id": "bohemian-web",
       "name": "Bohemian Web",
       "domain": "internet",
@@ -5281,6 +5415,131 @@
         "grid_step": {
           "min": 4,
           "max": 12
+        },
+        "type_scale_ratio": {
+          "default": 1.25,
+          "min": 1.2,
+          "max": 1.333
+        }
+      }
+    },
+    {
+      "id": "mallsoft",
+      "name": "Mallsoft",
+      "domain": "internet",
+      "family": "internet",
+      "branch": "net-aesthetics",
+      "era": "feed-mobile",
+      "period": "2012–",
+      "thesis": "A mall with no people is a memory of a public place that sells and does not speak: the viewer feels at home and alone at once.",
+      "summary": "Empty shopping malls and lobbies in dull light, in photos that look like they date from the 1980s and 1990s. The pictures go with mall music and evoke loneliness and a cold, corporate space.",
+      "path": "skills/mallsoft/SKILL.md",
+      "tokens": "skills/mallsoft/tokens.css",
+      "pack": "skills/mallsoft/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 600,
+          "subhead_weight": 400,
+          "body_weight": 400,
+          "strong_weight": 600,
+          "label_weight": 600,
+          "accent": "colour",
+          "display_tracking": "0.02em",
+          "display_leading": 1.1,
+          "display_case": "lowercase",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "outline",
+          "stroke_width": 1.5,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "none",
+          "pack": {
+            "id": "lucide",
+            "why": "Thin outline icons with round ends read like the pictograms on a mall directory."
+          }
+        },
+        "art": {
+          "recipe": "flat",
+          "pattern": "checks",
+          "seed": 41
+        },
+        "layout": {
+          "hero": "split",
+          "align": "left",
+          "density": "airy",
+          "tilt_deg": 0
+        },
+        "ground": {
+          "kind": "tiles",
+          "why": "A mall hall is a floor of square tiles under tube light; the ground repeats that floor."
+        }
+      },
+      "triggers": [
+        "mallsoft",
+        "mallwave",
+        "empty mall",
+        "dead mall",
+        "shopping mall nostalgia",
+        "elevator music",
+        "retail lounge"
+      ],
+      "use_cases": [
+        "ambient and lo-fi music releases",
+        "video essays on retail and consumer culture",
+        "art and zine pages about public space",
+        "photo archives of lost interiors"
+      ],
+      "emotion": [
+        "lonely",
+        "calm",
+        "nostalgic",
+        "corporate",
+        "faded",
+        "hollow"
+      ],
+      "archetypes": [
+        "innocent",
+        "sage",
+        "everyman"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      },
+      "techniques": [
+        "mall-interior-frame"
+      ],
+      "orgs": [
+        "4chan",
+        "reddit"
+      ],
+      "permutations": {
+        "base_colour": {
+          "options": [
+            "#EFE4D6",
+            "#F7FBFF",
+            "#2F6F73"
+          ]
+        },
+        "accent_colour": {
+          "options": [
+            "#B0576B",
+            "#2F6F73"
+          ]
+        },
+        "corner_radius": {
+          "min": 0,
+          "max": 4
+        },
+        "grid_step": {
+          "min": 6,
+          "max": 16
         },
         "type_scale_ratio": {
           "default": 1.25,
@@ -5794,6 +6053,131 @@
         "type_scale_ratio": {
           "default": 1.618,
           "min": 1.5,
+          "max": 1.618
+        }
+      }
+    },
+    {
+      "id": "future-funk",
+      "name": "Future funk",
+      "domain": "internet",
+      "family": "internet",
+      "branch": "net-aesthetics",
+      "era": "feed-mobile",
+      "period": "2013–",
+      "thesis": "Take the dreamy irony of vaporwave and make it warm and danceable: the past of Japanese pop and anime is a place to enjoy, not only to mourn.",
+      "summary": "Cels and stills from 1980s and 1990s anime in warm sunset colours, with city and neon signs and bright pastel type. It adds the sample-based look of vaporwave to upbeat dance music and Japanese pop culture.",
+      "path": "skills/future-funk/SKILL.md",
+      "tokens": "skills/future-funk/tokens.css",
+      "pack": "skills/future-funk/pack/",
+      "visual": {
+        "type": {
+          "display_weight": 800,
+          "subhead_weight": 600,
+          "body_weight": 400,
+          "strong_weight": 700,
+          "label_weight": 700,
+          "accent": "colour",
+          "display_tracking": "0.02em",
+          "display_leading": 1.15,
+          "display_case": "none",
+          "body_leading": 1.6,
+          "body_size": "16px"
+        },
+        "icon": {
+          "mode": "solid",
+          "stroke_width": 2,
+          "linecap": "round",
+          "linejoin": "round",
+          "container": "circle",
+          "pack": {
+            "id": "mingcute-fill",
+            "why": "Filled icons with round shapes match the soft, bold look of the cels and stickers."
+          }
+        },
+        "art": {
+          "recipe": "memphis",
+          "pattern": "dots",
+          "seed": 13
+        },
+        "layout": {
+          "hero": "split",
+          "align": "center",
+          "density": "regular",
+          "tilt_deg": -2
+        },
+        "ground": {
+          "kind": "halftone",
+          "why": "Future funk keeps the screen-printed dot of anime posters under a sunset gradient."
+        }
+      },
+      "triggers": [
+        "future funk",
+        "sailorwave",
+        "city pop",
+        "90s anime",
+        "anime sunset",
+        "japanese pop nostalgia",
+        "anime lofi"
+      ],
+      "use_cases": [
+        "music and mix pages",
+        "fan and streamer pages",
+        "album and single art",
+        "event posters for dance nights"
+      ],
+      "emotion": [
+        "playful",
+        "warm",
+        "upbeat",
+        "nostalgic",
+        "bright",
+        "romantic"
+      ],
+      "archetypes": [
+        "jester",
+        "lover",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 4
+      },
+      "techniques": [
+        "anime-still-collage"
+      ],
+      "orgs": [
+        "4chan",
+        "reddit"
+      ],
+      "permutations": {
+        "base_colour": {
+          "options": [
+            "#FF6FB5",
+            "#3CD7C9",
+            "#FFF4E6"
+          ]
+        },
+        "accent_colour": {
+          "options": [
+            "#3CD7C9",
+            "#FFB48A"
+          ]
+        },
+        "corner_radius": {
+          "min": 12,
+          "max": 28
+        },
+        "grid_step": {
+          "min": 4,
+          "max": 10
+        },
+        "type_scale_ratio": {
+          "default": 1.5,
+          "min": 1.414,
           "max": 1.618
         }
       }
@@ -18125,7 +18509,10 @@
         "photogravure"
       ],
       "orgs": [
-        "camera-work"
+        "camera-work",
+        "le-groupe-des-xv",
+        "linked-ring",
+        "photo-secession"
       ],
       "permutations": {
         "colour_temperature": {
@@ -18410,6 +18797,88 @@
       }
     },
     {
+      "id": "humanist-photography",
+      "name": "Humanist photography",
+      "domain": "photography",
+      "era": "documentary-century",
+      "period": "1930–1960",
+      "thesis": "Ordinary people share a human nature, and a photograph of everyday life can show their dignity, their humour and their need for each other.",
+      "summary": "A warm and tender form of documentary photography from France. It shows the everyday life of ordinary people in streets and bistros. It joins sympathy with wit, and it hopes for a world of mutual care.",
+      "path": "skills/humanist-photography/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "humanist photography",
+        "photographie humaniste",
+        "doisneau",
+        "willy ronis",
+        "paris 1950s street",
+        "tender street scene",
+        "picture essay of everyday life",
+        "belleville"
+      ],
+      "use_cases": [
+        "editorial city stories",
+        "community and care campaigns",
+        "photo books of everyday life",
+        "image prompts for warm street scenes"
+      ],
+      "emotion": [
+        "tender",
+        "witty",
+        "warm",
+        "communal",
+        "everyday"
+      ],
+      "archetypes": [
+        "everyman",
+        "caregiver"
+      ],
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 3,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 3
+      },
+      "techniques": [
+        "small-format-camera"
+      ],
+      "orgs": [
+        "le-groupe-des-xv"
+      ],
+      "permutations": {
+        "colour_temperature": {
+          "default": 5500,
+          "min": 4500,
+          "max": 6500
+        },
+        "contrast": {
+          "default": 1.1,
+          "min": 0.95,
+          "max": 1.25
+        },
+        "grain": {
+          "default": 400,
+          "min": 200,
+          "max": 800
+        },
+        "focal_length": {
+          "default": 35,
+          "min": 28,
+          "max": 50
+        },
+        "aspect_ratio": {
+          "default": "2:3",
+          "options": [
+            "2:3",
+            "1:1"
+          ]
+        }
+      }
+    },
+    {
       "id": "street-photography",
       "name": "Street photography",
       "domain": "photography",
@@ -18545,7 +19014,9 @@
         "fsa-historical-section",
         "john-simon-guggenheim-memorial-foundation",
         "life-magazine",
-        "magnum-photos"
+        "magnum-photos",
+        "mass-observation",
+        "photo-league"
       ],
       "permutations": {
         "colour_temperature": {
@@ -18573,6 +19044,88 @@
           "options": [
             "2:3",
             "3:4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-bure-boke",
+      "name": "Are-bure-boke",
+      "domain": "photography",
+      "era": "documentary-century",
+      "period": "From 1968 (the Provoke magazine)",
+      "thesis": "A photograph cannot give a clear and certain view of the world, so the picture shows the fragments that a moving eye catches.",
+      "summary": "A rough form of street photography from Japan: grain, blur and loss of focus on purpose. The picture shows a wandering glance, not a clear fact. The Provoke magazine of 1968 used the look. Nakahira and Moriyama had tried it before.",
+      "path": "skills/are-bure-boke/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "are-bure-boke",
+        "provoke",
+        "moriyama",
+        "grainy blurred street",
+        "out of focus night street",
+        "tokyo street grain",
+        "pushed film street"
+      ],
+      "use_cases": [
+        "album covers and music posters",
+        "fashion campaigns with a raw mood",
+        "photo books",
+        "image prompts for night cities"
+      ],
+      "emotion": [
+        "rough",
+        "restless",
+        "dark",
+        "raw",
+        "fragmentary"
+      ],
+      "archetypes": [
+        "explorer",
+        "outlaw"
+      ],
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 5,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 5
+      },
+      "techniques": [
+        "halftone"
+      ],
+      "orgs": [
+        "provoke"
+      ],
+      "permutations": {
+        "colour_temperature": {
+          "default": 4500,
+          "min": 2800,
+          "max": 5500
+        },
+        "contrast": {
+          "default": 1.7,
+          "min": 1.4,
+          "max": 2
+        },
+        "grain": {
+          "default": 1600,
+          "min": 800,
+          "max": 6400,
+          "note": "Push the film to 3200 or 6400 at night."
+        },
+        "focal_length": {
+          "default": 28,
+          "min": 24,
+          "max": 35
+        },
+        "aspect_ratio": {
+          "default": "2:3",
+          "options": [
+            "2:3",
+            "1:1"
           ]
         }
       }
@@ -32119,7 +32672,8 @@
         "drop-cap"
       ],
       "orgs": [
-        "great-exhibition"
+        "great-exhibition",
+        "push-pin-studios"
       ],
       "permutations": {
         "base_colour": {
@@ -32244,7 +32798,8 @@
         "lithography"
       ],
       "orgs": [
-        "maison-de-l-art-nouveau"
+        "maison-de-l-art-nouveau",
+        "push-pin-studios"
       ],
       "permutations": {
         "base_colour": {
@@ -32744,7 +33299,8 @@
         "sunburst"
       ],
       "orgs": [
-        "exposition-arts-decoratifs-1925"
+        "exposition-arts-decoratifs-1925",
+        "push-pin-studios"
       ],
       "permutations": {
         "base_colour": {
@@ -33001,7 +33557,8 @@
         "modular-grid"
       ],
       "orgs": [
-        "neue-grafik"
+        "neue-grafik",
+        "total-design"
       ],
       "permutations": {
         "base_colour": {
@@ -51469,6 +52026,36 @@
       ]
     },
     {
+      "id": "anime-still-collage",
+      "name": "Anime still collage",
+      "kind": "montage",
+      "origin": {
+        "domain": "internet",
+        "year": 2013,
+        "circa": true,
+        "where": "web",
+        "note": "The year follows the 2013 Sailorwave series of Macross 82-99, which dates the music, not the technique. The Vaporwave article names it as the start of future funk, which draws on 1980s and 1990s anime. It gives no date for the first collage.",
+        "styles": [
+          "future-funk"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2013,
+          "circa": true,
+          "via": "Future funk releases take their pictures from 1980s and 1990s anime such as Sailor Moon and Macross.",
+          "styles": [
+            "future-funk"
+          ],
+          "lag_years": 0
+        }
+      ],
+      "styles": [
+        "future-funk"
+      ]
+    },
+    {
       "id": "ansi-block-shading",
       "name": "ANSI block shading",
       "kind": "motif",
@@ -54163,6 +54750,36 @@
       ]
     },
     {
+      "id": "early-3d-render",
+      "name": "Early 3D render",
+      "kind": "process",
+      "origin": {
+        "domain": "internet",
+        "year": 2011,
+        "circa": true,
+        "where": "web",
+        "note": "The year follows the album Far Side Virtual (2011), which dates the music, not the technique. The Vaporwave article says James Ferraro named the style utopian virtual with this album and that it combined crisp, unreal early 3D graphics with vaporwave textures. It gives no date for the first render.",
+        "styles": [
+          "utopian-virtual"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2011,
+          "circa": true,
+          "via": "The album Far Side Virtual and its concept of a virtual life soundtrack.",
+          "styles": [
+            "utopian-virtual"
+          ],
+          "lag_years": 0
+        }
+      ],
+      "styles": [
+        "utopian-virtual"
+      ]
+    },
+    {
       "id": "easing",
       "name": "Easing",
       "kind": "animation",
@@ -55488,6 +56105,15 @@
           "lag_years": 83
         },
         {
+          "domain": "photography",
+          "year": 1968,
+          "via": "The Provoke magazine prints its photographs with halftone, which raises the contrast and the grain.",
+          "styles": [
+            "are-bure-boke"
+          ],
+          "lag_years": 89
+        },
+        {
           "domain": "internet",
           "year": 1976,
           "circa": true,
@@ -55512,7 +56138,8 @@
         "punk-zine",
         "duotone-icon",
         "pop-screen-print",
-        "constructivist-photomontage-poster"
+        "constructivist-photomontage-poster",
+        "are-bure-boke"
       ]
     },
     {
@@ -57364,6 +57991,36 @@
       "styles": [
         "abbasid-lustreware",
         "hispano-moresque-lustreware"
+      ]
+    },
+    {
+      "id": "mall-interior-frame",
+      "name": "Mall interior frame",
+      "kind": "motif",
+      "origin": {
+        "domain": "internet",
+        "year": 2012,
+        "circa": true,
+        "where": "web",
+        "note": "The year follows the first release that the Mallsoft article names; the article says the visuals pair tracks with 1980s and 1990s mall images, but it gives no date for the first picture.",
+        "styles": [
+          "mallsoft"
+        ]
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2012,
+          "circa": true,
+          "via": "Video uploads of mallsoft tracks show images of malls that look like they date from the 1980s and 1990s.",
+          "styles": [
+            "mallsoft"
+          ],
+          "lag_years": 0
+        }
+      ],
+      "styles": [
+        "mallsoft"
       ]
     },
     {
@@ -60538,6 +61195,15 @@
         },
         {
           "domain": "photography",
+          "year": 1932,
+          "via": "Zeiss Ikon sells the 35 mm Contax I in 1932. With the Leica, it lets photographers work in the street. French photographers use small cameras for scenes of street life.",
+          "styles": [
+            "humanist-photography"
+          ],
+          "lag_years": 7
+        },
+        {
+          "domain": "photography",
           "year": 1936,
           "via": "Life magazine starts in 1936 and prints picture stories that photographers shoot with small, fast cameras.",
           "styles": [
@@ -60559,7 +61225,8 @@
       "styles": [
         "street-photography",
         "documentary-photography",
-        "film-grain-revival"
+        "film-grain-revival",
+        "humanist-photography"
       ]
     },
     {

@@ -255,6 +255,7 @@ A large first letter that drops down 2 or more lines of text and marks the start
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Great Exhibition** (exhibition, London, 1851–1851), exhibited the style. The first world's fair, in the Crystal Palace. It showed the ornate manufactured furniture and goods of the Victorian age.
+- **Push Pin Studios** (studio, New York City, 1954–now), revived the style. A design and illustration studio that Milton Glaser and Seymour Chwast led for twenty years. Its Push Pin style gave old styles such as Victorian, Art Nouveau and Art Deco a new, playful form, in an era of Swiss rationalism. Chwast still runs the Pushpin Group.
 
 ## Permutations
 

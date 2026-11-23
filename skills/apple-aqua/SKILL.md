@@ -280,7 +280,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
 - **Mixes well with:** [`frutiger-aero`](../frutiger-aero/SKILL.md), [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`skeuomorphism`](../skeuomorphism/SKILL.md), [`unboxing-video`](../unboxing-video/SKILL.md)
 - **Kin in another domain:** [`glossy-3d-logo`](../glossy-3d-logo/SKILL.md), [`skeuomorphic-icon`](../skeuomorphic-icon/SKILL.md)
-- **Nearest by vector profile:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`web-2-0-gloss`](../web-2-0-gloss/SKILL.md)
+- **Nearest by vector profile:** [`cassette-futurism`](../cassette-futurism/SKILL.md), [`frutiger-aero`](../frutiger-aero/SKILL.md), [`utopian-virtual`](../utopian-virtual/SKILL.md)
 
 ## Emotional target
 

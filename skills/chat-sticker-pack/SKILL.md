@@ -278,7 +278,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`unicode-emoji`](../unicode-emoji/SKILL.md)
 - **Mixes well with:** [`3d-avatar-emoji`](../3d-avatar-emoji/SKILL.md), [`discord-server`](../discord-server/SKILL.md), [`reaction-gif`](../reaction-gif/SKILL.md)
 - **Kin in another domain:** [`flat-icon`](../flat-icon/SKILL.md)
-- **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md)
+- **Nearest by vector profile:** [`neo-brutalism-ui`](../neo-brutalism-ui/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`future-funk`](../future-funk/SKILL.md)
 
 ## Emotional target
 

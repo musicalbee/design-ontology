@@ -252,6 +252,7 @@ A vector shape moves, changes size or fades between two key frames, and the tool
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Hi-ReS!** (studio, London, 1999–now), shaped the style. A London design and marketing firm known for elaborate, commissioned web sites made with Flash. It was bought by Syzygy in 2008.
 - **Newgrounds** (platform, web, 1995–now), published the style. A web site where users post Flash games and animations. It spread the look of Flash sites.
 
 ## Permutations

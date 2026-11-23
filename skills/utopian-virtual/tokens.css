@@ -1,0 +1,132 @@
+/*
+ * Utopian virtual — tokens
+ * Generated from data/internet/styles/utopian-virtual.json by design-ontology. Do not edit.
+ * Use: put data-style="utopian-virtual" on <html> or on any container.
+ */
+[data-style="utopian-virtual"] {
+  --color-bg: #CFF4FF;
+  --color-surface: #FFFFFF;
+  --color-text: #0B2A4A;
+  --color-muted: #3F5F80;
+  --color-primary: #1E6FD9;
+  --color-accent: #7ED957;
+  --color-border: #8FB8DE;
+  --font-sans: "Open Sans", "Source Sans 3", sans-serif;
+  --font-display: "Nunito Sans", "Figtree", sans-serif;
+  --border-radius: 12px;
+  --border-width: 1px;
+  --shadow-elevation: 0 8px 16px rgba(30,111,217,0.15);
+  --backdrop-filter: none;
+  --space-unit: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 360ms;
+  --type-ratio: 1.25;
+  --size-small: 13.6px;
+  --size-h3: 26.56px;
+  --size-h2: 33.2px;
+  --size-h1: 41.5px;
+  --color-on-bg: #0B2A4A;
+  --color-on-surface: #0B2A4A;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #0B2A4A;
+  --color-muted-on-bg: #3F5F80;
+  --color-muted-on-surface: #3F5F80;
+  --color-link: #0B2A4A;
+  --color-link-on-surface: #1E6FD9;
+  --display-weight: 600;
+  --subhead-weight: 400;
+  --body-weight: 400;
+  --strong-weight: 600;
+  --label-weight: 600;
+  --display-tracking: 0em;
+  --display-leading: 1.1;
+  --display-case: none;
+  --body-leading: 1.6;
+  --body-size: 17px;
+  --icon-stroke: 2;
+  --ground: radial-gradient(9vmin 5vmin at 78% 24%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(7vmin 4.5vmin at 84% 21%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(11vmin 4vmin at 72% 27%, rgba(255,255,255,.95) 98%, transparent),
+    radial-gradient(6vmin 3.5vmin at 93% 58%, rgba(255,255,255,.85) 98%, transparent),
+    radial-gradient(8vmin 3vmin at 88% 61%, rgba(255,255,255,.85) 98%, transparent),
+    linear-gradient(to bottom, transparent 78%, color-mix(in oklab, var(--color-accent) 55%, transparent) 78% calc(78% + 2px), color-mix(in oklab, var(--color-primary) 18%, transparent) calc(78% + 2px)),
+    linear-gradient(to bottom, color-mix(in oklab, var(--color-accent) 18%, transparent), transparent 78%),
+    var(--color-bg);
+}
+
+/*
+ * Reference rules. They show how the tokens combine; replace them with your own components.
+ * Text takes the --color-on-* token of the field below it. Do not put --color-text on a field
+ * other than the one the style wrote it for.
+ */
+[data-style="utopian-virtual"] {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size, 16px);
+  font-weight: var(--body-weight, 400);
+  line-height: var(--body-leading, 1.5);
+}
+[data-style="utopian-virtual"] :where(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight, 700);
+  letter-spacing: var(--display-tracking, 0);
+  line-height: var(--display-leading, 1.1);
+  text-transform: var(--display-case, none);
+}
+[data-style="utopian-virtual"] :where(h3) {
+  font-weight: var(--subhead-weight, 600);
+}
+[data-style="utopian-virtual"] :where(strong, b) {
+  font-weight: var(--strong-weight, 700);
+}
+[data-style="utopian-virtual"] :where(button, label, .label) {
+  font-weight: var(--label-weight, 600);
+}
+[data-style="utopian-virtual"] :where(.surface) {
+  padding: calc(var(--space-unit) * 3);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-elevation);
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+}
+[data-style="utopian-virtual"] :where(.ground) {
+  background: var(--ground, var(--color-bg));
+  color: var(--color-on-bg);
+}
+[data-style="utopian-virtual"] :where(.ground-copy) {
+  background: var(--color-bg);
+  color: var(--color-on-bg);
+  box-shadow: 0 0 1.25rem 1rem var(--color-bg);
+  border-radius: .5rem;
+}
+[data-style="utopian-virtual"] :where(.action) {
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 3);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  font: inherit;
+  font-weight: var(--label-weight, 600);
+  transition: all var(--duration) var(--ease);
+}
+[data-style="utopian-virtual"] :where(.muted) {
+  color: var(--color-muted-on-bg);
+}
+[data-style="utopian-virtual"] :where(.surface .muted) {
+  color: var(--color-muted-on-surface);
+}
+[data-style="utopian-virtual"] :where(a:not(.action)) {
+  color: var(--color-link);
+}
+[data-style="utopian-virtual"] :where(.surface a:not(.action)) {
+  color: var(--color-link-on-surface);
+}
+[data-style="utopian-virtual"] :where(.icon) {
+  width: 1.5em;
+  height: 1.5em;
+  --icon-knock: var(--color-bg);
+}

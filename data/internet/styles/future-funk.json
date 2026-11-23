@@ -1,0 +1,334 @@
+{
+  "$schema": "../../../schema/domains/internet.schema.json",
+  "id": "future-funk",
+  "domain": "internet",
+  "name": "Future funk",
+  "aliases": [],
+  "branch": "net-aesthetics",
+  "era_id": "feed-mobile",
+  "time_period": {
+    "start": 2013,
+    "end": null,
+    "label": "2013–"
+  },
+  "primary_mediums": [
+    "web",
+    "video",
+    "mobile"
+  ],
+  "summary": "Cels and stills from 1980s and 1990s anime in warm sunset colours, with city and neon signs and bright pastel type. It adds the sample-based look of vaporwave to upbeat dance music and Japanese pop culture.",
+  "philosophy": {
+    "core_thesis": "Take the dreamy irony of vaporwave and make it warm and danceable: the past of Japanese pop and anime is a place to enjoy, not only to mourn.",
+    "design_principles": [
+      "Use a cropped still from a 1980s or 1990s anime as the focal image; run it at 60% to 80% of the viewport width.",
+      "Set a sunset gradient from hot pink (#FF6FB5) through peach (#FFB48A) to teal (#3CD7C9) at 160° behind the still.",
+      "Add a halftone or dot screen of 6px to 10px at 10% to 15% opacity over the gradient.",
+      "Set headlines in a rounded bold sans-serif, with a Japanese line at 50% of the size under each heading.",
+      "Frame content in rounded cards with a 3px white edge and a flat pink shadow of 6px.",
+      "Use a deep indigo ground (#1B1F4B) for text areas and keep body text at 16px with a contrast of 7:1 or more.",
+      "Add small stars, hearts and city silhouettes as flat shapes at 8% to 15% of the layout."
+    ],
+    "anti_patterns": [
+      "Grey, muted palettes",
+      "Empty, lonely interiors",
+      "Greek busts and wire grids",
+      "Sharp serif display type",
+      "Dense dark layouts with no colour",
+      "Photographs of real places"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 4,
+    "dimensionality": 2,
+    "grid_rigidity": 2,
+    "skeuomorphic_realism": 2,
+    "typographic_expressiveness": 4
+  },
+  "layout": {
+    "grid_mechanics": "A 12-column grid with 24px gutters; a large still spans 7 columns and cards overlap its edge by 16px to 32px.",
+    "whitespace_ratio": "15% to 25% of the surface stays empty; the spacing scale is 8, 16, 24 and 48px.",
+    "alignment_rules": "Centred hero and flush-left cards; stickers and stars float at offsets of 8px to 24px.",
+    "container_geometry": "Cards with a 20px radius and a 3px white edge; circles and pills for tags; flat offset shadows."
+  },
+  "typography": {
+    "classifications": [
+      "rounded sans",
+      "display sans",
+      "Japanese gothic"
+    ],
+    "font_pairings": [
+      {
+        "display": "M PLUS Rounded 1c",
+        "body": "Zen Maru Gothic",
+        "note": "A rounded Japanese-style display face with a soft text face."
+      },
+      {
+        "display": "Fredoka",
+        "body": "Nunito",
+        "note": "A bold, friendly round face for a playful tone."
+      },
+      {
+        "display": "Dela Gothic One",
+        "body": "Noto Sans JP",
+        "note": "A heavy gothic display face with a plain Japanese text face."
+      }
+    ],
+    "tracking": "Display takes 0.02em; tags take 0.1em; body stays at 0.01em.",
+    "leading": "Display 1.15; body 1.6.",
+    "hierarchy_rules": [
+      "Use two weights: regular (400) and extra bold (800).",
+      "Use sizes 14, 18, 40 and 80px.",
+      "Set titles in mixed case.",
+      "Add a katakana or kanji line under each main heading."
+    ]
+  },
+  "color": {
+    "palette_structure": "A warm sunset set of pink, peach and teal on deep indigo, with a pale cream for panels.",
+    "palette": [
+      {
+        "name": "Night Indigo",
+        "hex": "#1B1F4B",
+        "role": "background"
+      },
+      {
+        "name": "Hot Pink",
+        "hex": "#FF6FB5",
+        "role": "primary"
+      },
+      {
+        "name": "Sunset Peach",
+        "hex": "#FFB48A",
+        "role": "accent"
+      },
+      {
+        "name": "City Teal",
+        "hex": "#3CD7C9",
+        "role": "second accent"
+      },
+      {
+        "name": "Cream",
+        "hex": "#FFF4E6",
+        "role": "panel surface"
+      },
+      {
+        "name": "Soft Lilac",
+        "hex": "#B9A8F0",
+        "role": "muted"
+      }
+    ],
+    "contrast_rules": "Text on night indigo holds at least 7:1; pink, peach and teal carry headings, edges and shapes, not long text.",
+    "surface_treatment": "Smooth sunset gradients with a halftone screen; flat colour for cards; cel-style flat fills in stills.",
+    "light_and_shadow": "Flat offset shadows of 6px in pink; a soft glow of 6px on signs; no realistic cast shadow."
+  },
+  "materiality": {
+    "surface_simulation": "Anime cel and print: flat fills, hard outlines, film grain and a faint CRT or tape softness.",
+    "border_rules": "A 3px white edge on cards; a 2px indigo line on tags.",
+    "blur_and_elevation": "Glow of 6px on neon signs only; cards have a 6px flat offset shadow."
+  },
+  "ornamentation_details": {
+    "iconography": "Rounded filled icons at 24px with a thick body and round ends, in white or pink.",
+    "illustration": "Stills and cels from 1980s and 1990s anime, city skylines at dusk, stars and hearts, and a few katakana signs.",
+    "decorative_elements": [
+      "anime still",
+      "sunset gradient",
+      "halftone dots",
+      "katakana line",
+      "city silhouette",
+      "star and heart stickers"
+    ]
+  },
+  "motion": {
+    "native": true,
+    "transition_physics": "Bouncy and upbeat: cards slide in with a 10% overshoot; the still pans by 3% in 12s; stars pulse at 2s.",
+    "easing": "cubic-bezier(0.34, 1.4, 0.64, 1)",
+    "duration_ms": 320,
+    "hover_and_active": "Hover lifts the card by 4px and widens the shadow to 10px; active state moves the card down by 2px."
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [],
+    "subgenre_of": "vaporwave"
+  },
+  "emotion": {
+    "target_response": "The viewer feels warm, playful nostalgia and wants to dance.",
+    "keywords": [
+      "playful",
+      "warm",
+      "upbeat",
+      "nostalgic",
+      "bright",
+      "romantic"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "lover",
+      "explorer"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "future funk",
+      "sailorwave",
+      "city pop",
+      "90s anime",
+      "anime sunset",
+      "japanese pop nostalgia",
+      "anime lofi"
+    ],
+    "use_cases": [
+      "music and mix pages",
+      "fan and streamer pages",
+      "album and single art",
+      "event posters for dance nights"
+    ],
+    "avoid_when": [
+      "The audience is formal or conservative.",
+      "The page needs a serious, neutral tone.",
+      "The brand has no link to anime or Japanese pop culture."
+    ],
+    "modifiers": [
+      {
+        "request": "moodier",
+        "toward": "vaporwave",
+        "how": "Swap the anime still for a classical bust; use violet and cyan on a dark purple ground and add a perspective floor."
+      },
+      {
+        "request": "emptier",
+        "toward": "mallsoft",
+        "how": "Swap the anime still for a faded photo of an empty mall; use peach and teal with tile floors."
+      },
+      {
+        "request": "cleaner",
+        "toward": "utopian-virtual",
+        "how": "Replace the cels with glossy 3D renders; use sky blue and white and drop the halftone."
+      }
+    ]
+  },
+  "visual": {
+    "type": {
+      "display_weight": 800,
+      "subhead_weight": 600,
+      "body_weight": 400,
+      "strong_weight": 700,
+      "label_weight": 700,
+      "accent": "colour",
+      "display_tracking": "0.02em",
+      "display_leading": 1.15,
+      "display_case": "none",
+      "body_leading": 1.6,
+      "body_size": "16px"
+    },
+    "icon": {
+      "mode": "solid",
+      "stroke_width": 2,
+      "linecap": "round",
+      "linejoin": "round",
+      "container": "circle",
+      "pack": {
+        "id": "mingcute-fill",
+        "why": "Filled icons with round shapes match the soft, bold look of the cels and stickers."
+      }
+    },
+    "art": {
+      "recipe": "memphis",
+      "pattern": "dots",
+      "seed": 13
+    },
+    "layout": {
+      "hero": "split",
+      "align": "center",
+      "density": "regular",
+      "tilt_deg": -2
+    },
+    "ground": {
+      "kind": "halftone",
+      "why": "Future funk keeps the screen-printed dot of anime posters under a sunset gradient."
+    }
+  },
+  "tokens": {
+    "css": {
+      "--color-bg": "#1B1F4B",
+      "--color-surface": "#2A2F6B",
+      "--color-text": "#FFF4E6",
+      "--color-muted": "#C9C0F0",
+      "--color-primary": "#FF6FB5",
+      "--color-accent": "#3CD7C9",
+      "--color-border": "#FFFFFF",
+      "--font-sans": "\"Zen Maru Gothic\", \"Nunito\", sans-serif",
+      "--font-display": "\"M PLUS Rounded 1c\", \"Fredoka\", sans-serif",
+      "--border-radius": "20px",
+      "--border-width": "3px",
+      "--shadow-elevation": "6px 6px 0 #FF6FB5",
+      "--backdrop-filter": "none",
+      "--space-unit": "8px",
+      "--ease": "cubic-bezier(0.34, 1.4, 0.64, 1)",
+      "--duration": "320ms"
+    },
+    "tailwind": [
+      {
+        "element": "page",
+        "classes": "bg-[#1B1F4B] text-[#FFF4E6] antialiased px-6 md:px-12"
+      },
+      {
+        "element": "heading",
+        "classes": "text-4xl md:text-6xl font-semibold leading-[1.1]"
+      },
+      {
+        "element": "body",
+        "classes": "text-base leading-[1.6] max-w-prose"
+      },
+      {
+        "element": "section",
+        "classes": "border bg-[#2A2F6B] rounded-[20px] shadow-[6px_6px_0_#FF6FB5]"
+      },
+      {
+        "element": "button",
+        "classes": "rounded-[20px] border border-[#3CD7C9] bg-[#FF6FB5] px-6 py-3 text-sm font-semibold text-[#1B1F4B]"
+      },
+      {
+        "element": "label",
+        "classes": "text-xs uppercase tracking-[0.12em] text-[#3CD7C9]"
+      }
+    ]
+  },
+  "permutations": {
+    "base_colour": {
+      "options": [
+        "#FF6FB5",
+        "#3CD7C9",
+        "#FFF4E6"
+      ]
+    },
+    "accent_colour": {
+      "options": [
+        "#3CD7C9",
+        "#FFB48A"
+      ]
+    },
+    "corner_radius": {
+      "min": 12,
+      "max": 28
+    },
+    "grid_step": {
+      "min": 4,
+      "max": 10
+    },
+    "type_scale_ratio": {
+      "default": 1.5,
+      "min": 1.414,
+      "max": 1.618
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Vaporwave",
+      "url": "https://en.wikipedia.org/wiki/Vaporwave"
+    },
+    {
+      "title": "Wikipedia: Macross 82-99",
+      "url": "https://en.wikipedia.org/wiki/Macross_82-99"
+    }
+  ]
+}

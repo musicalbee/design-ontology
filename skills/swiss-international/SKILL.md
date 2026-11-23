@@ -269,6 +269,7 @@ A page or screen divided into equal columns and rows; each element fits a cell o
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Neue Grafik** (magazine, Zürich, 1958–1965), published the style. A trilingual review of graphic design, set on a strict grid, that four Swiss designers edited. It made the case for the International Typographic Style.
+- **Total Design** (studio, Amsterdam, 1963–now), made the style. A Dutch design studio in Amsterdam, founded in 1963 by Wim Crouwel and others, and now called Total Identity. The graphic work of Crouwel used grid-based layouts that are rooted in the International Typographic Style.
 
 ## Permutations
 

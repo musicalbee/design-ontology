@@ -252,7 +252,12 @@ Using the raw look of a browser, with no style sheet, as the surface of a work. 
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **irational.org** (collective, web, 1996–now), shaped the style. A net art site and group set up in 1996. Its members made net art and interventions in physical and social spaces.
+- **Jodi** (crew, Netherlands, 1994–now), shaped the style. A pair of net artists, Joan Heemskerk and Dirk Paesmans. They are among the first artists to make web art. Their site shows a field of dense designs in plain HTML. Later they modified video games into art.
+- **net.art** (collective, web, ?–now), shaped the style. A loose group of artists of the mid-1990s who used the Internet as a medium and as a place to meet. Their practices differed. Some of them showed together and met on mailing lists.
+- **New Radio and Performing Arts** (publisher, New York City, 1981–2017), published the style. A US non-profit that commissioned and archived radio art, sound art and net art. Its project Turbulence.org commissioned net art from 1996.
 - **Rhizome** (platform, New York, 1996–now), published the style. An online platform for new media art. It hosted a mailing list, an archive and the work of net artists.
+- **The Thing** (collective, New York City, 1991–now), gathered the style. An international net community of artists and art projects, started as a bulletin board in New York. It grew into a set of member sites, mailing lists and a hosting service.
 
 ## Permutations
 

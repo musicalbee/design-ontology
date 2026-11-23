@@ -271,7 +271,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Came from (go here for a more orthodox version):** [`unicode-emoji`](../unicode-emoji/SKILL.md)
 - **Mixes well with:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md)
 - **Kin in another domain:** [`clay-3d-icon`](../clay-3d-icon/SKILL.md)
-- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`ethereal-web`](../ethereal-web/SKILL.md)
+- **Nearest by vector profile:** [`liquid-glass-ui`](../liquid-glass-ui/SKILL.md), [`spatial-visionos`](../spatial-visionos/SKILL.md), [`utopian-virtual`](../utopian-virtual/SKILL.md)
 
 ## Emotional target
 

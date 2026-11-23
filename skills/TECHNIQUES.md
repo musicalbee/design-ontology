@@ -6,6 +6,23 @@ The data is in [`../data/techniques/`](../data/techniques/). A machine-readable 
 
 ## Montage
 
+### Anime still collage
+
+A still from a 1980s or 1990s anime, cropped and set on a sunset gradient with dots, katakana and small stickers.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2013 | — | web: The year follows the 2013 Sailorwave series of Macross 82-99, which dates the music, not the technique. The Vaporwave article names it as the start of future funk, which draws on 1980s and 1990s anime. It gives no date for the first collage. | |
+| 1 | Internet | c. 2013 | +0 years | Future funk releases take their pictures from 1980s and 1990s anime such as Sailor Moon and Macross. | [`future-funk`](./future-funk/SKILL.md) |
+
+Used by: [`future-funk`](./future-funk/SKILL.md).
+
+- Crop one still or cel from a 1980s or 1990s anime to fill 60% to 80% of the width.
+- Set a pink to peach to teal gradient behind the still.
+- Add a dot screen of 6px to 10px at 10% to 15% opacity and a katakana line at half the size of the title.
+
+Sources: [Wikipedia: Vaporwave](https://en.wikipedia.org/wiki/Vaporwave); [Wikipedia: Macross 82-99](https://en.wikipedia.org/wiki/Macross_82-99).
+
 ### Cut-out composite
 
 Cut-out photos placed on a flat or photo ground at a chosen odd scale.
@@ -607,6 +624,23 @@ Used by: [`surrealism-painting`](./surrealism-painting/SKILL.md), [`german-expre
 - Show the shadow of something outside the frame, to hint at an unseen presence.
 
 Sources: [Wikipedia, The Mystery and Melancholy of a Street](https://en.wikipedia.org/wiki/Mystery_and_Melancholy_of_a_Street); [Wikipedia, Nosferatu](https://en.wikipedia.org/wiki/Nosferatu).
+
+### Mall interior frame
+
+A photo of an empty shopping mall, faded to look like a picture from the 1980s or 1990s, set as the one focal image beside a pale tiled ground.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2012 | — | web: The year follows the first release that the Mallsoft article names; the article says the visuals pair tracks with 1980s and 1990s mall images, but it gives no date for the first picture. | |
+| 1 | Internet | c. 2012 | +0 years | Video uploads of mallsoft tracks show images of malls that look like they date from the 1980s and 1990s. | [`mallsoft`](./mallsoft/SKILL.md) |
+
+Used by: [`mallsoft`](./mallsoft/SKILL.md).
+
+- Use one photo of a mall hall or lobby as the focal image and show no people.
+- Lower the contrast by 10% to 20% and warm the shadows, so that the photo looks old.
+- Set the photo off centre on a pale tiled ground with at least 40% empty space.
+
+Sources: [Wikipedia: Mallsoft](https://en.wikipedia.org/wiki/Mallsoft).
 
 ### Mesh and blade 3D motif
 
@@ -1974,6 +2008,23 @@ Used by: [`victorian-encaustic-tiles`](./victorian-encaustic-tiles/SKILL.md), [`
 
 Sources: [Wikipedia: Tile](https://en.wikipedia.org/wiki/Tile); [Wikipedia: Minton tiles](https://en.wikipedia.org/wiki/Minton_%26_Co.).
 
+### Early 3D render
+
+A clean, glossy computer render in the look of early 3D graphics: spheres, water and glass with a sharp highlight and no wear.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Internet | c. 2011 | — | web: The year follows the album Far Side Virtual (2011), which dates the music, not the technique. The Vaporwave article says James Ferraro named the style utopian virtual with this album and that it combined crisp, unreal early 3D graphics with vaporwave textures. It gives no date for the first render. | |
+| 1 | Internet | c. 2011 | +0 years | The album Far Side Virtual and its concept of a virtual life soundtrack. | [`utopian-virtual`](./utopian-virtual/SKILL.md) |
+
+Used by: [`utopian-virtual`](./utopian-virtual/SKILL.md).
+
+- Render one object, such as a sphere, a drop or a button, with a sharp top highlight of 40% white.
+- Add a faint mirrored reflection of 15% white below the object.
+- Set the object on a smooth sky gradient from deep blue to pale aqua, with no grain.
+
+Sources: [Wikipedia: Vaporwave](https://en.wikipedia.org/wiki/Vaporwave); [Wikipedia: James Ferraro](https://en.wikipedia.org/wiki/James_Ferraro).
+
 ### Electroplating
 
 An electric current puts a thin layer of one metal on a part of another metal. Silver, gold, nickel and chromium plate give a cheap base metal a precious or hard surface.
@@ -2318,15 +2369,16 @@ Tone printed as dots of different size or spacing; at a distance the dots merge 
 | 2 | Print | c. 1924 | +45 years | State printers in Moscow copy the pasted montages through a coarse screen, so that photographs print in 2–4 flat inks. | [`constructivist-photomontage-poster`](./constructivist-photomontage-poster/SKILL.md) |
 | 3 | Painting | 1961 | +82 years | Roy Lichtenstein paints enlarged Ben-Day dots by hand in Look Mickey. |  |
 | 4 | Print | 1962 | +83 years | Andy Warhol has photographs made into halftone screens and pulls them over hand-cut flat colour. | [`pop-screen-print`](./pop-screen-print/SKILL.md) |
-| 5 | Internet | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
-| 6 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
+| 5 | Photography | 1968 | +89 years | The Provoke magazine prints its photographs with halftone, which raises the contrast and the grain. | [`are-bure-boke`](./are-bure-boke/SKILL.md) |
+| 6 | Internet | c. 1976 | +97 years | Punk zines photocopy halftones until the dots break up. | [`punk-zine`](./punk-zine/SKILL.md) |
+| 7 | Icons | 2019 | +140 years | Duotone icon sets print each glyph in two tones of one hue, as a two-screen duotone does in print. | [`duotone-icon`](./duotone-icon/SKILL.md) |
 
-Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md), [`pop-screen-print`](./pop-screen-print/SKILL.md), [`constructivist-photomontage-poster`](./constructivist-photomontage-poster/SKILL.md).
+Used by: [`pop-art-web`](./pop-art-web/SKILL.md), [`punk-zine`](./punk-zine/SKILL.md), [`duotone-icon`](./duotone-icon/SKILL.md), [`pop-screen-print`](./pop-screen-print/SKILL.md), [`constructivist-photomontage-poster`](./constructivist-photomontage-poster/SKILL.md), [`are-bure-boke`](./are-bure-boke/SKILL.md).
 
 - Set the screen at 10 to 30 lines per cm for a print grain, or enlarge the dots to 4 to 8mm for a Pop effect.
 - Turn each colour screen to its own angle: cyan 15°, magenta 75°, yellow 0°, black 45°.
 
-Sources: Roy Lichtenstein, Look Mickey (1961).
+Sources: Roy Lichtenstein, Look Mickey (1961); [Wikipedia: Provoke (magazine)](https://en.wikipedia.org/wiki/Provoke_(magazine)).
 
 ### Hat blocking
 
@@ -5367,16 +5419,17 @@ A small, quiet camera that takes 36 frames of 24 x 36 mm on cinema film, so that
 |---|---|---|---|---|---|
 | Origin | Photography | 1925 | — | Wetzlar, Germany: Leitz sells the Leica I, designed by Oskar Barnack. | |
 | 1 | Photography | 1932 | +7 years | Henri Cartier-Bresson starts to photograph streets with a Leica. | [`street-photography`](./street-photography/SKILL.md) |
-| 2 | Photography | 1936 | +11 years | Life magazine starts in 1936 and prints picture stories that photographers shoot with small, fast cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
-| 3 | Photography | c. 2015 | +90 years | Young photographers buy old 35 mm cameras and shoot colour negative and Tri-X film again. | [`film-grain-revival`](./film-grain-revival/SKILL.md) |
+| 2 | Photography | 1932 | +7 years | Zeiss Ikon sells the 35 mm Contax I in 1932. With the Leica, it lets photographers work in the street. French photographers use small cameras for scenes of street life. | [`humanist-photography`](./humanist-photography/SKILL.md) |
+| 3 | Photography | 1936 | +11 years | Life magazine starts in 1936 and prints picture stories that photographers shoot with small, fast cameras. | [`documentary-photography`](./documentary-photography/SKILL.md) |
+| 4 | Photography | c. 2015 | +90 years | Young photographers buy old 35 mm cameras and shoot colour negative and Tri-X film again. | [`film-grain-revival`](./film-grain-revival/SKILL.md) |
 
-Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-photography`](./documentary-photography/SKILL.md), [`film-grain-revival`](./film-grain-revival/SKILL.md).
+Used by: [`street-photography`](./street-photography/SKILL.md), [`documentary-photography`](./documentary-photography/SKILL.md), [`film-grain-revival`](./film-grain-revival/SKILL.md), [`humanist-photography`](./humanist-photography/SKILL.md).
 
 - Use a 28 to 50 mm lens and focus by scale, not through the finder.
 - Shoot at 1/125 to 1/500 s, from the hand.
 - Show the full frame; keep the 2:3 format.
 
-Sources: Ian Jeffrey, Photography: A Concise History (1981).
+Sources: Ian Jeffrey, Photography: A Concise History (1981); [Wikipedia: Humanist photography](https://en.wikipedia.org/wiki/Humanist_photography); [Wikipedia: Contax](https://en.wikipedia.org/wiki/Contax).
 
 ### Spring steel hoop
 

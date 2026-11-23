@@ -187,7 +187,9 @@ The groups, studios, companies, schools, channels and backers that carried this 
 - **FSA Historical Section photography project** (state programme, United States, 1935–1944), funded the style. US government photography project of 1935 to 1944 under Roy Stryker. It made about 250,000 images of rural poverty.
 - **John Simon Guggenheim Memorial Foundation** (foundation, New York, ?–now), funded the style. US foundation that gives fellowships to artists and scholars. It gave Edward Weston the first photography fellowship in 1937.
 - **Life** (magazine, New York, 1936–2007), published the style. The weekly photo magazine that Henry Luce started in 1936 from an older humour magazine of the same name. It made the photo essay a main form of documentary photography.
-- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Its members made documentary and street photography for magazines.
+- **Magnum Photos** (studio, Paris and New York, 1947–now), made the style. A cooperative that its photographers own. Capa, Seymour, Cartier-Bresson, Rodger and three others founded it in Paris in 1947. Seymour, Cartier-Bresson and Rodger did not attend the founding meeting. Its members made documentary and street photography for magazines. The Japanese group Provoke worked against its realism.
+- **Mass-Observation** (collective, United Kingdom, 1937–now), made the style. A British social research project that began in 1937. It relied mainly on volunteer correspondents and some paid investigators. Photography was a small part of it. Humphrey Spender photographed Bolton for it, and this is the only link to documentary photography here. The original group ran to the mid-1960s. A firm took the name in 1949. The University of Sussex relaunched the project in 1981.
+- **Photo League** (collective, New York, 1936–1951), gathered the style. A cooperative of photographers in New York with social and creative aims. Paul Strand and Berenice Abbott renamed the Film and Photo League in 1936. The group had no single visual style, and it ran photography classes. A federal blacklist of 1947 led to its end in 1951.
 
 ## Permutations
 
@@ -210,9 +212,10 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`straight-photography`](../straight-photography/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`pictorialism`](../pictorialism/SKILL.md)
+- **Was rejected by:** [`are-bure-boke`](../are-bure-boke/SKILL.md)
 - **Mixes well with:** [`street-photography`](../street-photography/SKILL.md)
 - **Kin in another domain:** [`dogme-95`](../dogme-95/SKILL.md)
-- **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md), [`new-objectivity`](../new-objectivity/SKILL.md)
+- **Nearest by vector profile:** [`street-photography`](../street-photography/SKILL.md), [`humanist-photography`](../humanist-photography/SKILL.md), [`film-grain-revival`](../film-grain-revival/SKILL.md)
 
 ## Emotional target
 

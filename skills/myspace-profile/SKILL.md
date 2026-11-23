@@ -289,7 +289,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`portal-table-layout`](../portal-table-layout/SKILL.md)
 - **Mixes well with:** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Kin in another domain:** [`y2k-digicam`](../y2k-digicam/SKILL.md)
-- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`geocities-homepage`](../geocities-homepage/SKILL.md)
+- **Nearest by vector profile:** [`chat-sticker-pack`](../chat-sticker-pack/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`future-funk`](../future-funk/SKILL.md)
 
 ## Emotional target
 

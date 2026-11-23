@@ -772,6 +772,21 @@
       }
     },
     {
+      "id": "utopian-virtual",
+      "domain": "internet",
+      "name": "Utopian virtual",
+      "era": "feed-mobile",
+      "start": 2011,
+      "end": null,
+      "vectors": {
+        "ornamentation": 3,
+        "dimensionality": 5,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 4,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
       "id": "bohemian-web",
       "domain": "internet",
       "name": "Bohemian Web",
@@ -813,6 +828,21 @@
         "dimensionality": 1,
         "grid_rigidity": 4,
         "skeuomorphic_realism": 1,
+        "typographic_expressiveness": 2
+      }
+    },
+    {
+      "id": "mallsoft",
+      "domain": "internet",
+      "name": "Mallsoft",
+      "era": "feed-mobile",
+      "start": 2012,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "dimensionality": 3,
+        "grid_rigidity": 3,
+        "skeuomorphic_realism": 4,
         "typographic_expressiveness": 2
       }
     },
@@ -874,6 +904,21 @@
         "grid_rigidity": 3,
         "skeuomorphic_realism": 2,
         "typographic_expressiveness": 5
+      }
+    },
+    {
+      "id": "future-funk",
+      "domain": "internet",
+      "name": "Future funk",
+      "era": "feed-mobile",
+      "start": 2013,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "dimensionality": 2,
+        "grid_rigidity": 2,
+        "skeuomorphic_realism": 2,
+        "typographic_expressiveness": 4
       }
     },
     {
@@ -2617,6 +2662,21 @@
       }
     },
     {
+      "id": "humanist-photography",
+      "domain": "photography",
+      "name": "Humanist photography",
+      "era": "documentary-century",
+      "start": 1930,
+      "end": 1960,
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 3,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 3
+      }
+    },
+    {
       "id": "street-photography",
       "domain": "photography",
       "name": "Street photography",
@@ -2644,6 +2704,21 @@
         "colour_saturation": 2,
         "depth_of_field": 2,
         "proximity": 4
+      }
+    },
+    {
+      "id": "are-bure-boke",
+      "domain": "photography",
+      "name": "Are-bure-boke",
+      "era": "documentary-century",
+      "start": 1968,
+      "end": null,
+      "vectors": {
+        "staging": 1,
+        "tonal_contrast": 5,
+        "colour_saturation": 1,
+        "depth_of_field": 3,
+        "proximity": 5
       }
     },
     {
@@ -14770,6 +14845,11 @@
     },
     {
       "from": "frutiger-aero",
+      "to": "utopian-virtual",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "frutiger-aero",
       "to": "vaporwave",
       "type": "HYBRIDIZED_WITH"
     },
@@ -14891,6 +14971,11 @@
     {
       "from": "hispano-moresque-lustreware",
       "to": "zellige",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
+      "from": "humanist-photography",
+      "to": "street-photography",
       "type": "HYBRIDIZED_WITH"
     },
     {
@@ -15286,6 +15371,11 @@
     {
       "from": "anti-design",
       "to": "material-design",
+      "type": "REBELLED_AGAINST"
+    },
+    {
+      "from": "are-bure-boke",
+      "to": "documentary-photography",
       "type": "REBELLED_AGAINST"
     },
     {
@@ -16409,8 +16499,28 @@
       "type": "REBELLED_AGAINST"
     },
     {
+      "from": "are-bure-boke",
+      "to": "street-photography",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "future-funk",
+      "to": "vaporwave",
+      "type": "SUBGENRE_OF"
+    },
+    {
       "from": "googie-architecture",
       "to": "mid-century-modern-architecture",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "humanist-photography",
+      "to": "documentary-photography",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "mallsoft",
+      "to": "vaporwave",
       "type": "SUBGENRE_OF"
     },
     {
@@ -16426,6 +16536,11 @@
     {
       "from": "synthetism",
       "to": "post-impressionism",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "utopian-virtual",
+      "to": "vaporwave",
       "type": "SUBGENRE_OF"
     }
   ],
@@ -16638,6 +16753,30 @@
         "photorealism",
         "apple-aqua",
         "skeuomorphism"
+      ]
+    },
+    {
+      "id": "anime-still-collage",
+      "name": "Anime still collage",
+      "kind": "montage",
+      "origin": {
+        "domain": "internet",
+        "year": 2013,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2013,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "future-funk"
+          ]
+        }
+      ],
+      "styles": [
+        "future-funk"
       ]
     },
     {
@@ -19141,6 +19280,30 @@
       ]
     },
     {
+      "id": "early-3d-render",
+      "name": "Early 3D render",
+      "kind": "process",
+      "origin": {
+        "domain": "internet",
+        "year": 2011,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2011,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "utopian-virtual"
+          ]
+        }
+      ],
+      "styles": [
+        "utopian-virtual"
+      ]
+    },
+    {
       "id": "easing",
       "name": "Easing",
       "kind": "animation",
@@ -20362,6 +20525,15 @@
           ]
         },
         {
+          "domain": "photography",
+          "year": 1968,
+          "circa": false,
+          "lag_years": 89,
+          "styles": [
+            "are-bure-boke"
+          ]
+        },
+        {
           "domain": "internet",
           "year": 1976,
           "circa": true,
@@ -20385,7 +20557,8 @@
         "punk-zine",
         "duotone-icon",
         "pop-screen-print",
-        "constructivist-photomontage-poster"
+        "constructivist-photomontage-poster",
+        "are-bure-boke"
       ]
     },
     {
@@ -22106,6 +22279,30 @@
       "styles": [
         "abbasid-lustreware",
         "hispano-moresque-lustreware"
+      ]
+    },
+    {
+      "id": "mall-interior-frame",
+      "name": "Mall interior frame",
+      "kind": "motif",
+      "origin": {
+        "domain": "internet",
+        "year": 2012,
+        "circa": true
+      },
+      "adoptions": [
+        {
+          "domain": "internet",
+          "year": 2012,
+          "circa": true,
+          "lag_years": 0,
+          "styles": [
+            "mallsoft"
+          ]
+        }
+      ],
+      "styles": [
+        "mallsoft"
       ]
     },
     {
@@ -25040,6 +25237,15 @@
         },
         {
           "domain": "photography",
+          "year": 1932,
+          "circa": false,
+          "lag_years": 7,
+          "styles": [
+            "humanist-photography"
+          ]
+        },
+        {
+          "domain": "photography",
           "year": 1936,
           "circa": false,
           "lag_years": 11,
@@ -25060,7 +25266,8 @@
       "styles": [
         "street-photography",
         "documentary-photography",
-        "film-grain-revival"
+        "film-grain-revival",
+        "humanist-photography"
       ]
     },
     {
@@ -27708,11 +27915,11 @@
           "distance": 1
         },
         {
-          "id": "tumblr-soft-grunge",
+          "id": "future-funk",
           "distance": 1.41
         },
         {
-          "id": "vaporwave",
+          "id": "tumblr-soft-grunge",
           "distance": 1.41
         }
       ],
@@ -27939,7 +28146,7 @@
           "distance": 1
         },
         {
-          "id": "web-2-0-gloss",
+          "id": "utopian-virtual",
           "distance": 1.41
         }
       ],
@@ -28004,7 +28211,7 @@
           "distance": 1.73
         },
         {
-          "id": "geocities-homepage",
+          "id": "future-funk",
           "distance": 1.73
         }
       ],
@@ -28064,6 +28271,7 @@
         "ethereal-web",
         "seapunk",
         "skeuomorphism",
+        "utopian-virtual",
         "vaporwave",
         "web-2-0-gloss"
       ],
@@ -28079,11 +28287,11 @@
           "distance": 1
         },
         {
-          "id": "ai-slop",
-          "distance": 1.41
+          "id": "utopian-virtual",
+          "distance": 1
         },
         {
-          "id": "cassette-futurism",
+          "id": "ai-slop",
           "distance": 1.41
         }
       ],
@@ -28220,12 +28428,12 @@
           "distance": 1
         },
         {
-          "id": "reaction-gif",
+          "id": "mallsoft",
           "distance": 1
         },
         {
-          "id": "dual-camera-snapshot",
-          "distance": 1.41
+          "id": "reaction-gif",
+          "distance": 1
         }
       ],
       "techniques": [
@@ -28654,7 +28862,7 @@
           "distance": 1.41
         },
         {
-          "id": "lets-play-facecam",
+          "id": "future-funk",
           "distance": 1.41
         }
       ],
@@ -28756,6 +28964,37 @@
       ],
       "techniques": [
         "photomontage"
+      ]
+    },
+    "utopian-virtual": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "frutiger-aero"
+      ],
+      "echoes": [],
+      "subgenre_of": [
+        "vaporwave"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "frutiger-aero",
+          "distance": 1
+        },
+        {
+          "id": "spatial-visionos",
+          "distance": 1
+        },
+        {
+          "id": "3d-avatar-emoji",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "early-3d-render"
       ]
     },
     "bohemian-web": {
@@ -28903,6 +29142,35 @@
         "squash-and-stretch"
       ]
     },
+    "mallsoft": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [
+        "vaporwave"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "dual-camera-snapshot",
+          "distance": 1
+        },
+        {
+          "id": "glassmorphism",
+          "distance": 1
+        },
+        {
+          "id": "unboxing-video",
+          "distance": 1
+        }
+      ],
+      "techniques": [
+        "mall-interior-frame"
+      ]
+    },
     "minimalism-web": {
       "evolved_from": [
         "flat-design"
@@ -28975,11 +29243,11 @@
           "distance": 1
         },
         {
-          "id": "geocities-homepage",
+          "id": "future-funk",
           "distance": 1.41
         },
         {
-          "id": "glitch-gif",
+          "id": "geocities-homepage",
           "distance": 1.41
         }
       ],
@@ -29016,7 +29284,11 @@
         "surrealism-painting"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "future-funk",
+        "mallsoft",
+        "utopian-virtual"
+      ],
       "nearest_by_vector": [
         {
           "id": "cottagecore",
@@ -29027,7 +29299,7 @@
           "distance": 1
         },
         {
-          "id": "geocities-homepage",
+          "id": "future-funk",
           "distance": 1.41
         }
       ],
@@ -29073,6 +29345,35 @@
       "techniques": [
         "glitch",
         "neon-glow"
+      ]
+    },
+    "future-funk": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [
+        "vaporwave"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "cottagecore",
+          "distance": 1
+        },
+        {
+          "id": "lip-sync-dance-short",
+          "distance": 1
+        },
+        {
+          "id": "chat-sticker-pack",
+          "distance": 1.41
+        }
+      ],
+      "techniques": [
+        "anime-still-collage"
       ]
     },
     "health-goth": {
@@ -29777,16 +30078,16 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "future-funk",
+          "distance": 1
+        },
+        {
           "id": "glitch-gif",
           "distance": 1
         },
         {
           "id": "lets-play-facecam",
           "distance": 1
-        },
-        {
-          "id": "barbiecore",
-          "distance": 1.41
         }
       ],
       "techniques": [
@@ -29923,8 +30224,8 @@
           "distance": 1
         },
         {
-          "id": "ethereal-web",
-          "distance": 1.73
+          "id": "utopian-virtual",
+          "distance": 1.41
         }
       ],
       "techniques": [
@@ -29998,7 +30299,7 @@
           "distance": 1.41
         },
         {
-          "id": "grunge-editorial",
+          "id": "future-funk",
           "distance": 1.41
         }
       ],
@@ -30171,15 +30472,15 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "future-funk",
+          "distance": 1
+        },
+        {
           "id": "geocities-homepage",
           "distance": 1
         },
         {
           "id": "glitch-gif",
-          "distance": 1
-        },
-        {
-          "id": "tumblr-soft-grunge",
           "distance": 1
         }
       ],
@@ -30669,11 +30970,11 @@
           "distance": 1
         },
         {
-          "id": "aurora-gradient-ui",
-          "distance": 1.41
+          "id": "mallsoft",
+          "distance": 1
         },
         {
-          "id": "discord-server",
+          "id": "aurora-gradient-ui",
           "distance": 1.41
         }
       ],
@@ -31318,16 +31619,16 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "mallsoft",
+          "distance": 1
+        },
+        {
           "id": "cinemagraph",
           "distance": 1.41
         },
         {
           "id": "unboxing-video",
           "distance": 1.41
-        },
-        {
-          "id": "ai-slop",
-          "distance": 1.73
         }
       ],
       "techniques": [
@@ -31426,11 +31727,11 @@
           "distance": 1
         },
         {
-          "id": "frutiger-aero",
-          "distance": 1.41
+          "id": "utopian-virtual",
+          "distance": 1
         },
         {
-          "id": "liquid-glass-ui",
+          "id": "frutiger-aero",
           "distance": 1.41
         }
       ],
@@ -31460,11 +31761,11 @@
           "distance": 1.41
         },
         {
-          "id": "ai-avatar-portrait",
-          "distance": 1.73
+          "id": "mallsoft",
+          "distance": 1.41
         },
         {
-          "id": "apple-aqua",
+          "id": "ai-avatar-portrait",
           "distance": 1.73
         }
       ],
@@ -33412,6 +33713,37 @@
         "serial-repetition"
       ]
     },
+    "humanist-photography": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "street-photography"
+      ],
+      "echoes": [],
+      "subgenre_of": [
+        "documentary-photography"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "documentary-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "street-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "film-grain-revival",
+          "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "small-format-camera"
+      ]
+    },
     "street-photography": {
       "evolved_from": [
         "straight-photography"
@@ -33425,6 +33757,7 @@
       "hybridized_with": [
         "documentary-photography",
         "film-noir-still",
+        "humanist-photography",
         "party-flash"
       ],
       "echoes": [
@@ -33436,19 +33769,21 @@
         "new-hollywood"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "are-bure-boke"
+      ],
       "nearest_by_vector": [
         {
           "id": "documentary-photography",
           "distance": 1.41
         },
         {
-          "id": "straight-photography",
+          "id": "are-bure-boke",
           "distance": 1.73
         },
         {
-          "id": "group-f64",
-          "distance": 2
+          "id": "humanist-photography",
+          "distance": 1.73
         }
       ],
       "techniques": [
@@ -33463,7 +33798,9 @@
       "rebelled_against": [
         "pictorialism"
       ],
-      "provoked": [],
+      "provoked": [
+        "are-bure-boke"
+      ],
       "hybridized_with": [
         "street-photography"
       ],
@@ -33471,23 +33808,56 @@
         "dogme-95"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "humanist-photography"
+      ],
       "nearest_by_vector": [
         {
           "id": "street-photography",
           "distance": 1.41
         },
         {
-          "id": "film-grain-revival",
-          "distance": 2
+          "id": "humanist-photography",
+          "distance": 1.73
         },
         {
-          "id": "new-objectivity",
+          "id": "film-grain-revival",
           "distance": 2
         }
       ],
       "techniques": [
         "small-format-camera"
+      ]
+    },
+    "are-bure-boke": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [
+        "documentary-photography"
+      ],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [],
+      "subgenre_of": [
+        "street-photography"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "street-photography",
+          "distance": 1.73
+        },
+        {
+          "id": "documentary-photography",
+          "distance": 2.65
+        },
+        {
+          "id": "party-flash",
+          "distance": 2.65
+        }
+      ],
+      "techniques": [
+        "halftone"
       ]
     },
     "new-colour": {

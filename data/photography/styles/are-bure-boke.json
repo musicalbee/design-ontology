@@ -1,0 +1,292 @@
+{
+  "$schema": "../../../schema/domains/photography.schema.json",
+  "domain": "photography",
+  "id": "are-bure-boke",
+  "name": "Are-bure-boke",
+  "aliases": [
+    "Grainy, blurred, out of focus",
+    "Provoke style"
+  ],
+  "era_id": "documentary-century",
+  "time_period": {
+    "start": 1968,
+    "end": null,
+    "label": "From 1968 (the Provoke magazine)"
+  },
+  "process": [
+    "analogue-bw",
+    "digital"
+  ],
+  "summary": "A rough form of street photography from Japan: grain, blur and loss of focus on purpose. The picture shows a wandering glance, not a clear fact. The Provoke magazine of 1968 used the look. Nakahira and Moriyama had tried it before.",
+  "philosophy": {
+    "core_thesis": "A photograph cannot give a clear and certain view of the world, so the picture shows the fragments that a moving eye catches.",
+    "design_principles": [
+      "Shoot by hand and do not stop to focus; let blur and motion stay in the frame.",
+      "Use fast film at ISO 800 to 3200 and push it, so that the grain becomes coarse and visible.",
+      "Change the development on purpose: alter the exposure time, the temperature and the print, as Provoke did.",
+      "Print with high contrast, so that shadows fill and the mid-tones fall away.",
+      "Tilt the camera and cut the frame at odd places; keep frames that other photographers would discard.",
+      "Print on newsprint or with a coarse halftone screen, and accept the loss of detail."
+    ],
+    "anti_patterns": [
+      "Sharp, clear pictures that state one fact",
+      "Tripod, level horizon and careful framing",
+      "Fine grain and smooth tonal range",
+      "Polished retouching of grain or blur",
+      "A caption or an argument that explains the picture",
+      "Posed people who look at the lens"
+    ]
+  },
+  "vectors": {
+    "staging": 1,
+    "tonal_contrast": 5,
+    "colour_saturation": 1,
+    "depth_of_field": 3,
+    "proximity": 5
+  },
+  "composition": {
+    "framing": "Tilted, cropped hard and often unbalanced; the edge cuts objects at random.",
+    "viewpoint": "Handheld at walking pace, close to the subject and often at a slant.",
+    "geometry": "Diagonals and smears of motion; shapes break into dark and light patches.",
+    "subject_placement": "Off centre or half out of the frame; the subject is partly lost in shadow or blur.",
+    "principles": [
+      {
+        "principle": "framing",
+        "rule": "Tilt the horizon 5 to 20 degrees and cut the main subject at the frame edge."
+      },
+      {
+        "principle": "contrast",
+        "rule": "Push the print to a shadow-to-highlight difference of 6 stops or more, with no mid-tone detail in the dark half."
+      },
+      {
+        "principle": "balance",
+        "rule": "Leave the frame unbalanced: put 70% of the visual weight on one side."
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Give no sharp focal point; one patch of light holds the eye for a moment."
+      }
+    ]
+  },
+  "light": {
+    "quality": "Harsh and found: street lamps, flash, shop windows and hard sun.",
+    "direction": "Any direction; backlight and lamps in the frame give flare and burnt highlights.",
+    "key_to_fill_ratio": "8:1 or more (3 stops or more)",
+    "colour_temperature": "2800–5500K; do not correct mixed light",
+    "time_of_day": "Night and dusk, or hard midday sun"
+  },
+  "lens_and_camera": {
+    "format": "Small handheld camera; 35 mm film, or a compact digital camera",
+    "focal_length": "24mm to 35mm",
+    "aperture": "f/2.8 to f/8, not set with care",
+    "shutter": "1/15s to 1/250s; slow speeds let motion blur show",
+    "film_speed": "ISO 800–3200, pushed",
+    "focus": "None set; shoot by feel and let the focus miss.",
+    "support": "Handheld; no tripod",
+    "equipment": [
+      "compact or 35 mm camera",
+      "wide lens",
+      "fast black and white film"
+    ]
+  },
+  "colour_and_grade": {
+    "treatment": "Black and white with heavy grain and crushed blacks.",
+    "palette": [
+      {
+        "name": "Crushed black",
+        "hex": "#050505",
+        "role": "shadows"
+      },
+      {
+        "name": "Smear grey",
+        "hex": "#5C5C5C",
+        "role": "midtones"
+      },
+      {
+        "name": "Burnt white",
+        "hex": "#EDEDED",
+        "role": "highlights"
+      }
+    ],
+    "grade_recipe": [
+      "Convert to monochrome with a neutral mix (R 33, G 33, B 33).",
+      "Set the black point at 8% and the white point at 92%.",
+      "Apply +60% midtone contrast with a steep S-curve.",
+      "Add film grain, amount 60%, size 60%, as for fast film pushed two stops.",
+      "Add a slight blur of 2 to 6 pixels to the moving parts of the frame.",
+      "Do not crop to straighten; keep the tilt."
+    ],
+    "grain": "Fast film at EI 1600 or higher: coarse, clumped and visible at A5"
+  },
+  "subject_and_staging": {
+    "subjects": [
+      "night streets",
+      "passers-by in motion",
+      "shop windows",
+      "car interiors",
+      "signs and posters",
+      "a nude in a hotel room"
+    ],
+    "staging": "None. The photographer walks and shoots without a plan.",
+    "direction": "Nobody poses; people pass through the frame and blur."
+  },
+  "post_processing": {
+    "workflow": [
+      "Push the film by two stops, or change the developer time and temperature.",
+      "Make a contact sheet and pick frames that other people would discard.",
+      "Print on hard paper, or screen the picture with a coarse halftone.",
+      "Print to the edge of the page with no margin, or place two pictures side by side."
+    ],
+    "output": "A dark, grainy print or a magazine page with halftone, in a square or 2:3 format."
+  },
+  "prompt_primer": {
+    "positive": [
+      "grainy black and white street photograph",
+      "are-bure-boke",
+      "blurred and out of focus",
+      "motion blur",
+      "pushed Tri-X",
+      "high contrast, crushed blacks",
+      "tilted frame",
+      "night street in Tokyo",
+      "coarse halftone grain",
+      "handheld compact camera"
+    ],
+    "negative": [
+      "sharp focus",
+      "tripod",
+      "fine grain",
+      "smooth skin",
+      "colour",
+      "HDR",
+      "clean studio light",
+      "level horizon"
+    ],
+    "canonical_works": [
+      {
+        "work": "Eros",
+        "maker": "Daidō Moriyama",
+        "year": 1969
+      },
+      {
+        "work": "For a Language to Come",
+        "maker": "Takuma Nakahira",
+        "year": 1970
+      },
+      {
+        "work": "Stray Dog, Misawa",
+        "maker": "Daidō Moriyama",
+        "year": 1971
+      },
+      {
+        "work": "Farewell Photography",
+        "maker": "Daidō Moriyama",
+        "year": 1972
+      }
+    ]
+  },
+  "lineage": {
+    "subgenre_of": "street-photography",
+    "evolved_from": [],
+    "rebelled_against": [
+      "documentary-photography"
+    ],
+    "hybridized_with": [],
+    "echoes": []
+  },
+  "emotion": {
+    "target_response": "Unease and drift: the viewer feels a restless look that cannot hold the world still.",
+    "keywords": [
+      "rough",
+      "restless",
+      "dark",
+      "raw",
+      "fragmentary"
+    ],
+    "brand_archetypes": [
+      "explorer",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "are-bure-boke",
+      "provoke",
+      "moriyama",
+      "grainy blurred street",
+      "out of focus night street",
+      "tokyo street grain",
+      "pushed film street"
+    ],
+    "use_cases": [
+      "album covers and music posters",
+      "fashion campaigns with a raw mood",
+      "photo books",
+      "image prompts for night cities"
+    ],
+    "avoid_when": [
+      "The brief needs a clear record of an event or a face.",
+      "The subject needs a clean, calm or premium look."
+    ],
+    "modifiers": [
+      {
+        "request": "clearer and more readable",
+        "toward": "street-photography",
+        "how": "Zone-focus at f/8 and 2.5m, use ISO 400 with 1/250s, and keep the frame level; keep the high contrast."
+      },
+      {
+        "request": "calmer and warmer",
+        "toward": "humanist-photography",
+        "how": "Use ISO 400, grade 2 to 3 paper and a 35mm lens at f/8; wait for a tender gesture and print with soft mid-tones."
+      }
+    ]
+  },
+  "permutations": {
+    "colour_temperature": {
+      "default": 4500,
+      "min": 2800,
+      "max": 5500
+    },
+    "contrast": {
+      "default": 1.7,
+      "min": 1.4,
+      "max": 2.0
+    },
+    "grain": {
+      "default": 1600,
+      "min": 800,
+      "max": 6400,
+      "note": "Push the film to 3200 or 6400 at night."
+    },
+    "focal_length": {
+      "default": 28,
+      "min": 24,
+      "max": 35
+    },
+    "aspect_ratio": {
+      "default": "2:3",
+      "options": [
+        "2:3",
+        "1:1"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Provoke (magazine)",
+      "url": "https://en.wikipedia.org/wiki/Provoke_(magazine)"
+    },
+    {
+      "title": "Wikipedia: Daidō Moriyama",
+      "url": "https://en.wikipedia.org/wiki/Daidō_Moriyama"
+    },
+    {
+      "title": "Wikipedia: Takuma Nakahira",
+      "url": "https://en.wikipedia.org/wiki/Takuma_Nakahira"
+    },
+    {
+      "title": "Wikidata Q11240054: Provoke",
+      "url": "https://www.wikidata.org/wiki/Q11240054"
+    }
+  ]
+}
