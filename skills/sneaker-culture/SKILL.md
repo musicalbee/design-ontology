@@ -186,7 +186,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`canvas-court-sneaker`](../canvas-court-sneaker/SKILL.md), [`performance-running-shoe`](../performance-running-shoe/SKILL.md)
 - **Rejects (the opposite pole; do not blend):** [`english-welted-dress-shoe`](../english-welted-dress-shoe/SKILL.md)
-- **Mixes well with:** [`streetwear`](../streetwear/SKILL.md)
+- **Mixes well with:** [`streetwear`](../streetwear/SKILL.md), [`ura-harajuku-streetwear`](../ura-harajuku-streetwear/SKILL.md)
 - **Nearest by vector profile:** [`mod-and-mini`](../mod-and-mini/SKILL.md), [`retro-revival-car`](../retro-revival-car/SKILL.md), [`muscle-and-pony-car`](../muscle-and-pony-car/SKILL.md)
 
 ## Emotional target

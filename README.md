@@ -4,11 +4,11 @@
 
 ### Your agent has no taste. Give it a style it can execute.
 
-**<!-- n:styles -->548<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
+**<!-- n:styles -->551<!-- /n --> styles in <!-- n:domains -->16<!-- /n --> domains, as data. Each one compiles into a skill that any coding agent can load.**<br>
 Bauhaus to visionOS. JSON in, `SKILL.md` + `tokens.css` out. No runtime, no API key, no lock-in.
 
 [![validate](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml/badge.svg)](https://github.com/musicalbee/design-ontology/actions/workflows/validate.yml)
-![styles](https://img.shields.io/badge/styles-548-111111)
+![styles](https://img.shields.io/badge/styles-551-111111)
 ![domains](https://img.shields.io/badge/domains-16-111111)
 ![code](https://img.shields.io/badge/code-MIT-111111)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-111111)
@@ -468,6 +468,7 @@ flowchart LR
     isometric_pixel_world["Isometric pixel world"]
     sixteen_bit_sprite["16-bit sprite and parallax"]
     four_shade_handheld["Four-shade handheld"]
+    fantasy_console_pixel["Fantasy console pixel"]
   end
   subgraph game_early_polygon["Video game · Early polygon · 1993–2001"]
     pre_rendered_backgrounds["Pre-rendered backgrounds"]
@@ -582,6 +583,7 @@ flowchart LR
     japanese_modern_craft_product["Japanese modern craft product"]
     ulm_braun_functionalism["Ulm and Braun functionalism"]
     space_age_pop_product["Space Age pop product"]
+    pop_foam_furniture["Pop foam furniture"]
   end
   subgraph industrial_postmodern_plural["Industrial design · Postmodern plural · 1976–2000"]
     memphis_product["Memphis product"]
@@ -680,6 +682,7 @@ flowchart LR
     sneaker_culture["Sneaker culture"]
     biodesign_car["Biodesign Car"]
     minimalist_fashion["Minimalist fashion"]
+    ura_harajuku_streetwear["Ura-Harajuku streetwear"]
     it_bag["It bag"]
     retro_revival_car["Retro Revival Car"]
   end
@@ -1142,6 +1145,7 @@ flowchart LR
   expressionism_painting <-. echoes .-> german_expressionist_cinema
   expressionism_painting <-. echoes .-> sosaku_hanga_print
   expressionist_architecture <-. echoes .-> german_expressionist_cinema
+  fantasy_console_pixel <-. echoes .-> pixel_art_web
   fashion_editorial <-. echoes .-> grunge_editorial
   fashion_editorial <-. echoes .-> new_look
   fashion_editorial <-. echoes .-> quiet_luxury_interior
@@ -1398,11 +1402,13 @@ flowchart LR
   pixel_art_web <-. echoes .-> voxel_block_world
   planimetric_symmetry <-. echoes .-> renaissance_painting
   pop_art_painting <-. echoes .-> pop_art_web
+  pop_art_painting <-. echoes .-> pop_foam_furniture
   pop_art_painting <-. echoes .-> pop_screen_print
   pop_art_painting <-. echoes .-> radical_architecture
   pop_art_painting <-. echoes .-> space_age_pop_product
   pop_art_painting <-. echoes .-> swiss_plastic_pop_watch
   pop_art_web <-. echoes .-> pop_screen_print
+  pop_foam_furniture <-. echoes .-> radical_architecture
   porcelain_insulator <-. echoes .-> victorian_manufacture
   pov_short <-. echoes .-> vertical_short_form
   psychedelic <-. echoes .-> psychedelic_concert_poster
@@ -2198,13 +2204,16 @@ flowchart LR
   y2k_aesthetic -. rejects .-> grunge_editorial
   yixing_zisha_teapot -. rejects .-> jian_tenmoku_ware
   street_photography == branch ==> are_bure_boke
+  eight_bit_tile == branch ==> fantasy_console_pixel
   vaporwave == branch ==> future_funk
   mid_century_modern_architecture == branch ==> googie_architecture
   documentary_photography == branch ==> humanist_photography
   vaporwave == branch ==> mallsoft
   cubism_painting == branch ==> orphism
+  space_age_pop_product == branch ==> pop_foam_furniture
   futurism_painting == branch ==> rayonism
   post_impressionism == branch ==> synthetism
+  streetwear == branch ==> ura_harajuku_streetwear
   vaporwave == branch ==> utopian_virtual
   linkStyle 0 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1 stroke:#8E8E93,stroke-width:1.5px
@@ -2860,9 +2869,9 @@ flowchart LR
   linkStyle 651 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 652 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 653 stroke:#8E8E93,stroke-width:1.5px
-  linkStyle 1138 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1139 stroke:#E5484D,stroke-width:1.5px
-  linkStyle 1140 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 654 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 655 stroke:#8E8E93,stroke-width:1.5px
+  linkStyle 656 stroke:#8E8E93,stroke-width:1.5px
   linkStyle 1141 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1142 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1143 stroke:#E5484D,stroke-width:1.5px
@@ -3091,6 +3100,9 @@ flowchart LR
   linkStyle 1366 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1367 stroke:#E5484D,stroke-width:1.5px
   linkStyle 1368 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1369 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1370 stroke:#E5484D,stroke-width:1.5px
+  linkStyle 1371 stroke:#E5484D,stroke-width:1.5px
 ```
 <!-- lineage:end -->
 
@@ -3142,11 +3154,11 @@ The ontology has domains. A domain is one manifest ([`domains/`](domains/)) and 
 | Logo | 8 | [logo.html](demo/logo.html) |
 | Icons | 9 | [icon.html](demo/icon.html) |
 | Typeface | 12 | [typeface.html](demo/typeface.html) |
-| Video game | 15 | [game.html](demo/game.html) |
+| Video game | 16 | [game.html](demo/game.html) |
 | Print | 49 | [print.html](demo/print.html) |
 | Graphic movements | 13 | [graphic-movement.html](demo/graphic-movement.html) |
-| Industrial design | 17 | [industrial.html](demo/industrial.html) |
-| Fashion | 84 | [fashion.html](demo/fashion.html) |
+| Industrial design | 18 | [industrial.html](demo/industrial.html) |
+| Fashion | 85 | [fashion.html](demo/fashion.html) |
 | Ceramics | 89 | [ceramics.html](demo/ceramics.html) |
 | Cuisine | 17 | [cuisine.html](demo/cuisine.html) |
 <!-- domains:end -->
@@ -3159,7 +3171,7 @@ Next domains under discussion: type design, motion, sound.
 
 ## Techniques that cross domains
 
-A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->296<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
+A technique starts in one domain and moves into others, often decades later. The sunburst went from Art Deco facades in 1925 to mid-century wall clocks in 1949. The breeze block went from screen walls in Recife in 1929 into room dividers about 89 years later. [`data/techniques/`](data/techniques/) holds <!-- n:techniques -->298<!-- /n --> records: cuts and camera methods (photomontage, jump cut, long take, handheld camera, tilt-shift), motion rules (squash and stretch, easing, multiplane parallax), motifs and materials (sunburst, terrazzo, breeze block, limewash, laminated timber), print and pen processes (halftone, woodcut, lithography, line engraving, wood type, broad-nib and pointed pen) and drawing systems (perspective grid, construction grid, pixel grid, modular grid).
 
 Each record gives the origin, each adoption with its lag in years, and 2 to 6 rules with numbers. Each style that uses a technique carries its rules in a "Techniques" section. The catalogue is [`skills/TECHNIQUES.md`](skills/TECHNIQUES.md).
 

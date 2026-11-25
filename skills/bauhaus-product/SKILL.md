@@ -185,6 +185,7 @@ An electric current puts a thin layer of one metal on a part of another metal. S
 The groups, studios, companies, schools, channels and backers that carried this style.
 
 - **Bauhaus** (school, Weimar, Dessau, Berlin, 1919–1933), made the style. A school of art, craft and design that joined the workshop to the studio. Its teachers and students set the forms of modern design, interiors and building.
+- **Deutscher Werkbund** (collective, Munich, 1907–1934), shaped the style. A German association of artists, architects, designers and industrialists. It paired makers with designers and fed the later growth of the Bauhaus. It declared its end in 1934 and returned in 1950.
 
 ## Permutations
 

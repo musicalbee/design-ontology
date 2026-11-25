@@ -16311,7 +16311,9 @@
         "archigram",
         "archizoom-associati",
         "global-tools",
+        "gufram",
         "soviet-paper-architects",
+        "studio-65",
         "superstudio"
       ],
       "permutations": {
@@ -27521,6 +27523,88 @@
       }
     },
     {
+      "id": "fantasy-console-pixel",
+      "name": "Fantasy console pixel",
+      "domain": "game",
+      "era": "tile-and-sprite",
+      "period": "2015–now",
+      "thesis": "If a tool fixes the limits of an imagined console, every maker shares one palette and one pixel scale, and the limits become a common style.",
+      "summary": "A made-up console sets the limits: a 128×128 pixel screen, a fixed palette of 16 colours and small 8×8 sprites. Makers choose the 8-bit look as a rule of the tool, not as a limit of old hardware.",
+      "path": "skills/fantasy-console-pixel/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "pico-8",
+        "fantasy console",
+        "128x128 pixel art",
+        "16 colour pixel game",
+        "game jam pixel"
+      ],
+      "use_cases": [
+        "game jam entries",
+        "small indie game prototypes",
+        "retro-styled social cards",
+        "teaching pixel art"
+      ],
+      "emotion": [
+        "nostalgic",
+        "playful",
+        "compact",
+        "handmade",
+        "limited"
+      ],
+      "archetypes": [
+        "creator",
+        "jester",
+        "everyman"
+      ],
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 1,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 2
+      },
+      "techniques": [
+        "pixel-grid"
+      ],
+      "orgs": [
+        "lexaloffle-games"
+      ],
+      "permutations": {
+        "render_resolution": {
+          "default": 144,
+          "min": 144,
+          "max": 144,
+          "note": "The console screen is 128 px; the 144 px floor of the domain range is used for the framed display."
+        },
+        "colour_depth": {
+          "default": 4,
+          "min": 4,
+          "max": 5,
+          "note": "16 fixed colours; 5 bits only with the 16 extra palette colours."
+        },
+        "camera_projection": {
+          "default": "side-view",
+          "options": [
+            "side-view",
+            "top-down"
+          ]
+        },
+        "shading_steps": {
+          "default": 2,
+          "min": 1,
+          "max": 3
+        },
+        "texel_density": {
+          "default": 8,
+          "min": 8,
+          "max": 8
+        }
+      }
+    },
+    {
       "id": "pre-rendered-backgrounds",
       "name": "Pre-rendered backgrounds",
       "domain": "game",
@@ -27975,7 +28059,8 @@
         "itch-io",
         "microsoft",
         "mojang-studios",
-        "tigsource"
+        "tigsource",
+        "zachtronics"
       ],
       "permutations": {
         "render_resolution": {
@@ -34561,6 +34646,7 @@
         "exposed-joinery"
       ],
       "orgs": [
+        "cranbrook-academy-of-art",
         "morris-and-co"
       ],
       "permutations": {
@@ -34857,7 +34943,8 @@
         "electroplating"
       ],
       "orgs": [
-        "bauhaus-school"
+        "bauhaus-school",
+        "deutscher-werkbund"
       ],
       "permutations": {
         "ornament_level": {
@@ -35594,6 +35681,101 @@
             "white",
             "black",
             "none"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pop-foam-furniture",
+      "name": "Pop foam furniture",
+      "domain": "industrial",
+      "era": "post-war-modern",
+      "period": "1968–present",
+      "thesis": "A soft foam can take any shape, so a piece of furniture can be a picture of an everyday thing at full size, and the joke is part of its use.",
+      "summary": "Seats, sofas and stands cast in soft polyurethane foam as one big object: lips, grass blades, a cactus. They are Pop art jokes that a person can sit on or hang a coat on.",
+      "path": "skills/pop-foam-furniture/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "foam furniture",
+        "lips sofa",
+        "pop sculpture seat",
+        "radical design furniture",
+        "1970s italian pop furniture",
+        "giant grass seat",
+        "cactus coat stand",
+        "polyurethane multiple"
+      ],
+      "use_cases": [
+        "a Pop art gallery or showroom moodboard",
+        "a limited edition furniture brief",
+        "a still life for a design museum shop",
+        "a set for a 1970s Italian film"
+      ],
+      "emotion": [
+        "witty",
+        "soft",
+        "pop",
+        "sculptural",
+        "provocative"
+      ],
+      "archetypes": [
+        "jester",
+        "outlaw"
+      ],
+      "vectors": {
+        "ornamentation": 2,
+        "hand_finish": 2,
+        "material_warmth": 2,
+        "visual_mass": 4,
+        "chromatic_intensity": 4
+      },
+      "techniques": [
+        "polyurethane-foam-moulding"
+      ],
+      "orgs": [
+        "gufram",
+        "studio-65"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2
+        },
+        "material_warmth": {
+          "default": 0.4,
+          "min": 0.2,
+          "max": 0.6
+        },
+        "finish_gloss": {
+          "default": 20,
+          "min": 5,
+          "max": 45
+        },
+        "era_blend": {
+          "default": 0.3,
+          "min": 0,
+          "max": 1,
+          "note": "A reissue keeps the subject and the foam; a new piece keeps only the one-colour soft body."
+        },
+        "hardware_weight": {
+          "default": 10,
+          "min": 4,
+          "max": 20
+        },
+        "edge_radius": {
+          "default": 35,
+          "min": 30,
+          "max": 40
+        },
+        "metal_tone": {
+          "default": "none",
+          "options": [
+            "none",
+            "chrome",
+            "black"
           ]
         }
       }
@@ -41366,6 +41548,9 @@
         "screen-printing"
       ],
       "orgs": [
+        "blitz-kids",
+        "fruits-magazine",
+        "i-d-magazine",
         "kings-road-shop-430"
       ],
       "permutations": {
@@ -41627,7 +41812,9 @@
         "screen-printing"
       ],
       "orgs": [
-        "stussy-brand"
+        "a-bathing-ape",
+        "stussy-brand",
+        "undercover"
       ],
       "permutations": {
         "ornament_level": {
@@ -42341,6 +42528,92 @@
           "default": 8,
           "min": 2,
           "max": 40
+        },
+        "era_blend": {
+          "default": 0.2,
+          "min": 0,
+          "max": 1
+        },
+        "metal_tone": {
+          "default": "none",
+          "options": [
+            "none",
+            "silver",
+            "steel",
+            "black"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ura-harajuku-streetwear",
+      "name": "Ura-Harajuku streetwear",
+      "domain": "fashion",
+      "branch": "costume",
+      "era": "power-and-subculture",
+      "period": "1993–present",
+      "thesis": "A small shop on a backstreet is the centre of the style: a few friends make graphic clothes for their own scene, and the mark on the chest says who belongs.",
+      "summary": "Streetwear from the small shops on the backstreets of Harajuku in Tokyo, from 1993. It has the camouflage-print hoodie, the printed T-shirt and the branded sneaker, sold in small stores and tied to friends in music and design.",
+      "path": "skills/ura-harajuku-streetwear/SKILL.md",
+      "tokens": null,
+      "pack": null,
+      "visual": null,
+      "triggers": [
+        "Ura-Harajuku",
+        "Harajuku backstreet streetwear",
+        "camouflage hoodie",
+        "Tokyo streetwear",
+        "Japanese street label",
+        "Cat Street Tokyo",
+        "collectable sneaker and tee"
+      ],
+      "use_cases": [
+        "a Tokyo streetwear line or shop brief",
+        "a street fashion image prompt set in Harajuku",
+        "a costume brief for a youth film in Japan",
+        "a study note on the Japanese streetwear scene"
+      ],
+      "emotion": [
+        "playful",
+        "graphic",
+        "insider",
+        "urban",
+        "youthful",
+        "collectable"
+      ],
+      "archetypes": [
+        "jester",
+        "explorer"
+      ],
+      "vectors": {
+        "ornamentation": 4,
+        "structure": 2,
+        "luxury": 2,
+        "technicality": 2,
+        "chromatic_intensity": 4
+      },
+      "techniques": [
+        "camouflage-print"
+      ],
+      "orgs": [
+        "a-bathing-ape",
+        "nowhere"
+      ],
+      "permutations": {
+        "ornament_level": {
+          "default": 0.5,
+          "min": 0.2,
+          "max": 0.9
+        },
+        "proportion_scale": {
+          "default": 0.6,
+          "min": 0.4,
+          "max": 0.85
+        },
+        "surface_gloss": {
+          "default": 10,
+          "min": 2,
+          "max": 50
         },
         "era_blend": {
           "default": 0.2,
@@ -52827,6 +53100,32 @@
       ]
     },
     {
+      "id": "camouflage-print",
+      "name": "Camouflage print",
+      "kind": "motif",
+      "origin": {
+        "domain": "fashion",
+        "year": 1919,
+        "where": "London, United Kingdom",
+        "note": "At a ball of the Chelsea Arts Club, the guests wore dazzle-patterned black and white clothing, and the ball influenced fashion."
+      },
+      "adoptions": [
+        {
+          "domain": "fashion",
+          "year": 1993,
+          "circa": true,
+          "via": "Nigo sells camouflage-print hoodies in a small store in Ura-Harajuku. The year dates the store.",
+          "styles": [
+            "ura-harajuku-streetwear"
+          ],
+          "lag_years": 74
+        }
+      ],
+      "styles": [
+        "ura-harajuku-streetwear"
+      ]
+    },
+    {
       "id": "cantilever",
       "name": "Cantilever",
       "kind": "process",
@@ -59417,6 +59716,15 @@
             "unicode-emoji"
           ],
           "lag_years": 36
+        },
+        {
+          "domain": "game",
+          "year": 2015,
+          "via": "PICO-8 fixes a 128 by 128 cell screen with 16 colours, so each game shares one pixel grid and one palette.",
+          "styles": [
+            "fantasy-console-pixel"
+          ],
+          "lag_years": 52
         }
       ],
       "styles": [
@@ -59427,7 +59735,8 @@
         "four-shade-handheld",
         "sixteen-bit-sprite",
         "isometric-pixel-world",
-        "unicode-emoji"
+        "unicode-emoji",
+        "fantasy-console-pixel"
       ]
     },
     {
@@ -59683,6 +59992,32 @@
       "styles": [
         "technical-shell-alpinism",
         "gorpcore"
+      ]
+    },
+    {
+      "id": "polyurethane-foam-moulding",
+      "name": "Polyurethane foam moulding",
+      "kind": "process",
+      "origin": {
+        "domain": "industrial",
+        "year": 1937,
+        "circa": false,
+        "where": "Leverkusen, Germany",
+        "note": "Otto Bayer and his coworkers at IG Farben first make polyurethanes. Production of flexible polyurethane foam begins in 1954."
+      },
+      "adoptions": [
+        {
+          "domain": "industrial",
+          "year": 1968,
+          "via": "Gufram shows its foam furniture, sold as Multipli, at the Milan Triennale.",
+          "styles": [
+            "pop-foam-furniture"
+          ],
+          "lag_years": 31
+        }
+      ],
+      "styles": [
+        "pop-foam-furniture"
       ]
     },
     {

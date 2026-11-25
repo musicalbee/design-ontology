@@ -200,7 +200,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Led to (go here for a newer version):** [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`voxel-block-world`](../voxel-block-world/SKILL.md)
 - **Kin in another domain:** [`pixel-art-web`](../pixel-art-web/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md)
-- **Nearest by vector profile:** [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md)
+- **Nearest by vector profile:** [`fantasy-console-pixel`](../fantasy-console-pixel/SKILL.md), [`four-shade-handheld`](../four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md)
 
 ## Emotional target
 

@@ -167,6 +167,9 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Blitz Kids** (collective, London, 1979–1980), opposed the style. The people who went to the Tuesday club night at the Blitz in Covent Garden in 1979 and 1980. Steve Strange and Rusty Egan ran the night. A source credits the group with the start of the New Romantic movement.
+- **FRUiTS** (magazine, Tokyo, 1997–2017), published the style. A monthly magazine of street fashion that Shoichi Aoki founded in 1997. Each page held one photograph of a young person in Tokyo, most of them in Harajuku. It stopped in 2017.
+- **i-D** (magazine, United Kingdom, 1980–now), published the style. A British magazine that Terry Jones launched in 1980 as a hand-stapled fanzine. Its head-to-toe street portraits grew from photographs of London punks that Jones ordered in 1977.
 - **430 King's Road shop** (company, London, 1971–now), launched the style. The London shop of Vivienne Westwood and Malcolm McLaren. It sold under the names Let It Rock, SEX and Seditionaries, and it dressed the first punk scene.
 
 ## Permutations

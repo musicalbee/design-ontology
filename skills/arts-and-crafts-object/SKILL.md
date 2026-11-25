@@ -171,6 +171,7 @@ A joint that stays in view, so that the way of making is part of the look. Origi
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **Cranbrook Academy of Art** (school, Bloomfield Hills, Michigan, 1932–now), taught the style. A graduate school of art, architecture and design in Michigan. Its founders wanted it to teach English Arts and Crafts, and its first head was Eliel Saarinen.
 - **Morris & Co.** (company, London, 1861–1940), made the style. The decorating firm of William Morris. It made and sold wallpaper, textiles, stained glass and furniture for Victorian and Arts and Crafts homes.
 
 ## Permutations

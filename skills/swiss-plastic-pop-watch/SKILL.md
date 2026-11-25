@@ -211,7 +211,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`luxury-steel-sports-watch`](../luxury-steel-sports-watch/SKILL.md)
 - **Mixes well with:** [`streetwear`](../streetwear/SKILL.md)
 - **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`memphis-product`](../memphis-product/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
-- **Nearest by vector profile:** [`costume-jewellery`](../costume-jewellery/SKILL.md), [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md), [`muscle-and-pony-car`](../muscle-and-pony-car/SKILL.md)
+- **Nearest by vector profile:** [`costume-jewellery`](../costume-jewellery/SKILL.md), [`ura-harajuku-streetwear`](../ura-harajuku-streetwear/SKILL.md), [`hippie-bohemian-dress`](../hippie-bohemian-dress/SKILL.md)
 
 ## Emotional target
 

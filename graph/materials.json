@@ -13273,6 +13273,27 @@
    "class": "polymer"
   },
   {
+   "id": "polyurethane-foam",
+   "name": "Polyurethane foam",
+   "family": "plastic",
+   "form": "block",
+   "senses": [
+    "industrial.materials"
+   ],
+   "summary": "A cellular plastic made from polyurethane; production of the flexible kind began in 1954.",
+   "photo": null,
+   "identity": {
+    "wikidata": "Q90733311"
+   },
+   "sources": [
+    {
+     "title": "Wikipedia: Polyurethane",
+     "url": "https://en.wikipedia.org/wiki/Polyurethane"
+    }
+   ],
+   "class": "polymer"
+  },
+  {
    "id": "hdpe",
    "name": "High-density polyethylene",
    "family": "plastic",
@@ -21820,6 +21841,10 @@
    "name": "Four-shade handheld",
    "domain": "game"
   },
+  "fantasy-console-pixel": {
+   "name": "Fantasy console pixel",
+   "domain": "game"
+  },
   "pre-rendered-backgrounds": {
    "name": "Pre-rendered backgrounds",
    "domain": "game"
@@ -22164,6 +22189,10 @@
    "name": "Space Age pop product",
    "domain": "industrial"
   },
+  "pop-foam-furniture": {
+   "name": "Pop foam furniture",
+   "domain": "industrial"
+  },
   "memphis-product": {
    "name": "Memphis product",
    "domain": "industrial"
@@ -22474,6 +22503,10 @@
   },
   "minimalist-fashion": {
    "name": "Minimalist fashion",
+   "domain": "fashion"
+  },
+  "ura-harajuku-streetwear": {
+   "name": "Ura-Harajuku streetwear",
    "domain": "fashion"
   },
   "it-bag": {
@@ -27954,6 +27987,104 @@
    "style": "mid-century-modern-product",
    "domain": "industrial",
    "material": "concrete",
+   "use": "avoid",
+   "via": "materials.avoid"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "polyurethane-foam",
+   "use": "primary",
+   "via": "materials.primary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "wool",
+   "use": "primary",
+   "via": "materials.primary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "cotton",
+   "use": "primary",
+   "via": "materials.primary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "abs-plastic",
+   "use": "secondary",
+   "via": "materials.secondary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "acrylic",
+   "use": "secondary",
+   "via": "materials.secondary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "fibreglass",
+   "use": "secondary",
+   "via": "materials.secondary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "plastic-laminate",
+   "use": "secondary",
+   "via": "materials.secondary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "leather",
+   "use": "secondary",
+   "via": "materials.secondary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "chrome-plated-steel",
+   "use": "secondary",
+   "via": "materials.secondary"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "mahogany",
+   "use": "avoid",
+   "via": "materials.avoid"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "wrought-iron",
+   "use": "avoid",
+   "via": "materials.avoid"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "terracotta",
+   "use": "avoid",
+   "via": "materials.avoid"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "washi-paper",
+   "use": "avoid",
+   "via": "materials.avoid"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "material": "marble",
    "use": "avoid",
    "via": "materials.avoid"
   },
@@ -36914,6 +37045,97 @@
    "style": "underwear-as-outerwear",
    "domain": "fashion",
    "material": "flannel",
+   "use": "avoid",
+   "via": "fabrics.avoid"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "jersey",
+   "use": "primary",
+   "via": "fabrics.primary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "terry",
+   "use": "primary",
+   "via": "fabrics.primary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "denim",
+   "use": "primary",
+   "via": "fabrics.primary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "chino-twill",
+   "use": "primary",
+   "via": "fabrics.primary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "canvas",
+   "use": "secondary",
+   "via": "fabrics.secondary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "ripstop-nylon",
+   "use": "secondary",
+   "via": "fabrics.secondary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "felt",
+   "use": "secondary",
+   "via": "fabrics.secondary"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "worsted-suiting",
+   "use": "avoid",
+   "via": "fabrics.avoid"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "taffeta",
+   "use": "avoid",
+   "via": "fabrics.avoid"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "satin",
+   "use": "avoid",
+   "via": "fabrics.avoid"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "tulle",
+   "use": "avoid",
+   "via": "fabrics.avoid"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "velvet",
+   "use": "avoid",
+   "via": "fabrics.avoid"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "material": "brocade",
    "use": "avoid",
    "via": "fabrics.avoid"
   },
@@ -46654,6 +46876,26 @@
    "process": "industrial.finishes:piece-dyed"
   },
   {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "process": "industrial.finishes:lacquered"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "process": "industrial.finishes:painted-matte"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "process": "industrial.finishes:piece-dyed"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "industrial",
+   "process": "industrial.finishes:moulded-matte"
+  },
+  {
    "style": "scandinavian-modern-product",
    "domain": "industrial",
    "process": "industrial.finishes:oiled"
@@ -48859,6 +49101,36 @@
    "process": "fashion.finishes:beaded"
   },
   {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "process": "fashion.finishes:screen-printed"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "process": "fashion.finishes:embroidered"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "process": "fashion.finishes:garment-dyed"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "process": "fashion.finishes:stonewashed"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "process": "fashion.finishes:napped"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "fashion",
+   "process": "fashion.finishes:matte"
+  },
+  {
    "style": "victorian-boot",
    "domain": "fashion",
    "process": "fashion.finishes:burnished"
@@ -50802,6 +51074,11 @@
    "style": "ivy-style",
    "domain": "",
    "process": "technique:button-down-collar"
+  },
+  {
+   "style": "ura-harajuku-streetwear",
+   "domain": "",
+   "process": "technique:camouflage-print"
   },
   {
    "style": "prairie-school-architecture",
@@ -52789,6 +53066,11 @@
    "process": "technique:pixel-grid"
   },
   {
+   "style": "fantasy-console-pixel",
+   "domain": "",
+   "process": "technique:pixel-grid"
+  },
+  {
    "style": "glam-platform-shoe",
    "domain": "",
    "process": "technique:platform-sole"
@@ -52857,6 +53139,11 @@
    "style": "gorpcore",
    "domain": "",
    "process": "technique:polar-fleece-knit"
+  },
+  {
+   "style": "pop-foam-furniture",
+   "domain": "",
+   "process": "technique:polyurethane-foam-moulding"
   },
   {
    "style": "reddit-thread",

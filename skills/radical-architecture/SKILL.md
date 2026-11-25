@@ -190,7 +190,9 @@ The groups, studios, companies, schools, channels and backers that carried this 
 - **Archigram** (crew, London, 1960–1974), shaped the style. A group of six young London architects who published a magazine of cities as machines. They drew walking cities, plug-in frames and living pods, but built almost nothing.
 - **Archizoom Associati** (crew, Florence, 1966–1974), launched the style. A Florence group that mixed pop colour with a critique of the market. It drew No-Stop City, a city as one endless room, and made furniture for Poltronova.
 - **Global Tools** (collective, Florence, 1973–1975), gathered the style. A network of Italian radical groups and designers who ran a counter-school of workshops on the body, play and craft. It met for about two years.
+- **Gufram** (company, Piedmont, Italy, 1966–now), shaped the style. An Italian furniture maker. From 1966 it worked with artists and architects of Turin and made furniture in polyurethane foam. Its products helped to shape Radical design.
 - **Soviet paper architects** (collective, Moscow, 1981–now), shaped the style. A scene of young Moscow architects who drew impossible buildings for international competitions and could not build them. Their etchings made the Soviet paper dream known in the West.
+- **Studio 65** (collective, Turin, 1965–now), shaped the style. A group of architects, designers, poets and artists in Turin. It took an essential part in Italian Radical design and drew the Bocca sofa and the Capitello chair for Gufram.
 - **Superstudio** (crew, Florence, 1966–1978), launched the style. A Florence group that drew the endless grid as a critique of consumer society. Its collages show one monument that wraps the whole earth.
 
 ## Permutations
@@ -213,7 +215,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Rejects (the opposite pole; do not blend):** [`international-style-architecture`](../international-style-architecture/SKILL.md)
 - **Mixes well with:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md)
-- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md)
+- **Kin in another domain:** [`memphis-design`](../memphis-design/SKILL.md), [`pop-art-painting`](../pop-art-painting/SKILL.md), [`pop-foam-furniture`](../pop-foam-furniture/SKILL.md)
 - **Nearest by vector profile:** [`high-tech-architecture`](../high-tech-architecture/SKILL.md), [`international-style-architecture`](../international-style-architecture/SKILL.md), [`metabolism-architecture`](../metabolism-architecture/SKILL.md)
 
 ## Emotional target
