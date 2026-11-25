@@ -196,7 +196,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`eight-bit-tile`](../eight-bit-tile/SKILL.md)
 - **Kin in another domain:** [`pixel-icon`](../pixel-icon/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md)
-- **Nearest by vector profile:** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md)
+- **Nearest by vector profile:** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fantasy-console-pixel`](../fantasy-console-pixel/SKILL.md), [`impossible-isometric-mobile`](../impossible-isometric-mobile/SKILL.md)
 
 ## Emotional target
 

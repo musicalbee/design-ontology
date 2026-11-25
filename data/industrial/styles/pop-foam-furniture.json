@@ -1,0 +1,402 @@
+{
+  "$schema": "../../../schema/domains/industrial.schema.json",
+  "id": "pop-foam-furniture",
+  "domain": "industrial",
+  "name": "Pop foam furniture",
+  "aliases": [
+    "Gufram foam multiples",
+    "Polyurethane pop seating",
+    "Radical foam furniture"
+  ],
+  "era_id": "post-war-modern",
+  "time_period": {
+    "start": 1968,
+    "end": null,
+    "label": "1968–present"
+  },
+  "region": "Turin, Italy",
+  "summary": "Seats, sofas and stands cast in soft polyurethane foam as one big object: lips, grass blades, a cactus. They are Pop art jokes that a person can sit on or hang a coat on.",
+  "philosophy": {
+    "core_thesis": "A soft foam can take any shape, so a piece of furniture can be a picture of an everyday thing at full size, and the joke is part of its use.",
+    "design_principles": [
+      "Cast each body as one soft block of foam, so that the object is its own picture.",
+      "Choose one familiar subject for each piece: a mouth, a plant, a stone, a classical capital.",
+      "Draw the subject at a size larger than life, so that the body is also a seat or a stand.",
+      "Give each piece one colour on 90% of its surface, in a flat and strong tone.",
+      "Keep the surface smooth with no joint, no stitch line and no applied trim.",
+      "Make the foam give a little under the hand, so that the piece reads as soft before anyone touches it.",
+      "Show the piece alone on a plain floor, like a sculpture, with a long shadow."
+    ],
+    "anti_patterns": [
+      "Wooden frames and turned legs",
+      "Hard shells with a sharp edge",
+      "Chrome tube bases",
+      "Small repeated pattern on fabric",
+      "Muted natural colours",
+      "Quiet geometric forms without a subject"
+    ]
+  },
+  "vectors": {
+    "ornamentation": 2,
+    "hand_finish": 2,
+    "material_warmth": 2,
+    "visual_mass": 4,
+    "chromatic_intensity": 4
+  },
+  "form": {
+    "geometry": "A large single volume copied from a known thing, such as a pair of lips, a clump of grass or a cactus, with the seat or the arm cut into it.",
+    "silhouette": "The outline of the subject itself, with no frame or leg: it sits on the floor as a mass or on a short stem.",
+    "edges": "All edges are soft with a radius of 30 mm or more; the foam body has no hard corner.",
+    "proportion": "A seat is 70 to 110 cm wide and 60 to 90 cm high; a coat stand is about 170 cm high; a blade of grass is 8 to 12 cm thick.",
+    "ornament": "None applied. The shape of the subject and one flat colour are the whole surface.",
+    "rules": [
+      "Each piece reads as one named subject from 3 m away.",
+      "Each exterior corner has a radius of 30 mm or more.",
+      "One colour covers 90% or more of the surface.",
+      "No visible frame, leg or fixing on the main body.",
+      "The subject is larger than life by a factor of 2 or more."
+    ]
+  },
+  "materials": {
+    "primary": [
+      "polyurethane-foam",
+      "wool",
+      "cotton"
+    ],
+    "secondary": [
+      "abs-plastic",
+      "acrylic",
+      "fibreglass",
+      "plastic-laminate",
+      "leather",
+      "chrome-plated-steel"
+    ],
+    "avoid": [
+      "mahogany",
+      "wrought-iron",
+      "terracotta",
+      "washi-paper",
+      "marble"
+    ],
+    "rule": "Foam makes 85% or more of each piece; a fabric or paint skin covers it, and any metal is a small hidden insert."
+  },
+  "finish": {
+    "finishes": [
+      "lacquered",
+      "painted-matte",
+      "piece-dyed",
+      "moulded-matte"
+    ],
+    "textures": [
+      "satin-smooth",
+      "porous",
+      "plain-weave"
+    ],
+    "gloss": "5–40 GU on the skin; the skin is flat or satin, never mirror-bright",
+    "patina": "The style wants a clean, bright skin; a dent that does not recover, a split or a faded colour is a fault."
+  },
+  "hardware": {
+    "metal_tone": "none",
+    "section": "Hidden inserts of 10–20 mm; no visible rods",
+    "joints": "None visible. The body is one foam moulding; a hidden steel or wood core takes the weight where a stem is needed.",
+    "handles": "None; the shape of the subject gives the grip.",
+    "switches_and_taps": "A round or lip-shaped push plate in soft-touch plastic; no visible lever."
+  },
+  "palette": {
+    "strategy": "One flat, strong colour for each piece, taken from the subject, on a plain pale floor.",
+    "colours": [
+      {
+        "name": "Lip red",
+        "hex": "#C8202B",
+        "role": "mouth sofa, main body"
+      },
+      {
+        "name": "Meadow green",
+        "hex": "#5FA83A",
+        "role": "grass and plant pieces"
+      },
+      {
+        "name": "Cactus green",
+        "hex": "#2E7A4F",
+        "role": "stand and tall pieces"
+      },
+      {
+        "name": "Stone grey",
+        "hex": "#8E8C88",
+        "role": "rock seat"
+      },
+      {
+        "name": "Plain floor",
+        "hex": "#EDEAE4",
+        "role": "ground and wall"
+      }
+    ]
+  },
+  "manufacture": {
+    "processes": [
+      "mixing of polyol and isocyanate",
+      "pouring into a closed mould",
+      "curing and release of the foam body",
+      "trimming of the parting flash",
+      "spraying or covering of the skin"
+    ],
+    "scale": "An art-like multiple made in series by one furniture firm and sold as a limited edition at first, then kept in the catalogue for decades.",
+    "signs": "A faint parting line where the mould halves met, a soft give under pressure and a skin that is flat and even in colour."
+  },
+  "signatures": {
+    "objects": [
+      {
+        "category": "sanitary",
+        "object": "bathtub",
+        "form": "one-piece moulded tub",
+        "material": "acrylic",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "electrics",
+        "object": "light-switch",
+        "form": "push button pair",
+        "material": "abs-plastic",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "lighting",
+        "object": "table-lamp",
+        "form": "moulded bowl lamp on a stem",
+        "material": "acrylic",
+        "finish": "moulded-gloss",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "storage",
+        "object": "coat-hooks",
+        "form": "coat stand",
+        "material": "polyurethane-foam",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "soft-furniture",
+        "object": "sofa",
+        "form": "sofa cast as a pair of lips",
+        "material": "polyurethane-foam",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "tables",
+        "object": "dining-chair",
+        "form": "moulded shell chair",
+        "material": "polyurethane-foam",
+        "finish": "lacquered",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "kitchen",
+        "object": "tableware",
+        "form": "stacking geometric set",
+        "material": "polypropylene",
+        "finish": "moulded-matte",
+        "texture": "satin-smooth"
+      },
+      {
+        "category": "decor",
+        "object": "rug",
+        "form": "moulded nature carpet of grass or stones",
+        "material": "polyurethane-foam",
+        "finish": "painted-matte",
+        "texture": "satin-smooth"
+      }
+    ]
+  },
+  "prompt_primer": {
+    "positive": [
+      "Italian Radical design 1970s",
+      "soft polyurethane foam furniture",
+      "sofa shaped like a pair of lips",
+      "seat made of giant grass blades",
+      "cactus-shaped coat stand",
+      "one flat saturated colour",
+      "smooth skin with no seam",
+      "larger than life everyday object",
+      "Pop art furniture sculpture",
+      "studio product photograph on a plain floor"
+    ],
+    "negative": [
+      "wooden legs",
+      "chrome tube base",
+      "tufted buttons",
+      "floral fabric",
+      "antique brass",
+      "sharp corners"
+    ],
+    "canonical_works": [
+      {
+        "work": "Bocca sofa",
+        "maker": "Studio 65",
+        "year": 1970
+      },
+      {
+        "work": "Capitello chair",
+        "maker": "Studio 65",
+        "year": 1971
+      },
+      {
+        "work": "Pratone seat",
+        "maker": "Giorgio Ceretti, Pietro Derossi and Riccardo Rosso",
+        "year": 1971
+      },
+      {
+        "work": "Cactus coat stand",
+        "maker": "Guido Drocco and Franco Mello",
+        "year": 1972
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Bocca sofa by Studio 65, made by Gufram",
+      "kind": "image",
+      "maker": "Studio 65",
+      "year": 1970,
+      "credit": "Jl FilpoC",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sof%C3%A1_Bocca,_Studio_65.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sof%C3%A1_Bocca%2C_Studio_65.jpg/960px-Sof%C3%A1_Bocca%2C_Studio_65.jpg"
+    },
+    {
+      "title": "Capitello chair by Studio 65, made by Gufram",
+      "kind": "image",
+      "maker": "Studio 65",
+      "year": 1971,
+      "credit": "Jl FilpoC",
+      "licence": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Capitello,_Studio65.jpg",
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Capitello%2C_Studio65.jpg/960px-Capitello%2C_Studio65.jpg"
+    }
+  ],
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "radical-architecture",
+      "pop-art-painting"
+    ],
+    "subgenre_of": "space-age-pop-product"
+  },
+  "emotion": {
+    "target_response": "Amused surprise: the viewer sees a giant everyday thing, laughs, and then wants to sit on it.",
+    "keywords": [
+      "witty",
+      "soft",
+      "pop",
+      "sculptural",
+      "provocative"
+    ],
+    "brand_archetypes": [
+      "jester",
+      "outlaw"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "foam furniture",
+      "lips sofa",
+      "pop sculpture seat",
+      "radical design furniture",
+      "1970s italian pop furniture",
+      "giant grass seat",
+      "cactus coat stand",
+      "polyurethane multiple"
+    ],
+    "use_cases": [
+      "a Pop art gallery or showroom moodboard",
+      "a limited edition furniture brief",
+      "a still life for a design museum shop",
+      "a set for a 1970s Italian film"
+    ],
+    "avoid_when": [
+      "The room needs quiet, handmade and natural objects.",
+      "The brief asks for hard, glossy shells or chrome."
+    ],
+    "modifiers": [
+      {
+        "request": "more futurist and glossy",
+        "toward": "space-age-pop-product",
+        "how": "Swap the foam body for a hard fibreglass shell on a chrome base, and raise the gloss to 90 GU."
+      },
+      {
+        "request": "more pattern and colour",
+        "toward": "memphis-product",
+        "how": "Keep the soft body, but split the surface into laminate planes with loud patterns."
+      },
+      {
+        "request": "warmer and calmer",
+        "toward": "scandinavian-modern-product",
+        "how": "Replace the subject shape with a plain upholstered form on oak legs."
+      }
+    ]
+  },
+  "permutations": {
+    "ornament_level": {
+      "default": 0.05,
+      "min": 0,
+      "max": 0.2
+    },
+    "material_warmth": {
+      "default": 0.4,
+      "min": 0.2,
+      "max": 0.6
+    },
+    "finish_gloss": {
+      "default": 20,
+      "min": 5,
+      "max": 45
+    },
+    "era_blend": {
+      "default": 0.3,
+      "min": 0,
+      "max": 1,
+      "note": "A reissue keeps the subject and the foam; a new piece keeps only the one-colour soft body."
+    },
+    "hardware_weight": {
+      "default": 10,
+      "min": 4,
+      "max": 20
+    },
+    "edge_radius": {
+      "default": 35,
+      "min": 30,
+      "max": 40
+    },
+    "metal_tone": {
+      "default": "none",
+      "options": [
+        "none",
+        "chrome",
+        "black"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Gufram",
+      "url": "https://en.wikipedia.org/wiki/Gufram"
+    },
+    {
+      "title": "Wikipedia: Studio 65",
+      "url": "https://en.wikipedia.org/wiki/Studio_65"
+    },
+    {
+      "title": "Wikipedia: Radical period",
+      "url": "https://en.wikipedia.org/wiki/Radical_period"
+    },
+    {
+      "title": "Wikipedia: Polyurethane",
+      "url": "https://en.wikipedia.org/wiki/Polyurethane"
+    }
+  ]
+}

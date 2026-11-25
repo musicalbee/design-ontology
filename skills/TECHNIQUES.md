@@ -413,6 +413,23 @@ Used by: [`designer-logo-underwear`](./designer-logo-underwear/SKILL.md).
 
 Sources: [Wikipedia: Calvin Klein (fashion house)](https://en.wikipedia.org/wiki/Calvin_Klein_(fashion_house)).
 
+### Camouflage print
+
+A pattern of irregular patches in a few related colours, taken from military camouflage and printed on cloth for its strong design and its symbolism.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Fashion | 1919 | — | London, United Kingdom: At a ball of the Chelsea Arts Club, the guests wore dazzle-patterned black and white clothing, and the ball influenced fashion. | |
+| 1 | Fashion | c. 1993 | +74 years | Nigo sells camouflage-print hoodies in a small store in Ura-Harajuku. The year dates the store. | [`ura-harajuku-streetwear`](./ura-harajuku-streetwear/SKILL.md) |
+
+Used by: [`ura-harajuku-streetwear`](./ura-harajuku-streetwear/SKILL.md).
+
+- Take a pattern of irregular patches from military camouflage, or draw a new one.
+- Give the patches a small set of colours, often olive, tan, brown and black.
+- Print the pattern over the full cloth, and cut the garment from it.
+
+Sources: [Wikipedia: Camouflage (section Fashion, art and society)](https://en.wikipedia.org/wiki/Camouflage); [Wikipedia: Nigo](https://en.wikipedia.org/wiki/Nigo).
+
 ### Checkerboard
 
 A grid of squares in two alternate colours, on a floor, in a picture or on a surface.
@@ -3090,15 +3107,16 @@ A picture or a letter built from square cells that are each on or off, or one fl
 | 8 | Internet | c. 1998 | +35 years | The eBoy group publishes pixel illustrations of cities and objects on the web. | [`pixel-art-web`](./pixel-art-web/SKILL.md) |
 | 9 | Internet | c. 1999 | +36 years | Japanese portal pages set text at 10 to 12 px in bitmap kanji fonts, so each glyph sits on the pixel grid. | [`japanese-dense-web`](./japanese-dense-web/SKILL.md) |
 | 10 | Internet | 1999 | +36 years | Shigetaka Kurita draws the 176 emoji of the i-mode phone on a 12 by 12 pixel grid. | [`unicode-emoji`](./unicode-emoji/SKILL.md) |
+| 11 | Video game | 2015 | +52 years | PICO-8 fixes a 128 by 128 cell screen with 16 colours, so each game shares one pixel grid and one palette. | [`fantasy-console-pixel`](./fantasy-console-pixel/SKILL.md) |
 
-Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md), [`eight-bit-tile`](./eight-bit-tile/SKILL.md), [`four-shade-handheld`](./four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md), [`unicode-emoji`](./unicode-emoji/SKILL.md).
+Used by: [`pixel-icon`](./pixel-icon/SKILL.md), [`pixel-art-web`](./pixel-art-web/SKILL.md), [`japanese-dense-web`](./japanese-dense-web/SKILL.md), [`eight-bit-tile`](./eight-bit-tile/SKILL.md), [`four-shade-handheld`](./four-shade-handheld/SKILL.md), [`sixteen-bit-sprite`](./sixteen-bit-sprite/SKILL.md), [`isometric-pixel-world`](./isometric-pixel-world/SKILL.md), [`unicode-emoji`](./unicode-emoji/SKILL.md), [`fantasy-console-pixel`](./fantasy-console-pixel/SKILL.md).
 
 - Draw an icon on a grid of 16 or 32 cells a side; fill each cell with one colour or leave it empty.
 - Limit the palette to 1 to 16 colours; do not blend two colours inside one cell.
 - Draw a diagonal as a stair of equal steps, for example 2 cells across for each 1 cell up.
 - Show the image at an integer scale (2x, 3x, 4x) so that no cell blurs.
 
-Sources: Susan Kare, Mac icon and font work (Apple Macintosh, 1984); Zuzana Licko, Emigre bitmap typefaces (Emigre, 1985).
+Sources: Susan Kare, Mac icon and font work (Apple Macintosh, 1984); Zuzana Licko, Emigre bitmap typefaces (Emigre, 1985); [Wikipedia: PICO-8](https://en.wikipedia.org/wiki/PICO-8).
 
 ### Platform sole
 
@@ -3172,6 +3190,24 @@ Used by: [`metabolism-architecture`](./metabolism-architecture/SKILL.md).
 - Give each cell one round window and keep the cell skin smooth.
 
 Sources: [Wikipedia: Nakagin Capsule Tower](https://en.wikipedia.org/wiki/Nakagin_Capsule_Tower).
+
+### Polyurethane foam moulding
+
+Two liquids react in a closed mould and swell into a soft foam. The foam takes the shape of the mould and keeps it.
+
+| Step | Domain | Year | Lag | Route | Styles |
+|---|---|---|---|---|---|
+| Origin | Industrial design | 1937 | — | Leverkusen, Germany: Otto Bayer and his coworkers at IG Farben first make polyurethanes. Production of flexible polyurethane foam begins in 1954. | |
+| 1 | Industrial design | 1968 | +31 years | Gufram shows its foam furniture, sold as Multipli, at the Milan Triennale. | [`pop-foam-furniture`](./pop-foam-furniture/SKILL.md) |
+
+Used by: [`pop-foam-furniture`](./pop-foam-furniture/SKILL.md).
+
+- Mix the polyol and the isocyanate with a blowing agent in the ratio of the supplier.
+- Pour the mix into the mould and close it before the foam rises.
+- Open the mould after the cure and pull out the foam body.
+- Trim the flash at the parting line and coat the body with a flexible paint or a fabric cover.
+
+Sources: [Wikipedia: Polyurethane](https://en.wikipedia.org/wiki/Polyurethane); [Wikipedia: Gufram](https://en.wikipedia.org/wiki/Gufram).
 
 ### Pounce transfer
 

@@ -1,0 +1,286 @@
+{
+  "$schema": "../../../schema/domains/game.schema.json",
+  "id": "fantasy-console-pixel",
+  "domain": "game",
+  "name": "Fantasy console pixel",
+  "aliases": [
+    "Fantasy console look",
+    "128×128 pixel art",
+    "Virtual console pixel art"
+  ],
+  "era_id": "tile-and-sprite",
+  "time_period": {
+    "start": 2015,
+    "end": null,
+    "label": "2015–now"
+  },
+  "region": "Online, from a single maker's tool",
+  "hardware": [
+    "pc",
+    "web-browser"
+  ],
+  "summary": "A made-up console sets the limits: a 128×128 pixel screen, a fixed palette of 16 colours and small 8×8 sprites. Makers choose the 8-bit look as a rule of the tool, not as a limit of old hardware.",
+  "philosophy": {
+    "core_thesis": "If a tool fixes the limits of an imagined console, every maker shares one palette and one pixel scale, and the limits become a common style.",
+    "design_principles": [
+      "Draw on a screen of 128×128 pixels and keep every shape on whole pixels.",
+      "Pick colours only from the one shared palette of 16 colours.",
+      "Build sprites and tiles from 8×8 pixel cells.",
+      "Show a whole room or a small level on one screen, or scroll a map in tile steps.",
+      "Keep the user interface in the same pixel font and the same palette as the game."
+    ],
+    "anti_patterns": [
+      "Colours outside the shared palette",
+      "Smooth scaling or filters",
+      "Resolutions above 128 pixels",
+      "Gradients and soft light",
+      "Sprites with sub-pixel motion"
+    ]
+  },
+  "vectors": {
+    "render_fidelity": 1,
+    "spatial_depth": 1,
+    "stylisation": 5,
+    "lighting_drama": 1,
+    "surface_density": 2
+  },
+  "projection_and_camera": {
+    "projection": "side-view",
+    "camera": "Locked on one screen, or scrolls in whole tiles; top-down views are also common.",
+    "field_of_view": "orthographic",
+    "framing": "A square of 16×16 tiles of 8 px; the whole play area is visible at once."
+  },
+  "geometry": {
+    "primitive": "An 8×8 pixel cell; sprites of 8×8 or a multiple of it.",
+    "budget": "One shared sprite sheet and one tile map; a small game holds a few hundred sprites.",
+    "edge_rule": "Hard pixel steps; diagonals in clean 1:1 or 2:1 runs.",
+    "proportion": "A character is 1 tile high; a door is 1 to 2 tiles; a room fills one screen."
+  },
+  "surface": {
+    "texture_rule": "A material is a 2- or 3-colour pattern inside one 8×8 tile, repeated.",
+    "texel_density": "1 tile of 8 px for each metre at the scale of the character",
+    "filtering": "Nearest neighbour; the 128 px screen is scaled by whole numbers.",
+    "material_model": "Painted: each material is a fixed tile with its colours in it."
+  },
+  "palette": {
+    "strategy": "One shared palette of 16 colours for every game; shade by moving to the next colour of the same hue family.",
+    "colour_depth": "4 bits for each pixel, from a fixed palette of 16",
+    "on_screen_colours": "16",
+    "colours": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "outline and night"
+      },
+      {
+        "name": "Dark blue",
+        "hex": "#1D2B53",
+        "role": "shadow"
+      },
+      {
+        "name": "Dark purple",
+        "hex": "#7E2553",
+        "role": "shade"
+      },
+      {
+        "name": "Dark green",
+        "hex": "#008751",
+        "role": "leaves"
+      },
+      {
+        "name": "Brown",
+        "hex": "#AB5236",
+        "role": "wood and ground"
+      },
+      {
+        "name": "Dark grey",
+        "hex": "#5F574F",
+        "role": "stone"
+      },
+      {
+        "name": "Light grey",
+        "hex": "#C2C3C7",
+        "role": "metal"
+      },
+      {
+        "name": "White",
+        "hex": "#FFF1E8",
+        "role": "highlight"
+      }
+    ]
+  },
+  "lighting": {
+    "model": "Painted into the tiles; no light engine.",
+    "shadows": "A dark blue or dark purple tile under an object.",
+    "atmosphere": "None, or a palette swap for fog and night.",
+    "time_of_day": "A swap of the sky colour; night uses black and dark blue."
+  },
+  "world_and_space": {
+    "scale": "A door is 1 to 2 tiles high for a character of 1 tile.",
+    "interiors": "A room is one 16×16 tile screen with furniture as single sprites.",
+    "exteriors": "A level is a row of screens or a scrolled tile map under a flat sky colour.",
+    "threshold": "Walk off the screen edge or into a door and cut to the next screen.",
+    "principles": [
+      {
+        "principle": "scale",
+        "rule": "Draw a door 2 tiles high for a character of 1 tile.",
+        "value": "door = 2× character"
+      },
+      {
+        "principle": "layering-depth",
+        "rule": "Use 2 planes: a tile map and sprites in front.",
+        "value": "2 planes"
+      },
+      {
+        "principle": "focal-point",
+        "rule": "Keep the player in the middle third of the 128 px screen.",
+        "value": "centre third"
+      }
+    ]
+  },
+  "interface": {
+    "placement": "Text and counters in the corners of the 128×128 screen, about 8% of the height.",
+    "type_and_icons": "A small built-in pixel font; icons are single 8×8 sprites in the shared palette.",
+    "diegesis": "Mostly on top; the user interface of the tool uses the same palette."
+  },
+  "prompt_primer": {
+    "positive": [
+      "128x128 pixel screen",
+      "16 colour fixed palette",
+      "8x8 pixel sprites",
+      "fantasy console pixel art",
+      "hard pixel edges",
+      "tile map one screen",
+      "small pixel font",
+      "nearest-neighbour scale"
+    ],
+    "negative": [
+      "smooth gradients",
+      "high resolution",
+      "anti-aliasing",
+      "photoreal",
+      "more than 16 colours",
+      "soft shadows"
+    ],
+    "canonical_works": [
+      {
+        "work": "PICO-8",
+        "maker": "Lexaloffle Games",
+        "year": 2015
+      },
+      {
+        "work": "Celeste Classic",
+        "maker": "Maddy Thorson and Noel Berry",
+        "year": 2015
+      }
+    ]
+  },
+  "lineage": {
+    "evolved_from": [],
+    "rebelled_against": [],
+    "hybridized_with": [],
+    "echoes": [
+      "pixel-art-web"
+    ],
+    "subgenre_of": "eight-bit-tile"
+  },
+  "emotion": {
+    "target_response": "Warm nostalgia with a maker's pride: the viewer sees a small, complete world made within strict limits.",
+    "keywords": [
+      "nostalgic",
+      "playful",
+      "compact",
+      "handmade",
+      "limited"
+    ],
+    "brand_archetypes": [
+      "creator",
+      "jester",
+      "everyman"
+    ]
+  },
+  "agent": {
+    "triggers": [
+      "pico-8",
+      "fantasy console",
+      "128x128 pixel art",
+      "16 colour pixel game",
+      "game jam pixel"
+    ],
+    "use_cases": [
+      "game jam entries",
+      "small indie game prototypes",
+      "retro-styled social cards",
+      "teaching pixel art"
+    ],
+    "avoid_when": [
+      "The brief needs more than 16 colours or a high-resolution screen.",
+      "The audience expects realistic art."
+    ],
+    "modifiers": [
+      {
+        "request": "more colour",
+        "toward": "sixteen-bit-sprite",
+        "how": "Widen the palette to 256 colours on a 256×224 screen with parallax layers."
+      },
+      {
+        "request": "cleaner",
+        "toward": "impossible-isometric-mobile",
+        "how": "Drop the pixel grid; use flat pastel faces in an isometric view."
+      }
+    ]
+  },
+  "permutations": {
+    "render_resolution": {
+      "default": 144,
+      "min": 144,
+      "max": 144,
+      "note": "The console screen is 128 px; the 144 px floor of the domain range is used for the framed display."
+    },
+    "colour_depth": {
+      "default": 4,
+      "min": 4,
+      "max": 5,
+      "note": "16 fixed colours; 5 bits only with the 16 extra palette colours."
+    },
+    "camera_projection": {
+      "default": "side-view",
+      "options": [
+        "side-view",
+        "top-down"
+      ]
+    },
+    "shading_steps": {
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "texel_density": {
+      "default": 8,
+      "min": 8,
+      "max": 8
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: PICO-8",
+      "url": "https://en.wikipedia.org/wiki/PICO-8"
+    },
+    {
+      "title": "Wikidata Q28456260: PICO-8",
+      "url": "https://www.wikidata.org/wiki/Q28456260"
+    },
+    {
+      "title": "Wikipedia: Celeste (video game)",
+      "url": "https://en.wikipedia.org/wiki/Celeste_(video_game)"
+    },
+    {
+      "title": "PICO-8 manual (Lexaloffle): Specifications",
+      "url": "https://www.lexaloffle.com/dl/docs/pico-8_manual.html"
+    },
+    {
+      "title": "PICO-8 wiki: Palette",
+      "url": "https://pico-8.fandom.com/wiki/Palette"
+    }
+  ]
+}

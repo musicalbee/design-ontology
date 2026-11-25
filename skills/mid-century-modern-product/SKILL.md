@@ -220,7 +220,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`art-deco-product`](../art-deco-product/SKILL.md)
 - **Mixes well with:** [`scandinavian-modern-product`](../scandinavian-modern-product/SKILL.md)
 - **Kin in another domain:** [`dive-watch`](../dive-watch/SKILL.md), [`mid-century-eyewear`](../mid-century-eyewear/SKILL.md), [`mid-century-modern`](../mid-century-modern/SKILL.md), [`mid-century-modern-architecture`](../mid-century-modern-architecture/SKILL.md), [`mid-century-modern-interior`](../mid-century-modern-interior/SKILL.md), [`modernist-studio-jewellery`](../modernist-studio-jewellery/SKILL.md), [`organic-modern-tableware`](../organic-modern-tableware/SKILL.md), [`racing-chronograph`](../racing-chronograph/SKILL.md), [`scandinavian-modern-tableware`](../scandinavian-modern-tableware/SKILL.md)
-- **Nearest by vector profile:** [`bauhaus-product`](../bauhaus-product/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md), [`shaker-object`](../shaker-object/SKILL.md)
+- **Nearest by vector profile:** [`pop-foam-furniture`](../pop-foam-furniture/SKILL.md), [`bauhaus-product`](../bauhaus-product/SKILL.md), [`georgian-neoclassical-manufacture`](../georgian-neoclassical-manufacture/SKILL.md)
 
 ## Emotional target
 

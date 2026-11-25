@@ -4222,6 +4222,21 @@
       }
     },
     {
+      "id": "fantasy-console-pixel",
+      "domain": "game",
+      "name": "Fantasy console pixel",
+      "era": "tile-and-sprite",
+      "start": 2015,
+      "end": null,
+      "vectors": {
+        "render_fidelity": 1,
+        "spatial_depth": 1,
+        "stylisation": 5,
+        "lighting_drama": 1,
+        "surface_density": 2
+      }
+    },
+    {
       "id": "pre-rendered-backgrounds",
       "domain": "game",
       "name": "Pre-rendered backgrounds",
@@ -5512,6 +5527,21 @@
       }
     },
     {
+      "id": "pop-foam-furniture",
+      "domain": "industrial",
+      "name": "Pop foam furniture",
+      "era": "post-war-modern",
+      "start": 1968,
+      "end": null,
+      "vectors": {
+        "ornamentation": 2,
+        "hand_finish": 2,
+        "material_warmth": 2,
+        "visual_mass": 4,
+        "chromatic_intensity": 4
+      }
+    },
+    {
       "id": "memphis-product",
       "domain": "industrial",
       "name": "Memphis product",
@@ -6679,6 +6709,21 @@
         "luxury": 4,
         "technicality": 3,
         "chromatic_intensity": 1
+      }
+    },
+    {
+      "id": "ura-harajuku-streetwear",
+      "domain": "fashion",
+      "name": "Ura-Harajuku streetwear",
+      "era": "power-and-subculture",
+      "start": 1993,
+      "end": null,
+      "vectors": {
+        "ornamentation": 4,
+        "structure": 2,
+        "luxury": 2,
+        "technicality": 2,
+        "chromatic_intensity": 4
       }
     },
     {
@@ -9979,6 +10024,11 @@
       "type": "ECHOES"
     },
     {
+      "from": "fantasy-console-pixel",
+      "to": "pixel-art-web",
+      "type": "ECHOES"
+    },
+    {
       "from": "fashion-editorial",
       "to": "grunge-editorial",
       "type": "ECHOES"
@@ -11260,6 +11310,11 @@
     },
     {
       "from": "pop-art-painting",
+      "to": "pop-foam-furniture",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pop-art-painting",
       "to": "pop-screen-print",
       "type": "ECHOES"
     },
@@ -11281,6 +11336,11 @@
     {
       "from": "pop-art-web",
       "to": "pop-screen-print",
+      "type": "ECHOES"
+    },
+    {
+      "from": "pop-foam-furniture",
+      "to": "radical-architecture",
       "type": "ECHOES"
     },
     {
@@ -15314,6 +15374,11 @@
       "type": "HYBRIDIZED_WITH"
     },
     {
+      "from": "sneaker-culture",
+      "to": "ura-harajuku-streetwear",
+      "type": "HYBRIDIZED_WITH"
+    },
+    {
       "from": "starter-pack",
       "to": "tweet-screenshot-meme",
       "type": "HYBRIDIZED_WITH"
@@ -16504,6 +16569,11 @@
       "type": "SUBGENRE_OF"
     },
     {
+      "from": "fantasy-console-pixel",
+      "to": "eight-bit-tile",
+      "type": "SUBGENRE_OF"
+    },
+    {
       "from": "future-funk",
       "to": "vaporwave",
       "type": "SUBGENRE_OF"
@@ -16529,6 +16599,11 @@
       "type": "SUBGENRE_OF"
     },
     {
+      "from": "pop-foam-furniture",
+      "to": "space-age-pop-product",
+      "type": "SUBGENRE_OF"
+    },
+    {
       "from": "rayonism",
       "to": "futurism-painting",
       "type": "SUBGENRE_OF"
@@ -16536,6 +16611,11 @@
     {
       "from": "synthetism",
       "to": "post-impressionism",
+      "type": "SUBGENRE_OF"
+    },
+    {
+      "from": "ura-harajuku-streetwear",
+      "to": "streetwear",
       "type": "SUBGENRE_OF"
     },
     {
@@ -17483,6 +17563,30 @@
       ],
       "styles": [
         "ivy-style"
+      ]
+    },
+    {
+      "id": "camouflage-print",
+      "name": "Camouflage print",
+      "kind": "motif",
+      "origin": {
+        "domain": "fashion",
+        "year": 1919,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "fashion",
+          "year": 1993,
+          "circa": true,
+          "lag_years": 74,
+          "styles": [
+            "ura-harajuku-streetwear"
+          ]
+        }
+      ],
+      "styles": [
+        "ura-harajuku-streetwear"
       ]
     },
     {
@@ -23601,6 +23705,15 @@
           "styles": [
             "unicode-emoji"
           ]
+        },
+        {
+          "domain": "game",
+          "year": 2015,
+          "circa": false,
+          "lag_years": 52,
+          "styles": [
+            "fantasy-console-pixel"
+          ]
         }
       ],
       "styles": [
@@ -23611,7 +23724,8 @@
         "four-shade-handheld",
         "sixteen-bit-sprite",
         "isometric-pixel-world",
-        "unicode-emoji"
+        "unicode-emoji",
+        "fantasy-console-pixel"
       ]
     },
     {
@@ -23841,6 +23955,30 @@
       "styles": [
         "technical-shell-alpinism",
         "gorpcore"
+      ]
+    },
+    {
+      "id": "polyurethane-foam-moulding",
+      "name": "Polyurethane foam moulding",
+      "kind": "process",
+      "origin": {
+        "domain": "industrial",
+        "year": 1937,
+        "circa": false
+      },
+      "adoptions": [
+        {
+          "domain": "industrial",
+          "year": 1968,
+          "circa": false,
+          "lag_years": 31,
+          "styles": [
+            "pop-foam-furniture"
+          ]
+        }
+      ],
+      "styles": [
+        "pop-foam-furniture"
       ]
     },
     {
@@ -28748,6 +28886,7 @@
       ],
       "echoes": [
         "eight-bit-tile",
+        "fantasy-console-pixel",
         "pixel-icon",
         "sixteen-bit-sprite",
         "voxel-block-world"
@@ -32579,7 +32718,8 @@
       ],
       "echoes": [
         "memphis-design",
-        "pop-art-painting"
+        "pop-art-painting",
+        "pop-foam-furniture"
       ],
       "subgenre_of": [],
       "subgenres": [],
@@ -36158,6 +36298,7 @@
         "memphis-design",
         "mod-and-mini",
         "pop-art-web",
+        "pop-foam-furniture",
         "pop-screen-print",
         "radical-architecture",
         "space-age-pop-product",
@@ -37412,8 +37553,14 @@
         "pixel-icon"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "fantasy-console-pixel"
+      ],
       "nearest_by_vector": [
+        {
+          "id": "fantasy-console-pixel",
+          "distance": 0
+        },
         {
           "id": "four-shade-handheld",
           "distance": 1
@@ -37421,10 +37568,6 @@
         {
           "id": "sixteen-bit-sprite",
           "distance": 2.24
-        },
-        {
-          "id": "impossible-isometric-mobile",
-          "distance": 2.45
         }
       ],
       "techniques": [
@@ -37495,8 +37638,8 @@
           "distance": 2.24
         },
         {
-          "id": "fifth-gen-low-poly",
-          "distance": 2.45
+          "id": "fantasy-console-pixel",
+          "distance": 2.24
         }
       ],
       "techniques": [
@@ -37524,12 +37667,43 @@
           "distance": 1
         },
         {
+          "id": "fantasy-console-pixel",
+          "distance": 1
+        },
+        {
           "id": "impossible-isometric-mobile",
           "distance": 2.24
+        }
+      ],
+      "techniques": [
+        "pixel-grid"
+      ]
+    },
+    "fantasy-console-pixel": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "pixel-art-web"
+      ],
+      "subgenre_of": [
+        "eight-bit-tile"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "eight-bit-tile",
+          "distance": 0
+        },
+        {
+          "id": "four-shade-handheld",
+          "distance": 1
         },
         {
           "id": "sixteen-bit-sprite",
-          "distance": 2.83
+          "distance": 2.24
         }
       ],
       "techniques": [
@@ -40540,15 +40714,15 @@
       "subgenres": [],
       "nearest_by_vector": [
         {
+          "id": "pop-foam-furniture",
+          "distance": 2.83
+        },
+        {
           "id": "bauhaus-product",
           "distance": 3
         },
         {
           "id": "georgian-neoclassical-manufacture",
-          "distance": 3.16
-        },
-        {
-          "id": "shaker-object",
           "distance": 3.16
         }
       ],
@@ -40663,8 +40837,14 @@
         "y2k-aesthetic"
       ],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "pop-foam-furniture"
+      ],
       "nearest_by_vector": [
+        {
+          "id": "pop-foam-furniture",
+          "distance": 1.73
+        },
         {
           "id": "streamline-moderne-product",
           "distance": 2.24
@@ -40672,14 +40852,42 @@
         {
           "id": "ulm-braun-functionalism",
           "distance": 2.24
-        },
-        {
-          "id": "bauhaus-product",
-          "distance": 2.83
         }
       ],
       "techniques": [
         "cantilever"
+      ]
+    },
+    "pop-foam-furniture": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [],
+      "echoes": [
+        "pop-art-painting",
+        "radical-architecture"
+      ],
+      "subgenre_of": [
+        "space-age-pop-product"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "space-age-pop-product",
+          "distance": 1.73
+        },
+        {
+          "id": "streamline-moderne-product",
+          "distance": 2.45
+        },
+        {
+          "id": "art-deco-product",
+          "distance": 2.65
+        }
+      ],
+      "techniques": [
+        "polyurethane-foam-moulding"
       ]
     },
     "memphis-product": {
@@ -40714,8 +40922,8 @@
           "distance": 2.65
         },
         {
-          "id": "art-nouveau-object",
-          "distance": 3.61
+          "id": "pop-foam-furniture",
+          "distance": 3.16
         }
       ],
       "techniques": [
@@ -42855,12 +43063,12 @@
           "distance": 1.73
         },
         {
-          "id": "costume-jewellery",
-          "distance": 2
+          "id": "ura-harajuku-streetwear",
+          "distance": 1.73
         },
         {
-          "id": "streetwear",
-          "distance": 2.65
+          "id": "costume-jewellery",
+          "distance": 2
         }
       ],
       "techniques": [
@@ -43176,7 +43384,9 @@
       ],
       "echoes": [],
       "subgenre_of": [],
-      "subgenres": [],
+      "subgenres": [
+        "ura-harajuku-streetwear"
+      ],
       "nearest_by_vector": [
         {
           "id": "mod-and-mini",
@@ -43187,8 +43397,8 @@
           "distance": 1.41
         },
         {
-          "id": "biodesign-car",
-          "distance": 1.73
+          "id": "ura-harajuku-streetwear",
+          "distance": 1.41
         }
       ],
       "techniques": [
@@ -43287,11 +43497,11 @@
           "distance": 1
         },
         {
-          "id": "hippie-bohemian-dress",
-          "distance": 1.73
+          "id": "ura-harajuku-streetwear",
+          "distance": 1.41
         },
         {
-          "id": "muscle-and-pony-car",
+          "id": "hippie-bohemian-dress",
           "distance": 1.73
         }
       ],
@@ -43388,7 +43598,8 @@
       ],
       "provoked": [],
       "hybridized_with": [
-        "streetwear"
+        "streetwear",
+        "ura-harajuku-streetwear"
       ],
       "echoes": [],
       "subgenre_of": [],
@@ -43491,6 +43702,37 @@
       ],
       "techniques": [
         "toile-fitting"
+      ]
+    },
+    "ura-harajuku-streetwear": {
+      "evolved_from": [],
+      "evolved_into": [],
+      "rebelled_against": [],
+      "provoked": [],
+      "hybridized_with": [
+        "sneaker-culture"
+      ],
+      "echoes": [],
+      "subgenre_of": [
+        "streetwear"
+      ],
+      "subgenres": [],
+      "nearest_by_vector": [
+        {
+          "id": "streetwear",
+          "distance": 1.41
+        },
+        {
+          "id": "swiss-plastic-pop-watch",
+          "distance": 1.41
+        },
+        {
+          "id": "costume-jewellery",
+          "distance": 1.73
+        }
+      ],
+      "techniques": [
+        "camouflage-print"
       ]
     },
     "it-bag": {

@@ -203,7 +203,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Rejects (the opposite pole; do not blend):** [`ulm-braun-functionalism`](../ulm-braun-functionalism/SKILL.md)
 - **Was rejected by:** [`super-normal-product`](../super-normal-product/SKILL.md)
 - **Kin in another domain:** [`dopamine-decor`](../dopamine-decor/SKILL.md), [`kidcore`](../kidcore/SKILL.md), [`memphis-design`](../memphis-design/SKILL.md), [`memphis-interior`](../memphis-interior/SKILL.md), [`memphis-postmodern-ceramics`](../memphis-postmodern-ceramics/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md)
-- **Nearest by vector profile:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`art-nouveau-object`](../art-nouveau-object/SKILL.md)
+- **Nearest by vector profile:** [`victorian-manufacture`](../victorian-manufacture/SKILL.md), [`art-deco-product`](../art-deco-product/SKILL.md), [`pop-foam-furniture`](../pop-foam-furniture/SKILL.md)
 
 ## Emotional target
 

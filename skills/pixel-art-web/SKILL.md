@@ -281,7 +281,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`y2k-aesthetic`](../y2k-aesthetic/SKILL.md)
 - **Mixes well with:** [`glitch-gif`](../glitch-gif/SKILL.md), [`glitchcore`](../glitchcore/SKILL.md), [`lets-play-facecam`](../lets-play-facecam/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md), [`seapunk`](../seapunk/SKILL.md), [`terminal-tui-web`](../terminal-tui-web/SKILL.md), [`vaporwave`](../vaporwave/SKILL.md)
-- **Kin in another domain:** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`voxel-block-world`](../voxel-block-world/SKILL.md)
+- **Kin in another domain:** [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fantasy-console-pixel`](../fantasy-console-pixel/SKILL.md), [`pixel-icon`](../pixel-icon/SKILL.md), [`sixteen-bit-sprite`](../sixteen-bit-sprite/SKILL.md), [`voxel-block-world`](../voxel-block-world/SKILL.md)
 - **Nearest by vector profile:** [`japanese-dense-web`](../japanese-dense-web/SKILL.md), [`cybercore-web`](../cybercore-web/SKILL.md), [`livestream-overlay`](../livestream-overlay/SKILL.md)
 
 ## Emotional target

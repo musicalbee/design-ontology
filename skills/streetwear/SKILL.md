@@ -170,7 +170,9 @@ Ink pushed through a fine mesh with a squeegee; a stencil on the mesh blocks the
 
 The groups, studios, companies, schools, channels and backers that carried this style.
 
+- **A Bathing Ape** (company, Ura-Harajuku, Tokyo, 1993–now), made the style. A Japanese fashion brand that Nigo founded in Ura-Harajuku in 1993. It first sold hoodies, T-shirts and camouflage-print hoodies in a small store. Nigo left the brand in 2013.
 - **Stüssy** (company, Laguna Beach, 1980–now), launched the style. The label that Shawn Stussy began in 1980 with printed T-shirts and shorts. It was one of the first labels of streetwear.
+- **UnderCover** (company, Japan, 1993–now), made the style. The label that Jun Takahashi launched in 1993. A source calls it a high-end streetwear label. It showed at Paris Fashion Week from October 2002.
 
 ## Permutations
 
@@ -193,7 +195,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 
 - **Came from (go here for a more orthodox version):** [`ivy-style`](../ivy-style/SKILL.md)
 - **Mixes well with:** [`designer-logo-underwear`](../designer-logo-underwear/SKILL.md), [`gorpcore`](../gorpcore/SKILL.md), [`logomania`](../logomania/SKILL.md), [`punk-fashion`](../punk-fashion/SKILL.md), [`sneaker-culture`](../sneaker-culture/SKILL.md), [`swiss-plastic-pop-watch`](../swiss-plastic-pop-watch/SKILL.md), [`techwear`](../techwear/SKILL.md)
-- **Nearest by vector profile:** [`mod-and-mini`](../mod-and-mini/SKILL.md), [`retro-revival-car`](../retro-revival-car/SKILL.md), [`biodesign-car`](../biodesign-car/SKILL.md)
+- **Nearest by vector profile:** [`mod-and-mini`](../mod-and-mini/SKILL.md), [`retro-revival-car`](../retro-revival-car/SKILL.md), [`ura-harajuku-streetwear`](../ura-harajuku-streetwear/SKILL.md)
 
 ## Emotional target
 

@@ -214,7 +214,7 @@ When the user asks for a variation, do not improvise. Blend toward the neighbour
 - **Led to (go here for a newer version):** [`hd-2d-diorama`](../hd-2d-diorama/SKILL.md), [`pre-rendered-backgrounds`](../pre-rendered-backgrounds/SKILL.md)
 - **Was rejected by:** [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
 - **Kin in another domain:** [`pixel-art-web`](../pixel-art-web/SKILL.md), [`ukiyo-e`](../ukiyo-e/SKILL.md)
-- **Nearest by vector profile:** [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md), [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fifth-gen-low-poly`](../fifth-gen-low-poly/SKILL.md)
+- **Nearest by vector profile:** [`isometric-pixel-world`](../isometric-pixel-world/SKILL.md), [`eight-bit-tile`](../eight-bit-tile/SKILL.md), [`fantasy-console-pixel`](../fantasy-console-pixel/SKILL.md)
 
 ## Emotional target
 

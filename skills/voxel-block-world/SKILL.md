@@ -179,6 +179,7 @@ The groups, studios, companies, schools, channels and backers that carried this 
 - **Microsoft** (company, Redmond, 1975–now), funded the style. US software company. It bought Mojang in 2014 for 2.5 billion dollars and put billions of dollars into OpenAI from 2019. Its design teams made the Metro and Fluent design systems.
 - **Mojang Studios** (studio, Stockholm, 2009–now), made the style. A Swedish studio that makes Minecraft.
 - **TIGSource** (platform, online, ?–now), gathered the style. An online forum for independent game makers where many early block and pixel games were shown.
+- **Zachtronics** (studio, Redmond, Washington, 2011–2022), shaped the style. An American game studio founded by Zach Barth. Barth had made Infiniminer, the block-building game that inspired Minecraft, under the name Zachtronics Industries. Wikipedia dates the studio itself to 2011 and Infiniminer to 2009.
 
 ## Permutations
 
